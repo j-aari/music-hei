@@ -27,10 +27,15 @@ OUT = ROOT / "data" / "candidates_name.json"
 EXCLUDED = ROOT / "data" / "excluded.json"
 
 
+FOLD_EXTRA = str.maketrans({"ø": "o", "æ": "ae", "ł": "l", "đ": "d", "ð": "d", "þ": "th", "ß": "ss", "ı": "i"})
+
+
 def fold(s):
     """Pienet kirjaimet, ilman diakriitteja: 'Zeneakadémia' -> 'zeneakademia'."""
     s = unicodedata.normalize("NFKD", s.casefold())
-    return "".join(c for c in s if not unicodedata.combining(c))
+    s = "".join(c for c in s if not unicodedata.combining(c))
+    # NFKD ei pura näitä diakriitteja; muunnetaan käsin (ø, æ, ł, đ, ð, þ, ß)
+    return s.translate(FOLD_EXTRA)
 
 
 # Briefin lista. Etuliitehaut (ei loppurajaa), jotta taivutetut muodot osuvat
@@ -71,6 +76,14 @@ WEAK = {
     "hudb-": r"\bhudb|\bhudeb",
     "glasb/glazb": r"\bgla[sz]b",
     "muusika/muzika": r"muusika|muzika|muzik",
+    # Kielimuodot erikseen listattuna (osa osuu jo yllä): viro muusika, suomi musiikki,
+    # islanti tónlist / Listaháskóli, turkki müzik, kreikka mousik-, tanska/norja musikhøjskole/-hogskole
+    "musiikki (fi)": r"musiikki",
+    "tonlist (is)": r"tonlist",
+    "listahaskoli (is)": r"listahaskol",
+    "muzik (tr)": r"muzik",
+    "mousik- (el)": r"mousik",
+    "musikhojskole/-hogskole (dk/no/se)": r"musik(hojskol|hogskol|hoegskol)",
 }
 
 

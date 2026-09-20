@@ -177,7 +177,8 @@
   "tier": "weak",
   "matched": [
    "muzi-/muzy-",
-   "muusika/muzika"
+   "muusika/muzika",
+   "muzik (tr)"
   ]
  },
  {
@@ -794,6 +795,21 @@
   "tier": "weak",
   "matched": [
    "zene"
+  ]
+ },
+ {
+  "key": "IS REYKJAV06",
+  "key_source": "normalized",
+  "erasmus_code_raw": "IS REYKJAV06",
+  "name": "LISTAHASKOLI ISLANDS",
+  "name_verified": null,
+  "city": "REYKJAVIK",
+  "country_code": "IS",
+  "country": "Iceland",
+  "webpage": "www.lhi.is",
+  "tier": "weak",
+  "matched": [
+   "listahaskoli (is)"
   ]
  },
  {
@@ -1934,7 +1950,8 @@
   "tier": "weak",
   "matched": [
    "muzi-/muzy-",
-   "muusika/muzika"
+   "muusika/muzika",
+   "muzik (tr)"
   ]
  },
  {
@@ -1950,7 +1967,8 @@
   "tier": "weak",
   "matched": [
    "muzi-/muzy-",
-   "muusika/muzika"
+   "muusika/muzika",
+   "muzik (tr)"
   ]
  },
  {
@@ -2610,7 +2628,8 @@
   "webpage": "www.kmh.se",
   "tier": "weak",
   "matched": [
-   "music/musik/musiq/musi-"
+   "music/musik/musiq/musi-",
+   "musikhojskole/-hogskole (dk/no/se)"
   ]
  },
  {
