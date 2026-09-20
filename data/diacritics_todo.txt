@@ -1,4 +1,4 @@
-display_name asetettu: 0 laitokselle
+display_name asetettu: 5 laitokselle
 
 == A - versaalilähde, pelkkää ASCIIta (diakriitit todennäköisesti puuttuvat): 61
   Austria
@@ -11,15 +11,15 @@ display_name asetettu: 0 laitokselle
     [B  BRUSSEL43] LUCA School of Arts  (BRUSSEL)
     [B  BRUSSEL46] Erasmushogeschool Brussel  (BRUSSEL)
   Bulgaria
-    [BG PLOVDIV07] Akademiya za Muzikalno, Tantzovo Iizobrazitelno Izkustvo Plovdiv  (Plovdiv)
-    [BG SOFIA13] National Academy of Music"Prof.Pancho Vladigerov"  (SOFIA)
+    [BG PLOVDIV07] Akademiya za Muzikalno, Tantzovo i Izobrazitelno Izkustvo Plovdiv  (display_name asetettu, vielä ilman diakriitteja)  (Plovdiv)
+    [BG SOFIA13] National Academy of Music "Prof. Pancho Vladigerov"  (display_name asetettu, vielä ilman diakriitteja)  (SOFIA)
   Czechia
     [CZ BRNO03] Janackova Akademie Muzickych Umeni v Brne  (BRNO)
     [CZ PRAHA04] Akademie Muzickych Umeni v Praze  (PRAHA 1)
   Finland
     [SF HELSINK42] Taideyliopisto  (HELSINKI)
   France
-    [F  LYON24] Conservatoire National Superieur Demusique et de Danse de Lyon  (LYON)
+    [F  LYON24] Conservatoire National Superieur de Musique et de Danse de Lyon  (display_name asetettu, vielä ilman diakriitteja)  (LYON)
     [F  PARIS119] Conservatoire National Superieur de Musique et de Danse de Paris  (PARIS)
   Germany
     [D  BERLIN03] Universitat der Kunste Berlin  (BERLIN)
@@ -38,8 +38,8 @@ display_name asetettu: 0 laitokselle
     [I  CAGLIAR02] Conservatorio Statale di Musica Giovanni Pierluigi da Palestrina di Cagliari  (CAGLIARI)
     [I  CALTANI01] Conservatorio Statale di Musica Vincenzo Bellini di Caltanissetta  (CALTANISSETTA)
     [I  CASTELF01] Conservatorio Statale di Musica A.Steffani  (CASTELFRANCO VENETO)
-    [I  CESENA03] Conservatorio Madernalettimi  (CESENA)
-    [I  CUNEO01] Instituto Superiore di Stdudi Musicali - Conservatorio di Musica Giorgio Federico Ghedini di Cuneo  (CUNEO)
+    [I  CESENA03] Conservatorio Maderna-Lettimi  (display_name asetettu, vielä ilman diakriitteja)  (CESENA)
+    [I  CUNEO01] Instituto Superiore di Studi Musicali - Conservatorio di Musica Giorgio Federico Ghedini di Cuneo  (display_name asetettu, vielä ilman diakriitteja)  (CUNEO)
     [I  FERMO01] Conservatorio Statale di Musica "G.B. Pergolesi" - Fermo  (Fermo)
     [I  FIRENZE07] Fondazione Scuola di Musica di Fiesole ONLUS  (SAN DOMENICO DI FIESOLE FI)
     [I  FOGGIA02] Conservatorio Statale di Musica "Umberto Giordano"  (Foggia)

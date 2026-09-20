@@ -189,7 +189,8 @@
   "classified_by": "manual",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "Alkuperäinen nimi on virheellinen ECHE-listassa: \"AKADEMIYA ZA MUZIKALNO, TANTZOVO IIZOBRAZITELNO IZKUSTVO PLOVDIV\".",
+  "display_name": "Akademiya za Muzikalno, Tantzovo i Izobrazitelno Izkustvo Plovdiv"
  },
  "BG SOFIA13": {
   "erasmus_code_raw": "BG SOFIA13",
@@ -201,7 +202,8 @@
   "classified_by": "name-search-strict",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "Alkuperäinen nimi on virheellinen ECHE-listassa: \"NATIONAL ACADEMY OF MUSIC\"PROF.PANCHO VLADIGEROV\"\".",
+  "display_name": "National Academy of Music \"Prof. Pancho Vladigerov\""
  },
  "CZ BRNO03": {
   "erasmus_code_raw": "CZ BRNO03",
@@ -969,7 +971,8 @@
   "classified_by": "name-search-strict",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "Alkuperäinen nimi on virheellinen ECHE-listassa: \"CONSERVATOIRE NATIONAL SUPERIEUR DEMUSIQUE ET DE DANSE DE  LYON\".",
+  "display_name": "Conservatoire National Superieur de Musique et de Danse de Lyon"
  },
  "F  PARIS119": {
   "erasmus_code_raw": "F  PARIS119",
@@ -1197,7 +1200,8 @@
   "classified_by": "name-search-strict",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "Alkuperäinen nimi on virheellinen ECHE-listassa: \"CONSERVATORIO MADERNALETTIMI\".",
+  "display_name": "Conservatorio Maderna-Lettimi"
  },
  "I  COMO04": {
   "erasmus_code_raw": "I  COMO04",
@@ -1245,7 +1249,8 @@
   "classified_by": "name-search-strict",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "Alkuperäinen nimi on virheellinen ECHE-listassa: \"INSTITUTO SUPERIORE DI STDUDI MUSICALI - CONSERVATORIO DI MUSICA GIORGIO FEDERICO GHEDINI DI CUNEO\".",
+  "display_name": "Instituto Superiore di Studi Musicali - Conservatorio di Musica Giorgio Federico Ghedini di Cuneo"
  },
  "I  FERMO01": {
   "erasmus_code_raw": "I  FERMO01",

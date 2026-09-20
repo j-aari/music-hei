@@ -27,13 +27,13 @@ def main():
     for k, a in sorted(ann.items()):
         r = up[k]
         src = (r.get("_verified") or {}).get("organisationLegalName") or r["organisationLegalName"]
-        if a.get("display_name"):
-            done += 1
-            continue
-        name = nice_case(src, r["countryCodeIso"] or r["countryCode"])
+        done += bool(a.get("display_name"))
+        # display_name ohittaa siistityn nimen, mutta jos sekin on pelkkää ASCIIta, laitos pysyy listalla
+        name = a.get("display_name") or nice_case(src, r["countryCodeIso"] or r["countryCode"])
         if not name.isascii():
             continue
-        groups["A" if is_shouty(src) else "B"][r["countryName"]].append((k, name, r["city"]))
+        mark = "  (display_name asetettu, vielä ilman diakriitteja)" if a.get("display_name") else ""
+        groups["A" if is_shouty(src) else "B"][r["countryName"]].append((k, name + mark, r["city"]))
     print(f"display_name asetettu: {done} laitokselle\n")
     for g, title in (("A", "A - versaalilähde, pelkkää ASCIIta (diakriitit todennäköisesti puuttuvat)"),
                      ("B", "B - sekakirjaiminen lähde, pelkkää ASCIIta (yleensä oikein, tarkista)")):
