@@ -100,6 +100,10 @@ python -m http.server 8000
 
 Then open <http://localhost:8000/>. The `site/` folder is self-contained (data, fonts, Leaflet) and can be published on any static host such as Netlify or GitHub Pages. Its state is stored in the URL hash, so a filtered view can be shared as a link.
 
+## Publishing
+
+The `site/` folder is the whole site. `.github/workflows/pages.yml` publishes it to GitHub Pages whenever `site/` changes on the `main` branch. One-time setup in the repository: Settings > Pages > Build and deployment > Source: **GitHub Actions**. After an update, commit the regenerated files (`data/` and `site/data/site.json`) and push; the page is redeployed automatically.
+
 ## Known limitations
 
 - Some institution names lack diacritics because the source list is often plain ASCII capitals (for example "Universitat fur Musik"). The list of affected names is produced by `scripts/report_diacritics.py`.

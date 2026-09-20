@@ -21,7 +21,8 @@
   "classified_by": "manual",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "",
+  "display_name": "Universität für Musik und darstellende Kunst Graz (KUG)"
  },
  "A  KLAGENF06": {
   "erasmus_code_raw": "A  KLAGENF06",
@@ -45,7 +46,8 @@
   "classified_by": "manual",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "",
+  "display_name": "Anton Bruckner Privatuniversität"
  },
  "A  SALZBUR02": {
   "erasmus_code_raw": "A  SALZBUR02",
@@ -57,7 +59,8 @@
   "classified_by": "manual",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "",
+  "display_name": "Universität Mozarteum Salzburg"
  },
  "A  WIEN08": {
   "erasmus_code_raw": "A  WIEN08",
@@ -69,7 +72,8 @@
   "classified_by": "manual",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "",
+  "display_name": "Universität für Musik und darstellende Kunst Wien"
  },
  "A  WIEN52": {
   "erasmus_code_raw": "A  WIEN52",
@@ -190,7 +194,7 @@
   "partner_of_siba": null,
   "languages_of_instruction": null,
   "notes": "Alkuperäinen nimi on virheellinen ECHE-listassa: \"AKADEMIYA ZA MUZIKALNO, TANTZOVO IIZOBRAZITELNO IZKUSTVO PLOVDIV\".",
-  "display_name": "Akademiya za Muzikalno, Tantzovo i Izobrazitelno Izkustvo Plovdiv"
+  "display_name": "Akademiya za Muzikalno, Tantsovo i Izobrazitelno Izkustvo Plovdiv"
  },
  "BG SOFIA13": {
   "erasmus_code_raw": "BG SOFIA13",
@@ -215,7 +219,8 @@
   "classified_by": "manual",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "",
+  "display_name": "Janáčkova akademie múzických umění v Brně"
  },
  "CZ PRAHA04": {
   "erasmus_code_raw": "CZ PRAHA04",
@@ -227,7 +232,8 @@
   "classified_by": "manual",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "",
+  "display_name": "Akademie múzických umění v Praze"
  },
  "D  BERLIN03": {
   "erasmus_code_raw": "D  BERLIN03",
@@ -239,7 +245,8 @@
   "classified_by": "manual",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "",
+  "display_name": "Universität der Künste Berlin"
  },
  "D  BERLIN16": {
   "erasmus_code_raw": "D  BERLIN16",
@@ -323,7 +330,8 @@
   "classified_by": "name-search-strict",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "",
+  "display_name": "Hochschule für Musik Freiburg"
  },
  "D  HALLE04": {
   "erasmus_code_raw": "D  HALLE04",
@@ -347,7 +355,8 @@
   "classified_by": "name-search-strict",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "",
+  "display_name": "Hochschule für Musik und Theater Hamburg"
  },
  "D  HANNOVE04": {
   "erasmus_code_raw": "D  HANNOVE04",
@@ -359,7 +368,8 @@
   "classified_by": "name-search-strict",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "",
+  "display_name": "Hochschule für Musik, Theater und Medien Hannover"
  },
  "D  KARLSRU03": {
   "erasmus_code_raw": "D  KARLSRU03",
@@ -383,7 +393,8 @@
   "classified_by": "name-search-strict",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "",
+  "display_name": "Hochschule für Musik und Tanz Köln"
  },
  "D  LEIPZIG05": {
   "erasmus_code_raw": "D  LEIPZIG05",
@@ -395,7 +406,8 @@
   "classified_by": "name-search-strict",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "",
+  "display_name": "Hochschule für Musik und Theater \"Felix Mendelssohn Bartholdy\" Leipzig"
  },
  "D  LUBECK02": {
   "erasmus_code_raw": "D  LUBECK02",
@@ -443,7 +455,8 @@
   "classified_by": "name-search-strict",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "",
+  "display_name": "Hochschule für Musik Nürnberg"
  },
  "D  REGENSB03": {
   "erasmus_code_raw": "D  REGENSB03",
@@ -491,7 +504,8 @@
   "classified_by": "name-search-strict",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "",
+  "display_name": "Staatliche Hochschule für Musik und Darstellende Kunst Stuttgart"
  },
  "D  TROSSIN01": {
   "erasmus_code_raw": "D  TROSSIN01",
@@ -972,7 +986,7 @@
   "partner_of_siba": null,
   "languages_of_instruction": null,
   "notes": "Alkuperäinen nimi on virheellinen ECHE-listassa: \"CONSERVATOIRE NATIONAL SUPERIEUR DEMUSIQUE ET DE DANSE DE  LYON\".",
-  "display_name": "Conservatoire National Superieur de Musique et de Danse de Lyon"
+  "display_name": "Conservatoire National Supérieur de Musique et de Danse de Lyon"
  },
  "F  PARIS119": {
   "erasmus_code_raw": "F  PARIS119",
@@ -984,7 +998,8 @@
   "classified_by": "name-search-strict",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "",
+  "display_name": "Conservatoire National Supérieur de Musique et de Danse de Paris"
  },
  "HU BUDAPES25": {
   "erasmus_code_raw": "HU BUDAPES25",
@@ -996,7 +1011,8 @@
   "classified_by": "manual",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "",
+  "display_name": "Liszt Ferenc Zeneművészeti Egyetem"
  },
  "I  ADRIA01": {
   "erasmus_code_raw": "I  ADRIA01",
@@ -1128,7 +1144,8 @@
   "classified_by": "name-search-strict",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "",
+  "display_name": "Conservatorio Statale di Musica \"Giovanni Pierluigi da Palestrina\" di Cagliari"
  },
  "I  CALTANI01": {
   "erasmus_code_raw": "I  CALTANI01",
@@ -1140,7 +1157,8 @@
   "classified_by": "name-search-strict",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "",
+  "display_name": "Conservatorio Statale di Musica \"Vincenzo Bellini\" di Caltanissetta"
  },
  "I  CAMPOBA03": {
   "erasmus_code_raw": "I  CAMPOBA03",
@@ -1164,7 +1182,8 @@
   "classified_by": "name-search-strict",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "",
+  "display_name": "Conservatorio Statale di Musica \"Agostino Steffani\""
  },
  "I  CATANIA06": {
   "erasmus_code_raw": "I  CATANIA06",
@@ -1250,7 +1269,7 @@
   "partner_of_siba": null,
   "languages_of_instruction": null,
   "notes": "Alkuperäinen nimi on virheellinen ECHE-listassa: \"INSTITUTO SUPERIORE DI STDUDI MUSICALI - CONSERVATORIO DI MUSICA GIORGIO FEDERICO GHEDINI DI CUNEO\".",
-  "display_name": "Instituto Superiore di Studi Musicali - Conservatorio di Musica Giorgio Federico Ghedini di Cuneo"
+  "display_name": "Istituto Superiore di Studi Musicali - Conservatorio di Musica Giorgio Federico Ghedini di Cuneo"
  },
  "I  FERMO01": {
   "erasmus_code_raw": "I  FERMO01",
@@ -1262,7 +1281,8 @@
   "classified_by": "name-search-strict",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "",
+  "display_name": "Conservatorio Statale di Musica \"G.B. Pergolesi\" Fermo"
  },
  "I  FERRARA02": {
   "erasmus_code_raw": "I  FERRARA02",
@@ -1310,7 +1330,8 @@
   "classified_by": "name-search-strict",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "",
+  "display_name": "Conservatorio Statale di Musica \"Umberto Giordano\""
  },
  "I  FROSINO02": {
   "erasmus_code_raw": "I  FROSINO02",
@@ -1346,7 +1367,8 @@
   "classified_by": "name-search-strict",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "",
+  "display_name": "Conservatorio di Musica \"Alfredo Casella\" L'Aquila"
  },
  "I  LA-SPEZ01": {
   "erasmus_code_raw": "I  LA-SPEZ01",
@@ -1454,7 +1476,8 @@
   "classified_by": "name-search-strict",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "",
+  "display_name": "Conservatorio di Musica \"Giuseppe Verdi\" di Milano"
  },
  "I  MILANO24": {
   "erasmus_code_raw": "I  MILANO24",
@@ -1551,7 +1574,8 @@
   "classified_by": "name-search-strict",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "",
+  "display_name": "Conservatorio di Musica \"Arrigo Boito\" Parma"
  },
  "I  PAVIA02": {
   "erasmus_code_raw": "I  PAVIA02",
@@ -1816,7 +1840,8 @@
   "classified_by": "name-search-strict",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "",
+  "display_name": "Conservatorio Statale di Musica \"Jacopo Tomadini\""
  },
  "I  VARESE05": {
   "erasmus_code_raw": "I  VARESE05",
@@ -1840,7 +1865,8 @@
   "classified_by": "name-search-strict",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "",
+  "display_name": "Conservatorio di Musica \"Benedetto Marcello\" di Venezia"
  },
  "I  VERONA02": {
   "erasmus_code_raw": "I  VERONA02",
@@ -1864,7 +1890,8 @@
   "classified_by": "name-search-strict",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "",
+  "display_name": "Conservatorio di Musica \"Fausto Torrefranca\" Vibo Valentia"
  },
  "I  VICENZA03": {
   "erasmus_code_raw": "I  VICENZA03",
@@ -1876,7 +1903,8 @@
   "classified_by": "name-search-strict",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "",
+  "display_name": "Conservatorio di Musica \"Arrigo Pedrollo\" di Vicenza"
  },
  "IRLDUBLIN22": {
   "erasmus_code_raw": "IRLDUBLIN22",
@@ -1900,7 +1928,8 @@
   "classified_by": "manual",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "",
+  "display_name": "Listaháskóli Íslands"
  },
  "LT VILNIUS05": {
   "erasmus_code_raw": "LT VILNIUS05",
