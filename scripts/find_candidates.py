@@ -114,6 +114,18 @@ EXCLUDE = [
 ]
 
 
+# Käsin tehdyt poissulkupäätökset (avain -> syy), koskevat myös weak-tasoa. Syy on käyttäjän
+# päätös; tarkempi peruste täsmennettävä (ks. BRIEF.md: ECHE-haltijuus tarkoittaa
+# korkeakoulun asemaa, joten ainoa kysymys on kuuluuko laitos musiikkiin).
+MANUAL_REASON = "Poistettu käsin (käyttäjän päätös): ei kuulu musiikkikorkeakoulujen joukkoon; tarkempi syy täsmennettävä"
+MANUAL_EXCLUDE = {
+    "I  NOVARA02": MANUAL_REASON + ". Nimi: Scuola del Teatro Musicale (musikaaliteatterikoulu)",
+    "E  BARCELO259": MANUAL_REASON + ". Nimi: Jam Session Enseñanza musical, S.L. (yritysmuotoinen oikeushenkilö)",
+    "CY NICOSIA42": MANUAL_REASON + ". Nimi: Hellenic College of Music (Pitsa Spyridaki & Company Ltd)",
+    "P  LISBOA118": MANUAL_REASON + ". Nimi: MUSICA - Educação e Cultura Associação (yhdistys)",
+}
+
+
 def excluded_reason(r):
     """Palauttaa (id, syy) jos jokin nimi täyttää poissulkusäännön, muuten None."""
     for rule_id, reason, test in EXCLUDE:
@@ -159,7 +171,9 @@ def main():
             "tier": "strict" if strict else "weak",
             "matched": strict or weak,
         }
-        if strict and (ex := excluded_reason(r)):
+        if rec["key"] in MANUAL_EXCLUDE:
+            excluded.append({**rec, "excluded_by": "manual", "reason": MANUAL_EXCLUDE[rec["key"]]})
+        elif strict and (ex := excluded_reason(r)):
             excluded.append({**rec, "excluded_by": ex[0], "reason": ex[1]})
         else:
             out.append(rec)
@@ -181,7 +195,7 @@ def main():
     print(f"Ehdokkaita: {len(out)}  (strict {n_strict}, weak {len(out) - n_strict})  ->  {OUT}")
     if dup:
         print(f"HUOM: avainkonflikti ehdokkaissa: {sorted(dup)}")
-    print(f"Poissuljettu strict-tasolta: {len(excluded)}  ->  {EXCLUDED}")
+    print(f"Poissuljettu: {len(excluded)}  ->  {EXCLUDED}")
     for e in excluded:
         print(f"  x [{e['key']}] {e['name']} — {e['city']}  ({e['excluded_by']})")
     print()

@@ -1,5 +1,22 @@
 [
  {
+  "key": "CY NICOSIA42",
+  "key_source": "normalized",
+  "erasmus_code_raw": "CY NICOSIA42",
+  "name": "HELLENIC COLLEGE OF MUSIC PITSA SPYRIDAKI & COMPANY LIMITED",
+  "name_verified": null,
+  "city": "Nicosia",
+  "country_code": "CY",
+  "country": "Cyprus",
+  "webpage": "https://artemusicacademy.com/",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ],
+  "excluded_by": "manual",
+  "reason": "Poistettu käsin (käyttäjän päätös): ei kuulu musiikkikorkeakoulujen joukkoon; tarkempi syy täsmennettävä. Nimi: Hellenic College of Music (Pitsa Spyridaki & Company Ltd)"
+ },
+ {
   "key": "F  TALENCE09",
   "key_source": "normalized",
   "erasmus_code_raw": "F  TALENCE09",
@@ -102,6 +119,40 @@
   "reason": "Conservatoire national des arts et métiers (CNAM) ei ole musiikkilaitos"
  },
  {
+  "key": "I  NOVARA02",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  NOVARA02",
+  "name": "Scuola del Teatro Musicale S.C.S.",
+  "name_verified": null,
+  "city": "Novara",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "http://www.scuolateatromusicale.it",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ],
+  "excluded_by": "manual",
+  "reason": "Poistettu käsin (käyttäjän päätös): ei kuulu musiikkikorkeakoulujen joukkoon; tarkempi syy täsmennettävä. Nimi: Scuola del Teatro Musicale (musikaaliteatterikoulu)"
+ },
+ {
+  "key": "P  LISBOA118",
+  "key_source": "normalized",
+  "erasmus_code_raw": "P  LISBOA118",
+  "name": "MUSICA - EDUCACAO E CULTURA ASSOCIACAO",
+  "name_verified": null,
+  "city": "LISBOA",
+  "country_code": "PT",
+  "country": "Portugal",
+  "webpage": "WWW.METROPOLITANA.PT",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ],
+  "excluded_by": "manual",
+  "reason": "Poistettu käsin (käyttäjän päätös): ei kuulu musiikkikorkeakoulujen joukkoon; tarkempi syy täsmennettävä. Nimi: MUSICA - Educação e Cultura Associação (yhdistys)"
+ },
+ {
   "key": "E  ALICANT36",
   "key_source": "normalized",
   "erasmus_code_raw": "E  ALICANT36",
@@ -168,5 +219,22 @@
   ],
   "excluded_by": "dance-only",
   "reason": "Pelkkä tanssilaitos: nimessä \"Danza\"/\"Dansa\" mutta ei \"Música\""
+ },
+ {
+  "key": "E  BARCELO259",
+  "key_source": "normalized",
+  "erasmus_code_raw": "E  BARCELO259",
+  "name": "Jam Session Enseñanza musical, S.L.",
+  "name_verified": null,
+  "city": "Barcelona",
+  "country_code": "ES",
+  "country": "Spain",
+  "webpage": "jamsession.cat",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ],
+  "excluded_by": "manual",
+  "reason": "Poistettu käsin (käyttäjän päätös): ei kuulu musiikkikorkeakoulujen joukkoon; tarkempi syy täsmennettävä. Nimi: Jam Session Enseñanza musical, S.L. (yritysmuotoinen oikeushenkilö)"
  }
 ]

@@ -182,21 +182,6 @@
   ]
  },
  {
-  "key": "CY NICOSIA42",
-  "key_source": "normalized",
-  "erasmus_code_raw": "CY NICOSIA42",
-  "name": "HELLENIC COLLEGE OF MUSIC PITSA SPYRIDAKI & COMPANY LIMITED",
-  "name_verified": null,
-  "city": "Nicosia",
-  "country_code": "CY",
-  "country": "Cyprus",
-  "webpage": "https://artemusicacademy.com/",
-  "tier": "weak",
-  "matched": [
-   "music/musik/musiq/musi-"
-  ]
- },
- {
   "key": "CZ BRNO03",
   "key_source": "normalized",
   "erasmus_code_raw": "CZ BRNO03",
@@ -1863,21 +1848,6 @@
   ]
  },
  {
-  "key": "I  NOVARA02",
-  "key_source": "normalized",
-  "erasmus_code_raw": "I  NOVARA02",
-  "name": "Scuola del Teatro Musicale S.C.S.",
-  "name_verified": null,
-  "city": "Novara",
-  "country_code": "IT",
-  "country": "Italy",
-  "webpage": "http://www.scuolateatromusicale.it",
-  "tier": "weak",
-  "matched": [
-   "music/musik/musiq/musi-"
-  ]
- },
- {
   "key": "I  RAVENNA02",
   "key_source": "normalized",
   "erasmus_code_raw": "I  RAVENNA02",
@@ -2119,21 +2089,6 @@
   "tier": "strict",
   "matched": [
    "muzyczna"
-  ]
- },
- {
-  "key": "P  LISBOA118",
-  "key_source": "normalized",
-  "erasmus_code_raw": "P  LISBOA118",
-  "name": "MUSICA - EDUCACAO E CULTURA ASSOCIACAO",
-  "name_verified": null,
-  "city": "LISBOA",
-  "country_code": "PT",
-  "country": "Portugal",
-  "webpage": "WWW.METROPOLITANA.PT",
-  "tier": "weak",
-  "matched": [
-   "music/musik/musiq/musi-"
   ]
  },
  {
@@ -2536,21 +2491,6 @@
   "country_code": "ES",
   "country": "Spain",
   "webpage": "www.tallerdemusics.com",
-  "tier": "weak",
-  "matched": [
-   "music/musik/musiq/musi-"
-  ]
- },
- {
-  "key": "E  BARCELO259",
-  "key_source": "normalized",
-  "erasmus_code_raw": "E  BARCELO259",
-  "name": "Jam Session Enseñanza musical, S.L.",
-  "name_verified": null,
-  "city": "Barcelona",
-  "country_code": "ES",
-  "country": "Spain",
-  "webpage": "jamsession.cat",
   "tier": "weak",
   "matched": [
    "music/musik/musiq/musi-"
