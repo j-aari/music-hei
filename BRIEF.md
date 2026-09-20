@@ -224,6 +224,27 @@ mille tahansa sivulle. Vasta sen jälkeen koodi.
 Perustaso ilman erillistä mainintaa: responsiivinen mobiiliin asti, näkyvä
 näppäimistöfokus, `prefers-reduced-motion` huomioitu, riittävät kontrastit.
 
+### Toteutetut päätökset (vaihe 6)
+
+- **Kieli:** sivun tekstit ovat englanniksi, laitosten nimet alkuperäiskielellä. Otsikko:
+  *European Music Institutions with an Erasmus Charter*.
+- **Paletti:** viileä paperi (Frost `#F1F3F6`, Night Ink `#14181D`, Slate `#4B545F`, Mist
+  `#C9D0D8`, Fog `#E5E9EE`) ja yksi kylläinen väri, Vermilion `#C2331F`, joka merkitsee vain
+  vaihtokumppania. Lämmin kerma + antiikva + punaoranssi on tekoälysivujen oletuspaletti, ja
+  viileä tausta erottaa punaisen selvemmin. Taso erotetaan muodolla (täytetty piste / rengas),
+  ei värillä. OSM-tiilet harmaasävyistetään CSS-suodattimella, jotta punainen pysyy merkityksellisenä.
+- **Kirjasimet:** Newsreader (laitosten nimet, otsikot) ja Public Sans (data, käyttöliittymä),
+  omalta palvelimelta (`site/fonts/`, OFL). Leaflet on omalta palvelimelta (`site/vendor/`).
+- **Partneritieto:** kenttä `partner_of_siba` säilyy, ja sivu kertoo aina lähteen: partneritiedot
+  ovat Taideyliopiston julkaisemasta vaihtokohdelistasta. Sivulla on myös vastuulauseke: se ei ole
+  virallinen julkaisu. Kielen ja partnerin suodattimet piilotetaan, kunnes dataa on; sivulla on
+  siihen asti rehellinen rivi "not recorded yet".
+- **Annotaatiokentät sivulle:** `public_note` (englanniksi) näytetään sivulla; `classification_note`
+  ja `notes` ovat sisäisiä eikä niitä viedä `site.json`:iin. `display_name` ohittaa siistityn nimen
+  (diakriittien korjaus). Lista laitoksista, joiden nimestä puuttuu diakriitteja:
+  `python scripts/report_diacritics.py` (tulos `data/diacritics_todo.txt`).
+- **Julkaistava kansio** on `site/`; `build_site.py` kopioi `site.json`:n sinne (`site/data/`).
+
 ## Vaiheistus
 
 1. Lue OpenAPI-spec, hae data, tulosta kenttien nimet ja rivimäärä
