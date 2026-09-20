@@ -64,6 +64,56 @@
     </aside>
   </div>
 
+  <div class="extras">
+    <section class="extra" id="density" aria-labelledby="density-title" hidden>
+      <h2 id="density-title">Institutions relative to population</h2>
+      <p class="extra__lede" id="density-lede"></p>
+      <div class="extra__controls" role="group" aria-label="Sort the table">
+        <span class="extra__label">Sort by</span>
+        <button type="button" class="btn" data-sort="perm" aria-pressed="true">Per million inhabitants</button>
+        <button type="button" class="btn" data-sort="count" aria-pressed="false">Institutions</button>
+        <button type="button" class="btn" data-sort="name" aria-pressed="false">Country</button>
+      </div>
+      <p class="sr-only" id="density-status" role="status" aria-live="polite"></p>
+      <div class="table-wrap">
+        <table class="density" id="density-table">
+          <caption class="sr-only">Institutions per country, in absolute numbers and per million inhabitants</caption>
+          <thead>
+            <tr>
+              <th scope="col">Country</th>
+              <th scope="col" class="col-pop">Population</th>
+              <th scope="col">Institutions</th>
+              <th scope="col">Per million inhabitants</th>
+            </tr>
+          </thead>
+          <tbody id="density-body"></tbody>
+        </table>
+      </div>
+      <p class="extra__note" id="density-note"></p>
+    </section>
+
+    <section class="extra" id="coverage" aria-labelledby="coverage-title" hidden>
+      <h2 id="coverage-title">Areas more than 300 km from a music institution</h2>
+      <p class="extra__lede" id="coverage-lede"></p>
+      <div id="coverage-map" role="region" aria-label="Map of the areas more than 300 kilometres from the nearest music institution. The table below gives the same information by country."></div>
+      <p class="legend" id="coverage-legend"></p>
+      <div class="table-wrap">
+        <table class="density" id="coverage-table">
+          <caption class="sr-only">Share of each country's area that is more than 300 kilometres from the nearest institution</caption>
+          <thead>
+            <tr>
+              <th scope="col">Country</th>
+              <th scope="col">Share of the country's area</th>
+              <th scope="col" class="col-pop">Area, thousand km²</th>
+            </tr>
+          </thead>
+          <tbody id="coverage-body"></tbody>
+        </table>
+      </div>
+      <p class="extra__note" id="coverage-note"></p>
+    </section>
+  </div>
+
   <footer class="footer" id="footer"></footer>
 
   <script src="vendor/leaflet/leaflet.js"></script>

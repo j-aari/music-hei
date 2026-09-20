@@ -1,0 +1,186 @@
+{
+ "source": "Eurostat, table tps00001: Population on 1 January - total",
+ "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tps00001?format=JSON&lang=EN&freq=A&indic_de=JAN",
+ "year": 2025,
+ "retrieved": "2026-09-20",
+ "eurostat_updated": "2026-07-21T23:00:00+0200",
+ "note": "Population on 1 January of the given year. Flags: p = provisional, e = estimated.",
+ "countries": {
+  "AL": {
+   "name": "Albania",
+   "population": 2363314
+  },
+  "AM": {
+   "name": "Armenia",
+   "population": 3076252
+  },
+  "AT": {
+   "name": "Austria",
+   "population": 9197213
+  },
+  "AZ": {
+   "name": "Azerbaijan",
+   "population": 10224889
+  },
+  "BA": {
+   "name": "Bosnia and Herzegovina",
+   "population": 3407179,
+   "flag": "p"
+  },
+  "BE": {
+   "name": "Belgium",
+   "population": 11883495
+  },
+  "BG": {
+   "name": "Bulgaria",
+   "population": 6437360
+  },
+  "CH": {
+   "name": "Switzerland",
+   "population": 9051029
+  },
+  "CY": {
+   "name": "Cyprus",
+   "population": 982966
+  },
+  "CZ": {
+   "name": "Czechia",
+   "population": 10909500
+  },
+  "DE": {
+   "name": "Germany",
+   "population": 83577140
+  },
+  "DK": {
+   "name": "Denmark",
+   "population": 5992734
+  },
+  "EE": {
+   "name": "Estonia",
+   "population": 1369995
+  },
+  "ES": {
+   "name": "Spain",
+   "population": 49128297
+  },
+  "FI": {
+   "name": "Finland",
+   "population": 5635971
+  },
+  "FR": {
+   "name": "France",
+   "population": 68882600,
+   "flag": "p"
+  },
+  "GB": {
+   "name": "United Kingdom",
+   "population": 69384219
+  },
+  "GE": {
+   "name": "Georgia",
+   "population": 3704506
+  },
+  "GR": {
+   "name": "Greece",
+   "population": 10372335
+  },
+  "HR": {
+   "name": "Croatia",
+   "population": 3874350
+  },
+  "HU": {
+   "name": "Hungary",
+   "population": 9539502
+  },
+  "IE": {
+   "name": "Ireland",
+   "population": 5440278
+  },
+  "IS": {
+   "name": "Iceland",
+   "population": 389444
+  },
+  "IT": {
+   "name": "Italy",
+   "population": 58943464
+  },
+  "LI": {
+   "name": "Liechtenstein",
+   "population": 40886
+  },
+  "LT": {
+   "name": "Lithuania",
+   "population": 2890664
+  },
+  "LU": {
+   "name": "Luxembourg",
+   "population": 681973
+  },
+  "LV": {
+   "name": "Latvia",
+   "population": 1860565
+  },
+  "MC": {
+   "name": "Monaco",
+   "population": 38423
+  },
+  "MD": {
+   "name": "Moldova",
+   "population": 2415549,
+   "flag": "e"
+  },
+  "ME": {
+   "name": "Montenegro",
+   "population": 623327
+  },
+  "MK": {
+   "name": "North Macedonia",
+   "population": 1822612
+  },
+  "MT": {
+   "name": "Malta",
+   "population": 574250
+  },
+  "NL": {
+   "name": "Netherlands",
+   "population": 18044027
+  },
+  "NO": {
+   "name": "Norway",
+   "population": 5594340
+  },
+  "PL": {
+   "name": "Poland",
+   "population": 36497495
+  },
+  "PT": {
+   "name": "Portugal",
+   "population": 11387222
+  },
+  "RO": {
+   "name": "Romania",
+   "population": 19043151,
+   "flag": "e"
+  },
+  "RS": {
+   "name": "Serbia",
+   "population": 6567783
+  },
+  "SE": {
+   "name": "Sweden",
+   "population": 10587710
+  },
+  "SI": {
+   "name": "Slovenia",
+   "population": 2130850
+  },
+  "SK": {
+   "name": "Slovakia",
+   "population": 5419451
+  },
+  "TR": {
+   "name": "Türkiye",
+   "population": 85664944
+  }
+ }
+}

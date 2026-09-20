@@ -10,12 +10,14 @@ Raportti tulostetaan aina ennen kuin mitään kirjoitetaan (BRIEF.md). Ketju --a
   3. ehdokaslistat (candidates_name.json, excluded.json) generoidaan uudelleen
   4. geokoodataan annotoidut laitokset, joilta koordinaatit puuttuvat
   5. site.json generoidaan uudelleen
+  6. katvealueet (coverage.json) lasketaan uudelleen uusista koordinaateista
 Uudet laitokset eivät päädy sivulle ennen kuin ne on annotoitu käsin.
 """
 
 import json
 import sys
 
+import build_coverage
 import build_site
 import fetch_upstream
 import find_candidates
@@ -136,6 +138,8 @@ def apply(new_rows, c, annotations, orphaned):
     geocode.run()
     print("\n--- site.json ---")
     build_site.main()
+    print("\n--- katvealueet (coverage.json) ---")
+    build_coverage.main()  # riippuu site.json:n koordinaateista
 
 
 def main():

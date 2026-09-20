@@ -405,6 +405,148 @@
     writeHash();
   }
 
+  // ---------- extra sections: density and coverage (own sections at the end of the page) ----------
+  async function fetchJson(url) {
+    try {
+      const res = await fetch(url, { cache: 'no-cache' });
+      return res.ok ? await res.json() : null;
+    } catch { return null; }
+  }
+  const fmt = (n, digits = 0) => n.toLocaleString('en', { minimumFractionDigits: digits, maximumFractionDigits: digits });
+
+  function barCell(value, max, label, title) {
+    return h('td', { title },
+      h('div', { class: 'bar-cell' },
+        h('span', { class: 'bar', style: `--f:${max ? value / max : 0}`, 'aria-hidden': 'true' }),
+        h('span', { class: 'bar-val', text: label })));
+  }
+
+  let densityRows = [];
+  let densitySort = 'perm';
+  function renderDensityTable() {
+    const sorters = {
+      perm: (a, b) => b.perm - a.perm || a.name.localeCompare(b.name, 'en'),
+      count: (a, b) => b.count - a.count || b.perm - a.perm,
+      name: (a, b) => a.name.localeCompare(b.name, 'en'),
+    };
+    const rows = [...densityRows].sort(sorters[densitySort]);
+    const maxCount = Math.max(...rows.map((r) => r.count));
+    const maxPerm = Math.max(...rows.map((r) => r.perm));
+    const body = $('#density-body');
+    body.textContent = '';
+    for (const r of rows) {
+      const tip = `${r.name}: ${r.count} ${r.count === 1 ? 'institution' : 'institutions'}, ${fmt(r.pop / 1e6, 1)} million inhabitants, ${fmt(r.perm, 2)} per million`;
+      body.append(h('tr', {},
+        h('td', { class: 'country-name', text: r.name }),
+        h('td', { class: 'col-pop', text: `${fmt(r.pop / 1e6, r.pop < 1e7 ? 1 : 0)} M` }),
+        barCell(r.count, maxCount, fmt(r.count), tip),
+        barCell(r.perm, maxPerm, fmt(r.perm, 2), tip)));
+    }
+    for (const b of document.querySelectorAll('[data-sort]')) b.setAttribute('aria-pressed', String(b.dataset.sort === densitySort));
+    $('#density-status').textContent = `Sorted by ${{ perm: 'institutions per million inhabitants', count: 'number of institutions', name: 'country' }[densitySort]}.`;
+  }
+
+  function renderDensity(pop) {
+    const counts = new Map();
+    for (const i of data) {
+      const c = counts.get(i.country_code) || { name: i.country, count: 0 };
+      c.count += 1;
+      counts.set(i.country_code, c);
+    }
+    densityRows = [];
+    const flagged = [];
+    for (const [code, c] of counts) {
+      const p = pop.countries[code];
+      if (!p) continue;
+      densityRows.push({ code, name: c.name, count: c.count, pop: p.population, perm: c.count / (p.population / 1e6) });
+      if (p.flag) flagged.push({ name: c.name, flag: p.flag });
+    }
+    if (!densityRows.length) return;
+    const total = densityRows.reduce((n, r) => n + r.count, 0);
+    $('#density-lede').textContent = `How many of the ${total} institutions each of the ${densityRows.length} countries has, in absolute numbers and per million inhabitants. Population on 1 January ${pop.year}.`;
+    const flags = { p: 'provisional', e: 'estimated' };
+    const flagText = Object.entries(flagged.reduce((g, f) => ((g[f.flag] = g[f.flag] || []).push(f.name), g), {}))
+      .map(([f, names]) => `${names.join(' and ')}: ${flags[f] || f}`).join('; ');
+    $('#density-note').textContent =
+      `Population: Eurostat (table tps00001)${flagText ? `; ${flagText}` : ''}. ` +
+      'Only institutions classified as independent music institutions or music units of arts universities are counted; music departments of general universities are not included yet. ' +
+      'The figures describe how music education is organised, not its quality or capacity: for example Finland’s single entry is a university of the arts, whereas Italy has many separate conservatoires. ' +
+      'Countries without an included institution are not listed.';
+    for (const b of document.querySelectorAll('[data-sort]')) {
+      b.addEventListener('click', () => { densitySort = b.dataset.sort; renderDensityTable(); });
+    }
+    renderDensityTable();
+    $('#density').hidden = false;
+  }
+
+  let coverageMap = null;
+  function initCoverageMap(cov) {
+    const { ink, paper } = { ink: palette()['--ink'], paper: palette()['--paper'] };
+    const [[latMin, latMax], [lonMin, lonMax]] = [cov.meta.extent.lat, cov.meta.extent.lon];
+    coverageMap = L.map('coverage-map', { preferCanvas: true, minZoom: 3, maxZoom: 9, zoomAnimation: !reduceMotion, fadeAnimation: !reduceMotion, markerZoomAnimation: !reduceMotion })
+      .fitBounds([[latMin + 4, lonMin + 8], [latMax - 6, lonMax - 2]]);
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    }).addTo(coverageMap);
+    // Draw the gaps opaque on their own pane and fade the whole pane: overlapping rows then leave no seams
+    coverageMap.createPane('gaps');
+    const pane = coverageMap.getPane('gaps');
+    pane.style.zIndex = 250;
+    pane.style.opacity = '0.4';
+    pane.style.pointerEvents = 'none';
+    const renderer = L.canvas({ pane: 'gaps' });
+    const half = cov.meta.grid_deg / 2;
+    const v = half * 1.12; // rows overlap slightly
+    for (const [lat, lon0, lon1] of cov.runs) {
+      L.rectangle([[lat - v, lon0 - half], [lat + v, lon1 + half]], { stroke: false, fillColor: ink, fillOpacity: 1, interactive: false, renderer }).addTo(coverageMap);
+    }
+    for (const i of data) {
+      if (i.lat == null) continue;
+      L.circleMarker([i.lat, i.lon], { radius: 3.5, color: paper, weight: 1.5, fillColor: ink, fillOpacity: 1, interactive: false }).addTo(coverageMap);
+    }
+  }
+
+  function renderCoverage(cov, pop) {
+    const m = cov.meta;
+    const km = m.threshold_km;
+    $('#coverage-lede').textContent =
+      `${fmt(m.gap_share * 100, 1)}% of the land area of the countries on the ECHE list is more than ${km} km in a straight line from the nearest of the ${m.institutions} institutions.`;
+    const lg = $('#coverage-legend');
+    lg.append(h('span', {}, h('span', { class: 'gap-swatch' }), `More than ${km} km from the nearest institution`),
+      h('span', {}, h('span', { class: 'glyph glyph--t1' }), 'Institution'));
+    const body = $('#coverage-body');
+    const rows = Object.entries(m.by_country).map(([code, v]) => ({ code, ...v, name: (pop && pop.countries[code] && pop.countries[code].name) || v.name }));
+    const maxShare = Math.max(...rows.map((r) => r.share));
+    for (const r of rows) {
+      const tip = `${r.name}: ${fmt(r.share * 100, 1)}% of the area (${fmt(r.gap_km2 / 1000)} of ${fmt(r.area_km2 / 1000)} thousand km²)`;
+      body.append(h('tr', {},
+        h('td', { class: 'country-name', text: r.name }),
+        barCell(r.share, Math.max(maxShare, 1e-9), `${fmt(r.share * 100, 1)}%`, tip),
+        h('td', { class: 'col-pop', text: fmt(r.gap_km2 / 1000) })));
+    }
+    $('#coverage-note').textContent =
+      `Calculated from the coordinates of the institutions on a ${m.grid_deg}° grid (about 11 km) as great-circle distance to the nearest institution in any country. ` +
+      'Only land in countries on the ECHE list is assessed, so the United Kingdom, Switzerland and countries outside the programme are not shown. ' +
+      'Distance is not travel time. Country outlines are simplified, so edges are approximate. ' +
+      'Music departments of general universities are not included yet: in countries where music education is mostly organised that way, for example Greece, the uncovered areas partly reflect that.';
+    $('#coverage').hidden = false;
+    // Map tiles are only requested once the section is about to be seen
+    const target = $('#coverage-map');
+    if ('IntersectionObserver' in window) {
+      const io = new IntersectionObserver((entries) => {
+        if (entries.some((e) => e.isIntersecting)) { io.disconnect(); initCoverageMap(cov); }
+      }, { rootMargin: '400px' });
+      io.observe(target);
+    } else initCoverageMap(cov);
+  }
+
+  async function initExtras() {
+    const [pop, cov] = await Promise.all([fetchJson('data/population.json'), fetchJson('data/coverage.json')]);
+    if (pop) renderDensity(pop);
+    if (cov) renderCoverage(cov, pop);
+  }
+
   // ---------- footer ----------
   function renderFooter() {
     const f = $('#footer');
@@ -416,7 +558,8 @@
       h('p', {}, `Institution data: the list of Erasmus Charter for Higher Education holders published by the European Commission, retrieved on ${when} through the `,
         h('a', { href: 'https://eche-list.erasmuswithoutpaper.eu/openapi' }, 'ECHE List API'),
         ' of the European University Foundation. Which institutions count as music institutions is our own classification; map positions are geocoded with Nominatim and may be approximate.'),
-      h('p', { text: 'No cookies and no analytics. Opening the map loads map tiles from OpenStreetMap.' }));
+      h('p', { text: 'Population figures: Eurostat. Country outlines used for the coverage analysis: Natural Earth (public domain).' }),
+      h('p', { text: 'No cookies and no analytics. Opening the map, or scrolling down to the coverage map, loads map tiles from OpenStreetMap.' }));
   }
 
   // ---------- init ----------
@@ -472,6 +615,7 @@
 
     update({ fit: true });
     if (state.id) openPanel(state.id, null);
+    initExtras(); // own sections at the end of the page; the page works without them
   }
 
   init();

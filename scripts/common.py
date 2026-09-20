@@ -15,6 +15,17 @@ GEO = DATA / "geo.json"
 SITE = DATA / "site.json"
 # Julkaistavan sivun oma kopio (site/data/site.json); ei testien datakansiossa (MUSIC_HEI_DATA)
 SITE_PUBLIC = None if os.environ.get("MUSIC_HEI_DATA") else ROOT / "site" / "data" / "site.json"
+POPULATION = DATA / "population.json"
+COVERAGE = DATA / "coverage.json"
+NE_COUNTRIES = DATA / "reference" / "ne_110m_admin_0_countries.geojson"
+PUBLIC_DATA = SITE_PUBLIC.parent if SITE_PUBLIC else None  # site/data/
+
+
+def publish(path):
+    """Kopioi generoitu data-tiedosto julkaistavaan kansioon (site/data/), jotta site/ on itsenäinen."""
+    if PUBLIC_DATA:
+        PUBLIC_DATA.mkdir(parents=True, exist_ok=True)
+        (PUBLIC_DATA / path.name).write_text(path.read_text(encoding="utf-8"), encoding="utf-8")
 
 
 def key_of(r):
