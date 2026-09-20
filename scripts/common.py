@@ -13,6 +13,8 @@ UPSTREAM_META = DATA / "upstream.meta.json"
 ANNOTATIONS = DATA / "annotations.json"
 GEO = DATA / "geo.json"
 SITE = DATA / "site.json"
+# Julkaistavan sivun oma kopio (site/data/site.json); ei testien datakansiossa (MUSIC_HEI_DATA)
+SITE_PUBLIC = None if os.environ.get("MUSIC_HEI_DATA") else ROOT / "site" / "data" / "site.json"
 
 
 def key_of(r):

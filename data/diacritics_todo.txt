@@ -1,0 +1,177 @@
+display_name asetettu: 0 laitokselle
+
+== A - versaalilähde, pelkkää ASCIIta (diakriitit todennäköisesti puuttuvat): 61
+  Austria
+    [A  GRAZ03] Universitat fur Musik und Darstellende Kunst Graz (KUG)  (GRAZ)
+    [A  LINZ17] Anton Bruckner Privatuniversitat  (LINZ)
+    [A  SALZBUR02] Universitat Mozarteum Salzburg  (SALZBURG)
+    [A  WIEN08] Universitat fur Musik und Darstellende Kunst Wien  (WIEN)
+  Belgium
+    [B  ANTWERP62] Artesis Plantijn Hogeschool Antwerpen  (ANTWERPEN)
+    [B  BRUSSEL43] LUCA School of Arts  (BRUSSEL)
+    [B  BRUSSEL46] Erasmushogeschool Brussel  (BRUSSEL)
+  Bulgaria
+    [BG PLOVDIV07] Akademiya za Muzikalno, Tantzovo Iizobrazitelno Izkustvo Plovdiv  (Plovdiv)
+    [BG SOFIA13] National Academy of Music"Prof.Pancho Vladigerov"  (SOFIA)
+  Czechia
+    [CZ BRNO03] Janackova Akademie Muzickych Umeni v Brne  (BRNO)
+    [CZ PRAHA04] Akademie Muzickych Umeni v Praze  (PRAHA 1)
+  Finland
+    [SF HELSINK42] Taideyliopisto  (HELSINKI)
+  France
+    [F  LYON24] Conservatoire National Superieur Demusique et de Danse de Lyon  (LYON)
+    [F  PARIS119] Conservatoire National Superieur de Musique et de Danse de Paris  (PARIS)
+  Germany
+    [D  BERLIN03] Universitat der Kunste Berlin  (BERLIN)
+    [D  FREIBUR03] Staatliche Hochschule fur Musik Freiburg  (FREIBURG)
+    [D  HAMBURG05] Hochschule fuer Musik und Theater Hamburg  (HAMBURG)
+    [D  HANNOVE04] Hochschule fur Musik, Theater und Medien Hannover  (HANNOVER)
+    [D  KOLN03] Hochschule fur Musik und Tanz Koln  (KOLN)
+    [D  LEIPZIG05] Hochschule fur Musik und Theater Felix Mendelssohn Bartholdy Leipzig  (LEIPZIG)
+    [D  NURNBER04] Hochschule fuer Musik Nuernberg  (NUERNBERG)
+    [D  STUTTGA03] Staatliche Hochschule fur Musik und Darstellende Kunst Stuttgart  (STUTTGART)
+  Hungary
+    [HU BUDAPES25] Liszt Ferenc Zenemuveszeti Egyetem  (BUDAPEST)
+  Iceland
+    [IS REYKJAV06] Listahaskoli Islands  (REYKJAVIK)
+  Italy
+    [I  CAGLIAR02] Conservatorio Statale di Musica Giovanni Pierluigi da Palestrina di Cagliari  (CAGLIARI)
+    [I  CALTANI01] Conservatorio Statale di Musica Vincenzo Bellini di Caltanissetta  (CALTANISSETTA)
+    [I  CASTELF01] Conservatorio Statale di Musica A.Steffani  (CASTELFRANCO VENETO)
+    [I  CESENA03] Conservatorio Madernalettimi  (CESENA)
+    [I  CUNEO01] Instituto Superiore di Stdudi Musicali - Conservatorio di Musica Giorgio Federico Ghedini di Cuneo  (CUNEO)
+    [I  FERMO01] Conservatorio Statale di Musica "G.B. Pergolesi" - Fermo  (Fermo)
+    [I  FIRENZE07] Fondazione Scuola di Musica di Fiesole ONLUS  (SAN DOMENICO DI FIESOLE FI)
+    [I  FOGGIA02] Conservatorio Statale di Musica "Umberto Giordano"  (Foggia)
+    [I  L-AQUIL04] Conservatorio di Musica Alfredo Casella  (L AQUILA)
+    [I  LA-SPEZ01] Conservatorio di Musica Giacomo Puccini - La Spezia  (LA SPEZIA)
+    [I  MILANO09] Conservatorio di Musica "G.Verdi" di Milano  (MILANO)
+    [I  PALERMO04] Conservatorio di Musica di Stato Alessandro Scarlatti Palermo  (Palermo)
+    [I  PARMA02] Conservatorio di Musica Arrigo Boito  (PARMA)
+    [I  PAVIA02] Conservatorio di Musica Franco Vittadini  (PAVIA)
+    [I  ROMA09] Conservatorio di Musica "Santa Cecilia"  (ROMA)
+    [I  TRIESTE02] Conservatorio di Musica Giuseppe Tartini  (TRIESTE)
+    [I  UDINE02] Conservatorio Statale di Musica "Jacopo Tomadini"  (UDINE)
+    [I  VENEZIA04] Conservatorio di Musica Benedetto Marcello di Venezia  (VENEZIA)
+    [I  VIBO-VA01] Conservatorio di Musica "F.Torrefranca" Vibo Valentia  (VIBO VALENTIA)
+    [I  VICENZA03] Conservatorio di Musica "Arrigo Pedrollo" di Vicenza  (VICENZA)
+  Lithuania
+    [LT VILNIUS05] Lietuvos Muzikos ir Teatro Akademija  (VILNIUS)
+  Netherlands
+    [NL AMSTERD07] Stichting Amsterdamse Hogeschool voor de Kunsten  (AMSTERDAM)
+    [NL ROTTERD09] Stichting Codarts Hogeschool voor de Kunsten  (ROTTERDAM)
+    [NL S-GRAVE05] Stichting Hogeschool der Kunsten Den Haag  (DEN HAAG)
+    [NL UTRECHT29] Stichting Hogeschool voor de Kunsten Utrecht  (UTRECHT)
+  Norway
+    [N  OSLO03] Norges Musikkhogskole  (OSLO)
+    [N  OSLO07] Kunsthogskolen i Oslo KHiO  (OSLO)
+  Romania
+    [RO BUCURES03] Universitatea Nationala de Muzica Bucuresti  (BUCURESTI)
+    [RO TARGU01] Universitatea de Arte din Targu Mures  (TARGU MURES)
+  Slovakia
+    [SK BRATISL05] Vysoka Skola Muzickych Umeni v Bratislave  (BRATISLAVA)
+  Spain
+    [E  ALICANT11] Conservatorio Superior de Musica Oscar Espla  (ALICANTE)
+    [E  BARCELO137] Fundacio Privada Taller de Musics  (BARCELONA)
+    [E  BARCELO29] Fundacio Escola Superior de Musica de Catalunya  (BARCELONA)
+    [E  MALAGA02] Conservatorio Superior de Musica de Malaga  (MÁLAGA)
+  Sweden
+    [S  STOCKHO11] Kungliga Musikhogskolan i Stockholm  (STOCKHOLM)
+    [S  STOCKHO27] Stockholms Konstnarliga Hogskola  (STOCKHOLM)
+  Türkiye
+    [TR ISTANBU06] Mimar Sinan Fine Arts University  (ISTANBUL)
+
+== B - sekakirjaiminen lähde, pelkkää ASCIIta (yleensä oikein, tarkista): 77
+  Austria
+    [A  WIEN74] VMI - Vienna Music Institute - Konservatorium des Herrn Mag. Ernst Ritsch  (Wien)
+    [A  WIEN76] JAM MUSIC LAB Private University for Jazz and Popular Music  (Wien)
+    [A  WIEN77] Friedrich Gulda School of Music Wien  (Vienna)
+  Belgium
+    [B  BRUXEL07] Conservatoire royal de Bruxelles  (Bruxelles)
+  Denmark
+    [DK ARHUS05] Det Jyske Musikkonservatorium  (Aarhus)
+    [DK KOBENHA09] Det Kongelige Danske Musikkonservatorium  (Frederiksberg)
+    [DK KOBENHA39] Rytmisk Musikkonservatorium  (KØBENHAVN)
+    [DK ODENSE22] Syddansk Musikkonservatorium - Danish National Academy of Music  (Odense C.)
+  Estonia
+    [EE TALLINN03] Estonian Academy of Music and Theatre  (Tallinn)
+  Germany
+    [D  BREMEN03] University of the Arts Bremen  (Bremen)
+    [D  DRESDEN05] University of Music Carl Maria von Weber Dresden  (Dresden)
+    [D  KARLSRU03] Hochschule fuer Musik Karlsruhe  (Karlsruhe)
+    [D  WEIMAR02] Hochschule fuer Musik Franz Liszt Weimar  (Weimar)
+  Ireland
+    [IRLDUBLIN22] Royal Irish Academy of Music  (Dublin 2)
+  Italy
+    [I  ADRIA01] Conservatorio di Adria  (Adria (RO))
+    [I  AGRIGEN02] Conservatorio "Arturo Toscanini" di Ribera  (Ribera (AG))
+    [I  ALESSAN01] Conservatorio di Musica "A. Vivaldi"  (Alessandria)
+    [I  AOSTA03] Istituto Musicale Pareggiato della Valle d'Aosta  (Aosta)
+    [I  AVELLIN01] Conservatorio Statale di Musica Domenico Cimarosa di Avellino  (AVELLINO)
+    [I  BENEVEN03] Conservatorio Statale di Musica Nicola Sala  (BENEVENTO)
+    [I  BOLOGNA04] Conservatorio di Musica G.B.Martini  (Bologna)
+    [I  BOLZANO02] Conservatorio di musica "Claudio Monteverdi" Musik-Konservatorium Bolzano-Bozen  (Bolzano)
+    [I  BRESCIA06] Conservatorio di Musica Luca Marenzio  (Brescia)
+    [I  CAMPOBA03] Conservatorio Statale di Musica "L. Perosi" Campobasso  (Campobasso)
+    [I  CATANIA06] Istituto Superiore di Studi Musicali "Vincenzo Bellini" Catania  (Catania)
+    [I  CATANZA04] Conservatorio Statale di Musica P.I. Tchaikovsky  (Nocera Terinese)
+    [I  COMO04] Conservatorio di Como  (Como)
+    [I  COSENZA03] Conservatorio di Musica "Stanislao Giacomantonio"  (COSENZA)
+    [I  CREMONA01] Conservatorio di Musica 'Claudio Monteverdi' di Cremona  (CREMONA)
+    [I  FERRARA02] Conservatorio Statale di Musica "G. Frescobaldi" Ferrara  (Ferrara)
+    [I  FIRENZE04] Conservatorio di Musica "Luigi Cherubini"  (Firenze)
+    [I  FROSINO02] Conservatorio di Musica "L. Refice"  (Frosinone)
+    [I  LATINA02] Conservatorio di Musica di Latina - Ottorino Respighi  (LATINA)
+    [I  LECCE03] Conservatorio di Musica di Lecce - Tito Schipa  (Lecce)
+    [I  LIVORNO01] Conservatorio statale "Pietro Mascagni"  (LIVORNO)
+    [I  LUCCA03] Conservatorio di musica "Luigi Boccherini"  (Lucca)
+    [I  MANTOVA01] Conservatorio di Musica "Lucio Campiani" Mantova  (MANTOVA)
+    [I  MATERA01] Conservatorio di Musica "Egidio Romualdo Duni" di Matera  (Matera)
+    [I  MESSINA04] Conservatorio di Musica "A. Corelli" Messina  (Messina)
+    [I  MILANO24] Mussida Music Publishing srl  (Milano)
+    [I  MODENA05] Conservatorio di Musica Vecchi Tonelli  (Modena)
+    [I  MONOPOL02] Conservatorio di Musica "Nino Rota"  (Monopoli)
+    [I  NAPOLI07] Conservatorio San Pietro a Majella  (Napoli)
+    [I  NOVARA01] Conservatorio Statale di Musica Guido Cantelli  (Novara)
+    [I  PADOVA02] Conservatorio Statale di Musica C. Pollini - Padova  (Padova)
+    [I  PERUGIA03] Conservatorio di Musica di Perugia  (Perugia)
+    [I  PESARO01] Conservatorio Statale di Musica "G.Rossini"  (Pesaro)
+    [I  PESCARA01] Conservatorio Statale di Musica Luisa D'Annunzio  (Pescara)
+    [I  PIACENZ01] Conservatorio di Musica "Giuseppe Nicolini"  (PIACENZA)
+    [I  POTENZA03] Conservatorio di musica "Gesualdo da Venosa"  (Potenza)
+    [I  RAVENNA02] Istituto Superiore Di Studi Musicali "Giuseppe Verdi"  (Ravenna)
+    [I  REGGIO03] Conservatorio di Musica "F. Cilea"  (Reggio di Calabria)
+    [I  REGGIO05] Conservatorio di Musica Reggio Emilia e Castelnovo ne' Monti  (Reggio Emilia)
+    [I  ROMA30] Saint Louis Music Center Srl  (Rome)
+    [I  ROVIGO01] Conservatorio di Musica Francesco Venezze  (ROVIGO)
+    [I  SALERNO02] Conservatorio di Musica Giuseppe Martucci Salerno  (Salerno)
+    [I  SASSARI02] Conservatorio Statale di Musica "L. Canepa"  (Sassari)
+    [I  SIENA04] Conservatorio di Siena "Rinaldo Franci"  (Siena)
+    [I  TERAMO02] Istituto Statale Superiore di Studi Musicali e Coreutici "G. Braga"  (Teramo)
+    [I  TERNI01] Conservatorio Statale di Musica "Giulio Briccialdi" - Terni  (Terni)
+    [I  TORINO05] Conservatorio Statale di Musica "Giuseppe Verdi" Torino  (Torino)
+    [I  TRAPANI02] Conservatorio di Musica di Stato "Antonio Scontrino" - Trapani  (Trapani)
+    [I  TRENTO02] Conservatorio di musica "F.A. Bonporti" di Trento  (Trento)
+    [I  VARESE05] Conservatorio Statale di Musica Giacomo Puccini  (Gallarate (VA))
+    [I  VERONA02] Conservatorio Statale di Musica "E. F. Dall'Abaco"  (Verona)
+  Latvia
+    [LV RIGA05] Jazepa Vitola Latvijas Muzikas akademija  (RIGA)
+  Norway
+    [N  OSLO66] Barratt Due musikkinstitutt  (Oslo)
+  Poland
+    [PL BYDGOSZ04] Akademia Muzyczna im. Feliksa Nowowiejskiego w Bydgoszczy  (Bydgoszcz)
+    [PL KATOWIC04] Akademia Muzyczna im. Karola Szymanowskiego w Katowicach  (Katowice)
+    [PL KRAKOW09] Akademia Muzyczna im. Krzysztofa Pendereckiego w Krakowie  (KRAKOW)
+    [PL POZNAN06] Akademia Muzyczna im. Ignacego Jana Paderewskiego w Poznaniu  (Poznan)
+    [PL WARSZAW09] Uniwersytet Muzyczny Fryderyka Chopina w Warszawie  (WARSAW)
+  Romania
+    [RO CLUJNAP02] Academia Nationala de Muzica Gheorghe Dima  (Cluj-Napoca)
+  Slovenia
+    [SI LJUBLJA33] Konservatorij za glasbo in balet Ljubljana  (Ljubljana)
+  Spain
+    [E  CORDOBA04] Conservatorio Superior de musica "Rafael Orozco" Cordoba  (Cordoba)
+  Sweden
+    [S  STOCKHO15] Stiftelsen Stockholms Musikpedagogiska Institut  (Huddinge)
+  Türkiye
+    [TR ANKARA26] Ankara Music and Fine Arts University  (Ankara)
+

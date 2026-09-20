@@ -1461,7 +1461,8 @@
   "classified_by": "manual",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": "Oikeushenkilön nimi (Mussida Music Publishing srl) poikkeaa oppilaitoksen nimestä: CPM Music Institute"
+  "notes": "Oikeushenkilön nimi (Mussida Music Publishing srl) poikkeaa oppilaitoksen nimestä: CPM Music Institute",
+  "public_note": "Operates as CPM Music Institute; the legal entity is registered as Mussida Music Publishing srl."
  },
  "I  MODENA05": {
   "erasmus_code_raw": "I  MODENA05",
@@ -1677,7 +1678,8 @@
   "classified_by": "manual",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": "Oikeushenkilön nimi (Saint Louis Music Center Srl) poikkeaa oppilaitoksen nimestä: Saint Louis College of Music"
+  "notes": "Oikeushenkilön nimi (Saint Louis Music Center Srl) poikkeaa oppilaitoksen nimestä: Saint Louis College of Music",
+  "public_note": "Operates as Saint Louis College of Music; the legal entity is registered as Saint Louis Music Center Srl."
  },
  "I  ROVIGO01": {
   "erasmus_code_raw": "I  ROVIGO01",
@@ -1941,7 +1943,8 @@
   "classified_by": "manual",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "",
+  "public_note": "Music provision is limited to voice and opera (Operahøgskolen, the Opera Academy)."
  },
  "N  OSLO66": {
   "erasmus_code_raw": "N  OSLO66",
@@ -2133,7 +2136,8 @@
   "classified_by": "manual",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "",
+  "public_note": "Music provision is limited to voice and opera."
  },
  "S  STOCKHO11": {
   "erasmus_code_raw": "S  STOCKHO11",
@@ -2169,7 +2173,8 @@
   "classified_by": "manual",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "",
+  "public_note": "Music provision is limited to voice and opera (opera and music theatre training)."
  },
  "SF HELSINK42": {
   "erasmus_code_raw": "SF HELSINK42",

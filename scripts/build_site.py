@@ -14,24 +14,33 @@ import sys
 from collections import Counter
 from datetime import date
 
-from common import (GEO, SITE, UPSTREAM, UPSTREAM_META, load_annotations, load_upstream, nice_case, normalize_url,
+from common import (GEO, SITE, SITE_PUBLIC, UPSTREAM, UPSTREAM_META, load_annotations, load_upstream, nice_case, normalize_url,
                     today)
 
+# Sivun tekstit ovat englanniksi; laitosten nimet säilyvät alkuperäiskielellä.
 TIER_LABELS = {
-    1: "Itsenäinen musiikkikorkeakoulu",
-    2: "Taideyliopiston musiikkiyksikkö",
+    1: "Independent music institution",
+    2: "Music unit of an arts university",
 }
+# Partneritiedot eivät ole virallista tietoa: lähde ja vastuulauseke näytetään sivulla
+PARTNER_SOURCE_NAME = "the exchange-destination list published by the University of the Arts Helsinki"
+PARTNER_SOURCE = f"Partner information is taken from {PARTNER_SOURCE_NAME}."
+DISCLAIMER = ("This page is an informal compilation of public data and is not an official publication of the "
+              "European Commission or of any of the institutions listed.")
+MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October",
+          "November", "December"]
 
 
 def scope_text(fetched, tiers):
     """Aikasidonnainen rajausteksti (BRIEF.md): hakupäivä, mukana olevat tasot, Britannia ja Sveitsi."""
     d = date.fromisoformat(fetched)
     return (
-        "Mukana ovat Erasmus-peruskirjan (ECHE) haltijat, joissa musiikki on itsenäinen tutkintoa myöntävä "
-        "yksikkö tai taideyliopiston musiikkiyksikkö. Yleisyliopistojen musiikin laitokset eivät ole vielä mukana. "
-        f"Tiedot haettu {d.day}.{d.month}.{d.year} Euroopan komission ECHE-listasta. "
-        "Britannian ja Sveitsin laitokset lisätään, kun ne ovat saaneet ECHE:n "
-        "(assosiaatio Erasmus+ -ohjelmaan 1.1.2027 alkaen)."
+        "Included are holders of the Erasmus Charter for Higher Education (ECHE) where music is an independent "
+        "degree-awarding institution or the music unit of an arts university. Music departments of general "
+        "universities are not yet included. "
+        f"Data retrieved {d.day} {MONTHS[d.month - 1]} {d.year} from the European Commission's ECHE list. "
+        "Institutions in the United Kingdom and Switzerland will be added once they have been awarded an ECHE "
+        "(association with Erasmus+ from 1 January 2027)."
     )
 
 
@@ -70,7 +79,7 @@ def build():
                 "oid": r["oid"],
                 "name": name,
                 "name_lang": v.get("organisationLegalNameLang") if v.get("organisationLegalName") else None,
-                "name_upstream": r["organisationLegalName"] if r["organisationLegalName"] != name else None,
+                "name_upstream": r["organisationLegalName"] if r["organisationLegalName"].casefold() != name.casefold() else None,  # vain jos muutakin kuin kirjainkoko eroaa
                 "country": r["countryName"],
                 "country_code": cc,
                 "city": nice_case(v.get("city") or r["city"], cc),
@@ -81,8 +90,7 @@ def build():
                 "institution_type": a["institution_type"],
                 "languages_of_instruction": a.get("languages_of_instruction"),
                 "partner_of_siba": a.get("partner_of_siba"),
-                "classification_note": a.get("classification_note"),
-                "notes": a.get("notes") or None,
+                "public_note": a.get("public_note"),  # julkinen englanninkielinen huomautus; classification_note ja notes ovat sisäisiä
                 "lat": g["lat"] if has_geo else None,
                 "lon": g["lon"] if has_geo else None,
                 "geo_precision": g["precision"] if has_geo else None,
@@ -104,10 +112,16 @@ def build():
             "counts": {"tier1": counts[1], "tier2": counts[2], "total": len(items)},
             "tier_labels": {str(k): v for k, v in TIER_LABELS.items()},
             "scope_text": scope_text(fetched, counts),
+            "partner_source": PARTNER_SOURCE,
+            "partner_source_name": PARTNER_SOURCE_NAME,
+            "disclaimer": DISCLAIMER,
         },
         "institutions": items,
     }
     SITE.write_text(json.dumps(site, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    if SITE_PUBLIC:  # kopio julkaistavaan kansioon, jotta site/ on itsenäinen
+        SITE_PUBLIC.parent.mkdir(parents=True, exist_ok=True)
+        SITE_PUBLIC.write_text(SITE.read_text(encoding="utf-8"), encoding="utf-8")
     return site, warnings
 
 
