@@ -129,11 +129,35 @@ eikä kuulu vaiheisiin 2–5. Rajatapaukset, joissa on epäselvää onko musiikk
 itsenäinen yksikkö vai osa yleisyliopistoa, merkitään tasolle 3 ja jätetään
 toistaiseksi pois.
 
-**Kreikka ja Turkki:** näiden maiden musiikkikoulutus on yleisyliopistojen
-sisällä, joten se kuuluu tasolle 3. Kreikan ja Turkin laitoksia ei siis oteta
-mukaan tasoina 1–2, vaikka nimihaku osuisi niihin (esim. Ankara Music and Fine
-Arts University ja Mimar Sinan Fine Arts University on tarkistettava tätä
-sääntöä vasten ennen kuin ne luokitellaan).
+**Taso määräytyy rakenteesta, ei maasta.** Ratkaisevaa on emo-organisaation
+luonne: jos musiikki kuuluu taidekorkeakouluun (taideyliopisto tai muu
+taiteisiin keskittynyt korkeakoulu), kyseessä on taso 2; jos emo-organisaatio
+on monialainen yleisyliopisto, kyseessä on taso 3. Maa ei koskaan yksin
+ratkaise tasoa, vaan jokainen laitos arvioidaan itse.
+
+Esimerkki: Kreikassa kaikki tunnetut musiikkikoulutuksen tapaukset osuvat
+tasolle 3, koska musiikki on yleisyliopistojen sisällä. Tämä on havainto
+nykyisestä tilanteesta, ei sääntö: jos Kreikassa olisi taidekorkeakoulun
+musiikkiyksikkö, se olisi taso 2.
+
+Ankara Music and Fine Arts University ja Mimar Sinan Fine Arts University ovat
+tasoa 2: emo-organisaatio on taidekorkeakoulu.
+
+**Laitoksen asemaa ei arvioida.** ECHE-haltijuus tarkoittaa kansallisen
+viranomaisen tunnustusta korkeakouluksi, joten sitä, onko laitos oikea
+korkeakoulu, ei tarvitse erikseen selvittää. Ainoa kysymys on kuuluuko laitos
+musiikkiin.
+
+**Oikeushenkilön nimi voi poiketa oppilaitoksen nimestä**, erityisesti
+Italiassa ja Espanjassa (srl, SL, fundació). Esimerkiksi *Saint Louis Music
+Center Srl* on Saint Louis College of Music ja *Mussida Music Publishing srl* on
+CPM Music Institute. Nimihaku voi siis osua yritysmuotoon tai ohittaa
+oppilaitoksen kokonaan: tarkista oppilaitoksen oma nimi ja kirjaa se
+`annotations.json`:n `notes`-kenttään, kun se poikkeaa ECHE-listan nimestä.
+
+Tasolla 2 laitoksen musiikkitarjonta voi olla suppea (esim. vain laulu ja
+oopperakoulutus). Se kirjataan `classification_note`-kenttään, ja laitos pysyy
+silti tasolla 2.
 
 Sivulla on oltava näkyvissä käytetty rajanveto, esimerkiksi: *"Mukana laitokset,
 joissa musiikki on itsenäinen tutkintoa myöntävä yksikkö."* Kun vain tasot 1 ja 2
