@@ -1,0 +1,172 @@
+[
+ {
+  "key": "F  TALENCE09",
+  "key_source": "normalized",
+  "erasmus_code_raw": "F  TALENCE09",
+  "name": "Association de gestion du Conservatoire des Arts et Métiers en Nouvelle Aquitaine",
+  "name_verified": null,
+  "city": "Bègles",
+  "country_code": "FR",
+  "country": "France",
+  "webpage": "https://www.cnam-nouvelle-aquitaine.fr",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ],
+  "excluded_by": "cnam",
+  "reason": "Conservatoire national des arts et métiers (CNAM) ei ole musiikkilaitos"
+ },
+ {
+  "key": "F  MARSEIL118",
+  "key_source": "normalized",
+  "erasmus_code_raw": "F  MARSEIL118",
+  "name": "CONSERVATOIRE NATIONAL DES ARTS ET METIERS DE PROVENCE ALPES COTE D'AZUR",
+  "name_verified": null,
+  "city": "MARSEILLE",
+  "country_code": "FR",
+  "country": "France",
+  "webpage": null,
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ],
+  "excluded_by": "cnam",
+  "reason": "Conservatoire national des arts et métiers (CNAM) ei ole musiikkilaitos"
+ },
+ {
+  "key": "F  NANCY51",
+  "key_source": "normalized",
+  "erasmus_code_raw": "F  NANCY51",
+  "name": "ASSOCIATION DE GESTION DU CONSERVATOIRE NATIONAL DES ARTS ET METIERS DE LA REGION GRAND EST",
+  "name_verified": null,
+  "city": "Nancy",
+  "country_code": "FR",
+  "country": "France",
+  "webpage": "http://www.cnam-grandest.fr/",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ],
+  "excluded_by": "cnam",
+  "reason": "Conservatoire national des arts et métiers (CNAM) ei ole musiikkilaitos"
+ },
+ {
+  "key": "F  NANTES85",
+  "key_source": "normalized",
+  "erasmus_code_raw": "F  NANTES85",
+  "name": "Conservatoire National des Arts et Métiers des Pays-de-la-Loire",
+  "name_verified": null,
+  "city": "Nantes",
+  "country_code": "FR",
+  "country": "France",
+  "webpage": "www.cnam-paysdelaloire.fr",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ],
+  "excluded_by": "cnam",
+  "reason": "Conservatoire national des arts et métiers (CNAM) ei ole musiikkilaitos"
+ },
+ {
+  "key": "F  PARIS443",
+  "key_source": "normalized",
+  "erasmus_code_raw": "F  PARIS443",
+  "name": "Conservatoire National Supérieur d'Art Dramatique",
+  "name_verified": null,
+  "city": "PARIS",
+  "country_code": "FR",
+  "country": "France",
+  "webpage": "www.cnsad.fr",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ],
+  "excluded_by": "drama",
+  "reason": "Draamakonservatorio: näyttelijäkoulutus, ei musiikkia"
+ },
+ {
+  "key": "F  PARIS056",
+  "key_source": "normalized",
+  "erasmus_code_raw": "F  PARIS056",
+  "name": "CONSERVATOIRE NATIONAL DES ARTS ET METIERS",
+  "name_verified": null,
+  "city": "PARIS CEDEX 03",
+  "country_code": "FR",
+  "country": "France",
+  "webpage": null,
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ],
+  "excluded_by": "cnam",
+  "reason": "Conservatoire national des arts et métiers (CNAM) ei ole musiikkilaitos"
+ },
+ {
+  "key": "E  ALICANT36",
+  "key_source": "normalized",
+  "erasmus_code_raw": "E  ALICANT36",
+  "name": "CONSERVATORIO SUPERIOR DE DANZA DE ALICANTE",
+  "name_verified": null,
+  "city": "ALICANTE",
+  "country_code": "ES",
+  "country": "Spain",
+  "webpage": "www.csdalicante.com",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ],
+  "excluded_by": "dance-only",
+  "reason": "Pelkkä tanssilaitos: nimessä \"Danza\"/\"Dansa\" mutta ei \"Música\""
+ },
+ {
+  "key": "E  MADRID169",
+  "key_source": "normalized",
+  "erasmus_code_raw": "E  MADRID169",
+  "name": "Conservatorio Superior de Danza María de Ávila",
+  "name_verified": null,
+  "city": "Madrid",
+  "country_code": "ES",
+  "country": "Spain",
+  "webpage": "http://www.csdma.es",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ],
+  "excluded_by": "dance-only",
+  "reason": "Pelkkä tanssilaitos: nimessä \"Danza\"/\"Dansa\" mutta ei \"Música\""
+ },
+ {
+  "key": "E  MALAGA21",
+  "key_source": "normalized",
+  "erasmus_code_raw": "E  MALAGA21",
+  "name": "Conservatorio Superior de Danza de Málaga Angel Pericet",
+  "name_verified": null,
+  "city": "Malaga",
+  "country_code": "ES",
+  "country": "Spain",
+  "webpage": "csdanzamalaga.com",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ],
+  "excluded_by": "dance-only",
+  "reason": "Pelkkä tanssilaitos: nimessä \"Danza\"/\"Dansa\" mutta ei \"Música\""
+ },
+ {
+  "key": "E  VALENCI42",
+  "key_source": "normalized",
+  "erasmus_code_raw": "E  VALENCI42",
+  "name": "Conservatori Superior de Dansa de València",
+  "name_verified": null,
+  "city": "Valencia",
+  "country_code": "ES",
+  "country": "Spain",
+  "webpage": "www.csdanza.es",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ],
+  "excluded_by": "dance-only",
+  "reason": "Pelkkä tanssilaitos: nimessä \"Danza\"/\"Dansa\" mutta ei \"Música\""
+ }
+]

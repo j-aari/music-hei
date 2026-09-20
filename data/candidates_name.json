@@ -1,0 +1,2631 @@
+[
+ {
+  "key": "A  FELDKIR03",
+  "key_source": "normalized",
+  "erasmus_code_raw": "A  FELDKIR03",
+  "name": "Stella Vorarlberg Privathochschule für Musik GmbH",
+  "name_verified": null,
+  "city": "Feldkirch",
+  "country_code": "AT",
+  "country": "Austria",
+  "webpage": "https://stella-musikhochschule.ac.at/",
+  "tier": "strict",
+  "matched": [
+   "hochschule fur musik"
+  ]
+ },
+ {
+  "key": "A  WIEN74",
+  "key_source": "normalized",
+  "erasmus_code_raw": "A  WIEN74",
+  "name": "VMI - Vienna Music Institute - Konservatorium des Herrn Mag. Ernst Ritsch",
+  "name_verified": null,
+  "city": "Wien",
+  "country_code": "AT",
+  "country": "Austria",
+  "webpage": "www.vmi.at",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "A  GRAZ03",
+  "key_source": "normalized",
+  "erasmus_code_raw": "A  GRAZ03",
+  "name": "UNIVERSITAT FUR MUSIK UND DARSTELLENDE KUNST GRAZ (KUG)",
+  "name_verified": null,
+  "city": "GRAZ",
+  "country_code": "AT",
+  "country": "Austria",
+  "webpage": "www.kug.ac.at",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ]
+ },
+ {
+  "key": "A  KLAGENF06",
+  "key_source": "normalized",
+  "erasmus_code_raw": "A  KLAGENF06",
+  "name": "Gustav Mahler Privatuniversität für Musik",
+  "name_verified": null,
+  "city": "Klagenfurt am Wörthersee",
+  "country_code": "AT",
+  "country": "Austria",
+  "webpage": "www.gmpu.ac.at",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ]
+ },
+ {
+  "key": "A  WIEN77",
+  "key_source": "normalized",
+  "erasmus_code_raw": "A  WIEN77",
+  "name": "Friedrich Gulda School of Music Wien",
+  "name_verified": null,
+  "city": "Vienna",
+  "country_code": "AT",
+  "country": "Austria",
+  "webpage": "https://gulda-school-of-music.com/",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ]
+ },
+ {
+  "key": "A  WIEN52",
+  "key_source": "normalized",
+  "erasmus_code_raw": "A  WIEN52",
+  "name": "Musik und Kunst Privatuniversität der Stadt Wien GmbH",
+  "name_verified": null,
+  "city": "Vienna",
+  "country_code": "AT",
+  "country": "Austria",
+  "webpage": "www.muk.ac.at",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ]
+ },
+ {
+  "key": "A  WIEN08",
+  "key_source": "normalized",
+  "erasmus_code_raw": "A  WIEN08",
+  "name": "UNIVERSITAT FUR MUSIK UND DARSTELLENDE KUNST WIEN",
+  "name_verified": null,
+  "city": "WIEN",
+  "country_code": "AT",
+  "country": "Austria",
+  "webpage": "www.mdw.ac.at",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ]
+ },
+ {
+  "key": "A  WIEN76",
+  "key_source": "normalized",
+  "erasmus_code_raw": "A  WIEN76",
+  "name": "JAM MUSIC LAB Private University for Jazz and Popular Music",
+  "name_verified": null,
+  "city": "Wien",
+  "country_code": "AT",
+  "country": "Austria",
+  "webpage": "www.jammusiclab.com",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ]
+ },
+ {
+  "key": "B  BRUXEL07",
+  "key_source": "normalized",
+  "erasmus_code_raw": "B  BRUXEL07",
+  "name": "Conservatoire royal de Bruxelles",
+  "name_verified": null,
+  "city": "Bruxelles",
+  "country_code": "BE",
+  "country": "Belgium",
+  "webpage": "www.conservatoire.be",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "B  LIEGE03",
+  "key_source": "normalized",
+  "erasmus_code_raw": "B  LIEGE03",
+  "name": "Conservatoire royal de Liège",
+  "name_verified": null,
+  "city": "LIÈGE",
+  "country_code": "BE",
+  "country": "Belgium",
+  "webpage": "www.crlg.be",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "BG SOFIA13",
+  "key_source": "normalized",
+  "erasmus_code_raw": "BG SOFIA13",
+  "name": "NATIONAL ACADEMY OF MUSIC\"PROF.PANCHO VLADIGEROV\"",
+  "name_verified": null,
+  "city": "SOFIA",
+  "country_code": "BG",
+  "country": "Bulgaria",
+  "webpage": "www.nma.bg",
+  "tier": "strict",
+  "matched": [
+   "academy of music"
+  ]
+ },
+ {
+  "key": "BG PLOVDIV07",
+  "key_source": "normalized",
+  "erasmus_code_raw": "BG PLOVDIV07",
+  "name": "AKADEMIYA ZA MUZIKALNO, TANTZOVO IIZOBRAZITELNO IZKUSTVO PLOVDIV",
+  "name_verified": null,
+  "city": "Plovdiv",
+  "country_code": "BG",
+  "country": "Bulgaria",
+  "webpage": "http://www.artacademyplovdiv.com",
+  "tier": "weak",
+  "matched": [
+   "muzi-/muzy-",
+   "muusika/muzika"
+  ]
+ },
+ {
+  "key": "CY NICOSIA42",
+  "key_source": "normalized",
+  "erasmus_code_raw": "CY NICOSIA42",
+  "name": "HELLENIC COLLEGE OF MUSIC PITSA SPYRIDAKI & COMPANY LIMITED",
+  "name_verified": null,
+  "city": "Nicosia",
+  "country_code": "CY",
+  "country": "Cyprus",
+  "webpage": "https://artemusicacademy.com/",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ]
+ },
+ {
+  "key": "CZ BRNO03",
+  "key_source": "normalized",
+  "erasmus_code_raw": "CZ BRNO03",
+  "name": "JANACKOVA AKADEMIE MUZICKYCH UMENI V BRNE",
+  "name_verified": null,
+  "city": "BRNO",
+  "country_code": "CZ",
+  "country": "Czechia",
+  "webpage": "www.jamu.cz",
+  "tier": "weak",
+  "matched": [
+   "muzi-/muzy-"
+  ]
+ },
+ {
+  "key": "CZ PRAHA04",
+  "key_source": "normalized",
+  "erasmus_code_raw": "CZ PRAHA04",
+  "name": "AKADEMIE MUZICKYCH UMENI V PRAZE",
+  "name_verified": null,
+  "city": "PRAHA 1",
+  "country_code": "CZ",
+  "country": "Czechia",
+  "webpage": "www.amu.cz",
+  "tier": "weak",
+  "matched": [
+   "muzi-/muzy-"
+  ]
+ },
+ {
+  "key": "DK ARHUS05",
+  "key_source": "normalized",
+  "erasmus_code_raw": "DK ARHUS05",
+  "name": "Det Jyske Musikkonservatorium",
+  "name_verified": null,
+  "city": "Aarhus",
+  "country_code": "DK",
+  "country": "Denmark",
+  "webpage": "www.musikkons.dk",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "DK KOBENHA09",
+  "key_source": "normalized",
+  "erasmus_code_raw": "DK KOBENHA09",
+  "name": "Det Kongelige Danske Musikkonservatorium",
+  "name_verified": null,
+  "city": "Frederiksberg",
+  "country_code": "DK",
+  "country": "Denmark",
+  "webpage": "www.dkdm.dk",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "DK KOBENHA39",
+  "key_source": "normalized",
+  "erasmus_code_raw": "DK KOBENHA39",
+  "name": "Rytmisk Musikkonservatorium",
+  "name_verified": null,
+  "city": "KØBENHAVN",
+  "country_code": "DK",
+  "country": "Denmark",
+  "webpage": "www.rmc.dk",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "DK ODENSE22",
+  "key_source": "normalized",
+  "erasmus_code_raw": "DK ODENSE22",
+  "name": "Syddansk Musikkonservatorium - Danish National Academy of Music",
+  "name_verified": null,
+  "city": "Odense C.",
+  "country_code": "DK",
+  "country": "Denmark",
+  "webpage": "www.sdmk.dk",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium",
+   "academy of music"
+  ]
+ },
+ {
+  "key": "EE TALLINN03",
+  "key_source": "normalized",
+  "erasmus_code_raw": "EE TALLINN03",
+  "name": "Estonian Academy of Music and Theatre",
+  "name_verified": null,
+  "city": "Tallinn",
+  "country_code": "EE",
+  "country": "Estonia",
+  "webpage": "https://eamt.ee/",
+  "tier": "strict",
+  "matched": [
+   "academy of music"
+  ]
+ },
+ {
+  "key": "F  LYON24",
+  "key_source": "normalized",
+  "erasmus_code_raw": "F  LYON24",
+  "name": "CONSERVATOIRE NATIONAL SUPERIEUR DEMUSIQUE ET DE DANSE DE  LYON",
+  "name_verified": null,
+  "city": "LYON",
+  "country_code": "FR",
+  "country": "France",
+  "webpage": "www.cnsmd-lyon.fr",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "F  PARIS119",
+  "key_source": "normalized",
+  "erasmus_code_raw": "F  PARIS119",
+  "name": "CONSERVATOIRE NATIONAL SUPERIEUR DE MUSIQUE ET DE DANSE DE PARIS",
+  "name_verified": null,
+  "city": "PARIS",
+  "country_code": "FR",
+  "country": "France",
+  "webpage": "www.conservatoiredeparis.fr",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "F  AIX-PRO29",
+  "key_source": "normalized",
+  "erasmus_code_raw": "F  AIX-PRO29",
+  "name": "Institut d'Enseignement Supérieur de la Musique- Europe Méditerranée",
+  "name_verified": null,
+  "city": "Aix en Provence",
+  "country_code": "FR",
+  "country": "France",
+  "webpage": "www.iesm.fr",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ]
+ },
+ {
+  "key": "F  BORDEAU62",
+  "key_source": "normalized",
+  "erasmus_code_raw": "F  BORDEAU62",
+  "name": "Pôle d'Enseignement Supérieur de la Musique et de la Danse de Bordeaux Aquitaine",
+  "name_verified": null,
+  "city": "Bordeaux",
+  "country_code": "FR",
+  "country": "France",
+  "webpage": "www.pesmd-bordeaux-aquitaine.com",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ]
+ },
+ {
+  "key": "F  DIJON32",
+  "key_source": "normalized",
+  "erasmus_code_raw": "F  DIJON32",
+  "name": "Ecole supérieure de musique Bourgogne-Franche-Comté",
+  "name_verified": null,
+  "city": "DIJON",
+  "country_code": "FR",
+  "country": "France",
+  "webpage": "www.esmbourgognefranchecomte.fr",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ]
+ },
+ {
+  "key": "F  LYON128",
+  "key_source": "normalized",
+  "erasmus_code_raw": "F  LYON128",
+  "name": "ASSOCIATION DE GESTION DU CENTRE DE FORMATION DES ENSEIGNANTS DE MUSIQUE AUVERGNE RHONE ALPES",
+  "name_verified": null,
+  "city": "LYON",
+  "country_code": "FR",
+  "country": "France",
+  "webpage": "http://www.cefedem-aura.org/",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ]
+ },
+ {
+  "key": "F  LILLE71",
+  "key_source": "normalized",
+  "erasmus_code_raw": "F  LILLE71",
+  "name": "Ecole Supérieure Musique et Danse Hauts-de-France - Lille",
+  "name_verified": null,
+  "city": "Lille",
+  "country_code": "FR",
+  "country": "France",
+  "webpage": "www.esmd.fr",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ]
+ },
+ {
+  "key": "F  ROUEN44",
+  "key_source": "normalized",
+  "erasmus_code_raw": "F  ROUEN44",
+  "name": "Centre de formation des enseignants de la danse et de la musique de Normandie",
+  "name_verified": null,
+  "city": "MONT-SAINT-AIGNAN",
+  "country_code": "FR",
+  "country": "France",
+  "webpage": "www.cefedem-normandie.fr",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ]
+ },
+ {
+  "key": "F  MELUN07",
+  "key_source": "normalized",
+  "erasmus_code_raw": "F  MELUN07",
+  "name": "CENTRE DES MUSIQUES DIDIER LOCKWOOD",
+  "name_verified": null,
+  "city": "dammarie-lès-lys",
+  "country_code": "FR",
+  "country": "France",
+  "webpage": "http://www.cmdl.eu",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ]
+ },
+ {
+  "key": "D  BERLIN16",
+  "key_source": "normalized",
+  "erasmus_code_raw": "D  BERLIN16",
+  "name": "Hochschule für Musik \"Hanns Eisler\" Berlin",
+  "name_verified": null,
+  "city": "Berlin",
+  "country_code": "DE",
+  "country": "Germany",
+  "webpage": "https://www.hfm-berlin.de/",
+  "tier": "strict",
+  "matched": [
+   "hochschule fur musik"
+  ]
+ },
+ {
+  "key": "D  DETMOLD01",
+  "key_source": "normalized",
+  "erasmus_code_raw": "D  DETMOLD01",
+  "name": "Hochschule für Musik Detmold",
+  "name_verified": null,
+  "city": "Detmold",
+  "country_code": "DE",
+  "country": "Germany",
+  "webpage": "www.hfm-detmold.de",
+  "tier": "strict",
+  "matched": [
+   "hochschule fur musik"
+  ]
+ },
+ {
+  "key": "D  FREIBUR03",
+  "key_source": "normalized",
+  "erasmus_code_raw": "D  FREIBUR03",
+  "name": "STAATLICHE HOCHSCHULE FUR MUSIK FREIBURG",
+  "name_verified": null,
+  "city": "FREIBURG",
+  "country_code": "DE",
+  "country": "Germany",
+  "webpage": "www.mh-freiburg.de",
+  "tier": "strict",
+  "matched": [
+   "hochschule fur musik"
+  ]
+ },
+ {
+  "key": "D  FRANKFU02",
+  "key_source": "normalized",
+  "erasmus_code_raw": "D  FRANKFU02",
+  "name": "Hochschule für Musik und Darstellende Kunst Frankfurt am Main",
+  "name_verified": null,
+  "city": "Frankfurt am Main",
+  "country_code": "DE",
+  "country": "Germany",
+  "webpage": "www.hfmdk-frankfurt.de",
+  "tier": "strict",
+  "matched": [
+   "hochschule fur musik"
+  ]
+ },
+ {
+  "key": "D  HAMBURG05",
+  "key_source": "normalized",
+  "erasmus_code_raw": "D  HAMBURG05",
+  "name": "HOCHSCHULE FUER MUSIK UND THEATER HAMBURG",
+  "name_verified": null,
+  "city": "HAMBURG",
+  "country_code": "DE",
+  "country": "Germany",
+  "webpage": "www.hfmt-hamburg.de",
+  "tier": "strict",
+  "matched": [
+   "hochschule fur musik"
+  ]
+ },
+ {
+  "key": "D  HANNOVE04",
+  "key_source": "normalized",
+  "erasmus_code_raw": "D  HANNOVE04",
+  "name": "HOCHSCHULE FUR MUSIK, THEATER UND MEDIEN HANNOVER",
+  "name_verified": null,
+  "city": "HANNOVER",
+  "country_code": "DE",
+  "country": "Germany",
+  "webpage": "hmtm-hannover.de",
+  "tier": "strict",
+  "matched": [
+   "hochschule fur musik"
+  ]
+ },
+ {
+  "key": "D  HALLE04",
+  "key_source": "normalized",
+  "erasmus_code_raw": "D  HALLE04",
+  "name": "Evangelische Hochschule für Kirchenmusik Halle",
+  "name_verified": null,
+  "city": "Halle",
+  "country_code": "DE",
+  "country": "Germany",
+  "webpage": "www.ehk-halle.de",
+  "tier": "strict",
+  "matched": [
+   "hochschule fur kirchenmusik"
+  ]
+ },
+ {
+  "key": "D  KOLN03",
+  "key_source": "normalized",
+  "erasmus_code_raw": "D  KOLN03",
+  "name": "HOCHSCHULE FUR MUSIK UND TANZ KOLN",
+  "name_verified": null,
+  "city": "KOLN",
+  "country_code": "DE",
+  "country": "Germany",
+  "webpage": "www.hfmt-koeln.de",
+  "tier": "strict",
+  "matched": [
+   "hochschule fur musik"
+  ]
+ },
+ {
+  "key": "D  KARLSRU03",
+  "key_source": "normalized",
+  "erasmus_code_raw": "D  KARLSRU03",
+  "name": "Hochschule fuer Musik Karlsruhe",
+  "name_verified": null,
+  "city": "Karlsruhe",
+  "country_code": "DE",
+  "country": "Germany",
+  "webpage": "www.hfm-karlsruhe.de",
+  "tier": "strict",
+  "matched": [
+   "hochschule fur musik"
+  ]
+ },
+ {
+  "key": "D  LEIPZIG05",
+  "key_source": "normalized",
+  "erasmus_code_raw": "D  LEIPZIG05",
+  "name": "HOCHSCHULE FUR MUSIK UND THEATER FELIX MENDELSSOHN BARTHOLDY LEIPZIG",
+  "name_verified": null,
+  "city": "LEIPZIG",
+  "country_code": "DE",
+  "country": "Germany",
+  "webpage": "www.hmt-leipzig.de",
+  "tier": "strict",
+  "matched": [
+   "hochschule fur musik"
+  ]
+ },
+ {
+  "key": "D  LUBECK02",
+  "key_source": "normalized",
+  "erasmus_code_raw": "D  LUBECK02",
+  "name": "Musikhochschule Lübeck",
+  "name_verified": null,
+  "city": "Lübeck",
+  "country_code": "DE",
+  "country": "Germany",
+  "webpage": "www.mh-luebeck.de",
+  "tier": "strict",
+  "matched": [
+   "musikhochschule"
+  ]
+ },
+ {
+  "key": "D  MANNHEI02",
+  "key_source": "normalized",
+  "erasmus_code_raw": "D  MANNHEI02",
+  "name": "Staatliche Hochschule für Musik und Darstellende Kunst Mannheim",
+  "name_verified": null,
+  "city": "Mannheim",
+  "country_code": "DE",
+  "country": "Germany",
+  "webpage": "www.muho-mannheim.de",
+  "tier": "strict",
+  "matched": [
+   "hochschule fur musik"
+  ]
+ },
+ {
+  "key": "D  MUNCHEN03",
+  "key_source": "normalized",
+  "erasmus_code_raw": "D  MUNCHEN03",
+  "name": "Hochschule für Musik und Theater München",
+  "name_verified": null,
+  "city": "München",
+  "country_code": "DE",
+  "country": "Germany",
+  "webpage": "www.musikhochschule-muenchen.de",
+  "tier": "strict",
+  "matched": [
+   "hochschule fur musik"
+  ]
+ },
+ {
+  "key": "D  NURNBER04",
+  "key_source": "normalized",
+  "erasmus_code_raw": "D  NURNBER04",
+  "name": "HOCHSCHULE FUER MUSIK NUERNBERG",
+  "name_verified": null,
+  "city": "NUERNBERG",
+  "country_code": "DE",
+  "country": "Germany",
+  "webpage": "https://www.hfm-nuernberg.de/",
+  "tier": "strict",
+  "matched": [
+   "hochschule fur musik"
+  ]
+ },
+ {
+  "key": "D  REGENSB03",
+  "key_source": "normalized",
+  "erasmus_code_raw": "D  REGENSB03",
+  "name": "Hochschule für katholische Kirchenmusik und Musikpädagogik Regensburg",
+  "name_verified": null,
+  "city": "Regensburg",
+  "country_code": "DE",
+  "country": "Germany",
+  "webpage": "www.hfkm-regensburg.de",
+  "tier": "strict",
+  "matched": [
+   "hochschule fur kirchenmusik"
+  ]
+ },
+ {
+  "key": "D  ROSTOCK02",
+  "key_source": "normalized",
+  "erasmus_code_raw": "D  ROSTOCK02",
+  "name": "Hochschule für Musik und Theater Rostock",
+  "name_verified": null,
+  "city": "Rostock",
+  "country_code": "DE",
+  "country": "Germany",
+  "webpage": "www.hmt-rostock.de",
+  "tier": "strict",
+  "matched": [
+   "hochschule fur musik"
+  ]
+ },
+ {
+  "key": "D  STUTTGA03",
+  "key_source": "normalized",
+  "erasmus_code_raw": "D  STUTTGA03",
+  "name": "STAATLICHE HOCHSCHULE FUR MUSIK UND DARSTELLENDE KUNST STUTTGART",
+  "name_verified": null,
+  "city": "STUTTGART",
+  "country_code": "DE",
+  "country": "Germany",
+  "webpage": "www.hmdk-stuttgart.de",
+  "tier": "strict",
+  "matched": [
+   "hochschule fur musik"
+  ]
+ },
+ {
+  "key": "D  SAARBRU08",
+  "key_source": "normalized",
+  "erasmus_code_raw": "D  SAARBRU08",
+  "name": "Hochschule für Musik Saar",
+  "name_verified": null,
+  "city": "Saarbrücken",
+  "country_code": "DE",
+  "country": "Germany",
+  "webpage": "www.hfm.saarland.de",
+  "tier": "strict",
+  "matched": [
+   "hochschule fur musik"
+  ]
+ },
+ {
+  "key": "D  TROSSIN01",
+  "key_source": "normalized",
+  "erasmus_code_raw": "D  TROSSIN01",
+  "name": "Staatliche Hochschule für Musik Trossingen",
+  "name_verified": null,
+  "city": "Trossingen",
+  "country_code": "DE",
+  "country": "Germany",
+  "webpage": "www.mh-trossingen.de",
+  "tier": "strict",
+  "matched": [
+   "hochschule fur musik"
+  ]
+ },
+ {
+  "key": "D  TUBINGE02",
+  "key_source": "normalized",
+  "erasmus_code_raw": "D  TUBINGE02",
+  "name": "Evangelische Hochschule für Kirchenmusik Tübingen",
+  "name_verified": null,
+  "city": "Tuebingen",
+  "country_code": "DE",
+  "country": "Germany",
+  "webpage": "www.kirchenmusikhochschule.de",
+  "tier": "strict",
+  "matched": [
+   "hochschule fur kirchenmusik"
+  ]
+ },
+ {
+  "key": "D  WEIMAR02",
+  "key_source": "normalized",
+  "erasmus_code_raw": "D  WEIMAR02",
+  "name": "Hochschule fuer Musik Franz Liszt Weimar",
+  "name_verified": null,
+  "city": "Weimar",
+  "country_code": "DE",
+  "country": "Germany",
+  "webpage": "www.hfm-weimar.de",
+  "tier": "strict",
+  "matched": [
+   "hochschule fur musik"
+  ]
+ },
+ {
+  "key": "D  WURZBUR02",
+  "key_source": "normalized",
+  "erasmus_code_raw": "D  WURZBUR02",
+  "name": "Hochschule für Musik Würzburg",
+  "name_verified": null,
+  "city": "Würzburg",
+  "country_code": "DE",
+  "country": "Germany",
+  "webpage": "http://www.hfm-wuerzburg.de",
+  "tier": "strict",
+  "matched": [
+   "hochschule fur musik"
+  ]
+ },
+ {
+  "key": "D  DRESDEN05",
+  "key_source": "normalized",
+  "erasmus_code_raw": "D  DRESDEN05",
+  "name": "University of Music Carl Maria von Weber Dresden",
+  "name_verified": null,
+  "city": "Dresden",
+  "country_code": "DE",
+  "country": "Germany",
+  "webpage": "www.hfmdd.de",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ]
+ },
+ {
+  "key": "HU BUDAPES25",
+  "key_source": "normalized",
+  "erasmus_code_raw": "HU BUDAPES25",
+  "name": "LISZT FERENC ZENEMUVESZETI EGYETEM",
+  "name_verified": null,
+  "city": "BUDAPEST",
+  "country_code": "HU",
+  "country": "Hungary",
+  "webpage": "www.lisztacademy.hu",
+  "tier": "weak",
+  "matched": [
+   "zene"
+  ]
+ },
+ {
+  "key": "IRLDUBLIN22",
+  "key_source": "normalized",
+  "erasmus_code_raw": "IRLDUBLIN22",
+  "name": "Royal Irish Academy of Music",
+  "name_verified": null,
+  "city": "Dublin 2",
+  "country_code": "IE",
+  "country": "Ireland",
+  "webpage": "www.riam.ie",
+  "tier": "strict",
+  "matched": [
+   "academy of music"
+  ]
+ },
+ {
+  "key": "I  AVELLIN01",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  AVELLIN01",
+  "name": "Conservatorio Statale di Musica Domenico Cimarosa di Avellino",
+  "name_verified": null,
+  "city": "AVELLINO",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conservatoriocimarosa.org",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  ADRIA01",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  ADRIA01",
+  "name": "Conservatorio di Adria",
+  "name_verified": null,
+  "city": "Adria (RO)",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conservatorioadria.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  ALESSAN01",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  ALESSAN01",
+  "name": "Conservatorio di Musica \"A. Vivaldi\"",
+  "name_verified": null,
+  "city": "Alessandria",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conservatoriovivaldi.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  BENEVEN03",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  BENEVEN03",
+  "name": "Conservatorio Statale di Musica Nicola Sala",
+  "name_verified": null,
+  "city": "BENEVENTO",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conservatorionicolasala.eu",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  BARI03",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  BARI03",
+  "name": "Conservatorio di musica \"Niccolò Piccinni\" - Bari",
+  "name_verified": null,
+  "city": "Bari",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.consba.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  BOLOGNA04",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  BOLOGNA04",
+  "name": "Conservatorio di Musica G.B.Martini",
+  "name_verified": null,
+  "city": "Bologna",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.consbo.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  BOLZANO02",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  BOLZANO02",
+  "name": "Conservatorio di musica \"Claudio Monteverdi\" Musik-Konservatorium Bolzano-Bozen",
+  "name_verified": null,
+  "city": "Bolzano",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.cons.bz.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  BRESCIA06",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  BRESCIA06",
+  "name": "Conservatorio di Musica Luca Marenzio",
+  "name_verified": null,
+  "city": "Brescia",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conservatorio.brescia.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  CAGLIAR02",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  CAGLIAR02",
+  "name": "CONSERVATORIO STATALE DI MUSICA GIOVANNI PIERLUIGI DA PALESTRINA DI CAGLIARI",
+  "name_verified": null,
+  "city": "CAGLIARI",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conservatoriocagliari.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  CALTANI01",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  CALTANI01",
+  "name": "CONSERVATORIO STATALE DI MUSICA VINCENZO BELLINI DI CALTANISSETTA",
+  "name_verified": null,
+  "city": "CALTANISSETTA",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.istitutobellini.cl.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  CASTELF01",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  CASTELF01",
+  "name": "CONSERVATORIO STATALE DI MUSICA A.STEFFANI",
+  "name_verified": null,
+  "city": "CASTELFRANCO VENETO",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conscfv.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  CESENA03",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  CESENA03",
+  "name": "CONSERVATORIO MADERNALETTIMI",
+  "name_verified": null,
+  "city": "CESENA",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conservatoriomadernalettimi.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  COSENZA03",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  COSENZA03",
+  "name": "Conservatorio di Musica \"Stanislao Giacomantonio\"",
+  "name_verified": null,
+  "city": "COSENZA",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conservatoriodicosenza.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  CREMONA01",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  CREMONA01",
+  "name": "Conservatorio di Musica 'Claudio Monteverdi' di Cremona",
+  "name_verified": null,
+  "city": "CREMONA",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "https://www.conscremona.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  CUNEO01",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  CUNEO01",
+  "name": "INSTITUTO SUPERIORE DI STDUDI MUSICALI - CONSERVATORIO DI MUSICA GIORGIO FEDERICO GHEDINI DI CUNEO",
+  "name_verified": null,
+  "city": "CUNEO",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conservatoriocuneo.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  CAMPOBA03",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  CAMPOBA03",
+  "name": "Conservatorio Statale di Musica \"L. Perosi\" Campobasso",
+  "name_verified": null,
+  "city": "Campobasso",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conservatorioperosi.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  COMO04",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  COMO04",
+  "name": "Conservatorio di Como",
+  "name_verified": null,
+  "city": "Como",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conservatoriocomo.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  FERMO01",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  FERMO01",
+  "name": "CONSERVATORIO STATALE DI MUSICA \"G.B. PERGOLESI\" - FERMO",
+  "name_verified": null,
+  "city": "Fermo",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conservatorio.net",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  FERRARA02",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  FERRARA02",
+  "name": "Conservatorio Statale di Musica \"G. Frescobaldi\" Ferrara",
+  "name_verified": null,
+  "city": "Ferrara",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conservatorioferrara.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  FIRENZE04",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  FIRENZE04",
+  "name": "Conservatorio di Musica \"Luigi Cherubini\"",
+  "name_verified": null,
+  "city": "Firenze",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conservatorio.firenze.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  FOGGIA02",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  FOGGIA02",
+  "name": "CONSERVATORIO STATALE DI MUSICA \"UMBERTO GIORDANO\"",
+  "name_verified": null,
+  "city": "Foggia",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conservatoriofoggia.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  FROSINO02",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  FROSINO02",
+  "name": "Conservatorio di Musica \"L. Refice\"",
+  "name_verified": null,
+  "city": "Frosinone",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conservatorio-frosinone.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  GENOVA02",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  GENOVA02",
+  "name": "Conservatorio Statale di Musica Niccolò Paganini",
+  "name_verified": null,
+  "city": "GENOVA",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conspaganini.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  VARESE05",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  VARESE05",
+  "name": "Conservatorio Statale di Musica Giacomo Puccini",
+  "name_verified": null,
+  "city": "Gallarate (VA)",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "http://www.issmpuccinigallarate.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  L-AQUIL04",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  L-AQUIL04",
+  "name": "CONSERVATORIO DI MUSICA ALFREDO CASELLA",
+  "name_verified": null,
+  "city": "L AQUILA",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.consaq.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  LA-SPEZ01",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  LA-SPEZ01",
+  "name": "CONSERVATORIO DI MUSICA GIACOMO PUCCINI - LA SPEZIA",
+  "name_verified": null,
+  "city": "LA SPEZIA",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conssp.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  LATINA02",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  LATINA02",
+  "name": "Conservatorio di Musica di Latina - Ottorino Respighi",
+  "name_verified": null,
+  "city": "LATINA",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conslatina.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  LIVORNO01",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  LIVORNO01",
+  "name": "Conservatorio statale \"Pietro Mascagni\"",
+  "name_verified": null,
+  "city": "LIVORNO",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.consli.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  LECCE03",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  LECCE03",
+  "name": "Conservatorio di Musica di Lecce - Tito Schipa",
+  "name_verified": null,
+  "city": "Lecce",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conservatoriolecce.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  LUCCA03",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  LUCCA03",
+  "name": "Conservatorio di musica \"Luigi Boccherini\"",
+  "name_verified": null,
+  "city": "Lucca",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.boccherini.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  MANTOVA01",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  MANTOVA01",
+  "name": "Conservatorio di Musica \"Lucio Campiani\" Mantova",
+  "name_verified": null,
+  "city": "MANTOVA",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conservatoriomantova.com",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  MILANO09",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  MILANO09",
+  "name": "CONSERVATORIO DI MUSICA \"G.VERDI\" DI MILANO",
+  "name_verified": null,
+  "city": "MILANO",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "WWW.CONSMILANO.IT",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  MATERA01",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  MATERA01",
+  "name": "Conservatorio di Musica \"Egidio Romualdo Duni\" di Matera",
+  "name_verified": null,
+  "city": "Matera",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conservatoriomatera.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  MESSINA04",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  MESSINA04",
+  "name": "Conservatorio di Musica \"A. Corelli\" Messina",
+  "name_verified": null,
+  "city": "Messina",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.consme.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  MODENA05",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  MODENA05",
+  "name": "Conservatorio di Musica Vecchi Tonelli",
+  "name_verified": null,
+  "city": "Modena",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.vecchitonelli.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  MONOPOL02",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  MONOPOL02",
+  "name": "Conservatorio di Musica \"Nino Rota\"",
+  "name_verified": null,
+  "city": "Monopoli",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conservatoriodimonopoli.org",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  NAPOLI07",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  NAPOLI07",
+  "name": "Conservatorio San Pietro a Majella",
+  "name_verified": null,
+  "city": "Napoli",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.sanpietroamajella.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  CATANZA04",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  CATANZA04",
+  "name": "Conservatorio Statale di Musica P.I. Tchaikovsky",
+  "name_verified": null,
+  "city": "Nocera Terinese",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conscz.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  NOVARA01",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  NOVARA01",
+  "name": "Conservatorio Statale di Musica Guido Cantelli",
+  "name_verified": null,
+  "city": "Novara",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.consno.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  PARMA02",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  PARMA02",
+  "name": "CONSERVATORIO DI MUSICA ARRIGO BOITO",
+  "name_verified": null,
+  "city": "PARMA",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conservatorio.pr.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  PAVIA02",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  PAVIA02",
+  "name": "CONSERVATORIO DI MUSICA FRANCO VITTADINI",
+  "name_verified": null,
+  "city": "PAVIA",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conspv.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  PIACENZ01",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  PIACENZ01",
+  "name": "Conservatorio di Musica \"Giuseppe Nicolini\"",
+  "name_verified": null,
+  "city": "PIACENZA",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "https://sites.google.com/view/conservatoriopiacenza/home-page",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  PADOVA02",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  PADOVA02",
+  "name": "Conservatorio Statale di Musica C. Pollini - Padova",
+  "name_verified": null,
+  "city": "Padova",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conservatoriopollini.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  PALERMO04",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  PALERMO04",
+  "name": "CONSERVATORIO DI MUSICA DI STATO ALESSANDRO SCARLATTI PALERMO",
+  "name_verified": null,
+  "city": "Palermo",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conservatoriopalermo.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  PERUGIA03",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  PERUGIA03",
+  "name": "Conservatorio di Musica di Perugia",
+  "name_verified": null,
+  "city": "Perugia",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conservatorioperugia.com",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  PESARO01",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  PESARO01",
+  "name": "Conservatorio Statale di Musica \"G.Rossini\"",
+  "name_verified": null,
+  "city": "Pesaro",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conservatoriorossini.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  PESCARA01",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  PESCARA01",
+  "name": "Conservatorio Statale di Musica Luisa D'Annunzio",
+  "name_verified": null,
+  "city": "Pescara",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conspe.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  POTENZA03",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  POTENZA03",
+  "name": "Conservatorio di musica \"Gesualdo da Venosa\"",
+  "name_verified": null,
+  "city": "Potenza",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conservatoriopotenza.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  ROMA09",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  ROMA09",
+  "name": "CONSERVATORIO DI MUSICA \"SANTA CECILIA\"",
+  "name_verified": null,
+  "city": "ROMA",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conservatoriosantacecilia.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  ROVIGO01",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  ROVIGO01",
+  "name": "Conservatorio di Musica Francesco Venezze",
+  "name_verified": null,
+  "city": "ROVIGO",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conservatoriorovigo.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  REGGIO05",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  REGGIO05",
+  "name": "Conservatorio di Musica Reggio Emilia e Castelnovo ne' Monti",
+  "name_verified": null,
+  "city": "Reggio Emilia",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.peri-merulo.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  REGGIO03",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  REGGIO03",
+  "name": "Conservatorio di Musica \"F. Cilea\"",
+  "name_verified": null,
+  "city": "Reggio di Calabria",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conservatoriocilea.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  AGRIGEN02",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  AGRIGEN02",
+  "name": "Conservatorio \"Arturo Toscanini\" di Ribera",
+  "name_verified": null,
+  "city": "Ribera (AG)",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conservatoriotoscanini.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  SALERNO02",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  SALERNO02",
+  "name": "Conservatorio di Musica Giuseppe Martucci Salerno",
+  "name_verified": null,
+  "city": "Salerno",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.consalerno.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  SASSARI02",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  SASSARI02",
+  "name": "Conservatorio Statale di Musica \"L. Canepa\"",
+  "name_verified": null,
+  "city": "Sassari",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conservatorio.sassari.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  SIENA04",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  SIENA04",
+  "name": "Conservatorio di Siena \"Rinaldo Franci\"",
+  "name_verified": null,
+  "city": "Siena",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conservatoriosiena.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  TRIESTE02",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  TRIESTE02",
+  "name": "CONSERVATORIO DI MUSICA GIUSEPPE TARTINI",
+  "name_verified": null,
+  "city": "TRIESTE",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conservatorio.trieste.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  TERNI01",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  TERNI01",
+  "name": "Conservatorio Statale di Musica \"Giulio Briccialdi\" - Terni",
+  "name_verified": null,
+  "city": "Terni",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.briccialditerni.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  TORINO05",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  TORINO05",
+  "name": "Conservatorio Statale di Musica \"Giuseppe Verdi\" Torino",
+  "name_verified": null,
+  "city": "Torino",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conservatoriotorino.eu",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  TRAPANI02",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  TRAPANI02",
+  "name": "Conservatorio di Musica di Stato \"Antonio Scontrino\" - Trapani",
+  "name_verified": null,
+  "city": "Trapani",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.constp.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  TRENTO02",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  TRENTO02",
+  "name": "Conservatorio di musica \"F.A. Bonporti\" di Trento",
+  "name_verified": null,
+  "city": "Trento",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conservatorio.tn.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  UDINE02",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  UDINE02",
+  "name": "CONSERVATORIO STATALE DI MUSICA \"JACOPO TOMADINI\"",
+  "name_verified": null,
+  "city": "UDINE",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conservatorio.udine.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  VENEZIA04",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  VENEZIA04",
+  "name": "CONSERVATORIO DI MUSICA BENEDETTO MARCELLO DI VENEZIA",
+  "name_verified": null,
+  "city": "VENEZIA",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "http://www.conservatoriovenezia.net",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  VIBO-VA01",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  VIBO-VA01",
+  "name": "CONSERVATORIO DI MUSICA \"F.TORREFRANCA\" VIBO VALENTIA",
+  "name_verified": null,
+  "city": "VIBO VALENTIA",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "http://consvv.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  VICENZA03",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  VICENZA03",
+  "name": "CONSERVATORIO DI MUSICA \"ARRIGO PEDROLLO\" DI VICENZA",
+  "name_verified": null,
+  "city": "VICENZA",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.consvi.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  VERONA02",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  VERONA02",
+  "name": "Conservatorio Statale di Musica \"E. F. Dall'Abaco\"",
+  "name_verified": null,
+  "city": "Verona",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conservatorioverona.it",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "I  AOSTA03",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  AOSTA03",
+  "name": "Istituto Musicale Pareggiato della Valle d'Aosta",
+  "name_verified": null,
+  "city": "Aosta",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.consaosta.it",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ]
+ },
+ {
+  "key": "I  CATANIA06",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  CATANIA06",
+  "name": "Istituto Superiore di Studi Musicali \"Vincenzo Bellini\" Catania",
+  "name_verified": null,
+  "city": "Catania",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.istitutobellini.it",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ]
+ },
+ {
+  "key": "I  MILANO24",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  MILANO24",
+  "name": "Mussida Music Publishing srl",
+  "name_verified": null,
+  "city": "Milano",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.cpm.it",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ]
+ },
+ {
+  "key": "I  NOVARA02",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  NOVARA02",
+  "name": "Scuola del Teatro Musicale S.C.S.",
+  "name_verified": null,
+  "city": "Novara",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "http://www.scuolateatromusicale.it",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ]
+ },
+ {
+  "key": "I  RAVENNA02",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  RAVENNA02",
+  "name": "Istituto Superiore Di Studi Musicali \"Giuseppe Verdi\"",
+  "name_verified": null,
+  "city": "Ravenna",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.istitutoverdi.ra.it",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ]
+ },
+ {
+  "key": "I  ROMA30",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  ROMA30",
+  "name": "Saint Louis Music Center Srl",
+  "name_verified": null,
+  "city": "Rome",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.slmc.it",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ]
+ },
+ {
+  "key": "I  FIRENZE07",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  FIRENZE07",
+  "name": "FONDAZIONE SCUOLA DI MUSICA DI FIESOLE ONLUS",
+  "name_verified": null,
+  "city": "SAN DOMENICO DI FIESOLE FI",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.scuolamusicafiesole.it",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ]
+ },
+ {
+  "key": "I  TERAMO02",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  TERAMO02",
+  "name": "Istituto Statale Superiore di Studi Musicali e Coreutici \"G. Braga\"",
+  "name_verified": null,
+  "city": "Teramo",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.conservatoriobraga.it",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ]
+ },
+ {
+  "key": "LV RIGA05",
+  "key_source": "normalized",
+  "erasmus_code_raw": "LV RIGA05",
+  "name": "Jazepa Vitola Latvijas Muzikas akademija",
+  "name_verified": null,
+  "city": "RIGA",
+  "country_code": "LV",
+  "country": "Latvia",
+  "webpage": "www.jvlma.lv",
+  "tier": "weak",
+  "matched": [
+   "muzi-/muzy-",
+   "muusika/muzika"
+  ]
+ },
+ {
+  "key": "LT VILNIUS05",
+  "key_source": "normalized",
+  "erasmus_code_raw": "LT VILNIUS05",
+  "name": "LIETUVOS MUZIKOS IR TEATRO AKADEMIJA",
+  "name_verified": null,
+  "city": "VILNIUS",
+  "country_code": "LT",
+  "country": "Lithuania",
+  "webpage": "www.lmta.lt",
+  "tier": "weak",
+  "matched": [
+   "muzi-/muzy-",
+   "muusika/muzika"
+  ]
+ },
+ {
+  "key": "N  OSLO03",
+  "key_source": "normalized",
+  "erasmus_code_raw": "N  OSLO03",
+  "name": "NORGES MUSIKKHOGSKOLE",
+  "name_verified": null,
+  "city": "OSLO",
+  "country_code": "NO",
+  "country": "Norway",
+  "webpage": "www.nmh.no",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ]
+ },
+ {
+  "key": "N  OSLO66",
+  "key_source": "normalized",
+  "erasmus_code_raw": "N  OSLO66",
+  "name": "Barratt Due musikkinstitutt",
+  "name_verified": null,
+  "city": "Oslo",
+  "country_code": "NO",
+  "country": "Norway",
+  "webpage": "http://www.barrattdue.no/",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ]
+ },
+ {
+  "key": "PL BYDGOSZ04",
+  "key_source": "normalized",
+  "erasmus_code_raw": "PL BYDGOSZ04",
+  "name": "Akademia Muzyczna imienia Feliksa Nowowiejskiego w Bydgoszczy",
+  "name_verified": "Akademia Muzyczna im. Feliksa Nowowiejskiego w Bydgoszczy",
+  "city": "Bydgoszcz",
+  "country_code": "PL",
+  "country": "Poland",
+  "webpage": "www.amuz.bydgoszcz.pl",
+  "tier": "strict",
+  "matched": [
+   "muzyczna"
+  ]
+ },
+ {
+  "key": "PL GDANSK04",
+  "key_source": "normalized",
+  "erasmus_code_raw": "PL GDANSK04",
+  "name": "Akademia Muzyczna im. Stanislawa Moniuszki w Gdansku",
+  "name_verified": "Akademia Muzyczna im. Stanisława Moniuszki w Gdańsku",
+  "city": "Gdańsk",
+  "country_code": "PL",
+  "country": "Poland",
+  "webpage": "www.amuz.gda.pl",
+  "tier": "strict",
+  "matched": [
+   "muzyczna"
+  ]
+ },
+ {
+  "key": "PL KRAKOW09",
+  "key_source": "normalized",
+  "erasmus_code_raw": "PL KRAKOW09",
+  "name": "AKADEMIA MUZYCZNA IM. KRZYSZTOFA PENDERECKIEGO W KRAKOWIE",
+  "name_verified": "Akademia Muzyczna im. Krzysztofa Pendereckiego w Krakowie",
+  "city": "KRAKOW",
+  "country_code": "PL",
+  "country": "Poland",
+  "webpage": "www.amuz.krakow.pl",
+  "tier": "strict",
+  "matched": [
+   "muzyczna"
+  ]
+ },
+ {
+  "key": "PL KATOWIC04",
+  "key_source": "normalized",
+  "erasmus_code_raw": "PL KATOWIC04",
+  "name": "Akademia Muzyczna im. Karola Szymanowskiego",
+  "name_verified": "Akademia Muzyczna im. Karola Szymanowskiego w Katowicach",
+  "city": "Katowice",
+  "country_code": "PL",
+  "country": "Poland",
+  "webpage": "www.am.katowice.pl",
+  "tier": "strict",
+  "matched": [
+   "muzyczna"
+  ]
+ },
+ {
+  "key": "PL LODZ04",
+  "key_source": "normalized",
+  "erasmus_code_raw": "PL LODZ04",
+  "name": "Akademia Muzyczna im. Grazyny i Kiejstuta Bacewiczow w Lodzi",
+  "name_verified": "Akademia Muzyczna im. Grażyny i Kiejstuta Bacewiczów w Łodzi",
+  "city": "Lodz",
+  "country_code": "PL",
+  "country": "Poland",
+  "webpage": "www.amuz.lodz.pl",
+  "tier": "strict",
+  "matched": [
+   "muzyczna"
+  ]
+ },
+ {
+  "key": "PL POZNAN06",
+  "key_source": "normalized",
+  "erasmus_code_raw": "PL POZNAN06",
+  "name": "Akademia Muzyczna im.I. J. Paderewskiego w Poznaniu",
+  "name_verified": "Akademia Muzyczna im. Ignacego Jana Paderewskiego w Poznaniu",
+  "city": "Poznan",
+  "country_code": "PL",
+  "country": "Poland",
+  "webpage": "www.amuz.edu.pl",
+  "tier": "strict",
+  "matched": [
+   "muzyczna"
+  ]
+ },
+ {
+  "key": "PL WARSZAW09",
+  "key_source": "normalized",
+  "erasmus_code_raw": "PL WARSZAW09",
+  "name": "Uniwersytet Muzyczny Fryderyka Chopina",
+  "name_verified": "Uniwersytet Muzyczny Fryderyka Chopina w Warszawie",
+  "city": "WARSAW",
+  "country_code": "PL",
+  "country": "Poland",
+  "webpage": "www.chopin.edu.pl",
+  "tier": "strict",
+  "matched": [
+   "muzyczna"
+  ]
+ },
+ {
+  "key": "PL WROCLAW06",
+  "key_source": "normalized",
+  "erasmus_code_raw": "PL WROCLAW06",
+  "name": "Akademia Muzyczna imienia Karola Lipinskiego we Wroclawiu",
+  "name_verified": "Akademia Muzyczna im. Karola Lipińskiego we Wrocławiu",
+  "city": "Wroclaw",
+  "country_code": "PL",
+  "country": "Poland",
+  "webpage": "www.amuz.wroc.pl",
+  "tier": "strict",
+  "matched": [
+   "muzyczna"
+  ]
+ },
+ {
+  "key": "P  LISBOA118",
+  "key_source": "normalized",
+  "erasmus_code_raw": "P  LISBOA118",
+  "name": "MUSICA - EDUCACAO E CULTURA ASSOCIACAO",
+  "name_verified": null,
+  "city": "LISBOA",
+  "country_code": "PT",
+  "country": "Portugal",
+  "webpage": "WWW.METROPOLITANA.PT",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ]
+ },
+ {
+  "key": "RO BUCURES03",
+  "key_source": "normalized",
+  "erasmus_code_raw": "RO BUCURES03",
+  "name": "UNIVERSITATEA NATIONALA DE MUZICA BUCURESTI",
+  "name_verified": null,
+  "city": "BUCURESTI",
+  "country_code": "RO",
+  "country": "Romania",
+  "webpage": "http://www.unmb.ro",
+  "tier": "weak",
+  "matched": [
+   "muzi-/muzy-"
+  ]
+ },
+ {
+  "key": "RO CLUJNAP02",
+  "key_source": "normalized",
+  "erasmus_code_raw": "RO CLUJNAP02",
+  "name": "Academia Nationala de Muzica Gheorghe Dima",
+  "name_verified": null,
+  "city": "Cluj-Napoca",
+  "country_code": "RO",
+  "country": "Romania",
+  "webpage": "www.amgd.ro",
+  "tier": "weak",
+  "matched": [
+   "muzi-/muzy-"
+  ]
+ },
+ {
+  "key": "SK BRATISL05",
+  "key_source": "normalized",
+  "erasmus_code_raw": "SK BRATISL05",
+  "name": "VYSOKA SKOLA MUZICKYCH UMENI V BRATISLAVE",
+  "name_verified": null,
+  "city": "BRATISLAVA",
+  "country_code": "SK",
+  "country": "Slovakia",
+  "webpage": "www.vsmu.sk",
+  "tier": "weak",
+  "matched": [
+   "muzi-/muzy-"
+  ]
+ },
+ {
+  "key": "SI LJUBLJA33",
+  "key_source": "normalized",
+  "erasmus_code_raw": "SI LJUBLJA33",
+  "name": "Konservatorij za glasbo in balet Ljubljana",
+  "name_verified": null,
+  "city": "Ljubljana",
+  "country_code": "SI",
+  "country": "Slovenia",
+  "webpage": "www.kgbl.si",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "E  LA-CORU05",
+  "key_source": "normalized",
+  "erasmus_code_raw": "E  LA-CORU05",
+  "name": "conservatorio superior de música da coruña",
+  "name_verified": null,
+  "city": "A Coruña",
+  "country_code": "ES",
+  "country": "Spain",
+  "webpage": "www.csmcoruna.com",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "E  ALICANT11",
+  "key_source": "normalized",
+  "erasmus_code_raw": "E  ALICANT11",
+  "name": "CONSERVATORIO SUPERIOR DE MUSICA OSCAR ESPLA",
+  "name_verified": null,
+  "city": "ALICANTE",
+  "country_code": "ES",
+  "country": "Spain",
+  "webpage": "www.csmalicante.es",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "E  ALBACET19",
+  "key_source": "normalized",
+  "erasmus_code_raw": "E  ALBACET19",
+  "name": "Conservatorio Superior de Música de Castilla-La Mancha",
+  "name_verified": null,
+  "city": "Albacete",
+  "country_code": "ES",
+  "country": "Spain",
+  "webpage": "www.csmclm.com",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "E  BADAJOZ39",
+  "key_source": "normalized",
+  "erasmus_code_raw": "E  BADAJOZ39",
+  "name": "Conservatorio Superior de Música \"Bonifacio Gil\"",
+  "name_verified": null,
+  "city": "Badajoz",
+  "country_code": "ES",
+  "country": "Spain",
+  "webpage": "www.csmbadajoz.es",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "E  BARCELO30",
+  "key_source": "normalized",
+  "erasmus_code_raw": "E  BARCELO30",
+  "name": "Fundació Conservatori del Liceu",
+  "name_verified": null,
+  "city": "Barcelona",
+  "country_code": "ES",
+  "country": "Spain",
+  "webpage": "www.conservatoriliceu.es",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "E  CASTELL13",
+  "key_source": "normalized",
+  "erasmus_code_raw": "E  CASTELL13",
+  "name": "CONSERVATORIO SUPERIOR DE MÚSICA \"SALVADOR SEGUÍ\" DE CASTELLÓN",
+  "name_verified": null,
+  "city": "CASTELLÓN DE LA PLANA",
+  "country_code": "ES",
+  "country": "Spain",
+  "webpage": "www.conservatorisuperiorcastello.com",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "E  CORDOBA04",
+  "key_source": "normalized",
+  "erasmus_code_raw": "E  CORDOBA04",
+  "name": "Conservatorio Superior de musica \"Rafael Orozco\" Cordoba",
+  "name_verified": null,
+  "city": "Cordoba",
+  "country_code": "ES",
+  "country": "Spain",
+  "webpage": "www.csmcordoba.com",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "E  GRANADA04",
+  "key_source": "normalized",
+  "erasmus_code_raw": "E  GRANADA04",
+  "name": "Real Conservatorio Superior de Música \"Victoria Eugenia\"",
+  "name_verified": null,
+  "city": "Granada",
+  "country_code": "ES",
+  "country": "Spain",
+  "webpage": "www.conservatoriosuperiorgranada.com",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "E  JAEN07",
+  "key_source": "normalized",
+  "erasmus_code_raw": "E  JAEN07",
+  "name": "Conservatorio Superior de Música de Jaén",
+  "name_verified": null,
+  "city": "Jaén",
+  "country_code": "ES",
+  "country": "Spain",
+  "webpage": "www.csmjaen.es",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "E  LAS-PAL18",
+  "key_source": "normalized",
+  "erasmus_code_raw": "E  LAS-PAL18",
+  "name": "Conservatorio Superior de Música de Canarias",
+  "name_verified": null,
+  "city": "Las Palmas de Gran Canaria",
+  "country_code": "ES",
+  "country": "Spain",
+  "webpage": "www.consmucan.es",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "E  MADRID27",
+  "key_source": "normalized",
+  "erasmus_code_raw": "E  MADRID27",
+  "name": "Real Conservatorio Superior de Música de Madrid",
+  "name_verified": null,
+  "city": "MADRID",
+  "country_code": "ES",
+  "country": "Spain",
+  "webpage": "www.educa.madrid.org/web/csm.realconservatorio.madrid",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "E  MURCIA02",
+  "key_source": "normalized",
+  "erasmus_code_raw": "E  MURCIA02",
+  "name": "Conservatorio Superior de Música \"Manuel Massotti Littel\"",
+  "name_verified": null,
+  "city": "Murcia",
+  "country_code": "ES",
+  "country": "Spain",
+  "webpage": "www.csmmurcia.com",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "E  MALAGA02",
+  "key_source": "normalized",
+  "erasmus_code_raw": "E  MALAGA02",
+  "name": "CONSERVATORIO SUPERIOR DE MUSICA DE MALAGA",
+  "name_verified": null,
+  "city": "MÁLAGA",
+  "country_code": "ES",
+  "country": "Spain",
+  "webpage": "www.conservatoriosuperiormalaga.com",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "E  OVIEDO03",
+  "key_source": "normalized",
+  "erasmus_code_raw": "E  OVIEDO03",
+  "name": "CONSERVATORIO SUPERIOR DE MÚSICA \"EDUARDO MARTÍNEZ TORNER\" DEL PRINCIPADO DE ASTURIAS",
+  "name_verified": null,
+  "city": "OVIEDO",
+  "country_code": "ES",
+  "country": "Spain",
+  "webpage": "www.consmupa.es",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "E  PAMPLON17",
+  "key_source": "normalized",
+  "erasmus_code_raw": "E  PAMPLON17",
+  "name": "CONSERVATORIO SUPERIOR DE MÚSICA DE NAVARRA",
+  "name_verified": null,
+  "city": "PAMPLONA",
+  "country_code": "ES",
+  "country": "Spain",
+  "webpage": "www.csmn.educacion.navarra.es",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "E  PALMA27",
+  "key_source": "normalized",
+  "erasmus_code_raw": "E  PALMA27",
+  "name": "Fundació per als Estudis Superiors de Música i Arts Escèniques de les Illes Balears - Conservatori Superior de Música de les Illes Balears",
+  "name_verified": null,
+  "city": "Palma de Mallorca",
+  "country_code": "ES",
+  "country": "Spain",
+  "webpage": "www.conservatorisuperior.com",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "E  SALAMAN03",
+  "key_source": "normalized",
+  "erasmus_code_raw": "E  SALAMAN03",
+  "name": "CONSERVATORIO SUPERIOR DE MÚSICA DE CASTILLA Y LEÓN",
+  "name_verified": null,
+  "city": "Salamanca",
+  "country_code": "ES",
+  "country": "Spain",
+  "webpage": "www.coscyl.es",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "E  SEVILLA04",
+  "key_source": "normalized",
+  "erasmus_code_raw": "E  SEVILLA04",
+  "name": "Conservatorio Superior de Música \"Manuel Castillo\" de Sevilla",
+  "name_verified": null,
+  "city": "Sevilla",
+  "country_code": "ES",
+  "country": "Spain",
+  "webpage": "www.consev.es",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "E  VALENCI67",
+  "key_source": "normalized",
+  "erasmus_code_raw": "E  VALENCI67",
+  "name": "CONSERVATORI SUPERIOR DE MÚSICA \"JOAQUÍN RODRIGO\" DE VALENCIA",
+  "name_verified": null,
+  "city": "VALENCIA",
+  "country_code": "ES",
+  "country": "Spain",
+  "webpage": "www.csmvalencia.es",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "E  VIGO03",
+  "key_source": "normalized",
+  "erasmus_code_raw": "E  VIGO03",
+  "name": "CONSERVATORIO SUPERIOR DE MÚSICA DE VIGO",
+  "name_verified": null,
+  "city": "VIGO",
+  "country_code": "ES",
+  "country": "Spain",
+  "webpage": "www.conservatoriosuperiorvigo.com",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "E  ZARAGOZ05",
+  "key_source": "normalized",
+  "erasmus_code_raw": "E  ZARAGOZ05",
+  "name": "Conservatorio Superior de Música de Aragón",
+  "name_verified": null,
+  "city": "Zaragoza",
+  "country_code": "ES",
+  "country": "Spain",
+  "webpage": "www.csma.es",
+  "tier": "strict",
+  "matched": [
+   "conservatorio/-oire/-orium, konservatorium"
+  ]
+ },
+ {
+  "key": "E  BARCELO29",
+  "key_source": "normalized",
+  "erasmus_code_raw": "E  BARCELO29",
+  "name": "FUNDACIO ESCOLA SUPERIOR DE MUSICA DE CATALUNYA",
+  "name_verified": null,
+  "city": "BARCELONA",
+  "country_code": "ES",
+  "country": "Spain",
+  "webpage": "esmuc.cat",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ]
+ },
+ {
+  "key": "E  BARCELO137",
+  "key_source": "normalized",
+  "erasmus_code_raw": "E  BARCELO137",
+  "name": "FUNDACIO PRIVADA TALLER DE MUSICS",
+  "name_verified": null,
+  "city": "BARCELONA",
+  "country_code": "ES",
+  "country": "Spain",
+  "webpage": "www.tallerdemusics.com",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ]
+ },
+ {
+  "key": "E  BARCELO259",
+  "key_source": "normalized",
+  "erasmus_code_raw": "E  BARCELO259",
+  "name": "Jam Session Enseñanza musical, S.L.",
+  "name_verified": null,
+  "city": "Barcelona",
+  "country_code": "ES",
+  "country": "Spain",
+  "webpage": "jamsession.cat",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ]
+ },
+ {
+  "key": "E  SAN-SEB01",
+  "key_source": "normalized",
+  "erasmus_code_raw": "E  SAN-SEB01",
+  "name": "Musikene Centro Superior de Música del País Vasco/Euskal Herriko Goi Mailako Musika Ikastegia",
+  "name_verified": null,
+  "city": "DONOSTIA-SAN SEBASTIÁN",
+  "country_code": "ES",
+  "country": "Spain",
+  "webpage": "www.musikene.eus",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ]
+ },
+ {
+  "key": "E  MADRID222",
+  "key_source": "normalized",
+  "erasmus_code_raw": "E  MADRID222",
+  "name": "ESCUELA MÚSICA CREATIVA SL",
+  "name_verified": null,
+  "city": "MADRID",
+  "country_code": "ES",
+  "country": "Spain",
+  "webpage": "WWW.MUSICACREATIVA.COM",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ]
+ },
+ {
+  "key": "E  PALMA25",
+  "key_source": "normalized",
+  "erasmus_code_raw": "E  PALMA25",
+  "name": "FUNDACIÓ PER ALS ESTUDIS DE MÚSICA I ARTS ESCÈNIQUES DE LES  ILLES BALEARS - ESCOLA SUPERIOR D'ART DRAMÀTIC DE LES ILLES BALEARS",
+  "name_verified": null,
+  "city": "PALMA",
+  "country_code": "ES",
+  "country": "Spain",
+  "webpage": "WWW.ESADIB.COM",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ]
+ },
+ {
+  "key": "S  STOCKHO15",
+  "key_source": "normalized",
+  "erasmus_code_raw": "S  STOCKHO15",
+  "name": "Stiftelsen Stockholms Musikpedagogiska Institut",
+  "name_verified": null,
+  "city": "Huddinge",
+  "country_code": "SE",
+  "country": "Sweden",
+  "webpage": "www.smi.se",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ]
+ },
+ {
+  "key": "S  STOCKHO11",
+  "key_source": "normalized",
+  "erasmus_code_raw": "S  STOCKHO11",
+  "name": "KUNGLIGA MUSIKHOGSKOLAN I STOCKHOLM",
+  "name_verified": null,
+  "city": "STOCKHOLM",
+  "country_code": "SE",
+  "country": "Sweden",
+  "webpage": "www.kmh.se",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ]
+ },
+ {
+  "key": "TR ANKARA26",
+  "key_source": "normalized",
+  "erasmus_code_raw": "TR ANKARA26",
+  "name": "Ankara Music and Fine Arts University",
+  "name_verified": null,
+  "city": "Ankara",
+  "country_code": "TR",
+  "country": "Türkiye",
+  "webpage": "https://www.mgu.edu.tr/en",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ]
+ }
+]
