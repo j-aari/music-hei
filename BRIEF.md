@@ -113,8 +113,33 @@ tulos tallennetaan `annotations.json`-tiedostoon, ei johdeta ajonaikana.
    perusteella, mutta päätös kirjataan käsin. Tämä on tulkintakysymys, ei
    tekninen ongelma.
 
+### Kolmiportainen luokittelu
+
+Laitokset jaetaan kolmeen tasoon sen mukaan, missä musiikki sijaitsee. Taso
+tallennetaan `annotations.json`-tiedostoon laitostyyppinä.
+
+1. **Itsenäinen musiikkikorkeakoulu** (esim. konservatorio, Musikhochschule).
+2. **Taideyliopiston musiikkiyksikkö** (esim. Taideyliopisto / Sibelius-Akatemia,
+   Folkwang, Hogeschool voor de Kunsten).
+3. **Yleisyliopiston musiikkiyksikkö** (musiikin laitos tai osasto
+   yleisyliopiston sisällä).
+
+**Tasot 1 ja 2 toteutetaan nyt. Taso 3 tehdään myöhemmin omana kierroksenaan**
+eikä kuulu vaiheisiin 2–5. Rajatapaukset, joissa on epäselvää onko musiikki
+itsenäinen yksikkö vai osa yleisyliopistoa, merkitään tasolle 3 ja jätetään
+toistaiseksi pois.
+
+**Kreikka ja Turkki:** näiden maiden musiikkikoulutus on yleisyliopistojen
+sisällä, joten se kuuluu tasolle 3. Kreikan ja Turkin laitoksia ei siis oteta
+mukaan tasoina 1–2, vaikka nimihaku osuisi niihin (esim. Ankara Music and Fine
+Arts University ja Mimar Sinan Fine Arts University on tarkistettava tätä
+sääntöä vasten ennen kuin ne luokitellaan).
+
 Sivulla on oltava näkyvissä käytetty rajanveto, esimerkiksi: *"Mukana laitokset,
-joissa musiikki on itsenäinen tutkintoa myöntävä yksikkö."* Tämä on väite, joka
+joissa musiikki on itsenäinen tutkintoa myöntävä yksikkö."* Kun vain tasot 1 ja 2
+on tehty, rajanvedon pitää sanoa myös, ettei yleisyliopistojen musiikkiyksiköitä
+ole vielä mukana (esim. *"…tai taideyliopiston musiikkiyksikkö. Yleisyliopistojen
+musiikin laitokset eivät ole vielä mukana."*). Tämä on väite, joka
 pitää pystyä puolustamaan, ja sen näyttäminen tekee sivusta uskottavan.
 
 Rajausteksti on **aikasidonnainen**, ei ikuinen väite. Lista on ECHE-haltijat
