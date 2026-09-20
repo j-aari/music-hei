@@ -91,6 +91,7 @@
     if (state.id) p.set('id', state.id);
     const s = p.toString();
     history.replaceState(null, '', location.pathname + location.search + (s ? '#' + s : ''));
+    if (document.getElementById('reset')) updateReset();
   }
 
   // ---------- filter UI (built once, counts updated on every change) ----------
@@ -144,7 +145,16 @@
     }
     const q = $('#q');
     if (q.value !== state.q) q.value = state.q;
-    $('#clear').hidden = activeFilterCount() === 0;
+    updateReset();
+  }
+
+  // The reset button is only shown while something can be reset: a filter, the search, or a selected institution
+  function updateReset() {
+    const filters = activeFilterCount() > 0;
+    const btn = $('#reset');
+    btn.hidden = !(filters || state.id);
+    btn.textContent = filters ? 'Clear all filters' : 'Clear selection';
+    btn.title = filters ? 'Clear the search, all filters and the selection, and return to the list' : 'Close the details of the selected institution';
   }
 
   // ---------- list ----------
@@ -279,12 +289,15 @@
     writeHash();
     title.focus({ preventScroll: true });
   }
-  function closePanel() {
+  function hidePanel() {
     state.id = null;
     $('#panel').hidden = true;
     $('#layout').classList.remove('has-panel');
     for (const b of document.querySelectorAll('.entry')) b.setAttribute('aria-current', 'false');
     if (map) highlightMarker();
+  }
+  function closePanel() {
+    hidePanel();
     writeHash();
     const target = lastTrigger && document.contains(lastTrigger) && !lastTrigger.closest('[hidden]') ? lastTrigger : $('#results');
     target.focus({ preventScroll: true });
@@ -321,7 +334,7 @@
       })));
     }
     box.append(ul);
-    if (hints.length > 1) box.append(h('button', { type: 'button', class: 'btn', onclick: clearAll, text: 'Clear all filters' }));
+    if (hints.length > 1) box.append(h('button', { type: 'button', class: 'btn', onclick: resetAll, text: 'Clear all filters' }));
   }
 
   const plural = (n) => `${n} ${n === 1 ? 'institution' : 'institutions'}`;
@@ -353,10 +366,14 @@
     setTimeout(() => URL.revokeObjectURL(a.href), 1000);
   }
 
-  function clearAll() {
+  // Back to the initial state: no search, no filters, no selection, list view, empty URL hash
+  function resetAll() {
+    hidePanel();
+    lastTrigger = null;
     state.q = '';
     for (const g of GROUP_ORDER) state[g].clear();
-    update({ fit: true });
+    state.view = 'list';
+    update({ fit: true }); // also clears the URL hash
   }
 
   function renderLegend() {
@@ -437,7 +454,16 @@
       t = setTimeout(() => { state.q = e.target.value.trim(); update({ fit: true }); }, 120);
     });
     $('#filters').addEventListener('submit', (e) => e.preventDefault());
-    $('#clear').addEventListener('click', clearAll);
+    $('#reset').addEventListener('click', () => {
+      resetAll();
+      $('#results').focus({ preventScroll: true }); // the button hides itself, so keep keyboard focus somewhere sensible
+    });
+    $('#home').addEventListener('click', (e) => {
+      if (e.button || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return; // let "open in new tab" work as a normal link
+      e.preventDefault();
+      resetAll();
+      window.scrollTo({ top: 0, behavior: reduceMotion ? 'auto' : 'smooth' });
+    });
     $('#csv').addEventListener('click', downloadCsv);
     $('#panel-close').addEventListener('click', closePanel);
     for (const b of document.querySelectorAll('.view-toggle .btn')) b.addEventListener('click', () => { if (state.view !== b.dataset.view) setView(b.dataset.view); });

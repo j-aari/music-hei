@@ -228,11 +228,13 @@ näppäimistöfokus, `prefers-reduced-motion` huomioitu, riittävät kontrastit.
 
 - **Kieli:** sivun tekstit ovat englanniksi, laitosten nimet alkuperäiskielellä. Otsikko:
   *European Music Institutions with an Erasmus Charter*.
-- **Paletti:** viileä paperi (Frost `#F1F3F6`, Night Ink `#14181D`, Slate `#4B545F`, Mist
-  `#C9D0D8`, Fog `#E5E9EE`) ja yksi kylläinen väri, Vermilion `#C2331F`, joka merkitsee vain
+- **Paletti:** viileä paperi (Frost `#F0F3F8`, Night Ink `#0F1620`, Slate `#4B545F`, Mist
+  `#C8D0DA`, Fog `#E4E9F0`), yksi kylläinen väri, Vermilion `#C2331F`, joka merkitsee vain
   vaihtokumppania. Lämmin kerma + antiikva + punaoranssi on tekoälysivujen oletuspaletti, ja
   viileä tausta erottaa punaisen selvemmin. Taso erotetaan muodolla (täytetty piste / rengas),
   ei värillä. OSM-tiilet harmaasävyistetään CSS-suodattimella, jotta punainen pysyy merkityksellisenä.
+  Lisäksi yksi sininen, Link Blue `#1D4ED8`, vain linkeille (verkkosivuosoitteet ja ulkoiset
+  linkit); sitä ei käytetä painikkeissa, suodattimissa eikä kartalla.
 - **Kirjasimet:** Newsreader (laitosten nimet, otsikot) ja Public Sans (data, käyttöliittymä),
   omalta palvelimelta (`site/fonts/`, OFL). Leaflet on omalta palvelimelta (`site/vendor/`).
 - **Partneritieto:** kenttä `partner_of_siba` säilyy, ja sivu kertoo aina lähteen: partneritiedot

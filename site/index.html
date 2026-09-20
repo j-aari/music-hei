@@ -15,20 +15,23 @@
   <a class="skip" href="#results">Skip to results</a>
 
   <header class="masthead">
-    <h1>European Music Institutions with an Erasmus Charter</h1>
+    <h1><a href="./" id="home">European Music Institutions with an Erasmus Charter</a></h1>
     <p class="lede">Which music institutions in Europe hold an Erasmus Charter for Higher Education, where are they, and which are exchange partners?</p>
     <p class="scope" id="scope"></p>
   </header>
 
   <div class="layout" id="layout">
     <form class="filters" id="filters" role="search" aria-label="Search and filters" autocomplete="off">
+      <div class="filters__head">
+        <h2 class="filters__title">Filters</h2>
+        <button type="button" class="btn" id="reset" hidden>Clear all filters</button>
+      </div>
       <div class="search">
         <label for="q">Search name or city</label>
         <input id="q" name="q" type="search" spellcheck="false" placeholder="e.g. Hochschule, Oslo">
       </div>
       <div id="filter-groups"></div>
       <p class="missing" id="missing" hidden></p>
-      <button type="button" class="btn btn--quiet" id="clear" hidden>Clear all filters</button>
     </form>
 
     <main class="main" id="main">
