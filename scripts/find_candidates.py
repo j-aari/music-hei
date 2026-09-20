@@ -19,12 +19,11 @@ import re
 import sys
 import unicodedata
 from collections import defaultdict
-from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
-UPSTREAM = ROOT / "data" / "upstream.json"
-OUT = ROOT / "data" / "candidates_name.json"
-EXCLUDED = ROOT / "data" / "excluded.json"
+from common import DATA, UPSTREAM
+
+OUT = DATA / "candidates_name.json"
+EXCLUDED = DATA / "excluded.json"
 
 
 FOLD_EXTRA = str.maketrans({"ø": "o", "æ": "ae", "ł": "l", "đ": "d", "ð": "d", "þ": "th", "ß": "ss", "ı": "i"})
@@ -152,7 +151,7 @@ def match(r, patterns):
     return hits
 
 
-def main():
+def main(quiet=False):
     rows = json.loads(UPSTREAM.read_text(encoding="utf-8"))
     out, excluded = [], []
     for r in rows:
@@ -202,6 +201,8 @@ def main():
         print(f"  x [{e['key']}] {e['name']} — {e['city']}  ({e['excluded_by']})")
     print()
     for country, items in sorted(by_country.items()):
+        if quiet:
+            break
         ns = sum(i["tier"] == "strict" for i in items)
         print(f"== {country} ({len(items)}; strict {ns}, weak {len(items) - ns})")
         for i in items:

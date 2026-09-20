@@ -30,12 +30,8 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import date
-from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
-UPSTREAM = ROOT / "data" / "upstream.json"
-ANNOTATIONS = ROOT / "data" / "annotations.json"
-GEO = ROOT / "data" / "geo.json"
+from common import GEO, load_annotations, load_upstream
 
 ENDPOINT = "https://nominatim.openstreetmap.org/search"
 # Nominatimin käyttöehdot vaativat tunnistautuvan User-Agentin yhteystietoineen.
@@ -195,23 +191,12 @@ def report(geo, up):
         print(f"  [{k}] {up[k]['organisationLegalName']} — odotettu {v['country_expected']}, tuli {v['country_returned']}: {v['display_name']}")
 
 
-def main():
-    force, retry = "--force" in sys.argv, "--retry-failed" in sys.argv
-    up = {(r["erasmusCodeNormalized"] or r["erasmusCode"]): r for r in json.loads(UPSTREAM.read_text(encoding="utf-8"))}
-    keys = list(json.loads(ANNOTATIONS.read_text(encoding="utf-8")))
+def run(only=None, force=False, retry=False):
+    """Geokoodaa annotoidut laitokset, joilta koordinaatit puuttuvat (tai only-avaimet); tulostaa raportin."""
+    up = load_upstream()
+    keys = list(load_annotations()[0])
     geo = json.loads(GEO.read_text(encoding="utf-8")) if GEO.exists() and not force else {}
 
-    if "--check" in sys.argv:  # tarkista olemassa olevat tulokset ilman uudelleengeokoodausta
-        bad = 0
-        for k, v in geo.items():
-            if "lat" in v and v["precision"] != "city":
-                ok, why = city_check(up[k], v["display_name"], v["lat"], v["lon"])
-                if ok is not True:
-                    bad += 1
-                    print(f"  {'VAROITUS' if ok is False else 'ei tarkistettu'} [{k}] {up[k]['organisationLegalName']} — {up[k]['city']}: {why}", flush=True)
-        print(f"Tarkistettu {len(geo)}, huomautuksia {bad}")
-        return
-    only = [a for a in sys.argv[1:] if not a.startswith("--")]  # avaimet, jotka geokoodataan uudelleen
     todo = only or [k for k in keys if k not in geo or (retry and geo[k].get("status") == "failed")]
     print(f"Laitoksia {len(keys)}, geokoodataan {len(todo)} (arvio ~{len(todo) * 2 // 60 + 1} min)", flush=True)
     for i, k in enumerate(todo, 1):
@@ -222,7 +207,29 @@ def main():
         status = "EPÄONNISTUI" if g.get("status") == "failed" else ("VÄÄRÄ MAA" if g["country_mismatch"] else g["precision"])
         print(f"[{i}/{len(todo)}] {k}: {status}", flush=True)
         GEO.write_text(json.dumps(dict(sorted(geo.items())), ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-    report(geo, up)
+    if geo:
+        report(geo, up)
+
+
+def check():
+    """Tarkista olemassa olevat tulokset ilman uudelleengeokoodausta."""
+    up = load_upstream()
+    geo = json.loads(GEO.read_text(encoding="utf-8"))
+    bad = 0
+    for k, v in geo.items():
+        if "lat" in v and v["precision"] != "city":
+            ok, why = city_check(up[k], v["display_name"], v["lat"], v["lon"])
+            if ok is not True:
+                bad += 1
+                print(f"  {'VAROITUS' if ok is False else 'ei tarkistettu'} [{k}] {up[k]['organisationLegalName']} — {up[k]['city']}: {why}", flush=True)
+    print(f"Tarkistettu {len(geo)}, huomautuksia {bad}")
+
+
+def main():
+    args = sys.argv[1:]
+    if "--check" in args:
+        return check()
+    run(only=[a for a in args if not a.startswith("--")], force="--force" in args, retry="--retry-failed" in args)
 
 
 if __name__ == "__main__":
