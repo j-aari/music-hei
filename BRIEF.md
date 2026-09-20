@@ -22,6 +22,11 @@ partnereitamme".
 - Kartta: Leaflet + OpenStreetMap-tiilet (ei API-avainta, ei kustannuksia)
 - Julkaisu: Netlify tai GitHub Pages
 
+**Muistutus:** lopputulos on julkinen staattinen verkkosivu, joka avataan
+selaimella myös muilta koneilta. Kaikki mikä vaatii paikallista Pythonia kuuluu
+rakennusvaiheeseen, ei sivulle: sivu ei saa riippua paikallisista skripteistä,
+palvelimesta tai tiedostoista, jotka ovat vain tällä koneella.
+
 **Älä rakenna:** palvelinta, tietokantaa tuotantoon, käyttäjähallintaa,
 React/Next.js-sovellusta, ajastettua taustaprosessia. Datajoukko on muutamia
 satoja rivejä. Kaikki suodatus tapahtuu selaimessa ladatusta JSON-tiedostosta.
@@ -111,6 +116,17 @@ tulos tallennetaan `annotations.json`-tiedostoon, ei johdeta ajonaikana.
 Sivulla on oltava näkyvissä käytetty rajanveto, esimerkiksi: *"Mukana laitokset,
 joissa musiikki on itsenäinen tutkintoa myöntävä yksikkö."* Tämä on väite, joka
 pitää pystyä puolustamaan, ja sen näyttäminen tekee sivusta uskottavan.
+
+Rajausteksti on **aikasidonnainen**, ei ikuinen väite. Lista on ECHE-haltijat
+tietyllä hakupäivällä, ja Britannia ja Sveitsi assosioituvat Erasmus+
+-ohjelmaan 1.1.2027 alkaen ja ilmestyvät listalle vasta, kun ne saavat ECHE:n.
+Tekstin pitää siis kertoa hakupäivä ja se, että Britannian ja Sveitsin laitokset
+puuttuvat tästä syystä eivätkä siksi, että ne olisi rajattu pois. Esimerkiksi:
+*"Tiedot haettu <pvm> Euroopan komission ECHE-listasta. Britannian ja Sveitsin
+laitokset lisätään, kun ne ovat saaneet ECHE:n (assosiaatio Erasmus+
+-ohjelmaan 1.1.2027 alkaen)."* Hakupäivä kirjoitetaan `site.json`:iin
+generointivaiheessa, ei käsin sivulle. Nimihaun sanalistassa on Britannian ja
+Sveitsin muodot valmiina, jotta uudet laitokset löytyvät päivityksessä.
 
 ## Käyttöliittymä
 
