@@ -14,7 +14,7 @@
    "music/musik/musiq/musi-"
   ],
   "excluded_by": "manual",
-  "reason": "Poistettu käsin (käyttäjän päätös): ei kuulu musiikkikorkeakoulujen joukkoon; tarkempi syy täsmennettävä. Nimi: Hellenic College of Music (Pitsa Spyridaki & Company Ltd)"
+  "reason": "Hellenic College of Music: yksityinen musiikkikoulu"
  },
  {
   "key": "F  TALENCE09",
@@ -119,6 +119,57 @@
   "reason": "Conservatoire national des arts et métiers (CNAM) ei ole musiikkilaitos"
  },
  {
+  "key": "F  LYON128",
+  "key_source": "normalized",
+  "erasmus_code_raw": "F  LYON128",
+  "name": "ASSOCIATION DE GESTION DU CENTRE DE FORMATION DES ENSEIGNANTS DE MUSIQUE AUVERGNE RHONE ALPES",
+  "name_verified": null,
+  "city": "LYON",
+  "country_code": "FR",
+  "country": "France",
+  "webpage": "http://www.cefedem-aura.org/",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ],
+  "excluded_by": "manual",
+  "reason": "CEFEDEM Auvergne Rhône-Alpes: musiikinopettajien DE-tutkintokoulutus, ei musiikkialan korkeakoulututkintoa"
+ },
+ {
+  "key": "F  ROUEN44",
+  "key_source": "normalized",
+  "erasmus_code_raw": "F  ROUEN44",
+  "name": "Centre de formation des enseignants de la danse et de la musique de Normandie",
+  "name_verified": null,
+  "city": "MONT-SAINT-AIGNAN",
+  "country_code": "FR",
+  "country": "France",
+  "webpage": "www.cefedem-normandie.fr",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ],
+  "excluded_by": "manual",
+  "reason": "CEFEDEM Normandie: musiikinopettajien DE-tutkintokoulutus, ei musiikkialan korkeakoulututkintoa"
+ },
+ {
+  "key": "F  MELUN07",
+  "key_source": "normalized",
+  "erasmus_code_raw": "F  MELUN07",
+  "name": "CENTRE DES MUSIQUES DIDIER LOCKWOOD",
+  "name_verified": null,
+  "city": "dammarie-lès-lys",
+  "country_code": "FR",
+  "country": "France",
+  "webpage": "http://www.cmdl.eu",
+  "tier": "weak",
+  "matched": [
+   "music/musik/musiq/musi-"
+  ],
+  "excluded_by": "manual",
+  "reason": "Centre des Musiques Didier Lockwood: yksityinen jazzkeskus, ei tutkintoa myöntävä korkeakoulu"
+ },
+ {
   "key": "I  NOVARA02",
   "key_source": "normalized",
   "erasmus_code_raw": "I  NOVARA02",
@@ -133,7 +184,7 @@
    "music/musik/musiq/musi-"
   ],
   "excluded_by": "manual",
-  "reason": "Poistettu käsin (käyttäjän päätös): ei kuulu musiikkikorkeakoulujen joukkoon; tarkempi syy täsmennettävä. Nimi: Scuola del Teatro Musicale (musikaaliteatterikoulu)"
+  "reason": "Scuola del Teatro Musicale: musiikkiteatterin ammatillinen koulu, ei tutkintoa myöntävä musiikkikorkeakoulu"
  },
  {
   "key": "P  LISBOA118",
@@ -150,7 +201,7 @@
    "music/musik/musiq/musi-"
   ],
   "excluded_by": "manual",
-  "reason": "Poistettu käsin (käyttäjän päätös): ei kuulu musiikkikorkeakoulujen joukkoon; tarkempi syy täsmennettävä. Nimi: MUSICA - Educação e Cultura Associação (yhdistys)"
+  "reason": "MUSICA Educação e Cultura: koulutusyhdistys, ei korkeakoulu"
  },
  {
   "key": "E  ALICANT36",
@@ -235,6 +286,6 @@
    "music/musik/musiq/musi-"
   ],
   "excluded_by": "manual",
-  "reason": "Poistettu käsin (käyttäjän päätös): ei kuulu musiikkikorkeakoulujen joukkoon; tarkempi syy täsmennettävä. Nimi: Jam Session Enseñanza musical, S.L. (yritysmuotoinen oikeushenkilö)"
+  "reason": "Jam Session SL: yksityinen musiikkikoulu, ei virallista título superior -tutkintoa"
  }
 ]

@@ -363,21 +363,6 @@
   ]
  },
  {
-  "key": "F  LYON128",
-  "key_source": "normalized",
-  "erasmus_code_raw": "F  LYON128",
-  "name": "ASSOCIATION DE GESTION DU CENTRE DE FORMATION DES ENSEIGNANTS DE MUSIQUE AUVERGNE RHONE ALPES",
-  "name_verified": null,
-  "city": "LYON",
-  "country_code": "FR",
-  "country": "France",
-  "webpage": "http://www.cefedem-aura.org/",
-  "tier": "weak",
-  "matched": [
-   "music/musik/musiq/musi-"
-  ]
- },
- {
   "key": "F  LILLE71",
   "key_source": "normalized",
   "erasmus_code_raw": "F  LILLE71",
@@ -387,36 +372,6 @@
   "country_code": "FR",
   "country": "France",
   "webpage": "www.esmd.fr",
-  "tier": "weak",
-  "matched": [
-   "music/musik/musiq/musi-"
-  ]
- },
- {
-  "key": "F  ROUEN44",
-  "key_source": "normalized",
-  "erasmus_code_raw": "F  ROUEN44",
-  "name": "Centre de formation des enseignants de la danse et de la musique de Normandie",
-  "name_verified": null,
-  "city": "MONT-SAINT-AIGNAN",
-  "country_code": "FR",
-  "country": "France",
-  "webpage": "www.cefedem-normandie.fr",
-  "tier": "weak",
-  "matched": [
-   "music/musik/musiq/musi-"
-  ]
- },
- {
-  "key": "F  MELUN07",
-  "key_source": "normalized",
-  "erasmus_code_raw": "F  MELUN07",
-  "name": "CENTRE DES MUSIQUES DIDIER LOCKWOOD",
-  "name_verified": null,
-  "city": "dammarie-lès-lys",
-  "country_code": "FR",
-  "country": "France",
-  "webpage": "http://www.cmdl.eu",
   "tier": "weak",
   "matched": [
    "music/musik/musiq/musi-"

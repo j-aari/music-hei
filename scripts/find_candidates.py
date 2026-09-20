@@ -114,15 +114,17 @@ EXCLUDE = [
 ]
 
 
-# Käsin tehdyt poissulkupäätökset (avain -> syy), koskevat myös weak-tasoa. Syy on käyttäjän
-# päätös; tarkempi peruste täsmennettävä (ks. BRIEF.md: ECHE-haltijuus tarkoittaa
-# korkeakoulun asemaa, joten ainoa kysymys on kuuluuko laitos musiikkiin).
-MANUAL_REASON = "Poistettu käsin (käyttäjän päätös): ei kuulu musiikkikorkeakoulujen joukkoon; tarkempi syy täsmennettävä"
+# Käsin tehdyt poissulkupäätökset (avain -> syy), koskevat myös weak-tasoa. Kirjataan
+# data/excluded.json-tiedostoon. (Ks. BRIEF.md: ECHE-haltijuus tarkoittaa korkeakoulun
+# asemaa; kysymys on vain kuuluuko laitos musiikkiin.)
 MANUAL_EXCLUDE = {
-    "I  NOVARA02": MANUAL_REASON + ". Nimi: Scuola del Teatro Musicale (musikaaliteatterikoulu)",
-    "E  BARCELO259": MANUAL_REASON + ". Nimi: Jam Session Enseñanza musical, S.L. (yritysmuotoinen oikeushenkilö)",
-    "CY NICOSIA42": MANUAL_REASON + ". Nimi: Hellenic College of Music (Pitsa Spyridaki & Company Ltd)",
-    "P  LISBOA118": MANUAL_REASON + ". Nimi: MUSICA - Educação e Cultura Associação (yhdistys)",
+    "I  NOVARA02": "Scuola del Teatro Musicale: musiikkiteatterin ammatillinen koulu, ei tutkintoa myöntävä musiikkikorkeakoulu",
+    "E  BARCELO259": "Jam Session SL: yksityinen musiikkikoulu, ei virallista título superior -tutkintoa",
+    "CY NICOSIA42": "Hellenic College of Music: yksityinen musiikkikoulu",
+    "P  LISBOA118": "MUSICA Educação e Cultura: koulutusyhdistys, ei korkeakoulu",
+    "F  LYON128": "CEFEDEM Auvergne Rhône-Alpes: musiikinopettajien DE-tutkintokoulutus, ei musiikkialan korkeakoulututkintoa",
+    "F  ROUEN44": "CEFEDEM Normandie: musiikinopettajien DE-tutkintokoulutus, ei musiikkialan korkeakoulututkintoa",
+    "F  MELUN07": "Centre des Musiques Didier Lockwood: yksityinen jazzkeskus, ei tutkintoa myöntävä korkeakoulu",
 }
 
 
