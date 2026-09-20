@@ -15,7 +15,7 @@ Suggested attribution:
 | `excluded.json` | Institutions that matched the name search but were excluded, with the reason |
 | `geo.json` | Geocoded coordinates (Nominatim / OpenStreetMap data) |
 | `population.json` | Population on 1 January per country, from Eurostat (table tps00001), with the year and retrieval date |
-| `coverage.json` | Areas more than 300 km from the nearest institution, calculated from the coordinates (0.1° grid), with per-country shares |
+| `coverage.json` | Areas more than 300 km from the nearest institution in another country, calculated from the coordinates (0.1° grid), with per-country shares. Areas that are as far but in the same country as their nearest institution are listed separately and not counted |
 | `reference/` | Natural Earth 1:110m country outlines (public domain) used only for the coverage calculation |
 | `site.json` | Generated merge of the above, loaded by the page |
 | `candidates_name.json`, `diacritics_todo.txt` | Generated working lists |

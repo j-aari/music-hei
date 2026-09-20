@@ -8,6 +8,8 @@ Menetelmä
   - jokaisen ruudun keskipisteestä lasketaan suuriympyrämatka (haversine) lähimpään laitokseen
   - katveessa on ruutu, jonka lähin laitos on yli THRESHOLD_KM päässä JA joka on jonkin ECHE-listan maan maa-alueella
     (sen maan, jossa on ECHE-haltijoita; muiden maiden ja merialueiden katvetta ei raportoida)
+  - SAMAN MAAN SÄÄNTÖ: jos ruudun lähin laitos on samassa maassa kuin ruutu (saarella: samalla saarella), ruutua ei lasketa
+    katveeksi pelkän etäisyyden perusteella. Nämä ruudut tallennetaan erikseen (runs_same_country) ja näytetään vaaleampana.
   - etäisyys lasketaan kaikkiin laitoksiin maasta riippumatta, joten rajan takana oleva laitos kattaa myös
   - tulos tallennetaan riveinä [lat, lon_alku, lon_loppu] (peräkkäiset katveruudut yhdistetty)
 Rajat ovat 110 m -tarkkuudella, joten reunat ovat likimääräisiä (muutaman kilometrin luokkaa).
@@ -89,71 +91,108 @@ def on_land(x, y, polys):
     return False
 
 
+class Runs:
+    """Kerää peräkkäiset ruudut riveiksi [lat, lon_alku, lon_loppu]."""
+
+    def __init__(self):
+        self.runs = []
+        self.start = self.end = None
+
+    def add(self, lon):
+        if self.start is None:
+            self.start = lon
+        self.end = lon
+
+    def flush(self, lat):
+        if self.start is not None:
+            self.runs.append([round(lat, 2), round(self.start, 2), round(self.end, 2)])
+            self.start = None
+
+
 def main():
-    inst = [(i["lat"], i["lon"]) for i in json.loads(SITE.read_text(encoding="utf-8"))["institutions"] if i.get("lat") is not None]
+    insts = [(i["lat"], i["lon"], i["country_code"])
+             for i in json.loads(SITE.read_text(encoding="utf-8"))["institutions"] if i.get("lat") is not None]
     countries, names, eche = load_countries()
     lat_band = THRESHOLD_KM / KM_PER_DEG_LAT
     n_rows = int(round((LAT_MAX - LAT_MIN) / STEP))
     n_cols = int(round((LON_MAX - LON_MIN) / STEP))
 
-    runs = []
-    gap_area = defaultdict(float)
-    gap_cells = defaultdict(int)
+    counted, same_country = Runs(), Runs()  # katve ja "yli 300 km, mutta samassa maassa kuin lähin laitos"
+    gap_area = defaultdict(float)     # lasketaan katveeksi
+    exempt_area = defaultdict(float)  # yli 300 km, mutta samassa maassa kuin lähin laitos: ei lasketa
     for r in range(n_rows):
         lat = LAT_MIN + STEP * (r + 0.5)
-        near = [p for p in inst if abs(p[0] - lat) <= lat_band]  # muut ovat varmasti yli rajan
+        near = [p for p in insts if abs(p[0] - lat) <= lat_band]  # muut ovat varmasti yli rajan
         cell_km2 = (STEP * KM_PER_DEG_LAT) ** 2 * math.cos(math.radians(lat))
-        run_start = run_end = None
         for c in range(n_cols):
             lon = LON_MIN + STEP * (c + 0.5)
-            covered = any(haversine(lat, lon, la, lo) <= THRESHOLD_KM for la, lo in near)
-            iso = None
-            if not covered:
-                for k, polys in countries.items():
-                    if on_land(lon, lat, polys):
-                        iso = k
-                        break
-            if iso:
+            if any(haversine(lat, lon, la, lo) <= THRESHOLD_KM for la, lo, _ in near):
+                counted.flush(lat)
+                same_country.flush(lat)
+                continue
+            iso = next((k for k, polys in countries.items() if on_land(lon, lat, polys)), None)
+            if iso is None:
+                counted.flush(lat)
+                same_country.flush(lat)
+                continue
+            nearest_country = min(insts, key=lambda p: haversine(lat, lon, p[0], p[1]))[2]
+            if nearest_country == iso:
+                # Saman maan sisällä laitos on saavutettavissa ylittämättä rajaa (ja saarella laitos on samalla saarella):
+                # ei lasketa katveeksi pelkän etäisyyden perusteella
+                exempt_area[iso] += cell_km2
+                same_country.add(lon)
+                counted.flush(lat)
+            else:
                 gap_area[iso] += cell_km2
-                gap_cells[iso] += 1
-                if run_start is None:
-                    run_start = lon
-                run_end = lon
-            elif run_start is not None:
-                runs.append([round(lat, 2), round(run_start, 2), round(run_end, 2)])
-                run_start = None
-        if run_start is not None:
-            runs.append([round(lat, 2), round(run_start, 2), round(run_end, 2)])
+                counted.add(lon)
+                same_country.flush(lat)
+        counted.flush(lat)
+        same_country.flush(lat)
 
     area = {k: sum(ring_area_km2(o) - sum(ring_area_km2(h) for h in hs) for _, o, hs in polys) for k, polys in countries.items()}
+    touched = set(gap_area) | set(exempt_area)
     by_country = {
-        k: {"name": names[k], "gap_km2": round(gap_area[k]), "area_km2": round(area[k]), "share": round(gap_area[k] / area[k], 4)}
-        for k in sorted(gap_area, key=lambda k: -gap_area[k] / area[k])
+        k: {
+            "name": names[k],
+            "gap_km2": round(gap_area[k]),
+            "same_country_km2": round(exempt_area[k]),
+            "area_km2": round(area[k]),
+            "share": round(gap_area[k] / area[k], 4),
+            "far_share": round((gap_area[k] + exempt_area[k]) / area[k], 4),
+        }
+        for k in sorted(touched, key=lambda k: (-gap_area[k] / area[k], -exempt_area[k] / area[k]))
     }
-    total_gap, total_area = sum(gap_area.values()), sum(area.values())
+    total_gap, total_exempt, total_area = sum(gap_area.values()), sum(exempt_area.values()), sum(area.values())
     out = {
         "meta": {
             "threshold_km": THRESHOLD_KM,
             "grid_deg": STEP,
-            "institutions": len(inst),
+            "institutions": len(insts),
             "computed": today(),
             "extent": {"lat": [LAT_MIN, LAT_MAX], "lon": [LON_MIN, LON_MAX]},
             "distance": "great-circle (haversine) to the nearest included institution, in any country",
+            "rule": "An area counts as uncovered when the nearest institution is more than the threshold away and lies in a different "
+                    "country. Areas that are just as far but in the same country as their nearest institution are listed separately "
+                    "(runs_same_country) and not counted.",
             "area_covered": "land area of the countries on the ECHE list, within the extent",
             "gap_km2": round(total_gap),
+            "same_country_km2": round(total_exempt),
             "area_km2": round(total_area),
             "gap_share": round(total_gap / total_area, 4),
+            "far_share": round((total_gap + total_exempt) / total_area, 4),
             "by_country": by_country,
         },
-        "runs": runs,
+        "runs": counted.runs,
+        "runs_same_country": same_country.runs,
     }
     COVERAGE.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
     publish(COVERAGE)
-    print(f"Laitoksia {len(inst)}, ruudukko {STEP}° ({n_rows}x{n_cols}), katverivejä {len(runs)}, {COVERAGE.stat().st_size // 1024} kt")
-    print(f"Katvealue yhteensä {total_gap / 1e6:.2f} milj. km² = {100 * total_gap / total_area:.1f} % ECHE-maiden pinta-alasta ({total_area / 1e6:.2f} milj. km²)")
-    for k, v in list(by_country.items())[:12]:
-        print(f"  {v['name']:22} {100 * v['share']:5.1f} %  ({v['gap_km2']:>8,} / {v['area_km2']:>9,} km²)")
-    print(f"Maita, joissa katvetta: {len(by_country)} / {len(area)}")
+    print(f"Laitoksia {len(insts)}, ruudukko {STEP}° ({n_rows}x{n_cols}), rivejä: katve {len(counted.runs)}, sama maa {len(same_country.runs)}, {COVERAGE.stat().st_size // 1024} kt")
+    print(f"Yli {THRESHOLD_KM} km yhteensä {(total_gap + total_exempt) / 1e6:.2f} milj. km² = {100 * (total_gap + total_exempt) / total_area:.1f} % ECHE-maiden pinta-alasta (ennen rajausta)")
+    print(f"  josta lasketaan katveeksi {total_gap / 1e6:.2f} milj. km² = {100 * total_gap / total_area:.1f} %; samassa maassa kuin lähin laitos (ei lasketa) {total_exempt / 1e6:.2f} milj. km² = {100 * total_exempt / total_area:.1f} %")
+    print(f"{'Maa':22} {'ennen':>7} {'nyt':>7}   ({'katve':>8} + {'sama maa':>8} km²)")
+    for k, v in by_country.items():
+        print(f"  {v['name']:20} {100 * v['far_share']:6.1f}% {100 * v['share']:6.1f}%   ({v['gap_km2']:>8,} + {v['same_country_km2']:>8,})")
 
 
 if __name__ == "__main__":

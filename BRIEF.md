@@ -247,7 +247,9 @@ näppäimistöfokus, `prefers-reduced-motion` huomioitu, riittävät kontrastit.
   `python scripts/report_diacritics.py` (tulos `data/diacritics_todo.txt`).
 - **Lisäosiot sivun lopussa:** (1) laitosten määrä maittain suhteutettuna väkilukuun (Eurostat, `data/population.json`;
   absoluuttinen määrä ja per miljoona asukasta) ja (2) katvealueet: alueet, joilta on yli 300 km lähimpään laitokseen
-  (laskettu koordinaateista, `scripts/build_coverage.py` → `data/coverage.json`). Ne eivät kuulu pääasialliseen näkymään,
+  (laskettu koordinaateista, `scripts/build_coverage.py` → `data/coverage.json`). Saman maan sääntö: jos ruudun
+  lähin laitos on samassa maassa, ruutua ei lasketa katveeksi pelkän etäisyyden perusteella; se näytetään
+  vaaleampana. Maakohtainen rajaus valittiin saarikohtaisen sijaan, koska se on yksinkertaisempi. Ne eivät kuulu pääasialliseen näkymään,
   eivätkä ne käytä uutta väriä: palkit ja katvealueet ovat musteen värisiä (vermilion = partneri, sininen = linkit).
   Vain tasojen 1 ja 2 laitokset lasketaan, joten taso 3 -maat (esim. Kreikka) näkyvät katveena.
 - **Julkaistava kansio** on `site/`; `build_site.py` kopioi `site.json`:n sinne (`site/data/`).

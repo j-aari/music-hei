@@ -417,7 +417,7 @@
   function barCell(value, max, label, title) {
     return h('td', { title },
       h('div', { class: 'bar-cell' },
-        h('span', { class: 'bar', style: `--f:${max ? value / max : 0}`, 'aria-hidden': 'true' }),
+        h('span', { class: 'bar', 'data-zero': value === 0, style: `--f:${max ? value / max : 0}`, 'aria-hidden': 'true' }),
         h('span', { class: 'bar-val', text: label })));
   }
 
@@ -489,18 +489,22 @@
       maxZoom: 19,
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     }).addTo(coverageMap);
-    // Draw the gaps opaque on their own pane and fade the whole pane: overlapping rows then leave no seams
-    coverageMap.createPane('gaps');
-    const pane = coverageMap.getPane('gaps');
-    pane.style.zIndex = 250;
-    pane.style.opacity = '0.4';
-    pane.style.pointerEvents = 'none';
-    const renderer = L.canvas({ pane: 'gaps' });
+    // Each layer is drawn opaque on its own pane and the whole pane is faded: overlapping rows then leave no seams
     const half = cov.meta.grid_deg / 2;
     const v = half * 1.12; // rows overlap slightly
-    for (const [lat, lon0, lon1] of cov.runs) {
-      L.rectangle([[lat - v, lon0 - half], [lat + v, lon1 + half]], { stroke: false, fillColor: ink, fillOpacity: 1, interactive: false, renderer }).addTo(coverageMap);
-    }
+    const drawRuns = (runs, name, zIndex, opacity) => {
+      coverageMap.createPane(name);
+      const pane = coverageMap.getPane(name);
+      pane.style.zIndex = zIndex;
+      pane.style.opacity = String(opacity);
+      pane.style.pointerEvents = 'none';
+      const renderer = L.canvas({ pane: name });
+      for (const [lat, lon0, lon1] of runs) {
+        L.rectangle([[lat - v, lon0 - half], [lat + v, lon1 + half]], { stroke: false, fillColor: ink, fillOpacity: 1, interactive: false, renderer }).addTo(coverageMap);
+      }
+    };
+    drawRuns(cov.runs_same_country || [], 'far', 240, 0.16); // far, but in the same country as the nearest institution: not counted
+    drawRuns(cov.runs, 'gaps', 250, 0.42);                    // counted as uncovered
     for (const i of data) {
       if (i.lat == null) continue;
       L.circleMarker([i.lat, i.lon], { radius: 3.5, color: paper, weight: 1.5, fillColor: ink, fillOpacity: 1, interactive: false }).addTo(coverageMap);
@@ -511,22 +515,27 @@
     const m = cov.meta;
     const km = m.threshold_km;
     $('#coverage-lede').textContent =
-      `${fmt(m.gap_share * 100, 1)}% of the land area of the countries on the ECHE list is more than ${km} km in a straight line from the nearest of the ${m.institutions} institutions.`;
+      `${fmt(m.gap_share * 100, 1)}% of the land area of the countries on the ECHE list is more than ${km} km in a straight line from the nearest of the ${m.institutions} institutions, and that nearest institution is in another country. ` +
+      `A further ${fmt(m.same_country_km2 / m.area_km2 * 100, 1)}% is just as far, but lies in the same country as its nearest institution: it is shown in a lighter tone and not counted.`;
     const lg = $('#coverage-legend');
-    lg.append(h('span', {}, h('span', { class: 'gap-swatch' }), `More than ${km} km from the nearest institution`),
+    lg.append(h('span', {}, h('span', { class: 'gap-swatch' }), `More than ${km} km from the nearest institution, which is in another country (counted)`),
+      h('span', {}, h('span', { class: 'gap-swatch gap-swatch--far' }), `More than ${km} km, but in the same country as the nearest institution (not counted)`),
       h('span', {}, h('span', { class: 'glyph glyph--t1' }), 'Institution'));
     const body = $('#coverage-body');
     const rows = Object.entries(m.by_country).map(([code, v]) => ({ code, ...v, name: (pop && pop.countries[code] && pop.countries[code].name) || v.name }));
     const maxShare = Math.max(...rows.map((r) => r.share));
     for (const r of rows) {
-      const tip = `${r.name}: ${fmt(r.share * 100, 1)}% of the area (${fmt(r.gap_km2 / 1000)} of ${fmt(r.area_km2 / 1000)} thousand km²)`;
+      const tip = `${r.name}: ${fmt(r.share * 100, 1)}% of the area counted as uncovered (${fmt(r.gap_km2 / 1000)} of ${fmt(r.area_km2 / 1000)} thousand km²); ` +
+        `a further ${fmt(r.same_country_km2 / 1000)} thousand km² is more than ${km} km from an institution but in the same country as it`;
       body.append(h('tr', {},
         h('td', { class: 'country-name', text: r.name }),
         barCell(r.share, Math.max(maxShare, 1e-9), `${fmt(r.share * 100, 1)}%`, tip),
-        h('td', { class: 'col-pop', text: fmt(r.gap_km2 / 1000) })));
+        h('td', { class: 'col-pop', text: fmt(r.gap_km2 / 1000) }),
+        h('td', { class: 'col-pop', text: fmt(r.same_country_km2 / 1000) })));
     }
     $('#coverage-note').textContent =
       `Calculated from the coordinates of the institutions on a ${m.grid_deg}° grid (about 11 km) as great-circle distance to the nearest institution in any country. ` +
+      'Areas in the same country as their nearest institution are not counted on distance alone, so, for example, a country’s far north is not treated as uncovered when the country has an institution; the lighter tone shows how much this leaves out. ' +
       'Only land in countries on the ECHE list is assessed, so the United Kingdom, Switzerland and countries outside the programme are not shown. ' +
       'Distance is not travel time. Country outlines are simplified, so edges are approximate. ' +
       'Music departments of general universities are not included yet: in countries where music education is mostly organised that way, for example Greece, the uncovered areas partly reflect that.';
