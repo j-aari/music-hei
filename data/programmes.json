@@ -1,0 +1,3797 @@
+{
+ "meta": {
+  "description": "Study programmes per institution and fine-grained discipline (see disciplines.json). PILOT: 10 institutions.",
+  "status": "pilot",
+  "collected": "2026-09-21",
+  "verified_note": "Every record has verified: false. Programme names and URLs were read from the institutions' own websites (programme lists and programme pages) but have not been checked by a person.",
+  "rules": [
+   "Only what the institution's official pages state is recorded; nothing is inferred from other institutions or from general knowledge.",
+   "levels: BA, MA, Doc. At Conservatoire de Paris the 1st/2nd/3rd cycles are mapped to BA/MA/Doc; BEd/MEd count as BA/MA. An empty levels list means the page names the study but not a BA/MA/Doc level (see the evidence note).",
+   "Doctoral study is recorded as level Doc on a discipline only where the institution names that field on its doctoral page.",
+   "Absence of a record means 'not found on the pages that were read', not 'not offered'."
+  ],
+  "institutions": [
+   "A  SALZBUR02",
+   "A  WIEN08",
+   "E  BARCELO29",
+   "F  PARIS119",
+   "N  OSLO03",
+   "NL ROTTERD09",
+   "NL S-GRAVE05",
+   "RO BUCURES03",
+   "S  STOCKHO11",
+   "SF HELSINK42"
+  ]
+ },
+ "programmes": [
+  {
+   "erasmus_code": "A  SALZBUR02",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.moz.ac.at/en/study/course-finder/wind-percussion-instruments/trumpet-ba",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Trumpet",
+     "url": "https://www.moz.ac.at/en/study/course-finder/wind-percussion-instruments/trumpet-ba"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Horn",
+     "url": "https://www.moz.ac.at/en/study/course-finder/wind-percussion-instruments/horn-ba"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Trombone",
+     "url": "https://www.moz.ac.at/en/study/course-finder/wind-percussion-instruments/trombone-ba"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Bass Tuba",
+     "url": "https://www.moz.ac.at/en/study/course-finder/wind-percussion-instruments/bass-tuba-ba"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Trumpet",
+     "url": "https://www.moz.ac.at/en/study/course-finder/wind-percussion-instruments/trumpet-ba"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Horn",
+     "url": "https://www.moz.ac.at/en/study/course-finder/wind-percussion-instruments/horn-ba"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Trombone",
+     "url": "https://www.moz.ac.at/en/study/course-finder/wind-percussion-instruments/trombone-ba"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bass Tuba",
+     "url": "https://www.moz.ac.at/en/study/course-finder/wind-percussion-instruments/bass-tuba-ba"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "A  SALZBUR02",
+   "discipline": "chamber-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.moz.ac.at/en/study/course-finder/string-instruments/chamber-music-ma",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Chamber Music",
+     "url": "https://www.moz.ac.at/en/study/course-finder/string-instruments/chamber-music-ma"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "A  SALZBUR02",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA",
+    "Doc"
+   ],
+   "source_url": "https://www.moz.ac.at/en/study/course-finder/composition-music-theory/composition-bachelor",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composition",
+     "url": "https://www.moz.ac.at/en/study/course-finder/composition-music-theory/composition-bachelor"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Composition",
+     "url": "https://www.moz.ac.at/en/study/course-finder/composition-music-theory/composition-bachelor"
+    },
+    {
+     "level": "Doc",
+     "programme_name": "Composition",
+     "url": "https://www.moz.ac.at/en/study/course-finder/composition-music-theory/composition-bachelor"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "A  SALZBUR02",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.moz.ac.at/en/study/course-finder/conducting-choir-wind-instruments/choral-conducting-ba",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Choral Conducting",
+     "url": "https://www.moz.ac.at/en/study/course-finder/conducting-choir-wind-instruments/choral-conducting-ba"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Orchestral Conducting",
+     "url": "https://www.moz.ac.at/en/study/course-finder/conducting-choir-wind-instruments/orchestral-conducting-ba"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Choral Conducting",
+     "url": "https://www.moz.ac.at/en/study/course-finder/conducting-choir-wind-instruments/choral-conducting-ba"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Orchestral Conducting",
+     "url": "https://www.moz.ac.at/en/study/course-finder/conducting-choir-wind-instruments/orchestral-conducting-ba"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "A  SALZBUR02",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.moz.ac.at/en/study/course-finder/early-music/harpsichord-ba",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Harpsichord",
+     "url": "https://www.moz.ac.at/en/study/course-finder/early-music/harpsichord-ba"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Baroque Oboe",
+     "url": "https://www.moz.ac.at/en/study/course-finder/early-music/baroque-oboe-ba"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Baroque Violin/Viola",
+     "url": "https://www.moz.ac.at/en/study/course-finder/early-music/baroque-violin-baroque-viola-ba"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Viola da Gamba/Violone",
+     "url": "https://www.moz.ac.at/en/study/course-finder/early-music/viola-da-gamba-ba"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Harpsichord",
+     "url": "https://www.moz.ac.at/en/study/course-finder/early-music/harpsichord-ba"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Baroque Oboe",
+     "url": "https://www.moz.ac.at/en/study/course-finder/early-music/baroque-oboe-ba"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Baroque Violin/Viola",
+     "url": "https://www.moz.ac.at/en/study/course-finder/early-music/baroque-violin-baroque-viola-ba"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Viola da Gamba/Violone",
+     "url": "https://www.moz.ac.at/en/study/course-finder/early-music/viola-da-gamba-ba"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Baroque Cello",
+     "url": "https://www.moz.ac.at/en/study/course-finder/early-music/baroque-cello-ma"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "A  SALZBUR02",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.moz.ac.at/en/study/course-finder/string-instruments/guitar-ba",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Guitar",
+     "url": "https://www.moz.ac.at/en/study/course-finder/string-instruments/guitar-ba"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Guitar",
+     "url": "https://www.moz.ac.at/en/study/course-finder/string-instruments/guitar-ba"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "A  SALZBUR02",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.moz.ac.at/en/study/course-finder/string-instruments/harp-ba",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Harp",
+     "url": "https://www.moz.ac.at/en/study/course-finder/string-instruments/harp-ba"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Harp",
+     "url": "https://www.moz.ac.at/en/study/course-finder/string-instruments/harp-ba"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "A  SALZBUR02",
+   "discipline": "music-theory",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.moz.ac.at/en/study/course-finder/composition-music-theory/music-theory-bachelor",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Music Theory",
+     "url": "https://www.moz.ac.at/en/study/course-finder/composition-music-theory/music-theory-bachelor"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Music Theory",
+     "url": "https://www.moz.ac.at/en/study/course-finder/composition-music-theory/music-theory-bachelor"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "A  SALZBUR02",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.moz.ac.at/en/study/course-finder/keyboard-instruments/organ-ba",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Organ",
+     "url": "https://www.moz.ac.at/en/study/course-finder/keyboard-instruments/organ-ba"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Organ",
+     "url": "https://www.moz.ac.at/en/study/course-finder/keyboard-instruments/organ-ba"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "A  SALZBUR02",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.moz.ac.at/en/study/course-finder/wind-percussion-instruments/percussion-ba",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Percussion",
+     "url": "https://www.moz.ac.at/en/study/course-finder/wind-percussion-instruments/percussion-ba"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Percussion",
+     "url": "https://www.moz.ac.at/en/study/course-finder/wind-percussion-instruments/percussion-ba"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "A  SALZBUR02",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.moz.ac.at/en/study/course-finder/keyboard-instruments/piano-ba",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Piano",
+     "url": "https://www.moz.ac.at/en/study/course-finder/keyboard-instruments/piano-ba"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Piano",
+     "url": "https://www.moz.ac.at/en/study/course-finder/keyboard-instruments/piano-ba"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "A  SALZBUR02",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.moz.ac.at/en/study/course-finder/string-instruments/violin-ba",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Violin",
+     "url": "https://www.moz.ac.at/en/study/course-finder/string-instruments/violin-ba"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Viola",
+     "url": "https://www.moz.ac.at/en/study/course-finder/string-instruments/viola-ba"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Violoncello",
+     "url": "https://www.moz.ac.at/en/study/course-finder/string-instruments/violoncello-ba"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Double Bass",
+     "url": "https://www.moz.ac.at/en/study/course-finder/string-instruments/double-bass-ba"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Violin",
+     "url": "https://www.moz.ac.at/en/study/course-finder/string-instruments/violin-ba"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Viola",
+     "url": "https://www.moz.ac.at/en/study/course-finder/string-instruments/viola-ba"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Violoncello",
+     "url": "https://www.moz.ac.at/en/study/course-finder/string-instruments/violoncello-ba"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Double Bass",
+     "url": "https://www.moz.ac.at/en/study/course-finder/string-instruments/double-bass-ba"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "A  SALZBUR02",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.moz.ac.at/en/study/course-finder/vocal-studies/vocal-studies-ba",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Vocal Studies",
+     "url": "https://www.moz.ac.at/en/study/course-finder/vocal-studies/vocal-studies-ba"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Vocal Studies",
+     "url": "https://www.moz.ac.at/en/study/course-finder/vocal-studies/vocal-studies-ba"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Opera Studies",
+     "url": "https://www.moz.ac.at/en/study/course-finder/opera/opera-ma"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "A  SALZBUR02",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.moz.ac.at/en/study/course-finder/wind-percussion-instruments/flute-ba",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Flute",
+     "url": "https://www.moz.ac.at/en/study/course-finder/wind-percussion-instruments/flute-ba"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Oboe",
+     "url": "https://www.moz.ac.at/en/study/course-finder/wind-percussion-instruments/oboe-ba"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Clarinet",
+     "url": "https://www.moz.ac.at/en/study/course-finder/wind-percussion-instruments/clarinet-ba"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Bassoon",
+     "url": "https://www.moz.ac.at/en/study/course-finder/wind-percussion-instruments/bassoon-ba"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Recorder",
+     "url": "https://www.moz.ac.at/en/study/course-finder/wind-percussion-instruments/recorder-ba"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Flute",
+     "url": "https://www.moz.ac.at/en/study/course-finder/wind-percussion-instruments/flute-ba"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Oboe",
+     "url": "https://www.moz.ac.at/en/study/course-finder/wind-percussion-instruments/oboe-ba"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Clarinet",
+     "url": "https://www.moz.ac.at/en/study/course-finder/wind-percussion-instruments/clarinet-ba"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bassoon",
+     "url": "https://www.moz.ac.at/en/study/course-finder/wind-percussion-instruments/bassoon-ba"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Recorder",
+     "url": "https://www.moz.ac.at/en/study/course-finder/wind-percussion-instruments/recorder-ba"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "A  WIEN08",
+   "discipline": "arts-management",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.mdw.ac.at/1477",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Kulturmanagement – MA (CE)",
+     "url": "https://www.mdw.ac.at/1477",
+     "note": "Continuing-education (CE) master"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "A  WIEN08",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mdw.ac.at/1253",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Horn – BA",
+     "url": "https://www.mdw.ac.at/1253"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Posaune – BA",
+     "url": "https://www.mdw.ac.at/1256"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Trompete – BA",
+     "url": "https://www.mdw.ac.at/1259"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Basstuba – BA",
+     "url": "https://www.mdw.ac.at/1250"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Horn – MA",
+     "url": "https://www.mdw.ac.at/2080"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Posaune – MA",
+     "url": "https://www.mdw.ac.at/2083"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Trompete – MA",
+     "url": "https://www.mdw.ac.at/2086"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Basstuba – MA",
+     "url": "https://www.mdw.ac.at/2077"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "A  WIEN08",
+   "discipline": "chamber-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mdw.ac.at/1278",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Klavier-Kammermusik – BA",
+     "url": "https://www.mdw.ac.at/1278"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kammermusik – MA",
+     "url": "https://www.mdw.ac.at/1279"
+    },
+    {
+     "level": "MA",
+     "programme_name": "European Chamber Music Master – MA",
+     "url": "https://www.mdw.ac.at/1281"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "A  WIEN08",
+   "discipline": "church-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mdw.ac.at/1285",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Katholische und Evangelische Kirchenmusik – BA",
+     "url": "https://www.mdw.ac.at/1285"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Katholische und Evangelische Kirchenmusik – MA",
+     "url": "https://www.mdw.ac.at/1286"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "A  WIEN08",
+   "discipline": "composition",
+   "levels": [],
+   "source_url": "https://www.mdw.ac.at/1294",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Komposition und Musiktheorie (Diplomstudium)",
+     "url": "https://www.mdw.ac.at/1294",
+     "note": "Single-cycle diploma study (Diplomstudium); no BA/MA level given on the list"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "A  WIEN08",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mdw.ac.at/1288",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Chordirigieren – BA",
+     "url": "https://www.mdw.ac.at/1288"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Orchesterdirigieren – BA",
+     "url": "https://www.mdw.ac.at/1290"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Chordirigieren – MA",
+     "url": "https://www.mdw.ac.at/2069"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Orchesterdirigieren – MA",
+     "url": "https://www.mdw.ac.at/2070"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "A  WIEN08",
+   "discipline": "early-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.mdw.ac.at/1283",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Historische Aufführungspraxis – MA",
+     "url": "https://www.mdw.ac.at/1283"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "A  WIEN08",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mdw.ac.at/1241",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Gitarre – BA",
+     "url": "https://www.mdw.ac.at/1241"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Gitarre – MA",
+     "url": "https://www.mdw.ac.at/2071"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "A  WIEN08",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mdw.ac.at/1242",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Harfe – BA",
+     "url": "https://www.mdw.ac.at/1242"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Harfe – MA",
+     "url": "https://www.mdw.ac.at/2072"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "A  WIEN08",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mdw.ac.at/1382",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikerziehung (ME) – BEd/MEd",
+     "url": "https://www.mdw.ac.at/1382",
+     "note": "BEd counted as BA"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalmusikerziehung (IME) – BEd/MEd",
+     "url": "https://www.mdw.ac.at/1384",
+     "note": "BEd counted as BA"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Musik- und Bewegungspädagogik / Rhythmik – BA",
+     "url": "https://www.mdw.ac.at/1387"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musikerziehung (ME) – BEd/MEd",
+     "url": "https://www.mdw.ac.at/1383",
+     "note": "MEd counted as MA"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalmusikerziehung (IME) – BEd/MEd",
+     "url": "https://www.mdw.ac.at/1385",
+     "note": "MEd counted as MA"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musik- und Bewegungspädagogik / Rhythmik – MA",
+     "url": "https://www.mdw.ac.at/1388"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "A  WIEN08",
+   "discipline": "music-technology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mdw.ac.at/1292",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Tonmeister_in – BA",
+     "url": "https://www.mdw.ac.at/1292"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Tonmeister_in – MA",
+     "url": "https://www.mdw.ac.at/1981"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "A  WIEN08",
+   "discipline": "music-theory",
+   "levels": [],
+   "source_url": "https://www.mdw.ac.at/1294",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Komposition und Musiktheorie (Diplomstudium)",
+     "url": "https://www.mdw.ac.at/1294",
+     "note": "Single-cycle diploma study (Diplomstudium); no BA/MA level given on the list"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "A  WIEN08",
+   "discipline": "musicology",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.mdw.ac.at/1301",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Ethnomusikologie – MA",
+     "url": "https://www.mdw.ac.at/1301"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Masterstudium Musikwissenschaft",
+     "url": "https://www.mdw.ac.at/1985"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "A  WIEN08",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mdw.ac.at/1268",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Orgel – BA",
+     "url": "https://www.mdw.ac.at/1268"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Orgel – MA",
+     "url": "https://www.mdw.ac.at/1269"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "A  WIEN08",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mdw.ac.at/1258",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Schlaginstrumente – BA",
+     "url": "https://www.mdw.ac.at/1258"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Schlaginstrumente – MA",
+     "url": "https://www.mdw.ac.at/2085"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "A  WIEN08",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mdw.ac.at/1263",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Klavier – BA",
+     "url": "https://www.mdw.ac.at/1263"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Klavier – MA",
+     "url": "https://www.mdw.ac.at/1264"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "A  WIEN08",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mdw.ac.at/1243",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kontrabass – BA",
+     "url": "https://www.mdw.ac.at/1243"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Viola – BA",
+     "url": "https://www.mdw.ac.at/1244"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Violine – BA",
+     "url": "https://www.mdw.ac.at/1245"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Violoncello – BA",
+     "url": "https://www.mdw.ac.at/1246"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kontrabass – MA",
+     "url": "https://www.mdw.ac.at/2073"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Viola – MA",
+     "url": "https://www.mdw.ac.at/2074"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Violine – MA",
+     "url": "https://www.mdw.ac.at/2075"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Violoncello – MA",
+     "url": "https://www.mdw.ac.at/2076"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "A  WIEN08",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mdw.ac.at/1272",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Gesang – BA",
+     "url": "https://www.mdw.ac.at/1272"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Lied – Oratorium – Konzert – MA",
+     "url": "https://www.mdw.ac.at/1273"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Vocal Performance – MA",
+     "url": "https://www.mdw.ac.at/1275"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musikdramatische Darstellung – MA",
+     "url": "https://www.mdw.ac.at/1274"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "A  WIEN08",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mdw.ac.at/1251",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Fagott – BA",
+     "url": "https://www.mdw.ac.at/1251"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Flöte – BA",
+     "url": "https://www.mdw.ac.at/1252"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Klarinette – BA",
+     "url": "https://www.mdw.ac.at/1254"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Oboe – BA",
+     "url": "https://www.mdw.ac.at/1255"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Saxophon – BA",
+     "url": "https://www.mdw.ac.at/1257"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Fagott – MA",
+     "url": "https://www.mdw.ac.at/2078"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Flöte – MA",
+     "url": "https://www.mdw.ac.at/2079"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Klarinette – MA",
+     "url": "https://www.mdw.ac.at/2081"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Oboe – MA",
+     "url": "https://www.mdw.ac.at/2082"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Saxophon – MA",
+     "url": "https://www.mdw.ac.at/2084"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  BARCELO29",
+   "discipline": "arts-management",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.esmuc.cat/en/studies/grau/produccio-i-gestio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Production and Management (Bachelor)",
+     "url": "https://www.esmuc.cat/en/studies/grau/produccio-i-gestio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Management and Music Production (ESMUC's own master)",
+     "url": "https://www.esmuc.cat/en/master-propi-de-management-i-produccio-musical/",
+     "note": "ESMUC's own (non-official) master"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  BARCELO29",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.esmuc.cat/en/studies/grau/composicio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composition (Bachelor)",
+     "url": "https://www.esmuc.cat/en/studies/grau/composicio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Composition with Technologies (ESMUC's own master)",
+     "url": "https://www.esmuc.cat/en/master-propi-de-composicio-amb-tecnologies/",
+     "note": "ESMUC's own (non-official) master"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  BARCELO29",
+   "discipline": "conducting",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.esmuc.cat/en/studies/grau/direccio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Conducting (Bachelor)",
+     "url": "https://www.esmuc.cat/en/studies/grau/direccio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  BARCELO29",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.esmuc.cat/en/studies/grau/interpretacio-musica-antiga/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Performance: Early Music",
+     "url": "https://www.esmuc.cat/en/studies/grau/interpretacio-musica-antiga/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Performance of Early Music (University Master's)",
+     "url": "https://www.esmuc.cat/en/master-universitari-dinterpretacio-de-la-musica-antiga/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  BARCELO29",
+   "discipline": "folk",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.esmuc.cat/en/studies/grau/interpretacio-musica-tradicional/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Performance: Traditional Music",
+     "url": "https://www.esmuc.cat/en/studies/grau/interpretacio-musica-tradicional/",
+     "note": "Mapped from 'traditional music'"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  BARCELO29",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.esmuc.cat/en/studies/grau/interpretacio-jazz-i-musica-moderna/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Performance: Jazz and Modern Music",
+     "url": "https://www.esmuc.cat/en/studies/grau/interpretacio-jazz-i-musica-moderna/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Barcelona Jazz Master",
+     "url": "https://www.esmuc.cat/en/masters-i-postgraus/official-jazz-master-barcelona-jazz-master/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  BARCELO29",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.esmuc.cat/en/studies/grau/pedagogia/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Pedagogy (Bachelor)",
+     "url": "https://www.esmuc.cat/en/studies/grau/pedagogia/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Music Education for Musicians (ESMUC's own master)",
+     "url": "https://www.esmuc.cat/en/master-propi-de-pedagogia-per-a-musics/",
+     "note": "ESMUC's own (non-official) master"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  BARCELO29",
+   "discipline": "music-technology",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.esmuc.cat/en/studies/grau/sonologia/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Sonology (Bachelor)",
+     "url": "https://www.esmuc.cat/en/studies/grau/sonologia/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  BARCELO29",
+   "discipline": "musicology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.esmuc.cat/en/studies/grau/musicologia/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musicology (Bachelor)",
+     "url": "https://www.esmuc.cat/en/studies/grau/musicologia/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Music Research",
+     "url": "https://www.esmuc.cat/en/masters-i-postgraus/master-oficial-de-recerca-musical/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  BARCELO29",
+   "discipline": "vocal-opera",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.esmuc.cat/en/master-oficial-de-lied-victoria-de-los-angeles/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Lied \"Victoria de los Ángeles\"",
+     "url": "https://www.esmuc.cat/en/master-oficial-de-lied-victoria-de-los-angeles/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  PARIS119",
+   "discipline": "accordion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoiredeparis.fr/en/curriculum/accordion",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Accordion - 1st Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/accordion"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Accordion - 2nd Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/accordion-0"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  PARIS119",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoiredeparis.fr/en/curriculum/trumpet",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Trumpet - 1st Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/trumpet"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Trombone - 1st Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/trombone"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Tuba - 1st Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/tuba"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Cor (horn) - 1st Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/cor"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Trumpet - 2nd Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/trumpet-0"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Trombone - 2nd Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/trombone-0"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Tuba - 2nd Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/tuba-0"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Cor (horn) - 2nd Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/cor-0"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  PARIS119",
+   "discipline": "chamber-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoiredeparis.fr/en/curriculum/chamber-music",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Chamber music - 1st Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/chamber-music"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Chamber music - 2nd Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/chamber-music-0"
+    },
+    {
+     "level": "MA",
+     "programme_name": "ECMAster - 2nd Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/ecmaster"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  PARIS119",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA",
+    "Doc"
+   ],
+   "source_url": "https://www.conservatoiredeparis.fr/en/curriculum/composition",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composition - 1st Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/composition"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Composition - 2nd Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/composition-0"
+    },
+    {
+     "level": "Doc",
+     "programme_name": "Composition - 3rd Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/composition-doctorate-sacre"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  PARIS119",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoiredeparis.fr/en/curriculum/conductors",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Conducting - 1st Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/conductors"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Conducting - 2nd Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/conductors-0"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  PARIS119",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA",
+    "Doc"
+   ],
+   "source_url": "https://www.conservatoiredeparis.fr/en/curriculum/baroque-violin",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Baroque violin - 1st Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/baroque-violin"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Harpsichord and continuo - 1st Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/harpsichord-and-continuo"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Baroque cello - 1st Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/baroque-cello"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Baroque violin - 2nd Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/baroque-violin-0"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Harpsichord and continuo - 2nd Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/harpsichord-and-continuo-0"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Baroque cello - 2nd Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/baroque-cello-0"
+    },
+    {
+     "level": "Doc",
+     "programme_name": "Pianoforte - 3rd Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/pianoforte-1"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  PARIS119",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoiredeparis.fr/en/curriculum/guitar",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Guitar - 1st Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/guitar"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Guitar - 2nd Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/guitar-0"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  PARIS119",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoiredeparis.fr/en/curriculum/harp",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Harp - 1st Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/harp"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Harp - 2nd Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/harp-0"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  PARIS119",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoiredeparis.fr/en/curriculum/jazz-and-improvised-music-1st-cycle",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Jazz and improvised music - 1st Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/jazz-and-improvised-music-1st-cycle"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Jazz and improvised music - 2nd Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/jazz-and-improvised-music-2nd-cycle"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  PARIS119",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoiredeparis.fr/en/curriculum/de-curriculum",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DE curriculum - 1st Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/de-curriculum",
+     "note": "State teaching diploma (DE)"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Training for the CA - Musical training - 2nd Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/training-ca-musical-training",
+     "note": "Teaching certificate (CA)"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  PARIS119",
+   "discipline": "music-technology",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatoiredeparis.fr/en/curriculum/fsmsi-mention-son-1e-cycle",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "FSMSI Mention SON - 1st Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/fsmsi-mention-son-1e-cycle",
+     "note": "Sound option of the Music, Sound and Image department"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  PARIS119",
+   "discipline": "music-theory",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoiredeparis.fr/en/curriculum/ecriture",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Écriture (writing) - 1st Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/ecriture",
+     "note": "Mapped from 'écriture' (writing: harmony, counterpoint)"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Écriture (writing) - 2nd Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/ecriture-0",
+     "note": "Mapped from 'écriture' (writing: harmony, counterpoint)"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  PARIS119",
+   "discipline": "musicology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoiredeparis.fr/en/curriculum/musicologie",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musicologie - 1st Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/musicologie"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musicologie - 2nd Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/musicologie-0"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  PARIS119",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoiredeparis.fr/en/curriculum/organ-interpretation",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Organ-interpretation - 1st Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/organ-interpretation"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Organ-interpretation - 2nd Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/organ-interpretation-0"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  PARIS119",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoiredeparis.fr/en/curriculum/percussion",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Percussion - 1st Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/percussion"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Percussion - 2nd Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/percussion-0"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  PARIS119",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoiredeparis.fr/en/curriculum/piano",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Piano - 1st Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/piano"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Piano - 2nd Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/piano-0"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  PARIS119",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoiredeparis.fr/en/curriculum/violin",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Violin - 1st Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/violin"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Viola - 1st Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/viola"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Cello - 1st Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/cello"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Double bass - 1st Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/double-bass"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Violin - 2nd Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/violin-0"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Viola - 2nd Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/viola-0"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Cello - 2nd Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/cello-0"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Double bass - 2nd Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/double-bass-0"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  PARIS119",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA",
+    "Doc"
+   ],
+   "source_url": "https://www.conservatoiredeparis.fr/en/curriculum/1st-cycle-singing",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Singing - 1st Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/1st-cycle-singing",
+     "note": "3rd cycle entry is 'Contemporary repertoire and new singing'"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Singing - 2nd Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/2nd-cycle-singing",
+     "note": "3rd cycle entry is 'Contemporary repertoire and new singing'"
+    },
+    {
+     "level": "Doc",
+     "programme_name": "Singing - 3rd Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/contemporary-repertoire-and-new-singing",
+     "note": "3rd cycle entry is 'Contemporary repertoire and new singing'"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  PARIS119",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoiredeparis.fr/en/curriculum/flute-0",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Flute - 1st Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/flute-0"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Clarinet - 1st Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/clarinet"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Oboe / English horn - 1st Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/oboe-english-horn"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Saxophone - 1st Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/saxophone"
+    },
+    {
+     "level": "BA",
+     "programme_name": "French bassoon - 1st Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/french-bassoon"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Flute - 2nd Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/flute"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Clarinet - 2nd Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/clarinet-0"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Oboe / English horn - 2nd Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/oboe-english-horn-0"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Saxophone - 2nd Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/saxophone-0"
+    },
+    {
+     "level": "MA",
+     "programme_name": "French bassoon - 2nd Cycle",
+     "url": "https://www.conservatoiredeparis.fr/en/curriculum/french-bassoon-0"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  OSLO03",
+   "discipline": "accordion",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://nmh.no/en/studies/undergraduate/bachelor-classical",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor of Music Performance – Classical and Contemporary Music (instrument named on the page)",
+     "url": "https://nmh.no/en/studies/undergraduate/bachelor-classical"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  OSLO03",
+   "discipline": "brass",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://nmh.no/en/studies/undergraduate/bachelor-classical",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor of Music Performance – Classical and Contemporary Music (instrument named on the page)",
+     "url": "https://nmh.no/en/studies/undergraduate/bachelor-classical"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  OSLO03",
+   "discipline": "chamber-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://nmh.no/en/studies/undergraduate/bachelor-classical",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor of Music Performance – Classical and Contemporary Music (instrument named on the page)",
+     "url": "https://nmh.no/en/studies/undergraduate/bachelor-classical"
+    },
+    {
+     "level": "MA",
+     "programme_name": "European Chamber Music Master (ECMAster)",
+     "url": "https://nmh.no/en/studies/graduate/ecmaster"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  OSLO03",
+   "discipline": "church-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://nmh.no/en/studies/undergraduate/bachelor-church-music",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor of Music in Church Music",
+     "url": "https://nmh.no/en/studies/undergraduate/bachelor-church-music"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music in Church Music",
+     "url": "https://nmh.no/en/studies/graduate/master-church-music"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  OSLO03",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://nmh.no/en/studies/undergraduate/bachelor-composition",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor of Music in Composition",
+     "url": "https://nmh.no/en/studies/undergraduate/bachelor-composition"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music in Composition",
+     "url": "https://nmh.no/en/studies/graduate/master-composition"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  OSLO03",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://nmh.no/en/studies/undergraduate/bachelor-conducting",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor of Music in Conducting",
+     "url": "https://nmh.no/en/studies/undergraduate/bachelor-conducting"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music in Conducting",
+     "url": "https://nmh.no/en/studies/graduate/master-conducting"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  OSLO03",
+   "discipline": "folk",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://nmh.no/en/studies/undergraduate/bachelor-folk-music",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor of Music Performance – Traditional Folk Music",
+     "url": "https://nmh.no/en/studies/undergraduate/bachelor-folk-music"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  OSLO03",
+   "discipline": "guitar",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://nmh.no/en/studies/undergraduate/bachelor-classical",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor of Music Performance – Classical and Contemporary Music (instrument named on the page)",
+     "url": "https://nmh.no/en/studies/undergraduate/bachelor-classical"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  OSLO03",
+   "discipline": "harp",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://nmh.no/en/studies/undergraduate/bachelor-classical",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor of Music Performance – Classical and Contemporary Music (\"Strings and Harp\")",
+     "url": "https://nmh.no/en/studies/undergraduate/bachelor-classical"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  OSLO03",
+   "discipline": "jazz",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://nmh.no/en/studies/undergraduate/bachelor-jazz",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor of Music Performance – Improvised Music and Jazz",
+     "url": "https://nmh.no/en/studies/undergraduate/bachelor-jazz"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  OSLO03",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://nmh.no/en/studies/undergraduate/bachelor-music-education",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor of Music in Music Education",
+     "url": "https://nmh.no/en/studies/undergraduate/bachelor-music-education"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music Education",
+     "url": "https://nmh.no/en/studies/graduate/master-music-education"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  OSLO03",
+   "discipline": "music-theory",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://nmh.no/en/studies/graduate/master-practice-oriented-music-analysis",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Master of Music in Practice-Oriented Music Analysis",
+     "url": "https://nmh.no/en/studies/graduate/master-practice-oriented-music-analysis",
+     "note": "Mapped from 'music analysis'"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  OSLO03",
+   "discipline": "organ",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://nmh.no/en/studies/undergraduate/bachelor-classical",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor of Music Performance – Classical and Contemporary Music (instrument named on the page)",
+     "url": "https://nmh.no/en/studies/undergraduate/bachelor-classical"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  OSLO03",
+   "discipline": "percussion",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://nmh.no/en/studies/undergraduate/bachelor-classical",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor of Music Performance – Classical and Contemporary Music (instrument named on the page)",
+     "url": "https://nmh.no/en/studies/undergraduate/bachelor-classical"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  OSLO03",
+   "discipline": "piano",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://nmh.no/en/studies/undergraduate/bachelor-classical",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor of Music Performance – Classical and Contemporary Music (instrument named on the page)",
+     "url": "https://nmh.no/en/studies/undergraduate/bachelor-classical"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  OSLO03",
+   "discipline": "strings",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://nmh.no/en/studies/undergraduate/bachelor-classical",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor of Music Performance – Classical and Contemporary Music (\"Strings and Harp\")",
+     "url": "https://nmh.no/en/studies/undergraduate/bachelor-classical"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  OSLO03",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://nmh.no/en/studies/undergraduate/bachelor-classical",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor of Music Performance – Classical and Contemporary Music (instrument named on the page)",
+     "url": "https://nmh.no/en/studies/undergraduate/bachelor-classical"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  OSLO03",
+   "discipline": "woodwind",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://nmh.no/en/studies/undergraduate/bachelor-classical",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor of Music Performance – Classical and Contemporary Music (instrument named on the page)",
+     "url": "https://nmh.no/en/studies/undergraduate/bachelor-classical"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL ROTTERD09",
+   "discipline": "brass",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.codarts.nl/en/education/bachelors/classical-music/main-subjects/brass-instruments/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Classical brass instruments",
+     "url": "https://www.codarts.nl/en/education/bachelors/classical-music/main-subjects/brass-instruments/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL ROTTERD09",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.codarts.nl/en/education/bachelors/classical-music/main-subjects/composition/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composition (Classical Music)",
+     "url": "https://www.codarts.nl/en/education/bachelors/classical-music/main-subjects/composition/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music – Composers profile",
+     "url": "https://www.codarts.nl/en/education/masters/master-of-music/about/",
+     "note": "Profile named on the page"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL ROTTERD09",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.codarts.nl/en/education/bachelors/classical-music/main-subjects/conducting/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Classical conducting",
+     "url": "https://www.codarts.nl/en/education/bachelors/classical-music/main-subjects/conducting/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music – Conductors profile",
+     "url": "https://www.codarts.nl/en/education/masters/master-of-music/about/",
+     "note": "Profile named on the page"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL ROTTERD09",
+   "discipline": "global-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.codarts.nl/en/education/bachelors/global-musics/about/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Global Musics",
+     "url": "https://www.codarts.nl/en/education/bachelors/global-musics/about/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Global Musics",
+     "url": "https://www.codarts.nl/en/education/masters/master-of-music/about/",
+     "note": "Programme referenced on the Master of Music page"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL ROTTERD09",
+   "discipline": "harp",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.codarts.nl/en/education/bachelors/classical-music/main-subjects/harp/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Classical harp",
+     "url": "https://www.codarts.nl/en/education/bachelors/classical-music/main-subjects/harp/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL ROTTERD09",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.codarts.nl/en/education/bachelors/jazz/main-subjects/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Jazz (main subjects: bass guitar, composition, double bass, drums, guitar, piano, saxophone, trumpet, trombone, vocals)",
+     "url": "https://www.codarts.nl/en/education/bachelors/jazz/main-subjects/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music – Jazz (genre/specialisation)",
+     "url": "https://www.codarts.nl/en/education/masters/master-of-music/about/",
+     "note": "Genre named on the page"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL ROTTERD09",
+   "discipline": "music-education",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.codarts.nl/en/education/bachelors/music-in-education/opleiding/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Music in Education",
+     "url": "https://www.codarts.nl/en/education/bachelors/music-in-education/opleiding/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL ROTTERD09",
+   "discipline": "organ",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.codarts.nl/en/education/bachelors/classical-music/main-subjects/organ/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Classical organ",
+     "url": "https://www.codarts.nl/en/education/bachelors/classical-music/main-subjects/organ/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL ROTTERD09",
+   "discipline": "percussion",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.codarts.nl/en/education/bachelors/classical-music/main-subjects/percussion/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Classical percussion",
+     "url": "https://www.codarts.nl/en/education/bachelors/classical-music/main-subjects/percussion/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL ROTTERD09",
+   "discipline": "piano",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.codarts.nl/en/education/bachelors/classical-music/main-subjects/piano/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Classical piano",
+     "url": "https://www.codarts.nl/en/education/bachelors/classical-music/main-subjects/piano/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL ROTTERD09",
+   "discipline": "strings",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.codarts.nl/en/education/bachelors/classical-music/main-subjects/violin/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Classical violin",
+     "url": "https://www.codarts.nl/en/education/bachelors/classical-music/main-subjects/violin/"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Classical viola",
+     "url": "https://www.codarts.nl/en/education/bachelors/classical-music/main-subjects/viola/"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Classical cello",
+     "url": "https://www.codarts.nl/en/education/bachelors/classical-music/main-subjects/cello/"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Classical double bass",
+     "url": "https://www.codarts.nl/en/education/bachelors/classical-music/main-subjects/double-bass/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL ROTTERD09",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.codarts.nl/en/education/bachelors/classical-music/main-subjects/voice/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Classical voice",
+     "url": "https://www.codarts.nl/en/education/bachelors/classical-music/main-subjects/voice/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL ROTTERD09",
+   "discipline": "woodwind",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.codarts.nl/en/education/bachelors/classical-music/main-subjects/woodwinds/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Classical woodwind instruments",
+     "url": "https://www.codarts.nl/en/education/bachelors/classical-music/main-subjects/woodwinds/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL S-GRAVE05",
+   "discipline": "accordion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.koncon.nl/en/programmes/bachelor/classicalmusic/bachelor-classicalmusic-accordion",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Classical Music Accordion",
+     "url": "https://www.koncon.nl/en/programmes/bachelor/classicalmusic/bachelor-classicalmusic-accordion"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Classical Music Accordion",
+     "url": "https://www.koncon.nl/en/programmes/master/classicalmusic/master-classicalmusic-accordion"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL S-GRAVE05",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.koncon.nl/en/programmes/bachelor/classicalmusic/bachelor-classicalmusic-trumpet",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Classical Music Trumpet",
+     "url": "https://www.koncon.nl/en/programmes/bachelor/classicalmusic/bachelor-classicalmusic-trumpet"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Classical Music Horn",
+     "url": "https://www.koncon.nl/en/programmes/bachelor/classicalmusic/bachelor-classicalmusic-horn"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Classical Music Trombone",
+     "url": "https://www.koncon.nl/en/programmes/bachelor/classicalmusic/bachelor-classicalmusic-trombone"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Classical Music Tuba & Euphonium",
+     "url": "https://www.koncon.nl/en/programmes/bachelor/classicalmusic/bachelor-classicalmusic-tuba"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Classical Music Trumpet",
+     "url": "https://www.koncon.nl/en/programmes/master/classicalmusic/master-classicalmusic-trumpet"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Classical Music Horn",
+     "url": "https://www.koncon.nl/en/programmes/master/classicalmusic/master-classicalmusic-horn"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Classical Music Trombone",
+     "url": "https://www.koncon.nl/en/programmes/master/classicalmusic/master-classicalmusic-trombone"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Classical Music Tuba & Euphonium",
+     "url": "https://www.koncon.nl/en/programmes/master/classicalmusic/master-classicalmusic-tuba"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL S-GRAVE05",
+   "discipline": "chamber-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.koncon.nl/en/programmes/master/classicalmusic/european-chamber-music-master-ecmaster",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "European Chamber Music Master – ECMAster",
+     "url": "https://www.koncon.nl/en/programmes/master/classicalmusic/european-chamber-music-master-ecmaster"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL S-GRAVE05",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.koncon.nl/en/programmes/bachelor/composition/bachelor-composition",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Composition",
+     "url": "https://www.koncon.nl/en/programmes/bachelor/composition/bachelor-composition"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Composition",
+     "url": "https://www.koncon.nl/en/programmes/master/composition/master-composition"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL S-GRAVE05",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.koncon.nl/en/programmes/bachelor/conducting/bachelor-choralconducting",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Choral Conducting",
+     "url": "https://www.koncon.nl/en/programmes/bachelor/conducting/bachelor-choralconducting"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Choral Conducting",
+     "url": "https://www.koncon.nl/en/programmes/master/conducting/master-choralconducting"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Windband Conducting",
+     "url": "https://www.koncon.nl/en/programmes/master/conducting/master-windbandconducting"
+    },
+    {
+     "level": "MA",
+     "programme_name": "National Master in Orchestral Conducting",
+     "url": "https://www.koncon.nl/en/programmes/master/conducting/master-nmo"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL S-GRAVE05",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.koncon.nl/en/programmes/bachelor/early-music/bachelor-earlymusic-baroquetrombone",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Early Music Baroque Trombone",
+     "url": "https://www.koncon.nl/en/programmes/bachelor/early-music/bachelor-earlymusic-baroquetrombone"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Early Music Vocal Studies",
+     "url": "https://www.koncon.nl/en/programmes/bachelor/vocal/bachelor-vocalearlymusic"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Early Music Vocal Studies",
+     "url": "https://www.koncon.nl/en/programmes/master/vocal/master-vocalearlymusic"
+    },
+    {
+     "level": "MA",
+     "programme_name": "European Master of Early Music",
+     "url": "https://www.koncon.nl/en/programmes/master/early-music/european-master-of-early-music"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Basso Continuo for Harpsichord",
+     "url": "https://www.koncon.nl/en/programmes/master/early-music/master-basso-continuo-for-harpsichord"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL S-GRAVE05",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.koncon.nl/en/programmes/bachelor/classicalmusic/bachelor-classicalmusic-guitar",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Classical Music Guitar",
+     "url": "https://www.koncon.nl/en/programmes/bachelor/classicalmusic/bachelor-classicalmusic-guitar"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Classical Music Guitar",
+     "url": "https://www.koncon.nl/en/programmes/master/classicalmusic/master-classicalmusic-guitar"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL S-GRAVE05",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.koncon.nl/en/programmes/bachelor/classicalmusic/bachelor-classicalmusic-harp",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Classical Music Harp",
+     "url": "https://www.koncon.nl/en/programmes/bachelor/classicalmusic/bachelor-classicalmusic-harp"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Classical Music Harp",
+     "url": "https://www.koncon.nl/en/programmes/master/classicalmusic/master-classicalmusic-harp"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL S-GRAVE05",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.koncon.nl/en/programmes/bachelor/jazz/bachelor-jazzpiano",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Jazz Piano (and nine other Bachelor Jazz programmes)",
+     "url": "https://www.koncon.nl/en/programmes/bachelor/jazz/bachelor-jazzpiano"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Jazz Piano (and ten other Master Jazz programmes, incl. Jazz Composition)",
+     "url": "https://www.koncon.nl/en/programmes/master/jazz/master-jazzpiano"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL S-GRAVE05",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.koncon.nl/en/programmes/bachelor/music-education/bachelor-of-music-in-education",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor of Music in Education",
+     "url": "https://www.koncon.nl/en/programmes/bachelor/music-education/bachelor-of-music-in-education"
+    },
+    {
+     "level": "MA",
+     "programme_name": "The Musician Educator",
+     "url": "https://www.koncon.nl/en/programmes/master/music-education/master-the-musician-educator"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Music Education Kodály",
+     "url": "https://www.koncon.nl/en/programmes/master/music-education/master-musiceducation-kodaly"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL S-GRAVE05",
+   "discipline": "music-theory",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.koncon.nl/en/programmes/bachelor/music-theory/bachelor-theoryofmusic",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Theory of Music",
+     "url": "https://www.koncon.nl/en/programmes/bachelor/music-theory/bachelor-theoryofmusic"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Theory of Music",
+     "url": "https://www.koncon.nl/en/programmes/master/music-theory/master-theoryofmusic"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL S-GRAVE05",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.koncon.nl/en/programmes/bachelor/classicalmusic/bachelor-classicalmusic-percussion",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Classical Music Percussion",
+     "url": "https://www.koncon.nl/en/programmes/bachelor/classicalmusic/bachelor-classicalmusic-percussion"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Classical Music Percussion",
+     "url": "https://www.koncon.nl/en/programmes/master/classicalmusic/master-classicalmusic-percussion"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL S-GRAVE05",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.koncon.nl/en/programmes/bachelor/classicalmusic/bachelor-classicalmusic-piano",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Classical Music Piano",
+     "url": "https://www.koncon.nl/en/programmes/bachelor/classicalmusic/bachelor-classicalmusic-piano"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Classical Music Piano",
+     "url": "https://www.koncon.nl/en/programmes/master/classicalmusic/master-classicalmusic-piano"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL S-GRAVE05",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.koncon.nl/en/programmes/bachelor/classicalmusic/bachelor-classicalmusic-violin",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Classical Music Violin",
+     "url": "https://www.koncon.nl/en/programmes/bachelor/classicalmusic/bachelor-classicalmusic-violin"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Classical Music Viola",
+     "url": "https://www.koncon.nl/en/programmes/bachelor/classicalmusic/bachelor-classicalmusic-viola"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Classical Music Cello",
+     "url": "https://www.koncon.nl/en/programmes/bachelor/classicalmusic/bachelor-classicalmusic-cello"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Classical Music Double Bass",
+     "url": "https://www.koncon.nl/en/programmes/bachelor/classicalmusic/bachelor-classicalmusic-doublebass"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Classical Music Violin",
+     "url": "https://www.koncon.nl/en/programmes/master/classicalmusic/master-classicalmusic-violin"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Classical Music Viola",
+     "url": "https://www.koncon.nl/en/programmes/master/classicalmusic/master-classicalmusic-viola"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Classical Music Cello",
+     "url": "https://www.koncon.nl/en/programmes/master/classicalmusic/master-classicalmusic-cello"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Classical Music Double Bass",
+     "url": "https://www.koncon.nl/en/programmes/master/classicalmusic/master-classicalmusic-doublebass"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL S-GRAVE05",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.koncon.nl/en/programmes/bachelor/vocal/bachelor-vocalearlymusic",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Early Music Vocal Studies",
+     "url": "https://www.koncon.nl/en/programmes/bachelor/vocal/bachelor-vocalearlymusic"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Classical Music Vocal Studies",
+     "url": "https://www.koncon.nl/en/programmes/bachelor/vocal/bachelor-vocalclassical"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Early Music Vocal Studies",
+     "url": "https://www.koncon.nl/en/programmes/master/vocal/master-vocalearlymusic"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Classical Music Vocal Studies",
+     "url": "https://www.koncon.nl/en/programmes/master/vocal/master-vocalclassical"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Dutch National Opera Academy",
+     "url": "https://www.koncon.nl/en/programmes/master/dutch-national-opera-academy/various-dnoa"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL S-GRAVE05",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.koncon.nl/en/programmes/bachelor/classicalmusic/bachelor-classicalmusic-flute",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Classical Music Flute",
+     "url": "https://www.koncon.nl/en/programmes/bachelor/classicalmusic/bachelor-classicalmusic-flute"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Classical Music Oboe",
+     "url": "https://www.koncon.nl/en/programmes/bachelor/classicalmusic/bachelor-classicalmusic-oboe"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Classical Music Clarinet",
+     "url": "https://www.koncon.nl/en/programmes/bachelor/classicalmusic/bachelor-classicalmusic-klarinet"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Classical Music Bassoon",
+     "url": "https://www.koncon.nl/en/programmes/bachelor/classicalmusic/bachelor-classicalmusic-bassoon"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Classical Music Saxophone",
+     "url": "https://www.koncon.nl/en/programmes/bachelor/classicalmusic/bachelor-classicalmusic-saxophone"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Classical Music Flute",
+     "url": "https://www.koncon.nl/en/programmes/master/classicalmusic/master-classicalmusic-flute"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Classical Music Oboe",
+     "url": "https://www.koncon.nl/en/programmes/master/classicalmusic/master-classicalmusic-oboe"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Classical Music Clarinet",
+     "url": "https://www.koncon.nl/en/programmes/master/classicalmusic/master-classicalmusic-clarinet"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Classical Music Bassoon",
+     "url": "https://www.koncon.nl/en/programmes/master/classicalmusic/master-classicalmusic-bassoon"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Classical Music Saxophone",
+     "url": "https://www.koncon.nl/en/programmes/master/classicalmusic/master-classicalmusic-saxophone"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RO BUCURES03",
+   "discipline": "accordion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.unmb.ro/oferta-educationala/licenta-facultatea-de-interpretare-muzicala/interpretare-muzicala-alte-instrumente-chitara-nai-saxofon-acordeon/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretare muzicală – Alte instrumente (chitară, nai, saxofon, acordeon)",
+     "url": "https://www.unmb.ro/oferta-educationala/licenta-facultatea-de-interpretare-muzicala/interpretare-muzicala-alte-instrumente-chitara-nai-saxofon-acordeon/",
+     "note": "Instruments named in the programme title (woodwind = saxophone, pan pipes)"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Stilistică Interpretativă – Alte instrumente (chitară, nai, saxofon, acordeon)",
+     "url": "https://www.unmb.ro/oferta-educationala/master-facultatea-de-interpretare-muzicala/stilistica-interpretativa-alte-instrumente-chitara-nai-saxofon-acordeon/",
+     "note": "Instruments named in the programme title"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RO BUCURES03",
+   "discipline": "arts-management",
+   "levels": [],
+   "source_url": "https://www.unmb.ro/oferta-educationala/studii-postuniversitare/management-muzical/",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Management muzical (studii postuniversitare)",
+     "url": "https://www.unmb.ro/oferta-educationala/studii-postuniversitare/management-muzical/",
+     "note": "Postgraduate study (postuniversitar); no BA/MA/Doc level"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RO BUCURES03",
+   "discipline": "church-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.unmb.ro/oferta-educationala/licenta-fcmpm/muzica-religioasa/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Muzică religioasă",
+     "url": "https://www.unmb.ro/oferta-educationala/licenta-fcmpm/muzica-religioasa/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Culturi muzicale religioase",
+     "url": "https://www.unmb.ro/oferta-educationala/master-fcmpm/culturi-muzicale-religioase/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RO BUCURES03",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.unmb.ro/oferta-educationala/licenta-fcmpm/compozitie-muzicala/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Compoziție muzicală",
+     "url": "https://www.unmb.ro/oferta-educationala/licenta-fcmpm/compozitie-muzicala/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Stil și limbaj compozițional",
+     "url": "https://www.unmb.ro/oferta-educationala/master-fcmpm/stil-limbaj-compozitional/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RO BUCURES03",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.unmb.ro/oferta-educationala/licenta-fcmpm/dirijat/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Dirijat",
+     "url": "https://www.unmb.ro/oferta-educationala/licenta-fcmpm/dirijat/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Stilistică dirijorală",
+     "url": "https://www.unmb.ro/oferta-educationala/master-fcmpm/stilistica-dirijorala/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RO BUCURES03",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.unmb.ro/oferta-educationala/licenta-facultatea-de-interpretare-muzicala/interpretare-muzicala-alte-instrumente-chitara-nai-saxofon-acordeon/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretare muzicală – Alte instrumente (chitară, nai, saxofon, acordeon)",
+     "url": "https://www.unmb.ro/oferta-educationala/licenta-facultatea-de-interpretare-muzicala/interpretare-muzicala-alte-instrumente-chitara-nai-saxofon-acordeon/",
+     "note": "Instruments named in the programme title (woodwind = saxophone, pan pipes)"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Stilistică Interpretativă – Alte instrumente (chitară, nai, saxofon, acordeon)",
+     "url": "https://www.unmb.ro/oferta-educationala/master-facultatea-de-interpretare-muzicala/stilistica-interpretativa-alte-instrumente-chitara-nai-saxofon-acordeon/",
+     "note": "Instruments named in the programme title"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RO BUCURES03",
+   "discipline": "jazz",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.unmb.ro/oferta-educationala/master-fcmpm/jazz-si-culturi-muzicale-pop/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Jazz și culturi muzicale pop",
+     "url": "https://www.unmb.ro/oferta-educationala/master-fcmpm/jazz-si-culturi-muzicale-pop/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RO BUCURES03",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.unmb.ro/oferta-educationala/licenta-fcmpm/muzica-pedagogie-muzicala/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Muzică (Pedagogie muzicală)",
+     "url": "https://www.unmb.ro/oferta-educationala/licenta-fcmpm/muzica-pedagogie-muzicala/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Educație muzicală contemporană",
+     "url": "https://www.unmb.ro/oferta-educationala/master-fcmpm/educatie-muzicala-contemporana/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RO BUCURES03",
+   "discipline": "musicology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.unmb.ro/oferta-educationala/licenta-fcmpm/muzicologie/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Muzicologie",
+     "url": "https://www.unmb.ro/oferta-educationala/licenta-fcmpm/muzicologie/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Sinteză muzicologică",
+     "url": "https://www.unmb.ro/oferta-educationala/master-fcmpm/sinteza-muzicologica/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RO BUCURES03",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.unmb.ro/oferta-educationala/licenta-facultatea-de-interpretare-muzicala/interpretare-muzicala-instrumente-cu-claviaturi/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretare muzicală – Instrumente cu claviatură",
+     "url": "https://www.unmb.ro/oferta-educationala/licenta-facultatea-de-interpretare-muzicala/interpretare-muzicala-instrumente-cu-claviaturi/",
+     "note": "Piano and organ named on the page"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Stilistică Interpretativă – Instrumente cu claviatură",
+     "url": "https://www.unmb.ro/oferta-educationala/master-facultatea-de-interpretare-muzicala/stilistica-interpretativa-instrumente-cu-claviatura/",
+     "note": "Same keyboard department; instruments not re-checked on the master's page"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RO BUCURES03",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.unmb.ro/oferta-educationala/licenta-facultatea-de-interpretare-muzicala/interpretare-muzicala-instrumente-cu-claviaturi/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretare muzicală – Instrumente cu claviatură",
+     "url": "https://www.unmb.ro/oferta-educationala/licenta-facultatea-de-interpretare-muzicala/interpretare-muzicala-instrumente-cu-claviaturi/",
+     "note": "Piano and organ named on the page"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Stilistică Interpretativă – Instrumente cu claviatură",
+     "url": "https://www.unmb.ro/oferta-educationala/master-facultatea-de-interpretare-muzicala/stilistica-interpretativa-instrumente-cu-claviatura/",
+     "note": "Same keyboard department; instruments not re-checked on the master's page"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RO BUCURES03",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.unmb.ro/oferta-educationala/licenta-facultatea-de-interpretare-muzicala/interpretare-muzicala-canto/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretare muzicală – Canto",
+     "url": "https://www.unmb.ro/oferta-educationala/licenta-facultatea-de-interpretare-muzicala/interpretare-muzicala-canto/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Stilistică Interpretativă – Canto",
+     "url": "https://www.unmb.ro/oferta-educationala/master-facultatea-de-interpretare-muzicala/stilistica-interpretativa-canto/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RO BUCURES03",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.unmb.ro/oferta-educationala/licenta-facultatea-de-interpretare-muzicala/interpretare-muzicala-alte-instrumente-chitara-nai-saxofon-acordeon/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretare muzicală – Alte instrumente (chitară, nai, saxofon, acordeon)",
+     "url": "https://www.unmb.ro/oferta-educationala/licenta-facultatea-de-interpretare-muzicala/interpretare-muzicala-alte-instrumente-chitara-nai-saxofon-acordeon/",
+     "note": "Instruments named in the programme title (woodwind = saxophone, pan pipes)"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Stilistică Interpretativă – Alte instrumente (chitară, nai, saxofon, acordeon)",
+     "url": "https://www.unmb.ro/oferta-educationala/master-facultatea-de-interpretare-muzicala/stilistica-interpretativa-alte-instrumente-chitara-nai-saxofon-acordeon/",
+     "note": "Instruments named in the programme title"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  STOCKHO11",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.kmh.se/in-english/education/programmes-and-courses/bachelor-programmes/composition---western-art-music.html",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composition – Western Art Music",
+     "url": "https://www.kmh.se/in-english/education/programmes-and-courses/bachelor-programmes/composition---western-art-music.html"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Composition – Electroacoustic Music",
+     "url": "https://www.kmh.se/in-english/education/programmes-and-courses/bachelor-programmes/composition---electroacoustic-music.html"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Composition – Art Music",
+     "url": "https://www.kmh.se/in-english/education/programmes-and-courses/masters-programmes/composition---art-music.html"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Composition – Electroacoustic Music",
+     "url": "https://www.kmh.se/in-english/education/programmes-and-courses/masters-programmes/composition---electroacoustic-music.html"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Composition – Jazz",
+     "url": "https://www.kmh.se/in-english/education/programmes-and-courses/masters-programmes/composition---jazz.html"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Composition, Film Music",
+     "url": "https://www.kmh.se/in-english/education/programmes-and-courses/masters-programmes/composition-film-music.html"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  STOCKHO11",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.kmh.se/in-english/education/programmes-and-courses/bachelor-programmes/conducting---choir.html",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Conducting – Choir",
+     "url": "https://www.kmh.se/in-english/education/programmes-and-courses/bachelor-programmes/conducting---choir.html"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Conducting – Orchestral",
+     "url": "https://www.kmh.se/in-english/education/programmes-and-courses/bachelor-programmes/conducting---orchestral.html"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Choral Conducting",
+     "url": "https://www.kmh.se/in-english/education/programmes-and-courses/masters-programmes/choral-conducting.html"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Orchestral Conducting",
+     "url": "https://www.kmh.se/in-english/education/programmes-and-courses/masters-programmes/orchestral-conducting.html"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  STOCKHO11",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.kmh.se/in-english/education/programmes-and-courses/bachelor-programmes/performance---classical-music-early-music.html",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Performance – Classical Music, Early Music",
+     "url": "https://www.kmh.se/in-english/education/programmes-and-courses/bachelor-programmes/performance---classical-music-early-music.html"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Performance, Early Music",
+     "url": "https://www.kmh.se/in-english/education/programmes-and-courses/masters-programmes/performance-early-music.html"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  STOCKHO11",
+   "discipline": "folk",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.kmh.se/in-english/education/programmes-and-courses/bachelor-programmes/performance---folk-music.html",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Performance – Folk Music",
+     "url": "https://www.kmh.se/in-english/education/programmes-and-courses/bachelor-programmes/performance---folk-music.html"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Performance, Swedish Folk Music",
+     "url": "https://www.kmh.se/in-english/education/programmes-and-courses/masters-programmes/performance-swedish-folk-music.html"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  STOCKHO11",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.kmh.se/in-english/education/programmes-and-courses/bachelor-programmes/performance---jazz.html",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Performance – Jazz",
+     "url": "https://www.kmh.se/in-english/education/programmes-and-courses/bachelor-programmes/performance---jazz.html"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Performance, Jazz",
+     "url": "https://www.kmh.se/in-english/education/programmes-and-courses/masters-programmes/performance-jazz.html"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  STOCKHO11",
+   "discipline": "music-education",
+   "levels": [],
+   "source_url": "https://www.kmh.se/in-english/education/programmes-and-courses/teacher-education-programmes.html",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Lärarprogram (teacher education programme, 300–330 credits)",
+     "url": "https://www.kmh.se/in-english/education/programmes-and-courses/teacher-education-programmes.html",
+     "note": "Integrated teacher programme offered in Swedish; level not stated as BA/MA"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  STOCKHO11",
+   "discipline": "music-technology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.kmh.se/in-english/education/programmes-and-courses/bachelor-programmes/performance---music-production.html",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Performance – Music Production",
+     "url": "https://www.kmh.se/in-english/education/programmes-and-courses/bachelor-programmes/performance---music-production.html",
+     "note": "Mapped from 'music production'"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Performance, Music Production",
+     "url": "https://www.kmh.se/in-english/education/programmes-and-courses/masters-programmes.html",
+     "note": "Mapped from 'music production'; listed without an individual page"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF HELSINK42",
+   "discipline": "accordion",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.uniarts.fi/en/study-programmes/accordion-classical-instrument-master/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Accordion, classical instrument, master",
+     "url": "https://www.uniarts.fi/en/study-programmes/accordion-classical-instrument-master/",
+     "note": "Only a master's page was found in the programme list; a bachelor's page was not verified"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF HELSINK42",
+   "discipline": "arts-management",
+   "levels": [
+    "MA",
+    "Doc"
+   ],
+   "source_url": "https://www.uniarts.fi/en/study-programmes/music-business-master/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Music business, master",
+     "url": "https://www.uniarts.fi/en/study-programmes/music-business-master/",
+     "note": "Only a master's page was found in the programme list; a bachelor's page was not verified"
+    },
+    {
+     "level": "Doc",
+     "programme_name": "Doctoral Programme in Music",
+     "url": "https://www.uniarts.fi/en/study-programmes/doctoral-programme-in-music/",
+     "note": "Field listed on the doctoral programme page"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF HELSINK42",
+   "discipline": "brass",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.uniarts.fi/en/study-programmes/wind-instruments-classical-instruments-master/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Wind instruments, classical instruments, master",
+     "url": "https://www.uniarts.fi/en/study-programmes/wind-instruments-classical-instruments-master/",
+     "note": "Only a master's page was found in the programme list; a bachelor's page was not verified"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF HELSINK42",
+   "discipline": "church-music",
+   "levels": [
+    "BA",
+    "MA",
+    "Doc"
+   ],
+   "source_url": "https://www.uniarts.fi/en/study-programmes/church-music-bachelor-and-master/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Church music, bachelor and master",
+     "url": "https://www.uniarts.fi/en/study-programmes/church-music-bachelor-and-master/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Church music, bachelor and master",
+     "url": "https://www.uniarts.fi/en/study-programmes/church-music-bachelor-and-master/"
+    },
+    {
+     "level": "Doc",
+     "programme_name": "Doctoral Programme in Music",
+     "url": "https://www.uniarts.fi/en/study-programmes/doctoral-programme-in-music/",
+     "note": "Field listed on the doctoral programme page"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF HELSINK42",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA",
+    "Doc"
+   ],
+   "source_url": "https://www.uniarts.fi/en/study-programmes/composition-bachelor-and-master/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composition, bachelor and master",
+     "url": "https://www.uniarts.fi/en/study-programmes/composition-bachelor-and-master/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Composition, bachelor and master",
+     "url": "https://www.uniarts.fi/en/study-programmes/composition-bachelor-and-master/"
+    },
+    {
+     "level": "Doc",
+     "programme_name": "Doctoral Programme in Music",
+     "url": "https://www.uniarts.fi/en/study-programmes/doctoral-programme-in-music/",
+     "note": "Field listed on the doctoral programme page"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF HELSINK42",
+   "discipline": "conducting",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.uniarts.fi/en/study-programmes/conducting-master/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Conducting, master",
+     "url": "https://www.uniarts.fi/en/study-programmes/conducting-master/",
+     "note": "Only a master's page was found in the programme list; a bachelor's page was not verified"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF HELSINK42",
+   "discipline": "early-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.uniarts.fi/en/study-programmes/early-music-classical-instrument-master/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Early music, classical instrument, master",
+     "url": "https://www.uniarts.fi/en/study-programmes/early-music-classical-instrument-master/",
+     "note": "Only a master's page was found in the programme list; a bachelor's page was not verified"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF HELSINK42",
+   "discipline": "folk",
+   "levels": [
+    "BA",
+    "MA",
+    "Doc"
+   ],
+   "source_url": "https://www.uniarts.fi/en/study-programmes/folk-music-bachelor-and-master/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Folk music, bachelor and master",
+     "url": "https://www.uniarts.fi/en/study-programmes/folk-music-bachelor-and-master/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Folk music, bachelor and master",
+     "url": "https://www.uniarts.fi/en/study-programmes/folk-music-bachelor-and-master/"
+    },
+    {
+     "level": "Doc",
+     "programme_name": "Doctoral Programme in Music",
+     "url": "https://www.uniarts.fi/en/study-programmes/doctoral-programme-in-music/",
+     "note": "Field listed on the doctoral programme page"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF HELSINK42",
+   "discipline": "global-music",
+   "levels": [
+    "BA",
+    "MA",
+    "Doc"
+   ],
+   "source_url": "https://www.uniarts.fi/en/study-programmes/global-music-bachelor-and-master/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Global music, bachelor and master",
+     "url": "https://www.uniarts.fi/en/study-programmes/global-music-bachelor-and-master/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Global music, bachelor and master",
+     "url": "https://www.uniarts.fi/en/study-programmes/global-music-bachelor-and-master/"
+    },
+    {
+     "level": "Doc",
+     "programme_name": "Doctoral Programme in Music",
+     "url": "https://www.uniarts.fi/en/study-programmes/doctoral-programme-in-music/",
+     "note": "Field listed on the doctoral programme page"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF HELSINK42",
+   "discipline": "guitar",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.uniarts.fi/en/study-programmes/guitar-classical-instrument-master/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Guitar, classical instrument, master",
+     "url": "https://www.uniarts.fi/en/study-programmes/guitar-classical-instrument-master/",
+     "note": "Only a master's page was found in the programme list; a bachelor's page was not verified"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF HELSINK42",
+   "discipline": "harp",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.uniarts.fi/en/study-programmes/harp-classical-instrument-master/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Harp, classical instrument, master",
+     "url": "https://www.uniarts.fi/en/study-programmes/harp-classical-instrument-master/",
+     "note": "Only a master's page was found in the programme list; a bachelor's page was not verified"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF HELSINK42",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA",
+    "Doc"
+   ],
+   "source_url": "https://www.uniarts.fi/en/study-programmes/jazz-composition-bachelor-and-master/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Jazz composition, bachelor and master",
+     "url": "https://www.uniarts.fi/en/study-programmes/jazz-composition-bachelor-and-master/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Jazz composition, bachelor and master",
+     "url": "https://www.uniarts.fi/en/study-programmes/jazz-composition-bachelor-and-master/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Jazz, instrument or voice, master",
+     "url": "https://www.uniarts.fi/en/study-programmes/jazz-instrument-or-voice-master/",
+     "note": "Only a master's page was found in the programme list; a bachelor's page was not verified"
+    },
+    {
+     "level": "Doc",
+     "programme_name": "Doctoral Programme in Music",
+     "url": "https://www.uniarts.fi/en/study-programmes/doctoral-programme-in-music/",
+     "note": "Field listed on the doctoral programme page"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF HELSINK42",
+   "discipline": "kantele",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.uniarts.fi/en/study-programmes/kantele-classical-instrument-master/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Kantele, classical instrument, master",
+     "url": "https://www.uniarts.fi/en/study-programmes/kantele-classical-instrument-master/",
+     "note": "Only a master's page was found in the programme list; a bachelor's page was not verified"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF HELSINK42",
+   "discipline": "music-education",
+   "levels": [
+    "MA",
+    "Doc"
+   ],
+   "source_url": "https://www.uniarts.fi/en/study-programmes/music-education-master/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Music education, master",
+     "url": "https://www.uniarts.fi/en/study-programmes/music-education-master/",
+     "note": "Only a master's page was found in the programme list; a bachelor's page was not verified"
+    },
+    {
+     "level": "Doc",
+     "programme_name": "Doctoral Programme in Music",
+     "url": "https://www.uniarts.fi/en/study-programmes/doctoral-programme-in-music/",
+     "note": "Field listed on the doctoral programme page"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF HELSINK42",
+   "discipline": "music-technology",
+   "levels": [
+    "MA",
+    "Doc"
+   ],
+   "source_url": "https://www.uniarts.fi/en/study-programmes/music-technology-master/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Music technology, master",
+     "url": "https://www.uniarts.fi/en/study-programmes/music-technology-master/",
+     "note": "Only a master's page was found in the programme list; a bachelor's page was not verified"
+    },
+    {
+     "level": "Doc",
+     "programme_name": "Doctoral Programme in Music",
+     "url": "https://www.uniarts.fi/en/study-programmes/doctoral-programme-in-music/",
+     "note": "Field listed on the doctoral programme page"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF HELSINK42",
+   "discipline": "music-theory",
+   "levels": [
+    "MA",
+    "Doc"
+   ],
+   "source_url": "https://www.uniarts.fi/en/study-programmes/music-theory-master/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Music theory, master",
+     "url": "https://www.uniarts.fi/en/study-programmes/music-theory-master/",
+     "note": "Only a master's page was found in the programme list; a bachelor's page was not verified"
+    },
+    {
+     "level": "Doc",
+     "programme_name": "Doctoral Programme in Music",
+     "url": "https://www.uniarts.fi/en/study-programmes/doctoral-programme-in-music/",
+     "note": "Field listed on the doctoral programme page"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF HELSINK42",
+   "discipline": "musicology",
+   "levels": [
+    "BA",
+    "Doc"
+   ],
+   "source_url": "https://www.uniarts.fi/en/study-programmes/cultural-music-studies-bachelor/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Cultural study of music, bachelor",
+     "url": "https://www.uniarts.fi/en/study-programmes/cultural-music-studies-bachelor/"
+    },
+    {
+     "level": "Doc",
+     "programme_name": "Doctoral Programme in Music",
+     "url": "https://www.uniarts.fi/en/study-programmes/doctoral-programme-in-music/",
+     "note": "Listed as 'music history' on the doctoral programme page"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF HELSINK42",
+   "discipline": "organ",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.uniarts.fi/en/study-programmes/organ-classical-instrument-master/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Organ, classical instrument, master",
+     "url": "https://www.uniarts.fi/en/study-programmes/organ-classical-instrument-master/",
+     "note": "Only a master's page was found in the programme list; a bachelor's page was not verified"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF HELSINK42",
+   "discipline": "percussion",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.uniarts.fi/en/study-programmes/percussion-classical-instrument-master/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Percussion, classical instrument, master",
+     "url": "https://www.uniarts.fi/en/study-programmes/percussion-classical-instrument-master/",
+     "note": "Only a master's page was found in the programme list; a bachelor's page was not verified"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF HELSINK42",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.uniarts.fi/en/study-programmes/piano-classical-instrument-bachelor-and-master/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Piano, classical instrument, bachelor and master",
+     "url": "https://www.uniarts.fi/en/study-programmes/piano-classical-instrument-bachelor-and-master/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Piano, classical instrument, bachelor and master",
+     "url": "https://www.uniarts.fi/en/study-programmes/piano-classical-instrument-bachelor-and-master/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF HELSINK42",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.uniarts.fi/en/study-programmes/vocal-arts-bachelor-and-master/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Vocal arts, bachelor and master",
+     "url": "https://www.uniarts.fi/en/study-programmes/vocal-arts-bachelor-and-master/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Vocal arts, bachelor and master",
+     "url": "https://www.uniarts.fi/en/study-programmes/vocal-arts-bachelor-and-master/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF HELSINK42",
+   "discipline": "woodwind",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.uniarts.fi/en/study-programmes/wind-instruments-classical-instruments-master/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Wind instruments, classical instruments, master",
+     "url": "https://www.uniarts.fi/en/study-programmes/wind-instruments-classical-instruments-master/",
+     "note": "Only a master's page was found in the programme list; a bachelor's page was not verified"
+    }
+   ],
+   "verified": false
+  }
+ ]
+}

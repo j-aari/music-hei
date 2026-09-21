@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "description": "Taxonomy of music study disciplines. Fine-grained disciplines (the identifiers used in programmes.json) are grouped into the fields used by the Sibelius Academy of the University of the Arts Helsinki.",
+  "levels": {
+    "BA": "Bachelor's degree (first cycle)",
+    "MA": "Master's degree (second cycle)",
+    "Doc": "Doctoral degree (third cycle)"
+  },
+  "notes": [
+    "The Sibelius Academy counts 16 fields because Church Music is taught in Helsinki and in Kuopio as two departments; here they are one group, so there are 15 groups.",
+    "DocMus and MuTri are doctoral programmes, not fields. Doctoral study is recorded as the level 'Doc' on a discipline, never as a discipline of its own."
+  ],
+  "disciplines": [
+    { "id": "piano", "name": "Piano" },
+    { "id": "accordion", "name": "Accordion" },
+    { "id": "guitar", "name": "Guitar" },
+    { "id": "kantele", "name": "Kantele" },
+    { "id": "strings", "name": "Strings" },
+    { "id": "chamber-music", "name": "Chamber music" },
+    { "id": "woodwind", "name": "Woodwind" },
+    { "id": "brass", "name": "Brass" },
+    { "id": "percussion", "name": "Percussion" },
+    { "id": "harp", "name": "Harp" },
+    { "id": "jazz", "name": "Jazz" },
+    { "id": "folk", "name": "Folk music" },
+    { "id": "global-music", "name": "Global music" },
+    { "id": "early-music", "name": "Early music" },
+    { "id": "church-music", "name": "Church music" },
+    { "id": "organ", "name": "Organ" },
+    { "id": "vocal-opera", "name": "Vocal arts and opera" },
+    { "id": "conducting", "name": "Conducting" },
+    { "id": "composition", "name": "Composition" },
+    { "id": "music-theory", "name": "Music theory" },
+    { "id": "music-education", "name": "Music education" },
+    { "id": "music-technology", "name": "Music technology" },
+    { "id": "musicology", "name": "Musicology" },
+    { "id": "arts-management", "name": "Arts management" }
+  ],
+  "groups": [
+    { "id": "global-music", "name": "Global Music", "disciplines": ["global-music"] },
+    { "id": "jazz", "name": "Jazz", "disciplines": ["jazz"] },
+    { "id": "strings-chamber", "name": "Strings and chamber music", "disciplines": ["strings", "chamber-music"] },
+    { "id": "folk", "name": "Folk music", "disciplines": ["folk"] },
+    { "id": "church-organ", "name": "Church music and organ", "disciplines": ["church-music", "organ"] },
+    { "id": "cultural-study", "name": "Cultural Study of Music", "disciplines": ["musicology"] },
+    { "id": "vocal-opera", "name": "Vocal arts and opera", "disciplines": ["vocal-opera"] },
+    { "id": "conducting", "name": "Conducting", "disciplines": ["conducting"] },
+    { "id": "music-education", "name": "Music education", "disciplines": ["music-education"] },
+    { "id": "music-technology", "name": "Music technology", "disciplines": ["music-technology"] },
+    { "id": "piano-accordion-guitar-kantele", "name": "Piano, accordion, guitar, kantele", "disciplines": ["piano", "accordion", "guitar", "kantele"] },
+    { "id": "winds-percussion-harp", "name": "Wind instruments, percussion, harp", "disciplines": ["woodwind", "brass", "percussion", "harp"] },
+    { "id": "composition-theory", "name": "Composition and music theory", "disciplines": ["composition", "music-theory"] },
+    { "id": "arts-management", "name": "Arts management, society and creative entrepreneurship", "disciplines": ["arts-management"] },
+    { "id": "early-music", "name": "Early music", "disciplines": ["early-music"] }
+  ]
+}
