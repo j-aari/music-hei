@@ -8,8 +8,10 @@ Menetelmä
   - jokaisen ruudun keskipisteestä lasketaan suuriympyrämatka (haversine) lähimpään laitokseen
   - katveessa on ruutu, jonka lähin laitos on yli THRESHOLD_KM päässä JA joka on jonkin ECHE-listan maan maa-alueella
     (sen maan, jossa on ECHE-haltijoita; muiden maiden ja merialueiden katvetta ei raportoida)
-  - SAMAN MAAN SÄÄNTÖ: jos ruudun lähin laitos on samassa maassa kuin ruutu (saarella: samalla saarella), ruutua ei lasketa
-    katveeksi pelkän etäisyyden perusteella. Nämä ruudut tallennetaan erikseen (runs_same_country) ja näytetään vaaleampana.
+  - SAMAN MAAN SÄÄNTÖ: ruutu on katve, jos yhtäkään laitosta ei ole THRESHOLD_KM (300 km) sisällä eikä samassa maassa
+    olevaa laitosta SAME_COUNTRY_KM (600 km) sisällä. Jos ruudulla ei ole laitosta 300 km:n sisällä mutta samassa maassa
+    on laitos 300-600 km:n päässä, ruutua ei lasketa katveeksi; se tallennetaan erikseen (runs_same_country) ja
+    näytetään vaaleampana. Eri maan laitokseen raja on siis 300 km, saman maan laitokseen 600 km.
   - etäisyys lasketaan kaikkiin laitoksiin maasta riippumatta, joten rajan takana oleva laitos kattaa myös
   - tulos tallennetaan riveinä [lat, lon_alku, lon_loppu] (peräkkäiset katveruudut yhdistetty)
 Rajat ovat 110 m -tarkkuudella, joten reunat ovat likimääräisiä (muutaman kilometrin luokkaa).
@@ -23,7 +25,8 @@ from collections import defaultdict
 
 from common import COVERAGE, NE_COUNTRIES, SITE, UPSTREAM, publish, today
 
-THRESHOLD_KM = 300
+THRESHOLD_KM = 300       # raja laitokseen, joka voi olla missä maassa tahansa
+SAME_COUNTRY_KM = 600    # raja saman maan laitokseen
 STEP = 0.1  # aste
 LAT_MIN, LAT_MAX, LON_MIN, LON_MAX = 34.0, 72.0, -25.0, 45.0  # Eurooppa; sulkee pois mm. Guyanan ja Huippuvuoret
 R = 6371.0088
@@ -112,6 +115,9 @@ class Runs:
 def main():
     insts = [(i["lat"], i["lon"], i["country_code"])
              for i in json.loads(SITE.read_text(encoding="utf-8"))["institutions"] if i.get("lat") is not None]
+    by_country_insts = defaultdict(list)
+    for la, lo, cc in insts:
+        by_country_insts[cc].append((la, lo))
     countries, names, eche = load_countries()
     lat_band = THRESHOLD_KM / KM_PER_DEG_LAT
     n_rows = int(round((LAT_MAX - LAT_MIN) / STEP))
@@ -135,10 +141,8 @@ def main():
                 counted.flush(lat)
                 same_country.flush(lat)
                 continue
-            nearest_country = min(insts, key=lambda p: haversine(lat, lon, p[0], p[1]))[2]
-            if nearest_country == iso:
-                # Saman maan sisällä laitos on saavutettavissa ylittämättä rajaa (ja saarella laitos on samalla saarella):
-                # ei lasketa katveeksi pelkän etäisyyden perusteella
+            if any(haversine(lat, lon, la, lo) <= SAME_COUNTRY_KM for la, lo in by_country_insts.get(iso, ())):
+                # Samassa maassa on laitos enintään SAME_COUNTRY_KM päässä (ja yli THRESHOLD_KM): ei lasketa katveeksi
                 exempt_area[iso] += cell_km2
                 same_country.add(lon)
                 counted.flush(lat)
@@ -170,10 +174,11 @@ def main():
             "institutions": len(insts),
             "computed": today(),
             "extent": {"lat": [LAT_MIN, LAT_MAX], "lon": [LON_MIN, LON_MAX]},
-            "distance": "great-circle (haversine) to the nearest included institution, in any country",
-            "rule": "An area counts as uncovered when the nearest institution is more than the threshold away and lies in a different "
-                    "country. Areas that are just as far but in the same country as their nearest institution are listed separately "
-                    "(runs_same_country) and not counted.",
+            "same_country_km": SAME_COUNTRY_KM,
+            "distance": "great-circle (haversine) to an included institution",
+            "rule": "An area counts as uncovered when no institution in any country is within threshold_km and no institution in the "
+                    "same country is within same_country_km. Areas more than threshold_km from every institution but within "
+                    "same_country_km of one in their own country are listed separately (runs_same_country) and not counted.",
             "area_covered": "land area of the countries on the ECHE list, within the extent",
             "gap_km2": round(total_gap),
             "same_country_km2": round(total_exempt),
@@ -189,7 +194,7 @@ def main():
     publish(COVERAGE)
     print(f"Laitoksia {len(insts)}, ruudukko {STEP}° ({n_rows}x{n_cols}), rivejä: katve {len(counted.runs)}, sama maa {len(same_country.runs)}, {COVERAGE.stat().st_size // 1024} kt")
     print(f"Yli {THRESHOLD_KM} km yhteensä {(total_gap + total_exempt) / 1e6:.2f} milj. km² = {100 * (total_gap + total_exempt) / total_area:.1f} % ECHE-maiden pinta-alasta (ennen rajausta)")
-    print(f"  josta lasketaan katveeksi {total_gap / 1e6:.2f} milj. km² = {100 * total_gap / total_area:.1f} %; samassa maassa kuin lähin laitos (ei lasketa) {total_exempt / 1e6:.2f} milj. km² = {100 * total_exempt / total_area:.1f} %")
+    print(f"  josta lasketaan katveeksi {total_gap / 1e6:.2f} milj. km² = {100 * total_gap / total_area:.1f} %; samassa maassa laitos {THRESHOLD_KM}-{SAME_COUNTRY_KM} km:n päässä (ei lasketa) {total_exempt / 1e6:.2f} milj. km² = {100 * total_exempt / total_area:.1f} %")
     print(f"{'Maa':22} {'ennen':>7} {'nyt':>7}   ({'katve':>8} + {'sama maa':>8} km²)")
     for k, v in by_country.items():
         print(f"  {v['name']:20} {100 * v['far_share']:6.1f}% {100 * v['share']:6.1f}%   ({v['gap_km2']:>8,} + {v['same_country_km2']:>8,})")

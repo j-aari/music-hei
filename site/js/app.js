@@ -514,19 +514,20 @@
   function renderCoverage(cov, pop) {
     const m = cov.meta;
     const km = m.threshold_km;
+    const same = m.same_country_km;
     $('#coverage-lede').textContent =
-      `${fmt(m.gap_share * 100, 1)}% of the land area of the countries on the ECHE list is more than ${km} km in a straight line from the nearest of the ${m.institutions} institutions, and that nearest institution is in another country. ` +
-      `A further ${fmt(m.same_country_km2 / m.area_km2 * 100, 1)}% is just as far, but lies in the same country as its nearest institution: it is shown in a lighter tone and not counted.`;
+      `${fmt(m.gap_share * 100, 1)}% of the land area of the countries on the ECHE list is uncovered: none of the ${m.institutions} institutions is within ${km} km in a straight line, and none in the same country is within ${same} km. ` +
+      `A further ${fmt(m.same_country_km2 / m.area_km2 * 100, 1)}% has no institution within ${km} km but one in its own country within ${same} km: it is shown in a lighter tone and not counted.`;
     const lg = $('#coverage-legend');
-    lg.append(h('span', {}, h('span', { class: 'gap-swatch' }), `More than ${km} km from the nearest institution, which is in another country (counted)`),
-      h('span', {}, h('span', { class: 'gap-swatch gap-swatch--far' }), `More than ${km} km, but in the same country as the nearest institution (not counted)`),
+    lg.append(h('span', {}, h('span', { class: 'gap-swatch' }), `No institution within ${km} km, and none in the same country within ${same} km (counted)`),
+      h('span', {}, h('span', { class: 'gap-swatch gap-swatch--far' }), `No institution within ${km} km, but one in the same country within ${same} km (not counted)`),
       h('span', {}, h('span', { class: 'glyph glyph--t1' }), 'Institution'));
     const body = $('#coverage-body');
     const rows = Object.entries(m.by_country).map(([code, v]) => ({ code, ...v, name: (pop && pop.countries[code] && pop.countries[code].name) || v.name }));
     const maxShare = Math.max(...rows.map((r) => r.share));
     for (const r of rows) {
       const tip = `${r.name}: ${fmt(r.share * 100, 1)}% of the area counted as uncovered (${fmt(r.gap_km2 / 1000)} of ${fmt(r.area_km2 / 1000)} thousand km²); ` +
-        `a further ${fmt(r.same_country_km2 / 1000)} thousand km² is more than ${km} km from an institution but in the same country as it`;
+        `a further ${fmt(r.same_country_km2 / 1000)} thousand km² has no institution within ${km} km but one in the same country within ${same} km`;
       body.append(h('tr', {},
         h('td', { class: 'country-name', text: r.name }),
         barCell(r.share, Math.max(maxShare, 1e-9), `${fmt(r.share * 100, 1)}%`, tip),
@@ -534,8 +535,8 @@
         h('td', { class: 'col-pop', text: fmt(r.same_country_km2 / 1000) })));
     }
     $('#coverage-note').textContent =
-      `Calculated from the coordinates of the institutions on a ${m.grid_deg}° grid (about 11 km) as great-circle distance to the nearest institution in any country. ` +
-      'Areas in the same country as their nearest institution are not counted on distance alone, so, for example, a country’s far north is not treated as uncovered when the country has an institution; the lighter tone shows how much this leaves out. ' +
+      `Calculated from the coordinates of the institutions on a ${m.grid_deg}° grid (about 11 km) as great-circle distance to the institutions, in any country. ` +
+      `An institution in the same country is given a longer reach (${same} km instead of ${km} km), so a country’s remote parts are not treated as uncovered when an institution of its own is within ${same} km; the lighter tone shows how much this leaves out. ` +
       'Only land in countries on the ECHE list is assessed, so the United Kingdom, Switzerland and countries outside the programme are not shown. ' +
       'Distance is not travel time. Country outlines are simplified, so edges are approximate. ' +
       'Music departments of general universities are not included yet: in countries where music education is mostly organised that way, for example Greece, the uncovered areas partly reflect that.';

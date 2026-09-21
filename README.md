@@ -2,7 +2,7 @@
 
 A static web page that lists music institutions in Europe that hold an Erasmus Charter for Higher Education (ECHE). It answers three questions: which music institutions exist, where are they, and which of them are exchange partners.
 
-The page has a list view and a map view that always show the same filtered set, filters for country, institution type, language of instruction and partner status, a text search on name and city, a details panel for each institution, and a CSV export of whatever is currently shown. Two further sections at the end of the page show the number of institutions per country relative to population, and the areas that are more than 300 km from the nearest institution in another country. There is no server, no database, no login, no cookies and no analytics.
+The page has a list view and a map view that always show the same filtered set, filters for country, institution type, language of instruction and partner status, a text search on name and city, a details panel for each institution, and a CSV export of whatever is currently shown. Two further sections at the end of the page show the number of institutions per country relative to population, and the areas with no institution within 300 km (or within 600 km in the same country). There is no server, no database, no login, no cookies and no analytics.
 
 This is an informal compilation of public data. It is not an official publication of the European Commission or of any of the institutions listed.
 
@@ -116,7 +116,7 @@ The `site/` folder is the whole site. `.github/workflows/pages.yml` publishes it
 
 - Some institution names lack diacritics because the source list is often plain ASCII capitals (for example "Universitat fur Musik"). The list of affected names is produced by `scripts/report_diacritics.py`.
 - City names follow the source and are inconsistent between languages (for example *Wien* and *Vienna*), so a search for one form may miss the other.
-- The coverage map does not count an area as uncovered when its nearest institution is in the same country, however far away it is (so northern Finland or eastern Türkiye are shown in a lighter tone, not counted). It therefore mainly shows countries without an institution of their own. Malta is not assessed because it is missing from the 1:110m country outlines; it is within 300 km of Catania in any case.
+- The coverage map gives an institution in the same country a longer reach: an area is uncovered only if no institution is within 300 km and none in its own country is within 600 km. Areas with an institution of their own country 300–600 km away are shown in a lighter tone and not counted. Malta is not assessed because it is missing from the 1:110m country outlines; it is within 300 km of Catania in any case.
 - Which institutions count as music institutions is a judgement, not a fact in the data. That is why the decisions are visible in `annotations.json` and `excluded.json`.
 
 ## Licence and attribution
