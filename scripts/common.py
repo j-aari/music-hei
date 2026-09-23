@@ -17,6 +17,7 @@ SITE = DATA / "site.json"
 SITE_PUBLIC = None if os.environ.get("MUSIC_HEI_DATA") else ROOT / "site" / "data" / "site.json"
 POPULATION = DATA / "population.json"
 COVERAGE = DATA / "coverage.json"
+STRATEGIES = DATA / "strategies.json"  # hand-curated, ei generoitu; ks. Ohjelmahaku-työ
 NE_COUNTRIES = DATA / "reference" / "ne_110m_admin_0_countries.geojson"
 PUBLIC_DATA = SITE_PUBLIC.parent if SITE_PUBLIC else None  # site/data/
 

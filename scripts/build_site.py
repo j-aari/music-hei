@@ -14,8 +14,8 @@ import sys
 from collections import Counter
 from datetime import date
 
-from common import (GEO, SITE, SITE_PUBLIC, UPSTREAM, UPSTREAM_META, load_annotations, load_upstream, nice_case, normalize_url,
-                    today)
+from common import (GEO, SITE, SITE_PUBLIC, STRATEGIES, UPSTREAM, UPSTREAM_META, load_annotations, load_upstream, nice_case, normalize_url,
+                    publish, today)
 
 # Sivun tekstit ovat englanniksi; laitosten nimet säilyvät alkuperäiskielellä.
 TIER_LABELS = {
@@ -122,6 +122,8 @@ def build():
     if SITE_PUBLIC:  # kopio julkaistavaan kansioon, jotta site/ on itsenäinen
         SITE_PUBLIC.parent.mkdir(parents=True, exist_ok=True)
         SITE_PUBLIC.write_text(SITE.read_text(encoding="utf-8"), encoding="utf-8")
+    if STRATEGIES.exists():  # käsin ylläpidetty tiedosto; vain kopioidaan mukaan, ei generoida
+        publish(STRATEGIES)
     return site, warnings
 
 

@@ -30,6 +30,8 @@
 
   let meta, data, byId;
   let tierLabels = {};
+  let strategiesByCode = new Map();  // erasmus_code -> document[]
+  let strategiesMeta = null;         // { institutions_covered, ... } or null if the file couldn't be loaded
   const state = { view: 'list', q: '', country: new Set(), type: new Set(), language: new Set(), partner: new Set(), id: null };
   let langNames;
   let hasPartnerData = false, hasLanguageData = false;
@@ -244,6 +246,42 @@
   function addressLines(i) {
     return [i.street, [i.postal_code, i.city].filter(Boolean).join(' '), i.country].filter(Boolean);
   }
+
+  const STRATEGY_TYPE_LABEL = {
+    strategy: 'Strategy',
+    'internationalisation-strategy': 'Internationalisation strategy',
+    'annual-report': 'Annual report',
+  };
+  const isOutdated = (period) => {
+    const m = /-(\d{4})$/.exec(period || '');
+    return !!m && Number(m[1]) <= new Date().getFullYear();
+  };
+  function renderStrategySection(i) {
+    const docs = strategiesByCode.get(i.erasmus_code) || [];
+    const section = h('div', { class: 'panel__section' }, h('h3', { class: 'panel__section-title', text: 'Strategy documents' }));
+    if (strategiesMeta) {
+      section.append(h('p', { class: 'panel__coverage', text: `Strategy data covers ${strategiesMeta.institutions_covered} of ${data.length} institutions.` }));
+    }
+    if (!docs.length) {
+      section.append(h('p', { class: 'strategy-empty', text: 'No strategy document found.' }));
+      return section;
+    }
+    const ul = h('ul', { class: 'strategy-list' });
+    for (const doc of docs) {
+      const period = doc.period || (doc.publication_year ? String(doc.publication_year) : 'Year not stated');
+      const outdated = isOutdated(doc.period);
+      let host = doc.document_url;
+      try { host = new URL(doc.document_url).hostname.replace(/^www\./, ''); } catch { /* keep raw */ }
+      const isPdf = /\.pdf(?:[?#]|$)/i.test(doc.document_url || '');
+      ul.append(h('li', { class: 'strategy-item' },
+        h('p', { class: 'strategy-name' }, doc.name_original, outdated ? h('span', { class: 'tag-outdated', text: 'Outdated' }) : null),
+        h('p', { class: 'strategy-meta', text: `${STRATEGY_TYPE_LABEL[doc.type] || doc.type} · ${period} · ${langName(doc.language)}` }),
+        h('a', { href: doc.document_url, target: '_blank', rel: 'noopener noreferrer' }, host + (isPdf ? ' (PDF)' : ''),
+          h('span', { class: 'sr-only', text: ' (opens in a new tab)' }))));
+    }
+    section.append(ul);
+    return section;
+  }
   function openPanel(id, trigger) {
     const i = byId.get(id);
     if (!i) return;
@@ -278,6 +316,7 @@
     body.append(title, sub, dl);
     if (i.public_note) body.append(h('p', { class: 'note', text: i.public_note }));
     if (i.geo_precision === 'city') body.append(h('p', { class: 'small', text: 'Map position is approximate (city centre).' }));
+    body.append(renderStrategySection(i));
     if (state.view === 'list' && i.lat != null && matches(i)) {
       body.append(h('p', { class: 'actions' }, h('button', { type: 'button', class: 'btn', onclick: () => { setView('map'); focusMarker(i); }, text: 'Show on map' })));
     }
@@ -594,6 +633,14 @@
     }
     hasLanguageData = data.some((i) => i.languages_of_instruction && i.languages_of_instruction.length);
     hasPartnerData = data.some((i) => i.partner_of_siba != null);
+
+    const strat = await fetchJson('data/strategies.json');  // optional: panel works without it
+    if (strat) {
+      strategiesMeta = strat.meta;
+      for (const doc of strat.documents) {
+        (strategiesByCode.get(doc.erasmus_code) || strategiesByCode.set(doc.erasmus_code, []).get(doc.erasmus_code)).push(doc);
+      }
+    }
 
     $('#scope').textContent = meta.scope_text;
     renderFooter();

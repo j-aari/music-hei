@@ -245,6 +245,15 @@ input[type="search"]::-webkit-search-cancel-button {
 .panel .small { color: var(--slate); font-size: 0.88rem; margin: 0.4rem 0 0; }
 .panel .actions { margin-top: 1.5rem; }
 
+.panel__section { margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--mist); }
+.panel__section-title { font-size: 0.9rem; font-weight: 600; margin: 0 0 0.35rem; }
+.panel__coverage { color: var(--slate); font-size: 0.85rem; margin: 0 0 0.9rem; }
+.strategy-empty { color: var(--slate); margin: 0; }
+.strategy-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 1rem; }
+.strategy-name { margin: 0; font-weight: 600; display: flex; align-items: baseline; gap: 0.5rem; flex-wrap: wrap; }
+.strategy-meta { margin: 0.15rem 0 0.35rem; color: var(--slate); font-size: 0.88rem; }
+.tag-outdated { border: 1px solid var(--ink); border-radius: 2px; padding: 0 0.35rem; font-size: 0.72rem; font-weight: 600; line-height: 1.4; white-space: nowrap; }
+
 /* Extra sections at the end of the page: density and coverage */
 .extras { padding: 0 var(--margin); max-width: 96rem; margin-top: 4rem; }
 .extra { margin-top: 4.5rem; padding-top: 1.75rem; border-top: 1px solid var(--mist); }
