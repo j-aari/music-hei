@@ -11,3 +11,11 @@ Strategy/internationalisation-strategy/annual-report links (`data/strategies.jso
 At this hit rate, extending the search to all 186 institutions would mostly measure which institutions keep a tidy, well-indexed website rather than which institutions have a strategy. The `not_found` category is dominated by generic Erasmus/mobility administration pages with no EPS-specific document or mention (the same pattern in both countries checked so far) — i.e. absence of evidence, not evidence of absence.
 
 **How to apply:** keep strategy data scoped to countries picked one at a time by explicit request, each with its own status distribution reported before moving on. If coverage is ever extended further, say so explicitly on the page (the coverage line already does this: "Strategy data covers N of 186 institutions") rather than implying full coverage.
+
+## Removed: "Institutions relative to population" section
+
+The section showing institution counts per country relative to population (absolute and per million inhabitants) was removed from the page (`site/index.html`, `site/js/app.js`, `site/css/style.css`).
+
+**Why:** the per-million-inhabitants ratio didn't answer any question a reader of this page actually has, and it was misleading because it treats very different kinds of institutions as equivalent. It made Finland's single, large university-of-the-arts music unit look sparse next to Italy's many small, separate conservatoires, when the difference is how music education is organised in each country, not how much of it there is.
+
+**How to apply:** `data/population.json` and `scripts/fetch_population.py` are kept in the repository (not deleted) because population data may be useful later for a different, better-justified ratio — for example Erasmus+ mobility funding per capita. Don't re-add an institutions-per-population display without a specific question it answers.

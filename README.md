@@ -2,7 +2,7 @@
 
 A static web page that lists music institutions in Europe that hold an Erasmus Charter for Higher Education (ECHE). It answers three questions: which music institutions exist, where are they, and which of them are exchange partners.
 
-The page has a list view and a map view that always show the same filtered set, filters for country, institution type, language of instruction and partner status, a text search on name and city, a details panel for each institution, and a CSV export of whatever is currently shown. Two further sections at the end of the page show the number of institutions per country relative to population, and the areas with no institution within 300 km (or within 600 km in the same country). There is no server, no database, no login, no cookies and no analytics.
+The page has a list view and a map view that always show the same filtered set, filters for country, institution type, language of instruction and partner status, a text search on name and city, a details panel for each institution, and a CSV export of whatever is currently shown. A further section at the end of the page shows the areas with no institution within 300 km (or within 600 km in the same country). There is no server, no database, no login, no cookies and no analytics.
 
 This is an informal compilation of public data. It is not an official publication of the European Commission or of any of the institutions listed.
 
@@ -27,7 +27,6 @@ Currently: **186 institutions** (167 at level 1, 19 at level 2) in 24 countries.
 | Which institutions are music institutions, and their level | Our own classification, recorded in `data/annotations.json` (see below) |
 | Map positions | Geocoded once with [Nominatim](https://nominatim.openstreetmap.org/) and stored in `data/geo.json`. Some positions are approximate (city centre) and the details panel says so |
 | Map tiles | [OpenStreetMap](https://www.openstreetmap.org/copyright), loaded only when a map is about to be seen (the map view, or the coverage map at the end of the page) |
-| Population | [Eurostat](https://ec.europa.eu/eurostat/databrowser/view/tps00001/default/table), table tps00001 (population on 1 January), stored in `data/population.json` |
 | Country outlines (coverage analysis only) | [Natural Earth](https://www.naturalearthdata.com/) 1:110m countries, public domain, in `data/reference/` |
 | Partner status | The exchange-destination list published by the University of the Arts Helsinki. **This field is not filled in yet**, so the partner and language filters are hidden until data exists |
 
@@ -93,7 +92,7 @@ Other useful scripts:
 | `scripts/find_arts_umbrella.py` | Lists multidisciplinary arts universities that may contain music units |
 | `scripts/geocode.py` | Geocode; `--check` verifies existing results, keys re-geocode single institutions |
 | `scripts/build_site.py` | Build `site.json` |
-| `scripts/fetch_population.py` | Fetch population from Eurostat (`data/population.json`); run about once a year, it is not part of `update.py` |
+| `scripts/fetch_population.py` | Fetch population from Eurostat (`data/population.json`); run about once a year, it is not part of `update.py`. Not currently shown on the page (see `BACKLOG.md`), kept for possible future use (e.g. relating institution counts or Erasmus funding to population) |
 | `scripts/build_coverage.py` | Calculate the areas more than 300 km from the nearest institution (`data/coverage.json`) |
 | `scripts/report_diacritics.py` | Lists names that probably lack diacritics (the source data is often plain ASCII capitals); fix them with `display_name` in `annotations.json` |
 
