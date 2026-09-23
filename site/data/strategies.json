@@ -2,7 +2,7 @@
  "meta": {
   "description": "Strategy, internationalisation-strategy and annual-report documents for the pilot institutions. Metadata and links only; no document content is copied. Every record has verified: false (not checked by a person).",
   "collected": "2026-09-23",
-  "institutions_covered": 83,
+  "institutions_covered": 109,
   "institutions": [
    "SF HELSINK42",
    "NL S-GRAVE05",
@@ -86,14 +86,40 @@
    "I  VENEZIA04",
    "I  VERONA02",
    "I  VIBO-VA01",
-   "I  VICENZA03"
+   "I  VICENZA03",
+   "D  BERLIN03",
+   "D  BERLIN16",
+   "D  BREMEN03",
+   "D  DETMOLD01",
+   "D  DRESDEN05",
+   "D  ESSEN02",
+   "D  FRANKFU02",
+   "D  FREIBUR03",
+   "D  HALLE04",
+   "D  HAMBURG05",
+   "D  HANNOVE04",
+   "D  KARLSRU03",
+   "D  KOLN03",
+   "D  LEIPZIG05",
+   "D  LUBECK02",
+   "D  MANNHEI02",
+   "D  MUNCHEN03",
+   "D  NURNBER04",
+   "D  REGENSB03",
+   "D  ROSTOCK02",
+   "D  SAARBRU08",
+   "D  STUTTGA03",
+   "D  TROSSIN01",
+   "D  TUBINGE02",
+   "D  WEIMAR02",
+   "D  WURZBUR02"
   ],
-  "documents_found": 37,
-  "institutions_missing": 52,
+  "documents_found": 43,
+  "institutions_missing": 72,
   "language_distribution": {
    "ca": 2,
-   "de": 1,
-   "en": 23,
+   "de": 2,
+   "en": 28,
    "fi": 1,
    "fr": 2,
    "it": 2,
@@ -103,7 +129,7 @@
   },
   "type_distribution": {
    "annual-report": 3,
-   "internationalisation-strategy": 24,
+   "internationalisation-strategy": 30,
    "strategy": 10
   },
   "outdated_rule": "period ends in a year <= 2026 (the current year counts as outdated too)",
@@ -114,15 +140,98 @@
    "not_found": "Not found"
   },
   "status_distribution": {
-   "published": 31,
-   "mentioned_no_link": 26,
-   "not_found": 26
+   "published": 37,
+   "mentioned_no_link": 32,
+   "not_found": 40
   },
   "link_status_definitions": {
    "direct": "document_url opens the document itself (a file or a page that is the document)",
    "indirect": "document_url opens a page that mentions the document but is not the document itself",
    "blocked": "document_url is a real link to the document, but access to it was denied when checked"
-  }
+  },
+  "coverage_by_country": {
+   "Austria": {
+    "institutions_total": 10,
+    "institutions_covered": 2,
+    "published": 1,
+    "mentioned_no_link": 1,
+    "not_found": 0,
+    "published_rate": "50%"
+   },
+   "Finland": {
+    "institutions_total": 1,
+    "institutions_covered": 1,
+    "published": 1,
+    "mentioned_no_link": 0,
+    "not_found": 0,
+    "published_rate": "100%"
+   },
+   "France": {
+    "institutions_total": 6,
+    "institutions_covered": 1,
+    "published": 1,
+    "mentioned_no_link": 0,
+    "not_found": 0,
+    "published_rate": "100%"
+   },
+   "Germany": {
+    "institutions_total": 26,
+    "institutions_covered": 26,
+    "published": 6,
+    "mentioned_no_link": 6,
+    "not_found": 14,
+    "published_rate": "23%"
+   },
+   "Italy": {
+    "institutions_total": 73,
+    "institutions_covered": 73,
+    "published": 22,
+    "mentioned_no_link": 25,
+    "not_found": 26,
+    "published_rate": "30%"
+   },
+   "Netherlands": {
+    "institutions_total": 4,
+    "institutions_covered": 2,
+    "published": 2,
+    "mentioned_no_link": 0,
+    "not_found": 0,
+    "published_rate": "100%"
+   },
+   "Norway": {
+    "institutions_total": 3,
+    "institutions_covered": 1,
+    "published": 1,
+    "mentioned_no_link": 0,
+    "not_found": 0,
+    "published_rate": "100%"
+   },
+   "Romania": {
+    "institutions_total": 3,
+    "institutions_covered": 1,
+    "published": 1,
+    "mentioned_no_link": 0,
+    "not_found": 0,
+    "published_rate": "100%"
+   },
+   "Spain": {
+    "institutions_total": 26,
+    "institutions_covered": 1,
+    "published": 1,
+    "mentioned_no_link": 0,
+    "not_found": 0,
+    "published_rate": "100%"
+   },
+   "Sweden": {
+    "institutions_total": 3,
+    "institutions_covered": 1,
+    "published": 1,
+    "mentioned_no_link": 0,
+    "not_found": 0,
+    "published_rate": "100%"
+   }
+  },
+  "coverage_note": "institutions_total is each country's total ECHE-listed music institutions (from site.json); institutions_covered is how many of those have been checked for a strategy document so far. published_rate = published / institutions_covered (not / institutions_total)."
  },
  "documents": [
   {
@@ -588,6 +697,79 @@
    "verified": false,
    "link_status": "direct",
    "notes": "File name says '2014_2027' but page title says '2021-2027'; not opened to resolve the discrepancy."
+  },
+  {
+   "erasmus_code": "D  BERLIN16",
+   "name_original": "Erasmus Policy Statement",
+   "type": "internationalisation-strategy",
+   "publication_year": null,
+   "period": null,
+   "language": "en",
+   "document_url": "https://www.hfm-berlin.de/fileadmin/user_upload/Studium/Internationales_Erasmus/Erasmus_Policy_Statement_10.2017.pdf",
+   "found_on_url": "https://www.hfm-berlin.de/en/application/erasmus-incoming/",
+   "verified": false,
+   "link_status": "direct"
+  },
+  {
+   "erasmus_code": "D  DETMOLD01",
+   "name_original": "Erasmus+ Policy Statement",
+   "type": "internationalisation-strategy",
+   "publication_year": null,
+   "period": null,
+   "language": "en",
+   "document_url": "https://www.hfm-detmold.de/en/study-service/student-service/studying-abroad/erasmus-policy-statement/",
+   "found_on_url": "https://www.hfm-detmold.de/en/study-service/student-service/studying-abroad/erasmus-policy-statement/",
+   "verified": false,
+   "link_status": "direct",
+   "notes": "Dedicated page titled 'Erasmus+ Policy Statement'; the page itself is the document."
+  },
+  {
+   "erasmus_code": "D  LEIPZIG05",
+   "name_original": "ERASMUS Policy Statement 2021-27",
+   "type": "internationalisation-strategy",
+   "publication_year": null,
+   "period": "2021-2027",
+   "language": "en",
+   "document_url": "https://www.hmt-leipzig.de/home/hochschule/internationales/erasmus/content_item_336507/ERASMUS_Policy_Statement_2021-27.pdf",
+   "found_on_url": "https://www.hmt-leipzig.de/hochschule/internationales/erasmus",
+   "verified": false,
+   "link_status": "direct"
+  },
+  {
+   "erasmus_code": "D  WURZBUR02",
+   "name_original": "ERASMUS+ Policy Statement",
+   "type": "internationalisation-strategy",
+   "publication_year": null,
+   "period": null,
+   "language": "en",
+   "document_url": "https://www.hfm-wuerzburg.de/fileadmin/IO/Downloads/ERASMUS_Policy_Statement.pdf",
+   "found_on_url": "https://hfm-wuerzburg.de/international/erasmus/erasmus-charter-for-higher-education",
+   "verified": false,
+   "link_status": "direct"
+  },
+  {
+   "erasmus_code": "D  HANNOVE04",
+   "name_original": "Erklärung zur ERASMUS Hochschulpolitik (EPS)",
+   "type": "internationalisation-strategy",
+   "publication_year": null,
+   "period": null,
+   "language": "de",
+   "document_url": "https://www.hmtm-hannover.de/fileadmin/mount/pdf/Erasmus/EPS_HMTMH.pdf",
+   "found_on_url": "https://www.hmtm-hannover.de/de/internationales/",
+   "verified": false,
+   "link_status": "direct"
+  },
+  {
+   "erasmus_code": "D  MANNHEI02",
+   "name_original": "Erasmus Policy Statement",
+   "type": "internationalisation-strategy",
+   "publication_year": null,
+   "period": null,
+   "language": "en",
+   "document_url": "http://www.muho-mannheim.de/international_office/Dokumente/Erasmus_Policy_Statement_EN.pdf",
+   "found_on_url": "https://www.muho-mannheim.de/service/international-office/erasmus/",
+   "verified": false,
+   "link_status": "direct"
   }
  ],
  "missing": [
@@ -850,6 +1032,106 @@
    "erasmus_code": "I  MILANO24",
    "notes": "Only press-related and generic 'chi siamo' pages found; no EPS mention.",
    "status": "not_found"
+  },
+  {
+   "erasmus_code": "D  TUBINGE02",
+   "notes": "Search results reference a filename 'ERASMUS_Policy_Statement_2021_2027' on the institution's Erasmus pages; no working direct URL surfaced.",
+   "status": "mentioned_no_link"
+  },
+  {
+   "erasmus_code": "D  REGENSB03",
+   "notes": "Search summary states HfKM Regensburg has an EPS for 2021-2027; only an ECHE charter PDF (not the EPS itself) and the general Erasmus+ page were confirmed by URL.",
+   "status": "mentioned_no_link"
+  },
+  {
+   "erasmus_code": "D  ROSTOCK02",
+   "notes": "Search summary states HMT Rostock published a Policy Statement for 2021-2027; no working direct URL surfaced.",
+   "status": "mentioned_no_link"
+  },
+  {
+   "erasmus_code": "D  LUBECK02",
+   "notes": "Erasmus Policy Statement 2021-2027 mentioned on the institution's Erasmus+ page; no working direct URL surfaced.",
+   "status": "mentioned_no_link"
+  },
+  {
+   "erasmus_code": "D  STUTTGA03",
+   "notes": "Search summary states German and English EPS versions exist for HMDK Stuttgart; no working direct URL surfaced.",
+   "status": "mentioned_no_link"
+  },
+  {
+   "erasmus_code": "D  BREMEN03",
+   "notes": "Search summary states HfK Bremen has made available an EPS PDF for 2021-2027; no working direct URL surfaced.",
+   "status": "mentioned_no_link"
+  },
+  {
+   "erasmus_code": "D  HALLE04",
+   "notes": "Only ECHE-award news item, Satzung/Ordnungen and general international-office pages found; no EPS mention.",
+   "status": "not_found"
+  },
+  {
+   "erasmus_code": "D  ESSEN02",
+   "notes": "Only general Erasmus pages, mission statement and international cooperations found; no EPS mention.",
+   "status": "not_found"
+  },
+  {
+   "erasmus_code": "D  WEIMAR02",
+   "notes": "Only general Erasmus+ study-abroad and international-office pages found; no EPS mention.",
+   "status": "not_found"
+  },
+  {
+   "erasmus_code": "D  KARLSRU03",
+   "notes": "Only general Erasmus+ page and international-studies pages found; no EPS mention.",
+   "status": "not_found"
+  },
+  {
+   "erasmus_code": "D  FREIBUR03",
+   "notes": "Only general international-office pages and annual brochures found; no EPS mention.",
+   "status": "not_found"
+  },
+  {
+   "erasmus_code": "D  NURNBER04",
+   "notes": "Only general international-office page and unrelated regulatory PDFs found; no EPS mention.",
+   "status": "not_found"
+  },
+  {
+   "erasmus_code": "D  SAARBRU08",
+   "notes": "Only an old (2014) 'Erasmus Student Charter' PDF and general partner-institution page found; no EPS mention.",
+   "status": "not_found"
+  },
+  {
+   "erasmus_code": "D  FRANKFU02",
+   "notes": "Only general Erasmus+ outgoing/incoming pages and unrelated regulatory PDFs found; no EPS mention.",
+   "status": "not_found"
+  },
+  {
+   "erasmus_code": "D  KOLN03",
+   "notes": "Only general international-office and FAQ pages found; no EPS mention.",
+   "status": "not_found"
+  },
+  {
+   "erasmus_code": "D  HAMBURG05",
+   "notes": "Only a general 'Kooperationen'/Erasmus overview page and unrelated PDFs found; no EPS mention.",
+   "status": "not_found"
+  },
+  {
+   "erasmus_code": "D  MUNCHEN03",
+   "notes": "Only general scholarship and Code of Conduct pages found; no EPS mention.",
+   "status": "not_found"
+  },
+  {
+   "erasmus_code": "D  TROSSIN01",
+   "notes": "Only general Erasmus+ partner-institution pages found; a vague 'ESP/EUC-Charter' reference appeared but not confirmed as an EPS-specific document.",
+   "status": "not_found"
+  },
+  {
+   "erasmus_code": "D  DRESDEN05",
+   "notes": "Only general international-office pages found; no EPS mention.",
+   "status": "not_found"
+  },
+  {
+   "erasmus_code": "D  BERLIN03",
+   "notes": "Only general Erasmus+ exchange/internship pages found; no EPS mention.",
+   "status": "not_found"
   }
  ],
  "institution_status": {
@@ -935,6 +1217,32 @@
   "I  BENEVEN03": "not_found",
   "I  CATANZA04": "not_found",
   "I  RAVENNA02": "not_found",
-  "I  MILANO24": "not_found"
+  "I  MILANO24": "not_found",
+  "D  BERLIN16": "published",
+  "D  DETMOLD01": "published",
+  "D  LEIPZIG05": "published",
+  "D  WURZBUR02": "published",
+  "D  HANNOVE04": "published",
+  "D  MANNHEI02": "published",
+  "D  TUBINGE02": "mentioned_no_link",
+  "D  REGENSB03": "mentioned_no_link",
+  "D  ROSTOCK02": "mentioned_no_link",
+  "D  LUBECK02": "mentioned_no_link",
+  "D  STUTTGA03": "mentioned_no_link",
+  "D  BREMEN03": "mentioned_no_link",
+  "D  HALLE04": "not_found",
+  "D  ESSEN02": "not_found",
+  "D  WEIMAR02": "not_found",
+  "D  KARLSRU03": "not_found",
+  "D  FREIBUR03": "not_found",
+  "D  NURNBER04": "not_found",
+  "D  SAARBRU08": "not_found",
+  "D  FRANKFU02": "not_found",
+  "D  KOLN03": "not_found",
+  "D  HAMBURG05": "not_found",
+  "D  MUNCHEN03": "not_found",
+  "D  TROSSIN01": "not_found",
+  "D  DRESDEN05": "not_found",
+  "D  BERLIN03": "not_found"
  }
 }
