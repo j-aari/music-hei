@@ -37,6 +37,10 @@
     <main class="main" id="main">
       <div class="toolbar" id="toolbar">
         <p class="count" id="count" role="status" aria-live="polite"></p>
+        <div class="sort-toggle" id="sort-toggle" role="group" aria-label="Sort by">
+          <button type="button" class="btn" data-list-sort="country" aria-pressed="true">Country</button>
+          <button type="button" class="btn" data-list-sort="name" aria-pressed="false">Name</button>
+        </div>
         <div class="view-toggle" role="group" aria-label="View">
           <button type="button" class="btn" data-view="list" aria-pressed="true">List</button>
           <button type="button" class="btn" data-view="map" aria-pressed="false">Map</button>
@@ -44,6 +48,7 @@
         <button type="button" class="btn" id="csv"></button>
       </div>
       <p class="legend" id="legend" aria-hidden="true"></p>
+      <p class="strategy-coverage" id="strategy-coverage" hidden></p>
 
       <div class="empty" id="empty" hidden></div>
 

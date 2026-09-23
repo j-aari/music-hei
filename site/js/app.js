@@ -32,12 +32,14 @@
   let tierLabels = {};
   let strategiesByCode = new Map();  // erasmus_code -> document[]
   let strategiesMeta = null;         // { institutions_covered, ... } or null if the file couldn't be loaded
-  const state = { view: 'list', q: '', country: new Set(), type: new Set(), language: new Set(), partner: new Set(), id: null };
+  const state = { view: 'list', sort: 'country', q: '', country: new Set(), type: new Set(), language: new Set(), partner: new Set(), strategy: new Set(), id: null };
   let langNames;
-  let hasPartnerData = false, hasLanguageData = false;
+  let hasPartnerData = false, hasLanguageData = false, hasStrategyData = false;
   let lastTrigger = null;
 
   const partnerKey = (i) => (i.partner_of_siba === true ? 'yes' : i.partner_of_siba === false ? 'no' : 'unknown');
+  const STRATEGY_STATUS_ORDER = ['published', 'mentioned_no_link', 'not_found'];
+  let strategyStatusLabels = { published: 'Published document available', mentioned_no_link: 'Mentioned but no link', not_found: 'Not found' };
   const GROUPS = {
     country: { label: 'Country', values: (i) => [i.country], text: (v) => v },
     type: { label: 'Institution type', values: (i) => [String(i.tier)], text: (v) => tierLabels[v] || v },
@@ -47,8 +49,16 @@
       values: (i) => [partnerKey(i)],
       text: (v) => ({ yes: 'Partner', no: 'Not a partner', unknown: 'Not recorded' })[v],
     },
+    strategy: {
+      label: 'Strategy documents',
+      // No value at all for institutions not yet checked, so they can never match once this filter is active
+      values: (i) => { const s = strategyStatusOf(i.erasmus_code); return s ? [s] : []; },
+      text: (v) => strategyStatusLabels[v] || v,
+    },
   };
-  const GROUP_ORDER = ['country', 'type', 'language', 'partner'];
+  const GROUP_ORDER = ['country', 'type', 'language', 'partner', 'strategy'];
+  let strategyStatusByCode = new Map();
+  const strategyStatusOf = (code) => strategyStatusByCode.get(code) || null;
 
   function langName(code) {
     try { return (langNames = langNames || new Intl.DisplayNames(['en'], { type: 'language' })).of(code) || code; }
@@ -77,6 +87,7 @@
   function readHash() {
     const p = new URLSearchParams(location.hash.replace(/^#/, ''));
     state.view = p.get('view') === 'map' ? 'map' : 'list';
+    state.sort = p.get('sort') === 'name' ? 'name' : 'country';
     state.q = p.get('q') || '';
     for (const g of GROUP_ORDER) {
       const valid = new Set(groupVisible(g) ? optionValues(g) : []); // hidden filters cannot be set from a link
@@ -88,6 +99,7 @@
   function writeHash() {
     const p = new URLSearchParams();
     if (state.view === 'map') p.set('view', 'map');
+    if (state.sort === 'name') p.set('sort', 'name');
     if (state.q) p.set('q', state.q);
     for (const g of GROUP_ORDER) for (const v of state[g]) p.append(g, v);
     if (state.id) p.set('id', state.id);
@@ -103,9 +115,10 @@
     if (g === 'country') return arr.sort((a, b) => a.localeCompare(b, 'en'));
     if (g === 'language') return arr.sort((a, b) => langName(a).localeCompare(langName(b), 'en'));
     if (g === 'partner') return ['yes', 'no', 'unknown'].filter((v) => set.has(v));
+    if (g === 'strategy') return STRATEGY_STATUS_ORDER; // fixed set, shown in full even when a status has zero institutions
     return arr.sort();
   }
-  const groupVisible = (g) => (g === 'language' ? hasLanguageData : g === 'partner' ? hasPartnerData : true);
+  const groupVisible = (g) => (g === 'language' ? hasLanguageData : g === 'partner' ? hasPartnerData : g === 'strategy' ? hasStrategyData : true);
 
   function buildFilters() {
     const host = $('#filter-groups');
@@ -163,24 +176,32 @@
   function glyph(i) {
     return h('span', { class: `glyph glyph--t${i.tier}${i.partner_of_siba === true ? ' glyph--partner' : ''}`, 'aria-hidden': 'true' });
   }
+  function entryButton(i, showCountry) {
+    const btn = h('button', { type: 'button', class: 'entry', 'data-id': i.id, 'aria-current': i.id === state.id ? 'true' : false },
+      glyph(i),
+      h('span', { class: 'nm', text: i.name }),
+      h('span', { class: 'meta' },
+        showCountry ? h('span', { text: i.country }) : null,
+        h('span', { text: i.city }),
+        h('span', { text: tierLabels[i.tier] }),
+        i.partner_of_siba === true ? h('span', { class: 'partner', text: 'Partner' }) : null));
+    btn.addEventListener('click', () => openPanel(i.id, btn));
+    return btn;
+  }
   function renderList(rows) {
     const host = $('#list-view');
     host.textContent = '';
+    if (state.sort === 'name') {
+      const ul = h('ul', { class: 'entries' });
+      for (const i of [...rows].sort((a, b) => a.name.localeCompare(b.name, 'en'))) ul.append(h('li', {}, entryButton(i, true)));
+      host.append(h('section', { class: 'country' }, h('h2', {}, 'All institutions, A–Z', h('span', { class: 'n', text: rows.length })), ul));
+      return;
+    }
     const groups = new Map();
     for (const i of rows) (groups.get(i.country) || groups.set(i.country, []).get(i.country)).push(i);
     for (const [country, items] of groups) {
       const ul = h('ul', { class: 'entries' });
-      for (const i of items) {
-        const btn = h('button', { type: 'button', class: 'entry', 'data-id': i.id, 'aria-current': i.id === state.id ? 'true' : false },
-          glyph(i),
-          h('span', { class: 'nm', text: i.name }),
-          h('span', { class: 'meta' },
-            h('span', { text: i.city }),
-            h('span', { text: tierLabels[i.tier] }),
-            i.partner_of_siba === true ? h('span', { class: 'partner', text: 'Partner' }) : null));
-        btn.addEventListener('click', () => openPanel(i.id, btn));
-        ul.append(h('li', {}, btn));
-      }
+      for (const i of items) ul.append(h('li', {}, entryButton(i, false)));
       host.append(h('section', { class: 'country' }, h('h2', {}, country, h('span', { class: 'n', text: items.length })), ul));
     }
   }
@@ -412,6 +433,7 @@
     state.q = '';
     for (const g of GROUP_ORDER) state[g].clear();
     state.view = 'list';
+    state.sort = 'country';
     update({ fit: true }); // also clears the URL hash
   }
 
@@ -436,8 +458,16 @@
     const isMap = state.view === 'map';
     $('#list-view').hidden = isMap;
     $('#map-view').hidden = !isMap;
+    $('#sort-toggle').hidden = isMap; // sort order only affects the list
+    for (const b of document.querySelectorAll('.sort-toggle .btn')) b.setAttribute('aria-pressed', String(b.dataset.listSort === state.sort));
     $('#empty').hidden = rows.length > 0;
     if (rows.length === 0) renderEmpty();
+
+    const covNote = $('#strategy-coverage');
+    if (state.strategy.size && strategiesMeta) {
+      covNote.textContent = `Strategy data covers ${strategiesMeta.institutions_covered} of ${data.length} institutions — filtering shows only what has been checked.`;
+      covNote.hidden = false;
+    } else covNote.hidden = true;
 
     if (isMap) renderMap(rows, opts.fit !== false);
     else renderList(rows);
@@ -634,12 +664,15 @@
     hasLanguageData = data.some((i) => i.languages_of_instruction && i.languages_of_instruction.length);
     hasPartnerData = data.some((i) => i.partner_of_siba != null);
 
-    const strat = await fetchJson('data/strategies.json');  // optional: panel works without it
+    const strat = await fetchJson('data/strategies.json');  // optional: panel and filter work without it
     if (strat) {
       strategiesMeta = strat.meta;
       for (const doc of strat.documents) {
         (strategiesByCode.get(doc.erasmus_code) || strategiesByCode.set(doc.erasmus_code, []).get(doc.erasmus_code)).push(doc);
       }
+      strategyStatusByCode = new Map(Object.entries(strat.institution_status || {}));
+      if (strat.meta.status_labels) strategyStatusLabels = strat.meta.status_labels;
+      hasStrategyData = strategyStatusByCode.size > 0;
     }
 
     $('#scope').textContent = meta.scope_text;
@@ -667,6 +700,7 @@
     $('#csv').addEventListener('click', downloadCsv);
     $('#panel-close').addEventListener('click', closePanel);
     for (const b of document.querySelectorAll('.view-toggle .btn')) b.addEventListener('click', () => { if (state.view !== b.dataset.view) setView(b.dataset.view); });
+    for (const b of document.querySelectorAll('.sort-toggle .btn')) b.addEventListener('click', () => { if (state.sort !== b.dataset.listSort) { state.sort = b.dataset.listSort; update(); } });
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !$('#panel').hidden) closePanel(); });
     window.addEventListener('hashchange', () => { readHash(); update({ fit: true }); if (state.id) openPanel(state.id, null); });
 
