@@ -7,6 +7,8 @@ Nimi: _verified-nimi jos saatavilla, muuten upstreamin nimi; pelkät versaalit (
 luettavaan muotoon. Annotaation valinnainen kenttä display_name ohittaa tämän (esim. kun diakriitit
 puuttuvat upstreamista: "Universitat" -> "Universität"). Verkko-osoitteet normalisoidaan
 (https:// lisätään jos puuttuu); puuttuva osoite jää tyhjäksi (null), osoitteita ei arvata.
+Annotaation valinnainen kenttä website_override korvaa upstreamin webpage-kentän, kun se on
+todistettavasti väärä (esim. väärä TLD tai hyödytön yleisosoite); käytä säästeliäästi ja perustele notes-kentässä.
 """
 
 import json
@@ -62,7 +64,7 @@ def build():
 
         name_src = v.get("organisationLegalName") or r["organisationLegalName"]
         name = a.get("display_name") or nice_case(name_src, cc)
-        webpage_raw = v.get("webpage") or r["webpage"]
+        webpage_raw = a.get("website_override") or v.get("webpage") or r["webpage"]
         webpage = normalize_url(webpage_raw)
         if webpage_raw and not webpage:
             warnings.append(f"{key}: verkko-osoite hylätty (ei näytä osoitteelta): {webpage_raw!r}")

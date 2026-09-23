@@ -2,7 +2,7 @@
  "meta": {
   "description": "Strategy, internationalisation-strategy and annual-report documents for the pilot institutions. Metadata and links only; no document content is copied. Every record has verified: false (not checked by a person).",
   "collected": "2026-09-23",
-  "institutions_covered": 10,
+  "institutions_covered": 83,
   "institutions": [
    "SF HELSINK42",
    "NL S-GRAVE05",
@@ -13,36 +13,110 @@
    "RO BUCURES03",
    "A  SALZBUR02",
    "NL ROTTERD09",
-   "S  STOCKHO11"
+   "S  STOCKHO11",
+   "I  ADRIA01",
+   "I  AGRIGEN02",
+   "I  ALESSAN01",
+   "I  AOSTA03",
+   "I  AVELLIN01",
+   "I  BARI03",
+   "I  BENEVEN03",
+   "I  BOLOGNA04",
+   "I  BOLZANO02",
+   "I  BRESCIA06",
+   "I  CAGLIAR02",
+   "I  CALTANI01",
+   "I  CAMPOBA03",
+   "I  CASTELF01",
+   "I  CATANIA06",
+   "I  CATANZA04",
+   "I  CESENA03",
+   "I  COMO04",
+   "I  COSENZA03",
+   "I  CREMONA01",
+   "I  CUNEO01",
+   "I  FERMO01",
+   "I  FERRARA02",
+   "I  FIRENZE04",
+   "I  FIRENZE07",
+   "I  FOGGIA02",
+   "I  FROSINO02",
+   "I  GENOVA02",
+   "I  L-AQUIL04",
+   "I  LA-SPEZ01",
+   "I  LATINA02",
+   "I  LECCE03",
+   "I  LIVORNO01",
+   "I  LUCCA03",
+   "I  MANTOVA01",
+   "I  MATERA01",
+   "I  MESSINA04",
+   "I  MILANO09",
+   "I  MILANO24",
+   "I  MODENA05",
+   "I  MONOPOL02",
+   "I  NAPOLI07",
+   "I  NOVARA01",
+   "I  PADOVA02",
+   "I  PALERMO04",
+   "I  PARMA02",
+   "I  PAVIA02",
+   "I  PERUGIA03",
+   "I  PESARO01",
+   "I  PESCARA01",
+   "I  PIACENZ01",
+   "I  POTENZA03",
+   "I  RAVENNA02",
+   "I  REGGIO03",
+   "I  REGGIO05",
+   "I  ROMA09",
+   "I  ROMA30",
+   "I  ROVIGO01",
+   "I  SALERNO02",
+   "I  SASSARI02",
+   "I  SIENA04",
+   "I  TERAMO02",
+   "I  TERNI01",
+   "I  TORINO05",
+   "I  TRAPANI02",
+   "I  TRENTO02",
+   "I  TRIESTE02",
+   "I  UDINE02",
+   "I  VARESE05",
+   "I  VENEZIA04",
+   "I  VERONA02",
+   "I  VIBO-VA01",
+   "I  VICENZA03"
   ],
-  "documents_found": 15,
-  "institutions_missing": 1,
+  "documents_found": 37,
+  "institutions_missing": 52,
   "language_distribution": {
    "ca": 2,
    "de": 1,
-   "en": 3,
+   "en": 23,
    "fi": 1,
    "fr": 2,
+   "it": 2,
    "nl": 3,
    "ro": 1,
    "sv": 2
   },
   "type_distribution": {
    "annual-report": 3,
-   "internationalisation-strategy": 2,
+   "internationalisation-strategy": 24,
    "strategy": 10
   },
   "outdated_rule": "period ends in a year <= 2026 (the current year counts as outdated too)",
-  "outdated_count": 4,
+  "outdated_count": 5,
   "status_labels": {
    "published": "Published document available",
    "mentioned_no_link": "Mentioned but no link",
    "not_found": "Not found"
   },
   "status_distribution": {
-   "published": 9,
-   "mentioned_no_link": 1,
-   "not_found": 0
+   "published": 31,
+   "mentioned_no_link": 26,
+   "not_found": 26
   },
   "link_status_definitions": {
    "direct": "document_url opens the document itself (a file or a page that is the document)",
@@ -244,6 +318,276 @@
    "notes": "A 2025 annual report also exists (found in search results) but was not independently opened to confirm.",
    "verified": false,
    "link_status": "direct"
+  },
+  {
+   "erasmus_code": "I  PARMA02",
+   "name_original": "Erasmus Policy Statement",
+   "type": "internationalisation-strategy",
+   "publication_year": null,
+   "period": null,
+   "language": "en",
+   "document_url": "https://www.conservatorio.pr.it/erasmus-policy/",
+   "found_on_url": "https://www.conservatorio.pr.it/erasmus-policy/",
+   "verified": false,
+   "link_status": "direct"
+  },
+  {
+   "erasmus_code": "I  VENEZIA04",
+   "name_original": "Erasmus Policy Statement",
+   "type": "internationalisation-strategy",
+   "publication_year": null,
+   "period": null,
+   "language": "en",
+   "document_url": "http://www.conservatoriovenezia.net/portale/index.php/it/component/k2/itemlist/category/131-erasmus-policy-statement.html",
+   "found_on_url": "http://www.conservatoriovenezia.net/",
+   "verified": false,
+   "link_status": "direct"
+  },
+  {
+   "erasmus_code": "I  POTENZA03",
+   "name_original": "Erasmus Policy Statement (EPS)",
+   "type": "internationalisation-strategy",
+   "publication_year": null,
+   "period": null,
+   "language": "en",
+   "document_url": "http://erasmus.conservatoriopotenza.it/en/content/erasmus-policy-statement-eps",
+   "found_on_url": "http://erasmus.conservatoriopotenza.it/en",
+   "verified": false,
+   "link_status": "direct",
+   "notes": "URL inferred from search summary text, not itself in the returned Links list; not independently opened."
+  },
+  {
+   "erasmus_code": "I  MILANO09",
+   "name_original": "Erasmus Policy Statement",
+   "type": "internationalisation-strategy",
+   "publication_year": null,
+   "period": null,
+   "language": "en",
+   "document_url": "https://international.consmilano.it/erasmus-policy-statement-2/",
+   "found_on_url": "https://international.consmilano.it/",
+   "verified": false,
+   "link_status": "direct",
+   "notes": "An older 'Erasmus Policy Statement 2014-2020' page also exists at /erasmus-policy-statement/; this is the undated (current) one."
+  },
+  {
+   "erasmus_code": "I  FIRENZE04",
+   "name_original": "Erasmus Policy Statement",
+   "type": "internationalisation-strategy",
+   "publication_year": null,
+   "period": null,
+   "language": "en",
+   "document_url": "https://conservatorio.firenze.it/it/formazione/international/erasmus/1541-erasmus-policy-statement-i-firenze04/file",
+   "found_on_url": "https://conservatorio.firenze.it/",
+   "verified": false,
+   "link_status": "direct"
+  },
+  {
+   "erasmus_code": "I  ROMA09",
+   "name_original": "ECHE-EPS (Erasmus Policy Statement)",
+   "type": "internationalisation-strategy",
+   "publication_year": null,
+   "period": null,
+   "language": "en",
+   "document_url": "https://conservatoriosantacecilia.it/eche-eps/",
+   "found_on_url": "https://conservatoriosantacecilia.it/",
+   "verified": false,
+   "link_status": "direct"
+  },
+  {
+   "erasmus_code": "I  LATINA02",
+   "name_original": "Erasmus Policy Statement",
+   "type": "internationalisation-strategy",
+   "publication_year": null,
+   "period": null,
+   "language": "en",
+   "document_url": "https://www.conslatina.it/public/pdf_item_cms/52500023833eps.pdf",
+   "found_on_url": "https://www.conslatina.it/",
+   "verified": false,
+   "link_status": "direct"
+  },
+  {
+   "erasmus_code": "I  LECCE03",
+   "name_original": "Erasmus Policy",
+   "type": "internationalisation-strategy",
+   "publication_year": null,
+   "period": null,
+   "language": "en",
+   "document_url": "https://conservatoriolecce.it/index.php?Itemid=115&catid=24&id=216%3Aerasmus-policy&option=com_content&view=article",
+   "found_on_url": "https://conservatoriolecce.it/",
+   "verified": false,
+   "link_status": "direct"
+  },
+  {
+   "erasmus_code": "I  TRAPANI02",
+   "name_original": "Erasmus+ (page contains the Erasmus Policy Statement)",
+   "type": "internationalisation-strategy",
+   "publication_year": null,
+   "period": null,
+   "language": "en",
+   "document_url": "http://www.constp.it/erasmus/",
+   "found_on_url": "http://www.constp.it/erasmus/",
+   "verified": false,
+   "link_status": "direct",
+   "notes": "Search engine's own summary paraphrases EPS content as present on this page; not independently opened to confirm it is the full statement rather than a paraphrase."
+  },
+  {
+   "erasmus_code": "I  PALERMO04",
+   "name_original": "Erasmus Policy Statement",
+   "type": "internationalisation-strategy",
+   "publication_year": null,
+   "period": null,
+   "language": "en",
+   "document_url": "https://conservatoriopalermo.it/wp-content/uploads/2021/04/Erasmus-Policy-Statement.pdf",
+   "found_on_url": "https://conservatoriopalermo.it/erasmus/",
+   "verified": false,
+   "link_status": "direct"
+  },
+  {
+   "erasmus_code": "I  BOLOGNA04",
+   "name_original": "ECHE / EPS",
+   "type": "internationalisation-strategy",
+   "publication_year": null,
+   "period": null,
+   "language": "en",
+   "document_url": "https://consbo.it/international/erasmus/eche-eps/",
+   "found_on_url": "https://consbo.it/",
+   "verified": false,
+   "link_status": "direct"
+  },
+  {
+   "erasmus_code": "I  LIVORNO01",
+   "name_original": "Erasmus Policy Statement (EPS)",
+   "type": "internationalisation-strategy",
+   "publication_year": null,
+   "period": null,
+   "language": "en",
+   "document_url": "http://www.consli.it/misc/erasmus/EPS.pdf",
+   "found_on_url": "https://www.consli.it/programma-erasmus/erasmus/",
+   "verified": false,
+   "link_status": "direct"
+  },
+  {
+   "erasmus_code": "I  FERRARA02",
+   "name_original": "Erasmus Policy Statement",
+   "type": "internationalisation-strategy",
+   "publication_year": null,
+   "period": null,
+   "language": "en",
+   "document_url": "https://www.conservatorioferrara.it/old/images/Erasmus_Policy_Statement_Ferrara.pdf",
+   "found_on_url": "https://www.conservatorioferrara.it/index.php/comunicazioni-test/84-erasmus",
+   "verified": false,
+   "link_status": "direct"
+  },
+  {
+   "erasmus_code": "I  PESARO01",
+   "name_original": "EPS - Erasmus Policy Statement 2021-2027",
+   "type": "internationalisation-strategy",
+   "publication_year": null,
+   "period": "2021-2027",
+   "language": "en",
+   "document_url": "https://www.conservatoriorossini.it/wp-content/uploads/2023/05/EPS-Conservatorio-Rossini-2021-2027.pdf",
+   "found_on_url": "https://www.conservatoriorossini.it/international/",
+   "verified": false,
+   "link_status": "direct"
+  },
+  {
+   "erasmus_code": "I  SASSARI02",
+   "name_original": "ESP (Erasmus Policy Statement) 2014-2020",
+   "type": "internationalisation-strategy",
+   "publication_year": null,
+   "period": "2014-2020",
+   "language": "en",
+   "document_url": "http://www.conservatorio.sassari.it/wp-content/uploads/2014/04/ESP-ERASMUS+-2014-2020.pdf",
+   "found_on_url": "https://www.conservatorio.sassari.it/",
+   "verified": false,
+   "link_status": "direct",
+   "notes": "Older period version; a current 2021-2027 EPS may also exist but was not surfaced."
+  },
+  {
+   "erasmus_code": "I  VARESE05",
+   "name_original": "Carta Erasmus & EPS (European Policy Statement)",
+   "type": "internationalisation-strategy",
+   "publication_year": null,
+   "period": null,
+   "language": "en",
+   "document_url": "https://issmpuccinigallarate.it/carta-erasmus-eps-european-policy-statement/",
+   "found_on_url": "https://issmpuccinigallarate.it/",
+   "verified": false,
+   "link_status": "direct"
+  },
+  {
+   "erasmus_code": "I  GENOVA02",
+   "name_original": "Erasmus Policy Statement 2021/2027",
+   "type": "internationalisation-strategy",
+   "publication_year": null,
+   "period": "2021-2027",
+   "language": "it",
+   "document_url": "https://www.conspaganini.it/sites/default/files/upload/Erasmus%20Policy%20Statement%202021-2027%20-%20ITALIANO%20(1).pdf",
+   "found_on_url": "https://www.conspaganini.it/erasmus-policy-statement-2021-2027/",
+   "verified": false,
+   "link_status": "direct"
+  },
+  {
+   "erasmus_code": "I  AOSTA03",
+   "name_original": "Erasmus Policy Statement (EPS): Strategia 2021/27",
+   "type": "internationalisation-strategy",
+   "publication_year": null,
+   "period": "2021-2027",
+   "language": "it",
+   "document_url": "https://www.consaosta.it/wp-content/uploads/2021/03/EPS_2021_27_it.pdf",
+   "found_on_url": "https://www.consaosta.it/erasmus/regolamento-eche-eps/",
+   "verified": false,
+   "link_status": "direct"
+  },
+  {
+   "erasmus_code": "I  TERAMO02",
+   "name_original": "Erasmus Policy Statement",
+   "type": "internationalisation-strategy",
+   "publication_year": null,
+   "period": null,
+   "language": "en",
+   "document_url": "https://www.conservatoriobraga.it/contents.asp?id=539&pagina=Erasmus++Policy+Statement",
+   "found_on_url": "https://www.conservatoriobraga.it/",
+   "verified": false,
+   "link_status": "direct"
+  },
+  {
+   "erasmus_code": "I  CATANIA06",
+   "name_original": "Erasmus Policy Statement (Overall Strategy)",
+   "type": "internationalisation-strategy",
+   "publication_year": null,
+   "period": null,
+   "language": "en",
+   "document_url": "http://www.istitutobellini.it/oldsite/it/content/erasmus-policy-statement-overall-strategy",
+   "found_on_url": "https://www.istitutobellini.it/",
+   "verified": false,
+   "link_status": "direct",
+   "notes": "Hosted on an 'oldsite' sub-path; current site (istitutobellini.it) may have since moved this page."
+  },
+  {
+   "erasmus_code": "I  CUNEO01",
+   "name_original": "EPS",
+   "type": "internationalisation-strategy",
+   "publication_year": null,
+   "period": null,
+   "language": "en",
+   "document_url": "https://www.conservatoriocuneo.it/eps/",
+   "found_on_url": "https://www.conservatoriocuneo.it/erasmus/",
+   "verified": false,
+   "link_status": "direct"
+  },
+  {
+   "erasmus_code": "I  ROMA30",
+   "name_original": "Policy Statement 2021-2027",
+   "type": "internationalisation-strategy",
+   "publication_year": null,
+   "period": "2021-2027",
+   "language": "en",
+   "document_url": "https://www.slmc.it/wp-content/uploads/2021/04/Erasmus_Policy_Statement_2014_2027.pdf",
+   "found_on_url": "https://www.slmc.it/erasmus/",
+   "verified": false,
+   "link_status": "direct",
+   "notes": "File name says '2014_2027' but page title says '2021-2027'; not opened to resolve the discrepancy."
   }
  ],
  "missing": [
@@ -251,6 +595,261 @@
    "erasmus_code": "A  WIEN08",
    "notes": "No accessible strategy, internationalisation-strategy or annual-report document found for mdw. The institution's own HRS4R page (https://www.mdw.ac.at/1715/) names 'mdw-Entwicklungspläne 2019-2024 und 2025-2030' (development plans) as existing and as the basis of its HR strategy, confirming such documents exist, but no working link to either plan (PDF or dedicated page) could be located on mdw.ac.at or via search.",
    "status": "mentioned_no_link"
+  },
+  {
+   "erasmus_code": "I  AGRIGEN02",
+   "notes": "Erasmus info page exists (conservatoriotoscanini.it/erasmus-info/); no EPS-specific page or PDF surfaced.",
+   "status": "mentioned_no_link"
+  },
+  {
+   "erasmus_code": "I  ADRIA01",
+   "notes": "Erasmus+ page exists (conservatorioadria.it/erasmus-it/); EPS not surfaced as a separate document.",
+   "status": "mentioned_no_link"
+  },
+  {
+   "erasmus_code": "I  COMO04",
+   "notes": "International/Erasmus page (international.conservatoriocomo.it/erasmus/) mentions 'EPS' and the ECHE 2021-2027 together; no separate EPS URL surfaced.",
+   "status": "mentioned_no_link"
+  },
+  {
+   "erasmus_code": "I  MESSINA04",
+   "notes": "EPS referenced; site appears to be migrating Erasmus content to a new domain (erasmuscorelli.it), not yet indexed.",
+   "status": "mentioned_no_link"
+  },
+  {
+   "erasmus_code": "I  ALESSAN01",
+   "notes": "Dedicated Erasmus page exists (international.conservatoriovivaldi.it/erasmus/); EPS not surfaced separately.",
+   "status": "mentioned_no_link"
+  },
+  {
+   "erasmus_code": "I  L-AQUIL04",
+   "notes": "'E+ Policy Statement' referenced in site navigation on several pages; no direct PDF/page surfaced.",
+   "status": "mentioned_no_link"
+  },
+  {
+   "erasmus_code": "I  MATERA01",
+   "notes": "Erasmus regulation PDF and general Erasmus page found; institution states an internationalisation policy exists, but no dedicated EPS document surfaced.",
+   "status": "mentioned_no_link"
+  },
+  {
+   "erasmus_code": "I  FROSINO02",
+   "notes": "Institution's pages reference a 'European Policy Statement' / 'European Strategy Declaration' as existing but no direct URL surfaced.",
+   "status": "mentioned_no_link"
+  },
+  {
+   "erasmus_code": "I  MANTOVA01",
+   "notes": "EPS referenced on multiple pages (international/erasmus section); no direct PDF/page surfaced.",
+   "status": "mentioned_no_link"
+  },
+  {
+   "erasmus_code": "I  BARI03",
+   "notes": "EPS described as 'available for European partners'; no direct URL surfaced.",
+   "status": "mentioned_no_link"
+  },
+  {
+   "erasmus_code": "I  MONOPOL02",
+   "notes": "Search summary states an 'ERASMUS Policy Statement available to download' exists on the institution's Erasmus page; the specific URL was not returned.",
+   "status": "mentioned_no_link"
+  },
+  {
+   "erasmus_code": "I  CREMONA01",
+   "notes": "Institution's Erasmus pages state institutions must display the Charter and EPS prominently; no direct EPS URL surfaced for this institution.",
+   "status": "mentioned_no_link"
+  },
+  {
+   "erasmus_code": "I  PAVIA02",
+   "notes": "EPS referenced as part of institutional Erasmus documentation; no direct URL surfaced.",
+   "status": "mentioned_no_link"
+  },
+  {
+   "erasmus_code": "I  LA-SPEZ01",
+   "notes": "'EPS-21-27' referenced on institutional pages; no direct URL surfaced.",
+   "status": "mentioned_no_link"
+  },
+  {
+   "erasmus_code": "I  SALERNO02",
+   "notes": "EPS referenced (both ECHE 2014-2020 and 2021-2027 versions mentioned); no direct URL surfaced.",
+   "status": "mentioned_no_link"
+  },
+  {
+   "erasmus_code": "I  MODENA05",
+   "notes": "EPS referenced as 'Dichiarazione politica Erasmus / strategia internazionale'; no direct URL surfaced.",
+   "status": "mentioned_no_link"
+  },
+  {
+   "erasmus_code": "I  SIENA04",
+   "notes": "A 'Statement Policy' document referenced within the Erasmus+ regulations/calls section; no direct URL surfaced.",
+   "status": "mentioned_no_link"
+  },
+  {
+   "erasmus_code": "I  NAPOLI07",
+   "notes": "EPS 2021-2027 stated to be published in both Italian and English; no direct URL surfaced in results.",
+   "status": "mentioned_no_link"
+  },
+  {
+   "erasmus_code": "I  PIACENZ01",
+   "notes": "Active Erasmus office and Erasmus+ page found (correct domain conservatorionicolini.it); no EPS-specific document surfaced.",
+   "status": "mentioned_no_link"
+  },
+  {
+   "erasmus_code": "I  PERUGIA03",
+   "notes": "Extensive Erasmus pages found (correct domain conservatorioperugia.it); no EPS-specific document surfaced.",
+   "status": "mentioned_no_link"
+  },
+  {
+   "erasmus_code": "I  VERONA02",
+   "notes": "EPS referenced as 'Dichiarazione di Missione Europea' under a 'Dichiarazioni'/Normativa page; no direct URL surfaced.",
+   "status": "mentioned_no_link"
+  },
+  {
+   "erasmus_code": "I  CAGLIAR02",
+   "notes": "'Erasmus+ European Policy Statement - ECHE' listed as a menu item across several pages; no direct URL surfaced.",
+   "status": "mentioned_no_link"
+  },
+  {
+   "erasmus_code": "I  CAMPOBA03",
+   "notes": "EPS referenced under a 'La politica della Qualità' section; no direct URL surfaced.",
+   "status": "mentioned_no_link"
+  },
+  {
+   "erasmus_code": "I  AVELLIN01",
+   "notes": "Extensive Erasmus/internationalisation pages found; no EPS-specific document surfaced.",
+   "status": "mentioned_no_link"
+  },
+  {
+   "erasmus_code": "I  FIRENZE07",
+   "notes": "Erasmus page exists and an EPS is referenced as available; no direct URL surfaced.",
+   "status": "mentioned_no_link"
+  },
+  {
+   "erasmus_code": "I  VICENZA03",
+   "notes": "Only application forms, brochures and regulations found; no EPS or general strategy mention.",
+   "status": "not_found"
+  },
+  {
+   "erasmus_code": "I  BOLZANO02",
+   "notes": "Only general Erasmus/international-relations pages found; no EPS mention.",
+   "status": "not_found"
+  },
+  {
+   "erasmus_code": "I  REGGIO03",
+   "notes": "Only general Erasmus/international pages and regulations found; no EPS mention.",
+   "status": "not_found"
+  },
+  {
+   "erasmus_code": "I  TRENTO02",
+   "notes": "Only general Erasmus pages found; no EPS mention.",
+   "status": "not_found"
+  },
+  {
+   "erasmus_code": "I  VIBO-VA01",
+   "notes": "Only mobility calls and evaluation reports found; no EPS mention.",
+   "status": "not_found"
+  },
+  {
+   "erasmus_code": "I  LUCCA03",
+   "notes": "Only 'Relazioni internazionali' and 'Internazionalizzazione' pages found, with narrative history of the Erasmus Charter; no EPS-specific document or link surfaced.",
+   "status": "not_found"
+  },
+  {
+   "erasmus_code": "I  COSENZA03",
+   "notes": "Old Joomla-based site; only mobility calls and office contact pages found, no EPS mention.",
+   "status": "not_found"
+  },
+  {
+   "erasmus_code": "I  ROVIGO01",
+   "notes": "Only mobility calls, manifesto and activity-plan PDFs found; no EPS mention.",
+   "status": "not_found"
+  },
+  {
+   "erasmus_code": "I  TRIESTE02",
+   "notes": "Search returned no results for this domain.",
+   "status": "not_found"
+  },
+  {
+   "erasmus_code": "I  BRESCIA06",
+   "notes": "Site returned only a default web-server placeholder page ('It works'); site may be misconfigured or under a different domain.",
+   "status": "not_found"
+  },
+  {
+   "erasmus_code": "I  REGGIO05",
+   "notes": "Only student mobility/application pages found (peri-merulo.it, Reggio Emilia); no EPS mention.",
+   "status": "not_found"
+  },
+  {
+   "erasmus_code": "I  CESENA03",
+   "notes": "Search returned no results for this domain.",
+   "status": "not_found"
+  },
+  {
+   "erasmus_code": "I  CASTELF01",
+   "notes": "Only an ECHE page and general Erasmus/international pages found; no EPS mention.",
+   "status": "not_found"
+  },
+  {
+   "erasmus_code": "I  FERMO01",
+   "notes": "Only general Erasmus+ project page and mobility calls found; no EPS mention.",
+   "status": "not_found"
+  },
+  {
+   "erasmus_code": "I  TERNI01",
+   "notes": "Only mobility calls and rankings found; no EPS mention.",
+   "status": "not_found"
+  },
+  {
+   "erasmus_code": "I  TORINO05",
+   "notes": "Only general international-relations page and institutional PDFs found; no EPS mention.",
+   "status": "not_found"
+  },
+  {
+   "erasmus_code": "I  UDINE02",
+   "notes": "Only mobility regulations and project-description pages found; no EPS mention.",
+   "status": "not_found"
+  },
+  {
+   "erasmus_code": "I  FOGGIA02",
+   "notes": "Only a general Erasmus regulation PDF and project pages found; no EPS mention.",
+   "status": "not_found"
+  },
+  {
+   "erasmus_code": "I  CALTANI01",
+   "notes": "Search returned almost nothing usable (one unrelated Moodle resource link).",
+   "status": "not_found"
+  },
+  {
+   "erasmus_code": "I  PADOVA02",
+   "notes": "Only contact and institutional-transparency pages found; no EPS mention.",
+   "status": "not_found"
+  },
+  {
+   "erasmus_code": "I  NOVARA01",
+   "notes": "Only mobility calls and forms found (erasmus.consno.it); no EPS mention.",
+   "status": "not_found"
+  },
+  {
+   "erasmus_code": "I  PESCARA01",
+   "notes": "Search returned only an unrelated privacy-policy page.",
+   "status": "not_found"
+  },
+  {
+   "erasmus_code": "I  BENEVEN03",
+   "notes": "Search returned no results for this domain.",
+   "status": "not_found"
+  },
+  {
+   "erasmus_code": "I  CATANZA04",
+   "notes": "Only general institutional PDFs (ECTS, regulations) found; no EPS mention.",
+   "status": "not_found"
+  },
+  {
+   "erasmus_code": "I  RAVENNA02",
+   "notes": "Only exam rankings and administrative pages found; no EPS or Erasmus mention at all.",
+   "status": "not_found"
+  },
+  {
+   "erasmus_code": "I  MILANO24",
+   "notes": "Only press-related and generic 'chi siamo' pages found; no EPS mention.",
+   "status": "not_found"
   }
  ],
  "institution_status": {
@@ -263,6 +862,79 @@
   "NL S-GRAVE05": "published",
   "RO BUCURES03": "published",
   "S  STOCKHO11": "published",
-  "SF HELSINK42": "published"
+  "SF HELSINK42": "published",
+  "I  PARMA02": "published",
+  "I  VENEZIA04": "published",
+  "I  POTENZA03": "published",
+  "I  MILANO09": "published",
+  "I  FIRENZE04": "published",
+  "I  ROMA09": "published",
+  "I  LATINA02": "published",
+  "I  LECCE03": "published",
+  "I  TRAPANI02": "published",
+  "I  PALERMO04": "published",
+  "I  BOLOGNA04": "published",
+  "I  LIVORNO01": "published",
+  "I  FERRARA02": "published",
+  "I  PESARO01": "published",
+  "I  SASSARI02": "published",
+  "I  VARESE05": "published",
+  "I  GENOVA02": "published",
+  "I  AOSTA03": "published",
+  "I  TERAMO02": "published",
+  "I  CATANIA06": "published",
+  "I  CUNEO01": "published",
+  "I  ROMA30": "published",
+  "I  AGRIGEN02": "mentioned_no_link",
+  "I  ADRIA01": "mentioned_no_link",
+  "I  COMO04": "mentioned_no_link",
+  "I  MESSINA04": "mentioned_no_link",
+  "I  ALESSAN01": "mentioned_no_link",
+  "I  L-AQUIL04": "mentioned_no_link",
+  "I  MATERA01": "mentioned_no_link",
+  "I  FROSINO02": "mentioned_no_link",
+  "I  MANTOVA01": "mentioned_no_link",
+  "I  BARI03": "mentioned_no_link",
+  "I  MONOPOL02": "mentioned_no_link",
+  "I  CREMONA01": "mentioned_no_link",
+  "I  PAVIA02": "mentioned_no_link",
+  "I  LA-SPEZ01": "mentioned_no_link",
+  "I  SALERNO02": "mentioned_no_link",
+  "I  MODENA05": "mentioned_no_link",
+  "I  SIENA04": "mentioned_no_link",
+  "I  NAPOLI07": "mentioned_no_link",
+  "I  PIACENZ01": "mentioned_no_link",
+  "I  PERUGIA03": "mentioned_no_link",
+  "I  VERONA02": "mentioned_no_link",
+  "I  CAGLIAR02": "mentioned_no_link",
+  "I  CAMPOBA03": "mentioned_no_link",
+  "I  AVELLIN01": "mentioned_no_link",
+  "I  FIRENZE07": "mentioned_no_link",
+  "I  VICENZA03": "not_found",
+  "I  BOLZANO02": "not_found",
+  "I  REGGIO03": "not_found",
+  "I  TRENTO02": "not_found",
+  "I  VIBO-VA01": "not_found",
+  "I  LUCCA03": "not_found",
+  "I  COSENZA03": "not_found",
+  "I  ROVIGO01": "not_found",
+  "I  TRIESTE02": "not_found",
+  "I  BRESCIA06": "not_found",
+  "I  REGGIO05": "not_found",
+  "I  CESENA03": "not_found",
+  "I  CASTELF01": "not_found",
+  "I  FERMO01": "not_found",
+  "I  TERNI01": "not_found",
+  "I  TORINO05": "not_found",
+  "I  UDINE02": "not_found",
+  "I  FOGGIA02": "not_found",
+  "I  CALTANI01": "not_found",
+  "I  PADOVA02": "not_found",
+  "I  NOVARA01": "not_found",
+  "I  PESCARA01": "not_found",
+  "I  BENEVEN03": "not_found",
+  "I  CATANZA04": "not_found",
+  "I  RAVENNA02": "not_found",
+  "I  MILANO24": "not_found"
  }
 }
