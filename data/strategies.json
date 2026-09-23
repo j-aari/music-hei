@@ -1,0 +1,225 @@
+{
+ "meta": {
+  "description": "Strategy, internationalisation-strategy and annual-report documents for the pilot institutions. Metadata and links only; no document content is copied. Every record has verified: false (not checked by a person).",
+  "collected": "2026-09-23",
+  "institutions_covered": 10,
+  "institutions": [
+   "SF HELSINK42",
+   "NL S-GRAVE05",
+   "N  OSLO03",
+   "F  PARIS119",
+   "A  WIEN08",
+   "E  BARCELO29",
+   "RO BUCURES03",
+   "A  SALZBUR02",
+   "NL ROTTERD09",
+   "S  STOCKHO11"
+  ],
+  "documents_found": 15,
+  "institutions_missing": 1,
+  "language_distribution": {
+   "ca": 2,
+   "de": 1,
+   "en": 3,
+   "fi": 1,
+   "fr": 2,
+   "nl": 3,
+   "ro": 1,
+   "sv": 2
+  },
+  "type_distribution": {
+   "annual-report": 3,
+   "internationalisation-strategy": 2,
+   "strategy": 10
+  },
+  "outdated_rule": "period ends in a year <= 2026 (the current year counts as outdated too)",
+  "outdated_count": 4
+ },
+ "documents": [
+  {
+   "erasmus_code": "SF HELSINK42",
+   "name_original": "Taideyliopiston strategia 2021–2030",
+   "type": "strategy",
+   "publication_year": 2020,
+   "period": "2021-2030",
+   "language": "fi",
+   "document_url": "https://www.uniarts.fi/dokumentit/taideyliopiston-strategiajulkaisu-pdf-muodossa/",
+   "found_on_url": "https://www.uniarts.fi/strategia-2021-2030/",
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF HELSINK42",
+   "name_original": "Research strategy 2021–2030",
+   "type": "strategy",
+   "publication_year": 2020,
+   "period": "2021-2030",
+   "language": "en",
+   "document_url": "https://www.uniarts.fi/en/general-info/research-strategy-2021-2030/",
+   "found_on_url": "https://www.uniarts.fi/en/general-info/research-strategy-2021-2030/",
+   "notes": "Page is titled 'Research strategy 2021-2030' but no separate PDF is linked from it; the page itself is the document (in English, published as such - no Finnish-original URL located).",
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL S-GRAVE05",
+   "name_original": "Erasmus Policy Statement 2021-2027",
+   "type": "internationalisation-strategy",
+   "publication_year": null,
+   "period": "2021-2027",
+   "language": "en",
+   "document_url": "https://hdk-pull-prod.b-cdn.net/documents/Erasmus-Policy-Statement-2021-2027.pdf",
+   "found_on_url": "https://www.hogeschoolderkunsten.nl/en/internationalisation/eu-charter-international-strategy",
+   "notes": "University of the Arts The Hague (parent of the Royal Conservatoire); covers the whole institution, not the Conservatoire alone.",
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL S-GRAVE05",
+   "name_original": "Instellingsplan internationalisering",
+   "type": "internationalisation-strategy",
+   "publication_year": null,
+   "period": "2019-2024",
+   "language": "nl",
+   "document_url": "https://hdk-pull-prod.b-cdn.net/documents/Instellingsplan-internationalisering.pdf",
+   "found_on_url": "https://www.hogeschoolderkunsten.nl/en/internationalisation/eu-charter-international-strategy",
+   "notes": "University of the Arts The Hague (parent of the Royal Conservatoire). Period ended 2024, before 2026: OUTDATED.",
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL S-GRAVE05",
+   "name_original": "Faculteitsplan Koninklijk Conservatorium 2022–2024",
+   "type": "strategy",
+   "publication_year": null,
+   "period": "2022-2024",
+   "language": "nl",
+   "document_url": "https://www.koncon.nl/en/about-kc",
+   "found_on_url": "https://www.koncon.nl/en/about-kc",
+   "notes": "Newer, Conservatoire-specific plan (as opposed to the two University of the Arts The Hague-wide documents above). Its existence is confirmed by a mention in the Royal Conservatoire's 2022-23 Study Guide, but no page or PDF on koncon.nl links directly to the plan itself; document_url points to the governance page where related documents are listed, not to the plan. Period ended 2024, before 2026: OUTDATED.",
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  BARCELO29",
+   "name_original": "Pla d'actuació ESMUC 2024–2028 (curs 2025-2026)",
+   "type": "strategy",
+   "publication_year": 2025,
+   "period": "2024-2028",
+   "language": "ca",
+   "document_url": "https://repositori.educacio.gencat.cat/handle/20.500.12694/7503",
+   "found_on_url": "https://www.esmuc.cat/en/about-esmuc/transparency-portal/planning-and-quality/",
+   "notes": "Newer edition superseding the 2023-2024 plan below. ACCESS-RESTRICTED: fetching this URL returned an access-denied error page ('Oh noes!', CSUC) rather than the document; the PDF could not be independently opened. Listed for completeness with document_url as given on the ESMUC page.",
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  OSLO03",
+   "name_original": "Strategi 2035: NMH – musikken i bevegelse",
+   "type": "strategy",
+   "publication_year": null,
+   "period": "?-2035",
+   "language": "en",
+   "document_url": "https://view.publitas.com/norges-musikkhogskole/the-norwegian-academy-of-music-strategy-2035/",
+   "found_on_url": "https://nmh.no/en/about/strategies",
+   "notes": "English-language edition fetched (title back-translated for name_original as 'NMH - musikken i bevegelse'; not independently confirmed). A Norwegian original likely exists at nmh.no/om-nmh/strategi but its URL was not verified. Adoption year not stated on the page.",
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  PARIS119",
+   "name_original": "Ce qui se joue – Projet d'établissement 2025–2030",
+   "type": "strategy",
+   "publication_year": 2025,
+   "period": "2025-2030",
+   "language": "fr",
+   "document_url": "https://www.conservatoiredeparis.fr/sites/default/files/Ecole/CNSMDP_2025-30_Projet-etablissement.pdf",
+   "found_on_url": "https://www.conservatoiredeparis.fr/",
+   "notes": "The PDF is hosted on the institution's own domain, but no on-site page linking to it was found by browsing; it was located via a site search. No specific listing page identified.",
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  PARIS119",
+   "name_original": "Rapport d'activité 2024",
+   "type": "annual-report",
+   "publication_year": 2024,
+   "period": null,
+   "language": "fr",
+   "document_url": "https://www.conservatoiredeparis.fr/sites/default/files/Ecole/Cnsmdp-Rapport-activite2024.pdf",
+   "found_on_url": "https://www.conservatoiredeparis.fr/",
+   "notes": "A 2025 activity report also appears to exist (same file-naming pattern) but was not independently opened to confirm.",
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  BARCELO29",
+   "name_original": "Pla d'actuació ESMUC 2023–2024",
+   "type": "strategy",
+   "publication_year": 2023,
+   "period": "2023-2024",
+   "language": "ca",
+   "document_url": "https://www.esmuc.cat/wp-content/uploads/2023/11/Pla-actuacio-ESMUC-2023-2024_def.pdf",
+   "found_on_url": "https://www.esmuc.cat/en/about-esmuc/transparency-portal/planning-and-quality/",
+   "notes": "An Action Plan 2024-2028 (with per-academic-year editions) supersedes this one, but its PDF sits behind a repository access wall (repositori.educacio.gencat.cat returned an access-denied error) and no working direct link was found. This 2023-2024 edition is confirmed accessible. Period ended 2024, before 2026: OUTDATED.",
+   "verified": false
+  },
+  {
+   "erasmus_code": "RO BUCURES03",
+   "name_original": "Strategia de Cercetare în UNMB",
+   "type": "strategy",
+   "publication_year": null,
+   "period": null,
+   "language": "ro",
+   "document_url": "https://www.unmb.ro/cercetare/strategia-de-cercetare-in-unmb/",
+   "found_on_url": "https://www.unmb.ro/cercetare/strategia-de-cercetare-in-unmb/",
+   "notes": "Research strategy only (drawn from the University Charter); no institution-wide strategic plan, internationalisation strategy or standalone annual report was located on unmb.ro.",
+   "verified": false
+  },
+  {
+   "erasmus_code": "A  SALZBUR02",
+   "name_original": "Entwicklungsplan der Universität Mozarteum 2022–2027",
+   "type": "strategy",
+   "publication_year": 2021,
+   "period": "2022-2027",
+   "language": "de",
+   "document_url": "https://apps.moz.ac.at/apps/fe/mbl/pdf.php?n=539689",
+   "found_on_url": "https://www.moz.ac.at/en/about-us/public-notices",
+   "notes": "Approved by the Senate 29 Jan 2021 and by the University Council 15 Feb 2021, per the page text.",
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL ROTTERD09",
+   "name_original": "Bestuursverslag 2024",
+   "type": "annual-report",
+   "publication_year": 2024,
+   "period": null,
+   "language": "nl",
+   "document_url": "https://www.codarts.nl/fileadmin/user_upload/documenten/codarts_algemeen/bestuursverslagen/codarts-bestuursverslag-2024.pdf",
+   "found_on_url": "https://www.codarts.nl/en/about-codarts/annual-reports/",
+   "notes": "A 2025 report ('20260618_definitief_bestuursverslag.pdf') is also listed on the same page. No current strategic or internationalisation-strategy document was found; only annual reports are published.",
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  STOCKHO11",
+   "name_original": "Vision och strategi 2021–2026",
+   "type": "strategy",
+   "publication_year": 2021,
+   "period": "2021-2026",
+   "language": "sv",
+   "document_url": "https://www.kmh.se/download/18.6fdc5f4b176f56e0eb735f9/1610452918792/Vision%20och%20strategi%202021%E2%80%932026.pdf",
+   "found_on_url": "https://www.kmh.se/backstage/ledning--organisation/mal--och-styrdokument/maldokument.html",
+   "notes": "Period ends 2026 (the current year): OUTDATED under the ends-by-2026 rule.",
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  STOCKHO11",
+   "name_original": "Årsredovisning 2024",
+   "type": "annual-report",
+   "publication_year": 2024,
+   "period": null,
+   "language": "sv",
+   "document_url": "https://www.kmh.se/download/18.59d5ae48195793ceed14b4c5/1741610041059/KMH_arsredovisning_2024.pdf",
+   "found_on_url": "https://www.kmh.se/backstage/ledning--organisation/mal--och-styrdokument/maldokument.html",
+   "notes": "A 2025 annual report also exists (found in search results) but was not independently opened to confirm.",
+   "verified": false
+  }
+ ],
+ "missing": [
+  {
+   "erasmus_code": "A  WIEN08",
+   "notes": "No accessible strategy, internationalisation-strategy or annual-report document found for mdw. The institution's own HRS4R page (https://www.mdw.ac.at/1715/) names 'mdw-Entwicklungspläne 2019-2024 und 2025-2030' (development plans) as existing and as the basis of its HR strategy, confirming such documents exist, but no working link to either plan (PDF or dedicated page) could be located on mdw.ac.at or via search."
+  }
+ ]
+}
