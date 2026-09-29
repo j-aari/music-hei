@@ -459,7 +459,7 @@
     const isMap = state.view === 'map';
     $('#list-view').hidden = isMap;
     $('#map-view').hidden = !isMap;
-    $('#sort-control').hidden = isMap; // sort order only affects the list
+    $('#sort-toggle').hidden = isMap; // sort order only affects the list
     for (const b of document.querySelectorAll('.sort-toggle .btn')) b.setAttribute('aria-pressed', String(b.dataset.listSort === state.sort));
     $('#empty').hidden = rows.length > 0;
     if (rows.length === 0) renderEmpty();

@@ -21,24 +21,7 @@
   </header>
 
   <div class="layout" id="layout">
-    <form class="filters" id="filters" role="search" aria-label="View, search and filters" autocomplete="off">
-      <div class="controls">
-        <div class="control">
-          <span class="control__label" id="view-label">View</span>
-          <div class="view-toggle" role="group" aria-labelledby="view-label">
-            <button type="button" class="btn" data-view="list" aria-pressed="true">List</button>
-            <button type="button" class="btn" data-view="map" aria-pressed="false">Map</button>
-          </div>
-        </div>
-        <div class="control" id="sort-control">
-          <span class="control__label" id="sort-label">Sort list by</span>
-          <div class="sort-toggle" id="sort-toggle" role="group" aria-labelledby="sort-label">
-            <button type="button" class="btn" data-list-sort="country" aria-pressed="true">Country</button>
-            <button type="button" class="btn" data-list-sort="name" aria-pressed="false">Name</button>
-          </div>
-        </div>
-        <button type="button" class="btn btn--block" id="csv"></button>
-      </div>
+    <form class="filters" id="filters" role="search" aria-label="Search and filters" autocomplete="off">
       <div class="filters__head">
         <h2 class="filters__title">Filters</h2>
         <button type="button" class="btn" id="reset" hidden>Clear all filters</button>
@@ -54,6 +37,15 @@
     <main class="main" id="main">
       <div class="toolbar" id="toolbar">
         <p class="count" id="count" role="status" aria-live="polite"></p>
+        <div class="sort-toggle" id="sort-toggle" role="group" aria-label="Sort by">
+          <button type="button" class="btn" data-list-sort="country" aria-pressed="true">Country</button>
+          <button type="button" class="btn" data-list-sort="name" aria-pressed="false">Name</button>
+        </div>
+        <div class="view-toggle" role="group" aria-label="View">
+          <button type="button" class="btn" data-view="list" aria-pressed="true">List</button>
+          <button type="button" class="btn" data-view="map" aria-pressed="false">Map</button>
+        </div>
+        <button type="button" class="btn" id="csv"></button>
       </div>
       <p class="legend" id="legend" aria-hidden="true"></p>
       <p class="strategy-coverage" id="strategy-coverage" hidden></p>
