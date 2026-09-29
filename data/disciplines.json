@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "description": "Taxonomy of music study disciplines. Fine-grained disciplines (the identifiers used in programmes.json) are grouped into the fields used by the Sibelius Academy of the University of the Arts Helsinki.",
   "levels": {
     "BA": "Bachelor's degree (first cycle)",
@@ -8,7 +8,9 @@
   },
   "notes": [
     "The Sibelius Academy counts 16 fields because Church Music is taught in Helsinki and in Kuopio as two departments; here they are one group, so there are 15 groups.",
-    "DocMus and MuTri are doctoral programmes, not fields. Doctoral study is recorded as the level 'Doc' on a discipline, never as a discipline of its own."
+    "DocMus and MuTri are doctoral programmes, not fields. Doctoral study is recorded as the level 'Doc' on a discipline, never as a discipline of its own.",
+    "The last three groups (popular music, music production, music therapy) are not fields of the Sibelius Academy; they were added in version 2 because they are common in European higher music education. Music production was previously mapped to music-technology.",
+    "Aliases are other names for the same discipline and are not separate identifiers: 'world music' is global-music, 'historical performance' (HIP) is early-music. Map programmes with those names to the existing identifier."
   ],
   "disciplines": [
     { "id": "piano", "name": "Piano" },
@@ -23,8 +25,8 @@
     { "id": "harp", "name": "Harp" },
     { "id": "jazz", "name": "Jazz" },
     { "id": "folk", "name": "Folk music" },
-    { "id": "global-music", "name": "Global music" },
-    { "id": "early-music", "name": "Early music" },
+    { "id": "global-music", "name": "Global music", "aliases": ["World music"] },
+    { "id": "early-music", "name": "Early music", "aliases": ["Historical performance", "Historically informed performance (HIP)"] },
     { "id": "church-music", "name": "Church music" },
     { "id": "organ", "name": "Organ" },
     { "id": "vocal-opera", "name": "Vocal arts and opera" },
@@ -34,7 +36,10 @@
     { "id": "music-education", "name": "Music education" },
     { "id": "music-technology", "name": "Music technology" },
     { "id": "musicology", "name": "Musicology" },
-    { "id": "arts-management", "name": "Arts management" }
+    { "id": "arts-management", "name": "Arts management" },
+    { "id": "popular-music", "name": "Popular music (pop/rock)" },
+    { "id": "music-production", "name": "Music production" },
+    { "id": "music-therapy", "name": "Music therapy" }
   ],
   "groups": [
     { "id": "global-music", "name": "Global Music", "disciplines": ["global-music"] },
@@ -51,6 +56,9 @@
     { "id": "winds-percussion-harp", "name": "Wind instruments, percussion, harp", "disciplines": ["woodwind", "brass", "percussion", "harp"] },
     { "id": "composition-theory", "name": "Composition and music theory", "disciplines": ["composition", "music-theory"] },
     { "id": "arts-management", "name": "Arts management, society and creative entrepreneurship", "disciplines": ["arts-management"] },
-    { "id": "early-music", "name": "Early music", "disciplines": ["early-music"] }
+    { "id": "early-music", "name": "Early music", "disciplines": ["early-music"] },
+    { "id": "popular-music", "name": "Popular music", "disciplines": ["popular-music"] },
+    { "id": "music-production", "name": "Music production", "disciplines": ["music-production"] },
+    { "id": "music-therapy", "name": "Music therapy", "disciplines": ["music-therapy"] }
   ]
 }

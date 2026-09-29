@@ -6801,7 +6801,7 @@
   },
   {
    "erasmus_code": "S  STOCKHO11",
-   "discipline": "music-technology",
+   "discipline": "music-production",
    "levels": [
     "BA",
     "MA"
@@ -6811,14 +6811,13 @@
     {
      "level": "BA",
      "programme_name": "Performance - Music Production",
-     "url": "https://www.kmh.se/in-english/education/programmes-and-courses/bachelor-programmes/performance---music-production.html",
-     "note": "Mapped from music production"
+     "url": "https://www.kmh.se/in-english/education/programmes-and-courses/bachelor-programmes/performance---music-production.html"
     },
     {
      "level": "MA",
      "programme_name": "Performance, Music Production",
      "url": "https://www.kmh.se/in-english/education/programmes-and-courses/masters-programmes/",
-     "note": "Mapped from music production; listed without an individual page URL"
+     "note": "listed without an individual page URL"
     }
    ],
    "verified": false

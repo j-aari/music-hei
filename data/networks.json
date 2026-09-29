@@ -148,11 +148,32 @@
     "listed_as": "Conservatoire royal de Bruxelles (CRB)"
    }
   ],
+  "B  GENT25": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Hogeschool Gent School of Arts"
+   }
+  ],
   "B  LIEGE03": [
    {
     "network": "aec",
     "category": "Active member",
     "listed_as": "Conservatoire royal de Liège"
+   }
+  ],
+  "BA BANJA02": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Academy of Arts Banja Luka"
+   }
+  ],
+  "BA SARAJEV01": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Muzicka akademija, Univerzitet u Sarajevu / Academy of Music, University of Sarajevo"
    }
   ],
   "BG PLOVDIV07": [
@@ -162,11 +183,25 @@
     "listed_as": "Academy of Music, Dance and Fine Arts \"Prof. Asen Diamandiev\""
    }
   ],
+  "BG SOFIA02": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "New Bulgarian University, Department of Music"
+   }
+  ],
   "BG SOFIA13": [
    {
     "network": "aec",
     "category": "Active member",
     "listed_as": "National Academy of Music \"Prof. Pancho Vladigerov\""
+   }
+  ],
+  "CY NICOSIA24": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "European University Cyprus"
    }
   ],
   "CZ BRNO03": [
@@ -286,6 +321,13 @@
     "listed_as": "Musikhochschule Lübeck"
    }
   ],
+  "D  MAINZ01": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Hochschule für Musik Mainz"
+   }
+  ],
   "D  MANNHEI02": [
    {
     "network": "aec",
@@ -300,11 +342,25 @@
     "listed_as": "Hochschule für Musik und Theater München"
    }
   ],
+  "D  MUNSTER01": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Musikhochschule Münster"
+   }
+  ],
   "D  NURNBER04": [
    {
     "network": "aec",
     "category": "Active member",
     "listed_as": "Hochschule für Musik Nürnberg"
+   }
+  ],
+  "D  OSNABRU02": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Institut für Musik der Hochschule Osnabrück"
    }
   ],
   "D  ROSTOCK02": [
@@ -517,6 +573,13 @@
     "listed_as": "Estonian Academy of Music and Theatre"
    }
   ],
+  "EE TARTU02": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "University of Tartu Viljandi Culture Academy"
+   }
+  ],
   "F  AIX-PRO29": [
    {
     "network": "aec",
@@ -559,11 +622,39 @@
     "listed_as": "Conservatoire National Supérieur de Musique et de Danse de Paris (CNSMDP)"
    }
   ],
+  "G  THESSAL02": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "University of Macedonia, Thessaloniki"
+   }
+  ],
+  "HR PULA01": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "MUZIČKA AKADEMIJA U PULI (Academy of Music in Pula, Juraj Dobrila University of Pula)"
+   }
+  ],
+  "HR ZAGREB01": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Muzička Akademija Sveučilišta u Zagrebu / University of Zagreb Academy of Music"
+   }
+  ],
   "HU BUDAPES25": [
    {
     "network": "aec",
     "category": "Active member",
     "listed_as": "Franz Liszt Academy of Music"
+   }
+  ],
+  "HU GYOR01": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Széchenyi István University, Faculty of Arts"
    }
   ],
   "I  ALESSAN01": [
@@ -930,11 +1021,32 @@
     "listed_as": "The Royal Irish Academy of Music"
    }
   ],
+  "IRLDUBLIN44": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "TU University Dublin (DIT Dublin Institute of Technology - Conservatory of Music and Drama)"
+   }
+  ],
+  "IRLMUNST01": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "MTU Cork School of Music"
+   }
+  ],
   "IS REYKJAV06": [
    {
     "network": "aec",
     "category": "Active member",
     "listed_as": "Iceland University of the Arts"
+   }
+  ],
+  "LT KAUNAS01": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Vytautas Magnus University Music Academy"
    }
   ],
   "LT VILNIUS05": [
@@ -944,11 +1056,60 @@
     "listed_as": "Lithuanian Academy of Music and Theatre"
    }
   ],
+  "LT VILNIUS10": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Vilniaus Kolegija University of Applied Sciences"
+   }
+  ],
+  "LUXLUX-VIL01": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "University of Luxembourg"
+   }
+  ],
   "LV RIGA05": [
    {
     "network": "aec",
     "category": "Active member",
     "listed_as": "Latvian Academy of Music"
+   }
+  ],
+  "ME PODGORI02": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Music Academy, University of Montenegro"
+   }
+  ],
+  "N  BERGEN01": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "The Grieg Academy, University of Bergen"
+   }
+  ],
+  "N  BERGEN12": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "NLA University College"
+   }
+  ],
+  "N  KONGSBE02": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "University of South-Eastern Norway"
+   }
+  ],
+  "N  KRISTIA01": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "University of Agder"
    }
   ],
   "N  OSLO03": [
@@ -965,6 +1126,13 @@
     "listed_as": "Oslo National Academy of the Arts, The Academy of Opera"
    }
   ],
+  "N  OSLO58": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Kristiania University College - School of Arts, Design and Media"
+   }
+  ],
   "N  OSLO66": [
    {
     "network": "aec",
@@ -972,11 +1140,53 @@
     "listed_as": "Barratt-Due Institute of Music"
    }
   ],
+  "N  STAVANG01": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "University of Stavanger, Faculty of Performing Arts"
+   }
+  ],
+  "N  TROMSO01": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "University of Tromsø"
+   }
+  ],
+  "N  TRONDHE01": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Norwegian University of Science and Technology"
+   }
+  ],
   "NL AMSTERD07": [
    {
     "network": "aec",
     "category": "Active member",
     "listed_as": "Conservatorium van Amsterdam"
+   }
+  ],
+  "NL EINDHOV03": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Fontys Academy of the Arts"
+   }
+  ],
+  "NL GRONING03": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Prince Claus Conservatoire"
+   }
+  ],
+  "NL HEERLEN14": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorium Maastricht"
    }
   ],
   "NL ROTTERD09": [
@@ -993,11 +1203,46 @@
     "listed_as": "Koninklijk Conservatorium Den Haag"
    }
   ],
+  "NL S-GRAVE37": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorium Haarlem Hogeschool Inholland"
+   }
+  ],
   "NL UTRECHT29": [
    {
     "network": "aec",
     "category": "Active member",
     "listed_as": "HKU University of the Arts Utrecht"
+   }
+  ],
+  "P  AVEIRO01": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "University of Aveiro"
+   }
+  ],
+  "P  LISBOA05": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Escola Superior de Música de Lisboa"
+   }
+  ],
+  "P  LISBOA12": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Universidade Lusíada Lisboa"
+   }
+  ],
+  "P  PORTO05": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Escola Superior de Música e Artes do Espetáculo do Porto"
    }
   ],
   "PL BYDGOSZ04": [
@@ -1070,6 +1315,55 @@
     "listed_as": "The National Academy of Music in Cluj-Napoca"
    }
   ],
+  "RS BELGRAD01": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Faculty of Music Belgrad (FMU)"
+   }
+  ],
+  "RS NOVISAD02": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "University of Novi Sad - Academy of Arts"
+   }
+  ],
+  "S  GOTEBOR01": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Academy of Music and Drama - University of Gothenborg"
+   }
+  ],
+  "S  KARLSTA01": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Ingesund School of Music, Karlstad University"
+   }
+  ],
+  "S  LULEA01": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Luleå University of Technology -School of Music in Pitea"
+   }
+  ],
+  "S  LUND01": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Malmö Academy of Music"
+   }
+  ],
+  "S  OREBRO01": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "School of Music, Örebro University"
+   }
+  ],
   "S  STOCKHO11": [
    {
     "network": "aec",
@@ -1091,6 +1385,13 @@
     "listed_as": "SKH – Stockholm University of the Arts"
    }
   ],
+  "SF HELSINK41": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Metropolia University of Applied Sciences"
+   }
+  ],
   "SF HELSINK42": [
    {
     "network": "aec",
@@ -1101,6 +1402,55 @@
     "network": "eua",
     "category": "Full member",
     "listed_as": "University of the Arts Helsinki Taideyliopisto"
+   }
+  ],
+  "SF JYVASKY11": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "JAMK University of Applied Sciences"
+   }
+  ],
+  "SF KOKKOLA05": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Centria University of Applied Sciences"
+   }
+  ],
+  "SF KUOPIO08": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Savonia University of Applied Sciences"
+   }
+  ],
+  "SF OULU11": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Oulu University of Applied Sciences"
+   }
+  ],
+  "SF TAMPERE06": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Tampere University of Applied Sciences (TAMK)"
+   }
+  ],
+  "SF TURKU05": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Arts Academy at Turku University of Applied Sciences"
+   }
+  ],
+  "SI LJUBLJA01": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "University of Ljubljana, Academy of Music"
    }
   ],
   "SK BRATISL05": [
@@ -1127,6 +1477,27 @@
     "network": "eua",
     "category": "Full member",
     "listed_as": "Mimar Sinan Fine Arts University Mimar Sinan Güzel Sanatlar Üniversitesi"
+   }
+  ],
+  "TR ISTANBU18": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Maltepe University Conservatory"
+   }
+  ],
+  "TR IZMIR01": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Dokuz Eylul University, State Conservatory"
+   }
+  ],
+  "TR IZMIR05": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Yasar University Department of Music"
    }
   ]
  }

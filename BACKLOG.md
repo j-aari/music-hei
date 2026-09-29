@@ -62,3 +62,23 @@ Map the International Association of Schools of Jazz next: jazz schools and depa
 
 ELIA (European League of Institutes of the Arts) stays `mapped: false`: its website blocks automated access (HTTP 403), so the member list cannot be retrieved reliably. Revisit if ELIA publishes a list that can be downloaded, or if checking by hand country by country is worth it.
 
+## Level 3: music units of general universities (in progress)
+
+A systematic gap, not single cases: where the ECHE is held by a parent university, the name search cannot find the music unit (Malmö, Göteborg, all of Serbia). Found through the AEC member list, which names many units under their own name, and checked against the ECHE list country by country.
+
+**Done (29 September 2026):** Sweden (Malmö/Lund, Göteborg, Ingesund/Karlstad, Piteå/Luleå, Örebro), Norway (Agder, NTNU, Bergen/Grieg Academy, Stavanger, Tromsø, USN Rauland, NLA, Kristiania), Serbia (Novi Sad, Niš, Kragujevac; the Faculty of Music in Belgrade is level 2 because its parent is the University of Arts). Denmark had no gap: Det Jyske Musikkonservatorium and Syddansk Musikkonservatorium hold an ECHE themselves and were already on the page at level 1. Uppsala University was not added: it offers musicology but has no music school (checked 29 September 2026).
+
+**How to apply:** next regions are the rest of the former Yugoslavia and then the countries in `TIER3_COUNTRIES` order of gap size; add each country to `TIER3_COUNTRIES` in `scripts/build_site.py` only once it has been gone through, because the scope text names them. For a unit: `tier: 3`, `institution_type: general_university_music_unit`, `unit_name`, `unit_city`, `unit_website`, and `display_name` for the parent's correct spelling; geocode the unit's city, not the parent's address. Mobility data is not shown for units (it covers the whole university), international-office contacts have not been collected for them yet, and EUA membership belongs to the parent and is not shown.
+
+### Found on the way: level 1 and 2 institutions missing from the page
+
+The AEC list also shows institutions that hold an ECHE under their own name but were missed by the name search, so they are level 1 or 2, not level 3. Examples: Joseph Haydn Privathochschule (A EISENST05), Robert Schumann Hochschule Düsseldorf (D DUSSELD06), Popakademie Baden-Württemberg (D MANNHEI09), ARTS² Mons (B MONS24), IMEP Namur (B NAMUR13), Orpheus Instituut (B GENT40), Siena Jazz (I SIENA05), the Pôles supérieurs in Paris–Boulogne-Billancourt (F PARIS365) and Aubervilliers–La Courneuve (F BOBIGNY05), Cefedem Normandie (F ROUEN44), George Enescu Iași (RO IASI01, arts university), ArtEZ (NL ENSCHED04, arts university). Go through the unmatched AEC members in `data/raw/networks/aec_members.json` and classify these in `annotations.json`; also check why the name search missed them.
+
+## Taxonomy version 2
+
+`data/disciplines.json` gained popular-music (pop/rock), music-production and music-therapy (colleague's feedback: popular music is one of the most common fields in Europe). World music and historical performance are aliases of global-music and early-music, not separate identifiers; there were no duplicate identifiers to merge. KMH's "Performance – Music Production" moved from music-technology to music-production in `programmes.json`.
+
+### AEC member list gone through (29 September 2026)
+
+All 311 AEC members were classified; 166 were already on the page. Of the other 145: 38 music units inside an ECHE holder were added at level 3 (Belgium 1, Bosnia and Herzegovina 2, Bulgaria 1, Croatia 2, Cyprus 1, Estonia 1, Finland 7, Germany 3, Greece 1, Hungary 1, Ireland 2, Lithuania 2, Luxembourg 1, Montenegro 1, Netherlands 4, Portugal 4, Slovenia 1, Turkey 3); 18 hold an ECHE themselves and are missing from the page (level 1 or 2, listed above plus Le Pont Supérieur F NANTES72, HEAR F STRASBO51, Centre des Musiques Didier Lockwood F MELUN07, CEFEDEM Auvergne-Rhône-Alpes F LYON128, Escuela Superior de Música Reina Sofía via Fundación Albéniz E SANTAND38, Katarina Gurska E MADRID252); 18 are not ECHE holders (non-degree conservatoires, festivals and centres, a national agency, a US college campus); 70 are outside the programme (United Kingdom and Switzerland until 2027, Ukraine, Moldova and countries outside Europe); 1 was a duplicate AEC entry (Hochschule für Musik Saar). Level 3 now has 54 units. The scope text says that outside Norway, Serbia and Sweden only AEC members are included.
+

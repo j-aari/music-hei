@@ -23,7 +23,10 @@ from common import (CONTACTS, GEO, NETWORKS, SITE, SITE_PUBLIC, STRATEGIES, UPST
 TIER_LABELS = {
     1: "Independent music institution",
     2: "Music unit of an arts university",
+    3: "Music unit of a general university",
 }
+# Taso 3: kaikki AEC:n jäsenluettelon yksiköt on käyty läpi; nämä maat lisäksi kokonaan (rajausteksti kertoo tämän)
+TIER3_COUNTRIES = ["Norway", "Serbia", "Sweden"]
 # Partneritiedot eivät ole virallista tietoa: lähde ja vastuulauseke näytetään sivulla
 PARTNER_SOURCE_NAME = "the exchange-destination list published by the University of the Arts Helsinki"
 PARTNER_SOURCE = f"Partner information is taken from {PARTNER_SOURCE_NAME}."
@@ -38,8 +41,10 @@ def scope_text(fetched, tiers):
     d = date.fromisoformat(fetched)
     return (
         "Included are holders of the Erasmus Charter for Higher Education (ECHE) where music is an independent "
-        "degree-awarding institution or the music unit of an arts university. Music departments of general "
-        "universities are not yet included. "
+        "degree-awarding institution or the music unit of an arts university. Music units of general universities "
+        "and universities of applied sciences, where the ECHE is held by the parent institution, are so far included "
+        "where they are members of the AEC (European Association of Conservatoires), and fully for "
+        f"{', '.join(TIER3_COUNTRIES[:-1])} and {TIER3_COUNTRIES[-1]}. "
         f"Data retrieved {d.day} {MONTHS[d.month - 1]} {d.year} from the European Commission's ECHE list. "
         "Institutions in the United Kingdom and Switzerland will be added once they have been awarded an ECHE "
         "(association with Erasmus+ from 1 January 2027)."
@@ -64,6 +69,12 @@ def build():
 
         name_src = v.get("organisationLegalName") or r["organisationLegalName"]
         name = a.get("display_name") or nice_case(name_src, cc)
+        # Musiikkiyksikkö ECHE-haltijan sisällä (taso 3, joskus 2): sivulla näytetään yksikkö, emo-organisaatio erikseen.
+        # Emon katuosoite ei ole yksikön osoite, joten se jätetään pois, jos yksikkö on eri kaupungissa.
+        unit = a.get("unit_name")
+        parent_name = name if unit else None
+        if unit:
+            name = unit
         webpage_raw = a.get("website_override") or v.get("webpage") or r["webpage"]
         webpage = normalize_url(webpage_raw)
         if webpage_raw and not webpage:
@@ -81,13 +92,15 @@ def build():
                 "oid": r["oid"],
                 "name": name,
                 "name_lang": v.get("organisationLegalNameLang") if v.get("organisationLegalName") else None,
-                "name_upstream": r["organisationLegalName"] if r["organisationLegalName"].casefold() != name.casefold() else None,  # vain jos muutakin kuin kirjainkoko eroaa
+                # Nimi komission listan muodossa (versaalit säilyvät); vain jos se eroaa näytettävästä nimestä, myös pelkän kirjainkoon osalta
+                "name_upstream": r["organisationLegalName"] if r["organisationLegalName"].strip() != name else None,
                 "country": r["countryName"],
                 "country_code": cc,
-                "city": nice_case(v.get("city") or r["city"], cc),
-                "street": nice_case((v.get("street") or r["street"] or "").strip(" ,"), cc) or None,
-                "postal_code": v.get("postalCode") or r["postalCode"],
-                "website": webpage,
+                "city": a.get("unit_city") or nice_case(v.get("city") or r["city"], cc),
+                "street": None if a.get("unit_city") else nice_case((v.get("street") or r["street"] or "").strip(" ,"), cc) or None,
+                "postal_code": None if a.get("unit_city") else v.get("postalCode") or r["postalCode"],
+                "website": normalize_url(a["unit_website"]) if a.get("unit_website") else webpage,
+                "parent_name": parent_name,
                 "tier": a["tier"],
                 "institution_type": a["institution_type"],
                 "languages_of_instruction": a.get("languages_of_instruction"),
@@ -111,7 +124,8 @@ def build():
             "generated": today(),
             "upstream_file": UPSTREAM.name,
             "upstream_source": meta_in.get("source"),
-            "counts": {"tier1": counts[1], "tier2": counts[2], "total": len(items)},
+            "counts": {"tier1": counts[1], "tier2": counts[2], "tier3": counts[3], "total": len(items)},
+            "tier3_countries": TIER3_COUNTRIES,
             "tier_labels": {str(k): v for k, v in TIER_LABELS.items()},
             "scope_text": scope_text(fetched, counts),
             "partner_source": PARTNER_SOURCE,
@@ -136,7 +150,7 @@ def build():
 def main():
     site, warnings = build()
     m = site["meta"]
-    print(f"site.json: {m['counts']['total']} laitosta (taso 1: {m['counts']['tier1']}, taso 2: {m['counts']['tier2']}), "
+    print(f"site.json: {m['counts']['total']} laitosta (taso 1: {m['counts']['tier1']}, taso 2: {m['counts']['tier2']}, taso 3: {m['counts']['tier3']}), "
           f"haettu {m['fetched']}  ->  {SITE}")
     no_web = [i["id"] for i in site["institutions"] if not i["website"]]
     print(f"Ilman verkko-osoitetta: {len(no_web)} {no_web if no_web else ''}")

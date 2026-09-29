@@ -11,13 +11,13 @@ This is an informal compilation of public data. It is not an official publicatio
 - **Scope: ECHE holders.** Only institutions on the European Commission's list of ECHE holders are considered. An ECHE is awarded to institutions that are recognised as higher education institutions by their national authorities, so this project does not assess an institution's status. The only question is whether it belongs to music.
 - **Level 1: independent music institution** (a conservatoire, a *Musikhochschule*, an academy of music).
 - **Level 2: music unit of an arts university** (for example a music department inside a university of the arts).
-- **Level 3 is not included yet:** music departments inside general universities. This is planned as a separate round.
+- **Level 3: music unit of a general university** (for example the Malmö Academy of Music, whose ECHE is held by Lund University). The ECHE holder is the parent university, so the name search cannot find these; they were found through the AEC member list, where many are members under their own name. **Every AEC member has been gone through; Sweden, Norway and Serbia have also been reviewed in full.** Music units of general universities that are not AEC members are therefore still missing outside those three countries. The page shows the unit's name and city, and the parent institution as "Part of"; the annotation carries `unit_name`, `unit_city` and `unit_website`, and the map position is the unit's city.
 - **The tier follows the parent organisation, not the country.** If the parent is an arts institution, the level is 2; if it is a multidisciplinary general university, the level is 3.
 - **United Kingdom and Switzerland.** Both associate to Erasmus+ on 1 January 2027 and will only appear once their institutions have been awarded an ECHE. The classification search already knows common UK and Swiss name forms (Royal College of Music, *Haute école de musique*, and so on), so new institutions are picked up in an update.
 
 The scope statement on the page is generated from the data and includes the date the list was retrieved.
 
-Currently: **186 institutions** (167 at level 1, 19 at level 2) in 24 countries.
+Currently: **241 institutions** (167 at level 1, 20 at level 2, 54 at level 3) in 32 countries.
 
 ## Where the data comes from
 

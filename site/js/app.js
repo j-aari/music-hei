@@ -195,6 +195,7 @@
       glyph(i),
       h('span', { class: 'nm', text: i.name }),
       h('span', { class: 'meta' },
+        i.parent_name ? h('span', { text: i.parent_name }) : null,
         showCountry ? h('span', { text: i.country }) : null,
         h('span', { text: i.city }),
         h('span', { text: tierLabels[i.tier] }),
@@ -225,14 +226,14 @@
   let colors;
   const palette = () => colors || (colors = Object.fromEntries(['--ink', '--paper', '--vermilion'].map((n) => [n, getComputedStyle(document.documentElement).getPropertyValue(n).trim()])));
 
-  // Shape = institution type (dot / ring), red = exchange partner. Selection is a separate halo so it never changes a marker's colour.
+  // Shape = institution type (dot / ring / small dot), red = exchange partner. Selection is a separate halo so it never changes a marker's colour.
   function markerStyle(i) {
     const { '--ink': ink, '--paper': paper, '--vermilion': verm } = palette();
     const partner = i.partner_of_siba === true;
     const accent = partner ? verm : ink;
     const ring = i.tier === 2;
     return {
-      radius: partner ? 7 : 5.5,
+      radius: partner ? 7 : i.tier === 3 ? 4 : 5.5,
       color: ring ? accent : paper,
       weight: ring ? 2.5 : 1.5,
       fillColor: ring ? paper : accent,
@@ -334,6 +335,10 @@
     const [y0, y1] = m.years;
     const section = h('div', { class: 'panel__section' }, h('h3', { class: 'panel__section-title', text: `Erasmus+ mobility, ${y0}–${y1}` }));
     const rec = mobility.institutions[i.erasmus_code];
+    if (i.parent_name && !rec) {
+      section.append(h('p', { class: 'strategy-empty', text: 'Not shown for units inside a larger institution: the Commission’s data is recorded for the whole institution, not for its music unit.' }));
+      return section;
+    }
     if (!rec) {
       section.append(h('p', { class: 'strategy-empty', text: 'This institution could not be identified in the European Commission’s mobility data.' }));
       return section;
@@ -402,6 +407,30 @@
     }
     return section;
   }
+  // Copy buttons for the two values that go into agreements: the institution's name and its Erasmus code
+  async function copyText(text) {
+    try { await navigator.clipboard.writeText(text); return true; } catch { /* fall back below */ }
+    const ta = h('textarea', { class: 'sr-only', 'aria-hidden': 'true' });
+    ta.value = text;
+    document.body.append(ta);
+    ta.select();
+    let ok = false;
+    try { ok = document.execCommand('copy'); } catch { ok = false; }
+    ta.remove();
+    return ok;
+  }
+  function copyButton(text, what) {
+    const status = h('span', { class: 'sr-only', role: 'status', 'aria-live': 'polite' });
+    const btn = h('button', { type: 'button', class: 'copy-btn', title: `Copy ${what}`, 'aria-label': `Copy ${what}` }, 'Copy');
+    btn.addEventListener('click', async () => {
+      const ok = await copyText(text);
+      btn.textContent = ok ? 'Copied' : 'Copy failed';
+      status.textContent = ok ? `${what} copied` : `Could not copy the ${what}`;
+      clearTimeout(btn._t);
+      btn._t = setTimeout(() => { btn.textContent = 'Copy'; status.textContent = ''; }, 1600);
+    });
+    return h('span', { class: 'copy-wrap' }, btn, status);
+  }
   function openPanel(id, trigger) {
     const i = byId.get(id);
     if (!i) return;
@@ -413,6 +442,7 @@
     const row = (dt, ...dd) => { dl.append(h('dt', { text: dt }), h('dd', {}, ...dd)); };
 
     row('Institution type', glyph(i), tierLabels[i.tier]);
+    if (i.parent_name) row('Part of', i.parent_name, copyButton(i.parent_name, 'name of the parent institution'), h('p', { class: 'small', text: 'The Erasmus Charter is held by this parent institution.' }));
     const addr = h('span');
     addressLines(i).forEach((l, k) => { if (k) addr.append(h('br')); addr.append(l); });
     row('Address', addr);
@@ -423,9 +453,10 @@
         let host = c.page;
         try { host = new URL(c.page).hostname.replace(/^www\./, ''); } catch { /* keep raw */ }
         row('International office', h('a', { href: c.page, target: '_blank', rel: 'noopener noreferrer' }, `Contact page (${host})`, h('span', { class: 'sr-only', text: ' (opens in a new tab)' })));
-      } else row('International office', h('span', { class: 'muted', text: 'No general address found on the website' }));
+      } else row('International office', h('span', { class: 'muted', text: i.parent_name ? 'Not collected yet for this unit' : 'No general address found on the website' }));
     }
-    row('Erasmus code', i.erasmus_code);
+    // Shown exactly as in the Commission's list, spaces included ("A  WIEN08"), because that is the form used in agreements
+    row('Erasmus code', h('span', { class: 'code', text: i.erasmus_code }), copyButton(i.erasmus_code, 'Erasmus code'));
     if (i.oid) row('OID', i.oid);
     if (i.website) {
       let host = i.website;
@@ -438,9 +469,12 @@
       row('Partner status', label);
       dl.lastChild.append(h('p', { class: 'small', text: `Source: ${meta.partner_source_name}.` }));
     }
-    if (i.name_upstream) row('Name in the ECHE list', i.name_upstream);
+    if (i.name_upstream) {
+      row('Name in the ECHE list', h('span', { class: 'eche-name', text: i.name_upstream }));
+      dl.lastChild.previousSibling.classList.add('dt-quiet');
+    }
 
-    const title = h('h2', { class: 'panel__title', id: 'panel-title', tabindex: '-1', text: i.name });
+    const title = h('div', { class: 'panel__title-row' }, h('h2', { class: 'panel__title', id: 'panel-title', tabindex: '-1', text: i.name }), copyButton(i.name, 'name'));
     const sub = h('p', { class: 'panel__sub', text: `${i.city}, ${i.country}` });
     body.append(title, sub, dl);
     if (i.public_note) body.append(h('p', { class: 'note', text: i.public_note }));
@@ -457,7 +491,7 @@
     for (const b of document.querySelectorAll('.entry')) b.setAttribute('aria-current', b.dataset.id === id ? 'true' : 'false');
     if (map && state.view === 'map') { highlightMarker(); const m = markerById.get(id); if (m && !map.getBounds().contains(m.getLatLng())) map.panTo(m.getLatLng(), { animate: !reduceMotion }); }
     writeHash();
-    title.focus({ preventScroll: true });
+    $('#panel-title').focus({ preventScroll: true });
   }
   function hidePanel() {
     state.id = null;
@@ -552,6 +586,7 @@
     lg.textContent = '';
     const item = (cls, text) => h('span', {}, h('span', { class: `glyph ${cls}` }), text);
     lg.append(item('glyph--t1', tierLabels[1]), item('glyph--t2', tierLabels[2]));
+    if (data.some((i) => i.tier === 3)) lg.append(item('glyph--t3', tierLabels[3]));
     if (hasPartnerData) lg.append(item('glyph--partner', 'Exchange partner (red)'));
   }
 
@@ -625,7 +660,7 @@
     byId = new Map(data.map((i) => [i.id, i]));
     // Search text also in its umlaut-transliterated form: the source data writes "Nuernberg", people type "Nurnberg"
     for (const i of data) {
-      const t = fold([i.name, i.name_upstream, i.city].filter(Boolean).join(' '));
+      const t = fold([i.name, i.name_upstream, i.parent_name, i.city].filter(Boolean).join(' '));
       i._hay = t + ' ' + t.replace(/ae|oe|ue/g, (m) => m[0]);
     }
     hasLanguageData = data.some((i) => i.languages_of_instruction && i.languages_of_instruction.length);
