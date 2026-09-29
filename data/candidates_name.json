@@ -116,7 +116,8 @@
   "webpage": "www.jammusiclab.com",
   "tier": "weak",
   "matched": [
-   "music/musik/musiq/musi-"
+   "music/musik/musiq/musi-",
+   "jazz"
   ]
  },
  {
@@ -344,7 +345,8 @@
   "webpage": "www.pesmd-bordeaux-aquitaine.com",
   "tier": "weak",
   "matched": [
-   "music/musik/musiq/musi-"
+   "music/musik/musiq/musi-",
+   "pole superieur (fr)"
   ]
  },
  {
@@ -363,6 +365,21 @@
   ]
  },
  {
+  "key": "F  BOBIGNY05",
+  "key_source": "normalized",
+  "erasmus_code_raw": "F  BOBIGNY05",
+  "name": "Pôle supérieur d'enseignement artistique Aubervilliers La Courneuve Seine-Saint-Denis Ile-de-France dit \"Pôle Sup'93\"",
+  "name_verified": null,
+  "city": "La Courneuve",
+  "country_code": "FR",
+  "country": "France",
+  "webpage": "polesup93.fr",
+  "tier": "weak",
+  "matched": [
+   "pole superieur (fr)"
+  ]
+ },
+ {
   "key": "F  LILLE71",
   "key_source": "normalized",
   "erasmus_code_raw": "F  LILLE71",
@@ -375,6 +392,36 @@
   "tier": "weak",
   "matched": [
    "music/musik/musiq/musi-"
+  ]
+ },
+ {
+  "key": "F  NANTES72",
+  "key_source": "normalized",
+  "erasmus_code_raw": "F  NANTES72",
+  "name": "pôle d'enseignement supérieur spectacle vivant Bretagne Pays de la Loire",
+  "name_verified": null,
+  "city": "NANTES",
+  "country_code": "FR",
+  "country": "France",
+  "webpage": "www.lepontsuperieur.eu",
+  "tier": "weak",
+  "matched": [
+   "pole superieur (fr)"
+  ]
+ },
+ {
+  "key": "F  PARIS365",
+  "key_source": "normalized",
+  "erasmus_code_raw": "F  PARIS365",
+  "name": "Pôle supérieur d'enseignement artistique Paris - Boulogne-Billancourt",
+  "name_verified": null,
+  "city": "Paris",
+  "country_code": "FR",
+  "country": "France",
+  "webpage": "www.pspbb.fr",
+  "tier": "weak",
+  "matched": [
+   "pole superieur (fr)"
   ]
  },
  {
@@ -720,6 +767,21 @@
   "tier": "weak",
   "matched": [
    "music/musik/musiq/musi-"
+  ]
+ },
+ {
+  "key": "D  MANNHEI09",
+  "key_source": "normalized",
+  "erasmus_code_raw": "D  MANNHEI09",
+  "name": "Popakademie Baden-Württemberg GmbH",
+  "name_verified": null,
+  "city": "Mannheim",
+  "country_code": "DE",
+  "country": "Germany",
+  "webpage": "www.popakademie.de",
+  "tier": "weak",
+  "matched": [
+   "pop academy / Popakademie"
   ]
  },
  {
@@ -1845,6 +1907,21 @@
   "tier": "weak",
   "matched": [
    "music/musik/musiq/musi-"
+  ]
+ },
+ {
+  "key": "I  SIENA05",
+  "key_source": "normalized",
+  "erasmus_code_raw": "I  SIENA05",
+  "name": "Siena Jazz - Accademia Nazionale del Jazz",
+  "name_verified": null,
+  "city": "Siena",
+  "country_code": "IT",
+  "country": "Italy",
+  "webpage": "www.sienajazz.it",
+  "tier": "weak",
+  "matched": [
+   "jazz"
   ]
  },
  {

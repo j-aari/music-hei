@@ -224,7 +224,7 @@
   // ---------- map ----------
   let map, markerLayer, markerById = new Map();
   let colors;
-  const palette = () => colors || (colors = Object.fromEntries(['--ink', '--paper', '--vermilion'].map((n) => [n, getComputedStyle(document.documentElement).getPropertyValue(n).trim()])));
+  const palette = () => colors || (colors = Object.fromEntries(['--ink', '--paper', '--vermilion', '--link'].map((n) => [n, getComputedStyle(document.documentElement).getPropertyValue(n).trim()])));
 
   // Shape = institution type (dot / ring / small dot), red = exchange partner. Selection is a separate halo so it never changes a marker's colour.
   function markerStyle(i) {
@@ -274,7 +274,7 @@
     if (halo) { halo.remove(); halo = null; }
     const m = markerById.get(state.id);
     if (!m || !map) return;
-    halo = L.circleMarker(m.getLatLng(), { radius: 13, color: palette()['--ink'], weight: 2, fill: false, interactive: false }).addTo(map);
+    halo = L.circleMarker(m.getLatLng(), { radius: 13, color: palette()['--link'], weight: 2.5, fill: false, interactive: false }).addTo(map);  // selection ring in link blue
     m.bringToFront();
   }
 
@@ -453,7 +453,10 @@
         let host = c.page;
         try { host = new URL(c.page).hostname.replace(/^www\./, ''); } catch { /* keep raw */ }
         row('International office', h('a', { href: c.page, target: '_blank', rel: 'noopener noreferrer' }, `Contact page (${host})`, h('span', { class: 'sr-only', text: ' (opens in a new tab)' })));
-      } else row('International office', h('span', { class: 'muted', text: i.parent_name ? 'Not collected yet for this unit' : 'No general address found on the website' }));
+      } else {
+        const searched = (contacts.meta.searched || []).includes(i.erasmus_code);
+        row('International office', h('span', { class: 'muted', text: searched ? 'No general address found on the website' : 'Not collected yet' }));
+      }
     }
     // Shown exactly as in the Commission's list, spaces included ("A  WIEN08"), because that is the form used in agreements
     row('Erasmus code', h('span', { class: 'code', text: i.erasmus_code }), copyButton(i.erasmus_code, 'Erasmus code'));

@@ -82,6 +82,12 @@ WEAK = {
     "listahaskoli (is)": r"listahaskol",
     "muzik (tr)": r"muzik",
     "mousik- (el)": r"mousik",
+    # Lisätty 2026-09-29 (AEC-listan läpikäynti): nimet, joissa ei ole musiikkisanaa mutta laji on nimessä
+    # (Popakademie Baden-Württemberg, Siena Jazz), ja Ranskan "pôles supérieurs" (musiikin ja tanssin
+    # korkeakoulut: PSPBB, Pôle Sup'93, Le Pont Supérieur "pôle d'enseignement supérieur spectacle vivant")
+    "jazz": r"\bjazz",
+    "pop academy / Popakademie": r"popakadem|pop academy|\bpopmusi",
+    "pole superieur (fr)": r"\bpole (superieur|d'enseignement superieur|sup)\b",
     "musikhojskole/-hogskole (dk/no/se)": r"musik(hojskol|hogskol|hoegskol)",
 }
 
@@ -121,9 +127,9 @@ MANUAL_EXCLUDE = {
     "E  BARCELO259": "Jam Session SL: yksityinen musiikkikoulu, ei virallista título superior -tutkintoa",
     "CY NICOSIA42": "Hellenic College of Music: yksityinen musiikkikoulu",
     "P  LISBOA118": "MUSICA Educação e Cultura: koulutusyhdistys, ei korkeakoulu",
-    "F  LYON128": "CEFEDEM Auvergne Rhône-Alpes: musiikinopettajien DE-tutkintokoulutus, ei musiikkialan korkeakoulututkintoa",
-    "F  ROUEN44": "CEFEDEM Normandie: musiikinopettajien DE-tutkintokoulutus, ei musiikkialan korkeakoulututkintoa",
-    "F  MELUN07": "Centre des Musiques Didier Lockwood: yksityinen jazzkeskus, ei tutkintoa myöntävä korkeakoulu",
+    "F  LYON128": "CEFEDEM Auvergne Rhône-Alpes: musiikinopettajien DE-tutkintokoulutus, ei musiikkialan korkeakoulututkintoa. On AEC:n jäsen (tarkistettu 2026-09-29); AEC-jäsenyys ei muuta perustetta",
+    "F  ROUEN44": "CEFEDEM Normandie: musiikinopettajien DE-tutkintokoulutus, ei musiikkialan korkeakoulututkintoa. On AEC:n jäsen (tarkistettu 2026-09-29); AEC-jäsenyys ei muuta perustetta",
+    "F  MELUN07": "Centre des Musiques Didier Lockwood: yksityinen jazzkeskus, ei tutkintoa myöntävä korkeakoulu. On AEC:n liitännäisjäsen (tarkistettu 2026-09-29); AEC-jäsenyys ei muuta perustetta",
 }
 
 

@@ -1,4 +1,17 @@
 {
+ "A  EISENST05": {
+  "erasmus_code_raw": "A  EISENST05",
+  "name_at_annotation": "Joseph Haydn Privathochschule GmbH",
+  "is_music_institution": true,
+  "tier": 1,
+  "institution_type": "independent_music_hei",
+  "display_name": "Joseph Haydn Privathochschule",
+  "classification_note": "Taso 1: itsenäinen musiikkikorkeakoulu (Eisenstadt); nimessä ei musiikkisanaa. AEC-jäsen; lisätty 2026-09-29 AEC-listan läpikäynnissä",
+  "classified_by": "manual",
+  "partner_of_siba": null,
+  "languages_of_instruction": null,
+  "notes": ""
+ },
  "A  FELDKIR03": {
   "erasmus_code_raw": "A  FELDKIR03",
   "name_at_annotation": "Stella Vorarlberg Privathochschule für Musik GmbH",
@@ -187,6 +200,20 @@
   "notes": "",
   "aec_listed_as": "Hogeschool Gent School of Arts"
  },
+ "B  GENT40": {
+  "erasmus_code_raw": "B  GENT40",
+  "name_at_annotation": "ORPHEUS INSTITUUT VZW",
+  "is_music_institution": true,
+  "tier": 1,
+  "institution_type": "independent_music_hei",
+  "display_name": "Orpheus Instituut",
+  "classification_note": "Taso 1: musiikin tutkimus- ja tohtorikoulutusinstituutti (Gent); nimessä ei musiikkisanaa. AEC-jäsen; lisätty 2026-09-29 AEC-listan läpikäynnissä",
+  "classified_by": "manual",
+  "partner_of_siba": null,
+  "languages_of_instruction": null,
+  "notes": "",
+  "public_note": "A research institute for music offering doctoral and postgraduate study."
+ },
  "B  LIEGE03": {
   "erasmus_code_raw": "B  LIEGE03",
   "name_at_annotation": "Conservatoire royal de Liège",
@@ -195,6 +222,32 @@
   "institution_type": "independent_music_hei",
   "classification_note": "Taso 1: itsenäinen musiikkikorkeakoulu (nimihaku, strict: conservatorio/-oire/-orium, konservatorium)",
   "classified_by": "name-search-strict",
+  "partner_of_siba": null,
+  "languages_of_instruction": null,
+  "notes": ""
+ },
+ "B  MONS24": {
+  "erasmus_code_raw": "B  MONS24",
+  "name_at_annotation": "ARTS2 Mons",
+  "is_music_institution": true,
+  "tier": 2,
+  "institution_type": "arts_university_music_unit",
+  "display_name": "ARTS² – École supérieure des Arts de Mons",
+  "classification_note": "Taso 2: monialainen taidekorkeakoulu (musiikki, kuvataide, teatteri); musiikkiyksikkö Conservatoire royal de Mons. AEC-jäsen; lisätty 2026-09-29 AEC-listan läpikäynnissä",
+  "classified_by": "manual",
+  "partner_of_siba": null,
+  "languages_of_instruction": null,
+  "notes": ""
+ },
+ "B  NAMUR13": {
+  "erasmus_code_raw": "B  NAMUR13",
+  "name_at_annotation": "IMEP",
+  "is_music_institution": true,
+  "tier": 1,
+  "institution_type": "independent_music_hei",
+  "display_name": "Institut Supérieur de Musique et de Pédagogie (IMEP)",
+  "classification_note": "Taso 1: itsenäinen musiikkikorkeakoulu (Namur); ECHE-listassa vain lyhenne IMEP. AEC-jäsen; lisätty 2026-09-29 AEC-listan läpikäynnissä",
+  "classified_by": "manual",
   "partner_of_siba": null,
   "languages_of_instruction": null,
   "notes": ""
@@ -376,6 +429,19 @@
   "languages_of_instruction": null,
   "notes": ""
  },
+ "D  DUSSELD06": {
+  "erasmus_code_raw": "D  DUSSELD06",
+  "name_at_annotation": "ROBERT SCHUMANN HOCHSCHULE DUSSELDORF",
+  "is_music_institution": true,
+  "tier": 1,
+  "institution_type": "independent_music_hei",
+  "display_name": "Robert Schumann Hochschule Düsseldorf",
+  "classification_note": "Taso 1: itsenäinen musiikkikorkeakoulu; nimessä vain säveltäjän nimi. AEC-jäsen; lisätty 2026-09-29 AEC-listan läpikäynnissä",
+  "classified_by": "manual",
+  "partner_of_siba": null,
+  "languages_of_instruction": null,
+  "notes": ""
+ },
  "D  ESSEN02": {
   "erasmus_code_raw": "D  ESSEN02",
   "name_at_annotation": "Folkwang Universität der Künste",
@@ -525,6 +591,19 @@
   "institution_type": "independent_music_hei",
   "classification_note": "Taso 1: itsenäinen musiikkikorkeakoulu (nimihaku, strict: hochschule fur musik)",
   "classified_by": "name-search-strict",
+  "partner_of_siba": null,
+  "languages_of_instruction": null,
+  "notes": ""
+ },
+ "D  MANNHEI09": {
+  "erasmus_code_raw": "D  MANNHEI09",
+  "name_at_annotation": "Popakademie Baden-Württemberg GmbH",
+  "is_music_institution": true,
+  "tier": 1,
+  "institution_type": "independent_music_hei",
+  "display_name": "Popakademie Baden-Württemberg",
+  "classification_note": "Taso 1: populaarimusiikin ja musiikkiliiketoiminnan korkeakoulu; löytyy nyt säännöllä Popakademie. AEC-jäsen; lisätty 2026-09-29 AEC-listan läpikäynnissä",
+  "classified_by": "manual",
   "partner_of_siba": null,
   "languages_of_instruction": null,
   "notes": ""
@@ -888,6 +967,19 @@
   "languages_of_instruction": null,
   "notes": ""
  },
+ "E  MADRID252": {
+  "erasmus_code_raw": "E  MADRID252",
+  "name_at_annotation": "Katarina Gurska S.L.",
+  "is_music_institution": true,
+  "tier": 1,
+  "institution_type": "independent_music_hei",
+  "display_name": "Centro Superior Katarina Gurska",
+  "classification_note": "Taso 1: yksityinen musiikkikorkeakoulu (Madrid); nimessä vain henkilönnimi. AEC-jäsen; lisätty 2026-09-29 AEC-listan läpikäynnissä",
+  "classified_by": "manual",
+  "partner_of_siba": null,
+  "languages_of_instruction": null,
+  "notes": ""
+ },
  "E  MADRID27": {
   "erasmus_code_raw": "E  MADRID27",
   "name_at_annotation": "Real Conservatorio Superior de Música de Madrid",
@@ -996,6 +1088,20 @@
   "languages_of_instruction": null,
   "notes": ""
  },
+ "E  SANTAND38": {
+  "erasmus_code_raw": "E  SANTAND38",
+  "name_at_annotation": "FUNDACION ALBENIZ",
+  "is_music_institution": true,
+  "tier": 1,
+  "institution_type": "independent_music_hei",
+  "display_name": "Escuela Superior de Música Reina Sofía",
+  "classification_note": "Taso 1: Fundación Albéniz ylläpitää Escuela Superior de Música Reina Sofíaa ja on ECHE-haltija; nimessä ei musiikkisanaa. AEC-jäsen; lisätty 2026-09-29 AEC-listan läpikäynnissä",
+  "classified_by": "manual",
+  "partner_of_siba": null,
+  "languages_of_instruction": null,
+  "notes": "",
+  "public_note": "The Erasmus Charter is held by the Fundación Albéniz, which runs the school."
+ },
  "E  SEVILLA04": {
   "erasmus_code_raw": "E  SEVILLA04",
   "name_at_annotation": "Conservatorio Superior de Música \"Manuel Castillo\" de Sevilla",
@@ -1084,6 +1190,19 @@
   "languages_of_instruction": null,
   "notes": ""
  },
+ "F  BOBIGNY05": {
+  "erasmus_code_raw": "F  BOBIGNY05",
+  "name_at_annotation": "Pôle supérieur d'enseignement artistique Aubervilliers La Courneuve Seine-Saint-Denis Ile-de-France dit \"Pôle Sup'93\"",
+  "is_music_institution": true,
+  "tier": 1,
+  "institution_type": "independent_music_hei",
+  "display_name": "Pôle Sup'93",
+  "classification_note": "Taso 1: musiikin ja tanssin pôle supérieur (Aubervilliers–La Courneuve); löytyy nyt säännöllä pole superieur. AEC-jäsen; lisätty 2026-09-29 AEC-listan läpikäynnissä",
+  "classified_by": "manual",
+  "partner_of_siba": null,
+  "languages_of_instruction": null,
+  "notes": ""
+ },
  "F  BORDEAU62": {
   "erasmus_code_raw": "F  BORDEAU62",
   "name_at_annotation": "Pôle d'Enseignement Supérieur de la Musique et de la Danse de Bordeaux Aquitaine",
@@ -1133,6 +1252,19 @@
   "notes": "Alkuperäinen nimi on virheellinen ECHE-listassa: \"CONSERVATOIRE NATIONAL SUPERIEUR DEMUSIQUE ET DE DANSE DE  LYON\".",
   "display_name": "Conservatoire National Supérieur de Musique et de Danse de Lyon"
  },
+ "F  NANTES72": {
+  "erasmus_code_raw": "F  NANTES72",
+  "name_at_annotation": "pôle d'enseignement supérieur spectacle vivant Bretagne Pays de la Loire",
+  "is_music_institution": true,
+  "tier": 1,
+  "institution_type": "independent_music_hei",
+  "display_name": "Le Pont Supérieur",
+  "classification_note": "Taso 1: esittävien taiteiden (musiikki, tanssi, teatteri) pôle d'enseignement supérieur Bretagne–Pays de la Loire; löytyy nyt säännöllä pole superieur. AEC-jäsen; lisätty 2026-09-29 AEC-listan läpikäynnissä",
+  "classified_by": "manual",
+  "partner_of_siba": null,
+  "languages_of_instruction": null,
+  "notes": ""
+ },
  "F  PARIS119": {
   "erasmus_code_raw": "F  PARIS119",
   "name_at_annotation": "CONSERVATOIRE NATIONAL SUPERIEUR DE MUSIQUE ET DE DANSE DE PARIS",
@@ -1145,6 +1277,32 @@
   "languages_of_instruction": null,
   "notes": "",
   "display_name": "Conservatoire National Supérieur de Musique et de Danse de Paris"
+ },
+ "F  PARIS365": {
+  "erasmus_code_raw": "F  PARIS365",
+  "name_at_annotation": "Pôle supérieur d'enseignement artistique Paris - Boulogne-Billancourt",
+  "is_music_institution": true,
+  "tier": 1,
+  "institution_type": "independent_music_hei",
+  "display_name": "Pôle supérieur d'enseignement artistique Paris Boulogne-Billancourt (PSPBB)",
+  "classification_note": "Taso 1: musiikin, tanssin ja teatterin pôle supérieur; löytyy nyt nimihaun säännöllä pole superieur. AEC-jäsen; lisätty 2026-09-29 AEC-listan läpikäynnissä",
+  "classified_by": "manual",
+  "partner_of_siba": null,
+  "languages_of_instruction": null,
+  "notes": ""
+ },
+ "F  STRASBO51": {
+  "erasmus_code_raw": "F  STRASBO51",
+  "name_at_annotation": "Haute école des arts du Rhin",
+  "is_music_institution": true,
+  "tier": 2,
+  "institution_type": "arts_university_music_unit",
+  "display_name": "Haute école des arts du Rhin (HEAR)",
+  "classification_note": "Taso 2: taidekorkeakoulu (kuvataide, muotoilu, musiikki); musiikkiyksikkö Académie supérieure de musique de Strasbourg; löytyy nyt taideyliopistohaulla. AEC-jäsen; lisätty 2026-09-29 AEC-listan läpikäynnissä",
+  "classified_by": "manual",
+  "partner_of_siba": null,
+  "languages_of_instruction": null,
+  "notes": ""
  },
  "G  THESSAL02": {
   "erasmus_code_raw": "G  THESSAL02",
@@ -1969,6 +2127,19 @@
   "languages_of_instruction": null,
   "notes": ""
  },
+ "I  SIENA05": {
+  "erasmus_code_raw": "I  SIENA05",
+  "name_at_annotation": "Siena Jazz - Accademia Nazionale del Jazz",
+  "is_music_institution": true,
+  "tier": 1,
+  "institution_type": "independent_music_hei",
+  "display_name": "Siena Jazz – Accademia Nazionale del Jazz",
+  "classification_note": "Taso 1: jazzin korkeakoulu (AFAM); löytyy nyt säännöllä jazz. AEC-jäsen; lisätty 2026-09-29 AEC-listan läpikäynnissä",
+  "classified_by": "manual",
+  "partner_of_siba": null,
+  "languages_of_instruction": null,
+  "notes": ""
+ },
  "I  TERAMO02": {
   "erasmus_code_raw": "I  TERAMO02",
   "name_at_annotation": "Istituto Statale Superiore di Studi Musicali e Coreutici \"G. Braga\"",
@@ -2455,6 +2626,19 @@
   "notes": "",
   "aec_listed_as": "Fontys Academy of the Arts"
  },
+ "NL ENSCHED04": {
+  "erasmus_code_raw": "NL ENSCHED04",
+  "name_at_annotation": "Stichting ArtEZ",
+  "is_music_institution": true,
+  "tier": 2,
+  "institution_type": "arts_university_music_unit",
+  "display_name": "ArtEZ University of the Arts",
+  "classification_note": "Taso 2: taidekorkeakoulu; musiikkiyksikkö ArtEZ Conservatorium (Arnhem, Enschede, Zwolle). AEC-jäsen; lisätty 2026-09-29 AEC-listan läpikäynnissä",
+  "classified_by": "manual",
+  "partner_of_siba": null,
+  "languages_of_instruction": null,
+  "notes": ""
+ },
  "NL GRONING03": {
   "erasmus_code_raw": "NL GRONING03",
   "name_at_annotation": "Stichting Hanzehogeschool Groningen",
@@ -2718,6 +2902,19 @@
   "tier": 1,
   "institution_type": "independent_music_hei",
   "classification_note": "Taso 1: itsenäinen musiikkikorkeakoulu (Gheorghe Dima Cluj); weak-osuma hyväksytty käsin",
+  "classified_by": "manual",
+  "partner_of_siba": null,
+  "languages_of_instruction": null,
+  "notes": ""
+ },
+ "RO IASI01": {
+  "erasmus_code_raw": "RO IASI01",
+  "name_at_annotation": "UNIVERSITATEA NATIONALA DE ARTE GEORGE ENESCU DIN IASI",
+  "is_music_institution": true,
+  "tier": 2,
+  "institution_type": "arts_university_music_unit",
+  "display_name": "Universitatea Națională de Arte „George Enescu” din Iași",
+  "classification_note": "Taso 2: taideyliopisto; musiikkiyksikkö Facultatea de Interpretare, Compoziție și Studii Muzicale Teoretice; löytyy nyt taideyliopistohaulla. AEC-jäsen; lisätty 2026-09-29 AEC-listan läpikäynnissä",
   "classified_by": "manual",
   "partner_of_siba": null,
   "languages_of_instruction": null,

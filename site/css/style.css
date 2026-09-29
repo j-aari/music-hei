@@ -23,7 +23,7 @@
   --mist: #C8D0DA;       /* Mist: hairlines (decoration only) */
   --fog: #E4E9F0;        /* Fog: hover, selection, panel */
   --vermilion: #C2331F;  /* Vermilion: exchange partner, nothing else */
-  --link: #1D4ED8;       /* Link Blue: external links only, never on the map or in controls */
+  --link: #1D4ED8;       /* Link Blue: external links, and the selection ring on the map; never on markers or in controls */
 
   --serif: "Newsreader", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
   --sans: "Public Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
@@ -60,7 +60,9 @@ a:hover { text-decoration-thickness: 2px; }
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 
 /* Masthead */
-.masthead { padding: clamp(2rem, 6vw, 4.5rem) var(--margin) 1.5rem; max-width: 72rem; }
+.masthead { padding: clamp(2rem, 6vw, 4.5rem) var(--margin) clamp(3.5rem, 7vw, 5.5rem); max-width: 72rem; }
+/* The scope statement is its own block: clearly more room below it than between the other parts of the masthead */
+.masthead + .layout { margin-top: 0; }
 .masthead h1 {
   font-family: var(--serif);
   font-weight: 500;

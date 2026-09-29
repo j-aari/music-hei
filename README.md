@@ -17,7 +17,7 @@ This is an informal compilation of public data. It is not an official publicatio
 
 The scope statement on the page is generated from the data and includes the date the list was retrieved.
 
-Currently: **241 institutions** (167 at level 1, 20 at level 2, 54 at level 3) in 32 countries.
+Currently: **256 institutions** (178 at level 1, 24 at level 2, 54 at level 3) in 32 countries. The scope statement on the page computes these numbers from `site.json`.
 
 ## Where the data comes from
 

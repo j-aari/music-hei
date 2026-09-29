@@ -36,15 +36,20 @@ MONTHS = ["January", "February", "March", "April", "May", "June", "July", "Augus
           "November", "December"]
 
 
-def scope_text(fetched, tiers):
-    """Aikasidonnainen rajausteksti (BRIEF.md): hakupäivä, mukana olevat tasot, Britannia ja Sveitsi."""
+def scope_text(fetched, items):
+    """Aikasidonnainen rajausteksti (BRIEF.md): määrät lasketaan sivun datasta (ei käsin), hakupäivä, tasot,
+    tason 3 kattavuus (AEC-jäsenet + TIER3_COUNTRIES kokonaan), Britannia ja Sveitsi."""
     d = date.fromisoformat(fetched)
+    counts = Counter(i["tier"] for i in items)
+    countries = len({i["country_code"] for i in items})
+    full = f"{', '.join(TIER3_COUNTRIES[:-1])} and {TIER3_COUNTRIES[-1]}"
     return (
-        "Included are holders of the Erasmus Charter for Higher Education (ECHE) where music is an independent "
-        "degree-awarding institution or the music unit of an arts university. Music units of general universities "
-        "and universities of applied sciences, where the ECHE is held by the parent institution, are so far included "
-        "where they are members of the AEC (European Association of Conservatoires), and fully for "
-        f"{', '.join(TIER3_COUNTRIES[:-1])} and {TIER3_COUNTRIES[-1]}. "
+        f"The list has {len(items)} institutions in {countries} countries. Included are holders of the Erasmus Charter "
+        "for Higher Education (ECHE) where music is an independent degree-awarding institution "
+        f"({counts[1]}) or the music unit of an arts university ({counts[2]}), and music units of general universities "
+        f"and universities of applied sciences whose parent holds the ECHE ({counts[3]}). "
+        "For these units the coverage is based on the member list of the AEC (European Association of Conservatoires); "
+        f"{full} have also been gone through in full, so elsewhere units that are not AEC members may still be missing. "
         f"Data retrieved {d.day} {MONTHS[d.month - 1]} {d.year} from the European Commission's ECHE list. "
         "Institutions in the United Kingdom and Switzerland will be added once they have been awarded an ECHE "
         "(association with Erasmus+ from 1 January 2027)."
@@ -127,7 +132,7 @@ def build():
             "counts": {"tier1": counts[1], "tier2": counts[2], "tier3": counts[3], "total": len(items)},
             "tier3_countries": TIER3_COUNTRIES,
             "tier_labels": {str(k): v for k, v in TIER_LABELS.items()},
-            "scope_text": scope_text(fetched, counts),
+            "scope_text": scope_text(fetched, items),
             "partner_source": PARTNER_SOURCE,
             "partner_source_name": PARTNER_SOURCE_NAME,
             "disclaimer": DISCLAIMER,

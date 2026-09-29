@@ -42,6 +42,13 @@
   }
  ],
  "memberships": {
+  "A  EISENST05": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Joseph Haydn Privathochschule"
+   }
+  ],
   "A  FELDKIR03": [
    {
     "network": "aec",
@@ -155,11 +162,32 @@
     "listed_as": "Hogeschool Gent School of Arts"
    }
   ],
+  "B  GENT40": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Orpheus Instituut"
+   }
+  ],
   "B  LIEGE03": [
    {
     "network": "aec",
     "category": "Active member",
     "listed_as": "Conservatoire royal de Liège"
+   }
+  ],
+  "B  MONS24": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "ARTS² / Conservatoire Royal de Musique de Mons"
+   }
+  ],
+  "B  NAMUR13": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Institut Supérieur de Musique et de Pédagogie (IMEP)"
    }
   ],
   "BA BANJA02": [
@@ -258,6 +286,13 @@
     "listed_as": "Hochschule für Musik \"C.M. Von Weber\""
    }
   ],
+  "D  DUSSELD06": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Robert-Schumann-Hochschule"
+   }
+  ],
   "D  ESSEN02": [
    {
     "network": "aec",
@@ -333,6 +368,13 @@
     "network": "aec",
     "category": "Active member",
     "listed_as": "Staatliche Hochschule für Musik und Darstellende Kunst-Mannheim"
+   }
+  ],
+  "D  MANNHEI09": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Popakademie Baden-Württemberg"
    }
   ],
   "D  MUNCHEN03": [
@@ -496,6 +538,13 @@
     "listed_as": "Centro Superior Música Creativa"
    }
   ],
+  "E  MADRID252": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Centro Superior KATARINA GURSKA"
+   }
+  ],
   "E  MADRID27": [
    {
     "network": "aec",
@@ -536,6 +585,13 @@
     "network": "aec",
     "category": "Active member",
     "listed_as": "Musikene - Higher School of Music of the Basque Country"
+   }
+  ],
+  "E  SANTAND38": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Escuela Superior de Música Reina Sofía"
    }
   ],
   "E  SEVILLA04": [
@@ -587,6 +643,13 @@
     "listed_as": "IESM - Institut d’Enseignement Supérieur de la Musique - Europe et Méditerranée"
    }
   ],
+  "F  BOBIGNY05": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Pôle Sup’93"
+   }
+  ],
   "F  BORDEAU62": [
    {
     "network": "aec",
@@ -615,11 +678,32 @@
     "listed_as": "Conservatoire National Supérieur Musique et Danse de Lyon (CNSMD)"
    }
   ],
+  "F  NANTES72": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Le Pont Superieur, Pôle d'enseignement supérieur spectacle vivant Bretagne Pays de la Loire"
+   }
+  ],
   "F  PARIS119": [
    {
     "network": "aec",
     "category": "Active member",
     "listed_as": "Conservatoire National Supérieur de Musique et de Danse de Paris (CNSMDP)"
+   }
+  ],
+  "F  PARIS365": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Pole Supérieur d'enseignement artistique Paris Boulogne-Billancourt"
+   }
+  ],
+  "F  STRASBO51": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Haute École des Arts du Rhin (HEAR)"
    }
   ],
   "G  THESSAL02": [
@@ -937,6 +1021,13 @@
     "listed_as": "Conservatorio di Musica Giuseppe Martucci"
    }
   ],
+  "I  SIENA05": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Siena Jazz - Accademia Nazionale del Jazz"
+   }
+  ],
   "I  TERAMO02": [
    {
     "network": "aec",
@@ -1175,6 +1266,13 @@
     "listed_as": "Fontys Academy of the Arts"
    }
   ],
+  "NL ENSCHED04": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "ArtEZ University of the Arts"
+   }
+  ],
   "NL GRONING03": [
    {
     "network": "aec",
@@ -1313,6 +1411,13 @@
     "network": "aec",
     "category": "Active member",
     "listed_as": "The National Academy of Music in Cluj-Napoca"
+   }
+  ],
+  "RO IASI01": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Universitatea Nationala de Arte \"George Enescu\" Iasi"
    }
   ],
   "RS BELGRAD01": [

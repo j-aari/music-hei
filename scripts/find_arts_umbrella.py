@@ -31,7 +31,8 @@ UMBRELLA = re.compile(
             r"akademia sztuk|akademija umjetnosti|akademia sztuki",
             r"kunstiakadeemia|makslas akademija|dailes akademija",
             r"universidad de las artes|universita delle arti|universidade das artes",
-            r"universitatea de arte|universitatea de arta",
+            r"universitatea (nationala )?de arte|universitatea de arta",
+            r"haute ecole des arts|ecole superieure d.art",
             r"guzel sanatlar|fine arts university|sanat universitesi",
             r"academie des beaux|accademia di belle arti|academia de bellas artes",
         ]
