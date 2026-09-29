@@ -1,0 +1,780 @@
+{
+ "meta": {
+  "checked": "2026-09-29",
+  "institutions_covered": 159,
+  "institutions_searched": 186,
+  "rule": "General addresses of international offices only (for example international@...), never the names or personal addresses of individual staff. Where no general address is published, a link to the office contact page."
+ },
+ "contacts": {
+  "A  FELDKIR03": {
+   "email": "international@stella-musikhochschule.ac.at",
+   "source": "https://stella-musikhochschule.ac.at/service/international-office",
+   "checked": "2026-09-29"
+  },
+  "A  GRAZ03": {
+   "email": "international_office@kug.ac.at",
+   "source": "https://international.kug.ac.at/internationalisierung/internationalisierung/statistiken",
+   "checked": "2026-09-29"
+  },
+  "A  KLAGENF06": {
+   "email": "international@gmpu.ac.at",
+   "source": "https://www.gmpu.ac.at/studium/erasmus",
+   "checked": "2026-09-29"
+  },
+  "A  LINZ17": {
+   "page": "https://www.bruckneruni.ac.at/en/about/network-infrastructure/international-relations",
+   "checked": "2026-09-29"
+  },
+  "A  SALZBUR02": {
+   "email": "international@moz.ac.at",
+   "source": "https://www.moz.ac.at/en/study/international-affairs-erasmus",
+   "checked": "2026-09-29"
+  },
+  "A  WIEN08": {
+   "email": "internationaloffice@mdw.ac.at",
+   "source": "https://www.mdw.ac.at/internationaloffice/contact/en/",
+   "checked": "2026-09-29"
+  },
+  "A  WIEN52": {
+   "page": "https://muk.ac.at/studienangebot/internationale-studienprogramme/erasmus.html",
+   "checked": "2026-09-29"
+  },
+  "A  WIEN74": {
+   "page": "https://www.vmi.at/en/international-office",
+   "checked": "2026-09-29"
+  },
+  "A  WIEN76": {
+   "email": "international@jammusiclab.com",
+   "source": "https://www.jammusiclab.com/international/overview",
+   "checked": "2026-09-29"
+  },
+  "A  WIEN77": {
+   "email": "international@gulda-school-of-music.com",
+   "source": "https://gulda-school-of-music.com/international/overview",
+   "checked": "2026-09-29"
+  },
+  "B  ANTWERP62": {
+   "email": "international@ap.be",
+   "source": "https://www.ap.be/internationaal/international-office",
+   "checked": "2026-09-29"
+  },
+  "B  BRUSSEL43": {
+   "email": "international@luca-arts.be",
+   "source": "https://www.luca-arts.be/en/applying-exchange-student",
+   "checked": "2026-09-29"
+  },
+  "B  BRUSSEL46": {
+   "email": "international.office@ehb.be",
+   "source": "https://www.erasmushogeschool.be/nl/contact",
+   "checked": "2026-09-29"
+  },
+  "B  BRUXEL07": {
+   "email": "erasmus@conservatoire.be",
+   "source": "https://www.conservatoire.be/erasmus-4",
+   "checked": "2026-09-29"
+  },
+  "B  LIEGE03": {
+   "email": "relations.internationales@crlg.be",
+   "source": "https://www.crlg.be/relations-internationales/",
+   "checked": "2026-09-29"
+  },
+  "BG PLOVDIV07": {
+   "email": "irc@artacademyplovdiv.com",
+   "source": "https://www.artacademyplovdiv.com/amtii/ic/erasmus.html",
+   "checked": "2026-09-29"
+  },
+  "CZ BRNO03": {
+   "page": "https://www.jamu.cz/international/kontakty/",
+   "checked": "2026-09-29"
+  },
+  "CZ PRAHA04": {
+   "page": "https://www.amu.cz/en/amu-international/contacts-international-department/",
+   "checked": "2026-09-29"
+  },
+  "D  BERLIN03": {
+   "email": "international@udk-berlin.de",
+   "source": "https://www.udk-berlin.de/en/service/international-office/contact/international-office/",
+   "checked": "2026-09-29"
+  },
+  "D  BERLIN16": {
+   "email": "international@adm.hfm-berlin.de",
+   "source": "https://www.hfm-berlin.de/studium/im-studium/ins-ausland/",
+   "checked": "2026-09-29"
+  },
+  "D  BREMEN03": {
+   "email": "international-office@hfk-bremen.de",
+   "source": "https://www.hfk-bremen.de/en/about-the-university/international",
+   "checked": "2026-09-29"
+  },
+  "D  DETMOLD01": {
+   "page": "https://www.hfm-detmold.de/en/study/student-service/international-office/",
+   "checked": "2026-09-29"
+  },
+  "D  DRESDEN05": {
+   "email": "ausland@hfmdd.de",
+   "source": "https://www.hfmdd.de/studieren/international-office",
+   "checked": "2026-09-29"
+  },
+  "D  ESSEN02": {
+   "email": "international-office@folkwang-uni.de",
+   "source": "https://www.folkwang-uni.de/home/hochschule/studium/austausch-auslandsaufenthalt/promos",
+   "checked": "2026-09-29"
+  },
+  "D  FRANKFU02": {
+   "email": "international@orga.hfmdk-frankfurt.de",
+   "source": "https://www.hfmdk-frankfurt.de/thema/international-office",
+   "checked": "2026-09-29"
+  },
+  "D  FREIBUR03": {
+   "email": "international@mh-freiburg.de",
+   "source": "https://www.mh-freiburg.de/en/study/international/international-office",
+   "checked": "2026-09-29"
+  },
+  "D  HALLE04": {
+   "email": "international@ehk-halle.de",
+   "source": "https://ehk-halle.de/hochschule/international-office",
+   "checked": "2026-09-29"
+  },
+  "D  HAMBURG05": {
+   "email": "international@hfmt-hamburg.de",
+   "source": "https://www.hfmt-hamburg.de/hochschule/ueber-uns/internationalisierung",
+   "checked": "2026-09-29"
+  },
+  "D  HANNOVE04": {
+   "email": "internationaloffice@hmtm-hannover.de",
+   "source": "https://www.hmtm-hannover.de/en/international/",
+   "checked": "2026-09-29"
+  },
+  "D  KARLSRU03": {
+   "page": "https://hfm-karlsruhe.de/en/studying/international-studies",
+   "checked": "2026-09-29"
+  },
+  "D  KOLN03": {
+   "email": "international-office@hfmt-koeln.de",
+   "source": "https://www.hfmt-koeln.de/informationen-fuer/studierende/international-office/",
+   "checked": "2026-09-29"
+  },
+  "D  LEIPZIG05": {
+   "page": "https://www.hmt-leipzig.de/en/university/internationales",
+   "checked": "2026-09-29"
+  },
+  "D  MANNHEI02": {
+   "email": "international@muho-mannheim.de",
+   "source": "https://www.muho-mannheim.de/service/international-office/degree-seeking-students/",
+   "checked": "2026-09-29"
+  },
+  "D  MUNCHEN03": {
+   "email": "international@hmtm.de",
+   "source": "https://hmtm.de/internationales/",
+   "checked": "2026-09-29"
+  },
+  "D  NURNBER04": {
+   "email": "international-office@hfm-nuernberg.de",
+   "source": "https://www.hfm-nuernberg.de/studium/internationales-stipendien",
+   "checked": "2026-09-29"
+  },
+  "D  REGENSB03": {
+   "email": "erasmus@hfkm-regensburg.de",
+   "source": "https://www.hfkm-regensburg.de/hochschule/erasmus-plus/",
+   "checked": "2026-09-29"
+  },
+  "D  ROSTOCK02": {
+   "page": "https://www.hmt-rostock.de/internationales/erasmus/",
+   "checked": "2026-09-29"
+  },
+  "D  TROSSIN01": {
+   "email": "international@mh-trossingen.de",
+   "source": "https://www.hfm-trossingen.de/infothek/internationales",
+   "checked": "2026-09-29"
+  },
+  "D  WEIMAR02": {
+   "email": "international@hfm-weimar.de",
+   "source": "https://www.hfm-weimar.de/hochschule/internationales/international-office",
+   "checked": "2026-09-29"
+  },
+  "D  WURZBUR02": {
+   "email": "international.office@hfm-wuerzburg.de",
+   "source": "https://hfm-wuerzburg.de/international/internationale-angelegenheiten",
+   "checked": "2026-09-29"
+  },
+  "DK ARHUS05": {
+   "email": "international@musikkons.dk",
+   "source": "https://musikkons.dk/en/programmes/exchange/",
+   "checked": "2026-09-29"
+  },
+  "DK KOBENHA09": {
+   "email": "international@dkdm.dk",
+   "source": "https://www.dkdm.dk/da/internationalt",
+   "checked": "2026-09-29"
+  },
+  "DK KOBENHA39": {
+   "page": "https://rmc.dk/en/exchange-students",
+   "checked": "2026-09-29"
+  },
+  "DK ODENSE22": {
+   "page": "https://www.sdmk.dk/en/about-sdmk/international",
+   "checked": "2026-09-29"
+  },
+  "E  ALBACET19": {
+   "email": "erasmus@csmclm.com",
+   "source": "https://csmclm.com/erasmus/",
+   "checked": "2026-09-29"
+  },
+  "E  ALICANT11": {
+   "email": "03010739.internacional@iseacv.gva.es",
+   "source": "https://www.csmalicante.com/csma-conoce-contacto-esp/",
+   "checked": "2026-09-29"
+  },
+  "E  BARCELO137": {
+   "email": "erasmus@tallerdemusics.com",
+   "source": "https://tallerdemusics.com/erasmus/",
+   "checked": "2026-09-29"
+  },
+  "E  BARCELO29": {
+   "email": "erasmus@esmuc.cat",
+   "source": "https://www.esmuc.cat/estudis/mobilitat-internacional/vull-fer-un-erasmus-a-lesmuc/",
+   "checked": "2026-09-29"
+  },
+  "E  BARCELO30": {
+   "email": "internacional@conservatori-liceu.es",
+   "source": "https://www.conservatoriliceu.es/superior/informacio/mobilitat-erasmus/out/",
+   "checked": "2026-09-29"
+  },
+  "E  CASTELL13": {
+   "email": "erasmus@conservatorisuperiorcastello.com",
+   "source": "https://www.conservatorisuperiorcastello.com/international/",
+   "checked": "2026-09-29"
+  },
+  "E  CORDOBA04": {
+   "page": "https://csmcordoba.com/erasmus/",
+   "checked": "2026-09-29"
+  },
+  "E  GRANADA04": {
+   "email": "international@conservatoriosuperiorgranada.com",
+   "source": "https://conservatoriosuperiorgranada.com/contacto/",
+   "checked": "2026-09-29"
+  },
+  "E  JAEN07": {
+   "email": "internacional@csmjaen.es",
+   "source": "https://www.csmjaen.es/es/equipo-oficina-de-relaciones-internacionales",
+   "checked": "2026-09-29"
+  },
+  "E  LAS-PAL18": {
+   "page": "http://www.internationalcsmc.es/",
+   "checked": "2026-09-29"
+  },
+  "E  MADRID222": {
+   "email": "international@musicacreativa.com",
+   "source": "https://musicacreativa.com/higher-education-institution/international/",
+   "checked": "2026-09-29"
+  },
+  "E  MADRID27": {
+   "email": "erasmus@rcsmm.eu",
+   "source": "https://rcsmm.eu/erasmus",
+   "checked": "2026-09-29"
+  },
+  "E  MALAGA02": {
+   "email": "internacional@conservatoriosuperiormalaga.com",
+   "source": "https://conservatoriosuperiormalaga.com/pages/relaciones-internacionales",
+   "checked": "2026-09-29"
+  },
+  "E  MURCIA02": {
+   "email": "erasmus@csmmurcia.com",
+   "source": "https://csmmurcia.com/contactos/",
+   "checked": "2026-09-29"
+  },
+  "E  PALMA25": {
+   "email": "erasmus@esadib.com",
+   "source": "https://esadib.com/erasmus/",
+   "checked": "2026-09-29"
+  },
+  "E  PALMA27": {
+   "email": "erasmus@conservatorisuperior.com",
+   "source": "https://conservatorisuperior.com/erasmus/",
+   "checked": "2026-09-29"
+  },
+  "E  PAMPLON17": {
+   "email": "csmerasm@educacion.navarra.es",
+   "source": "https://csmn.es/erasmus/",
+   "checked": "2026-09-29"
+  },
+  "E  SALAMAN03": {
+   "email": "erasmus@coscyl.com",
+   "source": "https://coscyl.com/estudios/erasmus/",
+   "checked": "2026-09-29"
+  },
+  "E  SAN-SEB01": {
+   "email": "erasmus@musikene.eus",
+   "source": "https://musikene.eus/programa-erasmus/",
+   "checked": "2026-09-29"
+  },
+  "E  SEVILLA04": {
+   "page": "https://blogsaverroes.juntadeandalucia.es/erasmuscsmmanuelcastillo/",
+   "checked": "2026-09-29"
+  },
+  "E  VALENCI67": {
+   "email": "erasmus@csmvalencia.es",
+   "source": "https://www.csmvalencia.es/internacional/",
+   "checked": "2026-09-29"
+  },
+  "E  ZARAGOZ05": {
+   "email": "internationalrelations@csmaragon.es",
+   "source": "https://csma.es/relaciones-internacionales/",
+   "checked": "2026-09-29"
+  },
+  "EE TALLINN03": {
+   "page": "https://eamt.ee/en/international/international-cooperation/",
+   "checked": "2026-09-29"
+  },
+  "F  AIX-PRO29": {
+   "email": "erasmus@iesm.fr",
+   "source": "https://iesm.fr/international/",
+   "checked": "2026-09-29"
+  },
+  "F  LILLE71": {
+   "email": "international@esmd.fr",
+   "source": "https://www.esmd.fr/international/l-esmd-a-l-international/?lang=fr",
+   "checked": "2026-09-29"
+  },
+  "F  LYON24": {
+   "email": "international@cnsmd-lyon.fr",
+   "source": "https://cnsmd-lyon.fr/en/cnsmd-lyon-and-the-world/",
+   "checked": "2026-09-29"
+  },
+  "F  PARIS119": {
+   "email": "international@cnsmdp.fr",
+   "source": "https://www.conservatoiredeparis.fr/en/academics/study/international",
+   "checked": "2026-09-29"
+  },
+  "HU BUDAPES25": {
+   "email": "international.office@lisztacademy.hu",
+   "source": "https://uni.lisztacademy.hu/contact-us",
+   "checked": "2026-09-29"
+  },
+  "I  ADRIA01": {
+   "email": "ufficio.erasmus@conservatorioadria.it",
+   "source": "https://conservatorioadria.it/erasmus-it/",
+   "checked": "2026-09-29"
+  },
+  "I  AGRIGEN02": {
+   "email": "erasmus@istitutotoscanini.it",
+   "source": "https://www.conservatoriotoscanini.it/ufficio-relazioni-internazionali-tutor-erasmus/",
+   "checked": "2026-09-29"
+  },
+  "I  ALESSAN01": {
+   "email": "erasmus@conservatoriovivaldi.it",
+   "source": "https://www.conservatoriovivaldi.it/erasmus/",
+   "checked": "2026-09-29"
+  },
+  "I  AOSTA03": {
+   "email": "erasmus@consaosta.it",
+   "source": "https://www.consaosta.it/erasmus/students-incoming/",
+   "checked": "2026-09-29"
+  },
+  "I  AVELLIN01": {
+   "email": "international@conservatoriocimarosa.org",
+   "source": "https://int.conservatoriocimarosa.org/internazionale/",
+   "checked": "2026-09-29"
+  },
+  "I  BARI03": {
+   "email": "erasmus@consba.it",
+   "source": "https://www.consba.it/it/6620/erasmus",
+   "checked": "2026-09-29"
+  },
+  "I  BOLOGNA04": {
+   "email": "erasmus@consbo.it",
+   "source": "https://consbo.it/",
+   "checked": "2026-09-29"
+  },
+  "I  BOLZANO02": {
+   "email": "international.relations@cons.bz.it",
+   "source": "https://cons.bz.it/en/international-relations/erasmus-2021-2027/erasmus-outgoing-students/",
+   "checked": "2026-09-29"
+  },
+  "I  BRESCIA06": {
+   "email": "international@consbs.it",
+   "source": "https://www.consbs.it/ufficio-erasmus/",
+   "checked": "2026-09-29"
+  },
+  "I  CAGLIAR02": {
+   "email": "international@conservatoriocagliari.it",
+   "source": "https://www.conservatoriocagliari.it/relazioni-internazionali/erasmus/modulistica.html",
+   "checked": "2026-09-29"
+  },
+  "I  CASTELF01": {
+   "email": "erasmus@steffani.it",
+   "source": "https://conscfv.it/conservatorio/erasmus/",
+   "checked": "2026-09-29"
+  },
+  "I  CATANIA06": {
+   "email": "erasmus@conservatoriocatania.it",
+   "source": "https://www.conservatoriocatania.it/?page_id=13220",
+   "checked": "2026-09-29"
+  },
+  "I  CATANZA04": {
+   "email": "europa@conscz.it",
+   "source": "https://www.conscz.it?pagina=Articolo&Id=559",
+   "checked": "2026-09-29"
+  },
+  "I  CESENA03": {
+   "email": "segreteriaerasmus@madernalettimi.it",
+   "source": "https://www.madernalettimi.it/erasmus/contatti-erasmus",
+   "checked": "2026-09-29"
+  },
+  "I  COMO04": {
+   "email": "international@conservatoriocomo.it",
+   "source": "https://conservatoriocomo.it/erasmus-plus/",
+   "checked": "2026-09-29"
+  },
+  "I  COSENZA03": {
+   "page": "https://www.conservatoriocosenza.it/international/erasmus/",
+   "checked": "2026-09-29"
+  },
+  "I  CREMONA01": {
+   "email": "international@istitutomonteverdi.it",
+   "source": "https://www.conscremona.it/international/",
+   "checked": "2026-09-29"
+  },
+  "I  CUNEO01": {
+   "email": "relazioni.internazionali@conservatoriocuneo.it",
+   "source": "https://www.conservatoriocuneo.it/contatti-erasmus/",
+   "checked": "2026-09-29"
+  },
+  "I  FERMO01": {
+   "email": "erasmus@conservatorio.net",
+   "source": "https://conservatorio.net/erasmus/",
+   "checked": "2026-09-29"
+  },
+  "I  FERRARA02": {
+   "email": "erasmus@conservatorioferrara.it",
+   "source": "https://www.conservatorioferrara.it/index.php/comunicazioni-test/84-erasmus",
+   "checked": "2026-09-29"
+  },
+  "I  FIRENZE04": {
+   "email": "international@consfi.it",
+   "source": "https://www.consfi.it/internazionalizzazione/",
+   "checked": "2026-09-29"
+  },
+  "I  FIRENZE07": {
+   "email": "erasmus@scuolamusica.fiesole.fi.it",
+   "source": "https://www.scuolamusicafiesole.it/erasmus/",
+   "checked": "2026-09-29"
+  },
+  "I  FOGGIA02": {
+   "email": "relazioninternazionali@conservatoriofoggia.it",
+   "source": "https://www.conservatoriofoggia.it/relazioni-internazionali/",
+   "checked": "2026-09-29"
+  },
+  "I  FROSINO02": {
+   "email": "international@conservatorio-frosinone.it",
+   "source": "https://www.conservatorio-frosinone.it/international/erasmus/istituzioni-partner.html",
+   "checked": "2026-09-29"
+  },
+  "I  GENOVA02": {
+   "email": "erasmus@conspaganini.it",
+   "source": "https://www.conspaganini.it/avvisi/mobilita-per-studio-e-per-tirocinio-2026-2027/",
+   "checked": "2026-09-29"
+  },
+  "I  L-AQUIL04": {
+   "email": "erasmus@consaq.it",
+   "source": "https://www.consaq.it/international.html",
+   "checked": "2026-09-29"
+  },
+  "I  LATINA02": {
+   "email": "erasmusplus@conslatina.it",
+   "source": "https://www.conslatina.it/cms.php?cat=11&sub=88&id=82",
+   "checked": "2026-09-29"
+  },
+  "I  LECCE03": {
+   "email": "erasmus@conservatoriolecce.it",
+   "source": "https://www.conservatoriolecce.it/international-student/",
+   "checked": "2026-09-29"
+  },
+  "I  LIVORNO01": {
+   "page": "https://www.consli.it/programma-erasmus/erasmus/",
+   "checked": "2026-09-29"
+  },
+  "I  MANTOVA01": {
+   "email": "erasmus@conservatoriomantova.com",
+   "source": "https://www.conservatoriomantova.com/it//erasmus_info",
+   "checked": "2026-09-29"
+  },
+  "I  MATERA01": {
+   "email": "erasmus@conservatoriomatera.it",
+   "source": "https://www.conservatoriomatera.it/servizio/erasmus/",
+   "checked": "2026-09-29"
+  },
+  "I  MESSINA04": {
+   "email": "erasmus@consme.it",
+   "source": "https://www.consme.it/index.php?option=com_content&view=article&id=183&Itemid=233",
+   "checked": "2026-09-29"
+  },
+  "I  MILANO09": {
+   "email": "erasmus@consmilano.it",
+   "source": "https://www.consmi.it/international-cooperation/",
+   "checked": "2026-09-29"
+  },
+  "I  MODENA05": {
+   "email": "international@vecchitonelli.com",
+   "source": "https://www.vecchitonelli.it/international-relations/home-international-relations/incoming-students/",
+   "checked": "2026-09-29"
+  },
+  "I  MONOPOL02": {
+   "email": "erasmusrota@gmail.com",
+   "source": "https://conservatoriodimonopoli.org/erasmus/",
+   "checked": "2026-09-29"
+  },
+  "I  NAPOLI07": {
+   "email": "erasmus@sanpietroamajella.it",
+   "source": "https://www.sanpietroamajella.it/ufficio-erasmus/",
+   "checked": "2026-09-29"
+  },
+  "I  NOVARA01": {
+   "email": "erasmus@consno.it",
+   "source": "https://erasmus.consno.it/contacts/",
+   "checked": "2026-09-29"
+  },
+  "I  PADOVA02": {
+   "email": "international@conservatoriopollini.it",
+   "source": "https://www.conservatoriopollini.it/site/it/didattica-altri-corsi-dettaglio/id-1559-corso-linee+guida.html",
+   "checked": "2026-09-29"
+  },
+  "I  PALERMO04": {
+   "email": "erasmus@conservatoriopalermo.it",
+   "source": "https://conservatoriopalermo.it/erasmus/",
+   "checked": "2026-09-29"
+  },
+  "I  PARMA02": {
+   "email": "erasmus@conservatorio.pr.it",
+   "source": "https://www.conservatorio.pr.it/mobility-consortia/",
+   "checked": "2026-09-29"
+  },
+  "I  PAVIA02": {
+   "email": "mobilita.erasmus@conspv.it",
+   "source": "https://conspv.it/erasmus-plus/",
+   "checked": "2026-09-29"
+  },
+  "I  PERUGIA03": {
+   "email": "erasmus@conservatorioperugia.it",
+   "source": "https://www.conservatorioperugia.it/erasmus/out/",
+   "checked": "2026-09-29"
+  },
+  "I  PESARO01": {
+   "page": "https://www.conservatoriorossini.it/international/",
+   "checked": "2026-09-29"
+  },
+  "I  PESCARA01": {
+   "email": "relazioni.internazionali@conservatoriopescara.it",
+   "source": "https://www.conservatoriope.it/international/",
+   "checked": "2026-09-29"
+  },
+  "I  PIACENZ01": {
+   "page": "https://www.conservatorionicolini.it/international/erasmus",
+   "checked": "2026-09-29"
+  },
+  "I  POTENZA03": {
+   "email": "erasmus@conservatoriopotenza.it",
+   "source": "http://erasmus.conservatoriopotenza.it/it/content/contatti",
+   "checked": "2026-09-29"
+  },
+  "I  ROMA09": {
+   "email": "erasmus.students@conservatoriosantacecilia.it",
+   "source": "https://conservatoriosantacecilia.it/erasmus/",
+   "checked": "2026-09-29"
+  },
+  "I  ROVIGO01": {
+   "email": "erasmus@conservatoriorovigo.it",
+   "source": "https://conservatoriorovigo.it/international/incomings/",
+   "checked": "2026-09-29"
+  },
+  "I  SALERNO02": {
+   "email": "international@consalerno.it",
+   "source": "https://www.consalerno.it/ufficio-relazioni-internazionali",
+   "checked": "2026-09-29"
+  },
+  "I  SIENA04": {
+   "email": "international@conservatoriosiena.it",
+   "source": "https://conservatoriosiena.it/international/contacts/",
+   "checked": "2026-09-29"
+  },
+  "I  TERAMO02": {
+   "email": "erasmus@conservatoriobraga.it",
+   "source": "https://www.conservatoriobraga.it/contents.asp?id=540&pagina=ERASMUS%2B+Incoming+Students",
+   "checked": "2026-09-29"
+  },
+  "I  TERNI01": {
+   "email": "international@briccialditerni.it",
+   "source": "https://www.briccialditerni.it/ita/55/erasmus/",
+   "checked": "2026-09-29"
+  },
+  "I  TORINO05": {
+   "email": "international@conservatoriotorino.eu",
+   "source": "https://www.conservatoriotorino.eu/studiare-qui/il-conservatorio/relazioni-internazionali/",
+   "checked": "2026-09-29"
+  },
+  "I  TRAPANI02": {
+   "email": "erasmus@constp.it",
+   "source": "https://www.constp.it/international/",
+   "checked": "2026-09-29"
+  },
+  "I  TRENTO02": {
+   "email": "erasmus@conservatorio.tn.it",
+   "source": "https://conservatorio.tn.it/contatti-erasmus/",
+   "checked": "2026-09-29"
+  },
+  "I  TRIESTE02": {
+   "email": "international.office@conts.it",
+   "source": "https://conts.it/it/internazionale/erasmus-ka131/incoming-students/",
+   "checked": "2026-09-29"
+  },
+  "I  VARESE05": {
+   "email": "erasmus@issmpuccinigallarate.it",
+   "source": "https://issmpuccinigallarate.it/mobilita-studenti/",
+   "checked": "2026-09-29"
+  },
+  "I  VENEZIA04": {
+   "email": "international@conservatoriovenezia.eu",
+   "source": "https://www.conservatoriovenezia.eu/erasmus/",
+   "checked": "2026-09-29"
+  },
+  "I  VICENZA03": {
+   "email": "international@consvi.it",
+   "source": "https://www.consvi.it/studenti/site/it/erasmus/",
+   "checked": "2026-09-29"
+  },
+  "IRLDUBLIN22": {
+   "page": "https://www.riam.ie/student-life/international-erasmus-students",
+   "checked": "2026-09-29"
+  },
+  "IS REYKJAV06": {
+   "email": "exchange@lhi.is",
+   "source": "https://www.lhi.is/althjodasamstarf/incoming-exchange/information-for-exchange-students/",
+   "checked": "2026-09-29"
+  },
+  "LT VILNIUS05": {
+   "page": "https://lmta.lt/en/english-international-relations/english-erasmus/english-erasmus-student-mobility/english-erasmus-traineeship/",
+   "checked": "2026-09-29"
+  },
+  "LV RIGA05": {
+   "page": "https://www.jvlma.lv/en/international/erasmus",
+   "checked": "2026-09-29"
+  },
+  "N  OSLO03": {
+   "email": "international@nmh.no",
+   "source": "https://nmh.no/en/apply/exchange-programmes",
+   "checked": "2026-09-29"
+  },
+  "N  OSLO07": {
+   "email": "international@khio.no",
+   "source": "https://khio.no/en/research/international-relations",
+   "checked": "2026-09-29"
+  },
+  "N  OSLO66": {
+   "email": "international@bdm.no",
+   "source": "https://barrattdue.no/en/international-collaboration/international-mobility/",
+   "checked": "2026-09-29"
+  },
+  "NL AMSTERD07": {
+   "page": "https://www.conservatoriumvanamsterdam.nl/en/study/studying-at-the-cva/exchange/",
+   "checked": "2026-09-29"
+  },
+  "NL ROTTERD09": {
+   "email": "international@codarts.nl",
+   "source": "https://www.codarts.nl/praktische-zaken/internationaal/internationale-studenten/",
+   "checked": "2026-09-29"
+  },
+  "NL S-GRAVE05": {
+   "email": "international@hdkdenhaag.nl",
+   "source": "https://www.hogeschoolderkunsten.nl/internationalisering/fondsen-holland-scholarship-vsbfonds",
+   "checked": "2026-09-29"
+  },
+  "NL UTRECHT29": {
+   "email": "international.office@hku.nl",
+   "source": "https://www.hku.nl/en/study-at-hku/explore-and-apply/exchange",
+   "checked": "2026-09-29"
+  },
+  "PL BYDGOSZ04": {
+   "email": "erasmus@amfn.pl",
+   "source": "http://www.amuz.bydgoszcz.pl/programy-miedzynarodowe/",
+   "checked": "2026-09-29"
+  },
+  "PL GDANSK04": {
+   "email": "international@amuz.gda.pl",
+   "source": "https://amuz.gda.pl/akademia/kontakt/biuro-wspolpracy-miedzynarodowej-erasmus,93",
+   "checked": "2026-09-29"
+  },
+  "PL KATOWIC04": {
+   "email": "erasmus@am.katowice.pl",
+   "source": "https://am.katowice.pl/studia/informacje/erasmus-135",
+   "checked": "2026-09-29"
+  },
+  "PL KRAKOW09": {
+   "email": "international@amuz.krakow.pl",
+   "source": "https://www.amuz.krakow.pl/erasmus/short-mobility/bip/",
+   "checked": "2026-09-29"
+  },
+  "PL LODZ04": {
+   "email": "international@amuz.lodz.pl",
+   "source": "https://amuz.lodz.pl/index.php/en/erasmus/international-relations-office",
+   "checked": "2026-09-29"
+  },
+  "PL POZNAN06": {
+   "page": "https://amuz.edu.pl/en/erasmus-en-translation-soon/",
+   "checked": "2026-09-29"
+  },
+  "PL WARSZAW09": {
+   "email": "erasmus@chopin.edu.pl",
+   "source": "https://chopin.edu.pl/erasmus",
+   "checked": "2026-09-29"
+  },
+  "PL WROCLAW06": {
+   "email": "erasmus@amkl.edu.pl",
+   "source": "https://amuz.wroc.pl/en/contact",
+   "checked": "2026-09-29"
+  },
+  "RO BUCURES03": {
+   "email": "international@unmb.ro",
+   "source": "https://www.unmb.ro/relatii-internationale/",
+   "checked": "2026-09-29"
+  },
+  "RO CLUJNAP02": {
+   "email": "erasmusplus@amgd.ro",
+   "source": "https://anmgd.ro/relatii-internationale/programe-internationale/documente-si-formulare/",
+   "checked": "2026-09-29"
+  },
+  "S  STOCKHO11": {
+   "email": "international@kmh.se",
+   "source": "https://www.kmh.se/om-kmh/kontakta-oss.html",
+   "checked": "2026-09-29"
+  },
+  "S  STOCKHO15": {
+   "email": "iro@smi.se",
+   "source": "https://www.smi.se/om-smi/internationalisering.html",
+   "checked": "2026-09-29"
+  },
+  "S  STOCKHO27": {
+   "email": "exchanges@uniarts.se",
+   "source": "https://www.skh.se/om-skh/internationalisering/utbyten/",
+   "checked": "2026-09-29"
+  },
+  "SF HELSINK42": {
+   "email": "siba.international@uniarts.fi",
+   "source": "https://www.uniarts.fi/en/guides/how-to-apply-for-exchange-studies-at-the-sibelius-academy/",
+   "checked": "2026-09-29"
+  },
+  "SK BRATISL05": {
+   "email": "ic@vsmu.sk",
+   "source": "https://www.vsmu.sk/medzinarodna-spolupraca/studentske-mobility/studijne-pobyty-pre-studentov-a-doktorandov/",
+   "checked": "2026-09-29"
+  },
+  "TR ANKARA26": {
+   "email": "erasmus@mgu.edu.tr",
+   "source": "https://www.mgu.edu.tr/erasmus-degisim-programi/",
+   "checked": "2026-09-29"
+  },
+  "TR ISTANBU06": {
+   "page": "https://msgsu.edu.tr/international/iletisim-contact/",
+   "checked": "2026-09-29"
+  }
+ }
+}

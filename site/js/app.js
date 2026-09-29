@@ -33,9 +33,11 @@
   let strategiesByCode = new Map();  // erasmus_code -> document[]
   let strategiesMeta = null;         // { institutions_covered, ... } or null if the file couldn't be loaded
   let mobility = null;               // data/mobility.json, or null if the file couldn't be loaded
-  const state = { view: 'list', sort: 'country', q: '', country: new Set(), type: new Set(), language: new Set(), partner: new Set(), strategy: new Set(), id: null };
+  let contacts = null;               // data/contacts.json, or null if the file couldn't be loaded
+  let networks = null;               // data/networks.json, or null if the file couldn't be loaded
+  const state = { view: 'list', sort: 'country', q: '', country: new Set(), type: new Set(), language: new Set(), partner: new Set(), strategy: new Set(), network: new Set(), id: null };
   let langNames;
-  let hasPartnerData = false, hasLanguageData = false, hasStrategyData = false;
+  let hasPartnerData = false, hasLanguageData = false, hasStrategyData = false, hasNetworkData = false;
   let lastTrigger = null;
 
   const partnerKey = (i) => (i.partner_of_siba === true ? 'yes' : i.partner_of_siba === false ? 'no' : 'unknown');
@@ -50,6 +52,15 @@
       values: (i) => [partnerKey(i)],
       text: (v) => ({ yes: 'Partner', no: 'Not a partner', unknown: 'Not recorded' })[v],
     },
+    network: {
+      label: 'Networks',
+      // AEC membership is known for every institution (its whole list has been checked), so "not a member" is a real value
+      values: (i) => {
+        const ids = new Set(((networks && networks.memberships[i.erasmus_code]) || []).map((r) => r.network));
+        return [ids.has('aec') ? 'aec' : 'not-aec', ...(ids.has('eua') ? ['eua'] : [])];
+      },
+      text: (v) => ({ aec: 'AEC member', 'not-aec': 'Not an AEC member', eua: 'EUA member' })[v],
+    },
     strategy: {
       label: 'Strategy documents',
       // No value at all for institutions not yet checked, so they can never match once this filter is active
@@ -58,7 +69,7 @@
     },
   };
   // Country last: it is the longest list, so the short groups stay in view without scrolling the sidebar
-  const GROUP_ORDER = ['type', 'strategy', 'language', 'partner', 'country'];
+  const GROUP_ORDER = ['type', 'strategy', 'network', 'language', 'partner', 'country'];
   let strategyStatusByCode = new Map();
   const strategyStatusOf = (code) => strategyStatusByCode.get(code) || null;
 
@@ -118,9 +129,10 @@
     if (g === 'language') return arr.sort((a, b) => langName(a).localeCompare(langName(b), 'en'));
     if (g === 'partner') return ['yes', 'no', 'unknown'].filter((v) => set.has(v));
     if (g === 'strategy') return STRATEGY_STATUS_ORDER; // fixed set, shown in full even when a status has zero institutions
+    if (g === 'network') return ['aec', 'not-aec', 'eua'].filter((v) => set.has(v));
     return arr.sort();
   }
-  const groupVisible = (g) => (g === 'language' ? hasLanguageData : g === 'partner' ? hasPartnerData : g === 'strategy' ? hasStrategyData : true);
+  const groupVisible = (g) => (g === 'language' ? hasLanguageData : g === 'partner' ? hasPartnerData : g === 'strategy' ? hasStrategyData : g === 'network' ? hasNetworkData : true);
 
   function buildFilters() {
     const host = $('#filter-groups');
@@ -360,6 +372,36 @@
         rows))));
     return section;
   }
+  // Networks: discipline networks first, then umbrella organisations. Only mapped networks can show a membership,
+  // so the coverage line names the networks that have not been mapped yet.
+  const NETWORK_GROUPS = [['discipline', 'Discipline networks'], ['umbrella', 'Umbrella organisations']];
+  function renderNetworksSection(i) {
+    const section = h('div', { class: 'panel__section' }, h('h3', { class: 'panel__section-title', text: 'Networks' }));
+    const netById = new Map(networks.networks.map((n) => [n.id, n]));
+    const names = (list) => list.map((n) => n.name.split(' – ')[0]).join(', ');
+    const mapped = networks.networks.filter((n) => n.mapped);
+    const notYet = networks.networks.filter((n) => !n.mapped);
+    section.append(h('p', { class: 'panel__coverage', text: `Membership lists checked: ${names(mapped)}.` + (notYet.length ? ` Not yet checked: ${names(notYet)}.` : '') }));
+    const recs = (networks.memberships[i.erasmus_code] || []).filter((r) => netById.has(r.network));
+    if (!recs.length) {
+      section.append(h('p', { class: 'strategy-empty', text: 'No network memberships recorded' }));
+      return section;
+    }
+    for (const [type, label] of NETWORK_GROUPS) {
+      const inGroup = recs.filter((r) => netById.get(r.network).type === type);
+      if (!inGroup.length) continue;
+      const ul = h('ul', { class: 'network-list' });
+      for (const r of inGroup) {
+        const n = netById.get(r.network);
+        ul.append(h('li', {},
+          h('p', { class: 'network-name' }, h('a', { href: n.url, target: '_blank', rel: 'noopener noreferrer' }, n.name, h('span', { class: 'sr-only', text: ' (opens in a new tab)' })),
+            r.category && r.category !== 'Active member' && r.category !== 'Full member' ? h('span', { class: 'network-cat', text: r.category }) : null),
+          h('p', { class: 'network-desc', text: n.description })));
+      }
+      section.append(h('h4', { class: 'network-group', text: label }), ul);
+    }
+    return section;
+  }
   function openPanel(id, trigger) {
     const i = byId.get(id);
     if (!i) return;
@@ -374,6 +416,15 @@
     const addr = h('span');
     addressLines(i).forEach((l, k) => { if (k) addr.append(h('br')); addr.append(l); });
     row('Address', addr);
+    if (contacts) {
+      const c = contacts.contacts[i.erasmus_code];
+      if (c && c.email) row('International office', h('a', { href: `mailto:${c.email}` }, c.email));
+      else if (c && c.page) {
+        let host = c.page;
+        try { host = new URL(c.page).hostname.replace(/^www\./, ''); } catch { /* keep raw */ }
+        row('International office', h('a', { href: c.page, target: '_blank', rel: 'noopener noreferrer' }, `Contact page (${host})`, h('span', { class: 'sr-only', text: ' (opens in a new tab)' })));
+      } else row('International office', h('span', { class: 'muted', text: 'No general address found on the website' }));
+    }
     row('Erasmus code', i.erasmus_code);
     if (i.oid) row('OID', i.oid);
     if (i.website) {
@@ -396,6 +447,7 @@
     if (i.geo_precision === 'city') body.append(h('p', { class: 'small', text: 'Map position is approximate (city centre).' }));
     body.append(renderStrategySection(i));
     if (mobility) body.append(renderMobilitySection(i));
+    if (networks) body.append(renderNetworksSection(i));
     if (state.view === 'list' && i.lat != null && matches(i)) {
       body.append(h('p', { class: 'actions' }, h('button', { type: 'button', class: 'btn', onclick: () => { setView('map'); focusMarker(i); }, text: 'Show on map' })));
     }
@@ -591,6 +643,9 @@
     }
 
     mobility = await fetchJson('data/mobility.json');  // optional: the panel works without it
+    contacts = await fetchJson('data/contacts.json');  // optional
+    networks = await fetchJson('data/networks.json');  // optional
+    hasNetworkData = !!(networks && networks.networks.some((n) => n.id === 'aec' && n.mapped));
 
     $('#scope').textContent = meta.scope_text;
     renderFooter();

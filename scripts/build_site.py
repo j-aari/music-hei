@@ -16,7 +16,7 @@ import sys
 from collections import Counter
 from datetime import date
 
-from common import (GEO, SITE, SITE_PUBLIC, STRATEGIES, UPSTREAM, UPSTREAM_META, load_annotations, load_upstream, nice_case, normalize_url,
+from common import (CONTACTS, GEO, NETWORKS, SITE, SITE_PUBLIC, STRATEGIES, UPSTREAM, UPSTREAM_META, load_annotations, load_upstream, nice_case, normalize_url,
                     publish, today)
 
 # Sivun tekstit ovat englanniksi; laitosten nimet säilyvät alkuperäiskielellä.
@@ -126,6 +126,10 @@ def build():
         SITE_PUBLIC.write_text(SITE.read_text(encoding="utf-8"), encoding="utf-8")
     if STRATEGIES.exists():  # käsin ylläpidetty tiedosto; vain kopioidaan mukaan, ei generoida
         publish(STRATEGIES)
+    if CONTACTS.exists():  # käsin tarkistettu, kuten strategiat
+        publish(CONTACTS)
+    if NETWORKS.exists():  # käsin tarkistettu, kuten strategiat
+        publish(NETWORKS)
     return site, warnings
 
 

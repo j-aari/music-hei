@@ -1,0 +1,1133 @@
+{
+ "meta": {
+  "checked": "2026-09-29",
+  "note": "AEC members matched by name and city, EUA members by website address; checked by hand."
+ },
+ "networks": [
+  {
+   "id": "aec",
+   "name": "AEC – European Association of Conservatoires",
+   "type": "discipline",
+   "url": "https://aec-music.eu/",
+   "description": "European association of higher music education institutions: conservatoires, academies and universities of music.",
+   "mapped": true,
+   "source": "https://aec-music.eu/members/our-members/",
+   "checked": "2026-09-29"
+  },
+  {
+   "id": "iasj",
+   "name": "IASJ – International Association of Schools of Jazz",
+   "type": "discipline",
+   "url": "https://www.iasj.com/",
+   "description": "Worldwide network of schools and departments that teach jazz at higher education level.",
+   "mapped": false
+  },
+  {
+   "id": "eua",
+   "name": "EUA – European University Association",
+   "type": "umbrella",
+   "url": "https://www.eua.eu/",
+   "description": "Association of European universities and national rectors’ conferences, covering all fields of higher education.",
+   "mapped": true,
+   "source": "https://www.eua.eu/our-membership/member-directory.html",
+   "checked": "2026-09-29"
+  },
+  {
+   "id": "elia",
+   "name": "ELIA – European League of Institutes of the Arts",
+   "type": "umbrella",
+   "url": "https://elia-artschools.org/",
+   "description": "Network of higher arts education institutions across all art forms.",
+   "mapped": false
+  }
+ ],
+ "memberships": {
+  "A  FELDKIR03": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Stella Vorarlberg Privathochschule für Musik"
+   }
+  ],
+  "A  GRAZ03": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "University of Music and Performing Arts Graz"
+   },
+   {
+    "network": "eua",
+    "category": "Full member",
+    "listed_as": "University of Music and Performing Arts Graz Kunstuniversität Graz"
+   }
+  ],
+  "A  KLAGENF06": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Gustav Mahler Privatuniversität für Musik"
+   }
+  ],
+  "A  LINZ17": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Anton Bruckner University"
+   }
+  ],
+  "A  SALZBUR02": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Universität Mozarteum Salzburg"
+   },
+   {
+    "network": "eua",
+    "category": "Full member",
+    "listed_as": "Mozarteum University Salzburg Universität Mozarteum Salzburg"
+   }
+  ],
+  "A  WIEN08": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "mdw - University of Music and Performing Arts Vienna"
+   },
+   {
+    "network": "eua",
+    "category": "Full member",
+    "listed_as": "mdw - University of Music and Performing Arts Vienna Universität für Musik und darstellende Kunst Wien"
+   }
+  ],
+  "A  WIEN52": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Music and Arts University of the City of Vienna"
+   }
+  ],
+  "A  WIEN74": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "VMI-Vienna Music Institute - Conservatory of Contemporary Music"
+   }
+  ],
+  "A  WIEN76": [
+   {
+    "network": "aec",
+    "category": "Associate member",
+    "listed_as": "JAM MUSIC LAB PRIVATE UNIVERSITY FOR JAZZ AND POPULAR MUSIC VIENNA"
+   }
+  ],
+  "B  ANTWERP62": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "AP University of Applied Science and Arts"
+   }
+  ],
+  "B  BRUSSEL43": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "LUCA School of Arts - Campus Lemmens, Leuven"
+   }
+  ],
+  "B  BRUSSEL46": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Erasmus Brussels University of Applied Sciences and Arts"
+   }
+  ],
+  "B  BRUXEL07": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatoire royal de Bruxelles (CRB)"
+   }
+  ],
+  "B  LIEGE03": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatoire royal de Liège"
+   }
+  ],
+  "BG PLOVDIV07": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Academy of Music, Dance and Fine Arts \"Prof. Asen Diamandiev\""
+   }
+  ],
+  "BG SOFIA13": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "National Academy of Music \"Prof. Pancho Vladigerov\""
+   }
+  ],
+  "CZ BRNO03": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Janacek Academy of Performing Arts"
+   }
+  ],
+  "CZ PRAHA04": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Akademie múzických umění v Praze (Academy of Performing Arts in Prague)"
+   },
+   {
+    "network": "eua",
+    "category": "Full member",
+    "listed_as": "REPUBLIC Academy of Performing Arts in Prague Akademie múzických umění v Praze ( AMU)"
+   }
+  ],
+  "D  BERLIN03": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Universität der Künste Berlin"
+   }
+  ],
+  "D  BERLIN16": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Hochschule für Musik Hanns Eisler Berlin"
+   }
+  ],
+  "D  BREMEN03": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Hochschule für Künste Bremen"
+   }
+  ],
+  "D  DETMOLD01": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Hochschule für Musik Detmold"
+   }
+  ],
+  "D  DRESDEN05": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Hochschule für Musik \"C.M. Von Weber\""
+   }
+  ],
+  "D  ESSEN02": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Folkwang, Universitat der Kunste"
+   }
+  ],
+  "D  FRANKFU02": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Hochschule für Musik u. Darstellende Kunst Frankfurt am Main"
+   }
+  ],
+  "D  FREIBUR03": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Hochschule für Musik Freiburg im Breisgau"
+   }
+  ],
+  "D  HAMBURG05": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Hochschule für Musik und Theater Hamburg"
+   }
+  ],
+  "D  HANNOVE04": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Hochschule für Musik, Theater und Medien Hannover"
+   }
+  ],
+  "D  KARLSRU03": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Hochschule für Musik - University of Music Karlsruhe"
+   }
+  ],
+  "D  KOLN03": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Hochschule für Musik und Tanz Köln"
+   }
+  ],
+  "D  LEIPZIG05": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Hochschule für Musik und Theater \"Felix Mendelssohn Bartholdy\" Leipzig"
+   }
+  ],
+  "D  LUBECK02": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Musikhochschule Lübeck"
+   }
+  ],
+  "D  MANNHEI02": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Staatliche Hochschule für Musik und Darstellende Kunst-Mannheim"
+   }
+  ],
+  "D  MUNCHEN03": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Hochschule für Musik und Theater München"
+   }
+  ],
+  "D  NURNBER04": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Hochschule für Musik Nürnberg"
+   }
+  ],
+  "D  ROSTOCK02": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Rostock University of Music and Drama"
+   }
+  ],
+  "D  SAARBRU08": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Hochschule für Musik Saar"
+   }
+  ],
+  "D  STUTTGA03": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Staatliche Hochschule für Musik und Darstellende Kunst- Stuttgart"
+   }
+  ],
+  "D  TROSSIN01": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Staatliche Hochschule für Musik Trossingen"
+   }
+  ],
+  "D  WEIMAR02": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Hochschule für Musik Franz Liszt Weimar"
+   }
+  ],
+  "D  WURZBUR02": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Hochschule für Musik Würzburg"
+   }
+  ],
+  "DK ARHUS05": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Royal Academy of Music, Aarhus/Aalborg /Det Jyske Musikskonservatorium"
+   }
+  ],
+  "DK KOBENHA09": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "The Royal Danish Academy of Music"
+   }
+  ],
+  "DK KOBENHA39": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Rhythmic Music Conservatory (RMC)"
+   }
+  ],
+  "DK ODENSE22": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Syddansk Musikkonservatorium (SDMK) - Danish National Academy of Music"
+   }
+  ],
+  "E  ALICANT11": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio Superior de Música Óscar Esplá de Alicante"
+   }
+  ],
+  "E  BADAJOZ39": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio Superior de Música \"Bonifacio Gil\", Badajoz."
+   }
+  ],
+  "E  BARCELO137": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Taller de Músics Escola Superior d'Estudis Musicals"
+   }
+  ],
+  "E  BARCELO29": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Escola Superior de Musica de Catalunya (ESMUC)"
+   }
+  ],
+  "E  BARCELO30": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatori Superior de Musica del Liceu"
+   }
+  ],
+  "E  CASTELL13": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio Superior de Musica Salvador Segui"
+   }
+  ],
+  "E  GRANADA04": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Real Conservatorio Superior de Música “Victoria Eugenia” de Granada"
+   }
+  ],
+  "E  LA-CORU05": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio Superior de Música da Coruña"
+   }
+  ],
+  "E  MADRID222": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Centro Superior Música Creativa"
+   }
+  ],
+  "E  MADRID27": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Real Conservatorio Superior de Musica de Madrid"
+   }
+  ],
+  "E  MURCIA02": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio Superior de Música \"Manuel Massotti Littel\""
+   }
+  ],
+  "E  OVIEDO03": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio Superior de Música “E. Martinez Torner”"
+   }
+  ],
+  "E  PAMPLON17": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio Superior de Musica de Navarra (CSMN)"
+   }
+  ],
+  "E  SALAMAN03": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio Superior de Música de Castilla y León"
+   }
+  ],
+  "E  SAN-SEB01": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Musikene - Higher School of Music of the Basque Country"
+   }
+  ],
+  "E  SEVILLA04": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio Superior de Musica Manuel Castillo"
+   }
+  ],
+  "E  VALENCI67": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio Superior de Música ¨Joaquín Rodrigo¨"
+   }
+  ],
+  "E  VIGO03": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio Superior de Musica de Vigo"
+   }
+  ],
+  "E  ZARAGOZ05": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio Superior de Música de Aragón"
+   }
+  ],
+  "EE TALLINN03": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Estonian Academy of Music and Theatre"
+   }
+  ],
+  "F  AIX-PRO29": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "IESM - Institut d’Enseignement Supérieur de la Musique - Europe et Méditerranée"
+   }
+  ],
+  "F  BORDEAU62": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "RésoNAnces - higher education institution music and dance Nouvelle-Aquitaine"
+   }
+  ],
+  "F  DIJON32": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "École supérieure de musique Bourgogne-Franche-Comté (ESM Bourgogne-Franche-Comté)"
+   }
+  ],
+  "F  LILLE71": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "École Supérieure Musique et Danse Hauts-de-France – Lille"
+   }
+  ],
+  "F  LYON24": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatoire National Supérieur Musique et Danse de Lyon (CNSMD)"
+   }
+  ],
+  "F  PARIS119": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatoire National Supérieur de Musique et de Danse de Paris (CNSMDP)"
+   }
+  ],
+  "HU BUDAPES25": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Franz Liszt Academy of Music"
+   }
+  ],
+  "I  ALESSAN01": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio di Musica \"A. Vivaldi\""
+   }
+  ],
+  "I  BARI03": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio di Musica Piccinni"
+   }
+  ],
+  "I  BENEVEN03": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio Statale di Musica Nicola Sala di Benevento"
+   }
+  ],
+  "I  BOLOGNA04": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio di Musica 'G. Battista Martini'"
+   }
+  ],
+  "I  BOLZANO02": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio di musica \"Claudio Monteverdi\" Musik-Konservatorium Bolzano-Bozen"
+   }
+  ],
+  "I  BRESCIA06": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio di Musica 'Luca Marenzio'"
+   }
+  ],
+  "I  CAGLIAR02": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio Statale de Musica - 'Giovanni Pierluigi da Palestrina'"
+   }
+  ],
+  "I  CALTANI01": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio Statale di Musica Vincenzo Bellini di Caltanissetta"
+   }
+  ],
+  "I  CASTELF01": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio Di Musica Di Castelfranco Veneto A. Steffani"
+   }
+  ],
+  "I  CESENA03": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio di Musica \"B. Maderna - G. Lettimi\" di Cesena e Rimini"
+   }
+  ],
+  "I  COSENZA03": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio di Musica \"S. Giacomantonio\""
+   }
+  ],
+  "I  FERRARA02": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio di Musica \"Girolamo Frescobaldi\""
+   }
+  ],
+  "I  FIRENZE04": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio Statale Di Musica \"Luigi Cherubini\""
+   }
+  ],
+  "I  FIRENZE07": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Fondazione Scuola di Musica di Fiesole"
+   }
+  ],
+  "I  FOGGIA02": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio di Musica \"Umberto Giordano\" - Foggia"
+   }
+  ],
+  "I  FROSINO02": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio di Musica L. Refice"
+   }
+  ],
+  "I  GENOVA02": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio Statale di Musica \"N. Paganini\""
+   }
+  ],
+  "I  L-AQUIL04": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio di Musica \"A. Casella\""
+   }
+  ],
+  "I  LA-SPEZ01": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio di Musica Giacomo Puccini La Spezia"
+   }
+  ],
+  "I  LATINA02": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio Statale di Musica \"O. Respighi\""
+   }
+  ],
+  "I  LECCE03": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio di Musica Tito Schipa"
+   }
+  ],
+  "I  LUCCA03": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Istituto Superiore di Studi Musicali \"L. Boccherini\""
+   }
+  ],
+  "I  MANTOVA01": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio di Musica Lucio Campiani Mantova"
+   }
+  ],
+  "I  MATERA01": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio di Musica E.R.Duni"
+   }
+  ],
+  "I  MESSINA04": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio Statale di Musica \"A. Corelli\""
+   }
+  ],
+  "I  MILANO09": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio di Musica \"Giuseppe Verdi\" di Milano"
+   }
+  ],
+  "I  MONOPOL02": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio di Musica \"N. Rota\""
+   }
+  ],
+  "I  NOVARA01": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "ISSM Conservatorio Guido Cantelli"
+   }
+  ],
+  "I  PADOVA02": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio di Musica C. Pollini - Padova"
+   }
+  ],
+  "I  PALERMO04": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio di Musica Statale «Alessandro Scarlatti»"
+   }
+  ],
+  "I  PARMA02": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio di Musica \"Arrigo Boito\""
+   }
+  ],
+  "I  PERUGIA03": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio di Musica - Perugia, Istituzione di Alta Cultura"
+   }
+  ],
+  "I  PESARO01": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio Statale di Musica \"G. Rossini\""
+   }
+  ],
+  "I  PESCARA01": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio Statale di Musica Luisa D'Annunzio"
+   }
+  ],
+  "I  POTENZA03": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio Statale di Musica “Carlo Gesualdo da Venosa” di Potenza"
+   }
+  ],
+  "I  RAVENNA02": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio Giuseppe Verdi Ravenna"
+   }
+  ],
+  "I  ROMA09": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio di Musica Santa Cecilia, Rome"
+   }
+  ],
+  "I  ROMA30": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Saint Louis College of Music"
+   }
+  ],
+  "I  ROVIGO01": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio di Musica “F.Venezze”"
+   }
+  ],
+  "I  SALERNO02": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio di Musica Giuseppe Martucci"
+   }
+  ],
+  "I  TERAMO02": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio Statale di Musica \"Gaetano Braga\"- Teramo"
+   }
+  ],
+  "I  TERNI01": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio Statale di Musica \"Giulio Briccialdi\" di Terni"
+   }
+  ],
+  "I  TORINO05": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio Statale di Musica \"Giuseppe Verdi\" Torino"
+   }
+  ],
+  "I  TRAPANI02": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio di Musica Antonio Scontrino"
+   }
+  ],
+  "I  TRENTO02": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio di Musica ''Francesco Antonio Bonporti''"
+   }
+  ],
+  "I  TRIESTE02": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio Statale di Musica \"G. Tartini\""
+   }
+  ],
+  "I  UDINE02": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio Statale di Musica \"J. Tomadini\""
+   }
+  ],
+  "I  VARESE05": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio di Musica Giacomo Puccini Gallarate"
+   }
+  ],
+  "I  VENEZIA04": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio di Musica Benedetto Marcello di Venezia"
+   }
+  ],
+  "I  VERONA02": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio di Musica \"E.F. Dall'Abaco\""
+   }
+  ],
+  "I  VICENZA03": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorio di Musica di Vicenza \"A. Pedrollo\""
+   }
+  ],
+  "IRLDUBLIN22": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "The Royal Irish Academy of Music"
+   }
+  ],
+  "IS REYKJAV06": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Iceland University of the Arts"
+   }
+  ],
+  "LT VILNIUS05": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Lithuanian Academy of Music and Theatre"
+   }
+  ],
+  "LV RIGA05": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Latvian Academy of Music"
+   }
+  ],
+  "N  OSLO03": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Norwegian Academy of Music"
+   }
+  ],
+  "N  OSLO07": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Oslo National Academy of the Arts, The Academy of Opera"
+   }
+  ],
+  "N  OSLO66": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Barratt-Due Institute of Music"
+   }
+  ],
+  "NL AMSTERD07": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Conservatorium van Amsterdam"
+   }
+  ],
+  "NL ROTTERD09": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Codarts University of the Arts"
+   }
+  ],
+  "NL S-GRAVE05": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Koninklijk Conservatorium Den Haag"
+   }
+  ],
+  "NL UTRECHT29": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "HKU University of the Arts Utrecht"
+   }
+  ],
+  "PL BYDGOSZ04": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Akademia Muzyczna im Feliksa Nowowiejskiego"
+   }
+  ],
+  "PL GDANSK04": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Stanisław Moniuszko Academy of Music in Gdańsk"
+   }
+  ],
+  "PL KATOWIC04": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Akademia Muzyczna im. Karola Szymanowskiego w Katowicach"
+   }
+  ],
+  "PL KRAKOW09": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "The Krzysztof Penderecki Academy of Music in Krakow"
+   }
+  ],
+  "PL LODZ04": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Akademia Muzyczna im. Grazyny i Kiejstuta Bacewiczow"
+   }
+  ],
+  "PL POZNAN06": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Akademia Muzyczna im I.J. Paderewskiego w Poznaniu"
+   }
+  ],
+  "PL WARSZAW09": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Chopin University of Music"
+   }
+  ],
+  "PL WROCLAW06": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Karol Lipiński Academy of Music in Wrocław"
+   }
+  ],
+  "RO BUCURES03": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Universitatea Nationala de Muzica Bucuresti"
+   }
+  ],
+  "RO CLUJNAP02": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "The National Academy of Music in Cluj-Napoca"
+   }
+  ],
+  "S  STOCKHO11": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Royal College of Music in Stockholm"
+   }
+  ],
+  "S  STOCKHO15": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "SMI - Stockholm University College of Music Education"
+   }
+  ],
+  "S  STOCKHO27": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "SKH – Stockholm University of the Arts"
+   }
+  ],
+  "SF HELSINK42": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Sibelius Academy, University of the Arts Helsinki"
+   },
+   {
+    "network": "eua",
+    "category": "Full member",
+    "listed_as": "University of the Arts Helsinki Taideyliopisto"
+   }
+  ],
+  "SK BRATISL05": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "The Academy of Performing Arts Bratislava"
+   }
+  ],
+  "TR ANKARA26": [
+   {
+    "network": "aec",
+    "category": "Associate member",
+    "listed_as": "Ankara Music and Fine Arts University"
+   }
+  ],
+  "TR ISTANBU06": [
+   {
+    "network": "aec",
+    "category": "Active member",
+    "listed_as": "Mimar Sinan Fine Arts University - İstanbul State Conservatory"
+   },
+   {
+    "network": "eua",
+    "category": "Full member",
+    "listed_as": "Mimar Sinan Fine Arts University Mimar Sinan Güzel Sanatlar Üniversitesi"
+   }
+  ]
+ }
+}

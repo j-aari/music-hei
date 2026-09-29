@@ -36,10 +36,29 @@ The panel shows mobility types and a four-class scale per institution (`data/mob
 
 **How to apply:** when extending the years, move `LAST_YEAR` in `scripts/build_mobility.py` only once the year is at least two to three years old, and re-run `find_mobility_names.py` to catch new name forms. Keep "Not in data" distinct from "not offered". Four institutions could not be found (Friedrich Gulda School of Music, Evangelische Hochschule für Kirchenmusik Halle, IESM Aix-en-Provence, Conservatorio Tchaikovsky Nocera Terinese).
 
-## Idea: international office contact per institution
+## International office contact per institution
 
-Add the general e-mail address of each institution's international office to the details panel.
+The details panel shows, after the address, the general e-mail address of the institution's international office, or a link to the office's contact page when no general address is published (`data/contacts.json`).
 
 **Why:** the ECHE list has no contact details (only name, address, website and codes), and a visitor looking for a partner usually needs exactly this.
 
-**How to apply:** only general office addresses (for example international@…), never the names or e-mail addresses of individual people, so the data stays current when staff change and no personal data is published. Record the source URL for every address. Collect one country at a time on explicit request, as with the strategy documents, and say on the page how many institutions are covered.
+**How to apply:** only general office addresses (for example international@…, erasmus@…), never the names or e-mail addresses of individual people, so the data stays current when staff change and no personal data is published. Every address has the page it was found on (`source`) and the date it was checked. Suggestions come from `scripts/find_contacts.py`; every entry was checked against its source page. In September 2026: 134 addresses, 25 contact pages, 27 institutions with neither (their sites publish only personal addresses, block automated access or were unreachable); the panel says "No general address found on the website" for those. Re-check about once a year, and fill the gaps one country at a time.
+
+## Networks: AEC and EUA checked, IASJ and ELIA not yet
+
+The details panel lists the networks an institution belongs to, discipline networks first and umbrella organisations second (`data/networks.json`), with a coverage line naming the networks whose member lists have been checked and those that have not.
+
+**Why:** an empty list must not read as "not a member of any network". Only the AEC (European Association of Conservatoires) and the EUA (European University Association) have been checked (September 2026): 151 of 186 institutions are AEC members, 6 are EUA members. The AEC list on its website is paginated inconsistently (some members repeat, others are skipped), so it was completed with the site's keyword search by city; the result, 311 members, matches the site. ELIA's site blocks automated access and IASJ has no public member list at a stable address.
+
+**How to apply:** add a network by setting `mapped: true` only after its whole member list has been matched; until then keep it in `networks` with `mapped: false` so the coverage line names it. Match by website address where the list has one (EUA), otherwise by name and city, and check by hand: several institutions are listed under English or older names (for example the KMH as "Royal College of Music in Stockholm", PESMD Bordeaux as "RésoNAnces").
+
+The Networks filter has "AEC member", "Not an AEC member" and "EUA member". "Not an AEC member" (35 of 186) is the more interesting group, and it is a real value only because the whole AEC list has been checked; a network may get a "not a member" option only once it is fully mapped.
+
+### Next: IASJ (to be mapped)
+
+Map the International Association of Schools of Jazz next: jazz schools and departments, which ties in with a colleague's wish to see pop and jazz institutions. Find a stable, complete member list first; match by name and city as with the AEC, then set `mapped: true`.
+
+### Waiting: ELIA
+
+ELIA (European League of Institutes of the Arts) stays `mapped: false`: its website blocks automated access (HTTP 403), so the member list cannot be retrieved reliably. Revisit if ELIA publishes a list that can be downloaded, or if checking by hand country by country is worth it.
+

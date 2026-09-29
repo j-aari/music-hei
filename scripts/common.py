@@ -22,6 +22,8 @@ MOBILITY_RAW = ROOT / "data" / "raw" / "mobility"  # Erasmus+ -liikkuvuusdatan r
 MOBILITY_NAMES = DATA / "mobility_names.json"  # käsin tarkistettu: laitos -> organisaation nimimuodot liikkuvuusdatassa
 MOBILITY_CANDIDATES = DATA / "mobility_candidates.json"  # generoitu nimiehdotuslista tarkistusta varten
 MOBILITY = DATA / "mobility.json"  # generoitu yhteenveto, julkaistaan sivulle
+CONTACTS = DATA / "contacts.json"  # käsin tarkistettu: kv-toimiston yleisosoite tai yhteystietosivu per laitos
+NETWORKS = DATA / "networks.json"  # käsin tarkistettu: kartoitetut verkostot ja laitosten jäsenyydet (fetch_networks.py)
 NE_COUNTRIES = DATA / "reference" / "ne_110m_admin_0_countries.geojson"
 PUBLIC_DATA = SITE_PUBLIC.parent if SITE_PUBLIC else None  # site/data/
 
