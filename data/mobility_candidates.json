@@ -1,0 +1,4467 @@
+{
+ "A  LINZ17": {
+  "name": "Anton Bruckner Privatuniversität",
+  "city": "Linz",
+  "tier": 2,
+  "candidates": [
+   {
+    "name": "ANTON BRUCKNER PRIVATUNIVERSITAT",
+    "participants": 215,
+    "cities": [
+     "LINZ",
+     "Linz",
+     "WIEN"
+    ],
+    "coverage": 0.75
+   }
+  ]
+ },
+ "A  WIEN77": {
+  "name": "Friedrich Gulda School of Music Wien",
+  "city": "Vienna",
+  "tier": 1,
+  "candidates": []
+ },
+ "A  KLAGENF06": {
+  "name": "Gustav Mahler Privatuniversität für Musik",
+  "city": "Klagenfurt am Wörthersee",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Gustav Mahler Privatuniversität für Musik",
+    "participants": 27,
+    "cities": [
+     "Klagenfurt am Wörthersee",
+     "KLAGENFURT AM WÖRTHERSEE",
+     "Klagenfurt"
+    ],
+    "coverage": 0.57
+   }
+  ]
+ },
+ "A  WIEN76": {
+  "name": "JAM MUSIC LAB Private University for Jazz and Popular Music",
+  "city": "Wien",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Jam Music Lab Private University",
+    "participants": 1,
+    "cities": [
+     "Wien"
+    ],
+    "coverage": 0.62
+   },
+   {
+    "name": "JAM MUSIC LAB",
+    "participants": 1,
+    "cities": [
+     "Wien"
+    ],
+    "coverage": 0.38
+   }
+  ]
+ },
+ "A  WIEN52": {
+  "name": "Musik und Kunst Privatuniversität der Stadt Wien GmbH",
+  "city": "Vienna",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Musik und Kunst Privatuniversität der Stadt Wien GmbH",
+    "participants": 349,
+    "cities": [
+     "Vienna",
+     "VIENNA",
+     "Wien"
+    ],
+    "coverage": 0.86
+   },
+   {
+    "name": "Stadt Wien",
+    "participants": 151,
+    "cities": [
+     "Wien"
+    ],
+    "coverage": 0.29
+   },
+   {
+    "name": "Musik und Kunst Privatuniversität der Stadt Wien",
+    "participants": 38,
+    "cities": [
+     "Vienna",
+     "VIENNA",
+     "Wenen"
+    ],
+    "coverage": 0.71
+   },
+   {
+    "name": "STADT WIEN",
+    "participants": 2,
+    "cities": [
+     "WIEN",
+     "Wien"
+    ],
+    "coverage": 0.29
+   }
+  ]
+ },
+ "A  FELDKIR03": {
+  "name": "Stella Vorarlberg Privathochschule für Musik GmbH",
+  "city": "Feldkirch",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Stella Vorarlberg Privathochschule für Musik GmbH",
+    "participants": 15,
+    "cities": [
+     "Feldkirch",
+     "FELDKIRCH"
+    ],
+    "coverage": 0.83
+   },
+   {
+    "name": "Stella Vorarlberg Privathochschule für Musik",
+    "participants": 10,
+    "cities": [
+     "Feldkirch"
+    ],
+    "coverage": 0.67
+   }
+  ]
+ },
+ "A  SALZBUR02": {
+  "name": "Universität Mozarteum Salzburg",
+  "city": "Salzburg",
+  "tier": 2,
+  "candidates": [
+   {
+    "name": "UNIVERSITAT MOZARTEUM SALZBURG",
+    "participants": 387,
+    "cities": [
+     "SALZBURG",
+     "Salzburg",
+     "GRAZ"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Universität Mozarteum Salzburg",
+    "participants": 119,
+    "cities": [
+     "Salzburg",
+     "SALZBURG",
+     "Innsbruck"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "A  GRAZ03": {
+  "name": "Universität für Musik und darstellende Kunst Graz (KUG)",
+  "city": "Graz",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "UNIVERSITAT FUR MUSIK UND DARSTELLENDE KUNST GRAZ (KUG)",
+    "participants": 759,
+    "cities": [
+     "GRAZ",
+     "Graz",
+     "Vienna"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "KUG",
+    "participants": 80,
+    "cities": [
+     "GRAZ",
+     "Graz"
+    ],
+    "coverage": 0.17
+   }
+  ]
+ },
+ "A  WIEN08": {
+  "name": "Universität für Musik und darstellende Kunst Wien",
+  "city": "Wien",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "UNIVERSITAT WIEN",
+    "participants": 15448,
+    "cities": [
+     "WIEN",
+     "Wien",
+     "Vienna"
+    ],
+    "coverage": 0.4
+   },
+   {
+    "name": "UNIVERSITAET WIEN",
+    "participants": 2165,
+    "cities": [
+     "WIEN",
+     "Wien",
+     "Wenen"
+    ],
+    "coverage": 0.4
+   },
+   {
+    "name": "UNIVERSITAT FUR MUSIK UND DARSTELLENDE KUNST WIEN",
+    "participants": 1079,
+    "cities": [
+     "WIEN",
+     "Wien",
+     "ΒΙΕΝΝΗ"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Universitaet fuer Musik und darstellende Kunst Wien",
+    "participants": 463,
+    "cities": [
+     "WIEN",
+     "Vienna",
+     "Wien"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Universität Wien",
+    "participants": 15,
+    "cities": [
+     "Wien",
+     "Vienna",
+     "Βιέννη"
+    ],
+    "coverage": 0.4
+   },
+   {
+    "name": "Universität Wien,",
+    "participants": 7,
+    "cities": [
+     "Vienna"
+    ],
+    "coverage": 0.4
+   },
+   {
+    "name": "Universit�t Wien",
+    "participants": 2,
+    "cities": [
+     "Vienna",
+     "Wien"
+    ],
+    "coverage": 0.4
+   },
+   {
+    "name": "Universit?t Wien",
+    "participants": 1,
+    "cities": [
+     "Wien"
+    ],
+    "coverage": 0.4
+   },
+   {
+    "name": "UNIVERSITÄT WIEN",
+    "participants": 1,
+    "cities": [
+     "DUNAJ"
+    ],
+    "coverage": 0.4
+   }
+  ]
+ },
+ "A  WIEN74": {
+  "name": "VMI - Vienna Music Institute - Konservatorium des Herrn Mag. Ernst Ritsch",
+  "city": "Wien",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "VMI - Vienna Music Institute - Konservatorium des Herrn Mag. Ernst Ritsch",
+    "participants": 32,
+    "cities": [
+     "Wien",
+     "WIEN",
+     "Vienna"
+    ],
+    "coverage": 0.9
+   },
+   {
+    "name": "VMI-Vienna Music Institute - Konservatorium des Herrn Mag. Ernst Ritsch",
+    "participants": 13,
+    "cities": [
+     "Wien",
+     "WIEN",
+     "Vienna"
+    ],
+    "coverage": 0.9
+   },
+   {
+    "name": "VIENNA MUSIC INSTITUTE",
+    "participants": 5,
+    "cities": [
+     "VIENNA"
+    ],
+    "coverage": 0.3
+   },
+   {
+    "name": "VMI - Vienna Music Institute",
+    "participants": 2,
+    "cities": [
+     "Wien"
+    ],
+    "coverage": 0.4
+   },
+   {
+    "name": "VIENNA KONSERVATORIUM",
+    "participants": 1,
+    "cities": [
+     "Wien"
+    ],
+    "coverage": 0.2
+   }
+  ]
+ },
+ "B  ANTWERP62": {
+  "name": "Artesis Plantijn Hogeschool Antwerpen",
+  "city": "Antwerpen",
+  "tier": 2,
+  "candidates": [
+   {
+    "name": "ARTESIS  PLANTIJN HOGESCHOOL ANTWERPEN",
+    "participants": 2229,
+    "cities": [
+     "ANTWERPEN",
+     "Antwerpen",
+     "Antwerp"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "ARTESIS - PLANTIJN HOGESCHOOL ANTWERPEN",
+    "participants": 898,
+    "cities": [
+     "Antwerpen",
+     "ANTWERPEN",
+     "Antwerp"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "ARTESIS PLANTIJN HOGESCHOOL ANTWERPEN",
+    "participants": 573,
+    "cities": [
+     "ANTWERPEN",
+     "Antwerpen",
+     "OTH"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Artesis Plantijn Hogeschool Antwerpen",
+    "participants": 409,
+    "cities": [
+     "Antwerpen",
+     "ANTWERPEN",
+     "Antwerp"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Artesis Plantijn Hogeschool van Antwerpen",
+    "participants": 1,
+    "cities": [
+     "Antwerp"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "B  BRUXEL07": {
+  "name": "Conservatoire royal de Bruxelles",
+  "city": "Bruxelles",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatoire royal de Bruxelles",
+    "participants": 344,
+    "cities": [
+     "Bruxelles",
+     "BRUXELLES",
+     "Brussels"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "B  LIEGE03": {
+  "name": "Conservatoire royal de Liège",
+  "city": "Liège",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "ULIEGE",
+    "participants": 1727,
+    "cities": [
+     "LIEGE",
+     "Liège",
+     "Liege"
+    ],
+    "coverage": 0.33
+   },
+   {
+    "name": "Conservatoire royal de Liège",
+    "participants": 98,
+    "cities": [
+     "LIÈGE",
+     "LIEGE",
+     "LI�GE"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "B  BRUSSEL46": {
+  "name": "Erasmushogeschool Brussel",
+  "city": "Brussel",
+  "tier": 2,
+  "candidates": [
+   {
+    "name": "ERASMUSHOGESCHOOL BRUSSEL",
+    "participants": 1948,
+    "cities": [
+     "BRUSSEL",
+     "Brussel",
+     "Brussels"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Erasmushogeschool Brussel",
+    "participants": 203,
+    "cities": [
+     "Brussels",
+     "Brussel",
+     "BRUSSELS"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Erasmushogeschool Brussels",
+    "participants": 1,
+    "cities": [
+     "Brussels"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "B  BRUSSEL43": {
+  "name": "LUCA School of Arts",
+  "city": "Brussel",
+  "tier": 2,
+  "candidates": [
+   {
+    "name": "LUCA SCHOOL OF ARTS",
+    "participants": 872,
+    "cities": [
+     "BRUSSEL",
+     "Brussel",
+     "Brussels"
+    ],
+    "coverage": 0.75
+   },
+   {
+    "name": "LUCA",
+    "participants": 270,
+    "cities": [
+     "BRUSSEL",
+     "Brussels",
+     "Ghent"
+    ],
+    "coverage": 0.25
+   },
+   {
+    "name": "LUCA School of Arts",
+    "participants": 3,
+    "cities": [
+     "Brussel"
+    ],
+    "coverage": 0.75
+   }
+  ]
+ },
+ "BG PLOVDIV07": {
+  "name": "Akademiya za Muzikalno, Tantsovo i Izobrazitelno Izkustvo Plovdiv",
+  "city": "Plovdiv",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "AKADEMIYA ZA MUZIKALNO, TANTZOVO I IZOBRAZITELNO IZKUSTVO PLOVDIV",
+    "participants": 115,
+    "cities": [
+     "Plovdiv",
+     "PLOVDIV"
+    ],
+    "coverage": 0.89
+   }
+  ]
+ },
+ "BG SOFIA13": {
+  "name": "National Academy of Music \"Prof. Pancho Vladigerov\"",
+  "city": "Sofia",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "NATIONAL ACADEMY OF MUSIC\"PROF.PANCHO VLADIGEROV\"",
+    "participants": 296,
+    "cities": [
+     "SOFIA",
+     "Sofia"
+    ],
+    "coverage": 0.83
+   },
+   {
+    "name": "NATIONAL ACADEMY OF MUSIC&quot;PROF.PANCHO VLADIGEROV&quot;",
+    "participants": 4,
+    "cities": [
+     "SOFIA"
+    ],
+    "coverage": 0.83
+   }
+  ]
+ },
+ "CZ PRAHA04": {
+  "name": "Akademie múzických umění v Praze",
+  "city": "Praha 1",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "AKADEMIE MUZICKYCH UMENI V PRAZE",
+    "participants": 1235,
+    "cities": [
+     "PRAHA 1",
+     "Praha",
+     "PRAHA"
+    ],
+    "coverage": 0.8
+   }
+  ]
+ },
+ "CZ BRNO03": {
+  "name": "Janáčkova akademie múzických umění v Brně",
+  "city": "Brno",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Janackova akademie muzickych umeni v Brne",
+    "participants": 479,
+    "cities": [
+     "Brno",
+     "BRNO"
+    ],
+    "coverage": 0.83
+   },
+   {
+    "name": "JANACKOVA AKADEMIE MUZICKYCH UMENI V BRNE",
+    "participants": 219,
+    "cities": [
+     "BRNO",
+     "Brno"
+    ],
+    "coverage": 0.83
+   },
+   {
+    "name": "JANÁČKOVA AKADEMIE MÚZICKÝCH UMĚNÍ V BRNĚ",
+    "participants": 99,
+    "cities": [
+     "BRNO",
+     "Brno"
+    ],
+    "coverage": 0.83
+   }
+  ]
+ },
+ "D  HALLE04": {
+  "name": "Evangelische Hochschule für Kirchenmusik Halle",
+  "city": "Halle",
+  "tier": 1,
+  "candidates": []
+ },
+ "D  TUBINGE02": {
+  "name": "Evangelische Hochschule für Kirchenmusik Tübingen",
+  "city": "Tuebingen",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Evangelische Hochschule für Kirchenmusik Tübingen",
+    "participants": 15,
+    "cities": [
+     "Tuebingen",
+     "KARLSRUHE"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "D  ESSEN02": {
+  "name": "Folkwang Universität der Künste",
+  "city": "Essen",
+  "tier": 2,
+  "candidates": [
+   {
+    "name": "Folkwang Universität der Künste",
+    "participants": 468,
+    "cities": [
+     "Essen",
+     "ESSEN"
+    ],
+    "coverage": 0.75
+   }
+  ]
+ },
+ "D  WEIMAR02": {
+  "name": "Hochschule fuer Musik Franz Liszt Weimar",
+  "city": "Weimar",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Hochschule fuer Musik Franz Liszt Weimar",
+    "participants": 514,
+    "cities": [
+     "Weimar",
+     "WEIMAR",
+     "weimar"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "D  KARLSRU03": {
+  "name": "Hochschule fuer Musik Karlsruhe",
+  "city": "Karlsruhe",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Hochschule fuer Musik Karlsruhe",
+    "participants": 182,
+    "cities": [
+     "Karlsruhe",
+     "KARLSRUHE",
+     "KARLSRU"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Hochschule Karlsruhe",
+    "participants": 1,
+    "cities": [
+     "Karlsruhe"
+    ],
+    "coverage": 0.67
+   },
+   {
+    "name": "HOCHSCHULE KARLSRUHE",
+    "participants": 1,
+    "cities": [
+     "KARLSRUHE"
+    ],
+    "coverage": 0.67
+   },
+   {
+    "name": "Karlsruhe",
+    "participants": 1,
+    "cities": [
+     "Karlsruhe"
+    ],
+    "coverage": 0.33
+   }
+  ]
+ },
+ "D  BERLIN16": {
+  "name": "Hochschule für Musik \"Hanns Eisler\" Berlin",
+  "city": "Berlin",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Hochschule für Musik \"Hanns Eisler\" Berlin",
+    "participants": 136,
+    "cities": [
+     "Berlin",
+     "BERLIN",
+     "berlin"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "D  DETMOLD01": {
+  "name": "Hochschule für Musik Detmold",
+  "city": "Detmold",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Hochschule für Musik Detmold",
+    "participants": 210,
+    "cities": [
+     "Detmold",
+     "DETMOLD",
+     "Eisenstadt"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "D  FREIBUR03": {
+  "name": "Hochschule für Musik Freiburg",
+  "city": "Freiburg",
+  "tier": 1,
+  "candidates": []
+ },
+ "D  NURNBER04": {
+  "name": "Hochschule für Musik Nürnberg",
+  "city": "Nuernberg",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Hochschule fuer Musik Nuernberg",
+    "participants": 144,
+    "cities": [
+     "Nuremberg",
+     "N�rnberg",
+     "NUREMBERG"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "HOCHSCHULE NUERNBERG",
+    "participants": 5,
+    "cities": [
+     "NUERNBERG"
+    ],
+    "coverage": 0.75
+   }
+  ]
+ },
+ "D  SAARBRU08": {
+  "name": "Hochschule für Musik Saar",
+  "city": "Saarbrücken",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "USAAR",
+    "participants": 770,
+    "cities": [
+     "Saarbrücken",
+     "SAARBRUCKEN",
+     "SAARBRÜCKEN"
+    ],
+    "coverage": 0.0
+   },
+   {
+    "name": "Hochschule für Musik Saar",
+    "participants": 52,
+    "cities": [
+     "Saarbrücken",
+     "Saarbr�cken",
+     "SAARBRÜCKEN"
+    ],
+    "coverage": 0.75
+   }
+  ]
+ },
+ "D  WURZBUR02": {
+  "name": "Hochschule für Musik Würzburg",
+  "city": "Würzburg",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Hochschule für Musik Würzburg",
+    "participants": 170,
+    "cities": [
+     "Würzburg",
+     "W�rzburg",
+     "WÜRZBURG"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Würzburg",
+    "participants": 1,
+    "cities": [
+     "Würzburg"
+    ],
+    "coverage": 0.33
+   }
+  ]
+ },
+ "D  FRANKFU02": {
+  "name": "Hochschule für Musik und Darstellende Kunst Frankfurt am Main",
+  "city": "Frankfurt am Main",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Hochschule für Musik und Darstellende Kunst Frankfurt am Main",
+    "participants": 143,
+    "cities": [
+     "Frankfurt am Main",
+     "FRANKFURT AM MAIN",
+     "Frankfurt"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Mainz",
+    "participants": 2,
+    "cities": [
+     "Mainz"
+    ],
+    "coverage": 0.0
+   },
+   {
+    "name": "HOCHSCHULE FUR MUSIK UND DARSTELLENDE KUNST FRANFURT AM MAIN",
+    "participants": 1,
+    "cities": [
+     "FRANKFURT"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "D  KOLN03": {
+  "name": "Hochschule für Musik und Tanz Köln",
+  "city": "Koln",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "HOCHSCHULE FUR MUSIK UND TANZ KOLN",
+    "participants": 198,
+    "cities": [
+     "KOLN",
+     "Köln",
+     "K�ln"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Hochschule für Musik und Tanz Köln",
+    "participants": 73,
+    "cities": [
+     "Köln",
+     "K�ln",
+     "KÖLN"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "D  LEIPZIG05": {
+  "name": "Hochschule für Musik und Theater \"Felix Mendelssohn Bartholdy\" Leipzig",
+  "city": "Leipzig",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "HOCHSCHULE FUR MUSIK UND THEATER FELIX MENDELSSOHN BARTHOLDY LEIPZIG",
+    "participants": 265,
+    "cities": [
+     "Leipzig",
+     "LEIPZIG"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Hochschule fuer Musik und Theater \"Felix Mendelssohn Bartholdy\" Leipzig",
+    "participants": 262,
+    "cities": [
+     "Leipzig",
+     "LEIPZIG"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Hochschule fuer Musik und Theater &quot;Felix Mendelssohn Bartholdy&quot; Leipzig",
+    "participants": 65,
+    "cities": [
+     "Leipzig"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "D  HAMBURG05": {
+  "name": "Hochschule für Musik und Theater Hamburg",
+  "city": "Hamburg",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "HOCHSCHULE FUER MUSIK UND THEATER HAMBURG",
+    "participants": 270,
+    "cities": [
+     "HAMBURG",
+     "Hamburg",
+     "Germany"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Hochschule für Musik und Theater Hamburg",
+    "participants": 42,
+    "cities": [
+     "Hamburg",
+     "HAMBURG"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "HOCHSCHULE FUR MUSIK UND THEATER HAMBURG",
+    "participants": 1,
+    "cities": [
+     "HAMBURG"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "D  MUNCHEN03": {
+  "name": "Hochschule für Musik und Theater München",
+  "city": "München",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Hochschule für Musik und Theater München",
+    "participants": 306,
+    "cities": [
+     "München",
+     "M�nchen",
+     "MÜNCHEN"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "HOCHSCHULE FUR MUSIK UND THEATER MUNCHEN",
+    "participants": 2,
+    "cities": [
+     "M�nchen"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "D  ROSTOCK02": {
+  "name": "Hochschule für Musik und Theater Rostock",
+  "city": "Rostock",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Hochschule für Musik und Theater Rostock",
+    "participants": 119,
+    "cities": [
+     "Rostock",
+     "ROSTOCK"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "D  HANNOVE04": {
+  "name": "Hochschule für Musik, Theater und Medien Hannover",
+  "city": "Hannover",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "HOCHSCHULE DER MEDIEN",
+    "participants": 2306,
+    "cities": [
+     "Stuttgart",
+     "STUTTGART",
+     "STTUTGART"
+    ],
+    "coverage": 0.4
+   },
+   {
+    "name": "HOCHSCHULE FUER MUSIK, THEATER UND MEDIEN HANNOVER",
+    "participants": 96,
+    "cities": [
+     "HANNOVER",
+     "Hannover"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Hochschule der Medien",
+    "participants": 1,
+    "cities": [
+     "Stuttgart"
+    ],
+    "coverage": 0.4
+   }
+  ]
+ },
+ "D  REGENSB03": {
+  "name": "Hochschule für katholische Kirchenmusik und Musikpädagogik Regensburg",
+  "city": "Regensburg",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Hochschule für katholische Kirchenmusik und Musikpädagogik Regensburg",
+    "participants": 82,
+    "cities": [
+     "Regensburg"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "D  LUBECK02": {
+  "name": "Musikhochschule Lübeck",
+  "city": "Lübeck",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Musikhochschule Lübeck",
+    "participants": 241,
+    "cities": [
+     "Lübeck",
+     "L�beck",
+     "L?beck"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "D  TROSSIN01": {
+  "name": "Staatliche Hochschule für Musik Trossingen",
+  "city": "Trossingen",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Staatliche Hochschule für Musik Trossingen",
+    "participants": 307,
+    "cities": [
+     "Trossingen",
+     "TROSSINGEN",
+     "Innsbruck"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "D  MANNHEI02": {
+  "name": "Staatliche Hochschule für Musik und Darstellende Kunst Mannheim",
+  "city": "Mannheim",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Staatliche Hochschule für Musik und Darstellende Kunst Mannheim",
+    "participants": 120,
+    "cities": [
+     "Mannheim",
+     "MANNHEIM",
+     "Karlsruhe"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "D  STUTTGA03": {
+  "name": "Staatliche Hochschule für Musik und Darstellende Kunst Stuttgart",
+  "city": "Stuttgart",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Staatliche Hochschule für Musik und Darstellende Kunst Stuttgart",
+    "participants": 353,
+    "cities": [
+     "Stuttgart",
+     "KARLSRUHE",
+     "STUTTGART"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "D  DRESDEN05": {
+  "name": "University of Music Carl Maria von Weber Dresden",
+  "city": "Dresden",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "University of Music Carl Maria von Weber Dresden",
+    "participants": 153,
+    "cities": [
+     "Dresden",
+     "DRESDEN"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "D  BREMEN03": {
+  "name": "University of the Arts Bremen",
+  "city": "Bremen",
+  "tier": 2,
+  "candidates": [
+   {
+    "name": "UBREMEN",
+    "participants": 663,
+    "cities": [
+     "BREMEN",
+     "Bremen",
+     "BREME"
+    ],
+    "coverage": 0.33
+   },
+   {
+    "name": "University of the Arts Bremen",
+    "participants": 291,
+    "cities": [
+     "Bremen",
+     "BREMEN"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "UNIVERSITY OF BREMEN",
+    "participants": 3,
+    "cities": [
+     "Bremen",
+     "BREMEN"
+    ],
+    "coverage": 0.67
+   },
+   {
+    "name": "Bremen University",
+    "participants": 2,
+    "cities": [
+     "Bremen"
+    ],
+    "coverage": 0.67
+   },
+   {
+    "name": "UNIVERSIT?T BREMEN",
+    "participants": 1,
+    "cities": [
+     "BREMEN"
+    ],
+    "coverage": 0.67
+   },
+   {
+    "name": "University of Bremen",
+    "participants": 1,
+    "cities": [
+     "Bremen"
+    ],
+    "coverage": 0.67
+   },
+   {
+    "name": "Universit�t Bremen",
+    "participants": 1,
+    "cities": [
+     "Bremen"
+    ],
+    "coverage": 0.67
+   }
+  ]
+ },
+ "D  BERLIN03": {
+  "name": "Universität der Künste Berlin",
+  "city": "Berlin",
+  "tier": 2,
+  "candidates": [
+   {
+    "name": "UNIVERSITAT DER KUNSTE BERLIN",
+    "participants": 1224,
+    "cities": [
+     "Berlin",
+     "BERLIN",
+     "Berlin-Charlottenburg"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "UNIVERSITÄT DER KÜNSTE BERLIN",
+    "participants": 440,
+    "cities": [
+     "Berlin",
+     "BERLIN",
+     "D  BERLIN03"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Berlin & I",
+    "participants": 2,
+    "cities": [
+     "Berlin"
+    ],
+    "coverage": 0.33
+   },
+   {
+    "name": "Universität der Künste Berlin",
+    "participants": 2,
+    "cities": [
+     "Berlin"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "BERLINK",
+    "participants": 2,
+    "cities": [
+     "BERLIN"
+    ],
+    "coverage": 0.33
+   },
+   {
+    "name": "Berlin",
+    "participants": 1,
+    "cities": [
+     "Hamburg"
+    ],
+    "coverage": 0.33
+   }
+  ]
+ },
+ "DK ARHUS05": {
+  "name": "Det Jyske Musikkonservatorium",
+  "city": "Aarhus",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Det Jyske Musikkonservatorium",
+    "participants": 598,
+    "cities": [
+     "Aarhus",
+     "Aalborg",
+     "AARHUS"
+    ],
+    "coverage": 0.75
+   }
+  ]
+ },
+ "DK KOBENHA09": {
+  "name": "Det Kongelige Danske Musikkonservatorium",
+  "city": "Frederiksberg",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Det Kongelige Danske Musikkonservatorium",
+    "participants": 481,
+    "cities": [
+     "Frederiksberg",
+     "Frederiksberg C",
+     "FREDERIKSBERG"
+    ],
+    "coverage": 0.8
+   }
+  ]
+ },
+ "DK KOBENHA39": {
+  "name": "Rytmisk Musikkonservatorium",
+  "city": "København",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Rytmisk Musikkonservatorium",
+    "participants": 263,
+    "cities": [
+     "K�BENHAVN",
+     "KØBENHAVN",
+     "K?BENHAVN"
+    ],
+    "coverage": 0.67
+   }
+  ]
+ },
+ "DK ODENSE22": {
+  "name": "Syddansk Musikkonservatorium - Danish National Academy of Music",
+  "city": "Odense C.",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Syddansk Musikkonservatorium - Danish National Academy of Music",
+    "participants": 161,
+    "cities": [
+     "Odense",
+     "Odense C.",
+     "Esbjerg"
+    ],
+    "coverage": 0.86
+   }
+  ]
+ },
+ "EE TALLINN03": {
+  "name": "Estonian Academy of Music and Theatre",
+  "city": "Tallinn",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Music Estonia",
+    "participants": 1,
+    "cities": [
+     "Tallinn"
+    ],
+    "coverage": 0.4
+   },
+   {
+    "name": "Estonian Academy of Music and Theatre",
+    "participants": 1,
+    "cities": [
+     "Tallinn"
+    ],
+    "coverage": 0.8
+   }
+  ]
+ },
+ "E  VALENCI67": {
+  "name": "Conservatori Superior de Música \"Joaquín Rodrigo\" de Valencia",
+  "city": "Valencia",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "CONSERVATORI SUPERIOR DE MÚSICA \"JOAQUÍN RODRIGO\" DE VALENCIA",
+    "participants": 563,
+    "cities": [
+     "VALENCIA",
+     "Valencia",
+     "València"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "CONSERVATORI SUPERIOR \"JOAQUIN RODRIGO\"",
+    "participants": 77,
+    "cities": [
+     "VALENCIA",
+     "Valencia"
+    ],
+    "coverage": 0.67
+   },
+   {
+    "name": "CONSERVATORI SUPERIOR DE MÚSICA &quot;JOAQUÍN RODRIGO&quot; DE VALENCIA",
+    "participants": 21,
+    "cities": [
+     "VALENCIA"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "E  ALICANT11": {
+  "name": "Conservatorio Superior de Musica Oscar Espla",
+  "city": "Alicante",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "CONSERVATORIO SUPERIOR DE MUSICA OSCAR ESPLA",
+    "participants": 293,
+    "cities": [
+     "ALICANTE",
+     "Alicante",
+     "alicante"
+    ],
+    "coverage": 0.83
+   }
+  ]
+ },
+ "E  MALAGA02": {
+  "name": "Conservatorio Superior de Musica de Malaga",
+  "city": "Málaga",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "CONSERVATORIO SUPERIOR DE MUSICA DE MALAGA",
+    "participants": 303,
+    "cities": [
+     "MÁLAGA",
+     "M�LAGA",
+     "Malaga"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "C.A.C Malaga",
+    "participants": 1,
+    "cities": [
+     "Malaga"
+    ],
+    "coverage": 0.25
+   }
+  ]
+ },
+ "E  BADAJOZ39": {
+  "name": "Conservatorio Superior de Música \"Bonifacio Gil\"",
+  "city": "Badajoz",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio Superior de Música \"Bonifacio Gil\"",
+    "participants": 11,
+    "cities": [
+     "Badajoz"
+    ],
+    "coverage": 0.83
+   }
+  ]
+ },
+ "E  OVIEDO03": {
+  "name": "Conservatorio Superior de Música \"Eduardo Martínez Torner\" del Principado de Asturias",
+  "city": "Oviedo",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "CONSERVATORIO SUPERIOR DE MÚSICA \"EDUARDO MARTÍNEZ TORNER\" DEL PRINCIPADO DE ASTURIAS",
+    "participants": 178,
+    "cities": [
+     "OVIEDO",
+     "Oviedo"
+    ],
+    "coverage": 0.89
+   },
+   {
+    "name": "CONSERVATORIO SUPERIOR DE MÚSICA &quot;EDUARDO MARTÍNEZ TORNER&quot; DEL PRINCIPADO DE ASTURIAS",
+    "participants": 8,
+    "cities": [
+     "OVIEDO"
+    ],
+    "coverage": 0.89
+   },
+   {
+    "name": "Conservatorio Superior de Musica de Principado de Asturias",
+    "participants": 1,
+    "cities": [
+     "Oviedo"
+    ],
+    "coverage": 0.56
+   }
+  ]
+ },
+ "E  SEVILLA04": {
+  "name": "Conservatorio Superior de Música \"Manuel Castillo\" de Sevilla",
+  "city": "Sevilla",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio Superior de Música \"Manuel Castillo\" de Sevilla",
+    "participants": 314,
+    "cities": [
+     "Sevilla",
+     "SEVILLA",
+     "Seville"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Conservatorio Superior de Música &quot;Manuel Castillo&quot; de Sevilla",
+    "participants": 19,
+    "cities": [
+     "Sevilla",
+     "SEVILLA"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "C.E.I.P. El Castillo",
+    "participants": 1,
+    "cities": [
+     "Cadiz"
+    ],
+    "coverage": 0.17
+   },
+   {
+    "name": "Conservatorio Superior de Musica « Manuel Castillo » de Sevilla",
+    "participants": 1,
+    "cities": [
+     "Sevilla"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Conservatorio Superior de Musica de Sevilla",
+    "participants": 1,
+    "cities": [
+     "SEVILLA"
+    ],
+    "coverage": 0.67
+   },
+   {
+    "name": "Sevilla, Conservatorio Superior de Música \"Manuel Castillo\" de Sevilla",
+    "participants": 1,
+    "cities": [
+     "Sevilla"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "E  MURCIA02": {
+  "name": "Conservatorio Superior de Música \"Manuel Massotti Littel\"",
+  "city": "Murcia",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio Superior de Música \"Manuel Massotti Littel\"",
+    "participants": 136,
+    "cities": [
+     "Murcia",
+     "MURCIA"
+    ],
+    "coverage": 0.86
+   },
+   {
+    "name": "Conservatorio Superior Massotti",
+    "participants": 17,
+    "cities": [
+     "Murcia"
+    ],
+    "coverage": 0.43
+   },
+   {
+    "name": "Conservatorio Superior de Música &quot;Manuel Massotti Littel&quot;",
+    "participants": 4,
+    "cities": [
+     "Murcia"
+    ],
+    "coverage": 0.86
+   }
+  ]
+ },
+ "E  CASTELL13": {
+  "name": "Conservatorio Superior de Música \"Salvador Seguí\" de Castellón",
+  "city": "Castellón de la Plana",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "CONSERVATORIO SUPERIOR DE MÚSICA \"SALVADOR SEGUÍ\" DE CASTELLÓN",
+    "participants": 237,
+    "cities": [
+     "CASTELLÓN DE LA PLANA",
+     "CASTELL�N DE LA PLANA",
+     "CASTELL?N DE LA PLANA"
+    ],
+    "coverage": 0.86
+   },
+   {
+    "name": "CONSERVATORIO SUPERIOR \"SALVADOR SEGUÍ\"",
+    "participants": 37,
+    "cities": [
+     "CASTELLÓN DE LA PLANA"
+    ],
+    "coverage": 0.57
+   }
+  ]
+ },
+ "E  LA-CORU05": {
+  "name": "Conservatorio Superior de Música da Coruña",
+  "city": "A Coruña",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "conservatorio superior de música da coruña",
+    "participants": 216,
+    "cities": [
+     "A Coruña",
+     "A Coru�a",
+     "A Coru?a"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "La Coruna",
+    "participants": 2,
+    "cities": [
+     "Avd. Lamadosa, 16 � C.P. 15009 Santiago de  Compostela"
+    ],
+    "coverage": 0.25
+   }
+  ]
+ },
+ "E  ZARAGOZ05": {
+  "name": "Conservatorio Superior de Música de Aragón",
+  "city": "Zaragoza",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio Superior de Música de Aragón",
+    "participants": 163,
+    "cities": [
+     "Zaragoza",
+     "Check the PIC in URF For City",
+     "ZARAGOZA"
+    ],
+    "coverage": 0.8
+   }
+  ]
+ },
+ "E  LAS-PAL18": {
+  "name": "Conservatorio Superior de Música de Canarias",
+  "city": "Las Palmas de Gran Canaria",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio Superior de Música de Canarias",
+    "participants": 351,
+    "cities": [
+     "Las Palmas de Gran Canaria",
+     "LAS PALMAS DE GRAN CANARIA",
+     "Santa Cruz de Tenerife"
+    ],
+    "coverage": 0.62
+   },
+   {
+    "name": "Conservatorio Superior Música Canarias",
+    "participants": 45,
+    "cities": [
+     "Las Palmas de Gran Canaria"
+    ],
+    "coverage": 0.62
+   },
+   {
+    "name": "U.C.P.A Canaris S.L.U.",
+    "participants": 1,
+    "cities": [
+     "Costa Teguise"
+    ],
+    "coverage": 0.12
+   }
+  ]
+ },
+ "E  SALAMAN03": {
+  "name": "Conservatorio Superior de Música de Castilla y León",
+  "city": "Salamanca",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "CONSERVATORIO SUPERIOR DE MÚSICA DE CASTILLA Y LEÓN",
+    "participants": 225,
+    "cities": [
+     "Salamanca",
+     "SALAMANCA"
+    ],
+    "coverage": 0.83
+   },
+   {
+    "name": "La Leona",
+    "participants": 1,
+    "cities": [
+     "Fuengirola"
+    ],
+    "coverage": 0.0
+   }
+  ]
+ },
+ "E  ALBACET19": {
+  "name": "Conservatorio Superior de Música de Castilla-La Mancha",
+  "city": "Albacete",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio Superior de Música de Castilla-La Mancha",
+    "participants": 130,
+    "cities": [
+     "Albacete",
+     "ALBACET"
+    ],
+    "coverage": 0.83
+   },
+   {
+    "name": "ANCHA Castilla",
+    "participants": 1,
+    "cities": [
+     "real"
+    ],
+    "coverage": 0.33
+   }
+  ]
+ },
+ "E  JAEN07": {
+  "name": "Conservatorio Superior de Música de Jaén",
+  "city": "Jaén",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio Superior de Música de Jaén",
+    "participants": 109,
+    "cities": [
+     "Jaén",
+     "Ja�n",
+     "Ja?n"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "E  PAMPLON17": {
+  "name": "Conservatorio Superior de Música de Navarra",
+  "city": "Pamplona",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "CONSERVATORIO SUPERIOR DE MÚSICA DE NAVARRA",
+    "participants": 93,
+    "cities": [
+     "PAMPLONA",
+     "Pamplona",
+     "Pampelona"
+    ],
+    "coverage": 0.8
+   },
+   {
+    "name": "CONSERVATORIO SUPERIOR DE NAVARRA",
+    "participants": 8,
+    "cities": [
+     "PAMPLONA"
+    ],
+    "coverage": 0.6
+   }
+  ]
+ },
+ "E  VIGO03": {
+  "name": "Conservatorio Superior de Música de Vigo",
+  "city": "Vigo",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "UVIGO",
+    "participants": 849,
+    "cities": [
+     "VIGO PONTEVEDRA",
+     "Vigo",
+     "VIGO"
+    ],
+    "coverage": 0.0
+   },
+   {
+    "name": "CONSERVATORIO SUPERIOR DE MÚSICA DE VIGO",
+    "participants": 818,
+    "cities": [
+     "VIGO",
+     "Vigo",
+     "vigo"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "E  CORDOBA04": {
+  "name": "Conservatorio Superior de musica \"Rafael Orozco\" Cordoba",
+  "city": "Cordoba",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio Superior de musica \"Rafael Orozco\" Cordoba",
+    "participants": 103,
+    "cities": [
+     "Cordoba",
+     "CORDOBA"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "E  MADRID222": {
+  "name": "Escuela Música Creativa SL",
+  "city": "Madrid",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Musica Creativa",
+    "participants": 1,
+    "cities": [
+     "Madrid"
+    ],
+    "coverage": 0.4
+   }
+  ]
+ },
+ "E  BARCELO29": {
+  "name": "Fundacio Escola Superior de Musica de Catalunya",
+  "city": "Barcelona",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "FUNDACIO ESCOLA SUPERIOR DE MUSICA DE CATALUNYA",
+    "participants": 96,
+    "cities": [
+     "BARCELONA",
+     "Barcelona"
+    ],
+    "coverage": 0.83
+   },
+   {
+    "name": "Escola Superior de Música de Catalunya",
+    "participants": 50,
+    "cities": [
+     "BARCELONA",
+     "Barcelona"
+    ],
+    "coverage": 0.67
+   }
+  ]
+ },
+ "E  BARCELO137": {
+  "name": "Fundacio Privada Taller de Musics",
+  "city": "Barcelona",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Fundació Privada Taller de Músics",
+    "participants": 35,
+    "cities": [
+     "Barcelona"
+    ],
+    "coverage": 0.8
+   },
+   {
+    "name": "La Taller",
+    "participants": 1,
+    "cities": [
+     "Bilbao"
+    ],
+    "coverage": 0.2
+   }
+  ]
+ },
+ "E  BARCELO30": {
+  "name": "Fundació Conservatori del Liceu",
+  "city": "Barcelona",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Fundació Conservatori del Liceu",
+    "participants": 122,
+    "cities": [
+     "Barcelona",
+     "BARCELONA"
+    ],
+    "coverage": 0.75
+   },
+   {
+    "name": "Conservatori Liceu",
+    "participants": 34,
+    "cities": [
+     "Barcelona"
+    ],
+    "coverage": 0.5
+   }
+  ]
+ },
+ "E  PALMA27": {
+  "name": "Fundació per als Estudis Superiors de Música i Arts Escèniques de les Illes Balears - Conservatori Superior de Música de les Illes Balears",
+  "city": "Palma de Mallorca",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatori Superior de Música de les Illes Balears",
+    "participants": 3,
+    "cities": [
+     "Palma de Mallorca"
+    ],
+    "coverage": 0.47
+   },
+   {
+    "name": "Fundació per als Estudis Superiors de Música i Arts Escèniques de les Illes Balears - Conservatori Superior de Música de les Illes Balears",
+    "participants": 2,
+    "cities": [
+     "PALMA DE MALLORCA",
+     "Palma de Mallorca"
+    ],
+    "coverage": 0.87
+   }
+  ]
+ },
+ "E  PALMA25": {
+  "name": "Fundació per als Estudis de Música i Arts Escèniques de les Illes Balears - Escola Superior d'Art Dramàtic de les Illes Balears",
+  "city": "Palma",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "FUNDACIÓ PER ALS ESTUDIS DE MÚSICA I ARTS ESCÈNIQUES DE LES  ILLES BALEARS - ESCOLA SUPERIOR D'ART DRAMÀTIC DE LES ILLES BALEARS",
+    "participants": 11,
+    "cities": [
+     "PALMA DE MALLORCA"
+    ],
+    "coverage": 0.93
+   }
+  ]
+ },
+ "E  SAN-SEB01": {
+  "name": "Musikene Centro Superior de Música del País Vasco/Euskal Herriko Goi Mailako Musika Ikastegia",
+  "city": "Donostia-San Sebastián",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Musikene Centro Superior de Música del País Vasco/Euskal Herriko Goi Mailako Musika Ikastegia",
+    "participants": 194,
+    "cities": [
+     "DONOSTIA-SAN SEBASTIÁN",
+     "DONOSTIA-SAN SEBASTI�N",
+     "DONOSTIA-SAN SEBASTI?N"
+    ],
+    "coverage": 0.8
+   },
+   {
+    "name": "Musikene",
+    "participants": 23,
+    "cities": [
+     "DONOSTIA-SAN SEBASTIÁN",
+     "San Sebastian",
+     "Donostia - San Sebastián"
+    ],
+    "coverage": 0.07
+   }
+  ]
+ },
+ "E  GRANADA04": {
+  "name": "Real Conservatorio Superior de Música \"Victoria Eugenia\"",
+  "city": "Granada",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Real Conservatorio Superior de Música \"Victoria Eugenia\"",
+    "participants": 277,
+    "cities": [
+     "Granada",
+     "GRANADA"
+    ],
+    "coverage": 0.86
+   }
+  ]
+ },
+ "E  MADRID27": {
+  "name": "Real Conservatorio Superior de Música de Madrid",
+  "city": "Madrid",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Real Conservatorio Superior de Música de Madrid",
+    "participants": 249,
+    "cities": [
+     "MADRID",
+     "Madrid",
+     "POZUELO DE ALARCON (MADRID)"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Real Conservatorio Superior de Madrid",
+    "participants": 35,
+    "cities": [
+     "MADRID",
+     "Madrid"
+    ],
+    "coverage": 0.8
+   },
+   {
+    "name": "L`Oreal, Madrid",
+    "participants": 1,
+    "cities": [
+     "Madrid"
+    ],
+    "coverage": 0.2
+   },
+   {
+    "name": "REAL MADRID C.F.",
+    "participants": 1,
+    "cities": [
+     "MADRID"
+    ],
+    "coverage": 0.4
+   }
+  ]
+ },
+ "SF HELSINK42": {
+  "name": "Taideyliopisto",
+  "city": "Helsinki",
+  "tier": 2,
+  "candidates": [
+   {
+    "name": "TAIDEYLIOPISTO",
+    "participants": 1584,
+    "cities": [
+     "TAIDEYLIOPISTO",
+     "UNIARTS Helsinki",
+     "Helsinki"
+    ],
+    "coverage": 0.5
+   }
+  ]
+ },
+ "F  LYON24": {
+  "name": "Conservatoire National Supérieur de Musique et de Danse de Lyon",
+  "city": "Lyon",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatoire national supérieur de musique et de danse de Lyon",
+    "participants": 226,
+    "cities": [
+     "LYON",
+     "Lyon"
+    ],
+    "coverage": 0.86
+   },
+   {
+    "name": "CONSERVATOIRE NATIONAL SUPERIEUR DE MUSIQUE ET DE DANSE DE LYON",
+    "participants": 136,
+    "cities": [
+     "LYON",
+     "LYON CEDEX 09",
+     "Lyon"
+    ],
+    "coverage": 0.86
+   },
+   {
+    "name": "CONSERVATOIRE NATIONAL SUPERIEUR DE DANSE DE LYON",
+    "participants": 44,
+    "cities": [
+     "LYON",
+     "Lyon"
+    ],
+    "coverage": 0.71
+   }
+  ]
+ },
+ "F  PARIS119": {
+  "name": "Conservatoire National Supérieur de Musique et de Danse de Paris",
+  "city": "Paris",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatoire national supérieur de musique et de danse de Paris",
+    "participants": 571,
+    "cities": [
+     "Paris",
+     "PARIS",
+     "paris"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "F  LILLE71": {
+  "name": "Ecole Supérieure Musique et Danse Hauts-de-France - Lille",
+  "city": "Lille",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Ecole Supérieure Musique et Danse Hauts-de-France - Lille",
+    "participants": 10,
+    "cities": [
+     "Lille"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "F  DIJON32": {
+  "name": "Ecole supérieure de musique Bourgogne-Franche-Comté",
+  "city": "Dijon",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Ecole supérieure de musique Bourgogne-Franche-Comté",
+    "participants": 43,
+    "cities": [
+     "DIJON"
+    ],
+    "coverage": 0.86
+   }
+  ]
+ },
+ "F  AIX-PRO29": {
+  "name": "Institut d'Enseignement Supérieur de la Musique- Europe Méditerranée",
+  "city": "Aix en Provence",
+  "tier": 1,
+  "candidates": []
+ },
+ "F  BORDEAU62": {
+  "name": "Pôle d'Enseignement Supérieur de la Musique et de la Danse de Bordeaux Aquitaine",
+  "city": "Bordeaux",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Pôle d'Enseignement Supérieur de la Musique et de la Danse de Bordeaux Aquitaine",
+    "participants": 29,
+    "cities": [
+     "Bordeaux"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "le pole",
+    "participants": 1,
+    "cities": [
+     "6 Rue de Saint-Domingue"
+    ],
+    "coverage": 0.14
+   }
+  ]
+ },
+ "HU BUDAPES25": {
+  "name": "Liszt Ferenc Zeneművészeti Egyetem",
+  "city": "Budapest",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "LISZT FERENC ZENEMUVESZETI EGYETEM",
+    "participants": 648,
+    "cities": [
+     "BUDAPEST",
+     "Budapest",
+     "Kecskem�t"
+    ],
+    "coverage": 0.8
+   },
+   {
+    "name": "LISZT FERENC ZENEMŰVÉSZETI EGYETEM",
+    "participants": 390,
+    "cities": [
+     "Budapest",
+     "BUDAPEST"
+    ],
+    "coverage": 0.8
+   },
+   {
+    "name": "LISZT FERENC ZENEMUVESZETI EGYETEM BUDAPEST",
+    "participants": 95,
+    "cities": [
+     "BUDAPEST",
+     "Budapest"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Liszt Ferenc Zenemuveszeti Egyetem",
+    "participants": 1,
+    "cities": [
+     "Budapest"
+    ],
+    "coverage": 0.8
+   }
+  ]
+ },
+ "IRLDUBLIN22": {
+  "name": "Royal Irish Academy of Music",
+  "city": "Dublin 2",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Royal Irish Academy of Music",
+    "participants": 203,
+    "cities": [
+     "Dublin 2",
+     "Dublin",
+     "DUBLIN"
+    ],
+    "coverage": 0.8
+   },
+   {
+    "name": "ROYAL IRISH ACADEMY OF MUSIC",
+    "participants": 1,
+    "cities": [
+     "Dublin"
+    ],
+    "coverage": 0.8
+   },
+   {
+    "name": "Royal Irish Academy of music",
+    "participants": 1,
+    "cities": [
+     "Dublin"
+    ],
+    "coverage": 0.8
+   }
+  ]
+ },
+ "IS REYKJAV06": {
+  "name": "Listaháskóli Íslands",
+  "city": "Reykjavik",
+  "tier": 2,
+  "candidates": [
+   {
+    "name": "LISTAHASKOLI ISLANDS",
+    "participants": 1381,
+    "cities": [
+     "REYKJAVIK",
+     "Reykjavik",
+     "Reykjavík"
+    ],
+    "coverage": 0.67
+   }
+  ]
+ },
+ "I  AGRIGEN02": {
+  "name": "Conservatorio \"Arturo Toscanini\" di Ribera",
+  "city": "Ribera (AG)",
+  "tier": 1,
+  "candidates": []
+ },
+ "I  CESENA03": {
+  "name": "Conservatorio Maderna-Lettimi",
+  "city": "Cesena",
+  "tier": 1,
+  "candidates": []
+ },
+ "I  NAPOLI07": {
+  "name": "Conservatorio San Pietro a Majella",
+  "city": "Napoli",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio San Pietro a Majella",
+    "participants": 75,
+    "cities": [
+     "Napoli",
+     "NAPOLI"
+    ],
+    "coverage": 0.8
+   }
+  ]
+ },
+ "I  CASTELF01": {
+  "name": "Conservatorio Statale di Musica \"Agostino Steffani\"",
+  "city": "Castelfranco Veneto",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "CONSERVATORIO STATALE DI MUSICA A.STEFFANI",
+    "participants": 195,
+    "cities": [
+     "CASTELFRANCO VENETO",
+     "Castelfranco Veneto",
+     "WIEN"
+    ],
+    "coverage": 0.57
+   },
+   {
+    "name": "Conservatorio di Musica \"Agostino Steffani\"",
+    "participants": 20,
+    "cities": [
+     "Castelfranco Veneto"
+    ],
+    "coverage": 0.57
+   },
+   {
+    "name": "Conservatorio di Musica Agostino Steffani",
+    "participants": 5,
+    "cities": [
+     "CASTELFRANCO VENETO",
+     "Castelfranco Veneto"
+    ],
+    "coverage": 0.57
+   },
+   {
+    "name": "Conservatorio di Musica &quot;Agostino Steffani&quot;",
+    "participants": 2,
+    "cities": [
+     "CASTELFRANCO VENETO (TV)",
+     "Castelfranco Veneto"
+    ],
+    "coverage": 0.57
+   }
+  ]
+ },
+ "I  VERONA02": {
+  "name": "Conservatorio Statale di Musica \"E. F. Dall'Abaco\"",
+  "city": "Verona",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio Statale di Musica \"E. F. Dall'Abaco\"",
+    "participants": 207,
+    "cities": [
+     "Verona",
+     "VERONA",
+     "Venezia"
+    ],
+    "coverage": 0.83
+   },
+   {
+    "name": "Conservatorio di Verona",
+    "participants": 21,
+    "cities": [
+     "Verona"
+    ],
+    "coverage": 0.33
+   },
+   {
+    "name": "Conservatorio Statale di Musica &quot;E. F. Dall&apos;Abaco&quot;",
+    "participants": 17,
+    "cities": [
+     "Verona"
+    ],
+    "coverage": 0.83
+   }
+  ]
+ },
+ "I  FERRARA02": {
+  "name": "Conservatorio Statale di Musica \"G. Frescobaldi\" Ferrara",
+  "city": "Ferrara",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio Statale di Musica \"G. Frescobaldi\" Ferrara",
+    "participants": 103,
+    "cities": [
+     "Ferrara"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Conservatorio di Musica G. Frescobaldi",
+    "participants": 16,
+    "cities": [
+     "Ferrara"
+    ],
+    "coverage": 0.6
+   },
+   {
+    "name": "Conservatorio Statale di Musica &quot;G. Frescobaldi&quot; Ferrara",
+    "participants": 11,
+    "cities": [
+     "Ferrara"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "I  FERMO01": {
+  "name": "Conservatorio Statale di Musica \"G.B. Pergolesi\" Fermo",
+  "city": "Fermo",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "CONSERVATORIO STATALE DI MUSICA \"G.B. PERGOLESI\" - FERMO",
+    "participants": 64,
+    "cities": [
+     "Fermo"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "CONSERVATORIO STATALE DI MUSICA &quot;G.B. PERGOLESI&quot; - FERMO",
+    "participants": 14,
+    "cities": [
+     "Fermo"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "I  PESARO01": {
+  "name": "Conservatorio Statale di Musica \"G.Rossini\"",
+  "city": "Pesaro",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio Statale di Musica \"G.Rossini\"",
+    "participants": 112,
+    "cities": [
+     "Pesaro",
+     "PESARO"
+    ],
+    "coverage": 0.8
+   }
+  ]
+ },
+ "I  CAGLIAR02": {
+  "name": "Conservatorio Statale di Musica \"Giovanni Pierluigi da Palestrina\" di Cagliari",
+  "city": "Cagliari",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio di Musica \"G. P. da Palestrina\"",
+    "participants": 228,
+    "cities": [
+     "Cagliari",
+     "CAGLIARI"
+    ],
+    "coverage": 0.43
+   },
+   {
+    "name": "Conservatorio di Musica &quot;G. P. da Palestrina&quot;",
+    "participants": 33,
+    "cities": [
+     "Cagliari"
+    ],
+    "coverage": 0.43
+   }
+  ]
+ },
+ "I  TERNI01": {
+  "name": "Conservatorio Statale di Musica \"Giulio Briccialdi\" - Terni",
+  "city": "Terni",
+  "tier": 1,
+  "candidates": []
+ },
+ "I  TORINO05": {
+  "name": "Conservatorio Statale di Musica \"Giuseppe Verdi\" Torino",
+  "city": "Torino",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio Statale di Musica \"Giuseppe Verdi\" Torino",
+    "participants": 110,
+    "cities": [
+     "Torino",
+     "TORINO"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Conservatorio \"G. Verdi\" - Torino",
+    "participants": 12,
+    "cities": [
+     "Torino"
+    ],
+    "coverage": 0.5
+   }
+  ]
+ },
+ "I  UDINE02": {
+  "name": "Conservatorio Statale di Musica \"Jacopo Tomadini\"",
+  "city": "Udine",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "CONSERVATORIO STATALE DI MUSICA \"JACOPO TOMADINI\"",
+    "participants": 175,
+    "cities": [
+     "UDINE",
+     "Udine",
+     "Check the PIC in URF For City"
+    ],
+    "coverage": 0.83
+   },
+   {
+    "name": "CONSERVATORIO DI MUSICA JACOPO TOMADINI",
+    "participants": 20,
+    "cities": [
+     "UDINE",
+     "Udine"
+    ],
+    "coverage": 0.67
+   },
+   {
+    "name": "CONSERVATORIO STATALE DI MUSICA &quot;JACOPO TOMADINI&quot;",
+    "participants": 8,
+    "cities": [
+     "UDINE"
+    ],
+    "coverage": 0.83
+   }
+  ]
+ },
+ "I  SASSARI02": {
+  "name": "Conservatorio Statale di Musica \"L. Canepa\"",
+  "city": "Sassari",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio Statale di Musica \"L. Canepa\"",
+    "participants": 64,
+    "cities": [
+     "Sassari",
+     "SASSARI"
+    ],
+    "coverage": 0.8
+   },
+   {
+    "name": "Conservatorio Statale di Musica &quot;L. Canepa&quot;",
+    "participants": 2,
+    "cities": [
+     "Sassari"
+    ],
+    "coverage": 0.8
+   }
+  ]
+ },
+ "I  CAMPOBA03": {
+  "name": "Conservatorio Statale di Musica \"L. Perosi\" Campobasso",
+  "city": "Campobasso",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio Statale di Musica \"L. Perosi\" Campobasso",
+    "participants": 88,
+    "cities": [
+     "Campobasso",
+     "CAMPOBASSO"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Conservatorio Statale di Musica &quot;L. Perosi&quot; Campobasso",
+    "participants": 2,
+    "cities": [
+     "Campobasso"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "I  FOGGIA02": {
+  "name": "Conservatorio Statale di Musica \"Umberto Giordano\"",
+  "city": "Foggia",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "CONSERVATORIO STATALE DI MUSICA \"UMBERTO GIORDANO\"",
+    "participants": 106,
+    "cities": [
+     "Foggia",
+     "FOGGIA"
+    ],
+    "coverage": 0.83
+   },
+   {
+    "name": "CONSERVATORIO STATALE DI MUSICA &quot;UMBERTO GIORDANO&quot;",
+    "participants": 2,
+    "cities": [
+     "Foggia"
+    ],
+    "coverage": 0.83
+   },
+   {
+    "name": "Conservatorio di Musica 'Umberto Giordano'",
+    "participants": 1,
+    "cities": [
+     "Foggia"
+    ],
+    "coverage": 0.67
+   }
+  ]
+ },
+ "I  CALTANI01": {
+  "name": "Conservatorio Statale di Musica \"Vincenzo Bellini\" di Caltanissetta",
+  "city": "Caltanissetta",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio Statale di Musica \"V. Bellini \" di Caltanissetta",
+    "participants": 1,
+    "cities": [
+     "CALTANISSETTA"
+    ],
+    "coverage": 0.83
+   }
+  ]
+ },
+ "I  PADOVA02": {
+  "name": "Conservatorio Statale di Musica C. Pollini - Padova",
+  "city": "Padova",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio Statale di Musica C. Pollini -Padova",
+    "participants": 96,
+    "cities": [
+     "Padova",
+     "PADOVA",
+     "ΠΑΔΟΒΑ"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Conservatorio Statale di Musica C. Pollini - Padova",
+    "participants": 53,
+    "cities": [
+     "Padova",
+     "PADOVA"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "I  AVELLIN01": {
+  "name": "Conservatorio Statale di Musica Domenico Cimarosa di Avellino",
+  "city": "Avellino",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio Statale di Musica Domenico Cimarosa di Avellino",
+    "participants": 61,
+    "cities": [
+     "AVELLINO",
+     "BARONISSI",
+     "Avellino"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Conservatorio Statale di Musica ‘Domenico Cimarosa’ di Avellino",
+    "participants": 1,
+    "cities": [
+     "Avellino"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "I  VARESE05": {
+  "name": "Conservatorio Statale di Musica Giacomo Puccini",
+  "city": "Gallarate (VA)",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio statale di musica Giacomo Puccini",
+    "participants": 54,
+    "cities": [
+     "la Spezia",
+     "La Spezia"
+    ],
+    "coverage": 0.71
+   },
+   {
+    "name": "Conservatorio di Musica Giacomo Puccini di Gallarate",
+    "participants": 5,
+    "cities": [
+     "Gallarate (VA)"
+    ],
+    "coverage": 0.71
+   }
+  ]
+ },
+ "I  NOVARA01": {
+  "name": "Conservatorio Statale di Musica Guido Cantelli",
+  "city": "Novara",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio Statale di Musica Guido Cantelli",
+    "participants": 128,
+    "cities": [
+     "Novara",
+     "Padova",
+     "PADOVA"
+    ],
+    "coverage": 0.83
+   }
+  ]
+ },
+ "I  PESCARA01": {
+  "name": "Conservatorio Statale di Musica Luisa D'Annunzio",
+  "city": "Pescara",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio Statale di Musica Luisa D'Annunzio",
+    "participants": 134,
+    "cities": [
+     "Pescara",
+     "PESCARA"
+    ],
+    "coverage": 0.83
+   },
+   {
+    "name": "Conservatorio Statale di Musica Luisa D&apos;Annunzio",
+    "participants": 7,
+    "cities": [
+     "Pescara"
+    ],
+    "coverage": 0.83
+   }
+  ]
+ },
+ "I  GENOVA02": {
+  "name": "Conservatorio Statale di Musica Niccolò Paganini",
+  "city": "Genova",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio Statale di Musica Niccolò Paganini",
+    "participants": 68,
+    "cities": [
+     "GENOVA"
+    ],
+    "coverage": 0.83
+   },
+   {
+    "name": "Niccolò Paganini",
+    "participants": 6,
+    "cities": [
+     "GENOVA"
+    ],
+    "coverage": 0.33
+   },
+   {
+    "name": "Conservatorio di Musica Niccolo Paganini",
+    "participants": 1,
+    "cities": [
+     "Genova"
+    ],
+    "coverage": 0.67
+   }
+  ]
+ },
+ "I  BENEVEN03": {
+  "name": "Conservatorio Statale di Musica Nicola Sala",
+  "city": "Benevento",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio Statale di Musica Nicola Sala",
+    "participants": 46,
+    "cities": [
+     "BENEVENTO"
+    ],
+    "coverage": 0.83
+   }
+  ]
+ },
+ "I  CATANZA04": {
+  "name": "Conservatorio Statale di Musica P.I. Tchaikovsky",
+  "city": "Nocera Terinese",
+  "tier": 1,
+  "candidates": []
+ },
+ "I  ADRIA01": {
+  "name": "Conservatorio di Adria",
+  "city": "Adria (RO)",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio di Adria",
+    "participants": 69,
+    "cities": [
+     "Adria (RO)",
+     "Bologna",
+     "ΑΝΤΡΙΑ"
+    ],
+    "coverage": 0.67
+   }
+  ]
+ },
+ "I  COMO04": {
+  "name": "Conservatorio di Como",
+  "city": "Como",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio di Como",
+    "participants": 109,
+    "cities": [
+     "Como"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "I  MESSINA04": {
+  "name": "Conservatorio di Musica \"A. Corelli\" Messina",
+  "city": "Messina",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio di Musica \"A. Corelli\" Messina",
+    "participants": 131,
+    "cities": [
+     "Messina"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "I  ALESSAN01": {
+  "name": "Conservatorio di Musica \"A. Vivaldi\"",
+  "city": "Alessandria",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio di Musica \"A. Vivaldi\"",
+    "participants": 83,
+    "cities": [
+     "Alessandria",
+     "MILANO MALPENSA",
+     "MILANO"
+    ],
+    "coverage": 0.75
+   }
+  ]
+ },
+ "I  L-AQUIL04": {
+  "name": "Conservatorio di Musica \"Alfredo Casella\" L'Aquila",
+  "city": "L Aquila",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio di Musica \"Alfredo Casella\"",
+    "participants": 142,
+    "cities": [
+     "L'Aquila"
+    ],
+    "coverage": 0.8
+   },
+   {
+    "name": "CONSERVATORIO DI MUSICA ALFREDO CASELLA",
+    "participants": 79,
+    "cities": [
+     "L AQUILA",
+     "L'Aquila"
+    ],
+    "coverage": 0.8
+   },
+   {
+    "name": "Conservatorio di Musica Alfredo Casella",
+    "participants": 13,
+    "cities": [
+     "L AQUILA"
+    ],
+    "coverage": 0.8
+   }
+  ]
+ },
+ "I  PARMA02": {
+  "name": "Conservatorio di Musica \"Arrigo Boito\" Parma",
+  "city": "Parma",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "CONSERVATORIO DI MUSICA ARRIGO BOITO",
+    "participants": 321,
+    "cities": [
+     "PARMA",
+     "Parma",
+     "Parma PR"
+    ],
+    "coverage": 0.8
+   },
+   {
+    "name": "Conservatorio di Musica Arrigo Boito",
+    "participants": 125,
+    "cities": [
+     "Parma",
+     "PARMA"
+    ],
+    "coverage": 0.8
+   },
+   {
+    "name": "Conservatorio di Parma Arrigo Boito",
+    "participants": 1,
+    "cities": [
+     "Parma"
+    ],
+    "coverage": 0.8
+   }
+  ]
+ },
+ "I  VICENZA03": {
+  "name": "Conservatorio di Musica \"Arrigo Pedrollo\" di Vicenza",
+  "city": "Vicenza",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "CONSERVATORIO DI MUSICA \"ARRIGO PEDROLLO\" DI VICENZA",
+    "participants": 75,
+    "cities": [
+     "VICENZA",
+     "Vicenza"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "CONSERVATORIO DI MUSICA DI VICENZA \"ARRIGO PEDROLLO\"",
+    "participants": 42,
+    "cities": [
+     "VICENZA",
+     "Vicenza"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Conservatorio di Musica di Vicenza \"Arrigo Pedrollo\"",
+    "participants": 17,
+    "cities": [
+     "VICENZA"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "I  VENEZIA04": {
+  "name": "Conservatorio di Musica \"Benedetto Marcello\" di Venezia",
+  "city": "Venezia",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "CONSERVATORIO DI MUSICA BENEDETTO MARCELLO DI VENEZIA",
+    "participants": 116,
+    "cities": [
+     "VENEZIA",
+     "Venezia",
+     "Venice"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Conservatorio di Musica \"Benedetto Marcello\" di Venezia",
+    "participants": 34,
+    "cities": [
+     "Venezia",
+     "VENEZIA"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "I  MATERA01": {
+  "name": "Conservatorio di Musica \"Egidio Romualdo Duni\" di Matera",
+  "city": "Matera",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio di Musica \"Egidio Romualdo Duni\" di Matera",
+    "participants": 56,
+    "cities": [
+     "Matera"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Conservatorio di Musica \"E.R. Duni\"",
+    "participants": 4,
+    "cities": [
+     "Matera"
+    ],
+    "coverage": 0.5
+   }
+  ]
+ },
+ "I  REGGIO03": {
+  "name": "Conservatorio di Musica \"F. Cilea\"",
+  "city": "Reggio di Calabria",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio di Musica \"F. Cilea\"",
+    "participants": 77,
+    "cities": [
+     "Reggio di Calabria",
+     "REGGIO DI CALABRIA"
+    ],
+    "coverage": 0.6
+   }
+  ]
+ },
+ "I  VIBO-VA01": {
+  "name": "Conservatorio di Musica \"Fausto Torrefranca\" Vibo Valentia",
+  "city": "Vibo Valentia",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "CONSERVATORIO DI MUSICA \"F.TORREFRANCA\" VIBO VALENTIA",
+    "participants": 29,
+    "cities": [
+     "VIBO VALENTIA"
+    ],
+    "coverage": 0.83
+   }
+  ]
+ },
+ "I  PIACENZ01": {
+  "name": "Conservatorio di Musica \"Giuseppe Nicolini\"",
+  "city": "Piacenza",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio di Musica \"Giuseppe Nicolini\"",
+    "participants": 43,
+    "cities": [
+     "PIACENZA"
+    ],
+    "coverage": 0.8
+   },
+   {
+    "name": "Conservatorio  \"G. Nicolini\"",
+    "participants": 10,
+    "cities": [
+     "PIACENZA"
+    ],
+    "coverage": 0.4
+   }
+  ]
+ },
+ "I  MILANO09": {
+  "name": "Conservatorio di Musica \"Giuseppe Verdi\" di Milano",
+  "city": "Milano",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "CONSERVATORIO DI MUSICA \"G.VERDI\" DI MILANO",
+    "participants": 295,
+    "cities": [
+     "MILANO",
+     "Milano",
+     "GRAZ"
+    ],
+    "coverage": 0.8
+   },
+   {
+    "name": "CONSERVATORIO DI MUSICA &quot;G.VERDI&quot; DI MILANO",
+    "participants": 38,
+    "cities": [
+     "MILANO",
+     "Milano"
+    ],
+    "coverage": 0.8
+   },
+   {
+    "name": "CONSERVATORIO \"G.VERDI\" DI MILANO",
+    "participants": 28,
+    "cities": [
+     "MILANO",
+     "Milano"
+    ],
+    "coverage": 0.6
+   }
+  ]
+ },
+ "I  FROSINO02": {
+  "name": "Conservatorio di Musica \"L. Refice\"",
+  "city": "Frosinone",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio di Musica \"L. Refice\"",
+    "participants": 280,
+    "cities": [
+     "Frosinone",
+     "FROSINONE"
+    ],
+    "coverage": 0.75
+   },
+   {
+    "name": "Conservatorio di Musica &quot;L. Refice&quot;",
+    "participants": 22,
+    "cities": [
+     "Frosinone"
+    ],
+    "coverage": 0.75
+   }
+  ]
+ },
+ "I  MANTOVA01": {
+  "name": "Conservatorio di Musica \"Lucio Campiani\" Mantova",
+  "city": "Mantova",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio di Musica \"Lucio Campiani\" Mantova",
+    "participants": 70,
+    "cities": [
+     "MANTOVA",
+     "Mantova"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Campiani1",
+    "participants": 1,
+    "cities": [
+     "MANTOVA"
+    ],
+    "coverage": 0.2
+   }
+  ]
+ },
+ "I  FIRENZE04": {
+  "name": "Conservatorio di Musica \"Luigi Cherubini\"",
+  "city": "Firenze",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio di Musica \"Luigi Cherubini\"",
+    "participants": 215,
+    "cities": [
+     "Firenze",
+     "FIRENZE",
+     "Check the PIC in URF For City"
+    ],
+    "coverage": 0.8
+   },
+   {
+    "name": "Conservatorio di Musica Luigi Cherubini Firenze",
+    "participants": 2,
+    "cities": [
+     "Firenze"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Conservatorio Cerubini",
+    "participants": 1,
+    "cities": [
+     "Florence"
+    ],
+    "coverage": 0.4
+   }
+  ]
+ },
+ "I  MONOPOL02": {
+  "name": "Conservatorio di Musica \"Nino Rota\"",
+  "city": "Monopoli",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio di Musica \"Nino Rota\"",
+    "participants": 316,
+    "cities": [
+     "Monopoli",
+     "MONOPOLI"
+    ],
+    "coverage": 0.8
+   },
+   {
+    "name": "Conservatorio di Musica &quot;Nino Rota&quot;",
+    "participants": 12,
+    "cities": [
+     "Monopoli"
+    ],
+    "coverage": 0.8
+   },
+   {
+    "name": "Conservatorio di musica Nino Rota",
+    "participants": 1,
+    "cities": [
+     "Monopoli"
+    ],
+    "coverage": 0.8
+   }
+  ]
+ },
+ "I  ROMA09": {
+  "name": "Conservatorio di Musica \"Santa Cecilia\"",
+  "city": "Roma",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "CONSERVATORIO DI MUSICA \"SANTA CECILIA\"",
+    "participants": 537,
+    "cities": [
+     "ROME",
+     "ROMA",
+     "Rome"
+    ],
+    "coverage": 0.8
+   }
+  ]
+ },
+ "I  COSENZA03": {
+  "name": "Conservatorio di Musica \"Stanislao Giacomantonio\"",
+  "city": "Cosenza",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio di Musica \"Stanislao Giacomantonio\"",
+    "participants": 266,
+    "cities": [
+     "COSENZA",
+     "Cosenza",
+     "Roma"
+    ],
+    "coverage": 0.8
+   },
+   {
+    "name": "Conservatorio di Musica &quot;Stanislao Giacomantonio&quot;",
+    "participants": 4,
+    "cities": [
+     "COSENZA"
+    ],
+    "coverage": 0.8
+   }
+  ]
+ },
+ "I  CREMONA01": {
+  "name": "Conservatorio di Musica 'Claudio Monteverdi' di Cremona",
+  "city": "Cremona",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio di musica \"C. Monteverdi\"",
+    "participants": 25,
+    "cities": [
+     "Bolzano"
+    ],
+    "coverage": 0.6
+   },
+   {
+    "name": "Conservatorio di Musica 'Claudio Monteverdi' di Cremona",
+    "participants": 7,
+    "cities": [
+     "CREMONA"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "I  ROVIGO01": {
+  "name": "Conservatorio di Musica Francesco Venezze",
+  "city": "Rovigo",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio di Musica Francesco Venezze",
+    "participants": 161,
+    "cities": [
+     "ROVIGO",
+     "Rovigo"
+    ],
+    "coverage": 0.8
+   },
+   {
+    "name": "Conservatorio di Musica \"F. Venezze\"",
+    "participants": 12,
+    "cities": [
+     "ROVIGO"
+    ],
+    "coverage": 0.6
+   },
+   {
+    "name": "Conservatorio di Musica \"Francesco Venezze\"",
+    "participants": 1,
+    "cities": [
+     "Rovigo"
+    ],
+    "coverage": 0.8
+   }
+  ]
+ },
+ "I  PAVIA02": {
+  "name": "Conservatorio di Musica Franco Vittadini",
+  "city": "Pavia",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "CONSERVATORIO DI MUSICA FRANCO VITTADINI",
+    "participants": 2,
+    "cities": [
+     "PAVIA"
+    ],
+    "coverage": 0.8
+   }
+  ]
+ },
+ "I  BOLOGNA04": {
+  "name": "Conservatorio di Musica G.B.Martini",
+  "city": "Bologna",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio di Musica G.B.Martini",
+    "participants": 230,
+    "cities": [
+     "Bologna",
+     "BOLOGNA",
+     "Check the PIC in URF For City"
+    ],
+    "coverage": 0.75
+   },
+   {
+    "name": "Marini S.p.A",
+    "participants": 1,
+    "cities": [
+     "Ravenna"
+    ],
+    "coverage": 0.25
+   },
+   {
+    "name": "Conservatorio di Musica G. B. Martini",
+    "participants": 1,
+    "cities": [
+     "Bolonia"
+    ],
+    "coverage": 0.75
+   }
+  ]
+ },
+ "I  LA-SPEZ01": {
+  "name": "Conservatorio di Musica Giacomo Puccini - La Spezia",
+  "city": "La Spezia",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio G.Puccini, La Spezia",
+    "participants": 7,
+    "cities": [
+     "la Spezia",
+     "La Spezia"
+    ],
+    "coverage": 0.6
+   }
+  ]
+ },
+ "I  SALERNO02": {
+  "name": "Conservatorio di Musica Giuseppe Martucci Salerno",
+  "city": "Salerno",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio di Musica Giuseppe Martucci Salerno",
+    "participants": 296,
+    "cities": [
+     "Salerno"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "I  TRIESTE02": {
+  "name": "Conservatorio di Musica Giuseppe Tartini",
+  "city": "Trieste",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "CONSERVATORIO DI MUSICA GIUSEPPE TARTINI",
+    "participants": 642,
+    "cities": [
+     "TRIESTE",
+     "Trieste",
+     "FOGGIA"
+    ],
+    "coverage": 0.8
+   },
+   {
+    "name": "CONSERVATORIO DI MUSICA GIUSEPPE TARTINI di Trieste",
+    "participants": 47,
+    "cities": [
+     "TRIESTE"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "I  BRESCIA06": {
+  "name": "Conservatorio di Musica Luca Marenzio",
+  "city": "Brescia",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio di Musica Luca Marenzio",
+    "participants": 71,
+    "cities": [
+     "Brescia",
+     "GRAZ",
+     "VERONA"
+    ],
+    "coverage": 0.8
+   }
+  ]
+ },
+ "I  REGGIO05": {
+  "name": "Conservatorio di Musica Reggio Emilia e Castelnovo ne' Monti",
+  "city": "Reggio Emilia",
+  "tier": 1,
+  "candidates": []
+ },
+ "I  MODENA05": {
+  "name": "Conservatorio di Musica Vecchi Tonelli",
+  "city": "Modena",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio di Musica Vecchi Tonelli",
+    "participants": 6,
+    "cities": [
+     "Modena"
+    ],
+    "coverage": 0.8
+   }
+  ]
+ },
+ "I  LATINA02": {
+  "name": "Conservatorio di Musica di Latina - Ottorino Respighi",
+  "city": "Latina",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio di Musica di Latina - Ottorino Respighi",
+    "participants": 107,
+    "cities": [
+     "LATINA",
+     "roma"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Conservatorio di Latina",
+    "participants": 6,
+    "cities": [
+     "LATINA"
+    ],
+    "coverage": 0.4
+   }
+  ]
+ },
+ "I  LECCE03": {
+  "name": "Conservatorio di Musica di Lecce - Tito Schipa",
+  "city": "Lecce",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio di Musica di Lecce - Tito Schipa",
+    "participants": 112,
+    "cities": [
+     "Lecce",
+     "LECCE"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "I  PERUGIA03": {
+  "name": "Conservatorio di Musica di Perugia",
+  "city": "Perugia",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio di Musica di Perugia",
+    "participants": 69,
+    "cities": [
+     "Perugia"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "I  TRAPANI02": {
+  "name": "Conservatorio di Musica di Stato \"Antonio Scontrino\" - Trapani",
+  "city": "Trapani",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio di Musica di Stato \"Antonio Scontrino\" - Trapani",
+    "participants": 151,
+    "cities": [
+     "Trapani",
+     "TRAPANI"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "I  PALERMO04": {
+  "name": "Conservatorio di Musica di Stato Alessandro Scarlatti Palermo",
+  "city": "Palermo",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "CONSERVATORIO DI MUSICA DI STATO ALESSANDRO SCARLATTI - PALERMO",
+    "participants": 59,
+    "cities": [
+     "Palermo",
+     "PALERMO"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Conservatorio A. Scarlatti",
+    "participants": 9,
+    "cities": [
+     "Palermo"
+    ],
+    "coverage": 0.33
+   }
+  ]
+ },
+ "I  SIENA04": {
+  "name": "Conservatorio di Siena \"Rinaldo Franci\"",
+  "city": "Siena",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio di Siena \"Rinaldo Franci\"",
+    "participants": 5,
+    "cities": [
+     "Siena"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "I  BOLZANO02": {
+  "name": "Conservatorio di musica \"Claudio Monteverdi\" Musik-Konservatorium Bolzano-Bozen",
+  "city": "Bolzano",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio di musica \"Claudio Monteverdi\" Musik-Konservatorium Bolzano-Bozen",
+    "participants": 132,
+    "cities": [
+     "Bolzano",
+     "BOLZANO"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Conservatorio di musica &quot;Claudio Monteverdi&quot; Musik-Konservatorium Bolzano-Bozen",
+    "participants": 6,
+    "cities": [
+     "Bolzano"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "I  TRENTO02": {
+  "name": "Conservatorio di musica \"F.A. Bonporti\" di Trento",
+  "city": "Trento",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio di musica \"F.A. Bonporti\" di Trento",
+    "participants": 150,
+    "cities": [
+     "Trento",
+     "TRENTO",
+     "Check the PIC in URF For City"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Conservatorio di musica &quot;F.A. Bonporti&quot; di Trento",
+    "participants": 5,
+    "cities": [
+     "Trento"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "I  POTENZA03": {
+  "name": "Conservatorio di musica \"Gesualdo da Venosa\"",
+  "city": "Potenza",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio di musica \"Gesualdo da Venosa\"",
+    "participants": 8,
+    "cities": [
+     "Potenza"
+    ],
+    "coverage": 0.8
+   }
+  ]
+ },
+ "I  LUCCA03": {
+  "name": "Conservatorio di musica \"Luigi Boccherini\"",
+  "city": "Lucca",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio \"Boccherini\"",
+    "participants": 7,
+    "cities": [
+     "Lucca"
+    ],
+    "coverage": 0.4
+   }
+  ]
+ },
+ "I  BARI03": {
+  "name": "Conservatorio di musica \"Niccolò Piccinni\" - Bari",
+  "city": "Bari",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio di musica \"Niccolò Piccinni\" - Bari",
+    "participants": 103,
+    "cities": [
+     "Bari",
+     "BARI"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Conservatorio di Musica \"Niccolò Piccinni\" - Bari",
+    "participants": 87,
+    "cities": [
+     "Bari",
+     "BARI"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Conservatorio Niccolò Piccinni di Bari",
+    "participants": 44,
+    "cities": [
+     "Bari",
+     "BARI"
+    ],
+    "coverage": 0.8
+   }
+  ]
+ },
+ "I  LIVORNO01": {
+  "name": "Conservatorio statale \"Pietro Mascagni\"",
+  "city": "Livorno",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Conservatorio statale Pietro Mascagni",
+    "participants": 2,
+    "cities": [
+     "Livorno"
+    ],
+    "coverage": 0.8
+   }
+  ]
+ },
+ "I  FIRENZE07": {
+  "name": "Fondazione Scuola di Musica di Fiesole ONLUS",
+  "city": "San Domenico di Fiesole FI",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "FONDAZIONE SCUOLA DI MUSICA DI FIESOLE ONLUS",
+    "participants": 59,
+    "cities": [
+     "SAN DOMENICO DI FIESOLE FI"
+    ],
+    "coverage": 0.62
+   },
+   {
+    "name": "FONDAZIONE I.R.P.E.A.",
+    "participants": 2,
+    "cities": [
+     "PADOVA"
+    ],
+    "coverage": 0.12
+   },
+   {
+    "name": "Fondazione C.R.T.",
+    "participants": 1,
+    "cities": [
+     "Torino"
+    ],
+    "coverage": 0.12
+   }
+  ]
+ },
+ "I  AOSTA03": {
+  "name": "Istituto Musicale Pareggiato della Valle d'Aosta",
+  "city": "Aosta",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Istituto Musicale Pareggiato della Valle d'Aosta",
+    "participants": 14,
+    "cities": [
+     "Aosta"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "I  TERAMO02": {
+  "name": "Istituto Statale Superiore di Studi Musicali e Coreutici \"G. Braga\"",
+  "city": "Teramo",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Istituto Statale Superiore di Studi Musicali e Coreutici \"G. Braga\"",
+    "participants": 20,
+    "cities": [
+     "Teramo"
+    ],
+    "coverage": 0.88
+   }
+  ]
+ },
+ "I  RAVENNA02": {
+  "name": "Istituto Superiore Di Studi Musicali \"Giuseppe Verdi\"",
+  "city": "Ravenna",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Istituto Superiore Di Studi Musicali \"Giuseppe Verdi\"",
+    "participants": 3,
+    "cities": [
+     "Ravenna"
+    ],
+    "coverage": 0.86
+   }
+  ]
+ },
+ "I  CATANIA06": {
+  "name": "Istituto Superiore di Studi Musicali \"Vincenzo Bellini\" Catania",
+  "city": "Catania",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Istituto Superiore di Studi Musicali \"Vincenzo Bellini\" Catania",
+    "participants": 61,
+    "cities": [
+     "Catania",
+     "CATANIA"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Istituto Superiore di Studi Musicali &quot;Vincenzo Bellini&quot; Catania",
+    "participants": 7,
+    "cities": [
+     "Catania"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "I  CUNEO01": {
+  "name": "Istituto Superiore di Studi Musicali - Conservatorio di Musica Giorgio Federico Ghedini di Cuneo",
+  "city": "Cuneo",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "INSTITUTO SUPERIORE DI STDUDI MUSICALI - CONSERVATORIO DI MUSICA GIORGIO FEDERICO GHEDINI DI CUNEO",
+    "participants": 62,
+    "cities": [
+     "CUNEO",
+     "Cuneo",
+     "GRAZ"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Conservatorio di musica \"G.F.Ghedini\"",
+    "participants": 31,
+    "cities": [
+     "Cuneo",
+     "CUNEO"
+    ],
+    "coverage": 0.25
+   },
+   {
+    "name": "Conservatorio di musica &quot;G.F.Ghedini&quot;",
+    "participants": 3,
+    "cities": [
+     "Cuneo"
+    ],
+    "coverage": 0.25
+   }
+  ]
+ },
+ "I  MILANO24": {
+  "name": "Mussida Music Publishing srl",
+  "city": "Milano",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Mussida Music Publishing",
+    "participants": 1,
+    "cities": [
+     "Milano"
+    ],
+    "coverage": 0.6
+   }
+  ]
+ },
+ "I  ROMA30": {
+  "name": "Saint Louis Music Center Srl",
+  "city": "Rome",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Saint Louis Music Center Srl",
+    "participants": 476,
+    "cities": [
+     "Rome",
+     "Roma",
+     "ROME"
+    ],
+    "coverage": 0.83
+   },
+   {
+    "name": "Saint Louis Music Center SRL",
+    "participants": 1,
+    "cities": [
+     "Rome"
+    ],
+    "coverage": 0.83
+   }
+  ]
+ },
+ "LT VILNIUS05": {
+  "name": "Lietuvos Muzikos ir Teatro Akademija",
+  "city": "Vilnius",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "LIETUVOS MUZIKOS IR TEATRO AKADEMIJA",
+    "participants": 1342,
+    "cities": [
+     "VILNIUS",
+     "Vilnius",
+     "KLAIPEDA"
+    ],
+    "coverage": 0.83
+   }
+  ]
+ },
+ "LV RIGA05": {
+  "name": "Jazepa Vitola Latvijas Muzikas akademija",
+  "city": "Riga",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Jazepa Vitola Latvijas Muzikas akademija",
+    "participants": 1495,
+    "cities": [
+     "RIGA",
+     "Riga",
+     "R?ga"
+    ],
+    "coverage": 0.83
+   }
+  ]
+ },
+ "NL AMSTERD07": {
+  "name": "Stichting Amsterdamse Hogeschool voor de Kunsten",
+  "city": "Amsterdam",
+  "tier": 2,
+  "candidates": [
+   {
+    "name": "STICHTING HOGESCHOOL VAN AMSTERDAM",
+    "participants": 7445,
+    "cities": [
+     "AMSTERDAM",
+     "Amsterdam",
+     "amsterdam"
+    ],
+    "coverage": 0.8
+   },
+   {
+    "name": "STICHTING AMSTERDAMSE HOGESCHOOL VOOR DE KUNSTEN",
+    "participants": 526,
+    "cities": [
+     "AMSTERDAM",
+     "Amsterdam",
+     "amsterdam"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Stichting Amsterdamse Hogeschool voor de Kunsten",
+    "participants": 247,
+    "cities": [
+     "Amsterdam",
+     "AMSTERDAM",
+     "NL AMSTERD07"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "W Amsterdam",
+    "participants": 19,
+    "cities": [
+     "Amsterdam",
+     "Amsterdan",
+     "UNDEFINED"
+    ],
+    "coverage": 0.4
+   },
+   {
+    "name": "Hogeschool van Amsterdam",
+    "participants": 4,
+    "cities": [
+     "Amsterdam"
+    ],
+    "coverage": 0.6
+   },
+   {
+    "name": "Amsterdamse Hogeschool voor de Kunsten",
+    "participants": 3,
+    "cities": [
+     "Amsterdam"
+    ],
+    "coverage": 0.8
+   }
+  ]
+ },
+ "NL ROTTERD09": {
+  "name": "Stichting Codarts Hogeschool voor de Kunsten",
+  "city": "Rotterdam",
+  "tier": 2,
+  "candidates": [
+   {
+    "name": "Codarts",
+    "participants": 37,
+    "cities": [
+     "Rotterdam"
+    ],
+    "coverage": 0.2
+   },
+   {
+    "name": "CODART Rotterdam",
+    "participants": 2,
+    "cities": [
+     "Rotterdam"
+    ],
+    "coverage": 0.4
+   }
+  ]
+ },
+ "NL S-GRAVE05": {
+  "name": "Stichting Hogeschool der Kunsten Den Haag",
+  "city": "Den Haag",
+  "tier": 2,
+  "candidates": [
+   {
+    "name": "STICHTING HOGESCHOOL DER KUNSTEN DEN HAAG",
+    "participants": 1448,
+    "cities": [
+     "DEN HAAG",
+     "Den Haag",
+     "The Hague"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "HOGESCHOOL DER KUNSTEN DEN HAAG",
+    "participants": 251,
+    "cities": [
+     "DEN HAAG",
+     "Den Haag",
+     "Haga"
+    ],
+    "coverage": 0.8
+   },
+   {
+    "name": "Stichting Hogeschool der Kunsten Den Haag",
+    "participants": 154,
+    "cities": [
+     "Den Haag",
+     "The Hague",
+     "DEN HAAG"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "NL UTRECHT29": {
+  "name": "Stichting Hogeschool voor de Kunsten Utrecht",
+  "city": "Utrecht",
+  "tier": 2,
+  "candidates": [
+   {
+    "name": "Stichting Hogeschool Utrecht",
+    "participants": 6788,
+    "cities": [
+     "UTRECHT",
+     "Utrecht",
+     "Utrech"
+    ],
+    "coverage": 0.75
+   },
+   {
+    "name": "STICHTING HOGESCHOOL VOOR DE KUNSTEN UTRECHT",
+    "participants": 788,
+    "cities": [
+     "UTRECHT",
+     "Utrecht",
+     "BK Utrecht"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Hogeschool Utrecht",
+    "participants": 680,
+    "cities": [
+     "UTRECHT",
+     "Utrecht",
+     "UTRECH"
+    ],
+    "coverage": 0.5
+   },
+   {
+    "name": "HOGESCHOOL UTRECHT",
+    "participants": 2,
+    "cities": [
+     "UTRECHT"
+    ],
+    "coverage": 0.5
+   }
+  ]
+ },
+ "N  OSLO66": {
+  "name": "Barratt Due musikkinstitutt",
+  "city": "Oslo",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Barratt Due musikkinstitutt",
+    "participants": 38,
+    "cities": [
+     "Oslo",
+     "OSLO"
+    ],
+    "coverage": 0.75
+   }
+  ]
+ },
+ "N  OSLO07": {
+  "name": "Kunsthogskolen i Oslo KHiO",
+  "city": "Oslo",
+  "tier": 2,
+  "candidates": [
+   {
+    "name": "KUNSTHOGSKOLEN I OSLO KHIO",
+    "participants": 408,
+    "cities": [
+     "OSLO",
+     "Oslo",
+     "STORD"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Kunsthøgskolen i Oslo",
+    "participants": 37,
+    "cities": [
+     "Oslo"
+    ],
+    "coverage": 0.67
+   }
+  ]
+ },
+ "N  OSLO03": {
+  "name": "Norges Musikkhogskole",
+  "city": "Oslo",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Norges musikkhøgskole",
+    "participants": 831,
+    "cities": [
+     "Oslo",
+     "OSLO"
+    ],
+    "coverage": 0.67
+   }
+  ]
+ },
+ "PL BYDGOSZ04": {
+  "name": "Akademia Muzyczna im. Feliksa Nowowiejskiego w Bydgoszczy",
+  "city": "Bydgoszcz",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Akademia Muzyczna imienia Feliksa Nowowiejskiego w Bydgoszczy",
+    "participants": 88,
+    "cities": [
+     "Bydgoszcz",
+     "BYDGOSZCZ"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Akademia Muzyczna w Bydgoszczy",
+    "participants": 8,
+    "cities": [
+     "Bydgoszcz"
+    ],
+    "coverage": 0.57
+   }
+  ]
+ },
+ "PL LODZ04": {
+  "name": "Akademia Muzyczna im. Grażyny i Kiejstuta Bacewiczów w Łodzi",
+  "city": "Łódź",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Akademia Muzyczna im. Grazyny i Kiejstuta Bacewiczow w Lodzi",
+    "participants": 221,
+    "cities": [
+     "Lodz",
+     "LODZ",
+     "Lódz"
+    ],
+    "coverage": 0.86
+   }
+  ]
+ },
+ "PL POZNAN06": {
+  "name": "Akademia Muzyczna im. Ignacego Jana Paderewskiego w Poznaniu",
+  "city": "Poznań",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Akademia Muzyczna im.I. J. Paderewskiego w Poznaniu",
+    "participants": 603,
+    "cities": [
+     "Poznan",
+     "POZNAN",
+     "PL PONAN06"
+    ],
+    "coverage": 0.57
+   },
+   {
+    "name": "Akademia Muzyczna im.I.J.Paderewskiego w Poznaniu",
+    "participants": 100,
+    "cities": [
+     "Poznan",
+     "POZNAN"
+    ],
+    "coverage": 0.57
+   }
+  ]
+ },
+ "PL WROCLAW06": {
+  "name": "Akademia Muzyczna im. Karola Lipińskiego we Wrocławiu",
+  "city": "Wrocław",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Akademia Muzyczna imienia Karola Lipinskiego we Wroclawiu",
+    "participants": 420,
+    "cities": [
+     "Wroclaw",
+     "WROCLAW",
+     "Wroc?aw"
+    ],
+    "coverage": 0.86
+   },
+   {
+    "name": "Akademia muzycna im. Karola Lipinskiego",
+    "participants": 1,
+    "cities": [
+     "Wroclaw"
+    ],
+    "coverage": 0.57
+   }
+  ]
+ },
+ "PL KATOWIC04": {
+  "name": "Akademia Muzyczna im. Karola Szymanowskiego w Katowicach",
+  "city": "Katowice",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Akademia Muzyczna im. Karola Szymanowskiego",
+    "participants": 201,
+    "cities": [
+     "Katowice",
+     "KATOWICE",
+     "KATOWIC"
+    ],
+    "coverage": 0.67
+   },
+   {
+    "name": "Akademia Muzyczna w Katowicach",
+    "participants": 44,
+    "cities": [
+     "Katowice",
+     "Poznan",
+     "KATOWICE"
+    ],
+    "coverage": 0.5
+   }
+  ]
+ },
+ "PL KRAKOW09": {
+  "name": "Akademia Muzyczna im. Krzysztofa Pendereckiego w Krakowie",
+  "city": "Kraków",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Akademia Muzyczna w Krakowie",
+    "participants": 373,
+    "cities": [
+     "KRAK�W",
+     "KRAKÓW",
+     "KRAK?W"
+    ],
+    "coverage": 0.5
+   },
+   {
+    "name": "AKADEMIA MUZYCZNA IM. KRZYSZTOFA PENDERECKIEGO W KRAKOWIE",
+    "participants": 205,
+    "cities": [
+     "KRAKOW",
+     "KRAKÓW",
+     "Kraków"
+    ],
+    "coverage": 0.83
+   },
+   {
+    "name": "AKADEMIA MUZYCZNA W KRAKOWIE",
+    "participants": 110,
+    "cities": [
+     "KRAKOW",
+     "KRAK�W",
+     "KRAKÓW"
+    ],
+    "coverage": 0.5
+   }
+  ]
+ },
+ "PL GDANSK04": {
+  "name": "Akademia Muzyczna im. Stanisława Moniuszki w Gdańsku",
+  "city": "Gdańsk",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Akademia Muzyczna im. Stanislawa Moniuszki w Gdansku",
+    "participants": 417,
+    "cities": [
+     "Gdańsk",
+     "Gda�sk",
+     "Gda?sk"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "PL WARSZAW09": {
+  "name": "Uniwersytet Muzyczny Fryderyka Chopina w Warszawie",
+  "city": "Warszawa",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Uniwersytet Muzyczny Fryderyka Chopina",
+    "participants": 566,
+    "cities": [
+     "WARSAW",
+     "Warszawa",
+     "Warso"
+    ],
+    "coverage": 0.67
+   }
+  ]
+ },
+ "RO CLUJNAP02": {
+  "name": "Academia Nationala de Muzica Gheorghe Dima",
+  "city": "Cluj-Napoca",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Academia de Muzica Gheorghe Dima",
+    "participants": 284,
+    "cities": [
+     "Cluj-Napoca",
+     "CLUJ-NAPOCA",
+     "Clujnapoca"
+    ],
+    "coverage": 0.57
+   },
+   {
+    "name": "Academia Națională de Muzica Gheorghe Dima",
+    "participants": 108,
+    "cities": [
+     "Cluj-Napoca",
+     "Clujnapoca"
+    ],
+    "coverage": 0.71
+   }
+  ]
+ },
+ "RO BUCURES03": {
+  "name": "Universitatea Nationala de Muzica Bucuresti",
+  "city": "Bucuresti",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "UNIVERSITATEA NATIONALA DE MUZICA BUCURESTI",
+    "participants": 260,
+    "cities": [
+     "BUCURESTI",
+     "Bucure?ti",
+     "Bucharest"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "RO TARGU01": {
+  "name": "Universitatea de Arte din Targu Mures",
+  "city": "Targu Mures",
+  "tier": 2,
+  "candidates": [
+   {
+    "name": "UNIVERSITATEA DE ARTE DIN TARGU MURES",
+    "participants": 210,
+    "cities": [
+     "TARGU MURES",
+     "Targu Mures",
+     "Targu-Mures"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "L'Universitatea de Arte din Târgu Mureș",
+    "participants": 2,
+    "cities": [
+     "Târgu Mureș"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "S  STOCKHO11": {
+  "name": "Kungliga Musikhogskolan i Stockholm",
+  "city": "Stockholm",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "KUNGLIGA MUSIKHOGSKOLAN I STOCKHOLM",
+    "participants": 302,
+    "cities": [
+     "STOCKHOLM",
+     "Stockholm"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Kungliga Musikhögskolan I Stockholm",
+    "participants": 131,
+    "cities": [
+     "STOCKHOLM",
+     "Stockholm"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "S  STOCKHO15": {
+  "name": "Stiftelsen Stockholms Musikpedagogiska Institut",
+  "city": "Huddinge",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Stiftelsen Stockholms Musikpedagogiska Institut",
+    "participants": 20,
+    "cities": [
+     "Stocholm",
+     "Stockholm",
+     "Uppsala"
+    ],
+    "coverage": 0.8
+   }
+  ]
+ },
+ "S  STOCKHO27": {
+  "name": "Stockholms Konstnarliga Hogskola",
+  "city": "Stockholm",
+  "tier": 2,
+  "candidates": [
+   {
+    "name": "STOCKHOLMS KONSTNARLIGA HOGSKOLA",
+    "participants": 315,
+    "cities": [
+     "STOCKHOLM",
+     "Stockholm"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Stockholms konstnärliga högskola",
+    "participants": 27,
+    "cities": [
+     "STOCKHOLM"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Stockholm",
+    "participants": 1,
+    "cities": [
+     "Stockholm"
+    ],
+    "coverage": 0.5
+   }
+  ]
+ },
+ "SI LJUBLJA33": {
+  "name": "Konservatorij za glasbo in balet Ljubljana",
+  "city": "Ljubljana",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "Konservatorij za glasbo in balet Ljubljana",
+    "participants": 10,
+    "cities": [
+     "Ljubljana",
+     "Ljublana"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "SK BRATISL05": {
+  "name": "Vysoka Skola Muzickych Umeni v Bratislave",
+  "city": "Bratislava",
+  "tier": 1,
+  "candidates": [
+   {
+    "name": "VYSOKA SKOLA MUZICKYCH UMENI V BRATISLAVE",
+    "participants": 362,
+    "cities": [
+     "Bratislava",
+     "BRATISLAVA",
+     "Bratislav"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Vysoka skola múzických umení v Bratislave",
+    "participants": 360,
+    "cities": [
+     "Bratislava",
+     "BRATISLAVA"
+    ],
+    "coverage": 1.0
+   },
+   {
+    "name": "Vysoka skola muzickych umeni v Bratislave",
+    "participants": 73,
+    "cities": [
+     "Bratislava"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "TR ANKARA26": {
+  "name": "Ankara Music and Fine Arts University",
+  "city": "Ankara",
+  "tier": 2,
+  "candidates": [
+   {
+    "name": "Ankara Music And Fine Arts University",
+    "participants": 14,
+    "cities": [
+     "Ankara"
+    ],
+    "coverage": 1.0
+   }
+  ]
+ },
+ "TR ISTANBU06": {
+  "name": "Mimar Sinan Fine Arts University",
+  "city": "Istanbul",
+  "tier": 2,
+  "candidates": [
+   {
+    "name": "MIMAR SINAN FINE ARTS UNIVERSITY",
+    "participants": 1415,
+    "cities": [
+     "ISTANBUL",
+     "Istanbul",
+     "FINDIKLI-ISTANBUL"
+    ],
+    "coverage": 0.83
+   },
+   {
+    "name": "Mimar Sinan Fine Arts University",
+    "participants": 2,
+    "cities": [
+     "Istanbul"
+    ],
+    "coverage": 0.83
+   }
+  ]
+ }
+}

@@ -27,3 +27,19 @@ The coverage section (map of areas with no institution within 300 km, plus a per
 **Why:** the feature was judged unnecessary for the page.
 
 **How to apply:** `scripts/build_coverage.py`, `data/coverage.json` and `data/reference/` are kept in the repository and `scripts/update.py` still regenerates the data, so the section can be restored from git history if needed. Don't re-add it without a specific question it answers.
+
+## Erasmus+ mobility profile: classes, not counts; 2014–2022
+
+The panel shows mobility types and a four-class scale per institution (`data/mobility.json`), not exact counts or ratios.
+
+**Why:** the question is what mobility each institution offers and roughly how much, not a comparison per capita or per student. The data has no institution identifiers, so institutions are matched by name, and organisation names are missing from part of the rows; exact counts would look more precise than they are. Class limits come from the data (quartiles among the institutions on the page; thirds for traineeships, where quartile limits overlap), not from chosen round numbers. Short-term student mobility is kept in `mobility.json` but hidden on the page: 150 of 186 institutions have none in the data (2021–2022 only), so the row would be mostly empty. Show it again once more years are complete. 2023–2024 exist in the source but are incomplete until the projects close.
+
+**How to apply:** when extending the years, move `LAST_YEAR` in `scripts/build_mobility.py` only once the year is at least two to three years old, and re-run `find_mobility_names.py` to catch new name forms. Keep "Not in data" distinct from "not offered". Four institutions could not be found (Friedrich Gulda School of Music, Evangelische Hochschule für Kirchenmusik Halle, IESM Aix-en-Provence, Conservatorio Tchaikovsky Nocera Terinese).
+
+## Idea: international office contact per institution
+
+Add the general e-mail address of each institution's international office to the details panel.
+
+**Why:** the ECHE list has no contact details (only name, address, website and codes), and a visitor looking for a partner usually needs exactly this.
+
+**How to apply:** only general office addresses (for example international@…), never the names or e-mail addresses of individual people, so the data stays current when staff change and no personal data is published. Record the source URL for every address. Collect one country at a time on explicit request, as with the strategy documents, and say on the page how many institutions are covered.

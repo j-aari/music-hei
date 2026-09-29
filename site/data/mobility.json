@@ -1,0 +1,6034 @@
+{
+ "meta": {
+  "generated": "2026-09-29",
+  "source": "Erasmus+ Mobility Raw Data, European Commission (Key Action 1, higher education)",
+  "source_url": "https://data.europa.eu/data/datasets/erasmus-mobility-raw-data",
+  "years": [
+   2014,
+   2022
+  ],
+  "short_term_years": [
+   2021,
+   2022
+  ],
+  "types": {
+   "studies": "Student exchange (studies)",
+   "traineeships": "Student traineeships",
+   "teaching": "Staff teaching exchange",
+   "training": "Staff training exchange",
+   "short": "Short-term student mobility (up to 30 days, mostly BIPs)"
+  },
+  "class_labels": [
+   "Small",
+   "Moderate",
+   "Large",
+   "Very large"
+  ],
+  "classes": {
+   "studies.out": {
+    "labels": [
+     "Small",
+     "Moderate",
+     "Large",
+     "Very large"
+    ],
+    "ranges": [
+     [
+      1,
+      17
+     ],
+     [
+      18,
+      43
+     ],
+     [
+      44,
+      80
+     ],
+     [
+      81,
+      358
+     ]
+    ],
+    "institutions": [
+     45,
+     46,
+     43,
+     45
+    ],
+    "absent": 3
+   },
+   "studies.in": {
+    "labels": [
+     "Small",
+     "Moderate",
+     "Large",
+     "Very large"
+    ],
+    "ranges": [
+     [
+      1,
+      11
+     ],
+     [
+      12,
+      31
+     ],
+     [
+      32,
+      103
+     ],
+     [
+      104,
+      518
+     ]
+    ],
+    "institutions": [
+     45,
+     40,
+     42,
+     42
+    ],
+    "absent": 13
+   },
+   "traineeships.out": {
+    "labels": [
+     "Small",
+     "Moderate",
+     "Large"
+    ],
+    "ranges": [
+     [
+      1,
+      5
+     ],
+     [
+      6,
+      14
+     ],
+     [
+      15,
+      167
+     ]
+    ],
+    "institutions": [
+     46,
+     36,
+     41
+    ],
+    "absent": 59
+   },
+   "traineeships.in": {
+    "labels": [
+     "Small",
+     "Moderate",
+     "Large"
+    ],
+    "ranges": [
+     [
+      1,
+      2
+     ],
+     [
+      3,
+      5
+     ],
+     [
+      6,
+      30
+     ]
+    ],
+    "institutions": [
+     53,
+     29,
+     40
+    ],
+    "absent": 60
+   },
+   "teaching.out": {
+    "labels": [
+     "Small",
+     "Moderate",
+     "Large",
+     "Very large"
+    ],
+    "ranges": [
+     [
+      1,
+      13
+     ],
+     [
+      14,
+      30
+     ],
+     [
+      31,
+      58
+     ],
+     [
+      59,
+      491
+     ]
+    ],
+    "institutions": [
+     49,
+     43,
+     45,
+     43
+    ],
+    "absent": 2
+   },
+   "teaching.in": {
+    "labels": [
+     "Small",
+     "Moderate",
+     "Large",
+     "Very large"
+    ],
+    "ranges": [
+     [
+      1,
+      14
+     ],
+     [
+      15,
+      29
+     ],
+     [
+      30,
+      57
+     ],
+     [
+      58,
+      415
+     ]
+    ],
+    "institutions": [
+     44,
+     45,
+     42,
+     44
+    ],
+    "absent": 7
+   },
+   "training.out": {
+    "labels": [
+     "Small",
+     "Moderate",
+     "Large",
+     "Very large"
+    ],
+    "ranges": [
+     [
+      1,
+      4
+     ],
+     [
+      5,
+      11
+     ],
+     [
+      12,
+      31
+     ],
+     [
+      32,
+      297
+     ]
+    ],
+    "institutions": [
+     39,
+     35,
+     35,
+     36
+    ],
+    "absent": 37
+   },
+   "training.in": {
+    "labels": [
+     "Small",
+     "Moderate",
+     "Large",
+     "Very large"
+    ],
+    "ranges": [
+     [
+      1,
+      3
+     ],
+     [
+      4,
+      7
+     ],
+     [
+      8,
+      15
+     ],
+     [
+      16,
+      119
+     ]
+    ],
+    "institutions": [
+     40,
+     31,
+     32,
+     34
+    ],
+    "absent": 45
+   },
+   "short.out": {
+    "labels": [
+     "Small",
+     "Moderate",
+     "Large",
+     "Very large"
+    ],
+    "ranges": [
+     [
+      1,
+      1
+     ],
+     [
+      2,
+      5
+     ],
+     [
+      6,
+      10
+     ],
+     [
+      11,
+      31
+     ]
+    ],
+    "institutions": [
+     10,
+     7,
+     9,
+     6
+    ],
+    "absent": 150
+   },
+   "short.in": {
+    "labels": [
+     "Small",
+     "Moderate",
+     "Large",
+     "Very large"
+    ],
+    "ranges": [
+     [
+      1,
+      1
+     ],
+     null,
+     [
+      2,
+      7
+     ],
+     [
+      8,
+      21
+     ]
+    ],
+    "institutions": [
+     9,
+     0,
+     4,
+     5
+    ],
+    "absent": 164
+   }
+  },
+  "country_names": {
+   "AL": "Albania",
+   "AR": "Argentina",
+   "AT": "Austria",
+   "BA": "Bosnia and Herzegovina",
+   "BE": "Belgium",
+   "BG": "Bulgaria",
+   "CO": "Colombia",
+   "CZ": "Czech Republic",
+   "DE": "Germany",
+   "DK": "Denmark",
+   "EE": "Estonia",
+   "ES": "Spain",
+   "FI": "Finland",
+   "FR": "France",
+   "GB": "United Kingdom",
+   "GE": "Georgia",
+   "GR": "Greece",
+   "HR": "Croatia",
+   "HU": "Hungary",
+   "IE": "Ireland",
+   "IL": "Israel",
+   "IS": "Iceland",
+   "IT": "Italy",
+   "KZ": "Kazakhstan",
+   "LT": "Lithuania",
+   "LV": "Latvia",
+   "MD": "Moldova (Republic of)",
+   "ME": "Montenegro",
+   "MK": "The Republic of North Macedonia",
+   "MZ": "Mozambique",
+   "NL": "Netherlands",
+   "NO": "Norway",
+   "PL": "Poland",
+   "PT": "Portugal",
+   "RO": "Romania",
+   "RS": "Serbia",
+   "RU": "Russian Federation",
+   "SE": "Sweden",
+   "SI": "Slovenia",
+   "SK": "Slovakia",
+   "TR": "Turkey",
+   "UA": "Ukraine"
+  },
+  "institutions_covered": 182
+ },
+ "institutions": {
+  "A  FELDKIR03": {
+   "types": {
+    "studies": [
+     1,
+     1
+    ],
+    "traineeships": [
+     0,
+     0
+    ],
+    "teaching": [
+     1,
+     1
+    ],
+    "training": [
+     2,
+     0
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "DE",
+    "IT",
+    "TR",
+    "BE",
+    "SE"
+   ]
+  },
+  "A  GRAZ03": {
+   "types": {
+    "studies": [
+     4,
+     4
+    ],
+    "traineeships": [
+     3,
+     3
+    ],
+    "teaching": [
+     4,
+     4
+    ],
+    "training": [
+     4,
+     4
+    ],
+    "short": [
+     4,
+     3
+    ]
+   },
+   "partners": [
+    "DE",
+    "ES",
+    "IT",
+    "NL",
+    "PL"
+   ]
+  },
+  "A  KLAGENF06": {
+   "types": {
+    "studies": [
+     1,
+     1
+    ],
+    "traineeships": [
+     0,
+     0
+    ],
+    "teaching": [
+     1,
+     1
+    ],
+    "training": [
+     1,
+     1
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "SI",
+    "IT",
+    "HR",
+    "BE",
+    "NL"
+   ]
+  },
+  "A  LINZ17": {
+   "types": {
+    "studies": [
+     3,
+     3
+    ],
+    "traineeships": [
+     3,
+     1
+    ],
+    "teaching": [
+     4,
+     2
+    ],
+    "training": [
+     null,
+     null
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "DE",
+    "IT",
+    "ES",
+    "NO",
+    "GB"
+   ],
+   "music_field_only": true
+  },
+  "A  SALZBUR02": {
+   "types": {
+    "studies": [
+     4,
+     4
+    ],
+    "traineeships": [
+     1,
+     1
+    ],
+    "teaching": [
+     4,
+     3
+    ],
+    "training": [
+     null,
+     null
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "DE",
+    "IT",
+    "LT",
+    "GB",
+    "ES"
+   ],
+   "music_field_only": true
+  },
+  "A  WIEN08": {
+   "types": {
+    "studies": [
+     4,
+     4
+    ],
+    "traineeships": [
+     0,
+     3
+    ],
+    "teaching": [
+     4,
+     4
+    ],
+    "training": [
+     4,
+     4
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "DE",
+    "IT",
+    "PL",
+    "ES",
+    "RO"
+   ]
+  },
+  "A  WIEN52": {
+   "types": {
+    "studies": [
+     4,
+     4
+    ],
+    "traineeships": [
+     2,
+     1
+    ],
+    "teaching": [
+     4,
+     4
+    ],
+    "training": [
+     1,
+     3
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "DE",
+    "IT",
+    "PL",
+    "NL",
+    "ES"
+   ]
+  },
+  "A  WIEN74": {
+   "types": {
+    "studies": [
+     1,
+     1
+    ],
+    "traineeships": [
+     1,
+     1
+    ],
+    "teaching": [
+     1,
+     1
+    ],
+    "training": [
+     2,
+     2
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "DE",
+    "FI",
+    "GB",
+    "NL"
+   ]
+  },
+  "A  WIEN76": {
+   "types": {
+    "studies": [
+     1,
+     2
+    ],
+    "traineeships": [
+     0,
+     3
+    ],
+    "teaching": [
+     1,
+     1
+    ],
+    "training": [
+     2,
+     1
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "ES",
+    "BE",
+    "DK",
+    "KZ"
+   ]
+  },
+  "B  ANTWERP62": {
+   "types": {
+    "studies": [
+     4,
+     4
+    ],
+    "traineeships": [
+     3,
+     3
+    ],
+    "teaching": [
+     4,
+     3
+    ],
+    "training": [
+     null,
+     null
+    ],
+    "short": [
+     3,
+     1
+    ]
+   },
+   "partners": [
+    "ES",
+    "IT",
+    "DE",
+    "GB",
+    "NL"
+   ],
+   "music_field_only": true
+  },
+  "B  BRUSSEL43": {
+   "types": {
+    "studies": [
+     3,
+     3
+    ],
+    "traineeships": [
+     1,
+     2
+    ],
+    "teaching": [
+     4,
+     3
+    ],
+    "training": [
+     null,
+     null
+    ],
+    "short": [
+     3,
+     0
+    ]
+   },
+   "partners": [
+    "NL",
+    "IT",
+    "ES",
+    "SE",
+    "FI"
+   ],
+   "music_field_only": true
+  },
+  "B  BRUSSEL46": {
+   "types": {
+    "studies": [
+     3,
+     4
+    ],
+    "traineeships": [
+     2,
+     3
+    ],
+    "teaching": [
+     3,
+     3
+    ],
+    "training": [
+     null,
+     null
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "DE",
+    "ES",
+    "PL",
+    "FR"
+   ],
+   "music_field_only": true
+  },
+  "B  BRUXEL07": {
+   "types": {
+    "studies": [
+     3,
+     3
+    ],
+    "traineeships": [
+     0,
+     2
+    ],
+    "teaching": [
+     3,
+     3
+    ],
+    "training": [
+     3,
+     4
+    ],
+    "short": [
+     0,
+     1
+    ]
+   },
+   "partners": [
+    "IT",
+    "ES",
+    "DE",
+    "PL",
+    "FR"
+   ]
+  },
+  "B  LIEGE03": {
+   "types": {
+    "studies": [
+     2,
+     2
+    ],
+    "traineeships": [
+     3,
+     1
+    ],
+    "teaching": [
+     1,
+     1
+    ],
+    "training": [
+     3,
+     1
+    ],
+    "short": [
+     4,
+     1
+    ]
+   },
+   "partners": [
+    "ES",
+    "IT",
+    "FR",
+    "DE",
+    "NL"
+   ]
+  },
+  "BG PLOVDIV07": {
+   "types": {
+    "studies": [
+     2,
+     1
+    ],
+    "traineeships": [
+     2,
+     0
+    ],
+    "teaching": [
+     3,
+     3
+    ],
+    "training": [
+     4,
+     3
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "PL",
+    "RO",
+    "GR",
+    "IT",
+    "ES"
+   ]
+  },
+  "BG SOFIA13": {
+   "types": {
+    "studies": [
+     4,
+     2
+    ],
+    "traineeships": [
+     2,
+     1
+    ],
+    "teaching": [
+     4,
+     4
+    ],
+    "training": [
+     4,
+     1
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "ES",
+    "DE",
+    "AT",
+    "TR"
+   ]
+  },
+  "CZ BRNO03": {
+   "types": {
+    "studies": [
+     4,
+     4
+    ],
+    "traineeships": [
+     3,
+     3
+    ],
+    "teaching": [
+     4,
+     4
+    ],
+    "training": [
+     4,
+     4
+    ],
+    "short": [
+     3,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "GB",
+    "SK",
+    "DE",
+    "NL"
+   ]
+  },
+  "CZ PRAHA04": {
+   "types": {
+    "studies": [
+     4,
+     4
+    ],
+    "traineeships": [
+     3,
+     3
+    ],
+    "teaching": [
+     3,
+     4
+    ],
+    "training": [
+     4,
+     4
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "GB",
+    "DE",
+    "ES",
+    "FR",
+    "IT"
+   ]
+  },
+  "D  BERLIN03": {
+   "types": {
+    "studies": [
+     4,
+     4
+    ],
+    "traineeships": [
+     1,
+     3
+    ],
+    "teaching": [
+     4,
+     4
+    ],
+    "training": [
+     null,
+     null
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "FR",
+    "AT",
+    "NL",
+    "FI",
+    "DK"
+   ],
+   "music_field_only": true
+  },
+  "D  BERLIN16": {
+   "types": {
+    "studies": [
+     2,
+     3
+    ],
+    "traineeships": [
+     0,
+     1
+    ],
+    "teaching": [
+     2,
+     1
+    ],
+    "training": [
+     1,
+     3
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "FR",
+    "AT",
+    "GB",
+    "NL",
+    "PL"
+   ]
+  },
+  "D  BREMEN03": {
+   "types": {
+    "studies": [
+     1,
+     2
+    ],
+    "traineeships": [
+     0,
+     0
+    ],
+    "teaching": [
+     1,
+     1
+    ],
+    "training": [
+     null,
+     null
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "ES",
+    "AT",
+    "FR",
+    "PL"
+   ],
+   "music_field_only": true
+  },
+  "D  DETMOLD01": {
+   "types": {
+    "studies": [
+     2,
+     4
+    ],
+    "traineeships": [
+     0,
+     1
+    ],
+    "teaching": [
+     2,
+     2
+    ],
+    "training": [
+     0,
+     2
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "PL",
+    "ES",
+    "IT",
+    "HU",
+    "AT"
+   ]
+  },
+  "D  DRESDEN05": {
+   "types": {
+    "studies": [
+     2,
+     3
+    ],
+    "traineeships": [
+     0,
+     2
+    ],
+    "teaching": [
+     2,
+     2
+    ],
+    "training": [
+     1,
+     3
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "AT",
+    "PL",
+    "CZ",
+    "IT",
+    "ES"
+   ]
+  },
+  "D  ESSEN02": {
+   "types": {
+    "studies": [
+     3,
+     4
+    ],
+    "traineeships": [
+     1,
+     0
+    ],
+    "teaching": [
+     3,
+     3
+    ],
+    "training": [
+     null,
+     null
+    ],
+    "short": [
+     0,
+     3
+    ]
+   },
+   "partners": [
+    "FR",
+    "ES",
+    "IT",
+    "PL",
+    "AT"
+   ],
+   "music_field_only": true
+  },
+  "D  FRANKFU02": {
+   "types": {
+    "studies": [
+     3,
+     3
+    ],
+    "traineeships": [
+     1,
+     1
+    ],
+    "teaching": [
+     2,
+     1
+    ],
+    "training": [
+     1,
+     2
+    ],
+    "short": [
+     0,
+     1
+    ]
+   },
+   "partners": [
+    "AT",
+    "IT",
+    "ES",
+    "FR",
+    "GB"
+   ]
+  },
+  "D  FREIBUR03": {
+   "types": {
+    "studies": [
+     4,
+     4
+    ],
+    "traineeships": [
+     1,
+     1
+    ],
+    "teaching": [
+     3,
+     2
+    ],
+    "training": [
+     1,
+     3
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "FR",
+    "IT",
+    "AT",
+    "UA"
+   ]
+  },
+  "D  HAMBURG05": {
+   "types": {
+    "studies": [
+     3,
+     4
+    ],
+    "traineeships": [
+     2,
+     3
+    ],
+    "teaching": [
+     2,
+     3
+    ],
+    "training": [
+     3,
+     4
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "FR",
+    "SE",
+    "EE",
+    "AT"
+   ]
+  },
+  "D  HANNOVE04": {
+   "types": {
+    "studies": [
+     4,
+     4
+    ],
+    "traineeships": [
+     2,
+     1
+    ],
+    "teaching": [
+     3,
+     2
+    ],
+    "training": [
+     2,
+     2
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "AT",
+    "ES",
+    "SE",
+    "PL"
+   ]
+  },
+  "D  KARLSRU03": {
+   "types": {
+    "studies": [
+     3,
+     3
+    ],
+    "traineeships": [
+     1,
+     2
+    ],
+    "teaching": [
+     2,
+     2
+    ],
+    "training": [
+     0,
+     1
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "ES",
+    "FR",
+    "NO",
+    "AT"
+   ]
+  },
+  "D  KOLN03": {
+   "types": {
+    "studies": [
+     4,
+     4
+    ],
+    "traineeships": [
+     0,
+     0
+    ],
+    "teaching": [
+     2,
+     1
+    ],
+    "training": [
+     2,
+     2
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "AT",
+    "ES",
+    "FR",
+    "GB",
+    "DK"
+   ]
+  },
+  "D  LEIPZIG05": {
+   "types": {
+    "studies": [
+     4,
+     4
+    ],
+    "traineeships": [
+     2,
+     1
+    ],
+    "teaching": [
+     4,
+     3
+    ],
+    "training": [
+     4,
+     4
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "FR",
+    "IT",
+    "ES",
+    "GB",
+    "PT"
+   ]
+  },
+  "D  LUBECK02": {
+   "types": {
+    "studies": [
+     3,
+     3
+    ],
+    "traineeships": [
+     0,
+     1
+    ],
+    "teaching": [
+     3,
+     3
+    ],
+    "training": [
+     2,
+     2
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "PL",
+    "FR",
+    "GE",
+    "AT",
+    "PT"
+   ]
+  },
+  "D  MANNHEI02": {
+   "types": {
+    "studies": [
+     2,
+     3
+    ],
+    "traineeships": [
+     0,
+     3
+    ],
+    "teaching": [
+     2,
+     2
+    ],
+    "training": [
+     0,
+     2
+    ],
+    "short": [
+     1,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "ES",
+    "PL",
+    "FR",
+    "FI"
+   ]
+  },
+  "D  MUNCHEN03": {
+   "types": {
+    "studies": [
+     4,
+     4
+    ],
+    "traineeships": [
+     1,
+     3
+    ],
+    "teaching": [
+     3,
+     2
+    ],
+    "training": [
+     3,
+     3
+    ],
+    "short": [
+     0,
+     1
+    ]
+   },
+   "partners": [
+    "FR",
+    "AT",
+    "IT",
+    "ES",
+    "IL"
+   ]
+  },
+  "D  NURNBER04": {
+   "types": {
+    "studies": [
+     2,
+     3
+    ],
+    "traineeships": [
+     0,
+     1
+    ],
+    "teaching": [
+     3,
+     2
+    ],
+    "training": [
+     1,
+     1
+    ],
+    "short": [
+     0,
+     1
+    ]
+   },
+   "partners": [
+    "IT",
+    "ES",
+    "RO",
+    "PL",
+    "AT"
+   ]
+  },
+  "D  REGENSB03": {
+   "types": {
+    "studies": [
+     1,
+     1
+    ],
+    "traineeships": [
+     0,
+     0
+    ],
+    "teaching": [
+     3,
+     2
+    ],
+    "training": [
+     0,
+     1
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "PL",
+    "CZ",
+    "SK",
+    "PT",
+    "LV"
+   ]
+  },
+  "D  ROSTOCK02": {
+   "types": {
+    "studies": [
+     2,
+     3
+    ],
+    "traineeships": [
+     0,
+     0
+    ],
+    "teaching": [
+     2,
+     2
+    ],
+    "training": [
+     1,
+     2
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "NO",
+    "ES",
+    "PL",
+    "GB",
+    "FR"
+   ]
+  },
+  "D  SAARBRU08": {
+   "types": {
+    "studies": [
+     2,
+     2
+    ],
+    "traineeships": [
+     0,
+     0
+    ],
+    "teaching": [
+     1,
+     1
+    ],
+    "training": [
+     0,
+     0
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "BE",
+    "ES",
+    "HU",
+    "AT"
+   ]
+  },
+  "D  STUTTGA03": {
+   "types": {
+    "studies": [
+     3,
+     4
+    ],
+    "traineeships": [
+     1,
+     3
+    ],
+    "teaching": [
+     4,
+     3
+    ],
+    "training": [
+     1,
+     4
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "FR",
+    "IT",
+    "AT",
+    "PL",
+    "ES"
+   ]
+  },
+  "D  TROSSIN01": {
+   "types": {
+    "studies": [
+     3,
+     4
+    ],
+    "traineeships": [
+     1,
+     1
+    ],
+    "teaching": [
+     4,
+     3
+    ],
+    "training": [
+     2,
+     3
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "ES",
+    "AT",
+    "LV",
+    "FI"
+   ]
+  },
+  "D  TUBINGE02": {
+   "types": {
+    "studies": [
+     1,
+     1
+    ],
+    "traineeships": [
+     0,
+     1
+    ],
+    "teaching": [
+     1,
+     1
+    ],
+    "training": [
+     0,
+     1
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "SE",
+    "DK",
+    "ES",
+    "AT"
+   ]
+  },
+  "D  WEIMAR02": {
+   "types": {
+    "studies": [
+     4,
+     4
+    ],
+    "traineeships": [
+     2,
+     1
+    ],
+    "teaching": [
+     4,
+     4
+    ],
+    "training": [
+     3,
+     3
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "ES",
+    "GB",
+    "AT",
+    "FR"
+   ]
+  },
+  "D  WURZBUR02": {
+   "types": {
+    "studies": [
+     3,
+     3
+    ],
+    "traineeships": [
+     1,
+     2
+    ],
+    "teaching": [
+     3,
+     1
+    ],
+    "training": [
+     2,
+     1
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "AT",
+    "ES",
+    "FR",
+    "PL"
+   ]
+  },
+  "DK ARHUS05": {
+   "types": {
+    "studies": [
+     4,
+     4
+    ],
+    "traineeships": [
+     2,
+     3
+    ],
+    "teaching": [
+     4,
+     4
+    ],
+    "training": [
+     4,
+     4
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "FI",
+    "DE",
+    "SE",
+    "NL"
+   ]
+  },
+  "DK KOBENHA09": {
+   "types": {
+    "studies": [
+     3,
+     3
+    ],
+    "traineeships": [
+     0,
+     2
+    ],
+    "teaching": [
+     4,
+     4
+    ],
+    "training": [
+     4,
+     4
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "DE",
+    "IT",
+    "NO",
+    "AT",
+    "GB"
+   ]
+  },
+  "DK KOBENHA39": {
+   "types": {
+    "studies": [
+     3,
+     3
+    ],
+    "traineeships": [
+     2,
+     0
+    ],
+    "teaching": [
+     2,
+     2
+    ],
+    "training": [
+     4,
+     4
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "NL",
+    "NO",
+    "SE",
+    "DE",
+    "GB"
+   ]
+  },
+  "DK ODENSE22": {
+   "types": {
+    "studies": [
+     2,
+     3
+    ],
+    "traineeships": [
+     0,
+     0
+    ],
+    "teaching": [
+     2,
+     2
+    ],
+    "training": [
+     2,
+     2
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "FI",
+    "SE",
+    "PL",
+    "IT",
+    "NO"
+   ]
+  },
+  "E  ALBACET19": {
+   "types": {
+    "studies": [
+     2,
+     2
+    ],
+    "traineeships": [
+     0,
+     0
+    ],
+    "teaching": [
+     3,
+     3
+    ],
+    "training": [
+     3,
+     1
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "GR",
+    "NL",
+    "DE",
+    "CO"
+   ]
+  },
+  "E  ALICANT11": {
+   "types": {
+    "studies": [
+     4,
+     2
+    ],
+    "traineeships": [
+     1,
+     2
+    ],
+    "teaching": [
+     3,
+     4
+    ],
+    "training": [
+     3,
+     3
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "PL",
+    "DE",
+    "AT",
+    "BE"
+   ]
+  },
+  "E  BADAJOZ39": {
+   "types": {
+    "studies": [
+     1,
+     0
+    ],
+    "traineeships": [
+     0,
+     0
+    ],
+    "teaching": [
+     1,
+     1
+    ],
+    "training": [
+     0,
+     0
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "FR",
+    "DE",
+    "SE",
+    "CZ"
+   ]
+  },
+  "E  BARCELO137": {
+   "types": {
+    "studies": [
+     1,
+     1
+    ],
+    "traineeships": [
+     0,
+     0
+    ],
+    "teaching": [
+     1,
+     1
+    ],
+    "training": [
+     3,
+     1
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "AT",
+    "FI",
+    "NL",
+    "BE"
+   ]
+  },
+  "E  BARCELO29": {
+   "types": {
+    "studies": [
+     3,
+     4
+    ],
+    "traineeships": [
+     0,
+     1
+    ],
+    "teaching": [
+     3,
+     4
+    ],
+    "training": [
+     2,
+     4
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "DE",
+    "AT",
+    "IT",
+    "NL",
+    "FI"
+   ]
+  },
+  "E  BARCELO30": {
+   "types": {
+    "studies": [
+     3,
+     3
+    ],
+    "traineeships": [
+     0,
+     0
+    ],
+    "teaching": [
+     1,
+     1
+    ],
+    "training": [
+     1,
+     3
+    ],
+    "short": [
+     2,
+     4
+    ]
+   },
+   "partners": [
+    "IT",
+    "DE",
+    "NL",
+    "AT",
+    "FI"
+   ]
+  },
+  "E  CASTELL13": {
+   "types": {
+    "studies": [
+     4,
+     2
+    ],
+    "traineeships": [
+     2,
+     3
+    ],
+    "teaching": [
+     3,
+     4
+    ],
+    "training": [
+     3,
+     1
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "NL",
+    "BE",
+    "PL",
+    "DE"
+   ]
+  },
+  "E  CORDOBA04": {
+   "types": {
+    "studies": [
+     3,
+     2
+    ],
+    "traineeships": [
+     0,
+     1
+    ],
+    "teaching": [
+     2,
+     2
+    ],
+    "training": [
+     1,
+     1
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "BE",
+    "NL",
+    "FR",
+    "DE"
+   ]
+  },
+  "E  GRANADA04": {
+   "types": {
+    "studies": [
+     4,
+     3
+    ],
+    "traineeships": [
+     2,
+     3
+    ],
+    "teaching": [
+     3,
+     4
+    ],
+    "training": [
+     2,
+     2
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "DE",
+    "AT",
+    "PL",
+    "FI"
+   ]
+  },
+  "E  JAEN07": {
+   "types": {
+    "studies": [
+     3,
+     1
+    ],
+    "traineeships": [
+     0,
+     1
+    ],
+    "teaching": [
+     2,
+     3
+    ],
+    "training": [
+     3,
+     1
+    ],
+    "short": [
+     3,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "DE",
+    "LT",
+    "BE",
+    "NL"
+   ]
+  },
+  "E  LA-CORU05": {
+   "types": {
+    "studies": [
+     4,
+     2
+    ],
+    "traineeships": [
+     0,
+     2
+    ],
+    "teaching": [
+     2,
+     3
+    ],
+    "training": [
+     4,
+     0
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "DE",
+    "NL",
+    "PL",
+    "PT"
+   ]
+  },
+  "E  LAS-PAL18": {
+   "types": {
+    "studies": [
+     4,
+     3
+    ],
+    "traineeships": [
+     1,
+     3
+    ],
+    "teaching": [
+     3,
+     4
+    ],
+    "training": [
+     4,
+     4
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "PL",
+    "AT",
+    "NL",
+    "DE"
+   ]
+  },
+  "E  MADRID222": {
+   "types": {
+    "studies": [
+     0,
+     0
+    ],
+    "traineeships": [
+     0,
+     0
+    ],
+    "teaching": [
+     1,
+     0
+    ],
+    "training": [
+     0,
+     2
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "NL"
+   ]
+  },
+  "E  MADRID27": {
+   "types": {
+    "studies": [
+     3,
+     3
+    ],
+    "traineeships": [
+     0,
+     2
+    ],
+    "teaching": [
+     3,
+     4
+    ],
+    "training": [
+     2,
+     2
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "DE",
+    "NL",
+    "AT",
+    "FR"
+   ]
+  },
+  "E  MALAGA02": {
+   "types": {
+    "studies": [
+     3,
+     3
+    ],
+    "traineeships": [
+     2,
+     2
+    ],
+    "teaching": [
+     3,
+     4
+    ],
+    "training": [
+     3,
+     3
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "DE",
+    "NL",
+    "AT",
+    "RO"
+   ]
+  },
+  "E  MURCIA02": {
+   "types": {
+    "studies": [
+     3,
+     2
+    ],
+    "traineeships": [
+     1,
+     2
+    ],
+    "teaching": [
+     2,
+     3
+    ],
+    "training": [
+     3,
+     2
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "PL",
+    "AT",
+    "BE",
+    "HU"
+   ]
+  },
+  "E  OVIEDO03": {
+   "types": {
+    "studies": [
+     3,
+     2
+    ],
+    "traineeships": [
+     2,
+     3
+    ],
+    "teaching": [
+     2,
+     3
+    ],
+    "training": [
+     3,
+     1
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "NL",
+    "FR",
+    "GB",
+    "PL"
+   ]
+  },
+  "E  PALMA25": {
+   "types": {
+    "studies": [
+     1,
+     1
+    ],
+    "traineeships": [
+     0,
+     0
+    ],
+    "teaching": [
+     0,
+     0
+    ],
+    "training": [
+     2,
+     0
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "PT",
+    "IT",
+    "GB",
+    "IE",
+    "NL"
+   ]
+  },
+  "E  PALMA27": {
+   "types": {
+    "studies": [
+     1,
+     1
+    ],
+    "traineeships": [
+     0,
+     0
+    ],
+    "teaching": [
+     1,
+     1
+    ],
+    "training": [
+     1,
+     3
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "BE",
+    "CZ",
+    "FI",
+    "NL"
+   ]
+  },
+  "E  PAMPLON17": {
+   "types": {
+    "studies": [
+     2,
+     1
+    ],
+    "traineeships": [
+     0,
+     2
+    ],
+    "teaching": [
+     2,
+     2
+    ],
+    "training": [
+     1,
+     2
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "NL",
+    "DE",
+    "AT",
+    "FR"
+   ]
+  },
+  "E  SALAMAN03": {
+   "types": {
+    "studies": [
+     4,
+     3
+    ],
+    "traineeships": [
+     0,
+     3
+    ],
+    "teaching": [
+     3,
+     3
+    ],
+    "training": [
+     2,
+     2
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "DE",
+    "NL",
+    "PL",
+    "BE"
+   ]
+  },
+  "E  SAN-SEB01": {
+   "types": {
+    "studies": [
+     3,
+     3
+    ],
+    "traineeships": [
+     0,
+     1
+    ],
+    "teaching": [
+     3,
+     3
+    ],
+    "training": [
+     2,
+     3
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "DE",
+    "NL",
+    "AT",
+    "IT",
+    "FR"
+   ]
+  },
+  "E  SEVILLA04": {
+   "types": {
+    "studies": [
+     3,
+     3
+    ],
+    "traineeships": [
+     1,
+     3
+    ],
+    "teaching": [
+     3,
+     4
+    ],
+    "training": [
+     3,
+     3
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "DE",
+    "BE",
+    "AT",
+    "PL"
+   ]
+  },
+  "E  VALENCI67": {
+   "types": {
+    "studies": [
+     4,
+     4
+    ],
+    "traineeships": [
+     3,
+     3
+    ],
+    "teaching": [
+     3,
+     4
+    ],
+    "training": [
+     4,
+     4
+    ],
+    "short": [
+     2,
+     1
+    ]
+   },
+   "partners": [
+    "IT",
+    "DE",
+    "PL",
+    "AT",
+    "BE"
+   ]
+  },
+  "E  VIGO03": {
+   "types": {
+    "studies": [
+     4,
+     4
+    ],
+    "traineeships": [
+     2,
+     3
+    ],
+    "teaching": [
+     4,
+     4
+    ],
+    "training": [
+     4,
+     4
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "RS",
+    "UA",
+    "AL",
+    "BA"
+   ]
+  },
+  "E  ZARAGOZ05": {
+   "types": {
+    "studies": [
+     3,
+     2
+    ],
+    "traineeships": [
+     1,
+     1
+    ],
+    "teaching": [
+     3,
+     3
+    ],
+    "training": [
+     2,
+     1
+    ],
+    "short": [
+     1,
+     0
+    ]
+   },
+   "partners": [
+    "DE",
+    "IT",
+    "NL",
+    "BE",
+    "FR"
+   ]
+  },
+  "EE TALLINN03": {
+   "types": {
+    "studies": [
+     4,
+     4
+    ],
+    "traineeships": [
+     3,
+     3
+    ],
+    "teaching": [
+     4,
+     4
+    ],
+    "training": [
+     4,
+     4
+    ],
+    "short": [
+     0,
+     1
+    ]
+   },
+   "partners": [
+    "IT",
+    "GB",
+    "DE",
+    "ES",
+    "FI"
+   ]
+  },
+  "F  BORDEAU62": {
+   "types": {
+    "studies": [
+     1,
+     2
+    ],
+    "traineeships": [
+     0,
+     1
+    ],
+    "teaching": [
+     1,
+     1
+    ],
+    "training": [
+     1,
+     1
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "DE",
+    "ES",
+    "IT",
+    "SE",
+    "LV"
+   ]
+  },
+  "F  DIJON32": {
+   "types": {
+    "studies": [
+     2,
+     1
+    ],
+    "traineeships": [
+     0,
+     0
+    ],
+    "teaching": [
+     1,
+     1
+    ],
+    "training": [
+     1,
+     0
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "DE",
+    "ES",
+    "IT",
+    "PL",
+    "DK"
+   ]
+  },
+  "F  LILLE71": {
+   "types": {
+    "studies": [
+     1,
+     1
+    ],
+    "traineeships": [
+     0,
+     0
+    ],
+    "teaching": [
+     2,
+     1
+    ],
+    "training": [
+     1,
+     1
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "IT",
+    "GB",
+    "DE",
+    "IE"
+   ]
+  },
+  "F  LYON24": {
+   "types": {
+    "studies": [
+     4,
+     4
+    ],
+    "traineeships": [
+     1,
+     1
+    ],
+    "teaching": [
+     3,
+     3
+    ],
+    "training": [
+     3,
+     4
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "DE",
+    "AT",
+    "IT",
+    "GB",
+    "SE"
+   ]
+  },
+  "F  PARIS119": {
+   "types": {
+    "studies": [
+     4,
+     4
+    ],
+    "traineeships": [
+     1,
+     3
+    ],
+    "teaching": [
+     4,
+     4
+    ],
+    "training": [
+     3,
+     4
+    ],
+    "short": [
+     2,
+     0
+    ]
+   },
+   "partners": [
+    "DE",
+    "AT",
+    "GB",
+    "FI",
+    "ES"
+   ]
+  },
+  "HU BUDAPES25": {
+   "types": {
+    "studies": [
+     4,
+     4
+    ],
+    "traineeships": [
+     3,
+     3
+    ],
+    "teaching": [
+     4,
+     4
+    ],
+    "training": [
+     4,
+     4
+    ],
+    "short": [
+     3,
+     4
+    ]
+   },
+   "partners": [
+    "DE",
+    "IT",
+    "IL",
+    "RO",
+    "ES"
+   ]
+  },
+  "I  ADRIA01": {
+   "types": {
+    "studies": [
+     1,
+     1
+    ],
+    "traineeships": [
+     1,
+     1
+    ],
+    "teaching": [
+     2,
+     1
+    ],
+    "training": [
+     2,
+     1
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "DE",
+    "IS",
+    "PT",
+    "AT"
+   ]
+  },
+  "I  AGRIGEN02": {
+   "types": {
+    "studies": [
+     1,
+     1
+    ],
+    "traineeships": [
+     2,
+     0
+    ],
+    "teaching": [
+     1,
+     1
+    ],
+    "training": [
+     2,
+     1
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "GB",
+    "RU",
+    "ES",
+    "DE",
+    "LT"
+   ]
+  },
+  "I  ALESSAN01": {
+   "types": {
+    "studies": [
+     1,
+     2
+    ],
+    "traineeships": [
+     2,
+     0
+    ],
+    "teaching": [
+     2,
+     2
+    ],
+    "training": [
+     2,
+     1
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "FR",
+    "DE",
+    "PT",
+    "BE"
+   ]
+  },
+  "I  AOSTA03": {
+   "types": {
+    "studies": [
+     1,
+     0
+    ],
+    "traineeships": [
+     0,
+     0
+    ],
+    "teaching": [
+     1,
+     1
+    ],
+    "training": [
+     1,
+     0
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "DE",
+    "FR"
+   ]
+  },
+  "I  AVELLIN01": {
+   "types": {
+    "studies": [
+     1,
+     1
+    ],
+    "traineeships": [
+     1,
+     2
+    ],
+    "teaching": [
+     1,
+     2
+    ],
+    "training": [
+     3,
+     0
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "LT",
+    "PL",
+    "TR",
+    "AT"
+   ]
+  },
+  "I  BARI03": {
+   "types": {
+    "studies": [
+     3,
+     2
+    ],
+    "traineeships": [
+     2,
+     1
+    ],
+    "teaching": [
+     4,
+     3
+    ],
+    "training": [
+     4,
+     3
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "PL",
+    "DE",
+    "RO",
+    "AT"
+   ]
+  },
+  "I  BENEVEN03": {
+   "types": {
+    "studies": [
+     1,
+     1
+    ],
+    "traineeships": [
+     2,
+     0
+    ],
+    "teaching": [
+     1,
+     1
+    ],
+    "training": [
+     2,
+     1
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "PL",
+    "ES",
+    "TR",
+    "NL",
+    "AT"
+   ]
+  },
+  "I  BOLOGNA04": {
+   "types": {
+    "studies": [
+     3,
+     3
+    ],
+    "traineeships": [
+     2,
+     3
+    ],
+    "teaching": [
+     3,
+     3
+    ],
+    "training": [
+     3,
+     3
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "PL",
+    "DE",
+    "AT",
+    "FI"
+   ]
+  },
+  "I  BOLZANO02": {
+   "types": {
+    "studies": [
+     2,
+     2
+    ],
+    "traineeships": [
+     0,
+     2
+    ],
+    "teaching": [
+     3,
+     3
+    ],
+    "training": [
+     0,
+     2
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "AT",
+    "DE",
+    "PL",
+    "NO"
+   ]
+  },
+  "I  BRESCIA06": {
+   "types": {
+    "studies": [
+     2,
+     1
+    ],
+    "traineeships": [
+     1,
+     1
+    ],
+    "teaching": [
+     2,
+     1
+    ],
+    "training": [
+     2,
+     1
+    ],
+    "short": [
+     1,
+     1
+    ]
+   },
+   "partners": [
+    "ES",
+    "TR",
+    "NL",
+    "DK",
+    "LV"
+   ]
+  },
+  "I  CAGLIAR02": {
+   "types": {
+    "studies": [
+     3,
+     2
+    ],
+    "traineeships": [
+     3,
+     3
+    ],
+    "teaching": [
+     3,
+     3
+    ],
+    "training": [
+     3,
+     3
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "PL",
+    "ES",
+    "FI",
+    "RO",
+    "LT"
+   ]
+  },
+  "I  CALTANI01": {
+   "types": {
+    "studies": [
+     1,
+     1
+    ],
+    "traineeships": [
+     0,
+     0
+    ],
+    "teaching": [
+     1,
+     1
+    ],
+    "training": [
+     1,
+     1
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "PL",
+    "BE",
+    "LT"
+   ]
+  },
+  "I  CAMPOBA03": {
+   "types": {
+    "studies": [
+     1,
+     2
+    ],
+    "traineeships": [
+     0,
+     0
+    ],
+    "teaching": [
+     2,
+     3
+    ],
+    "training": [
+     1,
+     1
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "PL",
+    "DE",
+    "TR",
+    "HU"
+   ]
+  },
+  "I  CASTELF01": {
+   "types": {
+    "studies": [
+     2,
+     3
+    ],
+    "traineeships": [
+     3,
+     0
+    ],
+    "teaching": [
+     4,
+     2
+    ],
+    "training": [
+     3,
+     4
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "MZ",
+    "ES",
+    "MD",
+    "DE",
+    "AR"
+   ]
+  },
+  "I  CATANIA06": {
+   "types": {
+    "studies": [
+     2,
+     1
+    ],
+    "traineeships": [
+     1,
+     0
+    ],
+    "teaching": [
+     1,
+     2
+    ],
+    "training": [
+     1,
+     2
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "PL",
+    "BG",
+    "ES",
+    "NL",
+    "SK"
+   ]
+  },
+  "I  CESENA03": {
+   "types": {
+    "studies": [
+     2,
+     2
+    ],
+    "traineeships": [
+     0,
+     0
+    ],
+    "teaching": [
+     2,
+     4
+    ],
+    "training": [
+     0,
+     0
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "AT",
+    "FR",
+    "PT",
+    "BE"
+   ]
+  },
+  "I  COMO04": {
+   "types": {
+    "studies": [
+     1,
+     2
+    ],
+    "traineeships": [
+     0,
+     0
+    ],
+    "teaching": [
+     3,
+     3
+    ],
+    "training": [
+     1,
+     2
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "EE",
+    "LV",
+    "DE",
+    "FI"
+   ]
+  },
+  "I  COSENZA03": {
+   "types": {
+    "studies": [
+     2,
+     2
+    ],
+    "traineeships": [
+     2,
+     1
+    ],
+    "teaching": [
+     4,
+     3
+    ],
+    "training": [
+     4,
+     3
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "RU",
+    "ES",
+    "PT",
+    "HU",
+    "LV"
+   ]
+  },
+  "I  CREMONA01": {
+   "types": {
+    "studies": [
+     1,
+     1
+    ],
+    "traineeships": [
+     0,
+     1
+    ],
+    "teaching": [
+     1,
+     1
+    ],
+    "training": [
+     2,
+     0
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "FR",
+    "EE",
+    "AT",
+    "RO"
+   ]
+  },
+  "I  CUNEO01": {
+   "types": {
+    "studies": [
+     2,
+     1
+    ],
+    "traineeships": [
+     3,
+     1
+    ],
+    "teaching": [
+     1,
+     2
+    ],
+    "training": [
+     2,
+     1
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "DE",
+    "PL",
+    "FR",
+    "BE"
+   ]
+  },
+  "I  FERMO01": {
+   "types": {
+    "studies": [
+     1,
+     1
+    ],
+    "traineeships": [
+     0,
+     0
+    ],
+    "teaching": [
+     3,
+     2
+    ],
+    "training": [
+     0,
+     1
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "DE",
+    "ES",
+    "BG",
+    "PL",
+    "TR"
+   ]
+  },
+  "I  FERRARA02": {
+   "types": {
+    "studies": [
+     2,
+     2
+    ],
+    "traineeships": [
+     2,
+     1
+    ],
+    "teaching": [
+     3,
+     2
+    ],
+    "training": [
+     3,
+     2
+    ],
+    "short": [
+     1,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "PL",
+    "DE",
+    "RO",
+    "GB"
+   ]
+  },
+  "I  FIRENZE04": {
+   "types": {
+    "studies": [
+     2,
+     3
+    ],
+    "traineeships": [
+     1,
+     3
+    ],
+    "teaching": [
+     2,
+     2
+    ],
+    "training": [
+     3,
+     3
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "DE",
+    "BE",
+    "HU",
+    "LV"
+   ]
+  },
+  "I  FIRENZE07": {
+   "types": {
+    "studies": [
+     1,
+     1
+    ],
+    "traineeships": [
+     0,
+     1
+    ],
+    "teaching": [
+     1,
+     1
+    ],
+    "training": [
+     1,
+     3
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "DE",
+    "AT",
+    "EE",
+    "NO"
+   ]
+  },
+  "I  FOGGIA02": {
+   "types": {
+    "studies": [
+     2,
+     1
+    ],
+    "traineeships": [
+     2,
+     0
+    ],
+    "teaching": [
+     1,
+     2
+    ],
+    "training": [
+     3,
+     1
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "NL",
+    "DE",
+    "NO",
+    "RO"
+   ]
+  },
+  "I  FROSINO02": {
+   "types": {
+    "studies": [
+     3,
+     3
+    ],
+    "traineeships": [
+     3,
+     2
+    ],
+    "teaching": [
+     4,
+     3
+    ],
+    "training": [
+     4,
+     2
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "DE",
+    "LT",
+    "PT",
+    "NL"
+   ]
+  },
+  "I  GENOVA02": {
+   "types": {
+    "studies": [
+     2,
+     1
+    ],
+    "traineeships": [
+     2,
+     2
+    ],
+    "teaching": [
+     2,
+     2
+    ],
+    "training": [
+     1,
+     0
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "DE",
+    "GB",
+    "BE",
+    "NL"
+   ]
+  },
+  "I  L-AQUIL04": {
+   "types": {
+    "studies": [
+     3,
+     2
+    ],
+    "traineeships": [
+     3,
+     2
+    ],
+    "teaching": [
+     3,
+     3
+    ],
+    "training": [
+     3,
+     2
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "DE",
+    "ES",
+    "PL",
+    "TR",
+    "AT"
+   ]
+  },
+  "I  LA-SPEZ01": {
+   "types": {
+    "studies": [
+     1,
+     2
+    ],
+    "traineeships": [
+     0,
+     1
+    ],
+    "teaching": [
+     2,
+     2
+    ],
+    "training": [
+     1,
+     1
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "TR",
+    "ES",
+    "PL",
+    "AT",
+    "NL"
+   ]
+  },
+  "I  LATINA02": {
+   "types": {
+    "studies": [
+     2,
+     1
+    ],
+    "traineeships": [
+     1,
+     0
+    ],
+    "teaching": [
+     3,
+     2
+    ],
+    "training": [
+     3,
+     2
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "PL",
+    "DE",
+    "HU",
+    "FR"
+   ]
+  },
+  "I  LECCE03": {
+   "types": {
+    "studies": [
+     2,
+     1
+    ],
+    "traineeships": [
+     3,
+     1
+    ],
+    "teaching": [
+     2,
+     2
+    ],
+    "training": [
+     2,
+     0
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "SI",
+    "PL",
+    "DE",
+    "DK"
+   ]
+  },
+  "I  LIVORNO01": {
+   "types": {
+    "studies": [
+     1,
+     1
+    ],
+    "traineeships": [
+     2,
+     1
+    ],
+    "teaching": [
+     1,
+     1
+    ],
+    "training": [
+     2,
+     1
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "BE",
+    "FI",
+    "DE",
+    "LV"
+   ]
+  },
+  "I  LUCCA03": {
+   "types": {
+    "studies": [
+     1,
+     1
+    ],
+    "traineeships": [
+     0,
+     1
+    ],
+    "teaching": [
+     2,
+     2
+    ],
+    "training": [
+     0,
+     0
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "DE",
+    "PL",
+    "PT",
+    "BE"
+   ]
+  },
+  "I  MANTOVA01": {
+   "types": {
+    "studies": [
+     2,
+     1
+    ],
+    "traineeships": [
+     1,
+     0
+    ],
+    "teaching": [
+     2,
+     1
+    ],
+    "training": [
+     2,
+     2
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "DE",
+    "GB",
+    "GE",
+    "AT"
+   ]
+  },
+  "I  MATERA01": {
+   "types": {
+    "studies": [
+     1,
+     0
+    ],
+    "traineeships": [
+     2,
+     0
+    ],
+    "teaching": [
+     1,
+     2
+    ],
+    "training": [
+     2,
+     1
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "PT",
+    "ES",
+    "FI",
+    "PL",
+    "RO"
+   ]
+  },
+  "I  MESSINA04": {
+   "types": {
+    "studies": [
+     3,
+     1
+    ],
+    "traineeships": [
+     2,
+     0
+    ],
+    "teaching": [
+     2,
+     2
+    ],
+    "training": [
+     1,
+     1
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "BE",
+    "AT",
+    "PL",
+    "TR"
+   ]
+  },
+  "I  MILANO09": {
+   "types": {
+    "studies": [
+     4,
+     4
+    ],
+    "traineeships": [
+     2,
+     2
+    ],
+    "teaching": [
+     4,
+     3
+    ],
+    "training": [
+     3,
+     3
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "DE",
+    "AT",
+    "BE",
+    "LT"
+   ]
+  },
+  "I  MILANO24": {
+   "types": {
+    "studies": [
+     1,
+     0
+    ],
+    "traineeships": [
+     0,
+     0
+    ],
+    "teaching": [
+     0,
+     0
+    ],
+    "training": [
+     0,
+     0
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES"
+   ]
+  },
+  "I  MODENA05": {
+   "types": {
+    "studies": [
+     1,
+     2
+    ],
+    "traineeships": [
+     1,
+     0
+    ],
+    "teaching": [
+     1,
+     1
+    ],
+    "training": [
+     0,
+     1
+    ],
+    "short": [
+     0,
+     3
+    ]
+   },
+   "partners": [
+    "SE",
+    "PL",
+    "ES",
+    "BE",
+    "FI"
+   ]
+  },
+  "I  MONOPOL02": {
+   "types": {
+    "studies": [
+     2,
+     3
+    ],
+    "traineeships": [
+     3,
+     3
+    ],
+    "teaching": [
+     3,
+     3
+    ],
+    "training": [
+     4,
+     4
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "DE",
+    "UA",
+    "AT",
+    "PL"
+   ]
+  },
+  "I  NAPOLI07": {
+   "types": {
+    "studies": [
+     2,
+     1
+    ],
+    "traineeships": [
+     1,
+     1
+    ],
+    "teaching": [
+     1,
+     2
+    ],
+    "training": [
+     2,
+     2
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "AT",
+    "FR",
+    "BE",
+    "SK"
+   ]
+  },
+  "I  NOVARA01": {
+   "types": {
+    "studies": [
+     2,
+     2
+    ],
+    "traineeships": [
+     3,
+     1
+    ],
+    "teaching": [
+     2,
+     1
+    ],
+    "training": [
+     1,
+     2
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "PL",
+    "DE",
+    "NL",
+    "LT"
+   ]
+  },
+  "I  PADOVA02": {
+   "types": {
+    "studies": [
+     2,
+     2
+    ],
+    "traineeships": [
+     1,
+     0
+    ],
+    "teaching": [
+     3,
+     3
+    ],
+    "training": [
+     3,
+     2
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "PL",
+    "AT",
+    "CZ",
+    "BE"
+   ]
+  },
+  "I  PALERMO04": {
+   "types": {
+    "studies": [
+     2,
+     2
+    ],
+    "traineeships": [
+     3,
+     1
+    ],
+    "teaching": [
+     1,
+     3
+    ],
+    "training": [
+     3,
+     3
+    ],
+    "short": [
+     3,
+     0
+    ]
+   },
+   "partners": [
+    "PL",
+    "DE",
+    "ES",
+    "GB",
+    "AT"
+   ]
+  },
+  "I  PARMA02": {
+   "types": {
+    "studies": [
+     2,
+     3
+    ],
+    "traineeships": [
+     3,
+     3
+    ],
+    "teaching": [
+     4,
+     4
+    ],
+    "training": [
+     4,
+     4
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "DE",
+    "AT",
+    "RU",
+    "NO"
+   ]
+  },
+  "I  PAVIA02": {
+   "types": {
+    "studies": [
+     1,
+     0
+    ],
+    "traineeships": [
+     1,
+     1
+    ],
+    "teaching": [
+     1,
+     1
+    ],
+    "training": [
+     0,
+     1
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "RO",
+    "DE",
+    "GB",
+    "TR"
+   ]
+  },
+  "I  PERUGIA03": {
+   "types": {
+    "studies": [
+     1,
+     2
+    ],
+    "traineeships": [
+     0,
+     0
+    ],
+    "teaching": [
+     2,
+     2
+    ],
+    "training": [
+     1,
+     0
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "GB",
+    "DE",
+    "BG",
+    "RO"
+   ]
+  },
+  "I  PESARO01": {
+   "types": {
+    "studies": [
+     2,
+     2
+    ],
+    "traineeships": [
+     1,
+     0
+    ],
+    "teaching": [
+     2,
+     2
+    ],
+    "training": [
+     2,
+     1
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "PL",
+    "SE",
+    "DE",
+    "AT"
+   ]
+  },
+  "I  PESCARA01": {
+   "types": {
+    "studies": [
+     2,
+     1
+    ],
+    "traineeships": [
+     3,
+     1
+    ],
+    "teaching": [
+     2,
+     2
+    ],
+    "training": [
+     3,
+     3
+    ],
+    "short": [
+     1,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "PL",
+    "BE",
+    "NL",
+    "AT"
+   ]
+  },
+  "I  PIACENZ01": {
+   "types": {
+    "studies": [
+     1,
+     1
+    ],
+    "traineeships": [
+     2,
+     0
+    ],
+    "teaching": [
+     1,
+     1
+    ],
+    "training": [
+     2,
+     1
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "DE",
+    "TR",
+    "ES",
+    "BE",
+    "FI"
+   ]
+  },
+  "I  POTENZA03": {
+   "types": {
+    "studies": [
+     1,
+     0
+    ],
+    "traineeships": [
+     0,
+     0
+    ],
+    "teaching": [
+     1,
+     1
+    ],
+    "training": [
+     0,
+     0
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "CZ",
+    "RO",
+    "SE"
+   ]
+  },
+  "I  RAVENNA02": {
+   "types": {
+    "studies": [
+     1,
+     0
+    ],
+    "traineeships": [
+     1,
+     0
+    ],
+    "teaching": [
+     1,
+     0
+    ],
+    "training": [
+     0,
+     0
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "BG"
+   ]
+  },
+  "I  REGGIO03": {
+   "types": {
+    "studies": [
+     2,
+     1
+    ],
+    "traineeships": [
+     1,
+     0
+    ],
+    "teaching": [
+     2,
+     2
+    ],
+    "training": [
+     0,
+     0
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "LT",
+    "ES",
+    "BE",
+    "SI",
+    "PT"
+   ]
+  },
+  "I  REGGIO05": {
+   "types": {
+    "studies": [
+     1,
+     1
+    ],
+    "traineeships": [
+     1,
+     0
+    ],
+    "teaching": [
+     1,
+     1
+    ],
+    "training": [
+     1,
+     0
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "NL",
+    "AT",
+    "RO",
+    "GB"
+   ]
+  },
+  "I  ROMA09": {
+   "types": {
+    "studies": [
+     3,
+     4
+    ],
+    "traineeships": [
+     3,
+     3
+    ],
+    "teaching": [
+     3,
+     4
+    ],
+    "training": [
+     3,
+     4
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "PL",
+    "DE",
+    "RO",
+    "BE"
+   ]
+  },
+  "I  ROMA30": {
+   "types": {
+    "studies": [
+     4,
+     3
+    ],
+    "traineeships": [
+     3,
+     3
+    ],
+    "teaching": [
+     4,
+     4
+    ],
+    "training": [
+     4,
+     4
+    ],
+    "short": [
+     2,
+     4
+    ]
+   },
+   "partners": [
+    "GB",
+    "DK",
+    "FI",
+    "NL",
+    "GE"
+   ]
+  },
+  "I  ROVIGO01": {
+   "types": {
+    "studies": [
+     3,
+     1
+    ],
+    "traineeships": [
+     3,
+     3
+    ],
+    "teaching": [
+     2,
+     3
+    ],
+    "training": [
+     3,
+     0
+    ],
+    "short": [
+     1,
+     0
+    ]
+   },
+   "partners": [
+    "DE",
+    "GB",
+    "ES",
+    "HU",
+    "NL"
+   ]
+  },
+  "I  SALERNO02": {
+   "types": {
+    "studies": [
+     3,
+     3
+    ],
+    "traineeships": [
+     3,
+     3
+    ],
+    "teaching": [
+     4,
+     4
+    ],
+    "training": [
+     3,
+     2
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "DE",
+    "BE",
+    "SK",
+    "GB"
+   ]
+  },
+  "I  SASSARI02": {
+   "types": {
+    "studies": [
+     2,
+     1
+    ],
+    "traineeships": [
+     1,
+     0
+    ],
+    "teaching": [
+     1,
+     1
+    ],
+    "training": [
+     1,
+     3
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "BG",
+    "AR",
+    "SE",
+    "DE"
+   ]
+  },
+  "I  SIENA04": {
+   "types": {
+    "studies": [
+     2,
+     1
+    ],
+    "traineeships": [
+     0,
+     0
+    ],
+    "teaching": [
+     1,
+     1
+    ],
+    "training": [
+     1,
+     1
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "BE",
+    "DE",
+    "PL",
+    "IE"
+   ]
+  },
+  "I  TERAMO02": {
+   "types": {
+    "studies": [
+     1,
+     2
+    ],
+    "traineeships": [
+     1,
+     0
+    ],
+    "teaching": [
+     1,
+     1
+    ],
+    "training": [
+     1,
+     0
+    ],
+    "short": [
+     0,
+     4
+    ]
+   },
+   "partners": [
+    "PL",
+    "HU",
+    "ES",
+    "NO",
+    "BE"
+   ]
+  },
+  "I  TERNI01": {
+   "types": {
+    "studies": [
+     1,
+     1
+    ],
+    "traineeships": [
+     0,
+     0
+    ],
+    "teaching": [
+     1,
+     1
+    ],
+    "training": [
+     0,
+     0
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "NO",
+    "EE",
+    "SK",
+    "DE"
+   ]
+  },
+  "I  TORINO05": {
+   "types": {
+    "studies": [
+     2,
+     3
+    ],
+    "traineeships": [
+     2,
+     2
+    ],
+    "teaching": [
+     1,
+     1
+    ],
+    "training": [
+     2,
+     4
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "PL",
+    "DE",
+    "BE",
+    "LT"
+   ]
+  },
+  "I  TRAPANI02": {
+   "types": {
+    "studies": [
+     2,
+     1
+    ],
+    "traineeships": [
+     1,
+     1
+    ],
+    "teaching": [
+     2,
+     3
+    ],
+    "training": [
+     4,
+     1
+    ],
+    "short": [
+     1,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "DE",
+    "PL",
+    "GB",
+    "RU"
+   ]
+  },
+  "I  TRENTO02": {
+   "types": {
+    "studies": [
+     2,
+     2
+    ],
+    "traineeships": [
+     2,
+     2
+    ],
+    "teaching": [
+     3,
+     3
+    ],
+    "training": [
+     1,
+     2
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "DE",
+    "FI",
+    "AT",
+    "HU"
+   ]
+  },
+  "I  TRIESTE02": {
+   "types": {
+    "studies": [
+     4,
+     4
+    ],
+    "traineeships": [
+     3,
+     2
+    ],
+    "teaching": [
+     4,
+     4
+    ],
+    "training": [
+     4,
+     4
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "AT",
+    "RS",
+    "ME",
+    "BA"
+   ]
+  },
+  "I  UDINE02": {
+   "types": {
+    "studies": [
+     3,
+     2
+    ],
+    "traineeships": [
+     1,
+     1
+    ],
+    "teaching": [
+     4,
+     3
+    ],
+    "training": [
+     1,
+     1
+    ],
+    "short": [
+     3,
+     0
+    ]
+   },
+   "partners": [
+    "CZ",
+    "AT",
+    "ES",
+    "DE",
+    "BE"
+   ]
+  },
+  "I  VARESE05": {
+   "types": {
+    "studies": [
+     1,
+     0
+    ],
+    "traineeships": [
+     0,
+     0
+    ],
+    "teaching": [
+     1,
+     0
+    ],
+    "training": [
+     1,
+     0
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "IE",
+    "ES",
+    "BG"
+   ]
+  },
+  "I  VENEZIA04": {
+   "types": {
+    "studies": [
+     2,
+     2
+    ],
+    "traineeships": [
+     3,
+     2
+    ],
+    "teaching": [
+     2,
+     3
+    ],
+    "training": [
+     2,
+     3
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "DE",
+    "ES",
+    "AT",
+    "EE",
+    "RO"
+   ]
+  },
+  "I  VERONA02": {
+   "types": {
+    "studies": [
+     3,
+     3
+    ],
+    "traineeships": [
+     2,
+     2
+    ],
+    "teaching": [
+     3,
+     3
+    ],
+    "training": [
+     3,
+     3
+    ],
+    "short": [
+     1,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "SE",
+    "PL",
+    "GB",
+    "AT"
+   ]
+  },
+  "I  VIBO-VA01": {
+   "types": {
+    "studies": [
+     1,
+     1
+    ],
+    "traineeships": [
+     1,
+     0
+    ],
+    "teaching": [
+     1,
+     1
+    ],
+    "training": [
+     1,
+     0
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "PL",
+    "LT",
+    "ES",
+    "GB",
+    "SK"
+   ]
+  },
+  "I  VICENZA03": {
+   "types": {
+    "studies": [
+     3,
+     2
+    ],
+    "traineeships": [
+     2,
+     3
+    ],
+    "teaching": [
+     2,
+     2
+    ],
+    "training": [
+     2,
+     2
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "DE",
+    "NL",
+    "LV",
+    "PT",
+    "ES"
+   ]
+  },
+  "IRLDUBLIN22": {
+   "types": {
+    "studies": [
+     2,
+     3
+    ],
+    "traineeships": [
+     0,
+     3
+    ],
+    "teaching": [
+     3,
+     2
+    ],
+    "training": [
+     4,
+     3
+    ],
+    "short": [
+     1,
+     0
+    ]
+   },
+   "partners": [
+    "GB",
+    "PL",
+    "IT",
+    "ES",
+    "AT"
+   ]
+  },
+  "IS REYKJAV06": {
+   "types": {
+    "studies": [
+     2,
+     3
+    ],
+    "traineeships": [
+     3,
+     2
+    ],
+    "teaching": [
+     2,
+     4
+    ],
+    "training": [
+     1,
+     null
+    ],
+    "short": [
+     3,
+     0
+    ]
+   },
+   "partners": [
+    "GB",
+    "SE",
+    "DK",
+    "FI",
+    "DE"
+   ],
+   "music_field_only": true
+  },
+  "LT VILNIUS05": {
+   "types": {
+    "studies": [
+     4,
+     4
+    ],
+    "traineeships": [
+     3,
+     3
+    ],
+    "teaching": [
+     4,
+     4
+    ],
+    "training": [
+     4,
+     4
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "LV",
+    "AT",
+    "ES",
+    "PL"
+   ]
+  },
+  "LV RIGA05": {
+   "types": {
+    "studies": [
+     4,
+     4
+    ],
+    "traineeships": [
+     3,
+     3
+    ],
+    "teaching": [
+     4,
+     4
+    ],
+    "training": [
+     4,
+     4
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "DE",
+    "IT",
+    "LT",
+    "AT",
+    "EE"
+   ]
+  },
+  "N  OSLO03": {
+   "types": {
+    "studies": [
+     4,
+     4
+    ],
+    "traineeships": [
+     1,
+     1
+    ],
+    "teaching": [
+     4,
+     4
+    ],
+    "training": [
+     4,
+     4
+    ],
+    "short": [
+     4,
+     0
+    ]
+   },
+   "partners": [
+    "DE",
+    "DK",
+    "SE",
+    "GB",
+    "AT"
+   ]
+  },
+  "N  OSLO07": {
+   "types": {
+    "studies": [
+     1,
+     3
+    ],
+    "traineeships": [
+     1,
+     2
+    ],
+    "teaching": [
+     1,
+     2
+    ],
+    "training": [
+     null,
+     null
+    ],
+    "short": [
+     1,
+     0
+    ]
+   },
+   "partners": [
+    "DK",
+    "DE",
+    "IT",
+    "SE",
+    "FI"
+   ],
+   "music_field_only": true
+  },
+  "N  OSLO66": {
+   "types": {
+    "studies": [
+     1,
+     1
+    ],
+    "traineeships": [
+     0,
+     0
+    ],
+    "teaching": [
+     1,
+     1
+    ],
+    "training": [
+     1,
+     1
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "BG",
+    "SE",
+    "DE",
+    "DK"
+   ]
+  },
+  "NL AMSTERD07": {
+   "types": {
+    "studies": [
+     3,
+     4
+    ],
+    "traineeships": [
+     3,
+     1
+    ],
+    "teaching": [
+     4,
+     2
+    ],
+    "training": [
+     null,
+     null
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "DE",
+    "AT",
+    "ES",
+    "IT",
+    "DK"
+   ],
+   "music_field_only": true
+  },
+  "NL ROTTERD09": {
+   "types": {
+    "studies": [
+     3,
+     4
+    ],
+    "traineeships": [
+     3,
+     0
+    ],
+    "teaching": [
+     3,
+     2
+    ],
+    "training": [
+     null,
+     null
+    ],
+    "short": [
+     2,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "DE",
+    "IT",
+    "SE",
+    "TR"
+   ],
+   "music_field_only": true
+  },
+  "NL S-GRAVE05": {
+   "types": {
+    "studies": [
+     3,
+     4
+    ],
+    "traineeships": [
+     3,
+     2
+    ],
+    "teaching": [
+     4,
+     4
+    ],
+    "training": [
+     null,
+     null
+    ],
+    "short": [
+     3,
+     4
+    ]
+   },
+   "partners": [
+    "ES",
+    "BE",
+    "IT",
+    "GB",
+    "DE"
+   ],
+   "music_field_only": true
+  },
+  "NL UTRECHT29": {
+   "types": {
+    "studies": [
+     3,
+     3
+    ],
+    "traineeships": [
+     3,
+     1
+    ],
+    "teaching": [
+     2,
+     2
+    ],
+    "training": [
+     null,
+     null
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "DE",
+    "GB",
+    "IT",
+    "ES",
+    "FI"
+   ],
+   "music_field_only": true
+  },
+  "PL BYDGOSZ04": {
+   "types": {
+    "studies": [
+     2,
+     1
+    ],
+    "traineeships": [
+     2,
+     0
+    ],
+    "teaching": [
+     2,
+     2
+    ],
+    "training": [
+     2,
+     3
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "ES",
+    "SK",
+    "DE",
+    "LT"
+   ]
+  },
+  "PL GDANSK04": {
+   "types": {
+    "studies": [
+     4,
+     3
+    ],
+    "traineeships": [
+     3,
+     1
+    ],
+    "teaching": [
+     4,
+     4
+    ],
+    "training": [
+     3,
+     2
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "DE",
+    "BE",
+    "DK",
+    "ES"
+   ]
+  },
+  "PL KATOWIC04": {
+   "types": {
+    "studies": [
+     4,
+     3
+    ],
+    "traineeships": [
+     1,
+     1
+    ],
+    "teaching": [
+     3,
+     3
+    ],
+    "training": [
+     2,
+     2
+    ],
+    "short": [
+     2,
+     0
+    ]
+   },
+   "partners": [
+    "CZ",
+    "DE",
+    "AT",
+    "IT",
+    "ES"
+   ]
+  },
+  "PL KRAKOW09": {
+   "types": {
+    "studies": [
+     4,
+     4
+    ],
+    "traineeships": [
+     3,
+     3
+    ],
+    "teaching": [
+     4,
+     4
+    ],
+    "training": [
+     4,
+     4
+    ],
+    "short": [
+     4,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "DE",
+    "AT",
+    "ES",
+    "NL"
+   ]
+  },
+  "PL LODZ04": {
+   "types": {
+    "studies": [
+     3,
+     2
+    ],
+    "traineeships": [
+     1,
+     0
+    ],
+    "teaching": [
+     3,
+     4
+    ],
+    "training": [
+     1,
+     3
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "DE",
+    "IT",
+    "ES",
+    "BE",
+    "AT"
+   ]
+  },
+  "PL POZNAN06": {
+   "types": {
+    "studies": [
+     4,
+     3
+    ],
+    "traineeships": [
+     3,
+     2
+    ],
+    "teaching": [
+     4,
+     4
+    ],
+    "training": [
+     4,
+     3
+    ],
+    "short": [
+     2,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "DE",
+    "CZ",
+    "ES",
+    "AT"
+   ]
+  },
+  "PL WARSZAW09": {
+   "types": {
+    "studies": [
+     4,
+     4
+    ],
+    "traineeships": [
+     3,
+     3
+    ],
+    "teaching": [
+     4,
+     4
+    ],
+    "training": [
+     4,
+     4
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "ES",
+    "DE",
+    "AT",
+    "TR"
+   ]
+  },
+  "PL WROCLAW06": {
+   "types": {
+    "studies": [
+     4,
+     3
+    ],
+    "traineeships": [
+     2,
+     2
+    ],
+    "teaching": [
+     4,
+     4
+    ],
+    "training": [
+     4,
+     3
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "ES",
+    "DE",
+    "IT",
+    "CZ",
+    "AT"
+   ]
+  },
+  "RO BUCURES03": {
+   "types": {
+    "studies": [
+     4,
+     2
+    ],
+    "traineeships": [
+     3,
+     1
+    ],
+    "teaching": [
+     2,
+     3
+    ],
+    "training": [
+     4,
+     4
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "IT",
+    "DE",
+    "AT",
+    "PL",
+    "NL"
+   ]
+  },
+  "RO CLUJNAP02": {
+   "types": {
+    "studies": [
+     4,
+     2
+    ],
+    "traineeships": [
+     3,
+     1
+    ],
+    "teaching": [
+     3,
+     4
+    ],
+    "training": [
+     4,
+     3
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "AT",
+    "HU",
+    "DE",
+    "IT",
+    "ES"
+   ]
+  },
+  "RO TARGU01": {
+   "types": {
+    "studies": [
+     1,
+     0
+    ],
+    "traineeships": [
+     2,
+     1
+    ],
+    "teaching": [
+     1,
+     1
+    ],
+    "training": [
+     null,
+     null
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "HU",
+    "GB",
+    "LT",
+    "PT",
+    "SK"
+   ],
+   "music_field_only": true
+  },
+  "S  STOCKHO11": {
+   "types": {
+    "studies": [
+     4,
+     4
+    ],
+    "traineeships": [
+     1,
+     1
+    ],
+    "teaching": [
+     4,
+     4
+    ],
+    "training": [
+     4,
+     4
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "DE",
+    "NO",
+    "GB",
+    "FI",
+    "IT"
+   ]
+  },
+  "S  STOCKHO15": {
+   "types": {
+    "studies": [
+     0,
+     0
+    ],
+    "traineeships": [
+     0,
+     0
+    ],
+    "teaching": [
+     1,
+     0
+    ],
+    "training": [
+     3,
+     0
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "EE",
+    "DK",
+    "GB",
+    "FR",
+    "PT"
+   ]
+  },
+  "S  STOCKHO27": {
+   "types": {
+    "studies": [
+     2,
+     3
+    ],
+    "traineeships": [
+     1,
+     2
+    ],
+    "teaching": [
+     3,
+     2
+    ],
+    "training": [
+     1,
+     null
+    ],
+    "short": [
+     4,
+     0
+    ]
+   },
+   "partners": [
+    "FI",
+    "IT",
+    "DE",
+    "NO",
+    "GE"
+   ],
+   "music_field_only": true
+  },
+  "SF HELSINK42": {
+   "types": {
+    "studies": [
+     4,
+     4
+    ],
+    "traineeships": [
+     3,
+     3
+    ],
+    "teaching": [
+     4,
+     4
+    ],
+    "training": [
+     null,
+     null
+    ],
+    "short": [
+     4,
+     3
+    ]
+   },
+   "partners": [
+    "DE",
+    "SE",
+    "ES",
+    "AT",
+    "DK"
+   ],
+   "music_field_only": true
+  },
+  "SI LJUBLJA33": {
+   "types": {
+    "studies": [
+     0,
+     0
+    ],
+    "traineeships": [
+     0,
+     0
+    ],
+    "teaching": [
+     1,
+     1
+    ],
+    "training": [
+     0,
+     0
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "MK",
+    "HU",
+    "HR",
+    "FR"
+   ]
+  },
+  "SK BRATISL05": {
+   "types": {
+    "studies": [
+     4,
+     4
+    ],
+    "traineeships": [
+     3,
+     1
+    ],
+    "teaching": [
+     4,
+     4
+    ],
+    "training": [
+     4,
+     4
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "CZ",
+    "PL",
+    "GB",
+    "ES",
+    "FI"
+   ]
+  },
+  "TR ANKARA26": {
+   "types": {
+    "studies": [
+     1,
+     0
+    ],
+    "traineeships": [
+     1,
+     0
+    ],
+    "teaching": [
+     1,
+     0
+    ],
+    "training": [
+     null,
+     0
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "NL",
+    "IT",
+    "DE",
+    "PL"
+   ],
+   "music_field_only": true
+  },
+  "TR ISTANBU06": {
+   "types": {
+    "studies": [
+     3,
+     2
+    ],
+    "traineeships": [
+     0,
+     0
+    ],
+    "teaching": [
+     1,
+     2
+    ],
+    "training": [
+     null,
+     null
+    ],
+    "short": [
+     0,
+     0
+    ]
+   },
+   "partners": [
+    "DE",
+    "IT",
+    "AT",
+    "NL",
+    "PL"
+   ],
+   "music_field_only": true
+  }
+ }
+}

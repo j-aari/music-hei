@@ -18,6 +18,10 @@ SITE_PUBLIC = None if os.environ.get("MUSIC_HEI_DATA") else ROOT / "site" / "dat
 POPULATION = DATA / "population.json"
 COVERAGE = DATA / "coverage.json"
 STRATEGIES = DATA / "strategies.json"  # hand-curated, ei generoitu; ks. Ohjelmahaku-työ
+MOBILITY_RAW = ROOT / "data" / "raw" / "mobility"  # Erasmus+ -liikkuvuusdatan raakatiedostot; ei versionhallinnassa
+MOBILITY_NAMES = DATA / "mobility_names.json"  # käsin tarkistettu: laitos -> organisaation nimimuodot liikkuvuusdatassa
+MOBILITY_CANDIDATES = DATA / "mobility_candidates.json"  # generoitu nimiehdotuslista tarkistusta varten
+MOBILITY = DATA / "mobility.json"  # generoitu yhteenveto, julkaistaan sivulle
 NE_COUNTRIES = DATA / "reference" / "ne_110m_admin_0_countries.geojson"
 PUBLIC_DATA = SITE_PUBLIC.parent if SITE_PUBLIC else None  # site/data/
 

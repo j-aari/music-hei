@@ -32,6 +32,7 @@
   let tierLabels = {};
   let strategiesByCode = new Map();  // erasmus_code -> document[]
   let strategiesMeta = null;         // { institutions_covered, ... } or null if the file couldn't be loaded
+  let mobility = null;               // data/mobility.json, or null if the file couldn't be loaded
   const state = { view: 'list', sort: 'country', q: '', country: new Set(), type: new Set(), language: new Set(), partner: new Set(), strategy: new Set(), id: null };
   let langNames;
   let hasPartnerData = false, hasLanguageData = false, hasStrategyData = false;
@@ -304,6 +305,61 @@
     section.append(ul);
     return section;
   }
+  // Erasmus+ mobility: scale classes only (quartiles among the music institutions on the page), never exact counts
+  // 'short' (short-term student mobility) is in the data but hidden for now: most institutions have none in the data
+  const MOBILITY_TYPES = ['studies', 'traineeships', 'teaching', 'training'];
+  function mobilityCell(cls, key) {
+    if (cls === null) return h('td', { class: 'mob-absent', text: 'No field recorded', title: 'This type appears only in rows without a field of education, so the music share cannot be told apart' });
+    if (!cls) return h('td', { class: 'mob-absent', text: 'Not in data' });
+    const c = mobility.meta.classes[key];
+    const [lo, hi] = c.ranges[cls - 1];
+    const meter = h('span', { class: 'mob-meter', 'aria-hidden': 'true' });
+    for (let k = 1; k <= c.ranges.length; k++) meter.append(h('span', { class: k <= cls ? 'on' : '' }));
+    return h('td', { title: `${lo}–${hi} participants` }, meter, h('span', { class: 'mob-label', text: c.labels[cls - 1] }));
+  }
+  function renderMobilitySection(i) {
+    const m = mobility.meta;
+    const [y0, y1] = m.years;
+    const section = h('div', { class: 'panel__section' }, h('h3', { class: 'panel__section-title', text: `Erasmus+ mobility, ${y0}–${y1}` }));
+    const rec = mobility.institutions[i.erasmus_code];
+    if (!rec) {
+      section.append(h('p', { class: 'strategy-empty', text: 'This institution could not be identified in the European Commission’s mobility data.' }));
+      return section;
+    }
+    const tbody = h('tbody');
+    for (const t of MOBILITY_TYPES) {
+      tbody.append(h('tr', {}, h('th', { scope: 'row', text: m.types[t] }),
+        mobilityCell(rec.types[t][0], `${t}.out`), mobilityCell(rec.types[t][1], `${t}.in`)));
+    }
+    section.append(h('table', { class: 'mob-table' },
+      h('caption', { class: 'sr-only', text: `Scale of Erasmus+ mobility by type, ${y0}–${y1}` }),
+      h('thead', {}, h('tr', {}, h('th', { scope: 'col', text: 'Type' }), h('th', { scope: 'col', text: 'Outgoing' }), h('th', { scope: 'col', text: 'Incoming' }))),
+      tbody));
+    if (rec.partners.length) {
+      section.append(h('p', { class: 'mob-partners' }, h('strong', { text: 'Most frequent partner countries: ' }),
+        rec.partners.map((cc) => m.country_names[cc] || cc).join(', ')));
+    }
+    section.append(h('p', { class: 'small', text: '“Not in data” means that this type of mobility does not appear in the Commission’s data for this institution, not that the institution does not offer it.' }));
+    if (rec.music_field_only) {
+      section.append(h('p', { class: 'small', text: 'Only mobility recorded in the field of music and performing arts is counted. Staff mobility is often recorded without a field, so staff figures are likely to be too low.' }));
+    }
+    const rows = h('tbody');
+    for (const t of MOBILITY_TYPES) {
+      for (const [d, dl] of [['out', 'outgoing'], ['in', 'incoming']]) {
+        const c = m.classes[`${t}.${d}`];
+        if (!c) continue;
+        rows.append(h('tr', {}, h('th', { scope: 'row', text: `${m.types[t]}, ${dl}` }),
+          ...c.ranges.map((r, k) => h('td', { text: r ? `${c.labels[k]} ${r[0]}–${r[1]} (${c.institutions[k]})` : `${c.labels[k]} —` }))));
+      }
+    }
+    section.append(h('details', { class: 'mob-scale' },
+      h('summary', { text: 'How the scale is defined' }),
+      h('p', { text: `Participants over ${y0}–${y1}, outgoing and incoming counted separately. The classes are the quartiles (for traineeships, whose numbers are small, the thirds) of the music institutions on this page in whose data the type appears; the number of institutions in each class is in brackets. The latest years are left out because the Commission publishes final figures only once a project has closed.` }),
+      h('div', { class: 'table-wrap' }, h('table', { class: 'mob-ranges' },
+        h('thead', {}, h('tr', {}, h('th', { scope: 'col', text: 'Type' }), h('th', { scope: 'col', colspan: 4, text: 'Classes: participants (institutions)' }))),
+        rows))));
+    return section;
+  }
   function openPanel(id, trigger) {
     const i = byId.get(id);
     if (!i) return;
@@ -339,6 +395,7 @@
     if (i.public_note) body.append(h('p', { class: 'note', text: i.public_note }));
     if (i.geo_precision === 'city') body.append(h('p', { class: 'small', text: 'Map position is approximate (city centre).' }));
     body.append(renderStrategySection(i));
+    if (mobility) body.append(renderMobilitySection(i));
     if (state.view === 'list' && i.lat != null && matches(i)) {
       body.append(h('p', { class: 'actions' }, h('button', { type: 'button', class: 'btn', onclick: () => { setView('map'); focusMarker(i); }, text: 'Show on map' })));
     }
@@ -494,6 +551,8 @@
       h('p', {}, `Institution data: the list of Erasmus Charter for Higher Education holders published by the European Commission, retrieved on ${when} through the `,
         h('a', { href: 'https://eche-list.erasmuswithoutpaper.eu/openapi' }, 'ECHE List API'),
         ' of the European University Foundation. Which institutions count as music institutions is our own classification; map positions are geocoded with Nominatim and may be approximate.'),
+      ...(mobility ? [h('p', {}, `Erasmus+ mobility: ${mobility.meta.source}, `, h('a', { href: mobility.meta.source_url }, 'Erasmus+ Mobility Raw Data'),
+        `, mobility periods started ${mobility.meta.years[0]}–${mobility.meta.years[1]}. Institutions are matched to the data by name, because the data has no Erasmus codes.`)] : []),
       h('p', { text: 'No cookies and no analytics. Opening the map view loads map tiles from OpenStreetMap.' }));
   }
 
@@ -530,6 +589,8 @@
       if (strat.meta.status_labels) strategyStatusLabels = strat.meta.status_labels;
       hasStrategyData = strategyStatusByCode.size > 0;
     }
+
+    mobility = await fetchJson('data/mobility.json');  // optional: the panel works without it
 
     $('#scope').textContent = meta.scope_text;
     renderFooter();
