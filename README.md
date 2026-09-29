@@ -1,8 +1,8 @@
 # European Music Institutions with an Erasmus Charter
 
-A static web page that lists music institutions in Europe that hold an Erasmus Charter for Higher Education (ECHE). It answers three questions: which music institutions exist, where are they, and which of them are exchange partners.
+A static web page that lists music institutions in Europe that hold an Erasmus Charter for Higher Education (ECHE). It answers two questions: which music institutions exist, and where are they.
 
-The page has a list view and a map view that always show the same filtered set, filters for country, institution type, language of instruction and partner status, a text search on name and city, a details panel for each institution, and a CSV export of whatever is currently shown. A further section at the end of the page shows the areas with no institution within 300 km (or within 600 km in the same country). There is no server, no database, no login, no cookies and no analytics.
+The page has a list view and a map view that always show the same filtered set, filters for country, institution type, language of instruction and partner status, a text search on name and city, a details panel for each institution, and a CSV export of whatever is currently shown. There is no server, no database, no login, no cookies and no analytics.
 
 This is an informal compilation of public data. It is not an official publication of the European Commission or of any of the institutions listed.
 
@@ -26,8 +26,8 @@ Currently: **186 institutions** (167 at level 1, 19 at level 2) in 24 countries.
 | Institutions, addresses, Erasmus codes, OIDs, websites | The list of ECHE holders published by the **European Commission** ([source list](https://erasmus-plus.ec.europa.eu/document/higher-education-institutions-holding-an-eche-2021-2027)), retrieved through the [ECHE List API](https://eche-list.erasmuswithoutpaper.eu/openapi) of the European University Foundation |
 | Which institutions are music institutions, and their level | Our own classification, recorded in `data/annotations.json` (see below) |
 | Map positions | Geocoded once with [Nominatim](https://nominatim.openstreetmap.org/) and stored in `data/geo.json`. Some positions are approximate (city centre) and the details panel says so |
-| Map tiles | [OpenStreetMap](https://www.openstreetmap.org/copyright), loaded only when a map is about to be seen (the map view, or the coverage map at the end of the page) |
-| Country outlines (coverage analysis only) | [Natural Earth](https://www.naturalearthdata.com/) 1:110m countries, public domain, in `data/reference/` |
+| Map tiles | [OpenStreetMap](https://www.openstreetmap.org/copyright), loaded only when the map view is opened |
+| Country outlines (coverage calculation, not shown on the page) | [Natural Earth](https://www.naturalearthdata.com/) 1:110m countries, public domain, in `data/reference/` |
 | Partner status | The exchange-destination list published by the University of the Arts Helsinki. **This field is not filled in yet**, so the partner and language filters are hidden until data exists |
 
 Only public data is used. Partner information should be taken from the institutions' own published exchange-destination lists, not from internal agreement registers.
@@ -115,7 +115,6 @@ The `site/` folder is the whole site. `.github/workflows/pages.yml` publishes it
 
 - Some institution names lack diacritics because the source list is often plain ASCII capitals (for example "Universitat fur Musik"). The list of affected names is produced by `scripts/report_diacritics.py`.
 - City names follow the source and are inconsistent between languages (for example *Wien* and *Vienna*), so a search for one form may miss the other.
-- The coverage map gives an institution in the same country a longer reach: an area is uncovered only if no institution is within 300 km and none in its own country is within 600 km. Areas with an institution of their own country 300–600 km away are shown in a lighter tone and not counted. Malta is not assessed because it is missing from the 1:110m country outlines; it is within 300 km of Catania in any case.
 - Which institutions count as music institutions is a judgement, not a fact in the data. That is why the decisions are visible in `annotations.json` and `excluded.json`.
 
 ## Licence and attribution

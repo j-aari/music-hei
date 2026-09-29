@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>European Music Institutions with an Erasmus Charter</title>
-  <meta name="description" content="Music institutions in Europe that hold an Erasmus Charter for Higher Education: where they are, what they are, and which are exchange partners.">
+  <meta name="description" content="Music institutions in Europe that hold an Erasmus Charter for Higher Education: where they are and what they are.">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='5' fill='%2314181D'/%3E%3C/svg%3E">
   <link rel="preload" href="fonts/newsreader.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/publicsans.woff2" as="font" type="font/woff2" crossorigin>
@@ -16,12 +16,29 @@
 
   <header class="masthead">
     <h1><a href="./" id="home">European Music Institutions with an Erasmus Charter</a></h1>
-    <p class="lede">Which music institutions in Europe hold an Erasmus Charter for Higher Education, where are they, and which are exchange partners?</p>
+    <p class="lede">Which music institutions in Europe hold an Erasmus Charter for Higher Education, and where are they?</p>
     <p class="scope" id="scope"></p>
   </header>
 
   <div class="layout" id="layout">
-    <form class="filters" id="filters" role="search" aria-label="Search and filters" autocomplete="off">
+    <form class="filters" id="filters" role="search" aria-label="View, search and filters" autocomplete="off">
+      <div class="controls">
+        <div class="control">
+          <span class="control__label" id="view-label">View</span>
+          <div class="view-toggle" role="group" aria-labelledby="view-label">
+            <button type="button" class="btn" data-view="list" aria-pressed="true">List</button>
+            <button type="button" class="btn" data-view="map" aria-pressed="false">Map</button>
+          </div>
+        </div>
+        <div class="control" id="sort-control">
+          <span class="control__label" id="sort-label">Sort list by</span>
+          <div class="sort-toggle" id="sort-toggle" role="group" aria-labelledby="sort-label">
+            <button type="button" class="btn" data-list-sort="country" aria-pressed="true">Country</button>
+            <button type="button" class="btn" data-list-sort="name" aria-pressed="false">Name</button>
+          </div>
+        </div>
+        <button type="button" class="btn btn--block" id="csv"></button>
+      </div>
       <div class="filters__head">
         <h2 class="filters__title">Filters</h2>
         <button type="button" class="btn" id="reset" hidden>Clear all filters</button>
@@ -37,15 +54,6 @@
     <main class="main" id="main">
       <div class="toolbar" id="toolbar">
         <p class="count" id="count" role="status" aria-live="polite"></p>
-        <div class="sort-toggle" id="sort-toggle" role="group" aria-label="Sort by">
-          <button type="button" class="btn" data-list-sort="country" aria-pressed="true">Country</button>
-          <button type="button" class="btn" data-list-sort="name" aria-pressed="false">Name</button>
-        </div>
-        <div class="view-toggle" role="group" aria-label="View">
-          <button type="button" class="btn" data-view="list" aria-pressed="true">List</button>
-          <button type="button" class="btn" data-view="map" aria-pressed="false">Map</button>
-        </div>
-        <button type="button" class="btn" id="csv"></button>
       </div>
       <p class="legend" id="legend" aria-hidden="true"></p>
       <p class="strategy-coverage" id="strategy-coverage" hidden></p>
@@ -67,30 +75,6 @@
       </div>
       <div class="panel__body" id="panel-body"></div>
     </aside>
-  </div>
-
-  <div class="extras">
-    <section class="extra" id="coverage" aria-labelledby="coverage-title" hidden>
-      <h2 id="coverage-title">Areas far from a music institution</h2>
-      <p class="extra__lede" id="coverage-lede"></p>
-      <div id="coverage-map" role="region" aria-label="Map of the areas far from any music institution: no institution within 300 kilometres and none in the same country within 600 kilometres. The table below gives the same information by country."></div>
-      <p class="legend" id="coverage-legend"></p>
-      <div class="table-wrap">
-        <table class="density" id="coverage-table">
-          <caption class="sr-only">Share of each country's area that is counted as uncovered, and the area with no institution within 300 kilometres but one in the same country within 600 kilometres</caption>
-          <thead>
-            <tr>
-              <th scope="col">Country</th>
-              <th scope="col">Share of the country's area counted as uncovered</th>
-              <th scope="col" class="col-pop">Counted, thousand km²</th>
-              <th scope="col" class="col-pop">Not counted (same country within 600 km), thousand km²</th>
-            </tr>
-          </thead>
-          <tbody id="coverage-body"></tbody>
-        </table>
-      </div>
-      <p class="extra__note" id="coverage-note"></p>
-    </section>
   </div>
 
   <footer class="footer" id="footer"></footer>

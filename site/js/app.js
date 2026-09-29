@@ -56,7 +56,8 @@
       text: (v) => strategyStatusLabels[v] || v,
     },
   };
-  const GROUP_ORDER = ['country', 'type', 'language', 'partner', 'strategy'];
+  // Country last: it is the longest list, so the short groups stay in view without scrolling the sidebar
+  const GROUP_ORDER = ['type', 'strategy', 'language', 'partner', 'country'];
   let strategyStatusByCode = new Map();
   const strategyStatusOf = (code) => strategyStatusByCode.get(code) || null;
 
@@ -458,7 +459,7 @@
     const isMap = state.view === 'map';
     $('#list-view').hidden = isMap;
     $('#map-view').hidden = !isMap;
-    $('#sort-toggle').hidden = isMap; // sort order only affects the list
+    $('#sort-control').hidden = isMap; // sort order only affects the list
     for (const b of document.querySelectorAll('.sort-toggle .btn')) b.setAttribute('aria-pressed', String(b.dataset.listSort === state.sort));
     $('#empty').hidden = rows.length > 0;
     if (rows.length === 0) renderEmpty();
@@ -474,97 +475,12 @@
     writeHash();
   }
 
-  // ---------- extra section: coverage (own section at the end of the page) ----------
+  // ---------- optional data files ----------
   async function fetchJson(url) {
     try {
       const res = await fetch(url, { cache: 'no-cache' });
       return res.ok ? await res.json() : null;
     } catch { return null; }
-  }
-  const fmt = (n, digits = 0) => n.toLocaleString('en', { minimumFractionDigits: digits, maximumFractionDigits: digits });
-
-  function barCell(value, max, label, title) {
-    return h('td', { title },
-      h('div', { class: 'bar-cell' },
-        h('span', { class: 'bar', 'data-zero': value === 0, style: `--f:${max ? value / max : 0}`, 'aria-hidden': 'true' }),
-        h('span', { class: 'bar-val', text: label })));
-  }
-
-  let coverageMap = null;
-  function initCoverageMap(cov) {
-    const { ink, paper } = { ink: palette()['--ink'], paper: palette()['--paper'] };
-    const [[latMin, latMax], [lonMin, lonMax]] = [cov.meta.extent.lat, cov.meta.extent.lon];
-    coverageMap = L.map('coverage-map', { preferCanvas: true, minZoom: 3, maxZoom: 9, zoomAnimation: !reduceMotion, fadeAnimation: !reduceMotion, markerZoomAnimation: !reduceMotion })
-      .fitBounds([[latMin + 4, lonMin + 8], [latMax - 6, lonMax - 2]]);
-    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      maxZoom: 19,
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-    }).addTo(coverageMap);
-    // Each layer is drawn opaque on its own pane and the whole pane is faded: overlapping rows then leave no seams
-    const half = cov.meta.grid_deg / 2;
-    const v = half * 1.12; // rows overlap slightly
-    const drawRuns = (runs, name, zIndex, opacity) => {
-      coverageMap.createPane(name);
-      const pane = coverageMap.getPane(name);
-      pane.style.zIndex = zIndex;
-      pane.style.opacity = String(opacity);
-      pane.style.pointerEvents = 'none';
-      const renderer = L.canvas({ pane: name });
-      for (const [lat, lon0, lon1] of runs) {
-        L.rectangle([[lat - v, lon0 - half], [lat + v, lon1 + half]], { stroke: false, fillColor: ink, fillOpacity: 1, interactive: false, renderer }).addTo(coverageMap);
-      }
-    };
-    drawRuns(cov.runs_same_country || [], 'far', 240, 0.16); // far, but in the same country as the nearest institution: not counted
-    drawRuns(cov.runs, 'gaps', 250, 0.42);                    // counted as uncovered
-    for (const i of data) {
-      if (i.lat == null) continue;
-      L.circleMarker([i.lat, i.lon], { radius: 3.5, color: paper, weight: 1.5, fillColor: ink, fillOpacity: 1, interactive: false }).addTo(coverageMap);
-    }
-  }
-
-  function renderCoverage(cov) {
-    const m = cov.meta;
-    const km = m.threshold_km;
-    const same = m.same_country_km;
-    $('#coverage-lede').textContent =
-      `${fmt(m.gap_share * 100, 1)}% of the land area of the countries on the ECHE list is uncovered: none of the ${m.institutions} institutions is within ${km} km in a straight line, and none in the same country is within ${same} km. ` +
-      `A further ${fmt(m.same_country_km2 / m.area_km2 * 100, 1)}% has no institution within ${km} km but one in its own country within ${same} km: it is shown in a lighter tone and not counted.`;
-    const lg = $('#coverage-legend');
-    lg.append(h('span', {}, h('span', { class: 'gap-swatch' }), `No institution within ${km} km, and none in the same country within ${same} km (counted)`),
-      h('span', {}, h('span', { class: 'gap-swatch gap-swatch--far' }), `No institution within ${km} km, but one in the same country within ${same} km (not counted)`),
-      h('span', {}, h('span', { class: 'glyph glyph--t1' }), 'Institution'));
-    const body = $('#coverage-body');
-    const rows = Object.entries(m.by_country).map(([code, v]) => ({ code, ...v, name: v.name }));
-    const maxShare = Math.max(...rows.map((r) => r.share));
-    for (const r of rows) {
-      const tip = `${r.name}: ${fmt(r.share * 100, 1)}% of the area counted as uncovered (${fmt(r.gap_km2 / 1000)} of ${fmt(r.area_km2 / 1000)} thousand km²); ` +
-        `a further ${fmt(r.same_country_km2 / 1000)} thousand km² has no institution within ${km} km but one in the same country within ${same} km`;
-      body.append(h('tr', {},
-        h('td', { class: 'country-name', text: r.name }),
-        barCell(r.share, Math.max(maxShare, 1e-9), `${fmt(r.share * 100, 1)}%`, tip),
-        h('td', { class: 'col-pop', text: fmt(r.gap_km2 / 1000) }),
-        h('td', { class: 'col-pop', text: fmt(r.same_country_km2 / 1000) })));
-    }
-    $('#coverage-note').textContent =
-      `Calculated from the coordinates of the institutions on a ${m.grid_deg}° grid (about 11 km) as great-circle distance to the institutions, in any country. ` +
-      `An institution in the same country is given a longer reach (${same} km instead of ${km} km), so a country’s remote parts are not treated as uncovered when an institution of its own is within ${same} km; the lighter tone shows how much this leaves out. ` +
-      'Only land in countries on the ECHE list is assessed, so the United Kingdom, Switzerland and countries outside the programme are not shown. ' +
-      'Distance is not travel time. Country outlines are simplified, so edges are approximate. ' +
-      'Music departments of general universities are not included yet: in countries where music education is mostly organised that way, for example Greece, the uncovered areas partly reflect that.';
-    $('#coverage').hidden = false;
-    // Map tiles are only requested once the section is about to be seen
-    const target = $('#coverage-map');
-    if ('IntersectionObserver' in window) {
-      const io = new IntersectionObserver((entries) => {
-        if (entries.some((e) => e.isIntersecting)) { io.disconnect(); initCoverageMap(cov); }
-      }, { rootMargin: '400px' });
-      io.observe(target);
-    } else initCoverageMap(cov);
-  }
-
-  async function initExtras() {
-    const cov = await fetchJson('data/coverage.json');
-    if (cov) renderCoverage(cov);
   }
 
   // ---------- footer ----------
@@ -578,8 +494,7 @@
       h('p', {}, `Institution data: the list of Erasmus Charter for Higher Education holders published by the European Commission, retrieved on ${when} through the `,
         h('a', { href: 'https://eche-list.erasmuswithoutpaper.eu/openapi' }, 'ECHE List API'),
         ' of the European University Foundation. Which institutions count as music institutions is our own classification; map positions are geocoded with Nominatim and may be approximate.'),
-      h('p', { text: 'Country outlines used for the coverage analysis: Natural Earth (public domain).' }),
-      h('p', { text: 'No cookies and no analytics. Opening the map, or scrolling down to the coverage map, loads map tiles from OpenStreetMap.' }));
+      h('p', { text: 'No cookies and no analytics. Opening the map view loads map tiles from OpenStreetMap.' }));
   }
 
   // ---------- init ----------
@@ -647,7 +562,6 @@
 
     update({ fit: true });
     if (state.id) openPanel(state.id, null);
-    initExtras(); // own sections at the end of the page; the page works without them
   }
 
   init();
