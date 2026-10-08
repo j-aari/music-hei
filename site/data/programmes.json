@@ -1,6 +1,6 @@
 {
  "meta": {
-  "description": "Study programmes per institution and fine-grained discipline (see disciplines.json). Collected so far: 116 institutions.",
+  "description": "Study programmes per institution and fine-grained discipline (see disciplines.json). Collected so far: 121 institutions.",
   "status": "pilot",
   "collected": "2026-10-08",
   "verified_note": "Every record has verified: false. Programme names and URLs were read from the institutions' own websites (programme lists and programme pages) but have not been checked by a person.",
@@ -87,6 +87,7 @@
    "I  ADRIA01",
    "I  AGRIGEN02",
    "I  ALESSAN01",
+   "I  AVELLIN01",
    "I  BARI03",
    "I  BOLOGNA04",
    "I  COMO04",
@@ -101,13 +102,17 @@
    "I  MESSINA04",
    "I  MODENA05",
    "I  MONOPOL02",
+   "I  NAPOLI07",
+   "I  NOVARA01",
    "I  PARMA02",
    "I  PERUGIA03",
    "I  POTENZA03",
    "I  ROMA09",
    "I  ROVIGO01",
+   "I  SASSARI02",
    "I  TRAPANI02",
    "I  TRENTO02",
+   "I  UDINE02",
    "I  VENEZIA04",
    "I  VIBO-VA01",
    "IRLDUBLIN22",
@@ -308,6 +313,17 @@
      "I  PERUGIA03",
      "I  ROVIGO01",
      "I  TRAPANI02"
+    ],
+    "date": "2026-10-08",
+    "method": "Field-level collection as in batch 1; where a site lists programmes only via JavaScript, the programme pages were located with a web search restricted to the institution's own domain (raw HTML of each institution's own programme pages, PDFs where the list was only there; names mapped to disciplines.json by keyword and checked by hand)."
+   },
+   {
+    "erasmus_codes": [
+     "I  AVELLIN01",
+     "I  NAPOLI07",
+     "I  NOVARA01",
+     "I  SASSARI02",
+     "I  UDINE02"
     ],
     "date": "2026-10-08",
     "method": "Field-level collection as in batch 1; where a site lists programmes only via JavaScript, the programme pages were located with a web search restricted to the institution's own domain (raw HTML of each institution's own programme pages, PDFs where the list was only there; names mapped to disciplines.json by keyword and checked by hand)."
@@ -34647,6 +34663,1646 @@
      "level": "MA",
      "programme_name": "Musica da Camera per Archi e con Pianoforte",
      "url": "https://www.conservatorioperugia.it/corsi-di-ii-livello/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  NAPOLI07",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.sanpietroamajella.it/triennio-di-primo-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Master di Secondo Livello in Musica Antica",
+     "url": "https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master di Secondo Livello in Musica Antica",
+     "url": "https://www.sanpietroamajella.it/biennio-sperimentale/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  NAPOLI07",
+   "discipline": "arts-management",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.sanpietroamajella.it/triennio-di-primo-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Master di Primo livello in Management e Comunicazione delle imprese culturali",
+     "url": "https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master di Primo livello in Management e Comunicazione delle imprese culturali",
+     "url": "https://www.sanpietroamajella.it/biennio-sperimentale/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  NAPOLI07",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.sanpietroamajella.it/triennio-di-primo-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DCPL01- Diploma Accademico di Primo Livello in ARPA",
+     "url": "https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "DCSL01 – Diploma Accademico di Secondo Livello in ARPA",
+     "url": "https://www.sanpietroamajella.it/biennio-sperimentale/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  NAPOLI07",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.sanpietroamajella.it/triennio-di-primo-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DCPL04- Diploma Accademico di Primo Livello in BASSO TUBA",
+     "url": "https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "DCSL19 – Diploma Accademico di Secondo Livello in CORNO",
+     "url": "https://www.sanpietroamajella.it/biennio-sperimentale/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  NAPOLI07",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.sanpietroamajella.it/triennio-di-primo-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DCPL05- Diploma Accademico di Primo Livello in Batteria e Percussioni Jazz",
+     "url": "https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "DCSL05 – Diploma Accademico di Secondo Livello in BATTERIA E PERCUSSIONI JAZZ",
+     "url": "https://www.sanpietroamajella.it/biennio-sperimentale/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  NAPOLI07",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.sanpietroamajella.it/triennio-di-primo-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DCPL06- Diploma Accademico di Primo Livello in CANTO",
+     "url": "https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "DCSL06 – Diploma Accademico di Secondo Livello in CANTO",
+     "url": "https://www.sanpietroamajella.it/biennio-sperimentale/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  NAPOLI07",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.sanpietroamajella.it/triennio-di-primo-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DCPL09- Diploma Accademico di Primo Livello in Chitarra",
+     "url": "https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "DCSL09 – Diploma Accademico di Secondo Livello in CHITARRA",
+     "url": "https://www.sanpietroamajella.it/biennio-sperimentale/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  NAPOLI07",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.sanpietroamajella.it/triennio-di-primo-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DCPL11- Diploma Accademico di Primo Livello in CLARINETTO",
+     "url": "https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "DCSL11 – Diploma Accademico di Secondo Livello in CLARINETTO",
+     "url": "https://www.sanpietroamajella.it/biennio-sperimentale/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  NAPOLI07",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.sanpietroamajella.it/triennio-di-primo-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DCPL14-A- Diploma Accademico di Primo Livello in Pianoforte storico",
+     "url": "https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "DCSL39 – Diploma Accademico di Secondo Livello in PIANOFORTE",
+     "url": "https://www.sanpietroamajella.it/biennio-sperimentale/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  NAPOLI07",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.sanpietroamajella.it/triennio-di-primo-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DCPL15- Diploma Accademico di Primo Livello in COMPOSIZIONE",
+     "url": "https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "DCSL15 – Diploma Accademico di Secondo Livello in COMPOSIZIONE",
+     "url": "https://www.sanpietroamajella.it/biennio-sperimentale/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  NAPOLI07",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.sanpietroamajella.it/triennio-di-primo-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DCPL16- Diploma Accademico di Primo Livello in CONTRABBASSO",
+     "url": "https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "DCSL16 – Diploma Accademico di Secondo Livello in CONTRABBASSO",
+     "url": "https://www.sanpietroamajella.it/biennio-sperimentale/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  NAPOLI07",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.sanpietroamajella.it/triennio-di-primo-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DCPL21- Diploma Accademico di Primo Livello in DIDATTICA DELLA MUSICA",
+     "url": "https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "DCSL21 – Diploma Accademico di Secondo Livello in DIDATTICA DELLA MUSICA",
+     "url": "https://www.sanpietroamajella.it/biennio-sperimentale/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  NAPOLI07",
+   "discipline": "accordion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.sanpietroamajella.it/triennio-di-primo-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DCPL26- Diploma Accademico di Primo Livello in FISARMONICA",
+     "url": "https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "DCSL26 – Diploma Accademico di Secondo Livello in FISARMONICA",
+     "url": "https://www.sanpietroamajella.it/biennio-sperimentale/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  NAPOLI07",
+   "discipline": "music-technology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.sanpietroamajella.it/triennio-di-primo-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DCPL34- Diploma Accademico di Primo Livello in MUSICA ELETTRONICA",
+     "url": "https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "DCSL34 – Diploma Accademico di Secondo Livello in MUSICA ELETTRONICA",
+     "url": "https://www.sanpietroamajella.it/biennio-sperimentale/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  NAPOLI07",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.sanpietroamajella.it/triennio-di-primo-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DCPL38- Diploma Accademico di Primo Livello in ORGANO",
+     "url": "https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "DCSL38 – Diploma Accademico di Secondo Livello in ORGANO",
+     "url": "https://www.sanpietroamajella.it/biennio-sperimentale/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  NAPOLI07",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.sanpietroamajella.it/triennio-di-primo-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DCPL44- Diploma Accademico di Primo Livello in STRUMENTI A PERCUSSIONE",
+     "url": "https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "DCSL44 – Diploma Accademico di Secondo Livello in STRUMENTI A PERCUSSIONE",
+     "url": "https://www.sanpietroamajella.it/biennio-sperimentale/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  NAPOLI07",
+   "discipline": "popular-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.sanpietroamajella.it/triennio-di-primo-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DCPL67 OK- Diploma Accademico di Primo Livello in POPULAR MUSIC",
+     "url": "https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "DCLS67 – Diploma Accademico di Secondo Livello in POPULAR MUSIC",
+     "url": "https://www.sanpietroamajella.it/biennio-sperimentale/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  NAPOLI07",
+   "discipline": "chamber-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.sanpietroamajella.it/biennio-sperimentale/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "DCSL68- Diploma Accademico di Secondo Livello in MUSICA D’INSIEME",
+     "url": "https://www.sanpietroamajella.it/biennio-sperimentale/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  UDINE02",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorio.udine.it/didattica/triennio.html",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Arpa",
+     "url": "https://www.conservatorio.udine.it/didattica/triennio.html"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Arpa",
+     "url": "https://www.conservatorio.udine.it/didattica/biennio.html"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  UDINE02",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorio.udine.it/didattica/triennio.html",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Chitarra",
+     "url": "https://www.conservatorio.udine.it/didattica/triennio.html"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Chitarra",
+     "url": "https://www.conservatorio.udine.it/didattica/biennio.html"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  UDINE02",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorio.udine.it/didattica/triennio.html",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Contrabbasso",
+     "url": "https://www.conservatorio.udine.it/didattica/triennio.html"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Contrabbasso",
+     "url": "https://www.conservatorio.udine.it/didattica/biennio.html"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  UDINE02",
+   "discipline": "accordion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorio.udine.it/didattica/triennio.html",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Fisarmonica",
+     "url": "https://www.conservatorio.udine.it/didattica/triennio.html"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Fisarmonica",
+     "url": "https://www.conservatorio.udine.it/didattica/biennio.html"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  UDINE02",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorio.udine.it/didattica/triennio.html",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Organo",
+     "url": "https://www.conservatorio.udine.it/didattica/triennio.html"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Organo",
+     "url": "https://www.conservatorio.udine.it/didattica/biennio.html"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  UDINE02",
+   "discipline": "church-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorio.udine.it/didattica/triennio.html",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Organo e musica liturgica",
+     "url": "https://www.conservatorio.udine.it/didattica/triennio.html"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Organo e musica liturgica",
+     "url": "https://www.conservatorio.udine.it/didattica/biennio.html"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  UDINE02",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorio.udine.it/didattica/triennio.html",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Pianoforte",
+     "url": "https://www.conservatorio.udine.it/didattica/triennio.html"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Pianoforte",
+     "url": "https://www.conservatorio.udine.it/didattica/biennio.html"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  UDINE02",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorio.udine.it/didattica/triennio.html",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Strumenti a percussione",
+     "url": "https://www.conservatorio.udine.it/didattica/triennio.html"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Strumenti a tastiera e percussione",
+     "url": "https://www.conservatorio.udine.it/didattica/biennio.html"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  UDINE02",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorio.udine.it/didattica/triennio.html",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Basso Tuba",
+     "url": "https://www.conservatorio.udine.it/didattica/triennio.html"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Basso Tuba",
+     "url": "https://www.conservatorio.udine.it/didattica/biennio.html"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  UDINE02",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorio.udine.it/didattica/triennio.html",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Clarinetto",
+     "url": "https://www.conservatorio.udine.it/didattica/triennio.html"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Clarinetto",
+     "url": "https://www.conservatorio.udine.it/didattica/biennio.html"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  UDINE02",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorio.udine.it/didattica/triennio.html",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Batteria e percussioni jazz",
+     "url": "https://www.conservatorio.udine.it/didattica/triennio.html"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Batteria e percussioni jazz",
+     "url": "https://www.conservatorio.udine.it/didattica/biennio.html"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  UDINE02",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorio.udine.it/didattica/triennio.html",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Clavicembalo e tastiere storiche",
+     "url": "https://www.conservatorio.udine.it/didattica/triennio.html"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musica antica",
+     "url": "https://www.conservatorio.udine.it/didattica/biennio.html"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  UDINE02",
+   "discipline": "popular-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorio.udine.it/didattica/triennio.html",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Basso elettrico pop-rock",
+     "url": "https://www.conservatorio.udine.it/didattica/triennio.html"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Popular music",
+     "url": "https://www.conservatorio.udine.it/didattica/biennio.html"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  UDINE02",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorio.udine.it/didattica/triennio.html",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Canto pop-rock",
+     "url": "https://www.conservatorio.udine.it/didattica/triennio.html"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Canto pop-rock",
+     "url": "https://www.conservatorio.udine.it/didattica/biennio.html"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  UDINE02",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorio.udine.it/didattica/triennio.html",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composizione pop-rock",
+     "url": "https://www.conservatorio.udine.it/didattica/triennio.html"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Composizione",
+     "url": "https://www.conservatorio.udine.it/didattica/biennio.html"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  UDINE02",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorio.udine.it/didattica/triennio.html",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Direzione di coro e composizione corale",
+     "url": "https://www.conservatorio.udine.it/didattica/triennio.html"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Direzione di coro e composizione corale",
+     "url": "https://www.conservatorio.udine.it/didattica/biennio.html"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  UDINE02",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorio.udine.it/didattica/triennio.html",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Offerta didattica",
+     "url": "https://www.conservatorio.udine.it/didattica/triennio.html"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Didattica della musica",
+     "url": "https://www.conservatorio.udine.it/didattica/biennio.html"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  UDINE02",
+   "discipline": "music-technology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorio.udine.it/didattica/triennio.html",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Nuovi linguaggi e tecnologie",
+     "url": "https://www.conservatorio.udine.it/didattica/triennio.html"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Nuovi linguaggi e tecnologie",
+     "url": "https://www.conservatorio.udine.it/didattica/biennio.html"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  UDINE02",
+   "discipline": "chamber-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.conservatorio.udine.it/didattica/biennio.html",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Musica d'insieme",
+     "url": "https://www.conservatorio.udine.it/didattica/biennio.html"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  SASSARI02",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Piano di indirizzo",
+     "url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Piano di indirizzo",
+     "url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  SASSARI02",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Arpa",
+     "url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Arpa",
+     "url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  SASSARI02",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Basso Elettrico Jazz",
+     "url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Basso Elettrico Jazz",
+     "url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  SASSARI02",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Basso Tuba",
+     "url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Basso Tuba",
+     "url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  SASSARI02",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Canto",
+     "url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Canto",
+     "url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  SASSARI02",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Chitarra",
+     "url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Chitarra",
+     "url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  SASSARI02",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Clarinetto",
+     "url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Clarinetto",
+     "url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  SASSARI02",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Clavicembalo e Tastiere Storiche",
+     "url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Clavicembalo e tastiere storiche",
+     "url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  SASSARI02",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composizione",
+     "url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Composizione",
+     "url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  SASSARI02",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Contrabbasso",
+     "url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Contrabbasso",
+     "url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  SASSARI02",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Didattica della Musica Indirizzo didattica delle musiche di tradizione orale",
+     "url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Didattica Della Musica",
+     "url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  SASSARI02",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Direzione di Coro e Composizione Corale",
+     "url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Direzione di Coro e Composizione Corale",
+     "url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  SASSARI02",
+   "discipline": "accordion",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Fisarmonica",
+     "url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  SASSARI02",
+   "discipline": "music-technology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musica Elettronica Indirizzo Regia e Tecnologia del Suono",
+     "url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musica Elettronica",
+     "url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  SASSARI02",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Organo",
+     "url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Organo",
+     "url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  SASSARI02",
+   "discipline": "church-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Organo e Musica Liturgica",
+     "url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  SASSARI02",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Strumenti a Percussione",
+     "url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Strumenti a Percussione",
+     "url": "https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  AVELLIN01",
+   "discipline": "guitar",
+   "levels": [],
+   "source_url": "https://conservatoriocimarosa.org/didattica",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Guitar Postgraduate Master",
+     "url": "https://conservatoriocimarosa.org/didattica"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  AVELLIN01",
+   "discipline": "composition",
+   "levels": [],
+   "source_url": "https://conservatoriocimarosa.org/didattica",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "COMPOSIZIONE indirizzo Multimediale - 3",
+     "url": "https://conservatoriocimarosa.org/didattica"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  AVELLIN01",
+   "discipline": "folk",
+   "levels": [],
+   "source_url": "https://conservatoriocimarosa.org/didattica",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "COMPOSIZIONE indirizzo Tradizionale - 3",
+     "url": "https://conservatoriocimarosa.org/didattica"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  AVELLIN01",
+   "discipline": "vocal-opera",
+   "levels": [],
+   "source_url": "https://conservatoriocimarosa.org/didattica",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "CODI_23-Canto",
+     "url": "https://conservatoriocimarosa.org/didattica"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  AVELLIN01",
+   "discipline": "music-theory",
+   "levels": [],
+   "source_url": "https://conservatoriocimarosa.org/didattica",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "COTP06 Teoria, Ritmica e Percezione Musicale",
+     "url": "https://conservatoriocimarosa.org/didattica"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  AVELLIN01",
+   "discipline": "woodwind",
+   "levels": [],
+   "source_url": "https://conservatoriocimarosa.org/didattica",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "CODI/13 Flauto",
+     "url": "https://conservatoriocimarosa.org/didattica"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  AVELLIN01",
+   "discipline": "conducting",
+   "levels": [],
+   "source_url": "https://conservatoriocimarosa.org/didattica",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Strumentali/Vocali/Composizione/Direzione (tre annualità)",
+     "url": "https://conservatoriocimarosa.org/didattica"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  AVELLIN01",
+   "discipline": "jazz",
+   "levels": [],
+   "source_url": "https://conservatoriocimarosa.org/didattica",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Strumentali/Vocali Jazz (due annualità)",
+     "url": "https://conservatoriocimarosa.org/didattica"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  AVELLIN01",
+   "discipline": "music-education",
+   "levels": [],
+   "source_url": "https://conservatoriocimarosa.org/didattica",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Didattica della Musica (una annualità)",
+     "url": "https://conservatoriocimarosa.org/didattica"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  AVELLIN01",
+   "discipline": "music-technology",
+   "levels": [],
+   "source_url": "https://conservatoriocimarosa.org/didattica",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Musica elettronica (una annualità)",
+     "url": "https://conservatoriocimarosa.org/didattica"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  AVELLIN01",
+   "discipline": "piano",
+   "levels": [],
+   "source_url": "https://conservatoriocimarosa.org/didattica",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Pianoforte",
+     "url": "https://conservatoriocimarosa.org/didattica"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  AVELLIN01",
+   "discipline": "percussion",
+   "levels": [],
+   "source_url": "https://conservatoriocimarosa.org/didattica",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Strumenti a Tastiere e Percussioni",
+     "url": "https://conservatoriocimarosa.org/didattica"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  AVELLIN01",
+   "discipline": "early-music",
+   "levels": [],
+   "source_url": "https://conservatoriocimarosa.org/didattica",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Clavicembalo",
+     "url": "https://conservatoriocimarosa.org/didattica"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  AVELLIN01",
+   "discipline": "organ",
+   "levels": [],
+   "source_url": "https://conservatoriocimarosa.org/didattica",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Organo",
+     "url": "https://conservatoriocimarosa.org/didattica"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  AVELLIN01",
+   "discipline": "brass",
+   "levels": [],
+   "source_url": "https://conservatoriocimarosa.org/didattica",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Tromba",
+     "url": "https://conservatoriocimarosa.org/didattica"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  AVELLIN01",
+   "discipline": "strings",
+   "levels": [],
+   "source_url": "https://conservatoriocimarosa.org/didattica",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Viola",
+     "url": "https://conservatoriocimarosa.org/didattica"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  AVELLIN01",
+   "discipline": "harp",
+   "levels": [],
+   "source_url": "https://conservatoriocimarosa.org/didattica",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Arpa",
+     "url": "https://conservatoriocimarosa.org/didattica"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  AVELLIN01",
+   "discipline": "accordion",
+   "levels": [],
+   "source_url": "https://conservatoriocimarosa.org/didattica",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Fisarmonica",
+     "url": "https://conservatoriocimarosa.org/didattica"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  NOVARA01",
+   "discipline": "music-education",
+   "levels": [],
+   "source_url": "https://consno.it/offerta-didattica/corsi/",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Offerta Didattica",
+     "url": "https://consno.it/offerta-didattica/corsi/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  NOVARA01",
+   "discipline": "harp",
+   "levels": [],
+   "source_url": "https://consno.it/offerta-didattica/corsi/",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Arpa",
+     "url": "https://consno.it/offerta-didattica/corsi/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  NOVARA01",
+   "discipline": "brass",
+   "levels": [],
+   "source_url": "https://consno.it/offerta-didattica/corsi/",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Basso Tuba",
+     "url": "https://consno.it/offerta-didattica/corsi/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  NOVARA01",
+   "discipline": "vocal-opera",
+   "levels": [],
+   "source_url": "https://consno.it/offerta-didattica/corsi/",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Canto",
+     "url": "https://consno.it/offerta-didattica/corsi/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  NOVARA01",
+   "discipline": "early-music",
+   "levels": [],
+   "source_url": "https://consno.it/offerta-didattica/corsi/",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Canto Barocco",
+     "url": "https://consno.it/offerta-didattica/corsi/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  NOVARA01",
+   "discipline": "guitar",
+   "levels": [],
+   "source_url": "https://consno.it/offerta-didattica/corsi/",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Chitarra",
+     "url": "https://consno.it/offerta-didattica/corsi/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  NOVARA01",
+   "discipline": "woodwind",
+   "levels": [],
+   "source_url": "https://consno.it/offerta-didattica/corsi/",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Clarinetto",
+     "url": "https://consno.it/offerta-didattica/corsi/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  NOVARA01",
+   "discipline": "composition",
+   "levels": [],
+   "source_url": "https://consno.it/offerta-didattica/corsi/",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Composizione",
+     "url": "https://consno.it/offerta-didattica/corsi/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  NOVARA01",
+   "discipline": "music-technology",
+   "levels": [],
+   "source_url": "https://consno.it/offerta-didattica/corsi/",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Composizione – Indirizzo nuove tecnologie",
+     "url": "https://consno.it/offerta-didattica/corsi/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  NOVARA01",
+   "discipline": "strings",
+   "levels": [],
+   "source_url": "https://consno.it/offerta-didattica/corsi/",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Contrabbasso",
+     "url": "https://consno.it/offerta-didattica/corsi/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  NOVARA01",
+   "discipline": "conducting",
+   "levels": [],
+   "source_url": "https://consno.it/offerta-didattica/corsi/",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Direzione di coro",
+     "url": "https://consno.it/offerta-didattica/corsi/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  NOVARA01",
+   "discipline": "chamber-music",
+   "levels": [],
+   "source_url": "https://consno.it/offerta-didattica/corsi/",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Musica d’insieme",
+     "url": "https://consno.it/offerta-didattica/corsi/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  NOVARA01",
+   "discipline": "organ",
+   "levels": [],
+   "source_url": "https://consno.it/offerta-didattica/corsi/",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Organo",
+     "url": "https://consno.it/offerta-didattica/corsi/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  NOVARA01",
+   "discipline": "percussion",
+   "levels": [],
+   "source_url": "https://consno.it/offerta-didattica/corsi/",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Strumenti a Percussione",
+     "url": "https://consno.it/offerta-didattica/corsi/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  NOVARA01",
+   "discipline": "piano",
+   "levels": [],
+   "source_url": "https://consno.it/offerta-didattica/corsi/",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Pianoforte",
+     "url": "https://consno.it/offerta-didattica/corsi/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  NOVARA01",
+   "discipline": "music-theory",
+   "levels": [],
+   "source_url": "https://consno.it/offerta-didattica/corsi/",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Altro – Teoria, ritmica e percezione musicale",
+     "url": "https://consno.it/offerta-didattica/corsi/"
     }
    ],
    "verified": false

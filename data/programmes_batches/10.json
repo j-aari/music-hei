@@ -1,0 +1,2237 @@
+{
+"collected": "2026-10-08",
+"method": "Field-level collection as in batch 1; where a site lists programmes only via JavaScript, the programme pages were located with a web search restricted to the institution's own domain (raw HTML of each institution's own programme pages, PDFs where the list was only there; names mapped to disciplines.json by keyword and checked by hand).",
+"institutions": {
+"I  NAPOLI07": [
+[
+"early-music",
+"BA",
+"Master di Secondo Livello in Musica Antica",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"arts-management",
+"BA",
+"Master di Primo livello in Management e Comunicazione delle imprese culturali",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"harp",
+"BA",
+"DCPL01- Diploma Accademico di Primo Livello in ARPA",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"brass",
+"BA",
+"DCPL04- Diploma Accademico di Primo Livello in BASSO TUBA",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"jazz",
+"BA",
+"DCPL05- Diploma Accademico di Primo Livello in Batteria e Percussioni Jazz",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"vocal-opera",
+"BA",
+"DCPL06- Diploma Accademico di Primo Livello in CANTO",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"jazz",
+"BA",
+"DCPL07- Diploma Accademico di Primo Livello in Canto Jazz",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"early-music",
+"BA",
+"DCPL08- Diploma Accademico di Primo Livello in Canto Rinascimentale Barocco",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"vocal-opera",
+"BA",
+"DCPL08- Diploma Accademico di Primo Livello in Canto Rinascimentale Barocco",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"guitar",
+"BA",
+"DCPL09- Diploma Accademico di Primo Livello in Chitarra",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"jazz",
+"BA",
+"DCPL10- Diploma Accademico di Primo Livello in Chitarra Jazz",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"woodwind",
+"BA",
+"DCPL11- Diploma Accademico di Primo Livello in CLARINETTO",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"piano",
+"BA",
+"DCPL14-A- Diploma Accademico di Primo Livello in Pianoforte storico",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"composition",
+"BA",
+"DCPL15- Diploma Accademico di Primo Livello in COMPOSIZIONE",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"strings",
+"BA",
+"DCPL16- Diploma Accademico di Primo Livello in CONTRABBASSO",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"jazz",
+"BA",
+"DCPL17- Diploma Accademico di Primo Livello in CONTRABBASSO JAZZ",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"brass",
+"BA",
+"DCPL19- Diploma Accademico di Primo Livello in CORNO",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"music-education",
+"BA",
+"DCPL21- Diploma Accademico di Primo Livello in DIDATTICA DELLA MUSICA",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"woodwind",
+"BA",
+"DCPL24- Diploma Accademico di Primo Livello in FAGOTTO",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"accordion",
+"BA",
+"DCPL26- Diploma Accademico di Primo Livello in FISARMONICA",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"woodwind",
+"BA",
+"DCPL27- Diploma Accademico di Primo Livello in FLAUTO",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"early-music",
+"BA",
+"DCPL28- Diploma Accademico di Primo Livello in Flauto dolce",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"music-technology",
+"BA",
+"DCPL34- Diploma Accademico di Primo Livello in MUSICA ELETTRONICA",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"vocal-opera",
+"BA",
+"DCPL35- Diploma Accademico di Primo Livello in MUSICA VOCALE DA CAMERA",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"woodwind",
+"BA",
+"DCPL36- Diploma Accademico di Primo Livello in OBOE",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"organ",
+"BA",
+"DCPL38- Diploma Accademico di Primo Livello in ORGANO",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"piano",
+"BA",
+"DCPL39- Diploma Accademico di Primo Livello in PIANOFORTE",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"jazz",
+"BA",
+"DCPL40- Diploma Accademico di Primo Livello in PIANOFORTE JAZZ",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"woodwind",
+"BA",
+"DCPL41- Diploma Accademico di Primo Livello in SAXOFONO",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"jazz",
+"BA",
+"DCPL42- Accademico di Primo Livello in SAXOFONO JAZZ",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"percussion",
+"BA",
+"DCPL44- Diploma Accademico di Primo Livello in STRUMENTI A PERCUSSIONE",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"music-technology",
+"BA",
+"DCPL45- Diploma Accademico di Primo Livello in TASTIERE ELETTRONICHE",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"brass",
+"BA",
+"DCPL46- Diploma Accademico di Primo Livello in TROMBA",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"jazz",
+"BA",
+"DCPL47- Diploma Accademico di Primo Livello in TROMBA JAZZ",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"brass",
+"BA",
+"DCPL49- Diploma Accademico di Primo Livello in TROMBONE",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"jazz",
+"BA",
+"DCPL50- Diploma Accademico di Primo Livello in TROMBONE JAZZ",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"strings",
+"BA",
+"DCPL52- Diploma Accademico di Primo Livello in VIOLA",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"strings",
+"BA",
+"DCPL54- Diploma Accademico di Primo Livello in VIOLINO",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"early-music",
+"BA",
+"DCPL55- Diploma Accademico di Primo Livello in VIOLINO BAROCCO",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"strings",
+"BA",
+"DCPL57- Diploma Accademico di Primo Livello in VIOLONCELLO",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"music-technology",
+"BA",
+"DCPL61- Diploma Accademico di Primo Livello in TECNICO DEL SUONO",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"jazz",
+"BA",
+"DCPL64- Diploma Accademico di Primo Livello in COMPOSIZIONE JAZZ",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"popular-music",
+"BA",
+"DCPL67 OK- Diploma Accademico di Primo Livello in POPULAR MUSIC",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"popular-music",
+"BA",
+"DCPL67- Diploma Accademico di Primo Livello in POPULAR MUSIC",
+"https://www.sanpietroamajella.it/triennio-di-primo-livello/"
+],
+[
+"early-music",
+"MA",
+"Master di Secondo Livello in Musica Antica",
+"https://www.sanpietroamajella.it/biennio-sperimentale/"
+],
+[
+"arts-management",
+"MA",
+"Master di Primo livello in Management e Comunicazione delle imprese culturali",
+"https://www.sanpietroamajella.it/biennio-sperimentale/"
+],
+[
+"harp",
+"MA",
+"DCSL01 – Diploma Accademico di Secondo Livello in ARPA",
+"https://www.sanpietroamajella.it/biennio-sperimentale/"
+],
+[
+"jazz",
+"MA",
+"DCSL05 – Diploma Accademico di Secondo Livello in BATTERIA E PERCUSSIONI JAZZ",
+"https://www.sanpietroamajella.it/biennio-sperimentale/"
+],
+[
+"vocal-opera",
+"MA",
+"DCSL06 – Diploma Accademico di Secondo Livello in CANTO",
+"https://www.sanpietroamajella.it/biennio-sperimentale/"
+],
+[
+"jazz",
+"MA",
+"DCSL07 – Diploma Accademico di Secondo Livello in CANTO JAZZ",
+"https://www.sanpietroamajella.it/biennio-sperimentale/"
+],
+[
+"guitar",
+"MA",
+"DCSL09 – Diploma Accademico di Secondo Livello in CHITARRA",
+"https://www.sanpietroamajella.it/biennio-sperimentale/"
+],
+[
+"jazz",
+"MA",
+"DCSL10 – Diploma Accademico di Secondo Livello in CHITARRA JAZZ",
+"https://www.sanpietroamajella.it/biennio-sperimentale/"
+],
+[
+"woodwind",
+"MA",
+"DCSL11 – Diploma Accademico di Secondo Livello in CLARINETTO",
+"https://www.sanpietroamajella.it/biennio-sperimentale/"
+],
+[
+"composition",
+"MA",
+"DCSL15 – Diploma Accademico di Secondo Livello in COMPOSIZIONE",
+"https://www.sanpietroamajella.it/biennio-sperimentale/"
+],
+[
+"strings",
+"MA",
+"DCSL16 – Diploma Accademico di Secondo Livello in CONTRABBASSO",
+"https://www.sanpietroamajella.it/biennio-sperimentale/"
+],
+[
+"jazz",
+"MA",
+"DCSL17 – Diploma Accademico di Secondo Livello in CONTRABBASSO JAZZ",
+"https://www.sanpietroamajella.it/biennio-sperimentale/"
+],
+[
+"brass",
+"MA",
+"DCSL19 – Diploma Accademico di Secondo Livello in CORNO",
+"https://www.sanpietroamajella.it/biennio-sperimentale/"
+],
+[
+"music-education",
+"MA",
+"DCSL21 – Diploma Accademico di Secondo Livello in DIDATTICA DELLA MUSICA",
+"https://www.sanpietroamajella.it/biennio-sperimentale/"
+],
+[
+"woodwind",
+"MA",
+"DCSL24 – Diploma Accademico di Secondo Livello in FAGOTTO",
+"https://www.sanpietroamajella.it/biennio-sperimentale/"
+],
+[
+"accordion",
+"MA",
+"DCSL26 – Diploma Accademico di Secondo Livello in FISARMONICA",
+"https://www.sanpietroamajella.it/biennio-sperimentale/"
+],
+[
+"woodwind",
+"MA",
+"DCSL27 – Diploma Accademico di Secondo Livello in FLAUTO",
+"https://www.sanpietroamajella.it/biennio-sperimentale/"
+],
+[
+"early-music",
+"MA",
+"DCSL28 – Diploma Accademico di Secondo Livello in FLAUTO DOLCE",
+"https://www.sanpietroamajella.it/biennio-sperimentale/"
+],
+[
+"music-technology",
+"MA",
+"DCSL34 – Diploma Accademico di Secondo Livello in MUSICA ELETTRONICA",
+"https://www.sanpietroamajella.it/biennio-sperimentale/"
+],
+[
+"vocal-opera",
+"MA",
+"DCSL35 – Diploma Accademico di Secondo Livello in MUSICA VOCALE DA CAMERA",
+"https://www.sanpietroamajella.it/biennio-sperimentale/"
+],
+[
+"chamber-music",
+"MA",
+"DCSL68- Diploma Accademico di Secondo Livello in MUSICA D’INSIEME",
+"https://www.sanpietroamajella.it/biennio-sperimentale/"
+],
+[
+"woodwind",
+"MA",
+"DCSL36 – Diploma Accademico di Secondo Livello in OBOE",
+"https://www.sanpietroamajella.it/biennio-sperimentale/"
+],
+[
+"organ",
+"MA",
+"DCSL38 – Diploma Accademico di Secondo Livello in ORGANO",
+"https://www.sanpietroamajella.it/biennio-sperimentale/"
+],
+[
+"piano",
+"MA",
+"DCSL39 – Diploma Accademico di Secondo Livello in PIANOFORTE",
+"https://www.sanpietroamajella.it/biennio-sperimentale/"
+],
+[
+"jazz",
+"MA",
+"DCSL40 – Diploma Accademico di Secondo Livello in PIANOFORTE JAZZ",
+"https://www.sanpietroamajella.it/biennio-sperimentale/"
+],
+[
+"popular-music",
+"MA",
+"DCLS67 – Diploma Accademico di Secondo Livello in POPULAR MUSIC",
+"https://www.sanpietroamajella.it/biennio-sperimentale/"
+],
+[
+"jazz",
+"MA",
+"DCSL42 – Diploma Accademico di Secondo Livello in SASSOFONO JAZZ",
+"https://www.sanpietroamajella.it/biennio-sperimentale/"
+],
+[
+"percussion",
+"MA",
+"DCSL44 – Diploma Accademico di Secondo Livello in STRUMENTI A PERCUSSIONE",
+"https://www.sanpietroamajella.it/biennio-sperimentale/"
+],
+[
+"music-technology",
+"MA",
+"DCLS61 -Diploma Accademico di Secondo Livello TECNICO DEL SUONO",
+"https://www.sanpietroamajella.it/biennio-sperimentale/"
+],
+[
+"brass",
+"MA",
+"DCSL46 – Diploma Accademico di Secondo Livello in TROMBA",
+"https://www.sanpietroamajella.it/biennio-sperimentale/"
+],
+[
+"jazz",
+"MA",
+"DCSL47 – Diploma Accademico di Secondo Livello in TROMBA JAZZ",
+"https://www.sanpietroamajella.it/biennio-sperimentale/"
+],
+[
+"brass",
+"MA",
+"DCSL49 – Diploma Accademico di Secondo Livello in TROMBONE",
+"https://www.sanpietroamajella.it/biennio-sperimentale/"
+],
+[
+"jazz",
+"MA",
+"DCSL50 – Diploma Accademico di Secondo Livello in TROMBONE JAZZ",
+"https://www.sanpietroamajella.it/biennio-sperimentale/"
+],
+[
+"strings",
+"MA",
+"DCSL52 – Diploma Accademico di Secondo Livello in VIOLA",
+"https://www.sanpietroamajella.it/biennio-sperimentale/"
+],
+[
+"strings",
+"MA",
+"DCSL54 – Diploma Accademico di Secondo Livello in VIOLINO",
+"https://www.sanpietroamajella.it/biennio-sperimentale/"
+],
+[
+"early-music",
+"MA",
+"DCSL55 – Diploma Accademico di Secondo Livello in VIOLINO BAROCCO",
+"https://www.sanpietroamajella.it/biennio-sperimentale/"
+],
+[
+"strings",
+"MA",
+"DCSL57 – Diploma Accademico di Secondo Livello in VIOLONCELLO",
+"https://www.sanpietroamajella.it/biennio-sperimentale/"
+],
+[
+"jazz",
+"MA",
+"DCSL64 – Diploma Accademico di Secondo Livello in COMPOSIZIONE JAZZ",
+"https://www.sanpietroamajella.it/biennio-sperimentale/"
+]
+],
+"I  UDINE02": [
+[
+"harp",
+"BA",
+"Arpa",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"guitar",
+"BA",
+"Chitarra",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"strings",
+"BA",
+"Contrabbasso",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"strings",
+"BA",
+"Viola",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"strings",
+"BA",
+"Violino",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"strings",
+"BA",
+"Violoncello",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"accordion",
+"BA",
+"Fisarmonica",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"organ",
+"BA",
+"Organo",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"church-music",
+"BA",
+"Organo e musica liturgica",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"organ",
+"BA",
+"Organo e musica liturgica",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"piano",
+"BA",
+"Pianoforte",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"percussion",
+"BA",
+"Strumenti a percussione",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"brass",
+"BA",
+"Basso Tuba",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"woodwind",
+"BA",
+"Clarinetto",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"brass",
+"BA",
+"Corno",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"woodwind",
+"BA",
+"Fagotto",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"woodwind",
+"BA",
+"Flauto",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"woodwind",
+"BA",
+"Oboe",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"woodwind",
+"BA",
+"Saxofono",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"brass",
+"BA",
+"Tromba",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"brass",
+"BA",
+"Trombone",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"jazz",
+"BA",
+"Batteria e percussioni jazz",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"jazz",
+"BA",
+"Canto jazz",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"jazz",
+"BA",
+"Chitarra jazz",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"jazz",
+"BA",
+"Clarinetto jazz",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"jazz",
+"BA",
+"Contrabbasso jazz",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"jazz",
+"BA",
+"Pianoforte jazz",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"jazz",
+"BA",
+"Saxofono jazz",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"jazz",
+"BA",
+"Tastiere elettroniche jazz",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"jazz",
+"BA",
+"Tromba jazz",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"jazz",
+"BA",
+"Trombone jazz",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"jazz",
+"BA",
+"Violino jazz",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"early-music",
+"BA",
+"Clavicembalo e tastiere storiche",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"woodwind",
+"BA",
+"Flauto traversiere",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"early-music",
+"BA",
+"Violino barocco",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"early-music",
+"BA",
+"Violoncello barocco",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"popular-music",
+"BA",
+"Basso elettrico pop-rock",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"popular-music",
+"BA",
+"Canto pop-rock",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"vocal-opera",
+"BA",
+"Canto pop-rock",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"popular-music",
+"BA",
+"Chitarra pop-rock",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"popular-music",
+"BA",
+"Composizione pop-rock",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"composition",
+"BA",
+"Composizione pop-rock",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"popular-music",
+"BA",
+"Pianoforte e tastiere pop-rock",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"composition",
+"BA",
+"Composizione",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"conducting",
+"BA",
+"Direzione di coro e composizione corale",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"composition",
+"BA",
+"Direzione di coro e composizione corale",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"vocal-opera",
+"BA",
+"Canto",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"music-education",
+"BA",
+"Offerta didattica",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"percussion",
+"BA",
+"Strumenti a tastiera e percussione",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"music-technology",
+"BA",
+"Nuovi linguaggi e tecnologie",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"early-music",
+"BA",
+"Musica antica",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"popular-music",
+"BA",
+"Popular music",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"vocal-opera",
+"BA",
+"Canto e Teatro musicale",
+"https://www.conservatorio.udine.it/didattica/triennio.html"
+],
+[
+"harp",
+"MA",
+"Arpa",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"guitar",
+"MA",
+"Chitarra",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"strings",
+"MA",
+"Contrabbasso",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"strings",
+"MA",
+"Viola",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"strings",
+"MA",
+"Violino",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"strings",
+"MA",
+"Violoncello",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"percussion",
+"MA",
+"Strumenti a tastiera e percussione",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"accordion",
+"MA",
+"Fisarmonica",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"organ",
+"MA",
+"Organo",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"church-music",
+"MA",
+"Organo e musica liturgica",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"organ",
+"MA",
+"Organo e musica liturgica",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"piano",
+"MA",
+"Pianoforte",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"percussion",
+"MA",
+"Strumenti a percussione",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"brass",
+"MA",
+"Basso Tuba",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"woodwind",
+"MA",
+"Clarinetto",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"brass",
+"MA",
+"Corno",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"woodwind",
+"MA",
+"Fagotto",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"woodwind",
+"MA",
+"Flauto",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"woodwind",
+"MA",
+"Oboe",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"woodwind",
+"MA",
+"Saxofono",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"brass",
+"MA",
+"Tromba",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"brass",
+"MA",
+"Trombone",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"music-technology",
+"MA",
+"Nuovi linguaggi e tecnologie",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"jazz",
+"MA",
+"Batteria e percussioni jazz",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"jazz",
+"MA",
+"Canto jazz",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"jazz",
+"MA",
+"Chitarra jazz",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"jazz",
+"MA",
+"Clarinetto jazz",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"jazz",
+"MA",
+"Contrabbasso jazz",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"jazz",
+"MA",
+"Musica d'insieme jazz",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"jazz",
+"MA",
+"Pianoforte jazz",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"jazz",
+"MA",
+"Saxofono jazz",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"jazz",
+"MA",
+"Tromba jazz",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"jazz",
+"MA",
+"Trombone jazz",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"popular-music",
+"MA",
+"Popular music",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"popular-music",
+"MA",
+"Basso elettrico pop-rock",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"popular-music",
+"MA",
+"Canto pop-rock",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"vocal-opera",
+"MA",
+"Canto pop-rock",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"popular-music",
+"MA",
+"Chitarra pop-rock",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"popular-music",
+"MA",
+"Pianoforte e tastiere elettroniche pop-rock",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"composition",
+"MA",
+"Composizione",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"conducting",
+"MA",
+"Direzione di coro e composizione corale",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"composition",
+"MA",
+"Direzione di coro e composizione corale",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"early-music",
+"MA",
+"Musica antica",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"early-music",
+"MA",
+"Clavicembalo e tastiere storiche",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"early-music",
+"MA",
+"Violoncello barocco",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"music-education",
+"MA",
+"Didattica della musica",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"music-education",
+"MA",
+"Didattica dello strumento",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"vocal-opera",
+"MA",
+"Canto e Teatro musicale",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"vocal-opera",
+"MA",
+"Canto",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"chamber-music",
+"MA",
+"Musica d'insieme",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+],
+[
+"music-education",
+"MA",
+"Offerta didattica",
+"https://www.conservatorio.udine.it/didattica/biennio.html"
+]
+],
+"I  SASSARI02": [
+[
+"piano",
+"BA",
+"Piano di indirizzo",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"harp",
+"BA",
+"Arpa",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"jazz",
+"BA",
+"Basso Elettrico Jazz",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"brass",
+"BA",
+"Basso Tuba",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"jazz",
+"BA",
+"Batteria e Percussioni Jazz",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"vocal-opera",
+"BA",
+"Canto",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"jazz",
+"BA",
+"Canto Jazz",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"guitar",
+"BA",
+"Chitarra",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"jazz",
+"BA",
+"Chitarra Jazz",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"woodwind",
+"BA",
+"Clarinetto",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"jazz",
+"BA",
+"Clarinetto Jazz",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"early-music",
+"BA",
+"Clavicembalo e Tastiere Storiche",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"composition",
+"BA",
+"Composizione",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"strings",
+"BA",
+"Contrabbasso",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"jazz",
+"BA",
+"Contrabbasso Jazz",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"brass",
+"BA",
+"Corno",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"music-education",
+"BA",
+"Didattica della Musica Indirizzo didattica delle musiche di tradizione orale",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"music-education",
+"BA",
+"Didattica della Musica Indirizzo didattica musicale di base",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"music-education",
+"BA",
+"Didattica della Musica Indirizzo didattica strumentale",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"conducting",
+"BA",
+"Direzione di Coro e Composizione Corale",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"composition",
+"BA",
+"Direzione di Coro e Composizione Corale",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"woodwind",
+"BA",
+"Fagotto",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"accordion",
+"BA",
+"Fisarmonica",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"woodwind",
+"BA",
+"Flauto",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"early-music",
+"BA",
+"Flauto dolce",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"music-technology",
+"BA",
+"Musica Elettronica Indirizzo Regia e Tecnologia del Suono",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"vocal-opera",
+"BA",
+"Musica Vocale da Camera (Ind. Cantanti)",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"woodwind",
+"BA",
+"Oboe",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"organ",
+"BA",
+"Organo",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"church-music",
+"BA",
+"Organo e Musica Liturgica",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"organ",
+"BA",
+"Organo e Musica Liturgica",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"piano",
+"BA",
+"Pianoforte",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"jazz",
+"BA",
+"Pianoforte Jazz",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"woodwind",
+"BA",
+"Saxofono",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"jazz",
+"BA",
+"Saxofono Jazz",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"percussion",
+"BA",
+"Strumenti a Percussione",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"music-technology",
+"BA",
+"Tastiere elettroniche",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"brass",
+"BA",
+"Tromba",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"jazz",
+"BA",
+"Tromba Jazz",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"brass",
+"BA",
+"Trombone",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"jazz",
+"BA",
+"Trombone Jazz",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"strings",
+"BA",
+"Viola",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"strings",
+"BA",
+"Violino",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"early-music",
+"BA",
+"Violino barocco",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"jazz",
+"BA",
+"Violino Jazz",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"strings",
+"BA",
+"Violoncello",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=2&culture=it-IT"
+],
+[
+"piano",
+"MA",
+"Piano di indirizzo",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+],
+[
+"harp",
+"MA",
+"Arpa",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+],
+[
+"jazz",
+"MA",
+"Basso Elettrico Jazz",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+],
+[
+"brass",
+"MA",
+"Basso Tuba",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+],
+[
+"jazz",
+"MA",
+"Batteria e Percussioni Jazz",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+],
+[
+"vocal-opera",
+"MA",
+"Canto",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+],
+[
+"jazz",
+"MA",
+"Canto Jazz",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+],
+[
+"guitar",
+"MA",
+"Chitarra",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+],
+[
+"jazz",
+"MA",
+"Chitarra Jazz",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+],
+[
+"woodwind",
+"MA",
+"Clarinetto",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+],
+[
+"jazz",
+"MA",
+"Clarinetto Jazz",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+],
+[
+"early-music",
+"MA",
+"Clavicembalo e tastiere storiche",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+],
+[
+"composition",
+"MA",
+"Composizione",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+],
+[
+"jazz",
+"MA",
+"Composizione Jazz",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+],
+[
+"strings",
+"MA",
+"Contrabbasso",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+],
+[
+"jazz",
+"MA",
+"Contrabbasso Jazz",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+],
+[
+"brass",
+"MA",
+"Corno",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+],
+[
+"music-education",
+"MA",
+"Didattica Della Musica",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+],
+[
+"music-education",
+"MA",
+"Didattica Della Musica Indirizzo Storico-Musicale",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+],
+[
+"music-education",
+"MA",
+"Didattica Dello Strumento Musicale",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+],
+[
+"conducting",
+"MA",
+"Direzione di Coro e Composizione Corale",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+],
+[
+"composition",
+"MA",
+"Direzione di Coro e Composizione Corale",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+],
+[
+"woodwind",
+"MA",
+"Fagotto",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+],
+[
+"woodwind",
+"MA",
+"Flauto",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+],
+[
+"music-technology",
+"MA",
+"Musica Elettronica",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+],
+[
+"woodwind",
+"MA",
+"Oboe",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+],
+[
+"organ",
+"MA",
+"Organo",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+],
+[
+"piano",
+"MA",
+"Pianoforte",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+],
+[
+"jazz",
+"MA",
+"Pianoforte Jazz",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+],
+[
+"jazz",
+"MA",
+"Saxofono Jazz",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+],
+[
+"percussion",
+"MA",
+"Strumenti a Percussione",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+],
+[
+"brass",
+"MA",
+"Tromba",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+],
+[
+"jazz",
+"MA",
+"Tromba Jazz",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+],
+[
+"brass",
+"MA",
+"Trombone",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+],
+[
+"jazz",
+"MA",
+"Trombone Jazz",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+],
+[
+"strings",
+"MA",
+"Viola",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+],
+[
+"strings",
+"MA",
+"Violino",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+],
+[
+"strings",
+"MA",
+"Violoncello",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+],
+[
+"vocal-opera",
+"MA",
+"Prova strumentale (o vocale o compositiva, a seconda del percorso)",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+],
+[
+"composition",
+"MA",
+"Prova strumentale (o vocale o compositiva, a seconda del percorso)",
+"https://www.conservatorio.sassari.it/ScuolaCorsi/DetailTipoCorso?post_name=3&culture=it-IT"
+]
+],
+"I  AVELLIN01": [
+[
+"guitar",
+null,
+"Guitar Postgraduate Master",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"composition",
+null,
+"COMPOSIZIONE indirizzo Multimediale - 3",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"folk",
+null,
+"COMPOSIZIONE indirizzo Tradizionale - 3",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"composition",
+null,
+"COMPOSIZIONE indirizzo Tradizionale - 3",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"vocal-opera",
+null,
+"CODI_23-Canto",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"guitar",
+null,
+"CODI_02 Chitarra",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"music-theory",
+null,
+"COTP06 Teoria, Ritmica e Percezione Musicale",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"woodwind",
+null,
+"CODI/13 Flauto",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"vocal-opera",
+null,
+"Strumentali/Vocali/Composizione/Direzione (tre annualità)",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"conducting",
+null,
+"Strumentali/Vocali/Composizione/Direzione (tre annualità)",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"composition",
+null,
+"Strumentali/Vocali/Composizione/Direzione (tre annualità)",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"music-theory",
+null,
+"Teoria, ritmica e percezione musicale",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"vocal-opera",
+null,
+"Canto corale",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"jazz",
+null,
+"Strumentali/Vocali Jazz (due annualità)",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"music-theory",
+null,
+"Teoria, ritmica e percezione",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"jazz",
+null,
+"Elementi di armonia jazz",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"jazz",
+null,
+"Elementi di formazione musicale storico-stilistica del jazz",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"music-education",
+null,
+"Didattica della Musica (una annualità)",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"music-education",
+null,
+"per Didattica della musica",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"composition",
+null,
+"Propedeutica alla composizione musicale",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"conducting",
+null,
+"Propedeutica alla direzione di coro",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"music-education",
+null,
+"Propedeutica alla pedagogia",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"vocal-opera",
+null,
+"Pratica pianistica vocale e strumentale",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"music-technology",
+null,
+"Musica elettronica (una annualità)",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"music-technology",
+null,
+"Elementi di formazione musicale storico-stilistica della musica elettronica",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"piano",
+null,
+"Pianoforte",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"percussion",
+null,
+"Strumenti a Tastiere e Percussioni",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"music-theory",
+null,
+"Teoria, Ritmica e Percezione Musicale: 30 ore annuali",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"guitar",
+null,
+"Chitarra",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"woodwind",
+null,
+"Clarinetto",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"early-music",
+null,
+"Clavicembalo",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"woodwind",
+null,
+"Oboe",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"organ",
+null,
+"Organo",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"piano",
+null,
+"II strumento pianoforte",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"brass",
+null,
+"Tromba",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"brass",
+null,
+"Trombone",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"strings",
+null,
+"Viola",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"music-theory",
+null,
+"Teoria, Ritmica e Percezione musicale",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"harp",
+null,
+"Arpa",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"brass",
+null,
+"Tuba",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"vocal-opera",
+null,
+"Canto",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"early-music",
+null,
+"Canto rinascimentale e barocco",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"vocal-opera",
+null,
+"Canto rinascimentale e barocco",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"early-music",
+null,
+"Clavicembalo e tastiere storiche",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"composition",
+null,
+"Composizione",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"strings",
+null,
+"Contrabbasso",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"brass",
+null,
+"Corno",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"music-education",
+null,
+"Didattica della musica",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"conducting",
+null,
+"Direzione di Coro e Composizione Corale",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"composition",
+null,
+"Direzione di Coro e Composizione Corale",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"woodwind",
+null,
+"Fagotto",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"accordion",
+null,
+"Fisarmonica",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"composition",
+null,
+"Composizione - indirizzo multimediale COMPOSIZIONE indirizzo Multimediale - 3",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"folk",
+null,
+"Composizione - indirizzo tradizionale COMPOSIZIONE indirizzo Tradizionale - 3",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"composition",
+null,
+"Composizione - indirizzo tradizionale COMPOSIZIONE indirizzo Tradizionale - 3",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"vocal-opera",
+null,
+"Canto CODI_23-Canto",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"guitar",
+null,
+"Chitarra CODI_02 Chitarra",
+"https://conservatoriocimarosa.org/didattica"
+],
+[
+"woodwind",
+null,
+"Flauto CODI/13 Flauto",
+"https://conservatoriocimarosa.org/didattica"
+]
+],
+"I  NOVARA01": [
+[
+"music-education",
+null,
+"Offerta Didattica",
+"https://consno.it/offerta-didattica/corsi/"
+],
+[
+"harp",
+null,
+"Arpa",
+"https://consno.it/offerta-didattica/corsi/"
+],
+[
+"brass",
+null,
+"Basso Tuba",
+"https://consno.it/offerta-didattica/corsi/"
+],
+[
+"vocal-opera",
+null,
+"Canto",
+"https://consno.it/offerta-didattica/corsi/"
+],
+[
+"early-music",
+null,
+"Canto Barocco",
+"https://consno.it/offerta-didattica/corsi/"
+],
+[
+"vocal-opera",
+null,
+"Canto Barocco",
+"https://consno.it/offerta-didattica/corsi/"
+],
+[
+"guitar",
+null,
+"Chitarra",
+"https://consno.it/offerta-didattica/corsi/"
+],
+[
+"woodwind",
+null,
+"Clarinetto",
+"https://consno.it/offerta-didattica/corsi/"
+],
+[
+"woodwind",
+null,
+"Clarinetto basso",
+"https://consno.it/offerta-didattica/corsi/"
+],
+[
+"early-music",
+null,
+"Clavicembalo",
+"https://consno.it/offerta-didattica/corsi/"
+],
+[
+"composition",
+null,
+"Composizione",
+"https://consno.it/offerta-didattica/corsi/"
+],
+[
+"composition",
+null,
+"Composizione – Indirizzo nuove tecnologie",
+"https://consno.it/offerta-didattica/corsi/"
+],
+[
+"music-technology",
+null,
+"Composizione – Indirizzo nuove tecnologie",
+"https://consno.it/offerta-didattica/corsi/"
+],
+[
+"strings",
+null,
+"Contrabbasso",
+"https://consno.it/offerta-didattica/corsi/"
+],
+[
+"brass",
+null,
+"Corno",
+"https://consno.it/offerta-didattica/corsi/"
+],
+[
+"music-education",
+null,
+"Didattica della Musica",
+"https://consno.it/offerta-didattica/corsi/"
+],
+[
+"music-education",
+null,
+"Didattica della musica strumentale",
+"https://consno.it/offerta-didattica/corsi/"
+],
+[
+"conducting",
+null,
+"Direzione di coro",
+"https://consno.it/offerta-didattica/corsi/"
+],
+[
+"woodwind",
+null,
+"Fagotto",
+"https://consno.it/offerta-didattica/corsi/"
+],
+[
+"woodwind",
+null,
+"Flauto",
+"https://consno.it/offerta-didattica/corsi/"
+],
+[
+"early-music",
+null,
+"Flauto Dolce",
+"https://consno.it/offerta-didattica/corsi/"
+],
+[
+"woodwind",
+null,
+"Flauto Traversiere",
+"https://consno.it/offerta-didattica/corsi/"
+],
+[
+"chamber-music",
+null,
+"Musica d’insieme",
+"https://consno.it/offerta-didattica/corsi/"
+],
+[
+"vocal-opera",
+null,
+"Musica Vocale da Camera",
+"https://consno.it/offerta-didattica/corsi/"
+],
+[
+"woodwind",
+null,
+"Oboe",
+"https://consno.it/offerta-didattica/corsi/"
+],
+[
+"organ",
+null,
+"Organo",
+"https://consno.it/offerta-didattica/corsi/"
+],
+[
+"percussion",
+null,
+"Strumenti a Percussione",
+"https://consno.it/offerta-didattica/corsi/"
+],
+[
+"piano",
+null,
+"Pianoforte",
+"https://consno.it/offerta-didattica/corsi/"
+],
+[
+"piano",
+null,
+"Pianoforte Storico",
+"https://consno.it/offerta-didattica/corsi/"
+],
+[
+"music-technology",
+null,
+"Tecnico del Suono",
+"https://consno.it/offerta-didattica/corsi/"
+],
+[
+"brass",
+null,
+"Tromba",
+"https://consno.it/offerta-didattica/corsi/"
+],
+[
+"early-music",
+null,
+"Tromba Barocca",
+"https://consno.it/offerta-didattica/corsi/"
+],
+[
+"brass",
+null,
+"Trombone",
+"https://consno.it/offerta-didattica/corsi/"
+],
+[
+"strings",
+null,
+"Viola",
+"https://consno.it/offerta-didattica/corsi/"
+],
+[
+"early-music",
+null,
+"Viola da Gamba",
+"https://consno.it/offerta-didattica/corsi/"
+],
+[
+"strings",
+null,
+"Violino",
+"https://consno.it/offerta-didattica/corsi/"
+],
+[
+"early-music",
+null,
+"Violino Barocco",
+"https://consno.it/offerta-didattica/corsi/"
+],
+[
+"early-music",
+null,
+"Violoncello barocco",
+"https://consno.it/offerta-didattica/corsi/"
+],
+[
+"strings",
+null,
+"Violoncello",
+"https://consno.it/offerta-didattica/corsi/"
+],
+[
+"music-theory",
+null,
+"Altro – Teoria, ritmica e percezione musicale",
+"https://consno.it/offerta-didattica/corsi/"
+]
+]
+},
+"notes": {}
+}
