@@ -1,0 +1,1466 @@
+{
+"collected": "2026-10-08",
+"method": "Field-level collection as in batch 1; where a site lists programmes only via JavaScript, the programme pages were located with a web search restricted to the institution's own domain (raw HTML of each institution's own programme pages, PDFs where the list was only there; names mapped to disciplines.json by keyword and checked by hand).",
+"institutions": {
+"LV RIGA05": [
+[
+"music-education",
+"BA",
+"Pedagoģija",
+"https://www.jvlma.lv/studijas/studiju-nozares/makslu-pedagogija-1"
+],
+[
+"conducting",
+"BA",
+"Diriģēšana",
+"https://www.jvlma.lv/studijas/studiju-nozares/dirigesana"
+],
+[
+"early-music",
+"BA",
+"Senā mūzika",
+"https://www.jvlma.lv/studijas/studiju-nozares/sena-muzika-1"
+],
+[
+"jazz",
+"BA",
+"Džeza mūzika",
+"https://www.jvlma.lv/studijas/studiju-nozares/dzezs"
+],
+[
+"piano",
+"BA",
+"Kameransamblis, Klavierpavadījums",
+"https://www.jvlma.lv/studijas/studiju-nozares/kameransamblis-klavierpavadijums"
+],
+[
+"chamber-music",
+"BA",
+"Kameransamblis, Klavierpavadījums",
+"https://www.jvlma.lv/studijas/studiju-nozares/kameransamblis-klavierpavadijums"
+],
+[
+"vocal-opera",
+"BA",
+"Vokālā mūzika",
+"https://www.jvlma.lv/studijas/studiju-nozares/vokala-muzika"
+],
+[
+"musicology",
+"BA",
+"Muzikoloģija",
+"https://www.jvlma.lv/studijas/studiju-nozares/muzikologija"
+],
+[
+"musicology",
+"BA",
+"Etnomuzikoloģija",
+"https://www.jvlma.lv/studijas/studiju-nozares/etnomuzikologija"
+],
+[
+"composition",
+"BA",
+"Kompozīcija",
+"https://www.jvlma.lv/studijas/studiju-nozares/kompozicija"
+],
+[
+"music-technology",
+"BA",
+"Skaņu režija",
+"https://www.jvlma.lv/studijas/studiju-nozares/skanu-rezija"
+],
+[
+"music-education",
+"MA",
+"Pedagoģija",
+"https://www.jvlma.lv/studijas/studiju-nozares/makslu-pedagogija-1"
+],
+[
+"conducting",
+"MA",
+"Diriģēšana",
+"https://www.jvlma.lv/studijas/studiju-nozares/dirigesana"
+],
+[
+"early-music",
+"MA",
+"Senā mūzika",
+"https://www.jvlma.lv/studijas/studiju-nozares/sena-muzika-1"
+],
+[
+"jazz",
+"MA",
+"Džeza mūzika",
+"https://www.jvlma.lv/studijas/studiju-nozares/dzezs"
+],
+[
+"piano",
+"MA",
+"Kameransamblis, Klavierpavadījums",
+"https://www.jvlma.lv/studijas/studiju-nozares/kameransamblis-klavierpavadijums"
+],
+[
+"chamber-music",
+"MA",
+"Kameransamblis, Klavierpavadījums",
+"https://www.jvlma.lv/studijas/studiju-nozares/kameransamblis-klavierpavadijums"
+],
+[
+"vocal-opera",
+"MA",
+"Vokālā mūzika",
+"https://www.jvlma.lv/studijas/studiju-nozares/vokala-muzika"
+],
+[
+"musicology",
+"MA",
+"Muzikoloģija",
+"https://www.jvlma.lv/studijas/studiju-nozares/muzikologija"
+],
+[
+"musicology",
+"MA",
+"Etnomuzikoloģija",
+"https://www.jvlma.lv/studijas/studiju-nozares/etnomuzikologija"
+],
+[
+"composition",
+"MA",
+"Kompozīcija",
+"https://www.jvlma.lv/studijas/studiju-nozares/kompozicija"
+],
+[
+"music-technology",
+"MA",
+"Skaņu režija",
+"https://www.jvlma.lv/studijas/studiju-nozares/skanu-rezija"
+],
+[
+"strings",
+"BA",
+"Instrumentālā mūzika",
+"https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika"
+],
+[
+"strings",
+"MA",
+"Instrumentālā mūzika",
+"https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika"
+],
+[
+"woodwind",
+"BA",
+"Instrumentālā mūzika",
+"https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika"
+],
+[
+"woodwind",
+"MA",
+"Instrumentālā mūzika",
+"https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika"
+],
+[
+"brass",
+"BA",
+"Instrumentālā mūzika",
+"https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika"
+],
+[
+"brass",
+"MA",
+"Instrumentālā mūzika",
+"https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika"
+],
+[
+"piano",
+"BA",
+"Instrumentālā mūzika",
+"https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika"
+],
+[
+"piano",
+"MA",
+"Instrumentālā mūzika",
+"https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika"
+],
+[
+"organ",
+"BA",
+"Instrumentālā mūzika",
+"https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika"
+],
+[
+"organ",
+"MA",
+"Instrumentālā mūzika",
+"https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika"
+],
+[
+"percussion",
+"BA",
+"Instrumentālā mūzika",
+"https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika"
+],
+[
+"percussion",
+"MA",
+"Instrumentālā mūzika",
+"https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika"
+],
+[
+"guitar",
+"BA",
+"Instrumentālā mūzika",
+"https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika"
+],
+[
+"guitar",
+"MA",
+"Instrumentālā mūzika",
+"https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika"
+],
+[
+"harp",
+"BA",
+"Instrumentālā mūzika",
+"https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika"
+],
+[
+"harp",
+"MA",
+"Instrumentālā mūzika",
+"https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika"
+],
+[
+"accordion",
+"BA",
+"Instrumentālā mūzika",
+"https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika"
+],
+[
+"accordion",
+"MA",
+"Instrumentālā mūzika",
+"https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika"
+]
+],
+"LT VILNIUS05": [
+[
+"accordion",
+"BA",
+"- Department of Accordion",
+"https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/pirma-katedra/"
+],
+[
+"conducting",
+"BA",
+"- Department of Choir Conducting",
+"https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/choro-dirigavimo-katedra/"
+],
+[
+"vocal-opera",
+"BA",
+"- Department of Vocal Performance",
+"https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/dainavimo-katedra/"
+],
+[
+"conducting",
+"BA",
+"- Department of Conducting",
+"https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/dirigavimo-katedra/"
+],
+[
+"jazz",
+"BA",
+"- Department of Jazz",
+"https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/dziazo-katedra/"
+],
+[
+"music-education",
+"BA",
+"- Department of Education",
+"https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/edukologijos-katedra/"
+],
+[
+"folk",
+"BA",
+"- Department of Ethnomusicology",
+"https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/etnomuzikologijos-katedra/"
+],
+[
+"musicology",
+"BA",
+"- Department of Ethnomusicology",
+"https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/etnomuzikologijos-katedra/"
+],
+[
+"organ",
+"BA",
+"- Department of Piano and Organ",
+"https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/fortepijono-ir-vargonu-katedra/"
+],
+[
+"piano",
+"BA",
+"- Department of Piano and Organ",
+"https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/fortepijono-ir-vargonu-katedra/"
+],
+[
+"chamber-music",
+"BA",
+"-- International Student Chamber Music Festival",
+"https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/kamerinio-ansamblio-katedra/tarptautinis-studentu-kamerines-muzikos-festivalis/"
+],
+[
+"composition",
+"BA",
+"- Department of Composition",
+"https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/kompozicijos-katedra/"
+],
+[
+"folk",
+"BA",
+"- Department of Folk Instruments",
+"https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/liaudies-instrumentu-katedra/"
+],
+[
+"musicology",
+"BA",
+"- Department of Musicology",
+"https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/muzikologijos-katedra/"
+],
+[
+"percussion",
+"BA",
+"- Department of Wind and Percussion Instruments",
+"https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/puciamuju-ir-musamuju-instrumentu-katedra/"
+],
+[
+"strings",
+"BA",
+"- Department of String Instruments",
+"https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/styginiu-instrumentu-katedra/"
+],
+[
+"accordion",
+"MA",
+"- Department of Accordion",
+"https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/pirma-katedra/"
+],
+[
+"conducting",
+"MA",
+"- Department of Choir Conducting",
+"https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/choro-dirigavimo-katedra/"
+],
+[
+"vocal-opera",
+"MA",
+"- Department of Vocal Performance",
+"https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/dainavimo-katedra/"
+],
+[
+"conducting",
+"MA",
+"- Department of Conducting",
+"https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/dirigavimo-katedra/"
+],
+[
+"jazz",
+"MA",
+"- Department of Jazz",
+"https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/dziazo-katedra/"
+],
+[
+"music-education",
+"MA",
+"- Department of Education",
+"https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/edukologijos-katedra/"
+],
+[
+"folk",
+"MA",
+"- Department of Ethnomusicology",
+"https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/etnomuzikologijos-katedra/"
+],
+[
+"musicology",
+"MA",
+"- Department of Ethnomusicology",
+"https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/etnomuzikologijos-katedra/"
+],
+[
+"organ",
+"MA",
+"- Department of Piano and Organ",
+"https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/fortepijono-ir-vargonu-katedra/"
+],
+[
+"piano",
+"MA",
+"- Department of Piano and Organ",
+"https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/fortepijono-ir-vargonu-katedra/"
+],
+[
+"chamber-music",
+"MA",
+"-- International Student Chamber Music Festival",
+"https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/kamerinio-ansamblio-katedra/tarptautinis-studentu-kamerines-muzikos-festivalis/"
+],
+[
+"composition",
+"MA",
+"- Department of Composition",
+"https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/kompozicijos-katedra/"
+],
+[
+"folk",
+"MA",
+"- Department of Folk Instruments",
+"https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/liaudies-instrumentu-katedra/"
+],
+[
+"musicology",
+"MA",
+"- Department of Musicology",
+"https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/muzikologijos-katedra/"
+],
+[
+"percussion",
+"MA",
+"- Department of Wind and Percussion Instruments",
+"https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/puciamuju-ir-musamuju-instrumentu-katedra/"
+],
+[
+"strings",
+"MA",
+"- Department of String Instruments",
+"https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/styginiu-instrumentu-katedra/"
+],
+[
+"woodwind",
+"BA",
+"Department of Wind and Percussion Instruments",
+"https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/"
+],
+[
+"woodwind",
+"MA",
+"Department of Wind and Percussion Instruments",
+"https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/"
+],
+[
+"brass",
+"BA",
+"Department of Wind and Percussion Instruments",
+"https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/"
+],
+[
+"brass",
+"MA",
+"Department of Wind and Percussion Instruments",
+"https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/"
+],
+[
+"percussion",
+"BA",
+"Department of Wind and Percussion Instruments",
+"https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/"
+],
+[
+"percussion",
+"MA",
+"Department of Wind and Percussion Instruments",
+"https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/"
+],
+[
+"vocal-opera",
+"MA",
+"Opera Studio",
+"https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/"
+]
+],
+"LT KAUNAS01": [
+[
+"accordion",
+"BA",
+"Atlikimo menas: akordeonas, fortepijonas, dainavimas, dirigavimas, styginiai instrumentai (gitara, altas, arfa, kontrabosas, smuikas, violončelė)",
+"https://ma.vdu.lt/studijos/studiju-programos"
+],
+[
+"accordion",
+"MA",
+"Atlikimo menas: akordeonas, fortepijonas, dainavimas, dirigavimas, styginiai instrumentai (gitara, altas, arfa, kontrabosas, smuikas, violončelė)",
+"https://ma.vdu.lt/studijos/studiju-programos"
+],
+[
+"piano",
+"BA",
+"Atlikimo menas: akordeonas, fortepijonas, dainavimas, dirigavimas, styginiai instrumentai (gitara, altas, arfa, kontrabosas, smuikas, violončelė)",
+"https://ma.vdu.lt/studijos/studiju-programos"
+],
+[
+"piano",
+"MA",
+"Atlikimo menas: akordeonas, fortepijonas, dainavimas, dirigavimas, styginiai instrumentai (gitara, altas, arfa, kontrabosas, smuikas, violončelė)",
+"https://ma.vdu.lt/studijos/studiju-programos"
+],
+[
+"vocal-opera",
+"BA",
+"Atlikimo menas: akordeonas, fortepijonas, dainavimas, dirigavimas, styginiai instrumentai (gitara, altas, arfa, kontrabosas, smuikas, violončelė)",
+"https://ma.vdu.lt/studijos/studiju-programos"
+],
+[
+"vocal-opera",
+"MA",
+"Atlikimo menas: akordeonas, fortepijonas, dainavimas, dirigavimas, styginiai instrumentai (gitara, altas, arfa, kontrabosas, smuikas, violončelė)",
+"https://ma.vdu.lt/studijos/studiju-programos"
+],
+[
+"conducting",
+"BA",
+"Atlikimo menas: akordeonas, fortepijonas, dainavimas, dirigavimas, styginiai instrumentai (gitara, altas, arfa, kontrabosas, smuikas, violončelė)",
+"https://ma.vdu.lt/studijos/studiju-programos"
+],
+[
+"conducting",
+"MA",
+"Atlikimo menas: akordeonas, fortepijonas, dainavimas, dirigavimas, styginiai instrumentai (gitara, altas, arfa, kontrabosas, smuikas, violončelė)",
+"https://ma.vdu.lt/studijos/studiju-programos"
+],
+[
+"strings",
+"BA",
+"Atlikimo menas: akordeonas, fortepijonas, dainavimas, dirigavimas, styginiai instrumentai (gitara, altas, arfa, kontrabosas, smuikas, violončelė)",
+"https://ma.vdu.lt/studijos/studiju-programos"
+],
+[
+"strings",
+"MA",
+"Atlikimo menas: akordeonas, fortepijonas, dainavimas, dirigavimas, styginiai instrumentai (gitara, altas, arfa, kontrabosas, smuikas, violončelė)",
+"https://ma.vdu.lt/studijos/studiju-programos"
+],
+[
+"guitar",
+"BA",
+"Atlikimo menas: akordeonas, fortepijonas, dainavimas, dirigavimas, styginiai instrumentai (gitara, altas, arfa, kontrabosas, smuikas, violončelė)",
+"https://ma.vdu.lt/studijos/studiju-programos"
+],
+[
+"guitar",
+"MA",
+"Atlikimo menas: akordeonas, fortepijonas, dainavimas, dirigavimas, styginiai instrumentai (gitara, altas, arfa, kontrabosas, smuikas, violončelė)",
+"https://ma.vdu.lt/studijos/studiju-programos"
+],
+[
+"harp",
+"BA",
+"Atlikimo menas: akordeonas, fortepijonas, dainavimas, dirigavimas, styginiai instrumentai (gitara, altas, arfa, kontrabosas, smuikas, violončelė)",
+"https://ma.vdu.lt/studijos/studiju-programos"
+],
+[
+"harp",
+"MA",
+"Atlikimo menas: akordeonas, fortepijonas, dainavimas, dirigavimas, styginiai instrumentai (gitara, altas, arfa, kontrabosas, smuikas, violončelė)",
+"https://ma.vdu.lt/studijos/studiju-programos"
+],
+[
+"early-music",
+"BA",
+"Atlikimo menas (styginiai instrumentai – autentiškas muzikos atlikimas)",
+"https://ma.vdu.lt/studijos/studiju-programos"
+],
+[
+"early-music",
+"MA",
+"Atlikimo menas (styginiai instrumentai – autentiškas muzikos atlikimas)",
+"https://ma.vdu.lt/studijos/studiju-programos"
+],
+[
+"jazz",
+"BA",
+"Atlikimo menas (džiazas)",
+"https://ma.vdu.lt/studijos/studiju-programos"
+],
+[
+"jazz",
+"MA",
+"Atlikimo menas (džiazas)",
+"https://ma.vdu.lt/studijos/studiju-programos"
+],
+[
+"popular-music",
+"BA",
+"Atlikimo menas (populiarioji muzika)",
+"https://ma.vdu.lt/studijos/studiju-programos"
+],
+[
+"popular-music",
+"MA",
+"Atlikimo menas (populiarioji muzika)",
+"https://ma.vdu.lt/studijos/studiju-programos"
+],
+[
+"woodwind",
+"BA",
+"Atlikimo menas (pučiamieji ir mušamieji instrumentai)",
+"https://ma.vdu.lt/studijos/studiju-programos"
+],
+[
+"woodwind",
+"MA",
+"Atlikimo menas (pučiamieji ir mušamieji instrumentai)",
+"https://ma.vdu.lt/studijos/studiju-programos"
+],
+[
+"brass",
+"BA",
+"Atlikimo menas (pučiamieji ir mušamieji instrumentai)",
+"https://ma.vdu.lt/studijos/studiju-programos"
+],
+[
+"brass",
+"MA",
+"Atlikimo menas (pučiamieji ir mušamieji instrumentai)",
+"https://ma.vdu.lt/studijos/studiju-programos"
+],
+[
+"percussion",
+"BA",
+"Atlikimo menas (pučiamieji ir mušamieji instrumentai)",
+"https://ma.vdu.lt/studijos/studiju-programos"
+],
+[
+"percussion",
+"MA",
+"Atlikimo menas (pučiamieji ir mušamieji instrumentai)",
+"https://ma.vdu.lt/studijos/studiju-programos"
+],
+[
+"chamber-music",
+"MA",
+"Atlikimo menas (kamerinis)",
+"https://ma.vdu.lt/studijos/studiju-programos"
+],
+[
+"music-production",
+"BA",
+"Music Production (Faculty of Arts)",
+"https://www.vdu.lt/en/studiju-programa/music-production-2/"
+],
+[
+"music-education",
+"BA",
+"Mokomojo dalyko pedagogika: muzikos pedagogika; Muzikos edukologija",
+"https://www.vdu.lt/lt/studiju-programa/muzikos-edukologija/"
+],
+[
+"music-education",
+"MA",
+"Mokomojo dalyko pedagogika: muzikos pedagogika; Muzikos edukologija",
+"https://www.vdu.lt/lt/studiju-programa/muzikos-edukologija/"
+]
+],
+"LT VILNIUS10": [
+[
+"popular-music",
+"BA",
+"Populiarioji muzika (also in English), professional bachelor",
+"https://www.viko.lt/vilniaus-kolegijos-menu-ir-kurybiniu-technologiju-fakulteto-stojamieji-egzaminai/"
+],
+[
+"vocal-opera",
+"BA",
+"Muzikinis teatras (professional bachelor)",
+"https://www.viko.lt/studentams/studiju-programos-lietuviskai/muzikinis-teatras/"
+]
+],
+"LUXLUX-VIL01": [
+[
+"music-education",
+"BA",
+"Bachelor en Enseignement musical (instrumental/vocal teaching, formation musicale, éveil musical)",
+"https://www.uni.lu/fhse-en/study-programs/bachelor-en-enseignement-musical/"
+]
+],
+"ME PODGORI02": [
+[
+"music-education",
+"BA",
+"Opšta muzička pedagogija",
+"https://ucg.ac.me/skladiste/blog_616703/objava_198608/fajlovi/UCG%20studijski%20programi%202025-26%20_interaktiv_.pdf"
+],
+[
+"music-education",
+"MA",
+"Opšta muzička pedagogija",
+"https://ucg.ac.me/skladiste/blog_616703/objava_198608/fajlovi/UCG%20studijski%20programi%202025-26%20_interaktiv_.pdf"
+],
+[
+"composition",
+"MA",
+"Kompozicija (magistarske studije)",
+"https://ucg.ac.me/skladiste/blog_616703/objava_198608/fajlovi/UCG%20studijski%20programi%202025-26%20_interaktiv_.pdf"
+]
+],
+"NL UTRECHT29": [
+[
+"music-technology",
+"BA",
+"Bachelor Audio Design Muziek en Technologie",
+"https://www.hku.nl/studeren-aan-hku/muziek-en-technologie/audio-design"
+],
+[
+"composition",
+"BA",
+"Bachelor Composition and Music Production Muziek en Technologie",
+"https://www.hku.nl/studeren-aan-hku/muziek-en-technologie/composition-and-music-production"
+],
+[
+"music-production",
+"BA",
+"Bachelor Composition and Music Production Muziek en Technologie",
+"https://www.hku.nl/studeren-aan-hku/muziek-en-technologie/composition-and-music-production"
+],
+[
+"composition",
+"BA",
+"Bachelor Composition Electronic Music Muziek en Technologie",
+"https://www.hku.nl/studeren-aan-hku/muziek-en-technologie/composition-electronic-music"
+],
+[
+"music-technology",
+"BA",
+"Bachelor Composition Electronic Music Muziek en Technologie",
+"https://www.hku.nl/studeren-aan-hku/muziek-en-technologie/composition-electronic-music"
+],
+[
+"composition",
+"BA",
+"Bachelor Composition for the Media Muziek en Technologie",
+"https://www.hku.nl/studeren-aan-hku/muziek-en-technologie/composition-for-the-media"
+],
+[
+"music-education",
+"BA",
+"Bachelor Docent Muziek Utrechts Conservatorium",
+"https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/docent-muziek"
+],
+[
+"early-music",
+"BA",
+"Bachelor Historische Uitvoeringspraktijk Utrechts Conservatorium",
+"https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/historische-uitvoeringspraktijk"
+],
+[
+"jazz",
+"BA",
+"Bachelor Jazz & Pop Utrechts Conservatorium",
+"https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/jazz-pop"
+],
+[
+"popular-music",
+"BA",
+"Bachelor Jazz & Pop Utrechts Conservatorium",
+"https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/jazz-pop"
+],
+[
+"music-technology",
+"BA",
+"Bachelor Sound Design Muziek en Technologie",
+"https://www.hku.nl/studeren-aan-hku/muziek-en-technologie/sound-design"
+],
+[
+"strings",
+"BA",
+"Bachelor Klassieke Muziek (Utrechts Conservatorium)",
+"https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/klassieke-muziek",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"BA",
+"Bachelor Klassieke Muziek (Utrechts Conservatorium)",
+"https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/klassieke-muziek",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"BA",
+"Bachelor Klassieke Muziek (Utrechts Conservatorium)",
+"https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/klassieke-muziek",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"BA",
+"Bachelor Klassieke Muziek (Utrechts Conservatorium)",
+"https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/klassieke-muziek",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"BA",
+"Bachelor Klassieke Muziek (Utrechts Conservatorium)",
+"https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/klassieke-muziek",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"BA",
+"Bachelor Klassieke Muziek (Utrechts Conservatorium)",
+"https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/klassieke-muziek",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"guitar",
+"BA",
+"Bachelor Klassieke Muziek (Utrechts Conservatorium)",
+"https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/klassieke-muziek",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"harp",
+"BA",
+"Bachelor Klassieke Muziek (Utrechts Conservatorium)",
+"https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/klassieke-muziek",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"organ",
+"BA",
+"Bachelor Klassieke Muziek (Utrechts Conservatorium)",
+"https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/klassieke-muziek",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"strings",
+"MA",
+"Master of Music – Performance",
+"https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/master-of-music",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"MA",
+"Master of Music – Performance",
+"https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/master-of-music",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"MA",
+"Master of Music – Performance",
+"https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/master-of-music",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"MA",
+"Master of Music – Performance",
+"https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/master-of-music",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"MA",
+"Master of Music – Performance",
+"https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/master-of-music",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"MA",
+"Master of Music – Performance",
+"https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/master-of-music",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"organ",
+"BA",
+"De Nederlandse Beiaardschool (carillon)",
+"https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/de-nederlandse-beiaardschool"
+]
+],
+"NL ENSCHED04": [
+[
+"music-education",
+"BA",
+"Bachelor Docent Muziek (Enschede, Zwolle)",
+"https://www.artez.nl/opleidingen/bachelor/docent-muziek-zwolle"
+],
+[
+"jazz",
+"BA",
+"Bachelor Jazz & Pop (Arnhem, Zwolle)",
+"https://www.artez.nl/opleidingen/bachelor/jazz-pop-arnhem"
+],
+[
+"popular-music",
+"BA",
+"Bachelor Jazz & Pop (Arnhem, Zwolle)",
+"https://www.artez.nl/opleidingen/bachelor/jazz-pop-arnhem"
+],
+[
+"popular-music",
+"BA",
+"Bachelor Popacademie (Enschede)",
+"https://www.artez.nl/opleidingen/bachelor/popacademie-enschede"
+],
+[
+"strings",
+"BA",
+"Bachelor Klassieke Muziek (Zwolle)",
+"https://www.artez.nl/opleidingen/bachelor/klassieke-muziek-zwolle",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"BA",
+"Bachelor Klassieke Muziek (Zwolle)",
+"https://www.artez.nl/opleidingen/bachelor/klassieke-muziek-zwolle",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"BA",
+"Bachelor Klassieke Muziek (Zwolle)",
+"https://www.artez.nl/opleidingen/bachelor/klassieke-muziek-zwolle",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"BA",
+"Bachelor Klassieke Muziek (Zwolle)",
+"https://www.artez.nl/opleidingen/bachelor/klassieke-muziek-zwolle",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"BA",
+"Bachelor Klassieke Muziek (Zwolle)",
+"https://www.artez.nl/opleidingen/bachelor/klassieke-muziek-zwolle",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"BA",
+"Bachelor Klassieke Muziek (Zwolle)",
+"https://www.artez.nl/opleidingen/bachelor/klassieke-muziek-zwolle",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"composition",
+"BA",
+"Bachelor MediaMusic (Enschede)",
+"https://www.artez.nl/opleidingen/bachelor/mediamusic-enschede"
+],
+[
+"music-production",
+"BA",
+"Bachelor MediaMusic (Enschede)",
+"https://www.artez.nl/opleidingen/bachelor/mediamusic-enschede"
+],
+[
+"music-therapy",
+"BA",
+"Muziektherapie (Bachelor, Master)",
+"https://www.artez.nl/opleidingen/bachelor/muziektherapie-enschede"
+],
+[
+"music-therapy",
+"MA",
+"Muziektherapie (Bachelor, Master)",
+"https://www.artez.nl/opleidingen/bachelor/muziektherapie-enschede"
+],
+[
+"strings",
+"MA",
+"Master of Music (Arnhem, Zwolle)",
+"https://www.artez.nl/opleidingen/master/master-of-music-zwolle",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"MA",
+"Master of Music (Arnhem, Zwolle)",
+"https://www.artez.nl/opleidingen/master/master-of-music-zwolle",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"MA",
+"Master of Music (Arnhem, Zwolle)",
+"https://www.artez.nl/opleidingen/master/master-of-music-zwolle",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"MA",
+"Master of Music (Arnhem, Zwolle)",
+"https://www.artez.nl/opleidingen/master/master-of-music-zwolle",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"MA",
+"Master of Music (Arnhem, Zwolle)",
+"https://www.artez.nl/opleidingen/master/master-of-music-zwolle",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"MA",
+"Master of Music (Arnhem, Zwolle)",
+"https://www.artez.nl/opleidingen/master/master-of-music-zwolle",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"jazz",
+"MA",
+"Master of Music (Arnhem, Zwolle)",
+"https://www.artez.nl/opleidingen/master/master-of-music-zwolle",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"popular-music",
+"MA",
+"Master of Music (Arnhem, Zwolle)",
+"https://www.artez.nl/opleidingen/master/master-of-music-zwolle",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+]
+],
+"NL AMSTERD07": [
+[
+"strings",
+"BA",
+"Klassiek",
+"https://www.conservatoriumvanamsterdam.nl/studie/klassiek/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"strings",
+"MA",
+"Klassiek",
+"https://www.conservatoriumvanamsterdam.nl/studie/klassiek/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"BA",
+"Klassiek",
+"https://www.conservatoriumvanamsterdam.nl/studie/klassiek/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"MA",
+"Klassiek",
+"https://www.conservatoriumvanamsterdam.nl/studie/klassiek/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"BA",
+"Klassiek",
+"https://www.conservatoriumvanamsterdam.nl/studie/klassiek/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"MA",
+"Klassiek",
+"https://www.conservatoriumvanamsterdam.nl/studie/klassiek/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"BA",
+"Klassiek",
+"https://www.conservatoriumvanamsterdam.nl/studie/klassiek/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"MA",
+"Klassiek",
+"https://www.conservatoriumvanamsterdam.nl/studie/klassiek/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"BA",
+"Klassiek",
+"https://www.conservatoriumvanamsterdam.nl/studie/klassiek/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"MA",
+"Klassiek",
+"https://www.conservatoriumvanamsterdam.nl/studie/klassiek/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"BA",
+"Klassiek",
+"https://www.conservatoriumvanamsterdam.nl/studie/klassiek/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"MA",
+"Klassiek",
+"https://www.conservatoriumvanamsterdam.nl/studie/klassiek/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"jazz",
+"BA",
+"Jazz",
+"https://www.conservatoriumvanamsterdam.nl/studie/jazz/"
+],
+[
+"jazz",
+"MA",
+"Jazz",
+"https://www.conservatoriumvanamsterdam.nl/studie/jazz/"
+],
+[
+"popular-music",
+"BA",
+"Pop",
+"https://www.conservatoriumvanamsterdam.nl/studie/pop/"
+],
+[
+"early-music",
+"BA",
+"Oude muziek",
+"https://www.conservatoriumvanamsterdam.nl/studie/oude-muziek/"
+],
+[
+"early-music",
+"MA",
+"Oude muziek",
+"https://www.conservatoriumvanamsterdam.nl/studie/oude-muziek/"
+],
+[
+"music-education",
+"BA",
+"Docent muziek",
+"https://www.conservatoriumvanamsterdam.nl/studie/docent-muziek/"
+],
+[
+"music-production",
+"BA",
+"Amsterdam Electronic Music Academy",
+"https://www.conservatoriumvanamsterdam.nl/studie/aema/"
+],
+[
+"music-technology",
+"BA",
+"Amsterdam Electronic Music Academy",
+"https://www.conservatoriumvanamsterdam.nl/studie/aema/"
+],
+[
+"music-technology",
+"MA",
+"Focus master Immersive Audio",
+"https://www.conservatoriumvanamsterdam.nl/studie/focus-masters/immersive-audio/"
+]
+],
+"NL EINDHOV03": [
+[
+"strings",
+"BA",
+"Conservatory of Music – Classical",
+"https://www.fontys.nl/en/Programmes/Conservatory-of-Music-bachelor-full-time.htm",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"BA",
+"Conservatory of Music – Classical",
+"https://www.fontys.nl/en/Programmes/Conservatory-of-Music-bachelor-full-time.htm",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"BA",
+"Conservatory of Music – Classical",
+"https://www.fontys.nl/en/Programmes/Conservatory-of-Music-bachelor-full-time.htm",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"BA",
+"Conservatory of Music – Classical",
+"https://www.fontys.nl/en/Programmes/Conservatory-of-Music-bachelor-full-time.htm",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"BA",
+"Conservatory of Music – Classical",
+"https://www.fontys.nl/en/Programmes/Conservatory-of-Music-bachelor-full-time.htm",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"BA",
+"Conservatory of Music – Classical",
+"https://www.fontys.nl/en/Programmes/Conservatory-of-Music-bachelor-full-time.htm",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"jazz",
+"BA",
+"Conservatory of Music – Jazz & Creative Music",
+"https://www.fontys.nl/en/Programmes/Conservatory-of-Music-bachelor-full-time.htm"
+]
+],
+"NL S-GRAVE37": [
+[
+"popular-music",
+"BA",
+"Muziek – richtingen Pop, Creative Artist, E-music",
+"https://www.inholland.nl/opleidingen/muziek-voltijd/"
+],
+[
+"music-production",
+"BA",
+"Muziek – richting E-music; Associate degree Electronic Music",
+"https://www.inholland.nl/opleidingen/muziek-voltijd/de-opleiding/"
+]
+],
+"NL HEERLEN14": [
+[
+"strings",
+"BA",
+"Bachelor / Master of Music – Classical (25 main subjects)",
+"https://www.conservatoriummaastricht.nl/study-here/classical/master",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"strings",
+"MA",
+"Bachelor / Master of Music – Classical (25 main subjects)",
+"https://www.conservatoriummaastricht.nl/study-here/classical/master",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"BA",
+"Bachelor / Master of Music – Classical (25 main subjects)",
+"https://www.conservatoriummaastricht.nl/study-here/classical/master",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"MA",
+"Bachelor / Master of Music – Classical (25 main subjects)",
+"https://www.conservatoriummaastricht.nl/study-here/classical/master",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"BA",
+"Bachelor / Master of Music – Classical (25 main subjects)",
+"https://www.conservatoriummaastricht.nl/study-here/classical/master",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"MA",
+"Bachelor / Master of Music – Classical (25 main subjects)",
+"https://www.conservatoriummaastricht.nl/study-here/classical/master",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"BA",
+"Bachelor / Master of Music – Classical (25 main subjects)",
+"https://www.conservatoriummaastricht.nl/study-here/classical/master",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"MA",
+"Bachelor / Master of Music – Classical (25 main subjects)",
+"https://www.conservatoriummaastricht.nl/study-here/classical/master",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"BA",
+"Bachelor / Master of Music – Classical (25 main subjects)",
+"https://www.conservatoriummaastricht.nl/study-here/classical/master",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"MA",
+"Bachelor / Master of Music – Classical (25 main subjects)",
+"https://www.conservatoriummaastricht.nl/study-here/classical/master",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"BA",
+"Bachelor / Master of Music – Classical (25 main subjects)",
+"https://www.conservatoriummaastricht.nl/study-here/classical/master",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"MA",
+"Bachelor / Master of Music – Classical (25 main subjects)",
+"https://www.conservatoriummaastricht.nl/study-here/classical/master",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"jazz",
+"BA",
+"Bachelor / Master of Music – Jazz",
+"https://www.zuyd.nl/en/programmes/music"
+],
+[
+"jazz",
+"MA",
+"Bachelor / Master of Music – Jazz",
+"https://www.zuyd.nl/en/programmes/music"
+],
+[
+"music-education",
+"BA",
+"Bachelor Music in Education (Docent Muziek)",
+"https://www.conservatoriummaastricht.nl/study-here/music-education/bachelor"
+],
+[
+"conducting",
+"MA",
+"Master of Music – Classical: conducting, composition, chamber music",
+"https://www.conservatoriummaastricht.nl/study-here/classical/master"
+],
+[
+"composition",
+"MA",
+"Master of Music – Classical: conducting, composition, chamber music",
+"https://www.conservatoriummaastricht.nl/study-here/classical/master"
+],
+[
+"chamber-music",
+"MA",
+"Master of Music – Classical: conducting, composition, chamber music",
+"https://www.conservatoriummaastricht.nl/study-here/classical/master"
+]
+],
+"NL GRONING03": [
+[
+"strings",
+"BA",
+"Bachelor Classical Music",
+"https://www.hanze.nl/eng/education/art/prince-claus-conservatoire/programmes/bachelor/classical-music",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"BA",
+"Bachelor Classical Music",
+"https://www.hanze.nl/eng/education/art/prince-claus-conservatoire/programmes/bachelor/classical-music",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"BA",
+"Bachelor Classical Music",
+"https://www.hanze.nl/eng/education/art/prince-claus-conservatoire/programmes/bachelor/classical-music",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"BA",
+"Bachelor Classical Music",
+"https://www.hanze.nl/eng/education/art/prince-claus-conservatoire/programmes/bachelor/classical-music",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"BA",
+"Bachelor Classical Music",
+"https://www.hanze.nl/eng/education/art/prince-claus-conservatoire/programmes/bachelor/classical-music",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"BA",
+"Bachelor Classical Music",
+"https://www.hanze.nl/eng/education/art/prince-claus-conservatoire/programmes/bachelor/classical-music",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"strings",
+"MA",
+"Master of Music – Classical Music",
+"https://www.hanze.nl/eng/education/art/prince-claus-conservatoire/programmes/master-of-music/classical-music",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"MA",
+"Master of Music – Classical Music",
+"https://www.hanze.nl/eng/education/art/prince-claus-conservatoire/programmes/master-of-music/classical-music",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"MA",
+"Master of Music – Classical Music",
+"https://www.hanze.nl/eng/education/art/prince-claus-conservatoire/programmes/master-of-music/classical-music",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"MA",
+"Master of Music – Classical Music",
+"https://www.hanze.nl/eng/education/art/prince-claus-conservatoire/programmes/master-of-music/classical-music",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"MA",
+"Master of Music – Classical Music",
+"https://www.hanze.nl/eng/education/art/prince-claus-conservatoire/programmes/master-of-music/classical-music",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"MA",
+"Master of Music – Classical Music",
+"https://www.hanze.nl/eng/education/art/prince-claus-conservatoire/programmes/master-of-music/classical-music",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"jazz",
+"BA",
+"Jazz (Bachelor); Master of Music – Jazz",
+"https://www.hanze.nl/eng/education/art/prince-claus-conservatoire/programmes/bachelor/jazz"
+],
+[
+"jazz",
+"MA",
+"Jazz (Bachelor); Master of Music – Jazz",
+"https://www.hanze.nl/eng/education/art/prince-claus-conservatoire/programmes/bachelor/jazz"
+],
+[
+"music-education",
+"MA",
+"Master of Music – New Audiences and Innovative Practice",
+"https://catalogue.hanze.nl/en/Programme/2022/ECTSMUVNAIP20"
+]
+]
+},
+"notes": {}
+}

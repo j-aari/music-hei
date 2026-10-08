@@ -1,6 +1,6 @@
 {
  "meta": {
-  "description": "Study programmes per institution and fine-grained discipline (see disciplines.json). Collected so far: 121 institutions.",
+  "description": "Study programmes per institution and fine-grained discipline (see disciplines.json). Collected so far: 134 institutions.",
   "status": "pilot",
   "collected": "2026-10-08",
   "verified_note": "Every record has verified: false. Programme names and URLs were read from the institutions' own websites (programme lists and programme pages) but have not been checked by a person.",
@@ -119,9 +119,22 @@
    "IRLDUBLIN44",
    "IRLMUNST01",
    "IS REYKJAV06",
+   "LT KAUNAS01",
+   "LT VILNIUS05",
+   "LT VILNIUS10",
+   "LUXLUX-VIL01",
+   "LV RIGA05",
+   "ME PODGORI02",
    "N  OSLO03",
+   "NL AMSTERD07",
+   "NL EINDHOV03",
+   "NL ENSCHED04",
+   "NL GRONING03",
+   "NL HEERLEN14",
    "NL ROTTERD09",
    "NL S-GRAVE05",
+   "NL S-GRAVE37",
+   "NL UTRECHT29",
    "RO BUCURES03",
    "S  STOCKHO11",
    "SF HELSINK41",
@@ -324,6 +337,25 @@
      "I  NOVARA01",
      "I  SASSARI02",
      "I  UDINE02"
+    ],
+    "date": "2026-10-08",
+    "method": "Field-level collection as in batch 1; where a site lists programmes only via JavaScript, the programme pages were located with a web search restricted to the institution's own domain (raw HTML of each institution's own programme pages, PDFs where the list was only there; names mapped to disciplines.json by keyword and checked by hand)."
+   },
+   {
+    "erasmus_codes": [
+     "LT KAUNAS01",
+     "LT VILNIUS05",
+     "LT VILNIUS10",
+     "LUXLUX-VIL01",
+     "LV RIGA05",
+     "ME PODGORI02",
+     "NL AMSTERD07",
+     "NL EINDHOV03",
+     "NL ENSCHED04",
+     "NL GRONING03",
+     "NL HEERLEN14",
+     "NL S-GRAVE37",
+     "NL UTRECHT29"
     ],
     "date": "2026-10-08",
     "method": "Field-level collection as in batch 1; where a site lists programmes only via JavaScript, the programme pages were located with a web search restricted to the institution's own domain (raw HTML of each institution's own programme pages, PDFs where the list was only there; names mapped to disciplines.json by keyword and checked by hand)."
@@ -36303,6 +36335,2545 @@
      "level": null,
      "programme_name": "Altro – Teoria, ritmica e percezione musicale",
      "url": "https://consno.it/offerta-didattica/corsi/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LV RIGA05",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.jvlma.lv/studijas/studiju-nozares/makslu-pedagogija-1",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Pedagoģija",
+     "url": "https://www.jvlma.lv/studijas/studiju-nozares/makslu-pedagogija-1"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Pedagoģija",
+     "url": "https://www.jvlma.lv/studijas/studiju-nozares/makslu-pedagogija-1"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LV RIGA05",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.jvlma.lv/studijas/studiju-nozares/dirigesana",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Diriģēšana",
+     "url": "https://www.jvlma.lv/studijas/studiju-nozares/dirigesana"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Diriģēšana",
+     "url": "https://www.jvlma.lv/studijas/studiju-nozares/dirigesana"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LV RIGA05",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.jvlma.lv/studijas/studiju-nozares/sena-muzika-1",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Senā mūzika",
+     "url": "https://www.jvlma.lv/studijas/studiju-nozares/sena-muzika-1"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Senā mūzika",
+     "url": "https://www.jvlma.lv/studijas/studiju-nozares/sena-muzika-1"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LV RIGA05",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.jvlma.lv/studijas/studiju-nozares/dzezs",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Džeza mūzika",
+     "url": "https://www.jvlma.lv/studijas/studiju-nozares/dzezs"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Džeza mūzika",
+     "url": "https://www.jvlma.lv/studijas/studiju-nozares/dzezs"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LV RIGA05",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.jvlma.lv/studijas/studiju-nozares/kameransamblis-klavierpavadijums",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kameransamblis, Klavierpavadījums",
+     "url": "https://www.jvlma.lv/studijas/studiju-nozares/kameransamblis-klavierpavadijums"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kameransamblis, Klavierpavadījums",
+     "url": "https://www.jvlma.lv/studijas/studiju-nozares/kameransamblis-klavierpavadijums"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LV RIGA05",
+   "discipline": "chamber-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.jvlma.lv/studijas/studiju-nozares/kameransamblis-klavierpavadijums",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kameransamblis, Klavierpavadījums",
+     "url": "https://www.jvlma.lv/studijas/studiju-nozares/kameransamblis-klavierpavadijums"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kameransamblis, Klavierpavadījums",
+     "url": "https://www.jvlma.lv/studijas/studiju-nozares/kameransamblis-klavierpavadijums"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LV RIGA05",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.jvlma.lv/studijas/studiju-nozares/vokala-muzika",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Vokālā mūzika",
+     "url": "https://www.jvlma.lv/studijas/studiju-nozares/vokala-muzika"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Vokālā mūzika",
+     "url": "https://www.jvlma.lv/studijas/studiju-nozares/vokala-muzika"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LV RIGA05",
+   "discipline": "musicology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.jvlma.lv/studijas/studiju-nozares/muzikologija",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Muzikoloģija",
+     "url": "https://www.jvlma.lv/studijas/studiju-nozares/muzikologija"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Muzikoloģija",
+     "url": "https://www.jvlma.lv/studijas/studiju-nozares/muzikologija"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LV RIGA05",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.jvlma.lv/studijas/studiju-nozares/kompozicija",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kompozīcija",
+     "url": "https://www.jvlma.lv/studijas/studiju-nozares/kompozicija"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kompozīcija",
+     "url": "https://www.jvlma.lv/studijas/studiju-nozares/kompozicija"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LV RIGA05",
+   "discipline": "music-technology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.jvlma.lv/studijas/studiju-nozares/skanu-rezija",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Skaņu režija",
+     "url": "https://www.jvlma.lv/studijas/studiju-nozares/skanu-rezija"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Skaņu režija",
+     "url": "https://www.jvlma.lv/studijas/studiju-nozares/skanu-rezija"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LV RIGA05",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentālā mūzika",
+     "url": "https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentālā mūzika",
+     "url": "https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LV RIGA05",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentālā mūzika",
+     "url": "https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentālā mūzika",
+     "url": "https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LV RIGA05",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentālā mūzika",
+     "url": "https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentālā mūzika",
+     "url": "https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LV RIGA05",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentālā mūzika",
+     "url": "https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentālā mūzika",
+     "url": "https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LV RIGA05",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentālā mūzika",
+     "url": "https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentālā mūzika",
+     "url": "https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LV RIGA05",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentālā mūzika",
+     "url": "https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentālā mūzika",
+     "url": "https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LV RIGA05",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentālā mūzika",
+     "url": "https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentālā mūzika",
+     "url": "https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LV RIGA05",
+   "discipline": "accordion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentālā mūzika",
+     "url": "https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentālā mūzika",
+     "url": "https://www.jvlma.lv/studijas/studiju-nozares/instrumentala-muzika"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LT VILNIUS05",
+   "discipline": "accordion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/pirma-katedra/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "- Department of Accordion",
+     "url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/pirma-katedra/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "- Department of Accordion",
+     "url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/pirma-katedra/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LT VILNIUS05",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/choro-dirigavimo-katedra/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "- Department of Choir Conducting",
+     "url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/choro-dirigavimo-katedra/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "- Department of Choir Conducting",
+     "url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/choro-dirigavimo-katedra/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LT VILNIUS05",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/dainavimo-katedra/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "- Department of Vocal Performance",
+     "url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/dainavimo-katedra/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "- Department of Vocal Performance",
+     "url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/dainavimo-katedra/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LT VILNIUS05",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/dziazo-katedra/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "- Department of Jazz",
+     "url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/dziazo-katedra/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "- Department of Jazz",
+     "url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/dziazo-katedra/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LT VILNIUS05",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/edukologijos-katedra/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "- Department of Education",
+     "url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/edukologijos-katedra/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "- Department of Education",
+     "url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/edukologijos-katedra/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LT VILNIUS05",
+   "discipline": "folk",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/etnomuzikologijos-katedra/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "- Department of Ethnomusicology",
+     "url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/etnomuzikologijos-katedra/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "- Department of Ethnomusicology",
+     "url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/etnomuzikologijos-katedra/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LT VILNIUS05",
+   "discipline": "musicology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/etnomuzikologijos-katedra/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "- Department of Ethnomusicology",
+     "url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/etnomuzikologijos-katedra/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "- Department of Ethnomusicology",
+     "url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/etnomuzikologijos-katedra/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LT VILNIUS05",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/fortepijono-ir-vargonu-katedra/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "- Department of Piano and Organ",
+     "url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/fortepijono-ir-vargonu-katedra/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "- Department of Piano and Organ",
+     "url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/fortepijono-ir-vargonu-katedra/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LT VILNIUS05",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/fortepijono-ir-vargonu-katedra/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "- Department of Piano and Organ",
+     "url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/fortepijono-ir-vargonu-katedra/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "- Department of Piano and Organ",
+     "url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/fortepijono-ir-vargonu-katedra/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LT VILNIUS05",
+   "discipline": "chamber-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/kamerinio-ansamblio-katedra/tarptautinis-studentu-kamerines-muzikos-festivalis/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "-- International Student Chamber Music Festival",
+     "url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/kamerinio-ansamblio-katedra/tarptautinis-studentu-kamerines-muzikos-festivalis/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "-- International Student Chamber Music Festival",
+     "url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/kamerinio-ansamblio-katedra/tarptautinis-studentu-kamerines-muzikos-festivalis/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LT VILNIUS05",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/kompozicijos-katedra/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "- Department of Composition",
+     "url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/kompozicijos-katedra/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "- Department of Composition",
+     "url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/kompozicijos-katedra/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LT VILNIUS05",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/puciamuju-ir-musamuju-instrumentu-katedra/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "- Department of Wind and Percussion Instruments",
+     "url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/puciamuju-ir-musamuju-instrumentu-katedra/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "- Department of Wind and Percussion Instruments",
+     "url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/puciamuju-ir-musamuju-instrumentu-katedra/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LT VILNIUS05",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/styginiu-instrumentu-katedra/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "- Department of String Instruments",
+     "url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/styginiu-instrumentu-katedra/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "- Department of String Instruments",
+     "url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/styginiu-instrumentu-katedra/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LT VILNIUS05",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Department of Wind and Percussion Instruments",
+     "url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Department of Wind and Percussion Instruments",
+     "url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LT VILNIUS05",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Department of Wind and Percussion Instruments",
+     "url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Department of Wind and Percussion Instruments",
+     "url": "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LT KAUNAS01",
+   "discipline": "accordion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://ma.vdu.lt/studijos/studiju-programos",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Atlikimo menas: akordeonas, fortepijonas, dainavimas, dirigavimas, styginiai instrumentai (gitara, altas, arfa, kontrabosas, smuikas, violončelė)",
+     "url": "https://ma.vdu.lt/studijos/studiju-programos"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Atlikimo menas: akordeonas, fortepijonas, dainavimas, dirigavimas, styginiai instrumentai (gitara, altas, arfa, kontrabosas, smuikas, violončelė)",
+     "url": "https://ma.vdu.lt/studijos/studiju-programos"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LT KAUNAS01",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://ma.vdu.lt/studijos/studiju-programos",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Atlikimo menas: akordeonas, fortepijonas, dainavimas, dirigavimas, styginiai instrumentai (gitara, altas, arfa, kontrabosas, smuikas, violončelė)",
+     "url": "https://ma.vdu.lt/studijos/studiju-programos"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Atlikimo menas: akordeonas, fortepijonas, dainavimas, dirigavimas, styginiai instrumentai (gitara, altas, arfa, kontrabosas, smuikas, violončelė)",
+     "url": "https://ma.vdu.lt/studijos/studiju-programos"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LT KAUNAS01",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://ma.vdu.lt/studijos/studiju-programos",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Atlikimo menas: akordeonas, fortepijonas, dainavimas, dirigavimas, styginiai instrumentai (gitara, altas, arfa, kontrabosas, smuikas, violončelė)",
+     "url": "https://ma.vdu.lt/studijos/studiju-programos"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Atlikimo menas: akordeonas, fortepijonas, dainavimas, dirigavimas, styginiai instrumentai (gitara, altas, arfa, kontrabosas, smuikas, violončelė)",
+     "url": "https://ma.vdu.lt/studijos/studiju-programos"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LT KAUNAS01",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://ma.vdu.lt/studijos/studiju-programos",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Atlikimo menas: akordeonas, fortepijonas, dainavimas, dirigavimas, styginiai instrumentai (gitara, altas, arfa, kontrabosas, smuikas, violončelė)",
+     "url": "https://ma.vdu.lt/studijos/studiju-programos"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Atlikimo menas: akordeonas, fortepijonas, dainavimas, dirigavimas, styginiai instrumentai (gitara, altas, arfa, kontrabosas, smuikas, violončelė)",
+     "url": "https://ma.vdu.lt/studijos/studiju-programos"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LT KAUNAS01",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://ma.vdu.lt/studijos/studiju-programos",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Atlikimo menas: akordeonas, fortepijonas, dainavimas, dirigavimas, styginiai instrumentai (gitara, altas, arfa, kontrabosas, smuikas, violončelė)",
+     "url": "https://ma.vdu.lt/studijos/studiju-programos"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Atlikimo menas: akordeonas, fortepijonas, dainavimas, dirigavimas, styginiai instrumentai (gitara, altas, arfa, kontrabosas, smuikas, violončelė)",
+     "url": "https://ma.vdu.lt/studijos/studiju-programos"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LT KAUNAS01",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://ma.vdu.lt/studijos/studiju-programos",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Atlikimo menas: akordeonas, fortepijonas, dainavimas, dirigavimas, styginiai instrumentai (gitara, altas, arfa, kontrabosas, smuikas, violončelė)",
+     "url": "https://ma.vdu.lt/studijos/studiju-programos"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Atlikimo menas: akordeonas, fortepijonas, dainavimas, dirigavimas, styginiai instrumentai (gitara, altas, arfa, kontrabosas, smuikas, violončelė)",
+     "url": "https://ma.vdu.lt/studijos/studiju-programos"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LT KAUNAS01",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://ma.vdu.lt/studijos/studiju-programos",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Atlikimo menas: akordeonas, fortepijonas, dainavimas, dirigavimas, styginiai instrumentai (gitara, altas, arfa, kontrabosas, smuikas, violončelė)",
+     "url": "https://ma.vdu.lt/studijos/studiju-programos"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Atlikimo menas: akordeonas, fortepijonas, dainavimas, dirigavimas, styginiai instrumentai (gitara, altas, arfa, kontrabosas, smuikas, violončelė)",
+     "url": "https://ma.vdu.lt/studijos/studiju-programos"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LT KAUNAS01",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://ma.vdu.lt/studijos/studiju-programos",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Atlikimo menas (styginiai instrumentai – autentiškas muzikos atlikimas)",
+     "url": "https://ma.vdu.lt/studijos/studiju-programos"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Atlikimo menas (styginiai instrumentai – autentiškas muzikos atlikimas)",
+     "url": "https://ma.vdu.lt/studijos/studiju-programos"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LT KAUNAS01",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://ma.vdu.lt/studijos/studiju-programos",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Atlikimo menas (džiazas)",
+     "url": "https://ma.vdu.lt/studijos/studiju-programos"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Atlikimo menas (džiazas)",
+     "url": "https://ma.vdu.lt/studijos/studiju-programos"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LT KAUNAS01",
+   "discipline": "popular-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://ma.vdu.lt/studijos/studiju-programos",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Atlikimo menas (populiarioji muzika)",
+     "url": "https://ma.vdu.lt/studijos/studiju-programos"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Atlikimo menas (populiarioji muzika)",
+     "url": "https://ma.vdu.lt/studijos/studiju-programos"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LT KAUNAS01",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://ma.vdu.lt/studijos/studiju-programos",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Atlikimo menas (pučiamieji ir mušamieji instrumentai)",
+     "url": "https://ma.vdu.lt/studijos/studiju-programos"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Atlikimo menas (pučiamieji ir mušamieji instrumentai)",
+     "url": "https://ma.vdu.lt/studijos/studiju-programos"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LT KAUNAS01",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://ma.vdu.lt/studijos/studiju-programos",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Atlikimo menas (pučiamieji ir mušamieji instrumentai)",
+     "url": "https://ma.vdu.lt/studijos/studiju-programos"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Atlikimo menas (pučiamieji ir mušamieji instrumentai)",
+     "url": "https://ma.vdu.lt/studijos/studiju-programos"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LT KAUNAS01",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://ma.vdu.lt/studijos/studiju-programos",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Atlikimo menas (pučiamieji ir mušamieji instrumentai)",
+     "url": "https://ma.vdu.lt/studijos/studiju-programos"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Atlikimo menas (pučiamieji ir mušamieji instrumentai)",
+     "url": "https://ma.vdu.lt/studijos/studiju-programos"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LT KAUNAS01",
+   "discipline": "chamber-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://ma.vdu.lt/studijos/studiju-programos",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Atlikimo menas (kamerinis)",
+     "url": "https://ma.vdu.lt/studijos/studiju-programos"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LT KAUNAS01",
+   "discipline": "music-production",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.vdu.lt/en/studiju-programa/music-production-2/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Music Production (Faculty of Arts)",
+     "url": "https://www.vdu.lt/en/studiju-programa/music-production-2/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LT KAUNAS01",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.vdu.lt/lt/studiju-programa/muzikos-edukologija/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Mokomojo dalyko pedagogika: muzikos pedagogika; Muzikos edukologija",
+     "url": "https://www.vdu.lt/lt/studiju-programa/muzikos-edukologija/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Mokomojo dalyko pedagogika: muzikos pedagogika; Muzikos edukologija",
+     "url": "https://www.vdu.lt/lt/studiju-programa/muzikos-edukologija/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LT VILNIUS10",
+   "discipline": "popular-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.viko.lt/vilniaus-kolegijos-menu-ir-kurybiniu-technologiju-fakulteto-stojamieji-egzaminai/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Populiarioji muzika (also in English), professional bachelor",
+     "url": "https://www.viko.lt/vilniaus-kolegijos-menu-ir-kurybiniu-technologiju-fakulteto-stojamieji-egzaminai/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LT VILNIUS10",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.viko.lt/studentams/studiju-programos-lietuviskai/muzikinis-teatras/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Muzikinis teatras (professional bachelor)",
+     "url": "https://www.viko.lt/studentams/studiju-programos-lietuviskai/muzikinis-teatras/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "LUXLUX-VIL01",
+   "discipline": "music-education",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.uni.lu/fhse-en/study-programs/bachelor-en-enseignement-musical/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor en Enseignement musical (instrumental/vocal teaching, formation musicale, éveil musical)",
+     "url": "https://www.uni.lu/fhse-en/study-programs/bachelor-en-enseignement-musical/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "ME PODGORI02",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://ucg.ac.me/skladiste/blog_616703/objava_198608/fajlovi/UCG%20studijski%20programi%202025-26%20_interaktiv_.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Opšta muzička pedagogija",
+     "url": "https://ucg.ac.me/skladiste/blog_616703/objava_198608/fajlovi/UCG%20studijski%20programi%202025-26%20_interaktiv_.pdf"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Opšta muzička pedagogija",
+     "url": "https://ucg.ac.me/skladiste/blog_616703/objava_198608/fajlovi/UCG%20studijski%20programi%202025-26%20_interaktiv_.pdf"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "ME PODGORI02",
+   "discipline": "composition",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://ucg.ac.me/skladiste/blog_616703/objava_198608/fajlovi/UCG%20studijski%20programi%202025-26%20_interaktiv_.pdf",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Kompozicija (magistarske studije)",
+     "url": "https://ucg.ac.me/skladiste/blog_616703/objava_198608/fajlovi/UCG%20studijski%20programi%202025-26%20_interaktiv_.pdf"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL UTRECHT29",
+   "discipline": "music-technology",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.hku.nl/studeren-aan-hku/muziek-en-technologie/audio-design",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Audio Design Muziek en Technologie",
+     "url": "https://www.hku.nl/studeren-aan-hku/muziek-en-technologie/audio-design"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL UTRECHT29",
+   "discipline": "composition",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.hku.nl/studeren-aan-hku/muziek-en-technologie/composition-and-music-production",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Composition and Music Production Muziek en Technologie",
+     "url": "https://www.hku.nl/studeren-aan-hku/muziek-en-technologie/composition-and-music-production"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL UTRECHT29",
+   "discipline": "music-production",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.hku.nl/studeren-aan-hku/muziek-en-technologie/composition-and-music-production",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Composition and Music Production Muziek en Technologie",
+     "url": "https://www.hku.nl/studeren-aan-hku/muziek-en-technologie/composition-and-music-production"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL UTRECHT29",
+   "discipline": "music-education",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/docent-muziek",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Docent Muziek Utrechts Conservatorium",
+     "url": "https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/docent-muziek"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL UTRECHT29",
+   "discipline": "early-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/historische-uitvoeringspraktijk",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Historische Uitvoeringspraktijk Utrechts Conservatorium",
+     "url": "https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/historische-uitvoeringspraktijk"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL UTRECHT29",
+   "discipline": "jazz",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/jazz-pop",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Jazz & Pop Utrechts Conservatorium",
+     "url": "https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/jazz-pop"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL UTRECHT29",
+   "discipline": "popular-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/jazz-pop",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Jazz & Pop Utrechts Conservatorium",
+     "url": "https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/jazz-pop"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL UTRECHT29",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/klassieke-muziek",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Klassieke Muziek (Utrechts Conservatorium)",
+     "url": "https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/klassieke-muziek",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music – Performance",
+     "url": "https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/master-of-music",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL UTRECHT29",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/klassieke-muziek",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Klassieke Muziek (Utrechts Conservatorium)",
+     "url": "https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/klassieke-muziek",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music – Performance",
+     "url": "https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/master-of-music",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL UTRECHT29",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/klassieke-muziek",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Klassieke Muziek (Utrechts Conservatorium)",
+     "url": "https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/klassieke-muziek",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music – Performance",
+     "url": "https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/master-of-music",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL UTRECHT29",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/klassieke-muziek",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Klassieke Muziek (Utrechts Conservatorium)",
+     "url": "https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/klassieke-muziek",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music – Performance",
+     "url": "https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/master-of-music",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL UTRECHT29",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/klassieke-muziek",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Klassieke Muziek (Utrechts Conservatorium)",
+     "url": "https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/klassieke-muziek",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music – Performance",
+     "url": "https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/master-of-music",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL UTRECHT29",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/klassieke-muziek",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Klassieke Muziek (Utrechts Conservatorium)",
+     "url": "https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/klassieke-muziek",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music – Performance",
+     "url": "https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/master-of-music",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL UTRECHT29",
+   "discipline": "guitar",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/klassieke-muziek",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Klassieke Muziek (Utrechts Conservatorium)",
+     "url": "https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/klassieke-muziek",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL UTRECHT29",
+   "discipline": "harp",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/klassieke-muziek",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Klassieke Muziek (Utrechts Conservatorium)",
+     "url": "https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/klassieke-muziek",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL UTRECHT29",
+   "discipline": "organ",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/klassieke-muziek",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Klassieke Muziek (Utrechts Conservatorium)",
+     "url": "https://www.hku.nl/studeren-aan-hku/utrechts-conservatorium/klassieke-muziek",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL ENSCHED04",
+   "discipline": "music-education",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.artez.nl/opleidingen/bachelor/docent-muziek-zwolle",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Docent Muziek (Enschede, Zwolle)",
+     "url": "https://www.artez.nl/opleidingen/bachelor/docent-muziek-zwolle"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL ENSCHED04",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.artez.nl/opleidingen/bachelor/jazz-pop-arnhem",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Jazz & Pop (Arnhem, Zwolle)",
+     "url": "https://www.artez.nl/opleidingen/bachelor/jazz-pop-arnhem"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music (Arnhem, Zwolle)",
+     "url": "https://www.artez.nl/opleidingen/master/master-of-music-zwolle",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL ENSCHED04",
+   "discipline": "popular-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.artez.nl/opleidingen/bachelor/jazz-pop-arnhem",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Jazz & Pop (Arnhem, Zwolle)",
+     "url": "https://www.artez.nl/opleidingen/bachelor/jazz-pop-arnhem"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music (Arnhem, Zwolle)",
+     "url": "https://www.artez.nl/opleidingen/master/master-of-music-zwolle",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL ENSCHED04",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.artez.nl/opleidingen/bachelor/klassieke-muziek-zwolle",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Klassieke Muziek (Zwolle)",
+     "url": "https://www.artez.nl/opleidingen/bachelor/klassieke-muziek-zwolle",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music (Arnhem, Zwolle)",
+     "url": "https://www.artez.nl/opleidingen/master/master-of-music-zwolle",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL ENSCHED04",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.artez.nl/opleidingen/bachelor/klassieke-muziek-zwolle",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Klassieke Muziek (Zwolle)",
+     "url": "https://www.artez.nl/opleidingen/bachelor/klassieke-muziek-zwolle",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music (Arnhem, Zwolle)",
+     "url": "https://www.artez.nl/opleidingen/master/master-of-music-zwolle",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL ENSCHED04",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.artez.nl/opleidingen/bachelor/klassieke-muziek-zwolle",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Klassieke Muziek (Zwolle)",
+     "url": "https://www.artez.nl/opleidingen/bachelor/klassieke-muziek-zwolle",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music (Arnhem, Zwolle)",
+     "url": "https://www.artez.nl/opleidingen/master/master-of-music-zwolle",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL ENSCHED04",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.artez.nl/opleidingen/bachelor/klassieke-muziek-zwolle",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Klassieke Muziek (Zwolle)",
+     "url": "https://www.artez.nl/opleidingen/bachelor/klassieke-muziek-zwolle",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music (Arnhem, Zwolle)",
+     "url": "https://www.artez.nl/opleidingen/master/master-of-music-zwolle",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL ENSCHED04",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.artez.nl/opleidingen/bachelor/klassieke-muziek-zwolle",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Klassieke Muziek (Zwolle)",
+     "url": "https://www.artez.nl/opleidingen/bachelor/klassieke-muziek-zwolle",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music (Arnhem, Zwolle)",
+     "url": "https://www.artez.nl/opleidingen/master/master-of-music-zwolle",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL ENSCHED04",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.artez.nl/opleidingen/bachelor/klassieke-muziek-zwolle",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Klassieke Muziek (Zwolle)",
+     "url": "https://www.artez.nl/opleidingen/bachelor/klassieke-muziek-zwolle",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music (Arnhem, Zwolle)",
+     "url": "https://www.artez.nl/opleidingen/master/master-of-music-zwolle",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL ENSCHED04",
+   "discipline": "composition",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.artez.nl/opleidingen/bachelor/mediamusic-enschede",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor MediaMusic (Enschede)",
+     "url": "https://www.artez.nl/opleidingen/bachelor/mediamusic-enschede"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL ENSCHED04",
+   "discipline": "music-production",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.artez.nl/opleidingen/bachelor/mediamusic-enschede",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor MediaMusic (Enschede)",
+     "url": "https://www.artez.nl/opleidingen/bachelor/mediamusic-enschede"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL ENSCHED04",
+   "discipline": "music-therapy",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.artez.nl/opleidingen/bachelor/muziektherapie-enschede",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Muziektherapie (Bachelor, Master)",
+     "url": "https://www.artez.nl/opleidingen/bachelor/muziektherapie-enschede"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Muziektherapie (Bachelor, Master)",
+     "url": "https://www.artez.nl/opleidingen/bachelor/muziektherapie-enschede"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL AMSTERD07",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriumvanamsterdam.nl/studie/klassiek/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Klassiek",
+     "url": "https://www.conservatoriumvanamsterdam.nl/studie/klassiek/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Klassiek",
+     "url": "https://www.conservatoriumvanamsterdam.nl/studie/klassiek/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL AMSTERD07",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriumvanamsterdam.nl/studie/klassiek/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Klassiek",
+     "url": "https://www.conservatoriumvanamsterdam.nl/studie/klassiek/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Klassiek",
+     "url": "https://www.conservatoriumvanamsterdam.nl/studie/klassiek/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL AMSTERD07",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriumvanamsterdam.nl/studie/klassiek/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Klassiek",
+     "url": "https://www.conservatoriumvanamsterdam.nl/studie/klassiek/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Klassiek",
+     "url": "https://www.conservatoriumvanamsterdam.nl/studie/klassiek/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL AMSTERD07",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriumvanamsterdam.nl/studie/klassiek/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Klassiek",
+     "url": "https://www.conservatoriumvanamsterdam.nl/studie/klassiek/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Klassiek",
+     "url": "https://www.conservatoriumvanamsterdam.nl/studie/klassiek/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL AMSTERD07",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriumvanamsterdam.nl/studie/klassiek/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Klassiek",
+     "url": "https://www.conservatoriumvanamsterdam.nl/studie/klassiek/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Klassiek",
+     "url": "https://www.conservatoriumvanamsterdam.nl/studie/klassiek/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL AMSTERD07",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriumvanamsterdam.nl/studie/klassiek/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Klassiek",
+     "url": "https://www.conservatoriumvanamsterdam.nl/studie/klassiek/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Klassiek",
+     "url": "https://www.conservatoriumvanamsterdam.nl/studie/klassiek/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL AMSTERD07",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriumvanamsterdam.nl/studie/jazz/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Jazz",
+     "url": "https://www.conservatoriumvanamsterdam.nl/studie/jazz/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Jazz",
+     "url": "https://www.conservatoriumvanamsterdam.nl/studie/jazz/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL AMSTERD07",
+   "discipline": "popular-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatoriumvanamsterdam.nl/studie/pop/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Pop",
+     "url": "https://www.conservatoriumvanamsterdam.nl/studie/pop/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL AMSTERD07",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriumvanamsterdam.nl/studie/oude-muziek/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Oude muziek",
+     "url": "https://www.conservatoriumvanamsterdam.nl/studie/oude-muziek/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Oude muziek",
+     "url": "https://www.conservatoriumvanamsterdam.nl/studie/oude-muziek/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL AMSTERD07",
+   "discipline": "music-education",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatoriumvanamsterdam.nl/studie/docent-muziek/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Docent muziek",
+     "url": "https://www.conservatoriumvanamsterdam.nl/studie/docent-muziek/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL AMSTERD07",
+   "discipline": "music-production",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatoriumvanamsterdam.nl/studie/aema/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Amsterdam Electronic Music Academy",
+     "url": "https://www.conservatoriumvanamsterdam.nl/studie/aema/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL AMSTERD07",
+   "discipline": "music-technology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriumvanamsterdam.nl/studie/aema/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Amsterdam Electronic Music Academy",
+     "url": "https://www.conservatoriumvanamsterdam.nl/studie/aema/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Focus master Immersive Audio",
+     "url": "https://www.conservatoriumvanamsterdam.nl/studie/focus-masters/immersive-audio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL EINDHOV03",
+   "discipline": "strings",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.fontys.nl/en/Programmes/Conservatory-of-Music-bachelor-full-time.htm",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Conservatory of Music – Classical",
+     "url": "https://www.fontys.nl/en/Programmes/Conservatory-of-Music-bachelor-full-time.htm",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL EINDHOV03",
+   "discipline": "woodwind",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.fontys.nl/en/Programmes/Conservatory-of-Music-bachelor-full-time.htm",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Conservatory of Music – Classical",
+     "url": "https://www.fontys.nl/en/Programmes/Conservatory-of-Music-bachelor-full-time.htm",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL EINDHOV03",
+   "discipline": "brass",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.fontys.nl/en/Programmes/Conservatory-of-Music-bachelor-full-time.htm",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Conservatory of Music – Classical",
+     "url": "https://www.fontys.nl/en/Programmes/Conservatory-of-Music-bachelor-full-time.htm",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL EINDHOV03",
+   "discipline": "percussion",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.fontys.nl/en/Programmes/Conservatory-of-Music-bachelor-full-time.htm",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Conservatory of Music – Classical",
+     "url": "https://www.fontys.nl/en/Programmes/Conservatory-of-Music-bachelor-full-time.htm",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL EINDHOV03",
+   "discipline": "piano",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.fontys.nl/en/Programmes/Conservatory-of-Music-bachelor-full-time.htm",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Conservatory of Music – Classical",
+     "url": "https://www.fontys.nl/en/Programmes/Conservatory-of-Music-bachelor-full-time.htm",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL EINDHOV03",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.fontys.nl/en/Programmes/Conservatory-of-Music-bachelor-full-time.htm",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Conservatory of Music – Classical",
+     "url": "https://www.fontys.nl/en/Programmes/Conservatory-of-Music-bachelor-full-time.htm",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL EINDHOV03",
+   "discipline": "jazz",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.fontys.nl/en/Programmes/Conservatory-of-Music-bachelor-full-time.htm",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Conservatory of Music – Jazz & Creative Music",
+     "url": "https://www.fontys.nl/en/Programmes/Conservatory-of-Music-bachelor-full-time.htm"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL S-GRAVE37",
+   "discipline": "popular-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.inholland.nl/opleidingen/muziek-voltijd/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Muziek – richtingen Pop, Creative Artist, E-music",
+     "url": "https://www.inholland.nl/opleidingen/muziek-voltijd/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL S-GRAVE37",
+   "discipline": "music-production",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.inholland.nl/opleidingen/muziek-voltijd/de-opleiding/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Muziek – richting E-music; Associate degree Electronic Music",
+     "url": "https://www.inholland.nl/opleidingen/muziek-voltijd/de-opleiding/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL HEERLEN14",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriummaastricht.nl/study-here/classical/master",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor / Master of Music – Classical (25 main subjects)",
+     "url": "https://www.conservatoriummaastricht.nl/study-here/classical/master",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelor / Master of Music – Classical (25 main subjects)",
+     "url": "https://www.conservatoriummaastricht.nl/study-here/classical/master",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL HEERLEN14",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriummaastricht.nl/study-here/classical/master",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor / Master of Music – Classical (25 main subjects)",
+     "url": "https://www.conservatoriummaastricht.nl/study-here/classical/master",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelor / Master of Music – Classical (25 main subjects)",
+     "url": "https://www.conservatoriummaastricht.nl/study-here/classical/master",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL HEERLEN14",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriummaastricht.nl/study-here/classical/master",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor / Master of Music – Classical (25 main subjects)",
+     "url": "https://www.conservatoriummaastricht.nl/study-here/classical/master",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelor / Master of Music – Classical (25 main subjects)",
+     "url": "https://www.conservatoriummaastricht.nl/study-here/classical/master",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL HEERLEN14",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriummaastricht.nl/study-here/classical/master",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor / Master of Music – Classical (25 main subjects)",
+     "url": "https://www.conservatoriummaastricht.nl/study-here/classical/master",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelor / Master of Music – Classical (25 main subjects)",
+     "url": "https://www.conservatoriummaastricht.nl/study-here/classical/master",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL HEERLEN14",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriummaastricht.nl/study-here/classical/master",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor / Master of Music – Classical (25 main subjects)",
+     "url": "https://www.conservatoriummaastricht.nl/study-here/classical/master",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelor / Master of Music – Classical (25 main subjects)",
+     "url": "https://www.conservatoriummaastricht.nl/study-here/classical/master",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL HEERLEN14",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriummaastricht.nl/study-here/classical/master",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor / Master of Music – Classical (25 main subjects)",
+     "url": "https://www.conservatoriummaastricht.nl/study-here/classical/master",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelor / Master of Music – Classical (25 main subjects)",
+     "url": "https://www.conservatoriummaastricht.nl/study-here/classical/master",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL HEERLEN14",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.zuyd.nl/en/programmes/music",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor / Master of Music – Jazz",
+     "url": "https://www.zuyd.nl/en/programmes/music"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelor / Master of Music – Jazz",
+     "url": "https://www.zuyd.nl/en/programmes/music"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL HEERLEN14",
+   "discipline": "music-education",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatoriummaastricht.nl/study-here/music-education/bachelor",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Music in Education (Docent Muziek)",
+     "url": "https://www.conservatoriummaastricht.nl/study-here/music-education/bachelor"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL HEERLEN14",
+   "discipline": "conducting",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriummaastricht.nl/study-here/classical/master",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Master of Music – Classical: conducting, composition, chamber music",
+     "url": "https://www.conservatoriummaastricht.nl/study-here/classical/master"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL HEERLEN14",
+   "discipline": "composition",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriummaastricht.nl/study-here/classical/master",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Master of Music – Classical: conducting, composition, chamber music",
+     "url": "https://www.conservatoriummaastricht.nl/study-here/classical/master"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL HEERLEN14",
+   "discipline": "chamber-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriummaastricht.nl/study-here/classical/master",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Master of Music – Classical: conducting, composition, chamber music",
+     "url": "https://www.conservatoriummaastricht.nl/study-here/classical/master"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL GRONING03",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hanze.nl/eng/education/art/prince-claus-conservatoire/programmes/bachelor/classical-music",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Classical Music",
+     "url": "https://www.hanze.nl/eng/education/art/prince-claus-conservatoire/programmes/bachelor/classical-music",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music – Classical Music",
+     "url": "https://www.hanze.nl/eng/education/art/prince-claus-conservatoire/programmes/master-of-music/classical-music",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL GRONING03",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hanze.nl/eng/education/art/prince-claus-conservatoire/programmes/bachelor/classical-music",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Classical Music",
+     "url": "https://www.hanze.nl/eng/education/art/prince-claus-conservatoire/programmes/bachelor/classical-music",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music – Classical Music",
+     "url": "https://www.hanze.nl/eng/education/art/prince-claus-conservatoire/programmes/master-of-music/classical-music",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL GRONING03",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hanze.nl/eng/education/art/prince-claus-conservatoire/programmes/bachelor/classical-music",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Classical Music",
+     "url": "https://www.hanze.nl/eng/education/art/prince-claus-conservatoire/programmes/bachelor/classical-music",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music – Classical Music",
+     "url": "https://www.hanze.nl/eng/education/art/prince-claus-conservatoire/programmes/master-of-music/classical-music",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL GRONING03",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hanze.nl/eng/education/art/prince-claus-conservatoire/programmes/bachelor/classical-music",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Classical Music",
+     "url": "https://www.hanze.nl/eng/education/art/prince-claus-conservatoire/programmes/bachelor/classical-music",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music – Classical Music",
+     "url": "https://www.hanze.nl/eng/education/art/prince-claus-conservatoire/programmes/master-of-music/classical-music",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL GRONING03",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hanze.nl/eng/education/art/prince-claus-conservatoire/programmes/bachelor/classical-music",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Classical Music",
+     "url": "https://www.hanze.nl/eng/education/art/prince-claus-conservatoire/programmes/bachelor/classical-music",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music – Classical Music",
+     "url": "https://www.hanze.nl/eng/education/art/prince-claus-conservatoire/programmes/master-of-music/classical-music",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL GRONING03",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hanze.nl/eng/education/art/prince-claus-conservatoire/programmes/bachelor/classical-music",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Classical Music",
+     "url": "https://www.hanze.nl/eng/education/art/prince-claus-conservatoire/programmes/bachelor/classical-music",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music – Classical Music",
+     "url": "https://www.hanze.nl/eng/education/art/prince-claus-conservatoire/programmes/master-of-music/classical-music",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL GRONING03",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hanze.nl/eng/education/art/prince-claus-conservatoire/programmes/bachelor/jazz",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Jazz (Bachelor); Master of Music – Jazz",
+     "url": "https://www.hanze.nl/eng/education/art/prince-claus-conservatoire/programmes/bachelor/jazz"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Jazz (Bachelor); Master of Music – Jazz",
+     "url": "https://www.hanze.nl/eng/education/art/prince-claus-conservatoire/programmes/bachelor/jazz"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "NL GRONING03",
+   "discipline": "music-education",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://catalogue.hanze.nl/en/Programme/2022/ECTSMUVNAIP20",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Master of Music – New Audiences and Innovative Practice",
+     "url": "https://catalogue.hanze.nl/en/Programme/2022/ECTSMUVNAIP20"
     }
    ],
    "verified": false

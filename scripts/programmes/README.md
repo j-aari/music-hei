@@ -42,6 +42,7 @@ Tilanne näkyy komennolla:
 - Jazz-, pop- ja vanhan musiikin soitinohjelmat kirjataan tyylisuunnan alle, ei jokaisen soittimen alle.
 - Tasot BA/MA/Doc. Tohtoritaso vain, jos tohtorisivu nimeää alan. Diplomi- ja konservatorio-ohjelmat ilman tasoa, huomautuksella.
 - Fédération Wallonie-Bruxelles, Flanderi yms.: jos sivusto kertoo rakenteen (Bachelier + Master) yhteisesti, sama taso kaikille sen osastoille.
+- Konservatorion yleinen klassisen musiikin ohjelma (esim. "Klassieke Muziek"), jonka sivu ei luettele soittimia: kirjataan `strings woodwind brass percussion piano vocal-opera` ja huomautus (`CLN` b11.py:ssä).
 - Opettajankoulutus, IGP ja pedagogiset maisteriohjelmat → `music-education`.
 
 ## Havaintoja keruusta (erät 1–5, 8.10.2026)
