@@ -67,3 +67,4 @@ Tilanne näkyy komennolla:
 - `D  SAARBRU08` – hfm.saarland.de ei vastannut
 - `D  MAINZ01` – musik.uni-mainz.de: DNS-virhe; kokeile uni-mainz.de:n kautta
 - `I  L-AQUIL04` (consaq.it) ja `I  VICENZA03` (consvi.it): ohjelmalista ei näy ilman selainta
+- `I  MILANO09` (consmilano.it: TLS-aikakatkaisu), `I  PIACENZ01` (conservatorionicolini.it: DNS-virhe), `I  REGGIO03` (conservatoriocilea.it: 403), `I  BOLZANO02` (cons.bz.it: vain osastojen nimet)
