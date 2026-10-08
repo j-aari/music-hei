@@ -53,6 +53,9 @@ Tilanne näkyy komennolla:
 - **Tasot:** jos sivu kertoo rakenteen yhteisesti (Saksa: B.Mus./M.Mus., Tanska: bachelor+kandidat, FWB: bachelier+master), sama taso kaikille aloille `default_level`-parametrilla.
 - **Verkko-osoite vanhentunut:** korjaa `data/annotations.json`-tiedostoon `website_override` ja perustelu `notes`-kenttään (esim. PESMD Bordeaux → resonances-na.eu).
 
+- **Ohjausmerkit:** kun Python-koodia kirjoitetaan heredocin kautta, `\b` on joskus päätynyt tiedostoon backspace-merkiksi (chr(8)). Tarkista `python -c "print(open('scripts/programmes/mp.py',encoding='utf-8').read().count(chr(8)))"` ja korjaa `chr(92)+'b'`:llä.
+- **Italia:** `IT(I, code, url, taso)` poimii triennio/biennio-sivulta lyhyet rivit ja linkkitekstit; `NOISE`-lista suodattaa valikot. Tarkista evidenssirivit ennen yhdistämistä (esim. henkilönimet, uutisotsikot).
+
 ### Odottaa (sivuilta ei saatu kattavaa listaa; päivitetty erän 6 jälkeen)
 
 - `D  FRANKFU02` – instrumentti- ja dirigointiohjelmat (KIA) on merkitty "Auslaufend / Keine Bewerbung möglich"; korvaavia ohjelmasivuja ei löytynyt (`/studiengang/<slug>` toimii, lista on JS)
@@ -63,3 +66,4 @@ Tilanne näkyy komennolla:
 - `D  OSNABRU02` – hs-osnabrueck.de/institut-fuer-musik/ antaa 404
 - `D  SAARBRU08` – hfm.saarland.de ei vastannut
 - `D  MAINZ01` – musik.uni-mainz.de: DNS-virhe; kokeile uni-mainz.de:n kautta
+- `I  L-AQUIL04` (consaq.it) ja `I  VICENZA03` (consvi.it): ohjelmalista ei näy ilman selainta

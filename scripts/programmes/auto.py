@@ -33,3 +33,14 @@ def T(I, code, url, pat, drop=None, default_level=None, quiet=False):
         if not ds: unc.append(l); continue
         for d in ds: I.setdefault(code, []).append([d, lv, l[:150], url])
     if unc and not quiet: print(f"[{code}] luokittelematta: {unc}", file=sys.stderr)
+
+NOISE = re.compile(r"esam|orari|appell|bando|graduator|news|notizi|docent|prof\.|m°|maestr[oa] |concert|masterclass|evento|seminar|calendar|iscrizion|ammission|regolament|piano di studi|tasse|contribut|segreteri|biblioteca|orchestra|coro del|ensemble|festival|premio|concorso|\d{4}|perfezionament|^didattica$|^produzione$|cerca|esplora|risorse|operativ|pagopa|^direzione$|^strumenti$|scuola di|dipartiment|programm|education\b|attività|week|prenotazion|aule|huayitong|corsi afam|teachers and students|stagioni|^sito ", re.I)
+def IT(I, code, url, lv, extra_drop=None):
+    """Italialainen triennio/biennio-sivu: lyhyet rivit ja linkkitekstit, jotka luokittuvat aloiksi."""
+    h = get(url); seen = set()
+    cands = [t for t, _ in links(url, h)] + [l.strip() for l in text(h).splitlines()]
+    for c in cands:
+        c = re.sub(r"\s+", " ", c).strip(" -–•:")
+        if not (3 < len(c) < 80) or c in seen or NOISE.search(c) or (extra_drop and re.search(extra_drop, c, re.I)): continue
+        seen.add(c)
+        for d in classify(c): I.setdefault(code, []).append([d, lv, c, url])

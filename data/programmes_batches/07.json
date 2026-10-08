@@ -1,0 +1,3573 @@
+{
+"collected": "2026-10-08",
+"method": "Field-level collection as in batch 1; where a site lists programmes only via JavaScript, the programme pages were located with a web search restricted to the institution's own domain (raw HTML of each institution's own programme pages, PDFs where the list was only there; names mapped to disciplines.json by keyword and checked by hand).",
+"institutions": {
+"IRLDUBLIN22": [
+[
+"woodwind",
+"BA",
+"BMus Performance – Woodwind, Brass & Percussion faculty",
+"https://www.riam.ie/sites/default/files/media/file-uploads/2024-09/BMus%20WBP%20Handbook%202024-2025.pdf"
+],
+[
+"brass",
+"BA",
+"BMus Performance – Woodwind, Brass & Percussion faculty",
+"https://www.riam.ie/sites/default/files/media/file-uploads/2024-09/BMus%20WBP%20Handbook%202024-2025.pdf"
+],
+[
+"percussion",
+"BA",
+"BMus Performance – Woodwind, Brass & Percussion faculty",
+"https://www.riam.ie/sites/default/files/media/file-uploads/2024-09/BMus%20WBP%20Handbook%202024-2025.pdf"
+],
+[
+"composition",
+"BA",
+"Bachelor in Music Composition",
+"https://www.riam.ie/sites/default/files/media/file-uploads/2025-09/BMus%20Composition%20Handbook%202025-2026.pdf"
+],
+[
+"piano",
+"MA",
+"MMus in Music Performance – Keyboard, Strings, Vocal Studies, Woodwind, Brass & Percussion",
+"https://www.riam.ie/degrees-programmes/full-time/mmusperf"
+],
+[
+"strings",
+"MA",
+"MMus in Music Performance – Keyboard, Strings, Vocal Studies, Woodwind, Brass & Percussion",
+"https://www.riam.ie/degrees-programmes/full-time/mmusperf"
+],
+[
+"vocal-opera",
+"MA",
+"MMus in Music Performance – Keyboard, Strings, Vocal Studies, Woodwind, Brass & Percussion",
+"https://www.riam.ie/degrees-programmes/full-time/mmusperf"
+],
+[
+"woodwind",
+"MA",
+"MMus in Music Performance – Keyboard, Strings, Vocal Studies, Woodwind, Brass & Percussion",
+"https://www.riam.ie/degrees-programmes/full-time/mmusperf"
+],
+[
+"brass",
+"MA",
+"MMus in Music Performance – Keyboard, Strings, Vocal Studies, Woodwind, Brass & Percussion",
+"https://www.riam.ie/degrees-programmes/full-time/mmusperf"
+],
+[
+"percussion",
+"MA",
+"MMus in Music Performance – Keyboard, Strings, Vocal Studies, Woodwind, Brass & Percussion",
+"https://www.riam.ie/degrees-programmes/full-time/mmusperf"
+],
+[
+"music-education",
+"BA",
+"Bachelor in Music Education (with TU Dublin and Trinity College Dublin)",
+"https://www.tudublin.ie/explore/faculties-and-schools/arts-humanities/schools/conservatoire/study-with-us/undergraduate/bachelor-in-music-education---tu964-tr009/"
+]
+],
+"IRLDUBLIN44": [
+[
+"composition",
+"BA",
+"Bachelor of Music (TU963): performance, composition, musicology",
+"https://www.tudublin.ie/explore/faculties-and-schools/arts-humanities/schools/conservatoire/study-with-us/undergraduate/bachelor-of-music---tu963/"
+],
+[
+"musicology",
+"BA",
+"Bachelor of Music (TU963): performance, composition, musicology",
+"https://www.tudublin.ie/explore/faculties-and-schools/arts-humanities/schools/conservatoire/study-with-us/undergraduate/bachelor-of-music---tu963/"
+],
+[
+"music-education",
+"BA",
+"Bachelor in Music Education (TU964/TR009)",
+"https://www.tudublin.ie/explore/faculties-and-schools/arts-humanities/schools/conservatoire/study-with-us/undergraduate/bachelor-in-music-education---tu964-tr009/"
+],
+[
+"jazz",
+"MA",
+"Master of Music in Jazz Performance",
+"https://www.tudublin.ie/explore/faculties-and-schools/arts-humanities/schools/conservatoire/study-with-us/departments/jazz/"
+],
+[
+"composition",
+"MA",
+"MMus in Composition",
+"https://www.tudublin.ie/explore/faculties-and-schools/arts-humanities/schools/conservatoire/study-with-us/music/programmes-courses/"
+]
+],
+"IRLMUNST01": [
+[
+"early-music",
+"BA",
+"Bachelor of Music (performance; aural, conducting, composition, early music performance)",
+"https://csm.mtu.ie/bmus-bachelor-of-music"
+],
+[
+"conducting",
+"BA",
+"Bachelor of Music (performance; aural, conducting, composition, early music performance)",
+"https://csm.mtu.ie/bmus-bachelor-of-music"
+],
+[
+"composition",
+"BA",
+"Bachelor of Music (performance; aural, conducting, composition, early music performance)",
+"https://csm.mtu.ie/bmus-bachelor-of-music"
+],
+[
+"popular-music",
+"BA",
+"BA (Hons) in Popular Music (electric guitar, bass, keyboard, drums, voice)",
+"https://csm.mtu.ie/bapm"
+],
+[
+"music-technology",
+"MA",
+"Taught MA/MSc in Music and Technology",
+"https://csm.mtu.ie/music-and-technology"
+],
+[
+"conducting",
+"MA",
+"Taught MA in Music (Performance, Conducting or Composition; classical, jazz, popular and Irish traditional strands)",
+"https://csm.mtu.ie/masters-in-music-_ma"
+],
+[
+"composition",
+"MA",
+"Taught MA in Music (Performance, Conducting or Composition; classical, jazz, popular and Irish traditional strands)",
+"https://csm.mtu.ie/masters-in-music-_ma"
+],
+[
+"jazz",
+"MA",
+"Taught MA in Music (Performance, Conducting or Composition; classical, jazz, popular and Irish traditional strands)",
+"https://csm.mtu.ie/masters-in-music-_ma"
+],
+[
+"popular-music",
+"MA",
+"Taught MA in Music (Performance, Conducting or Composition; classical, jazz, popular and Irish traditional strands)",
+"https://csm.mtu.ie/masters-in-music-_ma"
+],
+[
+"folk",
+"MA",
+"Taught MA in Music (Performance, Conducting or Composition; classical, jazz, popular and Irish traditional strands)",
+"https://csm.mtu.ie/masters-in-music-_ma"
+]
+],
+"IS REYKJAV06": [
+[
+"music-education",
+"BA",
+"Instrumental / Vocal Education (B.Mus.Ed)",
+"https://www.lhi.is/en/instrumental-vocal-education"
+],
+[
+"composition",
+"BA",
+"Composition (BA); Music Composition MA/M.Mus",
+"https://www.lhi.is/namsleid/tonsmidar-ma/"
+],
+[
+"composition",
+"MA",
+"Composition (BA); Music Composition MA/M.Mus",
+"https://www.lhi.is/namsleid/tonsmidar-ma/"
+],
+[
+"music-education",
+"MA",
+"MMus for New Audiences and Innovative Practice (NAIP)",
+"https://www.lhi.is/namsleid/mmus-for-new-audiences-and-innovative-practice-naip/"
+],
+[
+"music-technology",
+"BA",
+"Music, Innovation and Technology (B.Mus)",
+"https://www.lhi.is/en/music-department/"
+]
+],
+"HU BUDAPES25": [
+[
+"strings",
+"BA",
+"BA / MA: violin, viola, cello, double bass, flute, oboe, clarinet, bassoon, saxophone, horn, trumpet, trombone, tuba, percussion, piano, organ, accordion, guitar, harp",
+"https://uni.lisztacademy.hu/admission-requirements"
+],
+[
+"strings",
+"MA",
+"BA / MA: violin, viola, cello, double bass, flute, oboe, clarinet, bassoon, saxophone, horn, trumpet, trombone, tuba, percussion, piano, organ, accordion, guitar, harp",
+"https://uni.lisztacademy.hu/admission-requirements"
+],
+[
+"woodwind",
+"BA",
+"BA / MA: violin, viola, cello, double bass, flute, oboe, clarinet, bassoon, saxophone, horn, trumpet, trombone, tuba, percussion, piano, organ, accordion, guitar, harp",
+"https://uni.lisztacademy.hu/admission-requirements"
+],
+[
+"woodwind",
+"MA",
+"BA / MA: violin, viola, cello, double bass, flute, oboe, clarinet, bassoon, saxophone, horn, trumpet, trombone, tuba, percussion, piano, organ, accordion, guitar, harp",
+"https://uni.lisztacademy.hu/admission-requirements"
+],
+[
+"brass",
+"BA",
+"BA / MA: violin, viola, cello, double bass, flute, oboe, clarinet, bassoon, saxophone, horn, trumpet, trombone, tuba, percussion, piano, organ, accordion, guitar, harp",
+"https://uni.lisztacademy.hu/admission-requirements"
+],
+[
+"brass",
+"MA",
+"BA / MA: violin, viola, cello, double bass, flute, oboe, clarinet, bassoon, saxophone, horn, trumpet, trombone, tuba, percussion, piano, organ, accordion, guitar, harp",
+"https://uni.lisztacademy.hu/admission-requirements"
+],
+[
+"percussion",
+"BA",
+"BA / MA: violin, viola, cello, double bass, flute, oboe, clarinet, bassoon, saxophone, horn, trumpet, trombone, tuba, percussion, piano, organ, accordion, guitar, harp",
+"https://uni.lisztacademy.hu/admission-requirements"
+],
+[
+"percussion",
+"MA",
+"BA / MA: violin, viola, cello, double bass, flute, oboe, clarinet, bassoon, saxophone, horn, trumpet, trombone, tuba, percussion, piano, organ, accordion, guitar, harp",
+"https://uni.lisztacademy.hu/admission-requirements"
+],
+[
+"piano",
+"BA",
+"BA / MA: violin, viola, cello, double bass, flute, oboe, clarinet, bassoon, saxophone, horn, trumpet, trombone, tuba, percussion, piano, organ, accordion, guitar, harp",
+"https://uni.lisztacademy.hu/admission-requirements"
+],
+[
+"piano",
+"MA",
+"BA / MA: violin, viola, cello, double bass, flute, oboe, clarinet, bassoon, saxophone, horn, trumpet, trombone, tuba, percussion, piano, organ, accordion, guitar, harp",
+"https://uni.lisztacademy.hu/admission-requirements"
+],
+[
+"organ",
+"BA",
+"BA / MA: violin, viola, cello, double bass, flute, oboe, clarinet, bassoon, saxophone, horn, trumpet, trombone, tuba, percussion, piano, organ, accordion, guitar, harp",
+"https://uni.lisztacademy.hu/admission-requirements"
+],
+[
+"organ",
+"MA",
+"BA / MA: violin, viola, cello, double bass, flute, oboe, clarinet, bassoon, saxophone, horn, trumpet, trombone, tuba, percussion, piano, organ, accordion, guitar, harp",
+"https://uni.lisztacademy.hu/admission-requirements"
+],
+[
+"accordion",
+"BA",
+"BA / MA: violin, viola, cello, double bass, flute, oboe, clarinet, bassoon, saxophone, horn, trumpet, trombone, tuba, percussion, piano, organ, accordion, guitar, harp",
+"https://uni.lisztacademy.hu/admission-requirements"
+],
+[
+"accordion",
+"MA",
+"BA / MA: violin, viola, cello, double bass, flute, oboe, clarinet, bassoon, saxophone, horn, trumpet, trombone, tuba, percussion, piano, organ, accordion, guitar, harp",
+"https://uni.lisztacademy.hu/admission-requirements"
+],
+[
+"guitar",
+"BA",
+"BA / MA: violin, viola, cello, double bass, flute, oboe, clarinet, bassoon, saxophone, horn, trumpet, trombone, tuba, percussion, piano, organ, accordion, guitar, harp",
+"https://uni.lisztacademy.hu/admission-requirements"
+],
+[
+"guitar",
+"MA",
+"BA / MA: violin, viola, cello, double bass, flute, oboe, clarinet, bassoon, saxophone, horn, trumpet, trombone, tuba, percussion, piano, organ, accordion, guitar, harp",
+"https://uni.lisztacademy.hu/admission-requirements"
+],
+[
+"harp",
+"BA",
+"BA / MA: violin, viola, cello, double bass, flute, oboe, clarinet, bassoon, saxophone, horn, trumpet, trombone, tuba, percussion, piano, organ, accordion, guitar, harp",
+"https://uni.lisztacademy.hu/admission-requirements"
+],
+[
+"harp",
+"MA",
+"BA / MA: violin, viola, cello, double bass, flute, oboe, clarinet, bassoon, saxophone, horn, trumpet, trombone, tuba, percussion, piano, organ, accordion, guitar, harp",
+"https://uni.lisztacademy.hu/admission-requirements"
+],
+[
+"folk",
+"BA",
+"BA / MA cimbalom",
+"https://uni.lisztacademy.hu/admission-requirements"
+],
+[
+"folk",
+"MA",
+"BA / MA cimbalom",
+"https://uni.lisztacademy.hu/admission-requirements"
+],
+[
+"early-music",
+"BA",
+"BA / MA harpsichord; MA baroque flute, baroque violin, baroque oboe, fortepiano",
+"https://uni.lisztacademy.hu/admission-requirements"
+],
+[
+"early-music",
+"MA",
+"BA / MA harpsichord; MA baroque flute, baroque violin, baroque oboe, fortepiano",
+"https://uni.lisztacademy.hu/admission-requirements"
+],
+[
+"vocal-opera",
+"BA",
+"BA classical singing; MA oratorio & lied singing; MA opera singing",
+"https://uni.lisztacademy.hu/admission-requirements"
+],
+[
+"vocal-opera",
+"MA",
+"BA classical singing; MA oratorio & lied singing; MA opera singing",
+"https://uni.lisztacademy.hu/admission-requirements"
+],
+[
+"composition",
+"BA",
+"BA composition; BA composing for theatre and motion picture; MA composition",
+"https://uni.lisztacademy.hu/admission-requirements"
+],
+[
+"composition",
+"MA",
+"BA composition; BA composing for theatre and motion picture; MA composition",
+"https://uni.lisztacademy.hu/admission-requirements"
+],
+[
+"music-technology",
+"BA",
+"BA electronic music media",
+"https://uni.lisztacademy.hu/admission-requirements"
+],
+[
+"conducting",
+"BA",
+"BA / MA choir conducting; BA / MA orchestral conducting",
+"https://uni.lisztacademy.hu/admission-requirements"
+],
+[
+"conducting",
+"MA",
+"BA / MA choir conducting; BA / MA orchestral conducting",
+"https://uni.lisztacademy.hu/admission-requirements"
+],
+[
+"jazz",
+null,
+"Jazz main subjects: bass guitar, double bass, drums, guitar, piano, saxophone, trumpet, trombone, voice",
+"https://uni.lisztacademy.hu/admission-requirements",
+"Jazz Department; the page lists the main subjects but not the degree levels"
+],
+[
+"musicology",
+null,
+"Musicology, Music Theory, Teacher Education, Church Music and Folk Music departments",
+"https://uni.lisztacademy.hu/departments",
+"Departments listed; degree levels not stated on the pages read"
+],
+[
+"music-theory",
+null,
+"Musicology, Music Theory, Teacher Education, Church Music and Folk Music departments",
+"https://uni.lisztacademy.hu/departments",
+"Departments listed; degree levels not stated on the pages read"
+],
+[
+"music-education",
+null,
+"Musicology, Music Theory, Teacher Education, Church Music and Folk Music departments",
+"https://uni.lisztacademy.hu/departments",
+"Departments listed; degree levels not stated on the pages read"
+],
+[
+"church-music",
+null,
+"Musicology, Music Theory, Teacher Education, Church Music and Folk Music departments",
+"https://uni.lisztacademy.hu/departments",
+"Departments listed; degree levels not stated on the pages read"
+],
+[
+"folk",
+null,
+"Musicology, Music Theory, Teacher Education, Church Music and Folk Music departments",
+"https://uni.lisztacademy.hu/departments",
+"Departments listed; degree levels not stated on the pages read"
+]
+],
+"HU GYOR01": [
+[
+"strings",
+"BA",
+"Előadó-művészet BA (klasszikus szakirányok, pl. gordonka, ütőhangszerek, ének)",
+"https://muk.sze.hu/kovetelmenyek-ba"
+],
+[
+"percussion",
+"BA",
+"Előadó-művészet BA (klasszikus szakirányok, pl. gordonka, ütőhangszerek, ének)",
+"https://muk.sze.hu/kovetelmenyek-ba"
+],
+[
+"vocal-opera",
+"BA",
+"Előadó-művészet BA (klasszikus szakirányok, pl. gordonka, ütőhangszerek, ének)",
+"https://muk.sze.hu/kovetelmenyek-ba"
+],
+[
+"music-education",
+"MA",
+"Osztatlan zenetanár; Tanári (zeneművész-tanár, zenetanár) MA",
+"https://muk.sze.hu/kovetelmenyek-ma"
+],
+[
+"conducting",
+"MA",
+"Karmester MA",
+"https://felveteli.sze.hu/karmester-ma"
+]
+],
+"G  THESSAL02": [
+[
+"music-education",
+"MA",
+"Master in Musical Arts: Didactics of Musical Instruments; Early Music and modal musical traditions of the Mediterranean",
+"https://www.uom.gr/en/musart"
+],
+[
+"early-music",
+"MA",
+"Master in Musical Arts: Didactics of Musical Instruments; Early Music and modal musical traditions of the Mediterranean",
+"https://www.uom.gr/en/musart"
+],
+[
+"folk",
+"MA",
+"Master in Musical Arts: Didactics of Musical Instruments; Early Music and modal musical traditions of the Mediterranean",
+"https://www.uom.gr/en/musart"
+],
+[
+"composition",
+"MA",
+"Master in Musical Arts: Music Performance / Music Creation (incl. chamber music, composition, ensemble conducting)",
+"https://www.uom.gr/en/musart"
+],
+[
+"conducting",
+"MA",
+"Master in Musical Arts: Music Performance / Music Creation (incl. chamber music, composition, ensemble conducting)",
+"https://www.uom.gr/en/musart"
+],
+[
+"chamber-music",
+"MA",
+"Master in Musical Arts: Music Performance / Music Creation (incl. chamber music, composition, ensemble conducting)",
+"https://www.uom.gr/en/musart"
+],
+[
+"musicology",
+"MA",
+"Master in Music Science and Arts; Master in Music & Society",
+"https://www.uom.gr/en/postgraduate"
+]
+],
+"I  ADRIA01": [
+[
+"vocal-opera",
+"BA",
+"Canto",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"harp",
+"BA",
+"Arpa",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"guitar",
+"BA",
+"Chitarra",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"strings",
+"BA",
+"Violino",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"jazz",
+"BA",
+"Jazz",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"piano",
+"BA",
+"Pianoforte",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"chamber-music",
+"BA",
+"Musica da camera",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"jazz",
+"BA",
+"Batteria e strumenti a percussione jazz",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"jazz",
+"BA",
+"Canto jazz",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"jazz",
+"BA",
+"Chitarra jazz",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"woodwind",
+"BA",
+"Clarinetto",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"jazz",
+"BA",
+"Clarinetto jazz",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"early-music",
+"BA",
+"Clavicembalo e tastiere storiche",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"composition",
+"BA",
+"Composizione",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"jazz",
+"BA",
+"Composizione jazz",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"strings",
+"BA",
+"Contrabbasso",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"jazz",
+"BA",
+"Contrabbasso jazz",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"brass",
+"BA",
+"Corno",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"music-education",
+"BA",
+"Didattica della musica/Didattica dello strumento",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"conducting",
+"BA",
+"Direzione di coro e composizione corale",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"composition",
+"BA",
+"Direzione di coro e composizione corale",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"woodwind",
+"BA",
+"Fagotto",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"woodwind",
+"BA",
+"Flauto",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"vocal-opera",
+"BA",
+"Musica vocale da camera - indirizzo canto",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"piano",
+"BA",
+"Musica vocale da camera – indirizzo pianoforte",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"vocal-opera",
+"BA",
+"Musica vocale da camera – indirizzo pianoforte",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"woodwind",
+"BA",
+"Oboe",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"organ",
+"BA",
+"Organo",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"church-music",
+"BA",
+"Organo e musica liturgica",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"organ",
+"BA",
+"Organo e musica liturgica",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"jazz",
+"BA",
+"Pianoforte jazz",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"woodwind",
+"BA",
+"Saxofono",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"jazz",
+"BA",
+"Saxofono jazz",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"percussion",
+"BA",
+"Strumenti a percussione",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"music-technology",
+"BA",
+"Tastiere elettroniche",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"brass",
+"BA",
+"Tromba",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"jazz",
+"BA",
+"Tromba jazz",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"brass",
+"BA",
+"Trombone",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"jazz",
+"BA",
+"Trombone jazz",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"strings",
+"BA",
+"Viola",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"jazz",
+"BA",
+"Violino jazz",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"strings",
+"BA",
+"Violoncello",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-1-livello/"
+],
+[
+"vocal-opera",
+"MA",
+"Canto",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-2-livello-biennio/"
+],
+[
+"harp",
+"MA",
+"Arpa",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-2-livello-biennio/"
+],
+[
+"guitar",
+"MA",
+"Chitarra",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-2-livello-biennio/"
+],
+[
+"strings",
+"MA",
+"Violino",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-2-livello-biennio/"
+],
+[
+"jazz",
+"MA",
+"Jazz",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-2-livello-biennio/"
+],
+[
+"piano",
+"MA",
+"Pianoforte",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-2-livello-biennio/"
+],
+[
+"chamber-music",
+"MA",
+"Musica da camera",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-2-livello-biennio/"
+],
+[
+"jazz",
+"MA",
+"Batteria e strumenti a percussione jazz",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-2-livello-biennio/"
+],
+[
+"jazz",
+"MA",
+"Canto jazz",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-2-livello-biennio/"
+],
+[
+"jazz",
+"MA",
+"Chitarra jazz",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-2-livello-biennio/"
+],
+[
+"woodwind",
+"MA",
+"Clarinetto",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-2-livello-biennio/"
+],
+[
+"jazz",
+"MA",
+"Clarinetto jazz",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-2-livello-biennio/"
+],
+[
+"composition",
+"MA",
+"Composizione",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-2-livello-biennio/"
+],
+[
+"strings",
+"MA",
+"Contrabbasso",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-2-livello-biennio/"
+],
+[
+"jazz",
+"MA",
+"Contrabbasso jazz",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-2-livello-biennio/"
+],
+[
+"brass",
+"MA",
+"Corno",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-2-livello-biennio/"
+],
+[
+"music-education",
+"MA",
+"Didattica della musica/Didattica dello strumento",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-2-livello-biennio/"
+],
+[
+"conducting",
+"MA",
+"Direzione di coro e composizione corale",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-2-livello-biennio/"
+],
+[
+"composition",
+"MA",
+"Direzione di coro e composizione corale",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-2-livello-biennio/"
+],
+[
+"woodwind",
+"MA",
+"Fagotto",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-2-livello-biennio/"
+],
+[
+"woodwind",
+"MA",
+"Flauto",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-2-livello-biennio/"
+],
+[
+"chamber-music",
+"MA",
+"Musica d’insieme/Musica da Camera",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-2-livello-biennio/"
+],
+[
+"vocal-opera",
+"MA",
+"Musica vocale da camera - indirizzo canto",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-2-livello-biennio/"
+],
+[
+"piano",
+"MA",
+"Musica vocale da camera – indirizzo pianoforte",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-2-livello-biennio/"
+],
+[
+"vocal-opera",
+"MA",
+"Musica vocale da camera – indirizzo pianoforte",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-2-livello-biennio/"
+],
+[
+"woodwind",
+"MA",
+"Oboe",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-2-livello-biennio/"
+],
+[
+"organ",
+"MA",
+"Organo",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-2-livello-biennio/"
+],
+[
+"jazz",
+"MA",
+"Pianoforte jazz",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-2-livello-biennio/"
+],
+[
+"woodwind",
+"MA",
+"Saxofono",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-2-livello-biennio/"
+],
+[
+"jazz",
+"MA",
+"Saxofono jazz",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-2-livello-biennio/"
+],
+[
+"percussion",
+"MA",
+"Strumenti a percussione",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-2-livello-biennio/"
+],
+[
+"music-technology",
+"MA",
+"Tastiere elettroniche",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-2-livello-biennio/"
+],
+[
+"brass",
+"MA",
+"Tromba",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-2-livello-biennio/"
+],
+[
+"jazz",
+"MA",
+"Tromba jazz",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-2-livello-biennio/"
+],
+[
+"brass",
+"MA",
+"Trombone",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-2-livello-biennio/"
+],
+[
+"jazz",
+"MA",
+"Trombone jazz",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-2-livello-biennio/"
+],
+[
+"strings",
+"MA",
+"Viola",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-2-livello-biennio/"
+],
+[
+"jazz",
+"MA",
+"Violino jazz",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-2-livello-biennio/"
+],
+[
+"strings",
+"MA",
+"Violoncello",
+"https://conservatorioadria.it/offerta-formativa/diploma-accademico-di-2-livello-biennio/"
+]
+],
+"I  COMO04": [
+[
+"vocal-opera",
+"BA",
+"Svelare l’Incanto",
+"https://conservatoriocomo.it/corsi-accademici-di-primo-livello/"
+],
+[
+"harp",
+"BA",
+"Arpa",
+"https://conservatoriocomo.it/corsi-accademici-di-primo-livello/"
+],
+[
+"jazz",
+"BA",
+"Batteria e percussioni Jazz",
+"https://conservatoriocomo.it/corsi-accademici-di-primo-livello/"
+],
+[
+"vocal-opera",
+"BA",
+"Canto",
+"https://conservatoriocomo.it/corsi-accademici-di-primo-livello/"
+],
+[
+"jazz",
+"BA",
+"Canto jazz",
+"https://conservatoriocomo.it/corsi-accademici-di-primo-livello/"
+],
+[
+"guitar",
+"BA",
+"Chitarra",
+"https://conservatoriocomo.it/corsi-accademici-di-primo-livello/"
+],
+[
+"jazz",
+"BA",
+"Chitarra jazz",
+"https://conservatoriocomo.it/corsi-accademici-di-primo-livello/"
+],
+[
+"woodwind",
+"BA",
+"Clarinetto",
+"https://conservatoriocomo.it/corsi-accademici-di-primo-livello/"
+],
+[
+"early-music",
+"BA",
+"Clavicembalo",
+"https://conservatoriocomo.it/corsi-accademici-di-primo-livello/"
+],
+[
+"composition",
+"BA",
+"Composizione",
+"https://conservatoriocomo.it/corsi-accademici-di-primo-livello/"
+],
+[
+"strings",
+"BA",
+"Contrabbasso",
+"https://conservatoriocomo.it/corsi-accademici-di-primo-livello/"
+],
+[
+"brass",
+"BA",
+"Corno",
+"https://conservatoriocomo.it/corsi-accademici-di-primo-livello/"
+],
+[
+"music-education",
+"BA",
+"Didattica della musica",
+"https://conservatoriocomo.it/corsi-accademici-di-primo-livello/"
+],
+[
+"conducting",
+"BA",
+"Direzione di coro e composizione corale",
+"https://conservatoriocomo.it/corsi-accademici-di-primo-livello/"
+],
+[
+"composition",
+"BA",
+"Direzione di coro e composizione corale",
+"https://conservatoriocomo.it/corsi-accademici-di-primo-livello/"
+],
+[
+"woodwind",
+"BA",
+"Fagotto",
+"https://conservatoriocomo.it/corsi-accademici-di-primo-livello/"
+],
+[
+"woodwind",
+"BA",
+"Flauto",
+"https://conservatoriocomo.it/corsi-accademici-di-primo-livello/"
+],
+[
+"music-technology",
+"BA",
+"Musica elettronica",
+"https://conservatoriocomo.it/corsi-accademici-di-primo-livello/"
+],
+[
+"piano",
+"BA",
+"Pianoforte",
+"https://conservatoriocomo.it/corsi-accademici-di-primo-livello/"
+],
+[
+"woodwind",
+"BA",
+"Oboe",
+"https://conservatoriocomo.it/corsi-accademici-di-primo-livello/"
+],
+[
+"organ",
+"BA",
+"Organo",
+"https://conservatoriocomo.it/corsi-accademici-di-primo-livello/"
+],
+[
+"jazz",
+"BA",
+"Pianoforte jazz",
+"https://conservatoriocomo.it/corsi-accademici-di-primo-livello/"
+],
+[
+"woodwind",
+"BA",
+"Saxofono",
+"https://conservatoriocomo.it/corsi-accademici-di-primo-livello/"
+],
+[
+"percussion",
+"BA",
+"Strumenti a percussione",
+"https://conservatoriocomo.it/corsi-accademici-di-primo-livello/"
+],
+[
+"brass",
+"BA",
+"Tromba",
+"https://conservatoriocomo.it/corsi-accademici-di-primo-livello/"
+],
+[
+"brass",
+"BA",
+"Trombone",
+"https://conservatoriocomo.it/corsi-accademici-di-primo-livello/"
+],
+[
+"strings",
+"BA",
+"Viola",
+"https://conservatoriocomo.it/corsi-accademici-di-primo-livello/"
+],
+[
+"strings",
+"BA",
+"Violino",
+"https://conservatoriocomo.it/corsi-accademici-di-primo-livello/"
+],
+[
+"strings",
+"BA",
+"Violoncello",
+"https://conservatoriocomo.it/corsi-accademici-di-primo-livello/"
+],
+[
+"chamber-music",
+"BA",
+"Musica da camera",
+"https://conservatoriocomo.it/corsi-accademici-di-primo-livello/"
+],
+[
+"jazz",
+"BA",
+"Storia del jazz (disciplina)",
+"https://conservatoriocomo.it/corsi-accademici-di-primo-livello/"
+],
+[
+"conducting",
+"BA",
+"Domenico Innominato - Direzione di coro e repertorio corale",
+"https://conservatoriocomo.it/corsi-accademici-di-primo-livello/"
+],
+[
+"composition",
+"BA",
+"Daniele Venturi - Elementi di Composizione e analisi",
+"https://conservatoriocomo.it/corsi-accademici-di-primo-livello/"
+],
+[
+"music-education",
+"BA",
+"Piera Bagnus - Pedagogia musicale",
+"https://conservatoriocomo.it/corsi-accademici-di-primo-livello/"
+],
+[
+"vocal-opera",
+"BA",
+"Andrea Solinas - Pratica della lettura vocale e pianistica",
+"https://conservatoriocomo.it/corsi-accademici-di-primo-livello/"
+],
+[
+"composition",
+"BA",
+"Walter Prati - Composizione musicale elettroacustica",
+"https://conservatoriocomo.it/corsi-accademici-di-primo-livello/"
+],
+[
+"vocal-opera",
+"BA",
+"Musica vocale da camera",
+"https://conservatoriocomo.it/corsi-accademici-di-primo-livello/"
+],
+[
+"jazz",
+"BA",
+"Composizione jazz (disciplina)",
+"https://conservatoriocomo.it/corsi-accademici-di-primo-livello/"
+],
+[
+"jazz",
+"BA",
+"Musica d'insieme jazz, trienni jazz (disciplina)",
+"https://conservatoriocomo.it/corsi-accademici-di-primo-livello/"
+],
+[
+"vocal-opera",
+"MA",
+"Svelare l’Incanto",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"harp",
+"MA",
+"B - Arpa",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"jazz",
+"MA",
+"B - Batteria e percussioni jazz",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"vocal-opera",
+"MA",
+"B - Canto",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"jazz",
+"MA",
+"B - Canto jazz",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"guitar",
+"MA",
+"B - Chitarra",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"jazz",
+"MA",
+"B - Chitarra jazz",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"woodwind",
+"MA",
+"B - Clarinetto",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"early-music",
+"MA",
+"B - Clavicembalo e tastiere storiche",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"composition",
+"MA",
+"B - Composizione",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"composition",
+"MA",
+"B - Composizione audiovisiva e sound design",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"music-technology",
+"MA",
+"B - Composizione audiovisiva e sound design",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"jazz",
+"MA",
+"B - Contrabbasso “crossover” [classico, jazz, pop-rock]",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"popular-music",
+"MA",
+"B - Contrabbasso “crossover” [classico, jazz, pop-rock]",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"brass",
+"MA",
+"B - Corno",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"music-education",
+"MA",
+"B - Didattica della musica",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"conducting",
+"MA",
+"B - Direzione di coro e composizione corale",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"composition",
+"MA",
+"B - Direzione di coro e composizione corale",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"woodwind",
+"MA",
+"B - Fagotto",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"woodwind",
+"MA",
+"B - Flauto",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"chamber-music",
+"MA",
+"B - Musica da camera",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"music-technology",
+"MA",
+"B - Musica elettronica",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"woodwind",
+"MA",
+"B - Oboe",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"organ",
+"MA",
+"B - Organo",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"piano",
+"MA",
+"B - Pianoforte",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"jazz",
+"MA",
+"B - Pianoforte jazz",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"woodwind",
+"MA",
+"B - Saxofono",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"percussion",
+"MA",
+"B - Strumenti a percussione",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"brass",
+"MA",
+"B - Tromba",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"brass",
+"MA",
+"B - Trombone",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"strings",
+"MA",
+"B - Viola",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"strings",
+"MA",
+"B - Violino",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"strings",
+"MA",
+"B - Violoncello",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"chamber-music",
+"MA",
+"Musica da camera",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"harp",
+"MA",
+"B - Arpa Laura Di Monaco",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"jazz",
+"MA",
+"Storia della musica jazz Riccardo Fioravanti",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"jazz",
+"MA",
+"B - Batteria e percussioni jazz Stefano Bagnoli",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"vocal-opera",
+"MA",
+"B - Canto Doina Dinu",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"jazz",
+"MA",
+"B - Canto jazz Francesco Forges Davanzati",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"guitar",
+"MA",
+"B - Chitarra Guido Fichtner",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"jazz",
+"MA",
+"B - Chitarra jazz Giacomo Ancillotto",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"woodwind",
+"MA",
+"B - Clarinetto Alessandro Travaglini",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"early-music",
+"MA",
+"B - Clavicembalo e tastiere storiche Giovanni Togni",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"composition",
+"MA",
+"B - Composizione Beatrice Barazzoni",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"strings",
+"MA",
+"B - Contrabbasso “crossover”",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"jazz",
+"MA",
+"[classico, jazz, pop-rock] Stefano Dall’Ora",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"popular-music",
+"MA",
+"[classico, jazz, pop-rock] Stefano Dall’Ora",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"brass",
+"MA",
+"B - Corno Ezio Rovetta",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"composition",
+"MA",
+"Daniele Venturi - Elementi di Composizione e analisi",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"music-education",
+"MA",
+"Piera Bagnus - Pedagogia musicale",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"vocal-opera",
+"MA",
+"Andrea Solinas - Pratica della lettura vocale e pianistica",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"conducting",
+"MA",
+"B - Direzione di coro e composizione corale Fausto Fenice",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"composition",
+"MA",
+"B - Direzione di coro e composizione corale Fausto Fenice",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"woodwind",
+"MA",
+"B - Fagotto Liborio Guarneri",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"woodwind",
+"MA",
+"B - Flauto Sonia Formenti",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"vocal-opera",
+"MA",
+"Giuseppe Finzi e Alfredo Blessano (Canto)",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"composition",
+"MA",
+"B - Musica elettronica Walter Prati - Composizione musicale elettroacustica",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"music-technology",
+"MA",
+"B - Musica elettronica Walter Prati - Composizione musicale elettroacustica",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"woodwind",
+"MA",
+"B - Oboe Adriano Mondini",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"organ",
+"MA",
+"B - Organo Luca Antoniotti / Elisabeth Zawadke",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"piano",
+"MA",
+"B - Pianoforte Giovanni Brollo",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"jazz",
+"MA",
+"Discipline compositive jazz Massimo Colombo",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"woodwind",
+"MA",
+"B - Saxofono Franco Brizzi",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"percussion",
+"MA",
+"B - Strumenti a percussione Matteo Moretti",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"brass",
+"MA",
+"B - Tromba Guido Guidarelli",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"brass",
+"MA",
+"B - Trombone Fulvio Clementi",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"strings",
+"MA",
+"B - Viola Flavio Ghilardi",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"strings",
+"MA",
+"B - Violino Davide Alogna",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"strings",
+"MA",
+"B - Violoncello Daniele Bogni",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+],
+[
+"jazz",
+"MA",
+"(Musica d'insieme jazz) Mirco Mariottini",
+"https://conservatoriocomo.it/corsi-accademici-di-secondo-livello/"
+]
+],
+"I  PARMA02": [
+[
+"harp",
+"BA",
+"Arpa / Harp",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"popular-music",
+"BA",
+"Basso elettrico / Electric bass",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"brass",
+"BA",
+"Basso tuba / Bass tuba",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"jazz",
+"BA",
+"Batteria e percussioni jazz / Jazz drums and percussions",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"vocal-opera",
+"BA",
+"Canto / Singing",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"jazz",
+"BA",
+"Canto jazz / Jazz singing",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"early-music",
+"BA",
+"Canto rinascimentale e barocco / Renaissance and baroque singing",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"vocal-opera",
+"BA",
+"Canto rinascimentale e barocco / Renaissance and baroque singing",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"guitar",
+"BA",
+"Chitarra / Guitar",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"jazz",
+"BA",
+"Chitarra jazz / Jazz guitar",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"woodwind",
+"BA",
+"Clarinetto / Clarinet",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"jazz",
+"BA",
+"Clarinetto jazz / Jazz clarinet",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"early-music",
+"BA",
+"Clarinetto storico / Historical clarinet",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"early-music",
+"BA",
+"Clavicembalo e tastiere storiche / Harpsichord and historical keyboards",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"composition",
+"BA",
+"Composizione / Composition",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"jazz",
+"BA",
+"Composizione jazz / Jazz composition",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"strings",
+"BA",
+"Contrabbasso / Double bass",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"jazz",
+"BA",
+"Contrabbasso jazz / Jazz double bass",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"brass",
+"BA",
+"Corno / Horn",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"music-education",
+"BA",
+"Didattica della musica",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"woodwind",
+"BA",
+"Fagotto / Bassoon",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"accordion",
+"BA",
+"Fisarmonica / Accordion",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"early-music",
+"BA",
+"Flauto / Flute",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"early-music",
+"BA",
+"Flauto dolce / Recorder",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"woodwind",
+"BA",
+"Flauto traversiere / Traversiere",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"early-music",
+"BA",
+"Liuto / Lute",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"music-technology",
+"BA",
+"Musica elettronica / Electroacoustic music",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"chamber-music",
+"BA",
+"Musica vocale da camera-Cantanti / Vocal chamber music for singers",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"vocal-opera",
+"BA",
+"Musica vocale da camera-Cantanti / Vocal chamber music for singers",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"chamber-music",
+"BA",
+"Musica vocale da camera-Pianisti / Vocal chamber music for pianists",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"vocal-opera",
+"BA",
+"Musica vocale da camera-Pianisti / Vocal chamber music for pianists",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"woodwind",
+"BA",
+"Oboe / Oboe",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"early-music",
+"BA",
+"Oboe barocco e classico / Baroque and classical oboe",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"organ",
+"BA",
+"Organo e Composizione organistica / Organ and composition for organ",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"composition",
+"BA",
+"Organo e Composizione organistica / Organ and composition for organ",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"piano",
+"BA",
+"Pianoforte / Piano",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"jazz",
+"BA",
+"Pianoforte jazz / Jazz piano",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"early-music",
+"BA",
+"Pianoforte storico / Historical piano",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"popular-music",
+"BA",
+"Popular music INDIRIZZO BASSO POP/ROCK / Pop&Rock Bass",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"popular-music",
+"BA",
+"Popular music INDIRIZZO CANTO POP/ROCK / Pop&Rock Singing",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"vocal-opera",
+"BA",
+"Popular music INDIRIZZO CANTO POP/ROCK / Pop&Rock Singing",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"popular-music",
+"BA",
+"Popular music INDIRIZZO CHITARRA POP/ROCK / Pop&Rock Guitar",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"woodwind",
+"BA",
+"Saxofono / Saxophone",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"jazz",
+"BA",
+"Saxofono jazz / Jazz saxophone",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"percussion",
+"BA",
+"Strumenti a percussione / Percussion instruments",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"brass",
+"BA",
+"Tromba / Trumpet",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"jazz",
+"BA",
+"Tromba jazz / Jazz trumpet",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"brass",
+"BA",
+"Trombone / Trombone",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"jazz",
+"BA",
+"Trombone jazz / Jazz trombone",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"strings",
+"BA",
+"Viola / Viola",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"early-music",
+"BA",
+"Viola da gamba / Viola da gamba",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"strings",
+"BA",
+"Violino / Violin",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"early-music",
+"BA",
+"Violino barocco / Baroque violin",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"jazz",
+"BA",
+"Violino jazz / Jazz violin",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"strings",
+"BA",
+"Violoncello / Cello",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"early-music",
+"BA",
+"Violoncello barocco / Baroque cello",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=1&idannoaccademico=5&ordinamento=Triennio%20ord.%20/%20Bachelor"
+],
+[
+"harp",
+"MA",
+"Arpa / Harp",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"popular-music",
+"MA",
+"Basso elettrico / Electric bass",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"brass",
+"MA",
+"Basso tuba / Bass tuba",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"jazz",
+"MA",
+"Batteria e percussioni jazz / Jazz drums and percussions",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"jazz",
+"MA",
+"Batteria e percussioni jazz INDIRIZZO VIBRAFONO/ Jazz vibraphone",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"vocal-opera",
+"MA",
+"Canto / Singing",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"jazz",
+"MA",
+"Canto jazz / Jazz singing",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"early-music",
+"MA",
+"Canto rinascimentale e barocco / Renaissance and baroque singing",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"vocal-opera",
+"MA",
+"Canto rinascimentale e barocco / Renaissance and baroque singing",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"guitar",
+"MA",
+"Chitarra / Guitar",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"jazz",
+"MA",
+"Chitarra jazz / Jazz guitar",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"woodwind",
+"MA",
+"Clarinetto / Clarinet",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"woodwind",
+"MA",
+"Clarinetto INDIRIZZO CLARINETTO BASSO / Bass clarinet",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"jazz",
+"MA",
+"Clarinetto jazz / Jazz clarinet",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"early-music",
+"MA",
+"Clarinetto storico / Historical clarinet",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"early-music",
+"MA",
+"Clavicembalo e tastiere storiche / Harpsichord and historical keyboards",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"composition",
+"MA",
+"Composizione / Composition",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"jazz",
+"MA",
+"Composizione jazz / Jazz composition",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"strings",
+"MA",
+"Contrabbasso / Double bass",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"jazz",
+"MA",
+"Contrabbasso jazz / Jazz double bass",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"brass",
+"MA",
+"Corno / Horn",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"music-education",
+"MA",
+"Didattica dello strumento",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"woodwind",
+"MA",
+"Fagotto / Bassoon",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"accordion",
+"MA",
+"Fisarmonica / Accordion",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"early-music",
+"MA",
+"Flauto / Flute",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"woodwind",
+"MA",
+"Flauto traversiere / Traversiere",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"early-music",
+"MA",
+"Liuto / Lute",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"chamber-music",
+"MA",
+"Musica d’insieme INDIRIZZO MUSICA DA CAMERA / Chamber music",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"music-technology",
+"MA",
+"Musica elettronica / Electroacoustic music",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"chamber-music",
+"MA",
+"Musica vocale da camera INDIRIZZO CANTANTI / Vocal chamber music (SINGERS)",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"vocal-opera",
+"MA",
+"Musica vocale da camera INDIRIZZO CANTANTI / Vocal chamber music (SINGERS)",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"chamber-music",
+"MA",
+"Musica vocale da camera INDIRIZZO PIANISTI / Vocal chamber music (PIANISTS)",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"vocal-opera",
+"MA",
+"Musica vocale da camera INDIRIZZO PIANISTI / Vocal chamber music (PIANISTS)",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"woodwind",
+"MA",
+"Oboe / Oboe",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"early-music",
+"MA",
+"Oboe barocco e classico / Baroque and classical oboe",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"organ",
+"MA",
+"Organo / Organ",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"piano",
+"MA",
+"Pianoforte / Piano",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"jazz",
+"MA",
+"Pianoforte jazz / Jazz piano",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"early-music",
+"MA",
+"Pianoforte storico / Historical piano",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"popular-music",
+"MA",
+"Popular music INDIRIZZO BASSO POP/ROCK / Pop&Rock Bass",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"popular-music",
+"MA",
+"Popular music INDIRIZZO CANTO POP/ROCK / Pop&Rock Singing",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"vocal-opera",
+"MA",
+"Popular music INDIRIZZO CANTO POP/ROCK / Pop&Rock Singing",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"popular-music",
+"MA",
+"Popular music INDIRIZZO CHITARRA POP/ROCK / Pop&Rock Guitar",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"woodwind",
+"MA",
+"Saxofono / Saxophone",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"jazz",
+"MA",
+"Saxofono jazz / Jazz saxophone",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"percussion",
+"MA",
+"Strumenti a percussione / Percussions",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"brass",
+"MA",
+"Tromba / Trumpet",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"jazz",
+"MA",
+"Tromba jazz / Jazz trumpet",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"brass",
+"MA",
+"Trombone / Trombone",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"jazz",
+"MA",
+"Trombone jazz / Jazz trombone",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"strings",
+"MA",
+"Viola / Viola",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"early-music",
+"MA",
+"Viola da gamba / Viola da gamba",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"strings",
+"MA",
+"Violino / Violin",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"early-music",
+"MA",
+"Violino barocco / Baroque violin",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"jazz",
+"MA",
+"Violino jazz / Jazz violin",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+],
+[
+"strings",
+"MA",
+"Violoncello / Cello",
+"http://aule.conservatorio.pr.it/cgi-scripts/ordinamenti.exe?azione=corsi&idordinamento=3&idannoaccademico=5&ordinamento=Biennio%20/%20Master%20degree%20"
+]
+],
+"I  MESSINA04": [
+[
+"harp",
+"BA",
+"ARPA",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"popular-music",
+"BA",
+"BASSO ELETTRICO POP ROCK",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"brass",
+"BA",
+"TUBA",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"jazz",
+"BA",
+"BATTERIA E PERCUSSIONI JAZZ",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"popular-music",
+"BA",
+"BATTERIA POP ROCK",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"vocal-opera",
+"BA",
+"CANTO",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"jazz",
+"BA",
+"CANTO JAZZ",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"popular-music",
+"BA",
+"CANTO POP ROCK",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"vocal-opera",
+"BA",
+"CANTO POP ROCK",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"early-music",
+"BA",
+"CANTO RINASCIMENTALE E BAROCCO",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"vocal-opera",
+"BA",
+"CANTO RINASCIMENTALE E BAROCCO",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"guitar",
+"BA",
+"CHITARRA",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"jazz",
+"BA",
+"CHITARRA JAZZ",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"popular-music",
+"BA",
+"CHITARRA POP ROCK",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"woodwind",
+"BA",
+"CLARINETTO",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"jazz",
+"BA",
+"CLARINETTO JAZZ",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"early-music",
+"BA",
+"CLAVICEMBALO",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"composition",
+"BA",
+"COMPOSIZIONE",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"conducting",
+"BA",
+"COMPOSIZIONE E DIREZIONE SOLI E/O CORO",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"composition",
+"BA",
+"COMPOSIZIONE E DIREZIONE SOLI E/O CORO",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"conducting",
+"BA",
+"COMPOSIZIONE E DIREZIONE DI FIATI",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"composition",
+"BA",
+"COMPOSIZIONE E DIREZIONE DI FIATI",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"composition",
+"BA",
+"COMPOSIZIONE E MUSICA APPLICATA ALLE IMMAGINI",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"jazz",
+"BA",
+"COMPOSIZIONE JAZZ",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"strings",
+"BA",
+"CONTRABBASSO",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"jazz",
+"BA",
+"CONTRABBASSO JAZZ",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"brass",
+"BA",
+"CORNO",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"music-education",
+"BA",
+"DIDATTICA DELLA MUSIC",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"woodwind",
+"BA",
+"FAGOTTO",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"accordion",
+"BA",
+"FISARMONICA",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"woodwind",
+"BA",
+"FLAUTO",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"woodwind",
+"BA",
+"FLAUTO TRAVERSIERE",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"music-technology",
+"BA",
+"MUSICA ELETTRONICA",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"vocal-opera",
+"BA",
+"MUSICA VOCALE DA CAMERA",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"woodwind",
+"BA",
+"OBOE",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"organ",
+"BA",
+"ORGANO",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"piano",
+"BA",
+"PIANOFORTE",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"jazz",
+"BA",
+"PIANOFORTE JAZZ",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"popular-music",
+"BA",
+"PIANOFORTE E TASTIERE POP ROCK",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"popular-music",
+"BA",
+"POPULAR MUSIC",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"woodwind",
+"BA",
+"SAXOFONO",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"jazz",
+"BA",
+"SAXOFONO JAZZ",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"percussion",
+"BA",
+"STRUMENTI A PERCUSSIONE",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"jazz",
+"BA",
+"TASTIERE ELETTRONICHE JAZZ",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"music-technology",
+"BA",
+"TECNICO DEL SUONO",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"brass",
+"BA",
+"TROMBA",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"jazz",
+"BA",
+"TROMBA JAZZ",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"brass",
+"BA",
+"TROMBONE",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"jazz",
+"BA",
+"TROMBONE JAZZ",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"strings",
+"BA",
+"VIOLA",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"strings",
+"BA",
+"VIOLINO",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"early-music",
+"BA",
+"VIOLINO BAROCCO",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"jazz",
+"BA",
+"VIOLINO JAZZ",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"strings",
+"BA",
+"VIOLONCELLO",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"early-music",
+"BA",
+"VIOLONCELLO BAROCCO",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"brass",
+"BA",
+"BASSO TUBA",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"music-education",
+"BA",
+"DIDATTICA DELLA MUSIC A",
+"https://www.consme.it/index.php?option=com_content&view=article&id=3557&Itemid=178"
+],
+[
+"harp",
+"MA",
+"ARPA",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"jazz",
+"MA",
+"BASSO ELETTRICO JAZZ",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"popular-music",
+"MA",
+"BASSO ELETTRICO POP ROCK",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"brass",
+"MA",
+"BASSO TUBA",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"jazz",
+"MA",
+"BATTERIA E PERCUSSIONI JAZZ",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"popular-music",
+"MA",
+"BATTERIA E PERCUSSIONI POP",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"vocal-opera",
+"MA",
+"CANTO",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"jazz",
+"MA",
+"CANTO JAZZ",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"popular-music",
+"MA",
+"CANTO POP",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"vocal-opera",
+"MA",
+"CANTO POP",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"early-music",
+"MA",
+"CANTO RINASCIMENTALE E BAROCCO",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"vocal-opera",
+"MA",
+"CANTO RINASCIMENTALE E BAROCCO",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"guitar",
+"MA",
+"CHITARRA",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"jazz",
+"MA",
+"CHITARRA JAZZ",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"popular-music",
+"MA",
+"CHITARRA POP ROCK",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"woodwind",
+"MA",
+"CLARINETTO",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"jazz",
+"MA",
+"CLARINETTO JAZZ",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"early-music",
+"MA",
+"CLAVICEMBALO E TASTIERE STORICHE",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"composition",
+"MA",
+"COMPOSIZIONE",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"strings",
+"MA",
+"CONTRABBASSO",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"jazz",
+"MA",
+"CONTRABBASSO JAZZ",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"brass",
+"MA",
+"CORNO",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"music-education",
+"MA",
+"DIDATTICA DELLA MUSICA",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"woodwind",
+"MA",
+"FAGOTTO",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"accordion",
+"MA",
+"FISARMONICA",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"woodwind",
+"MA",
+"FLAUTO",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"chamber-music",
+"MA",
+"MUSICA D'INSIEME",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"music-technology",
+"MA",
+"MUSICA ELETTRONICA",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"vocal-opera",
+"MA",
+"MUSICA VOCALE DA CAMERA",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"woodwind",
+"MA",
+"OBOE",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"organ",
+"MA",
+"ORGANO",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"piano",
+"MA",
+"PIANOFORTE",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"jazz",
+"MA",
+"PIANOFORTE JAZZ",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"popular-music",
+"MA",
+"PIANOFORTE E TASTIERE POP",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"woodwind",
+"MA",
+"SAXOFONO",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"jazz",
+"MA",
+"SAXOFONO JAZZ",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"percussion",
+"MA",
+"STRUMENTI A PERCUSSIONE",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"jazz",
+"MA",
+"TASTIERE ELETTRONICHE JAZZ",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"music-technology",
+"MA",
+"TECNICO DEL SUONO",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"brass",
+"MA",
+"TROMBA",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"jazz",
+"MA",
+"TROMBA JAZZ",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"brass",
+"MA",
+"TROMBONE",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"strings",
+"MA",
+"VIOLA",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"strings",
+"MA",
+"VIOLINO",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"jazz",
+"MA",
+"VIOLINO JAZZ",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"strings",
+"MA",
+"VIOLONCELLO",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"popular-music",
+"MA",
+"BATTERIA E PERCUSSIONI POP ROCK",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"popular-music",
+"MA",
+"CANTO POP ROCK",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"vocal-opera",
+"MA",
+"CANTO POP ROCK",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+],
+[
+"jazz",
+"MA",
+"TROMBONE JAZZ",
+"https://www.consme.it/index.php?option=com_content&view=article&id=300&Itemid=549"
+]
+],
+"I  AGRIGEN02": [
+[
+"vocal-opera",
+null,
+"Canto",
+"https://www.conservatoriotoscanini.it/corsi-afam/"
+],
+[
+"jazz",
+null,
+"Batteria e percussioni jazz",
+"https://www.conservatoriotoscanini.it/corsi-afam/"
+],
+[
+"jazz",
+null,
+"Canto jazz",
+"https://www.conservatoriotoscanini.it/corsi-afam/"
+],
+[
+"jazz",
+null,
+"Chitarra jazz",
+"https://www.conservatoriotoscanini.it/corsi-afam/"
+],
+[
+"jazz",
+null,
+"Pianoforte jazz",
+"https://www.conservatoriotoscanini.it/corsi-afam/"
+],
+[
+"jazz",
+null,
+"Sassofono jazz",
+"https://www.conservatoriotoscanini.it/corsi-afam/"
+],
+[
+"jazz",
+null,
+"Tromba jazz",
+"https://www.conservatoriotoscanini.it/corsi-afam/"
+],
+[
+"popular-music",
+null,
+"Basso elettrico pop rock",
+"https://www.conservatoriotoscanini.it/corsi-afam/"
+],
+[
+"popular-music",
+null,
+"Batteria e percussioni pop rock",
+"https://www.conservatoriotoscanini.it/corsi-afam/"
+],
+[
+"popular-music",
+null,
+"Canto pop rock",
+"https://www.conservatoriotoscanini.it/corsi-afam/"
+],
+[
+"vocal-opera",
+null,
+"Canto pop rock",
+"https://www.conservatoriotoscanini.it/corsi-afam/"
+],
+[
+"popular-music",
+null,
+"Chitarra pop rock",
+"https://www.conservatoriotoscanini.it/corsi-afam/"
+],
+[
+"popular-music",
+null,
+"Pianoforte e tastiere elettroniche pop rock",
+"https://www.conservatoriotoscanini.it/corsi-afam/"
+],
+[
+"chamber-music",
+null,
+"Musica d’insieme",
+"https://www.conservatoriotoscanini.it/corsi-afam/"
+],
+[
+"brass",
+null,
+"Basso tuba",
+"https://www.conservatoriotoscanini.it/corsi-afam/"
+],
+[
+"woodwind",
+null,
+"Clarinetto",
+"https://www.conservatoriotoscanini.it/corsi-afam/"
+],
+[
+"brass",
+null,
+"Corno",
+"https://www.conservatoriotoscanini.it/corsi-afam/"
+],
+[
+"woodwind",
+null,
+"Fagotto",
+"https://www.conservatoriotoscanini.it/corsi-afam/"
+],
+[
+"woodwind",
+null,
+"Flauto",
+"https://www.conservatoriotoscanini.it/corsi-afam/"
+],
+[
+"woodwind",
+null,
+"Oboe",
+"https://www.conservatoriotoscanini.it/corsi-afam/"
+],
+[
+"woodwind",
+null,
+"Saxofono",
+"https://www.conservatoriotoscanini.it/corsi-afam/"
+],
+[
+"brass",
+null,
+"Tromba",
+"https://www.conservatoriotoscanini.it/corsi-afam/"
+],
+[
+"brass",
+null,
+"Trombone",
+"https://www.conservatoriotoscanini.it/corsi-afam/"
+],
+[
+"guitar",
+null,
+"Chitarra",
+"https://www.conservatoriotoscanini.it/corsi-afam/"
+],
+[
+"strings",
+null,
+"Contrabbasso",
+"https://www.conservatoriotoscanini.it/corsi-afam/"
+],
+[
+"strings",
+null,
+"Viola",
+"https://www.conservatoriotoscanini.it/corsi-afam/"
+],
+[
+"strings",
+null,
+"Violino",
+"https://www.conservatoriotoscanini.it/corsi-afam/"
+],
+[
+"strings",
+null,
+"Violoncello",
+"https://www.conservatoriotoscanini.it/corsi-afam/"
+],
+[
+"piano",
+null,
+"Pianoforte",
+"https://www.conservatoriotoscanini.it/corsi-afam/"
+],
+[
+"percussion",
+null,
+"Strumenti a percussione",
+"https://www.conservatoriotoscanini.it/corsi-afam/"
+],
+[
+"jazz",
+null,
+"Nuove tecnologie e Linguaggi Musicali – Musica Jazz",
+"https://www.conservatoriotoscanini.it/corsi-afam/"
+],
+[
+"popular-music",
+null,
+"Nuove tecnologie e Linguaggi Musicali – Musica Pop Rock",
+"https://www.conservatoriotoscanini.it/corsi-afam/"
+],
+[
+"woodwind",
+null,
+"Fagotto ( ⭐Novità ⭐ )",
+"https://www.conservatoriotoscanini.it/corsi-afam/"
+],
+[
+"woodwind",
+null,
+"Oboe ( ⭐Novità ⭐ )",
+"https://www.conservatoriotoscanini.it/corsi-afam/"
+],
+[
+"woodwind",
+null,
+"Saxofono ( ⭐Novità ⭐ )",
+"https://www.conservatoriotoscanini.it/corsi-afam/"
+],
+[
+"percussion",
+null,
+"Strumenti a tastiera e a percussione",
+"https://www.conservatoriotoscanini.it/corsi-afam/"
+]
+],
+"I  ALESSAN01": [
+[
+"piano",
+null,
+"Piano 1 e 2 (",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"music-education",
+null,
+"DIDATTICA DELLA MUSICA",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"music-education",
+null,
+"DIDATTICA DELLA MUSICA (e ind. DIDATTICA DELLO STRUMENTO)",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"music-education",
+null,
+"DIDATTICA DELLA MUSICA - indirizzo MUSICOTERAPIA",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"music-therapy",
+null,
+"DIDATTICA DELLA MUSICA - indirizzo MUSICOTERAPIA",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"music-theory",
+null,
+"TEORIA E TECNICHE IN MUSICOTERAPIA",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"music-therapy",
+null,
+"TEORIA E TECNICHE IN MUSICOTERAPIA",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"harp",
+null,
+"ARPA",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"jazz",
+null,
+"BATTERIA E PERCUSSIONI JAZZ",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"vocal-opera",
+null,
+"CANTO",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"jazz",
+null,
+"CANTO JAZZ",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"early-music",
+null,
+"CANTO RINASCIMENTALE E BAROCCO",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"vocal-opera",
+null,
+"CANTO RINASCIMENTALE E BAROCCO",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"guitar",
+null,
+"CHITARRA",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"jazz",
+null,
+"CHITARRA JAZZ",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"woodwind",
+null,
+"CLARINETTO",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"woodwind",
+null,
+"CLARINETTO e CLARINETTO BASSO",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"jazz",
+null,
+"CLARINETTO JAZZ",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"early-music",
+null,
+"CLAVICEMBALO E TASTIERE STORICHE",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"composition",
+null,
+"COMPOSIZIONE",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"jazz",
+null,
+"COMPOSIZIONE JAZZ",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"strings",
+null,
+"CONTRABBASSO",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"jazz",
+null,
+"CONTRABBASSO JAZZ",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"brass",
+null,
+"CORNO",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"conducting",
+null,
+"DIREZIONE DI CORO E COMPOSIZIONE CORALE",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"composition",
+null,
+"DIREZIONE DI CORO E COMPOSIZIONE CORALE",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"woodwind",
+null,
+"FAGOTTO",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"accordion",
+null,
+"FISARMONICA",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"woodwind",
+null,
+"FLAUTO",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"early-music",
+null,
+"FLAUTO DOLCE",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"early-music",
+null,
+"LIUTO",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"chamber-music",
+null,
+"MUSICA D'INSIEME (Musica da camera vocale e strumentale)",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"vocal-opera",
+null,
+"MUSICA D'INSIEME (Musica da camera vocale e strumentale)",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"music-technology",
+null,
+"MUSICA ELETTRONICA",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"woodwind",
+null,
+"OBOE",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"woodwind",
+null,
+"OBOE e CORNO INGLESE",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"organ",
+null,
+"ORGANO E COMPOSIZIONE ORGANISTICA",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"composition",
+null,
+"ORGANO E COMPOSIZIONE ORGANISTICA",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"piano",
+null,
+"PIANOFORTE",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"jazz",
+null,
+"PIANOFORTE JAZZ",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"piano",
+null,
+"PIANOFORTE STORICO",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"woodwind",
+null,
+"SAXOFONO",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"jazz",
+null,
+"SAXOFONO JAZZ",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"percussion",
+null,
+"STRUMENTI A PERCUSSIONE",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"brass",
+null,
+"TROMBA",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"jazz",
+null,
+"TROMBA JAZZ",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"brass",
+null,
+"TROMBONE",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"jazz",
+null,
+"TROMBONE JAZZ",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"strings",
+null,
+"VIOLA",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"early-music",
+null,
+"VIOLA DA GAMBA",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"strings",
+null,
+"VIOLINO",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"early-music",
+null,
+"VIOLINO BAROCCO",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"jazz",
+null,
+"VIOLINO JAZZ",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"strings",
+null,
+"VIOLONCELLO",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"harp",
+null,
+"ARPA ARPA",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"vocal-opera",
+null,
+"CANTO CANTO",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"jazz",
+null,
+"CANTO JAZZ CANTO JAZZ",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"early-music",
+null,
+"CANTO RINASCIMENTALE E BAROCCO CANTO RINASCIMENTALE E BAROCCO",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"vocal-opera",
+null,
+"CANTO RINASCIMENTALE E BAROCCO CANTO RINASCIMENTALE E BAROCCO",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"guitar",
+null,
+"CHITARRA CHITARRA",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"jazz",
+null,
+"CHITARRA JAZZ CHITARRA JAZZ",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"woodwind",
+null,
+"CLARINETTO CLARINETTO e CLARINETTO BASSO",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"early-music",
+null,
+"LIUTO LIUTO",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"piano",
+null,
+"PIANOFORTE STORICO PIANOFORTE STORICO",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"early-music",
+null,
+"VIOLINO BAROCCO VIOLINO BAROCCO",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+],
+[
+"strings",
+null,
+"VIOLONCELLO VIOLONCELLO",
+"https://www.conservatoriovivaldi.it/corsi-accademici-tutte-le-scuole/"
+]
+]
+},
+"notes": {}
+}
