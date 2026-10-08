@@ -1,6 +1,6 @@
 {
  "meta": {
-  "description": "Study programmes per institution and fine-grained discipline (see disciplines.json). Collected so far: 204 institutions.",
+  "description": "Study programmes per institution and fine-grained discipline (see disciplines.json). Collected so far: 218 institutions.",
   "status": "pilot",
   "collected": "2026-10-08",
   "verified_note": "Every record has verified: false. Programme names and URLs were read from the institutions' own websites (programme lists and programme pages) but have not been checked by a person.",
@@ -39,11 +39,14 @@
    "CY NICOSIA24",
    "CZ BRNO03",
    "CZ PRAHA04",
+   "D  BERLIN03",
    "D  BERLIN16",
+   "D  BREMEN03",
    "D  DETMOLD01",
    "D  DRESDEN05",
    "D  DUSSELD06",
    "D  ESSEN02",
+   "D  FRANKFU02",
    "D  FREIBUR03",
    "D  HALLE04",
    "D  HAMBURG05",
@@ -51,12 +54,17 @@
    "D  KARLSRU03",
    "D  KOLN03",
    "D  LEIPZIG05",
+   "D  LUBECK02",
+   "D  MAINZ01",
    "D  MANNHEI02",
    "D  MANNHEI09",
+   "D  MUNCHEN03",
    "D  MUNSTER01",
    "D  NURNBER04",
+   "D  OSNABRU02",
    "D  REGENSB03",
    "D  ROSTOCK02",
+   "D  SAARBRU08",
    "D  STUTTGA03",
    "D  TROSSIN01",
    "D  TUBINGE02",
@@ -113,12 +121,15 @@
    "I  ADRIA01",
    "I  AGRIGEN02",
    "I  ALESSAN01",
+   "I  AOSTA03",
    "I  AVELLIN01",
    "I  BARI03",
    "I  BOLOGNA04",
    "I  COMO04",
    "I  CREMONA01",
+   "I  CUNEO01",
    "I  FIRENZE04",
+   "I  FIRENZE07",
    "I  FROSINO02",
    "I  LATINA02",
    "I  LECCE03",
@@ -126,6 +137,7 @@
    "I  MANTOVA01",
    "I  MATERA01",
    "I  MESSINA04",
+   "I  MILANO24",
    "I  MODENA05",
    "I  MONOPOL02",
    "I  NAPOLI07",
@@ -136,6 +148,8 @@
    "I  ROMA09",
    "I  ROVIGO01",
    "I  SASSARI02",
+   "I  SIENA05",
+   "I  TERAMO02",
    "I  TRAPANI02",
    "I  TRENTO02",
    "I  UDINE02",
@@ -514,6 +528,46 @@
      "E  VALENCI67",
      "E  VIGO03",
      "E  ZARAGOZ05"
+    ],
+    "date": "2026-10-08",
+    "method": "Field-level collection as in batch 1; where a site lists programmes only via JavaScript, the programme pages were located with a web search restricted to the institution's own domain (raw HTML of each institution's own programme pages, PDFs where the list was only there; names mapped to disciplines.json by keyword and checked by hand)."
+   },
+   {
+    "erasmus_codes": [
+     "D  BERLIN03",
+     "D  BREMEN03",
+     "D  FRANKFU02",
+     "D  LUBECK02",
+     "D  MAINZ01",
+     "D  MUNCHEN03",
+     "D  OSNABRU02",
+     "D  SAARBRU08",
+     "I  AOSTA03",
+     "I  CUNEO01",
+     "I  FIRENZE07",
+     "I  MILANO24",
+     "I  SIENA05",
+     "I  TERAMO02"
+    ],
+    "date": "2026-10-08",
+    "method": "Field-level collection as in batch 1; where a site lists programmes only via JavaScript, the programme pages were located with a web search restricted to the institution's own domain (raw HTML of each institution's own programme pages, PDFs where the list was only there; names mapped to disciplines.json by keyword and checked by hand)."
+   },
+   {
+    "erasmus_codes": [
+     "D  BERLIN03",
+     "D  BREMEN03",
+     "D  FRANKFU02",
+     "D  LUBECK02",
+     "D  MAINZ01",
+     "D  MUNCHEN03",
+     "D  OSNABRU02",
+     "D  SAARBRU08",
+     "I  AOSTA03",
+     "I  CUNEO01",
+     "I  FIRENZE07",
+     "I  MILANO24",
+     "I  SIENA05",
+     "I  TERAMO02"
     ],
     "date": "2026-10-08",
     "method": "Field-level collection as in batch 1; where a site lists programmes only via JavaScript, the programme pages were located with a web search restricted to the institution's own domain (raw HTML of each institution's own programme pages, PDFs where the list was only there; names mapped to disciplines.json by keyword and checked by hand)."
@@ -52747,6 +52801,3611 @@
      "level": "BA",
      "programme_name": "Flamenco – Guitarra flamenca",
      "url": "https://conservatoriosuperiorgranada.com/plan-de-estudios-2/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  AOSTA03",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.consaosta.it/corsi-accademici-primo-livello-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bassotuba",
+     "url": "https://www.consaosta.it/corsi-accademici-primo-livello-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bassotuba",
+     "url": "https://www.consaosta.it/corsi-accademici-di-secondo-livello-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  AOSTA03",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.consaosta.it/corsi-accademici-primo-livello-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Canto",
+     "url": "https://www.consaosta.it/corsi-accademici-primo-livello-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Canto",
+     "url": "https://www.consaosta.it/corsi-accademici-di-secondo-livello-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  AOSTA03",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.consaosta.it/corsi-accademici-primo-livello-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Chitarra",
+     "url": "https://www.consaosta.it/corsi-accademici-primo-livello-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Chitarra",
+     "url": "https://www.consaosta.it/corsi-accademici-di-secondo-livello-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  AOSTA03",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.consaosta.it/corsi-accademici-primo-livello-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Clarinetto",
+     "url": "https://www.consaosta.it/corsi-accademici-primo-livello-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Clarinetto",
+     "url": "https://www.consaosta.it/corsi-accademici-di-secondo-livello-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  AOSTA03",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.consaosta.it/corsi-accademici-primo-livello-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composizione",
+     "url": "https://www.consaosta.it/corsi-accademici-primo-livello-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Composizione",
+     "url": "https://www.consaosta.it/corsi-accademici-di-secondo-livello-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  AOSTA03",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.consaosta.it/corsi-accademici-primo-livello-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Contrabbasso",
+     "url": "https://www.consaosta.it/corsi-accademici-primo-livello-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Contrabbasso",
+     "url": "https://www.consaosta.it/corsi-accademici-di-secondo-livello-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  AOSTA03",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.consaosta.it/corsi-accademici-primo-livello-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Direzione di coro e composizione corale",
+     "url": "https://www.consaosta.it/corsi-accademici-primo-livello-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Direzione di coro e composizione corale",
+     "url": "https://www.consaosta.it/corsi-accademici-di-secondo-livello-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  AOSTA03",
+   "discipline": "accordion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.consaosta.it/corsi-accademici-primo-livello-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Fisarmonica",
+     "url": "https://www.consaosta.it/corsi-accademici-primo-livello-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Fisarmonica",
+     "url": "https://www.consaosta.it/corsi-accademici-di-secondo-livello-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  AOSTA03",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.consaosta.it/corsi-accademici-primo-livello-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Organo",
+     "url": "https://www.consaosta.it/corsi-accademici-primo-livello-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Organo",
+     "url": "https://www.consaosta.it/corsi-accademici-di-secondo-livello-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  AOSTA03",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.consaosta.it/corsi-accademici-primo-livello-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Pianoforte",
+     "url": "https://www.consaosta.it/corsi-accademici-primo-livello-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Pianoforte",
+     "url": "https://www.consaosta.it/corsi-accademici-di-secondo-livello-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  AOSTA03",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.consaosta.it/corsi-accademici-primo-livello-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Strumenti a percussione",
+     "url": "https://www.consaosta.it/corsi-accademici-primo-livello-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Strumenti a percussione",
+     "url": "https://www.consaosta.it/corsi-accademici-di-secondo-livello-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  AOSTA03",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.consaosta.it/corsi-accademici-primo-livello-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Offerta didattica",
+     "url": "https://www.consaosta.it/corsi-accademici-primo-livello-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Offerta didattica",
+     "url": "https://www.consaosta.it/corsi-accademici-di-secondo-livello-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  AOSTA03",
+   "discipline": "chamber-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.consaosta.it/corsi-accademici-di-secondo-livello-biennio/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Musica d'insieme",
+     "url": "https://www.consaosta.it/corsi-accademici-di-secondo-livello-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  TERAMO02",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriobraga.it/contents.asp?id=522",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "ERASMUS+ Incoming Teachers and Staff",
+     "url": "https://www.conservatoriobraga.it/contents.asp?id=522"
+    },
+    {
+     "level": "MA",
+     "programme_name": "ERASMUS+ Incoming Teachers and Staff",
+     "url": "https://www.conservatoriobraga.it/contents.asp?id=511"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  TERAMO02",
+   "discipline": "folk",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatoriobraga.it/contents.asp?id=522",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Corsi Classici, DISCRAM e Musiche Tradizionali",
+     "url": "https://www.conservatoriobraga.it/contents.asp?id=522"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  TERAMO02",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriobraga.it/contents.asp?id=522",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Corsi Jazz, Popular Music",
+     "url": "https://www.conservatoriobraga.it/contents.asp?id=522"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Corsi Jazz e Pop",
+     "url": "https://www.conservatoriobraga.it/contents.asp?id=511"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  TERAMO02",
+   "discipline": "popular-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriobraga.it/contents.asp?id=522",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Corsi Jazz, Popular Music",
+     "url": "https://www.conservatoriobraga.it/contents.asp?id=522"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Corsi Jazz e Pop",
+     "url": "https://www.conservatoriobraga.it/contents.asp?id=511"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  TERAMO02",
+   "discipline": "music-technology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriobraga.it/contents.asp?id=522",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Nuove tecnologie e linguaggi musicali",
+     "url": "https://www.conservatoriobraga.it/contents.asp?id=522"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Corsi di Nuove tecnologie e linguaggi musicali",
+     "url": "https://www.conservatoriobraga.it/contents.asp?id=511"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  TERAMO02",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriobraga.it/contents.asp?id=522",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Arpa DCPL01",
+     "url": "https://www.conservatoriobraga.it/contents.asp?id=522"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Arpa DCSL01",
+     "url": "https://www.conservatoriobraga.it/contents.asp?id=511"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  TERAMO02",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriobraga.it/contents.asp?id=522",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Canto DCPL06",
+     "url": "https://www.conservatoriobraga.it/contents.asp?id=522"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Canto DCSL06",
+     "url": "https://www.conservatoriobraga.it/contents.asp?id=511"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  TERAMO02",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriobraga.it/contents.asp?id=522",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Chitarra DCPL09",
+     "url": "https://www.conservatoriobraga.it/contents.asp?id=522"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Chitarra, Chitarra dell'800 DCSL09",
+     "url": "https://www.conservatoriobraga.it/contents.asp?id=511"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  TERAMO02",
+   "discipline": "global-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatoriobraga.it/contents.asp?id=522",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Chitarra a indirizzo flamenco DCPL09",
+     "url": "https://www.conservatoriobraga.it/contents.asp?id=522"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  TERAMO02",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriobraga.it/contents.asp?id=522",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Clarinetto DCPL11",
+     "url": "https://www.conservatoriobraga.it/contents.asp?id=522"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Clarinetto DCSL11",
+     "url": "https://www.conservatoriobraga.it/contents.asp?id=511"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  TERAMO02",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriobraga.it/contents.asp?id=522",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Clavicembalo e tastiere storiche DCPL14",
+     "url": "https://www.conservatoriobraga.it/contents.asp?id=522"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Flauto Dolce DCSL28",
+     "url": "https://www.conservatoriobraga.it/contents.asp?id=511"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  TERAMO02",
+   "discipline": "composition",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatoriobraga.it/contents.asp?id=522",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composizione DCPL15",
+     "url": "https://www.conservatoriobraga.it/contents.asp?id=522"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  TERAMO02",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriobraga.it/contents.asp?id=522",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Contrabbasso DCPL16",
+     "url": "https://www.conservatoriobraga.it/contents.asp?id=522"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Contrabbasso DCSL16",
+     "url": "https://www.conservatoriobraga.it/contents.asp?id=511"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  TERAMO02",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriobraga.it/contents.asp?id=522",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Corno DCPL19",
+     "url": "https://www.conservatoriobraga.it/contents.asp?id=522"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Corno DCSL19",
+     "url": "https://www.conservatoriobraga.it/contents.asp?id=511"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  TERAMO02",
+   "discipline": "accordion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriobraga.it/contents.asp?id=522",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Fisarmonica DCPL26",
+     "url": "https://www.conservatoriobraga.it/contents.asp?id=522"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Fisarmonica DCSL26",
+     "url": "https://www.conservatoriobraga.it/contents.asp?id=511"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  TERAMO02",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriobraga.it/contents.asp?id=522",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Pianoforte DCPL39",
+     "url": "https://www.conservatoriobraga.it/contents.asp?id=522"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Pianoforte DCSL39",
+     "url": "https://www.conservatoriobraga.it/contents.asp?id=511"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  TERAMO02",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriobraga.it/contents.asp?id=522",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Strumenti a Percussione DCPL44",
+     "url": "https://www.conservatoriobraga.it/contents.asp?id=522"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Strumenti a percussione DCSL44",
+     "url": "https://www.conservatoriobraga.it/contents.asp?id=511"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  TERAMO02",
+   "discipline": "chamber-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriobraga.it/contents.asp?id=511",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Musica da camera DCSL68",
+     "url": "https://www.conservatoriobraga.it/contents.asp?id=511"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  CUNEO01",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DIDATTICA DELLA MUSICA",
+     "url": "https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "DIDATTICA DELLA MUSICA (TFA, PAS)",
+     "url": "https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  CUNEO01",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "JAZZ",
+     "url": "https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "JAZZ",
+     "url": "https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  CUNEO01",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "ARPA",
+     "url": "https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "ARPA",
+     "url": "https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  CUNEO01",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "CANTO",
+     "url": "https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "CANTO BAROCCO",
+     "url": "https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  CUNEO01",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "CANTO RINASCIMENTALE E BAROCCO",
+     "url": "https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "CANTO BAROCCO",
+     "url": "https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  CUNEO01",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "CHITARRA",
+     "url": "https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "CHITARRA",
+     "url": "https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  CUNEO01",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "CLARINETTO",
+     "url": "https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "CLARINETTO",
+     "url": "https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  CUNEO01",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "COMPOSIZIONE",
+     "url": "https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "COMPOSIZIONE",
+     "url": "https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  CUNEO01",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "CONTRABBASSO",
+     "url": "https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "CONTRABBASSO",
+     "url": "https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  CUNEO01",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "CORNO",
+     "url": "https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "CORNO",
+     "url": "https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  CUNEO01",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DIREZIONE E COMPOSIZIONE CORALE",
+     "url": "https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "DIREZIONE DI CORO E COMPOSIZIONE CORALE",
+     "url": "https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  CUNEO01",
+   "discipline": "music-technology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "MUSICA ELETTRONICA INDIRIZZO TECNICO DEL SUONO",
+     "url": "https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "MUSICA ELETTRONICA",
+     "url": "https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  CUNEO01",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "ORGANO",
+     "url": "https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "ORGANO",
+     "url": "https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  CUNEO01",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "PIANOFORTE",
+     "url": "https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "PIANOFORTE",
+     "url": "https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  CUNEO01",
+   "discipline": "popular-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "POPULAR MUSIC",
+     "url": "https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  CUNEO01",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "STRUMENTI A PERCUSSIONE",
+     "url": "https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "STRUMENTI A PERCUSSIONE",
+     "url": "https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  SIENA05",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.sienajazz.it/university/corsi-accademici-di-i-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "JazzAble",
+     "url": "https://www.sienajazz.it/university/corsi-accademici-di-i-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "JazzAble",
+     "url": "https://www.sienajazz.it/university/corsi-accademici-di-ii-livello/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  SIENA05",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.sienajazz.it/university/corsi-accademici-di-i-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Abilitazione all’insegnamento",
+     "url": "https://www.sienajazz.it/university/corsi-accademici-di-i-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Abilitazione all’insegnamento",
+     "url": "https://www.sienajazz.it/university/corsi-accademici-di-ii-livello/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  SIENA05",
+   "discipline": "chamber-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.sienajazz.it/university/corsi-accademici-di-ii-livello/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "64 ore di Musica d’insieme come Laboratori d’interplay, divisi in due corsi",
+     "url": "https://www.sienajazz.it/university/corsi-accademici-di-ii-livello/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  SIENA05",
+   "discipline": "composition",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.sienajazz.it/university/corsi-accademici-di-ii-livello/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "32 ore di Analisi delle forme compositive",
+     "url": "https://www.sienajazz.it/university/corsi-accademici-di-ii-livello/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  FIRENZE07",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/violino-triennio-laurea-primo-livello",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Violino",
+     "url": "https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/violino-triennio-laurea-primo-livello"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Violino",
+     "url": "https://www.scuolamusicafiesole.it/corsi-accademici-secondo-livello/violino-diploma-afam-secondo-livello-biennio"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  FIRENZE07",
+   "discipline": "accordion",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/fisarmonica-triennio-laurea-primo-livello",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Fisarmonica",
+     "url": "https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/fisarmonica-triennio-laurea-primo-livello"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  FIRENZE07",
+   "discipline": "early-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/violino-barocco-triennio-laurea-primo-livello",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Violino barocco",
+     "url": "https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/violino-barocco-triennio-laurea-primo-livello"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  FIRENZE07",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/flauto-triennio-laurea-primo-livello",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Flauto",
+     "url": "https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/flauto-triennio-laurea-primo-livello"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Flauto",
+     "url": "https://www.scuolamusicafiesole.it/corsi-accademici-secondo-livello/flauto-diploma-afam-secondo-livello-biennio"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  FIRENZE07",
+   "discipline": "organ",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/organo-triennio-laurea-primo-livello",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Organo",
+     "url": "https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/organo-triennio-laurea-primo-livello"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  FIRENZE07",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/pianoforte-triennio-laurea-primo-livello",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Pianoforte",
+     "url": "https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/pianoforte-triennio-laurea-primo-livello"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Pianoforte",
+     "url": "https://www.scuolamusicafiesole.it/corsi-accademici-secondo-livello/pianoforte-diploma-afam-secondo-livello-biennio"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  FIRENZE07",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/corno-triennio-laurea-i-livello",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Corno",
+     "url": "https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/corno-triennio-laurea-i-livello"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Tromba",
+     "url": "https://www.scuolamusicafiesole.it/corsi-accademici-secondo-livello/tromba-diploma-afam-secondo-livello-biennio"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  FIRENZE07",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/canto-triennio-laurea-primo-livello",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Canto",
+     "url": "https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/canto-triennio-laurea-primo-livello"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Canto",
+     "url": "https://www.scuolamusicafiesole.it/corsi-accademici-secondo-livello/canto-diploma-afam-secondo-livello-biennio"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  FIRENZE07",
+   "discipline": "composition",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/composizione-triennio-laurea-primo-livello",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composizione",
+     "url": "https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/composizione-triennio-laurea-primo-livello"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  FIRENZE07",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/percussioni-triennio-laurea-primo-livello",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Percussioni",
+     "url": "https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/percussioni-triennio-laurea-primo-livello"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Percussioni",
+     "url": "https://www.scuolamusicafiesole.it/corsi-accademici-secondo-livello/percussioni-diploma-afam-secondo-livello-biennio"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  FIRENZE07",
+   "discipline": "music-technology",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/musica-applicata-musica-elettronica-e-composizione-triennio-laurea-primo-livello",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musica applicata (Musica elettronica e composizione)",
+     "url": "https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/musica-applicata-musica-elettronica-e-composizione-triennio-laurea-primo-livello"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  FIRENZE07",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/arpa-triennio-laurea-primo-livello",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Arpa",
+     "url": "https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/arpa-triennio-laurea-primo-livello"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Arpa",
+     "url": "https://www.scuolamusicafiesole.it/corsi-accademici-secondo-livello/arpa-diploma-afam-secondo-livello-biennio"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  FIRENZE07",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/chitarra-triennio-laurea-primo-livello",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Chitarra",
+     "url": "https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/chitarra-triennio-laurea-primo-livello"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Chitarra",
+     "url": "https://www.scuolamusicafiesole.it/corsi-accademici-secondo-livello/chitarra-diploma-afam-secondo-livello-biennio"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  FIRENZE07",
+   "discipline": "jazz",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello-jazz/canto-jazz-triennio-laurea-di-primo-livello",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Canto Jazz",
+     "url": "https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello-jazz/canto-jazz-triennio-laurea-di-primo-livello"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  FIRENZE07",
+   "discipline": "chamber-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.scuolamusicafiesole.it/corsi-accademici-secondo-livello/musica-da-camera-diploma-afam-secondo-livello-biennio",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Musica da Camera",
+     "url": "https://www.scuolamusicafiesole.it/corsi-accademici-secondo-livello/musica-da-camera-diploma-afam-secondo-livello-biennio"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  MILANO24",
+   "discipline": "popular-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.cpm.it/corsi/basso-elettrico-pop-rock-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Basso elettrico Pop Rock",
+     "url": "https://www.cpm.it/corsi/basso-elettrico-pop-rock-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Basso elettrico Pop Rock",
+     "url": "https://www.cpm.it/corsi/basso-elettrico-accademico-biennio/"
+    },
+    {
+     "level": null,
+     "programme_name": "Canto Pop Rock",
+     "url": "https://www.cpm.it/corsi/canto-pop-rock/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  MILANO24",
+   "discipline": "vocal-opera",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.cpm.it/corsi/canto-classico/",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Canto Classico",
+     "url": "https://www.cpm.it/corsi/canto-classico/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Canto Pop Rock",
+     "url": "https://www.cpm.it/corsi/corso-canto-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  MILANO24",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.cpm.it/corsi/corso-composizione-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composizione Pop Rock",
+     "url": "https://www.cpm.it/corsi/corso-composizione-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Composizione Pop Rock",
+     "url": "https://www.cpm.it/corsi/composizione-accademico-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  MILANO24",
+   "discipline": "music-technology",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.cpm.it/corsi/corso-tecnico-del-suono-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Tecnico del Suono",
+     "url": "https://www.cpm.it/corsi/corso-tecnico-del-suono-triennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MUNCHEN03",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://website.hmtm.de/de/studium/studienangebot/studiengaenge",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Studiengänge: Akkordeon, Blasinstrumente, Gesang, Gitarre, Harfe, Klavier, Orgel, Pauke-Schlagzeug, Streichinstrumente",
+     "url": "https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Studiengänge: Akkordeon, Blasinstrumente, Gesang, Gitarre, Harfe, Klavier, Orgel, Pauke-Schlagzeug, Streichinstrumente",
+     "url": "https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MUNCHEN03",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://website.hmtm.de/de/studium/studienangebot/studiengaenge",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Studiengänge: Akkordeon, Blasinstrumente, Gesang, Gitarre, Harfe, Klavier, Orgel, Pauke-Schlagzeug, Streichinstrumente",
+     "url": "https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Studiengänge: Akkordeon, Blasinstrumente, Gesang, Gitarre, Harfe, Klavier, Orgel, Pauke-Schlagzeug, Streichinstrumente",
+     "url": "https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MUNCHEN03",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://website.hmtm.de/de/studium/studienangebot/studiengaenge",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Studiengänge: Akkordeon, Blasinstrumente, Gesang, Gitarre, Harfe, Klavier, Orgel, Pauke-Schlagzeug, Streichinstrumente",
+     "url": "https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Studiengänge: Akkordeon, Blasinstrumente, Gesang, Gitarre, Harfe, Klavier, Orgel, Pauke-Schlagzeug, Streichinstrumente",
+     "url": "https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MUNCHEN03",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://website.hmtm.de/de/studium/studienangebot/studiengaenge",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Studiengänge: Akkordeon, Blasinstrumente, Gesang, Gitarre, Harfe, Klavier, Orgel, Pauke-Schlagzeug, Streichinstrumente",
+     "url": "https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Studiengänge: Akkordeon, Blasinstrumente, Gesang, Gitarre, Harfe, Klavier, Orgel, Pauke-Schlagzeug, Streichinstrumente",
+     "url": "https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MUNCHEN03",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://website.hmtm.de/de/studium/studienangebot/studiengaenge",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Studiengänge: Akkordeon, Blasinstrumente, Gesang, Gitarre, Harfe, Klavier, Orgel, Pauke-Schlagzeug, Streichinstrumente",
+     "url": "https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Studiengänge: Akkordeon, Blasinstrumente, Gesang, Gitarre, Harfe, Klavier, Orgel, Pauke-Schlagzeug, Streichinstrumente",
+     "url": "https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MUNCHEN03",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://website.hmtm.de/de/studium/studienangebot/studiengaenge",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Studiengänge: Akkordeon, Blasinstrumente, Gesang, Gitarre, Harfe, Klavier, Orgel, Pauke-Schlagzeug, Streichinstrumente",
+     "url": "https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Studiengänge: Akkordeon, Blasinstrumente, Gesang, Gitarre, Harfe, Klavier, Orgel, Pauke-Schlagzeug, Streichinstrumente",
+     "url": "https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MUNCHEN03",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://website.hmtm.de/de/studium/studienangebot/studiengaenge",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Studiengänge: Akkordeon, Blasinstrumente, Gesang, Gitarre, Harfe, Klavier, Orgel, Pauke-Schlagzeug, Streichinstrumente",
+     "url": "https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Studiengänge: Akkordeon, Blasinstrumente, Gesang, Gitarre, Harfe, Klavier, Orgel, Pauke-Schlagzeug, Streichinstrumente",
+     "url": "https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MUNCHEN03",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://website.hmtm.de/de/studium/studienangebot/studiengaenge",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Studiengänge: Akkordeon, Blasinstrumente, Gesang, Gitarre, Harfe, Klavier, Orgel, Pauke-Schlagzeug, Streichinstrumente",
+     "url": "https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Studiengänge: Akkordeon, Blasinstrumente, Gesang, Gitarre, Harfe, Klavier, Orgel, Pauke-Schlagzeug, Streichinstrumente",
+     "url": "https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MUNCHEN03",
+   "discipline": "accordion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://website.hmtm.de/de/studium/studienangebot/studiengaenge",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Studiengänge: Akkordeon, Blasinstrumente, Gesang, Gitarre, Harfe, Klavier, Orgel, Pauke-Schlagzeug, Streichinstrumente",
+     "url": "https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Studiengänge: Akkordeon, Blasinstrumente, Gesang, Gitarre, Harfe, Klavier, Orgel, Pauke-Schlagzeug, Streichinstrumente",
+     "url": "https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MUNCHEN03",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://website.hmtm.de/de/studium/studienangebot/studiengaenge",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Studiengänge: Akkordeon, Blasinstrumente, Gesang, Gitarre, Harfe, Klavier, Orgel, Pauke-Schlagzeug, Streichinstrumente",
+     "url": "https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Studiengänge: Akkordeon, Blasinstrumente, Gesang, Gitarre, Harfe, Klavier, Orgel, Pauke-Schlagzeug, Streichinstrumente",
+     "url": "https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MUNCHEN03",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://website.hmtm.de/de/studium/studienangebot/studiengaenge",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Blockflöte, Cembalo, Historische Aufführungspraxis",
+     "url": "https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Blockflöte, Cembalo, Historische Aufführungspraxis",
+     "url": "https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MUNCHEN03",
+   "discipline": "folk",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://hmtm.de/en/courses/folk-music-bm-ps/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Volksmusik; Hackbrett; Zither",
+     "url": "https://hmtm.de/en/courses/folk-music-bm-ps/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MUNCHEN03",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://hmtm.de/en/courses/jazz-bm-en/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Jazz (Bachelor, Master); Jazz Education (Master)",
+     "url": "https://hmtm.de/en/courses/jazz-bm-en/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Jazz (Bachelor, Master); Jazz Education (Master)",
+     "url": "https://hmtm.de/en/courses/jazz-bm-en/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MUNCHEN03",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://website.hmtm.de/de/studium/studienangebot/studiengaenge",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Chordirigieren",
+     "url": "https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Chordirigieren",
+     "url": "https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MUNCHEN03",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://hmtm.de/en/courses/music-mediation-ma/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Elementare Musikpädagogik; Instrumental- und Gesangspädagogik; Musikvermittlung (Master)",
+     "url": "https://hmtm.de/en/courses/music-mediation-ma/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Elementare Musikpädagogik; Instrumental- und Gesangspädagogik; Musikvermittlung (Master)",
+     "url": "https://hmtm.de/en/courses/music-mediation-ma/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MUNCHEN03",
+   "discipline": "composition",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://website.hmtm.de/de/studium/studienangebot/studiengaenge",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Contemporary Music (Master)",
+     "url": "https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  BERLIN03",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+     "url": "https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+     "url": "https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  BERLIN03",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+     "url": "https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+     "url": "https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  BERLIN03",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+     "url": "https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+     "url": "https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  BERLIN03",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+     "url": "https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+     "url": "https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  BERLIN03",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+     "url": "https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+     "url": "https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  BERLIN03",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+     "url": "https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+     "url": "https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  BERLIN03",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+     "url": "https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+     "url": "https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  BERLIN03",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+     "url": "https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+     "url": "https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  BERLIN03",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+     "url": "https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+     "url": "https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  BERLIN03",
+   "discipline": "church-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+     "url": "https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+     "url": "https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  BERLIN03",
+   "discipline": "music-technology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+     "url": "https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+     "url": "https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  BERLIN03",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Alte Musik (u. a. Cembalo, Laute)",
+     "url": "https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Alte Musik (u. a. Cembalo, Laute)",
+     "url": "https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  BERLIN03",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Jazz-Institut Berlin: Bachelor Jazz; Master Jazz Arrangement/Composition",
+     "url": "https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Jazz-Institut Berlin: Bachelor Jazz; Master Jazz Arrangement/Composition",
+     "url": "https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  BERLIN03",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.udk-berlin.de/en/courses/voiceopera/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Gesang / Musiktheater",
+     "url": "https://www.udk-berlin.de/en/courses/voiceopera/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Gesang / Musiktheater",
+     "url": "https://www.udk-berlin.de/en/courses/voiceopera/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  BERLIN03",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.udk-berlin.de/studium/kuenstlerisch-paedagogische-ausbildung/studium/master/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Künstlerisch-Pädagogische Ausbildung (Musiktheorie, Chor-/Ensembleleitung, EMP); Lehramt Musik",
+     "url": "https://www.udk-berlin.de/studium/kuenstlerisch-paedagogische-ausbildung/studium/master/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Künstlerisch-Pädagogische Ausbildung (Musiktheorie, Chor-/Ensembleleitung, EMP); Lehramt Musik",
+     "url": "https://www.udk-berlin.de/studium/kuenstlerisch-paedagogische-ausbildung/studium/master/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  BERLIN03",
+   "discipline": "music-theory",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.udk-berlin.de/studium/kuenstlerisch-paedagogische-ausbildung/studium/master/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Künstlerisch-Pädagogische Ausbildung (Musiktheorie, Chor-/Ensembleleitung, EMP); Lehramt Musik",
+     "url": "https://www.udk-berlin.de/studium/kuenstlerisch-paedagogische-ausbildung/studium/master/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Künstlerisch-Pädagogische Ausbildung (Musiktheorie, Chor-/Ensembleleitung, EMP); Lehramt Musik",
+     "url": "https://www.udk-berlin.de/studium/kuenstlerisch-paedagogische-ausbildung/studium/master/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  LUBECK02",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+     "url": "https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+     "url": "https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  LUBECK02",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+     "url": "https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+     "url": "https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  LUBECK02",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+     "url": "https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+     "url": "https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  LUBECK02",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+     "url": "https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+     "url": "https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  LUBECK02",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+     "url": "https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+     "url": "https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  LUBECK02",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+     "url": "https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+     "url": "https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  LUBECK02",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+     "url": "https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+     "url": "https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  LUBECK02",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+     "url": "https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+     "url": "https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  LUBECK02",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+     "url": "https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+     "url": "https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  LUBECK02",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+     "url": "https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+     "url": "https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  LUBECK02",
+   "discipline": "music-theory",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+     "url": "https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+     "url": "https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  LUBECK02",
+   "discipline": "church-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+     "url": "https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+     "url": "https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  LUBECK02",
+   "discipline": "chamber-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Master of Music – Kammermusik",
+     "url": "https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  LUBECK02",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-luebeck.de/studium/studiengaenge/bachelor-of-music-instrumentale-und-elementare-musikpaedagogik/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentale und Elementare Musikpädagogik; Musik Vermitteln (B.A.); Master of Education; IGP",
+     "url": "https://www.mh-luebeck.de/studium/studiengaenge/bachelor-of-music-instrumentale-und-elementare-musikpaedagogik/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentale und Elementare Musikpädagogik; Musik Vermitteln (B.A.); Master of Education; IGP",
+     "url": "https://www.mh-luebeck.de/studium/studiengaenge/bachelor-of-music-instrumentale-und-elementare-musikpaedagogik/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  BREMEN03",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://altemusik.hfk-bremen.de/en/courses-of-study/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Alte Musik (B.Mus., M.Mus.)",
+     "url": "https://altemusik.hfk-bremen.de/en/courses-of-study/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Alte Musik (B.Mus., M.Mus.)",
+     "url": "https://altemusik.hfk-bremen.de/en/courses-of-study/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  BREMEN03",
+   "discipline": "church-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://altemusik.hfk-bremen.de/en/courses-of-study/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Master historische Kirchenmusik",
+     "url": "https://altemusik.hfk-bremen.de/en/courses-of-study/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  BREMEN03",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfk-bremen.de/de/kuenstlerisch-paedagogische-ausbildung-kpa",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Künstlerisch-Pädagogische Ausbildung (IGP, EMP, Musiktheorie)",
+     "url": "https://www.hfk-bremen.de/de/kuenstlerisch-paedagogische-ausbildung-kpa"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Künstlerisch-Pädagogische Ausbildung (IGP, EMP, Musiktheorie)",
+     "url": "https://www.hfk-bremen.de/de/kuenstlerisch-paedagogische-ausbildung-kpa"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  BREMEN03",
+   "discipline": "music-theory",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfk-bremen.de/de/kuenstlerisch-paedagogische-ausbildung-kpa",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Künstlerisch-Pädagogische Ausbildung (IGP, EMP, Musiktheorie)",
+     "url": "https://www.hfk-bremen.de/de/kuenstlerisch-paedagogische-ausbildung-kpa"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Künstlerisch-Pädagogische Ausbildung (IGP, EMP, Musiktheorie)",
+     "url": "https://www.hfk-bremen.de/de/kuenstlerisch-paedagogische-ausbildung-kpa"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  SAARBRU08",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor / Master Instrument; Tasteninstrumente und Gitarre; Gesang",
+     "url": "http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelor / Master Instrument; Tasteninstrumente und Gitarre; Gesang",
+     "url": "http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  SAARBRU08",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor / Master Instrument; Tasteninstrumente und Gitarre; Gesang",
+     "url": "http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelor / Master Instrument; Tasteninstrumente und Gitarre; Gesang",
+     "url": "http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  SAARBRU08",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor / Master Instrument; Tasteninstrumente und Gitarre; Gesang",
+     "url": "http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelor / Master Instrument; Tasteninstrumente und Gitarre; Gesang",
+     "url": "http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  SAARBRU08",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor / Master Instrument; Tasteninstrumente und Gitarre; Gesang",
+     "url": "http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelor / Master Instrument; Tasteninstrumente und Gitarre; Gesang",
+     "url": "http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  SAARBRU08",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor / Master Instrument; Tasteninstrumente und Gitarre; Gesang",
+     "url": "http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelor / Master Instrument; Tasteninstrumente und Gitarre; Gesang",
+     "url": "http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  SAARBRU08",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor / Master Instrument; Tasteninstrumente und Gitarre; Gesang",
+     "url": "http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelor / Master Instrument; Tasteninstrumente und Gitarre; Gesang",
+     "url": "http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  SAARBRU08",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor / Master Instrument; Tasteninstrumente und Gitarre; Gesang",
+     "url": "http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelor / Master Instrument; Tasteninstrumente und Gitarre; Gesang",
+     "url": "http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  SAARBRU08",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor / Master Instrument; Tasteninstrumente und Gitarre; Gesang",
+     "url": "http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelor / Master Instrument; Tasteninstrumente und Gitarre; Gesang",
+     "url": "http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  SAARBRU08",
+   "discipline": "accordion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor / Master Instrument; Tasteninstrumente und Gitarre; Gesang",
+     "url": "http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelor / Master Instrument; Tasteninstrumente und Gitarre; Gesang",
+     "url": "http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  SAARBRU08",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor / Master Instrument; Tasteninstrumente und Gitarre; Gesang",
+     "url": "http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelor / Master Instrument; Tasteninstrumente und Gitarre; Gesang",
+     "url": "http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  SAARBRU08",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "http://www.hfm.saarland.de/en/studies/study-offer/master-programmes/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Jazz und aktuelle Musik (B.Mus.); Master of Music Jazz",
+     "url": "http://www.hfm.saarland.de/en/studies/study-offer/master-programmes/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Jazz und aktuelle Musik (B.Mus.); Master of Music Jazz",
+     "url": "http://www.hfm.saarland.de/en/studies/study-offer/master-programmes/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  SAARBRU08",
+   "discipline": "popular-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "http://www.hfm.saarland.de/en/studies/study-offer/master-programmes/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Jazz und aktuelle Musik (B.Mus.); Master of Music Jazz",
+     "url": "http://www.hfm.saarland.de/en/studies/study-offer/master-programmes/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Jazz und aktuelle Musik (B.Mus.); Master of Music Jazz",
+     "url": "http://www.hfm.saarland.de/en/studies/study-offer/master-programmes/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  SAARBRU08",
+   "discipline": "church-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "http://www.hfm.saarland.de/en/studies/study-offer/master-programmes/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kirchenmusik",
+     "url": "http://www.hfm.saarland.de/en/studies/study-offer/master-programmes/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kirchenmusik",
+     "url": "http://www.hfm.saarland.de/en/studies/study-offer/master-programmes/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  SAARBRU08",
+   "discipline": "chamber-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "http://www.hfm.saarland.de/en/studies/study-offer/master-programmes/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Master: Kammermusik, Komposition, Dirigieren, Musiktheorie, Kulturmanagement",
+     "url": "http://www.hfm.saarland.de/en/studies/study-offer/master-programmes/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  SAARBRU08",
+   "discipline": "composition",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "http://www.hfm.saarland.de/en/studies/study-offer/master-programmes/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Master: Kammermusik, Komposition, Dirigieren, Musiktheorie, Kulturmanagement",
+     "url": "http://www.hfm.saarland.de/en/studies/study-offer/master-programmes/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  SAARBRU08",
+   "discipline": "conducting",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "http://www.hfm.saarland.de/en/studies/study-offer/master-programmes/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Master: Kammermusik, Komposition, Dirigieren, Musiktheorie, Kulturmanagement",
+     "url": "http://www.hfm.saarland.de/en/studies/study-offer/master-programmes/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  SAARBRU08",
+   "discipline": "music-theory",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "http://www.hfm.saarland.de/en/studies/study-offer/master-programmes/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Master: Kammermusik, Komposition, Dirigieren, Musiktheorie, Kulturmanagement",
+     "url": "http://www.hfm.saarland.de/en/studies/study-offer/master-programmes/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  SAARBRU08",
+   "discipline": "arts-management",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "http://www.hfm.saarland.de/en/studies/study-offer/master-programmes/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Master: Kammermusik, Komposition, Dirigieren, Musiktheorie, Kulturmanagement",
+     "url": "http://www.hfm.saarland.de/en/studies/study-offer/master-programmes/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  SAARBRU08",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Lehramt Musik",
+     "url": "http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Lehramt Musik",
+     "url": "http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MAINZ01",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.musik.uni-mainz.de/studium/studienangebot/jazz-pop-musik-b-mus/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Jazz und Populäre Musik (B.Mus., M.Mus.)",
+     "url": "https://www.musik.uni-mainz.de/studium/studienangebot/jazz-pop-musik-b-mus/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Jazz und Populäre Musik (B.Mus., M.Mus.)",
+     "url": "https://www.musik.uni-mainz.de/studium/studienangebot/jazz-pop-musik-b-mus/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MAINZ01",
+   "discipline": "popular-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.musik.uni-mainz.de/studium/studienangebot/jazz-pop-musik-b-mus/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Jazz und Populäre Musik (B.Mus., M.Mus.)",
+     "url": "https://www.musik.uni-mainz.de/studium/studienangebot/jazz-pop-musik-b-mus/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Jazz und Populäre Musik (B.Mus., M.Mus.)",
+     "url": "https://www.musik.uni-mainz.de/studium/studienangebot/jazz-pop-musik-b-mus/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MAINZ01",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.musik.uni-mainz.de/studium/studienangebot/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Orchesterinstrumente (incl. Gitarre); Klavier",
+     "url": "https://www.musik.uni-mainz.de/studium/studienangebot/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Orchesterinstrumente (incl. Gitarre); Klavier",
+     "url": "https://www.musik.uni-mainz.de/studium/studienangebot/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MAINZ01",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.musik.uni-mainz.de/studium/studienangebot/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Orchesterinstrumente (incl. Gitarre); Klavier",
+     "url": "https://www.musik.uni-mainz.de/studium/studienangebot/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Orchesterinstrumente (incl. Gitarre); Klavier",
+     "url": "https://www.musik.uni-mainz.de/studium/studienangebot/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MAINZ01",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.musik.uni-mainz.de/studium/studienangebot/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Orchesterinstrumente (incl. Gitarre); Klavier",
+     "url": "https://www.musik.uni-mainz.de/studium/studienangebot/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Orchesterinstrumente (incl. Gitarre); Klavier",
+     "url": "https://www.musik.uni-mainz.de/studium/studienangebot/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MAINZ01",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.musik.uni-mainz.de/studium/studienangebot/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Orchesterinstrumente (incl. Gitarre); Klavier",
+     "url": "https://www.musik.uni-mainz.de/studium/studienangebot/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Orchesterinstrumente (incl. Gitarre); Klavier",
+     "url": "https://www.musik.uni-mainz.de/studium/studienangebot/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MAINZ01",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.musik.uni-mainz.de/studium/studienangebot/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Orchesterinstrumente (incl. Gitarre); Klavier",
+     "url": "https://www.musik.uni-mainz.de/studium/studienangebot/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Orchesterinstrumente (incl. Gitarre); Klavier",
+     "url": "https://www.musik.uni-mainz.de/studium/studienangebot/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MAINZ01",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.musik.uni-mainz.de/studium/studienangebot/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Orchesterinstrumente (incl. Gitarre); Klavier",
+     "url": "https://www.musik.uni-mainz.de/studium/studienangebot/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Orchesterinstrumente (incl. Gitarre); Klavier",
+     "url": "https://www.musik.uni-mainz.de/studium/studienangebot/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MAINZ01",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.musik.uni-mainz.de/studium/studienangebot/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Orchesterinstrumente (incl. Gitarre); Klavier",
+     "url": "https://www.musik.uni-mainz.de/studium/studienangebot/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Orchesterinstrumente (incl. Gitarre); Klavier",
+     "url": "https://www.musik.uni-mainz.de/studium/studienangebot/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MAINZ01",
+   "discipline": "church-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.musik.uni-mainz.de/studium/studienangebot/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kirchenmusik (B.Mus., M.Mus.)",
+     "url": "https://www.musik.uni-mainz.de/studium/studienangebot/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kirchenmusik (B.Mus., M.Mus.)",
+     "url": "https://www.musik.uni-mainz.de/studium/studienangebot/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MAINZ01",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.musik.uni-mainz.de/studium/studienangebot/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kirchenmusik (B.Mus., M.Mus.)",
+     "url": "https://www.musik.uni-mainz.de/studium/studienangebot/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kirchenmusik (B.Mus., M.Mus.)",
+     "url": "https://www.musik.uni-mainz.de/studium/studienangebot/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MAINZ01",
+   "discipline": "music-education",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.musik.uni-mainz.de/studium/studienangebot/emp-b-mus/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Elementare Musikpädagogik (B.Mus.)",
+     "url": "https://www.musik.uni-mainz.de/studium/studienangebot/emp-b-mus/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  FRANKFU02",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Künstlerische Ausbildung Musik (KAM): Orchesterinstrumente, Klavier/Gitarre, Orgel, Dirigieren",
+     "url": "https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Künstlerische Ausbildung Musik (KAM): Orchesterinstrumente, Klavier/Gitarre, Orgel, Dirigieren",
+     "url": "https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  FRANKFU02",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Künstlerische Ausbildung Musik (KAM): Orchesterinstrumente, Klavier/Gitarre, Orgel, Dirigieren",
+     "url": "https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Künstlerische Ausbildung Musik (KAM): Orchesterinstrumente, Klavier/Gitarre, Orgel, Dirigieren",
+     "url": "https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  FRANKFU02",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Künstlerische Ausbildung Musik (KAM): Orchesterinstrumente, Klavier/Gitarre, Orgel, Dirigieren",
+     "url": "https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Künstlerische Ausbildung Musik (KAM): Orchesterinstrumente, Klavier/Gitarre, Orgel, Dirigieren",
+     "url": "https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  FRANKFU02",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Künstlerische Ausbildung Musik (KAM): Orchesterinstrumente, Klavier/Gitarre, Orgel, Dirigieren",
+     "url": "https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Künstlerische Ausbildung Musik (KAM): Orchesterinstrumente, Klavier/Gitarre, Orgel, Dirigieren",
+     "url": "https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  FRANKFU02",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Künstlerische Ausbildung Musik (KAM): Orchesterinstrumente, Klavier/Gitarre, Orgel, Dirigieren",
+     "url": "https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Künstlerische Ausbildung Musik (KAM): Orchesterinstrumente, Klavier/Gitarre, Orgel, Dirigieren",
+     "url": "https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  FRANKFU02",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Künstlerische Ausbildung Musik (KAM): Orchesterinstrumente, Klavier/Gitarre, Orgel, Dirigieren",
+     "url": "https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Künstlerische Ausbildung Musik (KAM): Orchesterinstrumente, Klavier/Gitarre, Orgel, Dirigieren",
+     "url": "https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  FRANKFU02",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Künstlerische Ausbildung Musik (KAM): Orchesterinstrumente, Klavier/Gitarre, Orgel, Dirigieren",
+     "url": "https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Künstlerische Ausbildung Musik (KAM): Orchesterinstrumente, Klavier/Gitarre, Orgel, Dirigieren",
+     "url": "https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  FRANKFU02",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Künstlerische Ausbildung Musik (KAM): Orchesterinstrumente, Klavier/Gitarre, Orgel, Dirigieren",
+     "url": "https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Künstlerische Ausbildung Musik (KAM): Orchesterinstrumente, Klavier/Gitarre, Orgel, Dirigieren",
+     "url": "https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  FRANKFU02",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Künstlerische Ausbildung Musik (KAM): Historische Instrumente",
+     "url": "https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Künstlerische Ausbildung Musik (KAM): Historische Instrumente",
+     "url": "https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  FRANKFU02",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmdk-frankfurt.de/thema/instrumentalpaedagogik",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalpädagogik",
+     "url": "https://www.hfmdk-frankfurt.de/thema/instrumentalpaedagogik"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalpädagogik",
+     "url": "https://www.hfmdk-frankfurt.de/thema/instrumentalpaedagogik"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  FRANKFU02",
+   "discipline": "jazz",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.hfmdk-frankfurt.de/en/studiengang/bigband-instrumentalists-composers-and-conductors-master",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Master Bigband (Instrumentalists, Composers and Conductors)",
+     "url": "https://www.hfmdk-frankfurt.de/en/studiengang/bigband-instrumentalists-composers-and-conductors-master"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  FRANKFU02",
+   "discipline": "composition",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.hfmdk-frankfurt.de/en/studiengang/bigband-instrumentalists-composers-and-conductors-master",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Master Bigband (Instrumentalists, Composers and Conductors)",
+     "url": "https://www.hfmdk-frankfurt.de/en/studiengang/bigband-instrumentalists-composers-and-conductors-master"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  OSNABRU02",
+   "discipline": "popular-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.hs-osnabrueck.de/studium/studienangebot/bachelor/musikerziehung-ba-pop/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikerziehung (B.A.) – Pop",
+     "url": "https://www.hs-osnabrueck.de/studium/studienangebot/bachelor/musikerziehung-ba-pop/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  OSNABRU02",
+   "discipline": "music-education",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.hs-osnabrueck.de/studium/studienangebot/bachelor/musikerziehung-ba-pop/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikerziehung (B.A.) – Pop",
+     "url": "https://www.hs-osnabrueck.de/studium/studienangebot/bachelor/musikerziehung-ba-pop/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  OSNABRU02",
+   "discipline": "jazz",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.hs-osnabrueck.de/studium/studienangebot/bachelor/musikerziehung-ba-jazz/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikerziehung (B.A.) – Jazz",
+     "url": "https://www.hs-osnabrueck.de/studium/studienangebot/bachelor/musikerziehung-ba-jazz/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  OSNABRU02",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.hs-osnabrueck.de/studium/studienangebot/bachelor/musikerziehung-ba-musical/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikerziehung (B.A.) – Musical",
+     "url": "https://www.hs-osnabrueck.de/studium/studienangebot/bachelor/musikerziehung-ba-musical/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  OSNABRU02",
+   "discipline": "strings",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.hs-osnabrueck.de/wir/fakultaeten/ifm/klassik/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikerziehung (B.A.) – Klassik (Instrument, Gesang, Komposition, Musiktheorie)",
+     "url": "https://www.hs-osnabrueck.de/wir/fakultaeten/ifm/klassik/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  OSNABRU02",
+   "discipline": "woodwind",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.hs-osnabrueck.de/wir/fakultaeten/ifm/klassik/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikerziehung (B.A.) – Klassik (Instrument, Gesang, Komposition, Musiktheorie)",
+     "url": "https://www.hs-osnabrueck.de/wir/fakultaeten/ifm/klassik/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  OSNABRU02",
+   "discipline": "brass",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.hs-osnabrueck.de/wir/fakultaeten/ifm/klassik/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikerziehung (B.A.) – Klassik (Instrument, Gesang, Komposition, Musiktheorie)",
+     "url": "https://www.hs-osnabrueck.de/wir/fakultaeten/ifm/klassik/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  OSNABRU02",
+   "discipline": "percussion",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.hs-osnabrueck.de/wir/fakultaeten/ifm/klassik/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikerziehung (B.A.) – Klassik (Instrument, Gesang, Komposition, Musiktheorie)",
+     "url": "https://www.hs-osnabrueck.de/wir/fakultaeten/ifm/klassik/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  OSNABRU02",
+   "discipline": "piano",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.hs-osnabrueck.de/wir/fakultaeten/ifm/klassik/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikerziehung (B.A.) – Klassik (Instrument, Gesang, Komposition, Musiktheorie)",
+     "url": "https://www.hs-osnabrueck.de/wir/fakultaeten/ifm/klassik/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  OSNABRU02",
+   "discipline": "composition",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.hs-osnabrueck.de/wir/fakultaeten/ifm/klassik/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikerziehung (B.A.) – Klassik (Instrument, Gesang, Komposition, Musiktheorie)",
+     "url": "https://www.hs-osnabrueck.de/wir/fakultaeten/ifm/klassik/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  OSNABRU02",
+   "discipline": "music-theory",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.hs-osnabrueck.de/wir/fakultaeten/ifm/klassik/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikerziehung (B.A.) – Klassik (Instrument, Gesang, Komposition, Musiktheorie)",
+     "url": "https://www.hs-osnabrueck.de/wir/fakultaeten/ifm/klassik/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
     }
    ],
    "verified": false

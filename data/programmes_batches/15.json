@@ -1,0 +1,3133 @@
+{
+"collected": "2026-10-08",
+"method": "Field-level collection as in batch 1; where a site lists programmes only via JavaScript, the programme pages were located with a web search restricted to the institution's own domain (raw HTML of each institution's own programme pages, PDFs where the list was only there; names mapped to disciplines.json by keyword and checked by hand).",
+"institutions": {
+"I  AOSTA03": [
+[
+"brass",
+"BA",
+"Bassotuba",
+"https://www.consaosta.it/corsi-accademici-primo-livello-triennio/"
+],
+[
+"vocal-opera",
+"BA",
+"Canto",
+"https://www.consaosta.it/corsi-accademici-primo-livello-triennio/"
+],
+[
+"guitar",
+"BA",
+"Chitarra",
+"https://www.consaosta.it/corsi-accademici-primo-livello-triennio/"
+],
+[
+"woodwind",
+"BA",
+"Clarinetto",
+"https://www.consaosta.it/corsi-accademici-primo-livello-triennio/"
+],
+[
+"composition",
+"BA",
+"Composizione",
+"https://www.consaosta.it/corsi-accademici-primo-livello-triennio/"
+],
+[
+"strings",
+"BA",
+"Contrabbasso",
+"https://www.consaosta.it/corsi-accademici-primo-livello-triennio/"
+],
+[
+"brass",
+"BA",
+"Corno",
+"https://www.consaosta.it/corsi-accademici-primo-livello-triennio/"
+],
+[
+"conducting",
+"BA",
+"Direzione di coro e composizione corale",
+"https://www.consaosta.it/corsi-accademici-primo-livello-triennio/"
+],
+[
+"composition",
+"BA",
+"Direzione di coro e composizione corale",
+"https://www.consaosta.it/corsi-accademici-primo-livello-triennio/"
+],
+[
+"woodwind",
+"BA",
+"Fagotto",
+"https://www.consaosta.it/corsi-accademici-primo-livello-triennio/"
+],
+[
+"accordion",
+"BA",
+"Fisarmonica",
+"https://www.consaosta.it/corsi-accademici-primo-livello-triennio/"
+],
+[
+"woodwind",
+"BA",
+"Flauto",
+"https://www.consaosta.it/corsi-accademici-primo-livello-triennio/"
+],
+[
+"woodwind",
+"BA",
+"Oboe",
+"https://www.consaosta.it/corsi-accademici-primo-livello-triennio/"
+],
+[
+"organ",
+"BA",
+"Organo",
+"https://www.consaosta.it/corsi-accademici-primo-livello-triennio/"
+],
+[
+"piano",
+"BA",
+"Pianoforte",
+"https://www.consaosta.it/corsi-accademici-primo-livello-triennio/"
+],
+[
+"percussion",
+"BA",
+"Strumenti a percussione",
+"https://www.consaosta.it/corsi-accademici-primo-livello-triennio/"
+],
+[
+"brass",
+"BA",
+"Tromba",
+"https://www.consaosta.it/corsi-accademici-primo-livello-triennio/"
+],
+[
+"brass",
+"BA",
+"Trombone",
+"https://www.consaosta.it/corsi-accademici-primo-livello-triennio/"
+],
+[
+"strings",
+"BA",
+"Viola",
+"https://www.consaosta.it/corsi-accademici-primo-livello-triennio/"
+],
+[
+"strings",
+"BA",
+"Violino",
+"https://www.consaosta.it/corsi-accademici-primo-livello-triennio/"
+],
+[
+"strings",
+"BA",
+"Violoncello",
+"https://www.consaosta.it/corsi-accademici-primo-livello-triennio/"
+],
+[
+"music-education",
+"BA",
+"Offerta didattica",
+"https://www.consaosta.it/corsi-accademici-primo-livello-triennio/"
+],
+[
+"brass",
+"MA",
+"Bassotuba",
+"https://www.consaosta.it/corsi-accademici-di-secondo-livello-biennio/"
+],
+[
+"vocal-opera",
+"MA",
+"Canto",
+"https://www.consaosta.it/corsi-accademici-di-secondo-livello-biennio/"
+],
+[
+"guitar",
+"MA",
+"Chitarra",
+"https://www.consaosta.it/corsi-accademici-di-secondo-livello-biennio/"
+],
+[
+"woodwind",
+"MA",
+"Clarinetto",
+"https://www.consaosta.it/corsi-accademici-di-secondo-livello-biennio/"
+],
+[
+"composition",
+"MA",
+"Composizione",
+"https://www.consaosta.it/corsi-accademici-di-secondo-livello-biennio/"
+],
+[
+"strings",
+"MA",
+"Contrabbasso",
+"https://www.consaosta.it/corsi-accademici-di-secondo-livello-biennio/"
+],
+[
+"brass",
+"MA",
+"Corno",
+"https://www.consaosta.it/corsi-accademici-di-secondo-livello-biennio/"
+],
+[
+"conducting",
+"MA",
+"Direzione di coro e composizione corale",
+"https://www.consaosta.it/corsi-accademici-di-secondo-livello-biennio/"
+],
+[
+"composition",
+"MA",
+"Direzione di coro e composizione corale",
+"https://www.consaosta.it/corsi-accademici-di-secondo-livello-biennio/"
+],
+[
+"woodwind",
+"MA",
+"Fagotto",
+"https://www.consaosta.it/corsi-accademici-di-secondo-livello-biennio/"
+],
+[
+"accordion",
+"MA",
+"Fisarmonica",
+"https://www.consaosta.it/corsi-accademici-di-secondo-livello-biennio/"
+],
+[
+"woodwind",
+"MA",
+"Flauto",
+"https://www.consaosta.it/corsi-accademici-di-secondo-livello-biennio/"
+],
+[
+"chamber-music",
+"MA",
+"Musica d'insieme",
+"https://www.consaosta.it/corsi-accademici-di-secondo-livello-biennio/"
+],
+[
+"woodwind",
+"MA",
+"Oboe",
+"https://www.consaosta.it/corsi-accademici-di-secondo-livello-biennio/"
+],
+[
+"organ",
+"MA",
+"Organo",
+"https://www.consaosta.it/corsi-accademici-di-secondo-livello-biennio/"
+],
+[
+"piano",
+"MA",
+"Pianoforte",
+"https://www.consaosta.it/corsi-accademici-di-secondo-livello-biennio/"
+],
+[
+"percussion",
+"MA",
+"Strumenti a percussione",
+"https://www.consaosta.it/corsi-accademici-di-secondo-livello-biennio/"
+],
+[
+"brass",
+"MA",
+"Tromba",
+"https://www.consaosta.it/corsi-accademici-di-secondo-livello-biennio/"
+],
+[
+"brass",
+"MA",
+"Trombone",
+"https://www.consaosta.it/corsi-accademici-di-secondo-livello-biennio/"
+],
+[
+"strings",
+"MA",
+"Viola",
+"https://www.consaosta.it/corsi-accademici-di-secondo-livello-biennio/"
+],
+[
+"strings",
+"MA",
+"Violino",
+"https://www.consaosta.it/corsi-accademici-di-secondo-livello-biennio/"
+],
+[
+"strings",
+"MA",
+"Violoncello",
+"https://www.consaosta.it/corsi-accademici-di-secondo-livello-biennio/"
+],
+[
+"music-education",
+"MA",
+"Offerta didattica",
+"https://www.consaosta.it/corsi-accademici-di-secondo-livello-biennio/"
+]
+],
+"I  TERAMO02": [
+[
+"music-education",
+"BA",
+"ERASMUS+ Incoming Teachers and Staff",
+"https://www.conservatoriobraga.it/contents.asp?id=522"
+],
+[
+"folk",
+"BA",
+"Corsi Classici, DISCRAM e Musiche Tradizionali",
+"https://www.conservatoriobraga.it/contents.asp?id=522"
+],
+[
+"jazz",
+"BA",
+"Corsi Jazz, Popular Music",
+"https://www.conservatoriobraga.it/contents.asp?id=522"
+],
+[
+"popular-music",
+"BA",
+"Corsi Jazz, Popular Music",
+"https://www.conservatoriobraga.it/contents.asp?id=522"
+],
+[
+"music-technology",
+"BA",
+"Nuove tecnologie e linguaggi musicali",
+"https://www.conservatoriobraga.it/contents.asp?id=522"
+],
+[
+"harp",
+"BA",
+"Arpa DCPL01",
+"https://www.conservatoriobraga.it/contents.asp?id=522"
+],
+[
+"vocal-opera",
+"BA",
+"Canto DCPL06",
+"https://www.conservatoriobraga.it/contents.asp?id=522"
+],
+[
+"guitar",
+"BA",
+"Chitarra DCPL09",
+"https://www.conservatoriobraga.it/contents.asp?id=522"
+],
+[
+"global-music",
+"BA",
+"Chitarra a indirizzo flamenco DCPL09",
+"https://www.conservatoriobraga.it/contents.asp?id=522"
+],
+[
+"guitar",
+"BA",
+"Chitarra a indirizzo flamenco DCPL09",
+"https://www.conservatoriobraga.it/contents.asp?id=522"
+],
+[
+"woodwind",
+"BA",
+"Clarinetto DCPL11",
+"https://www.conservatoriobraga.it/contents.asp?id=522"
+],
+[
+"early-music",
+"BA",
+"Clavicembalo e tastiere storiche DCPL14",
+"https://www.conservatoriobraga.it/contents.asp?id=522"
+],
+[
+"composition",
+"BA",
+"Composizione DCPL15",
+"https://www.conservatoriobraga.it/contents.asp?id=522"
+],
+[
+"strings",
+"BA",
+"Contrabbasso DCPL16",
+"https://www.conservatoriobraga.it/contents.asp?id=522"
+],
+[
+"brass",
+"BA",
+"Corno DCPL19",
+"https://www.conservatoriobraga.it/contents.asp?id=522"
+],
+[
+"woodwind",
+"BA",
+"Fagotto DCPL24",
+"https://www.conservatoriobraga.it/contents.asp?id=522"
+],
+[
+"accordion",
+"BA",
+"Fisarmonica DCPL26",
+"https://www.conservatoriobraga.it/contents.asp?id=522"
+],
+[
+"woodwind",
+"BA",
+"Flauto DCPL27",
+"https://www.conservatoriobraga.it/contents.asp?id=522"
+],
+[
+"early-music",
+"BA",
+"Flauto dolce DCPL28",
+"https://www.conservatoriobraga.it/contents.asp?id=522"
+],
+[
+"early-music",
+"BA",
+"Liuto DCPL30",
+"https://www.conservatoriobraga.it/contents.asp?id=522"
+],
+[
+"woodwind",
+"BA",
+"Oboe DCPL36",
+"https://www.conservatoriobraga.it/contents.asp?id=522"
+],
+[
+"piano",
+"BA",
+"Pianoforte DCPL39",
+"https://www.conservatoriobraga.it/contents.asp?id=522"
+],
+[
+"woodwind",
+"BA",
+"Saxofono DCPL41",
+"https://www.conservatoriobraga.it/contents.asp?id=522"
+],
+[
+"percussion",
+"BA",
+"Strumenti a Percussione DCPL44",
+"https://www.conservatoriobraga.it/contents.asp?id=522"
+],
+[
+"brass",
+"BA",
+"Tromba DCPL46",
+"https://www.conservatoriobraga.it/contents.asp?id=522"
+],
+[
+"brass",
+"BA",
+"Trombone DCPL49",
+"https://www.conservatoriobraga.it/contents.asp?id=522"
+],
+[
+"strings",
+"BA",
+"Viola DCPL52",
+"https://www.conservatoriobraga.it/contents.asp?id=522"
+],
+[
+"strings",
+"BA",
+"Violino DCPL54",
+"https://www.conservatoriobraga.it/contents.asp?id=522"
+],
+[
+"strings",
+"BA",
+"Violoncello DCPL57",
+"https://www.conservatoriobraga.it/contents.asp?id=522"
+],
+[
+"jazz",
+"BA",
+"corsi Jazz e Pop",
+"https://www.conservatoriobraga.it/contents.asp?id=522"
+],
+[
+"popular-music",
+"BA",
+"corsi Jazz e Pop",
+"https://www.conservatoriobraga.it/contents.asp?id=522"
+],
+[
+"jazz",
+"BA",
+"Batteria e percussioni Jazz DCPL05",
+"https://www.conservatoriobraga.it/contents.asp?id=522"
+],
+[
+"jazz",
+"BA",
+"Canto Jazz DCPL07",
+"https://www.conservatoriobraga.it/contents.asp?id=522"
+],
+[
+"jazz",
+"BA",
+"Chitarra Jazz DCPL10",
+"https://www.conservatoriobraga.it/contents.asp?id=522"
+],
+[
+"popular-music",
+"BA",
+"Chitarra Pop Rock, Fingerstyle DCPL67",
+"https://www.conservatoriobraga.it/contents.asp?id=522"
+],
+[
+"jazz",
+"BA",
+"Contrabbasso Jazz DCPL17",
+"https://www.conservatoriobraga.it/contents.asp?id=522"
+],
+[
+"jazz",
+"BA",
+"Pianoforte Jazz DCPL40",
+"https://www.conservatoriobraga.it/contents.asp?id=522"
+],
+[
+"jazz",
+"BA",
+"Saxofono Jazz DCPL42",
+"https://www.conservatoriobraga.it/contents.asp?id=522"
+],
+[
+"music-technology",
+"BA",
+"corsi di Nuove Tecnologie e Linguaggi musicali",
+"https://www.conservatoriobraga.it/contents.asp?id=522"
+],
+[
+"music-technology",
+"BA",
+"Musica Elettronica DCPL34",
+"https://www.conservatoriobraga.it/contents.asp?id=522"
+],
+[
+"popular-music",
+"BA",
+"Storie popolari d'Abruzzo e di Castelli",
+"https://www.conservatoriobraga.it/contents.asp?id=522"
+],
+[
+"music-education",
+"MA",
+"ERASMUS+ Incoming Teachers and Staff",
+"https://www.conservatoriobraga.it/contents.asp?id=511"
+],
+[
+"jazz",
+"MA",
+"Corsi Jazz e Pop",
+"https://www.conservatoriobraga.it/contents.asp?id=511"
+],
+[
+"popular-music",
+"MA",
+"Corsi Jazz e Pop",
+"https://www.conservatoriobraga.it/contents.asp?id=511"
+],
+[
+"music-technology",
+"MA",
+"Corsi di Nuove tecnologie e linguaggi musicali",
+"https://www.conservatoriobraga.it/contents.asp?id=511"
+],
+[
+"harp",
+"MA",
+"Arpa DCSL01",
+"https://www.conservatoriobraga.it/contents.asp?id=511"
+],
+[
+"vocal-opera",
+"MA",
+"Canto DCSL06",
+"https://www.conservatoriobraga.it/contents.asp?id=511"
+],
+[
+"guitar",
+"MA",
+"Chitarra, Chitarra dell'800 DCSL09",
+"https://www.conservatoriobraga.it/contents.asp?id=511"
+],
+[
+"guitar",
+"MA",
+"Chitarra Flamenca - indirizzo Didattico DCSL09",
+"https://www.conservatoriobraga.it/contents.asp?id=511"
+],
+[
+"woodwind",
+"MA",
+"Clarinetto DCSL11",
+"https://www.conservatoriobraga.it/contents.asp?id=511"
+],
+[
+"strings",
+"MA",
+"Contrabbasso DCSL16",
+"https://www.conservatoriobraga.it/contents.asp?id=511"
+],
+[
+"brass",
+"MA",
+"Corno DCSL19",
+"https://www.conservatoriobraga.it/contents.asp?id=511"
+],
+[
+"woodwind",
+"MA",
+"Fagotto DCSL24",
+"https://www.conservatoriobraga.it/contents.asp?id=511"
+],
+[
+"accordion",
+"MA",
+"Fisarmonica DCSL26",
+"https://www.conservatoriobraga.it/contents.asp?id=511"
+],
+[
+"woodwind",
+"MA",
+"Flauto DCSL27",
+"https://www.conservatoriobraga.it/contents.asp?id=511"
+],
+[
+"early-music",
+"MA",
+"Flauto Dolce DCSL28",
+"https://www.conservatoriobraga.it/contents.asp?id=511"
+],
+[
+"chamber-music",
+"MA",
+"Musica da camera DCSL68",
+"https://www.conservatoriobraga.it/contents.asp?id=511"
+],
+[
+"vocal-opera",
+"MA",
+"Musica vocale da camera - indirizzo Cantanti DCSL35",
+"https://www.conservatoriobraga.it/contents.asp?id=511"
+],
+[
+"woodwind",
+"MA",
+"Oboe DCSL36",
+"https://www.conservatoriobraga.it/contents.asp?id=511"
+],
+[
+"piano",
+"MA",
+"Pianoforte DCSL39",
+"https://www.conservatoriobraga.it/contents.asp?id=511"
+],
+[
+"woodwind",
+"MA",
+"Saxofono DCSL41",
+"https://www.conservatoriobraga.it/contents.asp?id=511"
+],
+[
+"percussion",
+"MA",
+"Strumenti a percussione DCSL44",
+"https://www.conservatoriobraga.it/contents.asp?id=511"
+],
+[
+"brass",
+"MA",
+"Tromba DCSL46",
+"https://www.conservatoriobraga.it/contents.asp?id=511"
+],
+[
+"brass",
+"MA",
+"Trombone DCSL49",
+"https://www.conservatoriobraga.it/contents.asp?id=511"
+],
+[
+"strings",
+"MA",
+"Viola DCSL52",
+"https://www.conservatoriobraga.it/contents.asp?id=511"
+],
+[
+"strings",
+"MA",
+"Violino DCSL54",
+"https://www.conservatoriobraga.it/contents.asp?id=511"
+],
+[
+"strings",
+"MA",
+"Violoncello DCSL57",
+"https://www.conservatoriobraga.it/contents.asp?id=511"
+],
+[
+"jazz",
+"MA",
+"Denominazione - corsi Jazz e Pop",
+"https://www.conservatoriobraga.it/contents.asp?id=511"
+],
+[
+"popular-music",
+"MA",
+"Denominazione - corsi Jazz e Pop",
+"https://www.conservatoriobraga.it/contents.asp?id=511"
+],
+[
+"jazz",
+"MA",
+"Batteria e percussioni Jazz - indirizzo Didattico DCSL05",
+"https://www.conservatoriobraga.it/contents.asp?id=511"
+],
+[
+"jazz",
+"MA",
+"Canto Jazz - indirizzo Didattico DCSL07",
+"https://www.conservatoriobraga.it/contents.asp?id=511"
+],
+[
+"jazz",
+"MA",
+"Chitarra Jazz - indirizzo Didattico DCSL10",
+"https://www.conservatoriobraga.it/contents.asp?id=511"
+],
+[
+"popular-music",
+"MA",
+"Chitarra Pop-Rock, Fingerstyle - indirizzo Didattico DCSL67",
+"https://www.conservatoriobraga.it/contents.asp?id=511"
+],
+[
+"jazz",
+"MA",
+"Contrabbasso Jazz - indirizzo Didattico DCSL17",
+"https://www.conservatoriobraga.it/contents.asp?id=511"
+],
+[
+"jazz",
+"MA",
+"Pianoforte Jazz - indirizzo Didattico DCSL40",
+"https://www.conservatoriobraga.it/contents.asp?id=511"
+],
+[
+"jazz",
+"MA",
+"Saxofono Jazz - indirizzo Didattico DCSL42",
+"https://www.conservatoriobraga.it/contents.asp?id=511"
+],
+[
+"music-technology",
+"MA",
+"Denominazione - corsi di Musica Elettronica",
+"https://www.conservatoriobraga.it/contents.asp?id=511"
+],
+[
+"music-technology",
+"MA",
+"Musica elettronica DCSL34",
+"https://www.conservatoriobraga.it/contents.asp?id=511"
+],
+[
+"music-technology",
+"MA",
+"Tecnico Audio e Luci per lo spettacolo",
+"https://www.conservatoriobraga.it/contents.asp?id=511"
+],
+[
+"popular-music",
+"MA",
+"Storie popolari d'Abruzzo e di Castelli",
+"https://www.conservatoriobraga.it/contents.asp?id=511"
+]
+],
+"I  CUNEO01": [
+[
+"music-education",
+"BA",
+"DIDATTICA DELLA MUSICA",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+],
+[
+"jazz",
+"BA",
+"JAZZ",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+],
+[
+"harp",
+"BA",
+"ARPA",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+],
+[
+"jazz",
+"BA",
+"BATTERIA E PERCUSSIONI JAZZ",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+],
+[
+"jazz",
+"BA",
+"CANTO JAZZ",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+],
+[
+"vocal-opera",
+"BA",
+"CANTO",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+],
+[
+"early-music",
+"BA",
+"CANTO RINASCIMENTALE E BAROCCO",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+],
+[
+"vocal-opera",
+"BA",
+"CANTO RINASCIMENTALE E BAROCCO",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+],
+[
+"jazz",
+"BA",
+"CHITARRA JAZZ",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+],
+[
+"guitar",
+"BA",
+"CHITARRA",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+],
+[
+"jazz",
+"BA",
+"CLARINETTO JAZZ",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+],
+[
+"woodwind",
+"BA",
+"CLARINETTO",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+],
+[
+"early-music",
+"BA",
+"CLAVICEMBALO E TASTIERE STORICHE",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+],
+[
+"composition",
+"BA",
+"COMPOSIZIONE",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+],
+[
+"jazz",
+"BA",
+"CONTRABBASSO JAZZ",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+],
+[
+"strings",
+"BA",
+"CONTRABBASSO",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+],
+[
+"brass",
+"BA",
+"CORNO",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+],
+[
+"music-education",
+"BA",
+"DIDATTICA INDIRIZZO DISABILITA'",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+],
+[
+"conducting",
+"BA",
+"DIREZIONE E COMPOSIZIONE CORALE",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+],
+[
+"composition",
+"BA",
+"DIREZIONE E COMPOSIZIONE CORALE",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+],
+[
+"woodwind",
+"BA",
+"FAGOTTO",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+],
+[
+"woodwind",
+"BA",
+"FLAUTO",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+],
+[
+"music-technology",
+"BA",
+"MUSICA ELETTRONICA INDIRIZZO TECNICO DEL SUONO",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+],
+[
+"woodwind",
+"BA",
+"OBOE",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+],
+[
+"organ",
+"BA",
+"ORGANO",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+],
+[
+"jazz",
+"BA",
+"PIANOFORTE JAZZ",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+],
+[
+"piano",
+"BA",
+"PIANOFORTE",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+],
+[
+"popular-music",
+"BA",
+"POPULAR MUSIC",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+],
+[
+"jazz",
+"BA",
+"SAX JAZZ",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+],
+[
+"percussion",
+"BA",
+"STRUMENTI A PERCUSSIONE",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+],
+[
+"music-technology",
+"BA",
+"TASTIERE ELETTRONICHE",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+],
+[
+"jazz",
+"BA",
+"TROMBA JAZZ",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+],
+[
+"brass",
+"BA",
+"TROMBA",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+],
+[
+"jazz",
+"BA",
+"TROMBONE JAZZ",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+],
+[
+"brass",
+"BA",
+"TROMBONE",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+],
+[
+"strings",
+"BA",
+"VIOLA",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+],
+[
+"jazz",
+"BA",
+"VIOLINO JAZZ",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+],
+[
+"strings",
+"BA",
+"VIOLINO",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+],
+[
+"strings",
+"BA",
+"VIOLONCELLO",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-i-livello-programmi/"
+],
+[
+"music-education",
+"MA",
+"DIDATTICA DELLA MUSICA (TFA, PAS)",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+],
+[
+"jazz",
+"MA",
+"JAZZ",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+],
+[
+"early-music",
+"MA",
+"CANTO BAROCCO",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+],
+[
+"vocal-opera",
+"MA",
+"CANTO BAROCCO",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+],
+[
+"harp",
+"MA",
+"ARPA",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+],
+[
+"jazz",
+"MA",
+"BATTERIA E PERCUSSIONI JAZZ",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+],
+[
+"jazz",
+"MA",
+"CANTO JAZZ",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+],
+[
+"vocal-opera",
+"MA",
+"CANTO LIRICO",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+],
+[
+"jazz",
+"MA",
+"CHITARRA JAZZ",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+],
+[
+"guitar",
+"MA",
+"CHITARRA",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+],
+[
+"jazz",
+"MA",
+"CLARINETTO JAZZ",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+],
+[
+"woodwind",
+"MA",
+"CLARINETTO",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+],
+[
+"composition",
+"MA",
+"COMPOSIZIONE",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+],
+[
+"jazz",
+"MA",
+"CONTRABBASSO JAZZ",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+],
+[
+"strings",
+"MA",
+"CONTRABBASSO",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+],
+[
+"brass",
+"MA",
+"CORNO",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+],
+[
+"conducting",
+"MA",
+"DIREZIONE DI CORO E COMPOSIZIONE CORALE",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+],
+[
+"composition",
+"MA",
+"DIREZIONE DI CORO E COMPOSIZIONE CORALE",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+],
+[
+"woodwind",
+"MA",
+"FAGOTTO",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+],
+[
+"woodwind",
+"MA",
+"FLAUTO",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+],
+[
+"music-technology",
+"MA",
+"MUSICA ELETTRONICA",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+],
+[
+"woodwind",
+"MA",
+"OBOE",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+],
+[
+"organ",
+"MA",
+"ORGANO",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+],
+[
+"jazz",
+"MA",
+"PIANOFORTE JAZZ",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+],
+[
+"piano",
+"MA",
+"PIANOFORTE",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+],
+[
+"jazz",
+"MA",
+"SAXOFONO JAZZ",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+],
+[
+"percussion",
+"MA",
+"STRUMENTI A PERCUSSIONE",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+],
+[
+"music-technology",
+"MA",
+"TASTIERE ELETTRONICHE",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+],
+[
+"music-technology",
+"MA",
+"TECNICO DEL SUONO",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+],
+[
+"jazz",
+"MA",
+"TROMBA JAZZ",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+],
+[
+"brass",
+"MA",
+"TROMBA",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+],
+[
+"jazz",
+"MA",
+"TROMBONE JAZZ",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+],
+[
+"brass",
+"MA",
+"TROMBONE",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+],
+[
+"strings",
+"MA",
+"VIOLA",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+],
+[
+"jazz",
+"MA",
+"VIOLINO JAZZ",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+],
+[
+"strings",
+"MA",
+"VIOLINO",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+],
+[
+"strings",
+"MA",
+"VIOLONCELLO",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+],
+[
+"vocal-opera",
+"MA",
+"CANTO",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+],
+[
+"strings",
+"MA",
+"ARCHI",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+],
+[
+"percussion",
+"MA",
+"PERCUSSIONI",
+"https://www.conservatoriocuneo.it/corsi-accademici-di-ii-livello-programmi/"
+]
+],
+"I  SIENA05": [
+[
+"jazz",
+"BA",
+"JazzAble",
+"https://www.sienajazz.it/university/corsi-accademici-di-i-livello/"
+],
+[
+"music-education",
+"BA",
+"Abilitazione all’insegnamento",
+"https://www.sienajazz.it/university/corsi-accademici-di-i-livello/"
+],
+[
+"jazz",
+"BA",
+"Brass Jazz Workshop",
+"https://www.sienajazz.it/university/corsi-accademici-di-i-livello/"
+],
+[
+"jazz",
+"BA",
+"info@sienajazz.it",
+"https://www.sienajazz.it/university/corsi-accademici-di-i-livello/"
+],
+[
+"jazz",
+"BA",
+"Corsi Accademici di I livello - Siena Jazz",
+"https://www.sienajazz.it/university/corsi-accademici-di-i-livello/"
+],
+[
+"jazz",
+"BA",
+"Accademia Nazionale del Jazz",
+"https://www.sienajazz.it/university/corsi-accademici-di-i-livello/"
+],
+[
+"jazz",
+"BA",
+"CDPL02 CHITARRA JAZZ",
+"https://www.sienajazz.it/university/corsi-accademici-di-i-livello/"
+],
+[
+"jazz",
+"BA",
+"CDPL03 CONTRABBASSO JAZZ",
+"https://www.sienajazz.it/university/corsi-accademici-di-i-livello/"
+],
+[
+"jazz",
+"BA",
+"CDPL05 CLARINETTO JAZZ",
+"https://www.sienajazz.it/university/corsi-accademici-di-i-livello/"
+],
+[
+"jazz",
+"BA",
+"CDPL06 SASSOFONO JAZZ",
+"https://www.sienajazz.it/university/corsi-accademici-di-i-livello/"
+],
+[
+"jazz",
+"BA",
+"CDPL07 TROMBA JAZZ",
+"https://www.sienajazz.it/university/corsi-accademici-di-i-livello/"
+],
+[
+"jazz",
+"BA",
+"CDPL08 TROMBONE JAZZ",
+"https://www.sienajazz.it/university/corsi-accademici-di-i-livello/"
+],
+[
+"jazz",
+"BA",
+"CDPL09 PIANOFORTE JAZZ",
+"https://www.sienajazz.it/university/corsi-accademici-di-i-livello/"
+],
+[
+"jazz",
+"BA",
+"CDPL11 BATTERIA E PERCUSSIONI JAZZ",
+"https://www.sienajazz.it/university/corsi-accademici-di-i-livello/"
+],
+[
+"jazz",
+"BA",
+"CDPL12 CANTO JAZZ",
+"https://www.sienajazz.it/university/corsi-accademici-di-i-livello/"
+],
+[
+"music-education",
+"BA",
+"Insegnante di discipline musicali in scuole non professionali;",
+"https://www.sienajazz.it/university/corsi-accademici-di-i-livello/"
+],
+[
+"music-education",
+"BA",
+"Insegnante di discipline musicali in scuole professionali;",
+"https://www.sienajazz.it/university/corsi-accademici-di-i-livello/"
+],
+[
+"jazz",
+"BA",
+"Ass. Siena Jazz",
+"https://www.sienajazz.it/university/corsi-accademici-di-i-livello/"
+],
+[
+"jazz",
+"BA",
+"Mail: info@sienajazz.it",
+"https://www.sienajazz.it/university/corsi-accademici-di-i-livello/"
+],
+[
+"jazz",
+"MA",
+"JazzAble",
+"https://www.sienajazz.it/university/corsi-accademici-di-ii-livello/"
+],
+[
+"music-education",
+"MA",
+"Abilitazione all’insegnamento",
+"https://www.sienajazz.it/university/corsi-accademici-di-ii-livello/"
+],
+[
+"jazz",
+"MA",
+"Brass Jazz Workshop",
+"https://www.sienajazz.it/university/corsi-accademici-di-ii-livello/"
+],
+[
+"jazz",
+"MA",
+"info@sienajazz.it",
+"https://www.sienajazz.it/university/corsi-accademici-di-ii-livello/"
+],
+[
+"jazz",
+"MA",
+"Corsi Accademici di II livello - Siena Jazz",
+"https://www.sienajazz.it/university/corsi-accademici-di-ii-livello/"
+],
+[
+"jazz",
+"MA",
+"Accademia Nazionale del Jazz",
+"https://www.sienajazz.it/university/corsi-accademici-di-ii-livello/"
+],
+[
+"jazz",
+"MA",
+"CDPL02 CHITARRA JAZZ",
+"https://www.sienajazz.it/university/corsi-accademici-di-ii-livello/"
+],
+[
+"jazz",
+"MA",
+"CDPL03 CONTRABBASSO JAZZ",
+"https://www.sienajazz.it/university/corsi-accademici-di-ii-livello/"
+],
+[
+"jazz",
+"MA",
+"CDPL05 CLARINETTO JAZZ",
+"https://www.sienajazz.it/university/corsi-accademici-di-ii-livello/"
+],
+[
+"jazz",
+"MA",
+"CDPL06 SASSOFONO JAZZ",
+"https://www.sienajazz.it/university/corsi-accademici-di-ii-livello/"
+],
+[
+"jazz",
+"MA",
+"CDPL07 TROMBA JAZZ",
+"https://www.sienajazz.it/university/corsi-accademici-di-ii-livello/"
+],
+[
+"jazz",
+"MA",
+"CDPL08 TROMBONE JAZZ",
+"https://www.sienajazz.it/university/corsi-accademici-di-ii-livello/"
+],
+[
+"jazz",
+"MA",
+"CDPL09 PIANOFORTE JAZZ",
+"https://www.sienajazz.it/university/corsi-accademici-di-ii-livello/"
+],
+[
+"jazz",
+"MA",
+"CDPL11 BATTERIA E PERCUSSIONI JAZZ",
+"https://www.sienajazz.it/university/corsi-accademici-di-ii-livello/"
+],
+[
+"jazz",
+"MA",
+"CDPL12 CANTO JAZZ",
+"https://www.sienajazz.it/university/corsi-accademici-di-ii-livello/"
+],
+[
+"chamber-music",
+"MA",
+"64 ore di Musica d’insieme come Laboratori d’interplay, divisi in due corsi",
+"https://www.sienajazz.it/university/corsi-accademici-di-ii-livello/"
+],
+[
+"composition",
+"MA",
+"32 ore di Analisi delle forme compositive",
+"https://www.sienajazz.it/university/corsi-accademici-di-ii-livello/"
+],
+[
+"jazz",
+"MA",
+"Strumentista solista jazz",
+"https://www.sienajazz.it/university/corsi-accademici-di-ii-livello/"
+],
+[
+"jazz",
+"MA",
+"Strumentista in gruppi jazz",
+"https://www.sienajazz.it/university/corsi-accademici-di-ii-livello/"
+],
+[
+"music-education",
+"MA",
+"Insegnante di discipline musicali in scuole non professionali;",
+"https://www.sienajazz.it/university/corsi-accademici-di-ii-livello/"
+],
+[
+"music-education",
+"MA",
+"Insegnante di discipline musicali in scuole professionali;",
+"https://www.sienajazz.it/university/corsi-accademici-di-ii-livello/"
+],
+[
+"jazz",
+"MA",
+"Ass. Siena Jazz",
+"https://www.sienajazz.it/university/corsi-accademici-di-ii-livello/"
+],
+[
+"jazz",
+"MA",
+"Mail: info@sienajazz.it",
+"https://www.sienajazz.it/university/corsi-accademici-di-ii-livello/"
+]
+],
+"I  FIRENZE07": [
+[
+"strings",
+"BA",
+"Violino",
+"https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/violino-triennio-laurea-primo-livello"
+],
+[
+"accordion",
+"BA",
+"Fisarmonica",
+"https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/fisarmonica-triennio-laurea-primo-livello"
+],
+[
+"strings",
+"BA",
+"Viola",
+"https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/viola-triennio-laurea-primo-livello"
+],
+[
+"early-music",
+"BA",
+"Violino barocco",
+"https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/violino-barocco-triennio-laurea-primo-livello"
+],
+[
+"strings",
+"BA",
+"Violoncello",
+"https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/violoncello-triennio-laurea-primo-livello"
+],
+[
+"early-music",
+"BA",
+"Violoncello barocco",
+"https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/violoncello-barocco-triennio-laurea-primo-livello"
+],
+[
+"strings",
+"BA",
+"Contrabbasso",
+"https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/contrabbasso-triennio-laurea-primo-livello"
+],
+[
+"early-music",
+"BA",
+"Viola da Gamba",
+"https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/viola-da-gamba-triennio-laurea-prima-livello"
+],
+[
+"woodwind",
+"BA",
+"Flauto",
+"https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/flauto-triennio-laurea-primo-livello"
+],
+[
+"woodwind",
+"BA",
+"Flauto traversiere",
+"https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/flauto-traversiere-triennio-laurea-primo-livello"
+],
+[
+"woodwind",
+"BA",
+"Oboe",
+"https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/oboe-triennio-laurea-primo-livello"
+],
+[
+"early-music",
+"BA",
+"Liuto",
+"https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/liuto-triennio-laurea-primo-livello"
+],
+[
+"woodwind",
+"BA",
+"Clarinetto",
+"https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/clarinetto-triennio-laurea-primo-livello"
+],
+[
+"early-music",
+"BA",
+"Clavicembalo e tastiere storiche",
+"https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/clavicembalo-tastiere-storiche-triennio-laurea-primo-livello"
+],
+[
+"woodwind",
+"BA",
+"Saxofono",
+"https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/saxofono-triennio-laurea-primo-livello"
+],
+[
+"organ",
+"BA",
+"Organo",
+"https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/organo-triennio-laurea-primo-livello"
+],
+[
+"woodwind",
+"BA",
+"Fagotto",
+"https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/fagotto-triennio-laurea-primo-livello"
+],
+[
+"piano",
+"BA",
+"Pianoforte",
+"https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/pianoforte-triennio-laurea-primo-livello"
+],
+[
+"brass",
+"BA",
+"Corno",
+"https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/corno-triennio-laurea-i-livello"
+],
+[
+"brass",
+"BA",
+"Tromba",
+"https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/tromba-triennio-laurea-primo-livello"
+],
+[
+"vocal-opera",
+"BA",
+"Canto",
+"https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/canto-triennio-laurea-primo-livello"
+],
+[
+"brass",
+"BA",
+"Trombone",
+"https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/trombone-triennio-laurea-primo-livello"
+],
+[
+"early-music",
+"BA",
+"Canto rinascimentale e barocco",
+"https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/canto-rinascimentale-e-barocco-triennio-laurea-primo-livello"
+],
+[
+"vocal-opera",
+"BA",
+"Canto rinascimentale e barocco",
+"https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/canto-rinascimentale-e-barocco-triennio-laurea-primo-livello"
+],
+[
+"brass",
+"BA",
+"Basso Tuba",
+"https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/basso-tuba-triennio-laurea-primo-livello"
+],
+[
+"composition",
+"BA",
+"Composizione",
+"https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/composizione-triennio-laurea-primo-livello"
+],
+[
+"percussion",
+"BA",
+"Percussioni",
+"https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/percussioni-triennio-laurea-primo-livello"
+],
+[
+"composition",
+"BA",
+"Musica applicata (Musica elettronica e composizione)",
+"https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/musica-applicata-musica-elettronica-e-composizione-triennio-laurea-primo-livello"
+],
+[
+"music-technology",
+"BA",
+"Musica applicata (Musica elettronica e composizione)",
+"https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/musica-applicata-musica-elettronica-e-composizione-triennio-laurea-primo-livello"
+],
+[
+"harp",
+"BA",
+"Arpa",
+"https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/arpa-triennio-laurea-primo-livello"
+],
+[
+"music-technology",
+"BA",
+"Tecnico del suono",
+"https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/tecnico-del-suono-triennio-laurea-primo-livello"
+],
+[
+"guitar",
+"BA",
+"Chitarra",
+"https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello/chitarra-triennio-laurea-primo-livello"
+],
+[
+"jazz",
+"BA",
+"Canto Jazz",
+"https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello-jazz/canto-jazz-triennio-laurea-di-primo-livello"
+],
+[
+"jazz",
+"BA",
+"Pianoforte Jazz",
+"https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello-jazz/pianoforte-jazz-triennio-laurea-di-primo-livello"
+],
+[
+"jazz",
+"BA",
+"Chitarra Jazz",
+"https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello-jazz/chitarra-jazz-triennio-laurea-di-primo-livello"
+],
+[
+"jazz",
+"BA",
+"Contrabbasso Jazz",
+"https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello-jazz/contrabbasso-jazz-triennio-laurea-di-primo-livello"
+],
+[
+"jazz",
+"BA",
+"Clarinetto Jazz",
+"https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello-jazz/clarinetto-jazz-triennio-laurea-di-primo-livello"
+],
+[
+"jazz",
+"BA",
+"Sax Jazz",
+"https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello-jazz/sax-jazz-triennio-laurea-di-primo-livello"
+],
+[
+"jazz",
+"BA",
+"Tromba Jazz",
+"https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello-jazz/tromba-jazz-triennio-laurea-di-prima-livello"
+],
+[
+"jazz",
+"BA",
+"Batteria Jazz",
+"https://www.scuolamusicafiesole.it/corsi-accademici-primo-livello-jazz/batteria-jazz-triennio-laurea-di-primo-livello"
+],
+[
+"strings",
+"MA",
+"Violino",
+"https://www.scuolamusicafiesole.it/corsi-accademici-secondo-livello/violino-diploma-afam-secondo-livello-biennio"
+],
+[
+"brass",
+"MA",
+"Tromba",
+"https://www.scuolamusicafiesole.it/corsi-accademici-secondo-livello/tromba-diploma-afam-secondo-livello-biennio"
+],
+[
+"strings",
+"MA",
+"Viola",
+"https://www.scuolamusicafiesole.it/corsi-accademici-secondo-livello/viola-diploma-afam-secondo-livello-biennio"
+],
+[
+"brass",
+"MA",
+"Trombone",
+"https://www.scuolamusicafiesole.it/corsi-accademici-secondo-livello/trombone-diploma-afam-secondo-livello-biennio"
+],
+[
+"strings",
+"MA",
+"Violoncello",
+"https://www.scuolamusicafiesole.it/corsi-accademici-secondo-livello/violoncello-diploma-afam-secondo-livello-biennio"
+],
+[
+"brass",
+"MA",
+"Basso Tuba",
+"https://www.scuolamusicafiesole.it/corsi-accademici-secondo-livello/basso-tuba-diploma-afam-secondo-livello-biennio"
+],
+[
+"strings",
+"MA",
+"Contrabbasso",
+"https://www.scuolamusicafiesole.it/corsi-accademici-secondo-livello/contrabbasso-diploma-afam-secondo-livello-biennio"
+],
+[
+"percussion",
+"MA",
+"Percussioni",
+"https://www.scuolamusicafiesole.it/corsi-accademici-secondo-livello/percussioni-diploma-afam-secondo-livello-biennio"
+],
+[
+"woodwind",
+"MA",
+"Flauto",
+"https://www.scuolamusicafiesole.it/corsi-accademici-secondo-livello/flauto-diploma-afam-secondo-livello-biennio"
+],
+[
+"harp",
+"MA",
+"Arpa",
+"https://www.scuolamusicafiesole.it/corsi-accademici-secondo-livello/arpa-diploma-afam-secondo-livello-biennio"
+],
+[
+"woodwind",
+"MA",
+"Oboe",
+"https://www.scuolamusicafiesole.it/corsi-accademici-secondo-livello/oboe-diploma-afam-secondo-livello-biennio"
+],
+[
+"guitar",
+"MA",
+"Chitarra",
+"https://www.scuolamusicafiesole.it/corsi-accademici-secondo-livello/chitarra-diploma-afam-secondo-livello-biennio"
+],
+[
+"woodwind",
+"MA",
+"Clarinetto",
+"https://www.scuolamusicafiesole.it/corsi-accademici-secondo-livello/clarinetto-diploma-afam-secondo-livello-biennio"
+],
+[
+"vocal-opera",
+"MA",
+"Canto",
+"https://www.scuolamusicafiesole.it/corsi-accademici-secondo-livello/canto-diploma-afam-secondo-livello-biennio"
+],
+[
+"woodwind",
+"MA",
+"Saxofono",
+"https://www.scuolamusicafiesole.it/corsi-accademici-secondo-livello/saxofono-diploma-afam-secondo-livello-biennio"
+],
+[
+"piano",
+"MA",
+"Pianoforte",
+"https://www.scuolamusicafiesole.it/corsi-accademici-secondo-livello/pianoforte-diploma-afam-secondo-livello-biennio"
+],
+[
+"woodwind",
+"MA",
+"Fagotto",
+"https://www.scuolamusicafiesole.it/corsi-accademici-secondo-livello/fagotto-diploma-afam-secondo-livello-biennio"
+],
+[
+"chamber-music",
+"MA",
+"Musica da Camera",
+"https://www.scuolamusicafiesole.it/corsi-accademici-secondo-livello/musica-da-camera-diploma-afam-secondo-livello-biennio"
+],
+[
+"brass",
+"MA",
+"Corno",
+"https://www.scuolamusicafiesole.it/corsi-accademici-secondo-livello/corno-diploma-afam-secondo-livello-biennio"
+]
+],
+"I  MILANO24": [
+[
+"popular-music",
+"BA",
+"Basso elettrico Pop Rock",
+"https://www.cpm.it/corsi/basso-elettrico-pop-rock-triennio/"
+],
+[
+"popular-music",
+"MA",
+"Basso elettrico Pop Rock",
+"https://www.cpm.it/corsi/basso-elettrico-accademico-biennio/"
+],
+[
+"popular-music",
+"BA",
+"Batteria Pop Rock",
+"https://www.cpm.it/corsi/corso-batteria-triennio/"
+],
+[
+"popular-music",
+"MA",
+"Batteria Pop Rock",
+"https://www.cpm.it/corsi/batteria-accademico-biennio/"
+],
+[
+"vocal-opera",
+null,
+"Canto Classico",
+"https://www.cpm.it/corsi/canto-classico/"
+],
+[
+"popular-music",
+"MA",
+"Canto Pop Rock",
+"https://www.cpm.it/corsi/corso-canto-biennio/"
+],
+[
+"vocal-opera",
+"MA",
+"Canto Pop Rock",
+"https://www.cpm.it/corsi/corso-canto-biennio/"
+],
+[
+"popular-music",
+null,
+"Canto Pop Rock",
+"https://www.cpm.it/corsi/canto-pop-rock/"
+],
+[
+"vocal-opera",
+null,
+"Canto Pop Rock",
+"https://www.cpm.it/corsi/canto-pop-rock/"
+],
+[
+"popular-music",
+"MA",
+"Chitarra Pop Rock",
+"https://www.cpm.it/corsi/chitarra-accademico-biennio/"
+],
+[
+"popular-music",
+"BA",
+"Chitarra Pop Rock",
+"https://www.cpm.it/corsi/corso-chitarra-accademico-triennio/"
+],
+[
+"popular-music",
+"BA",
+"Composizione Pop Rock",
+"https://www.cpm.it/corsi/corso-composizione-triennio/"
+],
+[
+"composition",
+"BA",
+"Composizione Pop Rock",
+"https://www.cpm.it/corsi/corso-composizione-triennio/"
+],
+[
+"popular-music",
+"MA",
+"Composizione Pop Rock",
+"https://www.cpm.it/corsi/composizione-accademico-biennio/"
+],
+[
+"composition",
+"MA",
+"Composizione Pop Rock",
+"https://www.cpm.it/corsi/composizione-accademico-biennio/"
+],
+[
+"popular-music",
+"BA",
+"Pianoforte e Tastiere Pop Rock",
+"https://www.cpm.it/corsi/corso-pianoforte-e-tastiere-triennio/"
+],
+[
+"popular-music",
+"MA",
+"Pianoforte e Tastiere Pop Rock",
+"https://www.cpm.it/corsi/pianoforte-e-tastiere-accademico-biennio/"
+],
+[
+"music-technology",
+"BA",
+"Tecnico del Suono",
+"https://www.cpm.it/corsi/corso-tecnico-del-suono-triennio/"
+],
+[
+"popular-music",
+"BA",
+"Corsi accademici pop/rock (CPM Music Institute)",
+"https://www.cpm.it/corsi/basso-elettrico-pop-rock-triennio/"
+],
+[
+"popular-music",
+"MA",
+"Corsi accademici pop/rock (CPM Music Institute)",
+"https://www.cpm.it/corsi/basso-elettrico-pop-rock-triennio/"
+]
+],
+"D  MUNCHEN03": [
+[
+"strings",
+"BA",
+"Studiengänge: Akkordeon, Blasinstrumente, Gesang, Gitarre, Harfe, Klavier, Orgel, Pauke-Schlagzeug, Streichinstrumente",
+"https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+],
+[
+"strings",
+"MA",
+"Studiengänge: Akkordeon, Blasinstrumente, Gesang, Gitarre, Harfe, Klavier, Orgel, Pauke-Schlagzeug, Streichinstrumente",
+"https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+],
+[
+"woodwind",
+"BA",
+"Studiengänge: Akkordeon, Blasinstrumente, Gesang, Gitarre, Harfe, Klavier, Orgel, Pauke-Schlagzeug, Streichinstrumente",
+"https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+],
+[
+"woodwind",
+"MA",
+"Studiengänge: Akkordeon, Blasinstrumente, Gesang, Gitarre, Harfe, Klavier, Orgel, Pauke-Schlagzeug, Streichinstrumente",
+"https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+],
+[
+"brass",
+"BA",
+"Studiengänge: Akkordeon, Blasinstrumente, Gesang, Gitarre, Harfe, Klavier, Orgel, Pauke-Schlagzeug, Streichinstrumente",
+"https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+],
+[
+"brass",
+"MA",
+"Studiengänge: Akkordeon, Blasinstrumente, Gesang, Gitarre, Harfe, Klavier, Orgel, Pauke-Schlagzeug, Streichinstrumente",
+"https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+],
+[
+"percussion",
+"BA",
+"Studiengänge: Akkordeon, Blasinstrumente, Gesang, Gitarre, Harfe, Klavier, Orgel, Pauke-Schlagzeug, Streichinstrumente",
+"https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+],
+[
+"percussion",
+"MA",
+"Studiengänge: Akkordeon, Blasinstrumente, Gesang, Gitarre, Harfe, Klavier, Orgel, Pauke-Schlagzeug, Streichinstrumente",
+"https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+],
+[
+"piano",
+"BA",
+"Studiengänge: Akkordeon, Blasinstrumente, Gesang, Gitarre, Harfe, Klavier, Orgel, Pauke-Schlagzeug, Streichinstrumente",
+"https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+],
+[
+"piano",
+"MA",
+"Studiengänge: Akkordeon, Blasinstrumente, Gesang, Gitarre, Harfe, Klavier, Orgel, Pauke-Schlagzeug, Streichinstrumente",
+"https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+],
+[
+"organ",
+"BA",
+"Studiengänge: Akkordeon, Blasinstrumente, Gesang, Gitarre, Harfe, Klavier, Orgel, Pauke-Schlagzeug, Streichinstrumente",
+"https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+],
+[
+"organ",
+"MA",
+"Studiengänge: Akkordeon, Blasinstrumente, Gesang, Gitarre, Harfe, Klavier, Orgel, Pauke-Schlagzeug, Streichinstrumente",
+"https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+],
+[
+"guitar",
+"BA",
+"Studiengänge: Akkordeon, Blasinstrumente, Gesang, Gitarre, Harfe, Klavier, Orgel, Pauke-Schlagzeug, Streichinstrumente",
+"https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+],
+[
+"guitar",
+"MA",
+"Studiengänge: Akkordeon, Blasinstrumente, Gesang, Gitarre, Harfe, Klavier, Orgel, Pauke-Schlagzeug, Streichinstrumente",
+"https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+],
+[
+"harp",
+"BA",
+"Studiengänge: Akkordeon, Blasinstrumente, Gesang, Gitarre, Harfe, Klavier, Orgel, Pauke-Schlagzeug, Streichinstrumente",
+"https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+],
+[
+"harp",
+"MA",
+"Studiengänge: Akkordeon, Blasinstrumente, Gesang, Gitarre, Harfe, Klavier, Orgel, Pauke-Schlagzeug, Streichinstrumente",
+"https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+],
+[
+"accordion",
+"BA",
+"Studiengänge: Akkordeon, Blasinstrumente, Gesang, Gitarre, Harfe, Klavier, Orgel, Pauke-Schlagzeug, Streichinstrumente",
+"https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+],
+[
+"accordion",
+"MA",
+"Studiengänge: Akkordeon, Blasinstrumente, Gesang, Gitarre, Harfe, Klavier, Orgel, Pauke-Schlagzeug, Streichinstrumente",
+"https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+],
+[
+"vocal-opera",
+"BA",
+"Studiengänge: Akkordeon, Blasinstrumente, Gesang, Gitarre, Harfe, Klavier, Orgel, Pauke-Schlagzeug, Streichinstrumente",
+"https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+],
+[
+"vocal-opera",
+"MA",
+"Studiengänge: Akkordeon, Blasinstrumente, Gesang, Gitarre, Harfe, Klavier, Orgel, Pauke-Schlagzeug, Streichinstrumente",
+"https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+],
+[
+"early-music",
+"BA",
+"Blockflöte, Cembalo, Historische Aufführungspraxis",
+"https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+],
+[
+"early-music",
+"MA",
+"Blockflöte, Cembalo, Historische Aufführungspraxis",
+"https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+],
+[
+"folk",
+"BA",
+"Volksmusik; Hackbrett; Zither",
+"https://hmtm.de/en/courses/folk-music-bm-ps/"
+],
+[
+"jazz",
+"BA",
+"Jazz (Bachelor, Master); Jazz Education (Master)",
+"https://hmtm.de/en/courses/jazz-bm-en/"
+],
+[
+"jazz",
+"MA",
+"Jazz (Bachelor, Master); Jazz Education (Master)",
+"https://hmtm.de/en/courses/jazz-bm-en/"
+],
+[
+"conducting",
+"BA",
+"Chordirigieren",
+"https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+],
+[
+"conducting",
+"MA",
+"Chordirigieren",
+"https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+],
+[
+"music-education",
+"BA",
+"Elementare Musikpädagogik; Instrumental- und Gesangspädagogik; Musikvermittlung (Master)",
+"https://hmtm.de/en/courses/music-mediation-ma/"
+],
+[
+"music-education",
+"MA",
+"Elementare Musikpädagogik; Instrumental- und Gesangspädagogik; Musikvermittlung (Master)",
+"https://hmtm.de/en/courses/music-mediation-ma/"
+],
+[
+"composition",
+"MA",
+"Contemporary Music (Master)",
+"https://website.hmtm.de/de/studium/studienangebot/studiengaenge"
+]
+],
+"D  BERLIN03": [
+[
+"strings",
+"BA",
+"Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+"https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+],
+[
+"strings",
+"MA",
+"Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+"https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+],
+[
+"woodwind",
+"BA",
+"Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+"https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+],
+[
+"woodwind",
+"MA",
+"Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+"https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+],
+[
+"brass",
+"BA",
+"Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+"https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+],
+[
+"brass",
+"MA",
+"Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+"https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+],
+[
+"percussion",
+"BA",
+"Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+"https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+],
+[
+"percussion",
+"MA",
+"Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+"https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+],
+[
+"harp",
+"BA",
+"Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+"https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+],
+[
+"harp",
+"MA",
+"Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+"https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+],
+[
+"guitar",
+"BA",
+"Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+"https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+],
+[
+"guitar",
+"MA",
+"Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+"https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+],
+[
+"piano",
+"BA",
+"Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+"https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+],
+[
+"piano",
+"MA",
+"Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+"https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+],
+[
+"conducting",
+"BA",
+"Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+"https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+],
+[
+"conducting",
+"MA",
+"Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+"https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+],
+[
+"composition",
+"BA",
+"Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+"https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+],
+[
+"composition",
+"MA",
+"Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+"https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+],
+[
+"church-music",
+"BA",
+"Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+"https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+],
+[
+"church-music",
+"MA",
+"Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+"https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+],
+[
+"music-technology",
+"BA",
+"Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+"https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+],
+[
+"music-technology",
+"MA",
+"Künstlerische Studiengänge: Orchesterinstrumente (incl. Gitarre, Saxophon, Blockflöte), Klavier, Dirigieren, Komposition, Kirchenmusik, Tonmeister",
+"https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+],
+[
+"early-music",
+"BA",
+"Alte Musik (u. a. Cembalo, Laute)",
+"https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+],
+[
+"early-music",
+"MA",
+"Alte Musik (u. a. Cembalo, Laute)",
+"https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+],
+[
+"jazz",
+"BA",
+"Jazz-Institut Berlin: Bachelor Jazz; Master Jazz Arrangement/Composition",
+"https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+],
+[
+"jazz",
+"MA",
+"Jazz-Institut Berlin: Bachelor Jazz; Master Jazz Arrangement/Composition",
+"https://www.udk-berlin.de/universitaet/fakultaet-musik/studium/kuenstlerische-ausbildung-1/"
+],
+[
+"vocal-opera",
+"BA",
+"Gesang / Musiktheater",
+"https://www.udk-berlin.de/en/courses/voiceopera/"
+],
+[
+"vocal-opera",
+"MA",
+"Gesang / Musiktheater",
+"https://www.udk-berlin.de/en/courses/voiceopera/"
+],
+[
+"music-education",
+"BA",
+"Künstlerisch-Pädagogische Ausbildung (Musiktheorie, Chor-/Ensembleleitung, EMP); Lehramt Musik",
+"https://www.udk-berlin.de/studium/kuenstlerisch-paedagogische-ausbildung/studium/master/"
+],
+[
+"music-education",
+"MA",
+"Künstlerisch-Pädagogische Ausbildung (Musiktheorie, Chor-/Ensembleleitung, EMP); Lehramt Musik",
+"https://www.udk-berlin.de/studium/kuenstlerisch-paedagogische-ausbildung/studium/master/"
+],
+[
+"music-theory",
+"BA",
+"Künstlerisch-Pädagogische Ausbildung (Musiktheorie, Chor-/Ensembleleitung, EMP); Lehramt Musik",
+"https://www.udk-berlin.de/studium/kuenstlerisch-paedagogische-ausbildung/studium/master/"
+],
+[
+"music-theory",
+"MA",
+"Künstlerisch-Pädagogische Ausbildung (Musiktheorie, Chor-/Ensembleleitung, EMP); Lehramt Musik",
+"https://www.udk-berlin.de/studium/kuenstlerisch-paedagogische-ausbildung/studium/master/"
+],
+[
+"conducting",
+"BA",
+"Künstlerisch-Pädagogische Ausbildung (Musiktheorie, Chor-/Ensembleleitung, EMP); Lehramt Musik",
+"https://www.udk-berlin.de/studium/kuenstlerisch-paedagogische-ausbildung/studium/master/"
+],
+[
+"conducting",
+"MA",
+"Künstlerisch-Pädagogische Ausbildung (Musiktheorie, Chor-/Ensembleleitung, EMP); Lehramt Musik",
+"https://www.udk-berlin.de/studium/kuenstlerisch-paedagogische-ausbildung/studium/master/"
+]
+],
+"D  LUBECK02": [
+[
+"woodwind",
+"BA",
+"Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+"https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+],
+[
+"woodwind",
+"MA",
+"Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+"https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+],
+[
+"brass",
+"BA",
+"Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+"https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+],
+[
+"brass",
+"MA",
+"Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+"https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+],
+[
+"percussion",
+"BA",
+"Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+"https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+],
+[
+"percussion",
+"MA",
+"Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+"https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+],
+[
+"strings",
+"BA",
+"Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+"https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+],
+[
+"strings",
+"MA",
+"Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+"https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+],
+[
+"harp",
+"BA",
+"Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+"https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+],
+[
+"harp",
+"MA",
+"Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+"https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+],
+[
+"guitar",
+"BA",
+"Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+"https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+],
+[
+"guitar",
+"MA",
+"Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+"https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+],
+[
+"piano",
+"BA",
+"Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+"https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+],
+[
+"piano",
+"MA",
+"Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+"https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+],
+[
+"organ",
+"BA",
+"Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+"https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+],
+[
+"organ",
+"MA",
+"Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+"https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+],
+[
+"vocal-opera",
+"BA",
+"Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+"https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+],
+[
+"vocal-opera",
+"MA",
+"Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+"https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+],
+[
+"composition",
+"BA",
+"Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+"https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+],
+[
+"composition",
+"MA",
+"Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+"https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+],
+[
+"music-theory",
+"BA",
+"Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+"https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+],
+[
+"music-theory",
+"MA",
+"Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+"https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+],
+[
+"church-music",
+"BA",
+"Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+"https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+],
+[
+"church-music",
+"MA",
+"Musikpraxis (Bachelor/Master of Music): Blasinstrumente, Schlagzeug, Streichinstrumente, Harfe, Gitarre, Tasteninstrumente, Orgel, Gesang, Komposition, Musiktheorie, Kirchenmusik",
+"https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+],
+[
+"chamber-music",
+"MA",
+"Master of Music – Kammermusik",
+"https://www.mh-luebeck.de/studium/studiengaenge/master-of-music/"
+],
+[
+"music-education",
+"BA",
+"Instrumentale und Elementare Musikpädagogik; Musik Vermitteln (B.A.); Master of Education; IGP",
+"https://www.mh-luebeck.de/studium/studiengaenge/bachelor-of-music-instrumentale-und-elementare-musikpaedagogik/"
+],
+[
+"music-education",
+"MA",
+"Instrumentale und Elementare Musikpädagogik; Musik Vermitteln (B.A.); Master of Education; IGP",
+"https://www.mh-luebeck.de/studium/studiengaenge/bachelor-of-music-instrumentale-und-elementare-musikpaedagogik/"
+]
+],
+"D  BREMEN03": [
+[
+"early-music",
+"BA",
+"Alte Musik (B.Mus., M.Mus.)",
+"https://altemusik.hfk-bremen.de/en/courses-of-study/"
+],
+[
+"early-music",
+"MA",
+"Alte Musik (B.Mus., M.Mus.)",
+"https://altemusik.hfk-bremen.de/en/courses-of-study/"
+],
+[
+"church-music",
+"MA",
+"Master historische Kirchenmusik",
+"https://altemusik.hfk-bremen.de/en/courses-of-study/"
+],
+[
+"music-education",
+"BA",
+"Künstlerisch-Pädagogische Ausbildung (IGP, EMP, Musiktheorie)",
+"https://www.hfk-bremen.de/de/kuenstlerisch-paedagogische-ausbildung-kpa"
+],
+[
+"music-education",
+"MA",
+"Künstlerisch-Pädagogische Ausbildung (IGP, EMP, Musiktheorie)",
+"https://www.hfk-bremen.de/de/kuenstlerisch-paedagogische-ausbildung-kpa"
+],
+[
+"music-theory",
+"BA",
+"Künstlerisch-Pädagogische Ausbildung (IGP, EMP, Musiktheorie)",
+"https://www.hfk-bremen.de/de/kuenstlerisch-paedagogische-ausbildung-kpa"
+],
+[
+"music-theory",
+"MA",
+"Künstlerisch-Pädagogische Ausbildung (IGP, EMP, Musiktheorie)",
+"https://www.hfk-bremen.de/de/kuenstlerisch-paedagogische-ausbildung-kpa"
+]
+],
+"D  SAARBRU08": [
+[
+"strings",
+"BA",
+"Bachelor / Master Instrument; Tasteninstrumente und Gitarre; Gesang",
+"http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+],
+[
+"strings",
+"MA",
+"Bachelor / Master Instrument; Tasteninstrumente und Gitarre; Gesang",
+"http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+],
+[
+"woodwind",
+"BA",
+"Bachelor / Master Instrument; Tasteninstrumente und Gitarre; Gesang",
+"http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+],
+[
+"woodwind",
+"MA",
+"Bachelor / Master Instrument; Tasteninstrumente und Gitarre; Gesang",
+"http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+],
+[
+"brass",
+"BA",
+"Bachelor / Master Instrument; Tasteninstrumente und Gitarre; Gesang",
+"http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+],
+[
+"brass",
+"MA",
+"Bachelor / Master Instrument; Tasteninstrumente und Gitarre; Gesang",
+"http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+],
+[
+"percussion",
+"BA",
+"Bachelor / Master Instrument; Tasteninstrumente und Gitarre; Gesang",
+"http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+],
+[
+"percussion",
+"MA",
+"Bachelor / Master Instrument; Tasteninstrumente und Gitarre; Gesang",
+"http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+],
+[
+"piano",
+"BA",
+"Bachelor / Master Instrument; Tasteninstrumente und Gitarre; Gesang",
+"http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+],
+[
+"piano",
+"MA",
+"Bachelor / Master Instrument; Tasteninstrumente und Gitarre; Gesang",
+"http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+],
+[
+"organ",
+"BA",
+"Bachelor / Master Instrument; Tasteninstrumente und Gitarre; Gesang",
+"http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+],
+[
+"organ",
+"MA",
+"Bachelor / Master Instrument; Tasteninstrumente und Gitarre; Gesang",
+"http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+],
+[
+"guitar",
+"BA",
+"Bachelor / Master Instrument; Tasteninstrumente und Gitarre; Gesang",
+"http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+],
+[
+"guitar",
+"MA",
+"Bachelor / Master Instrument; Tasteninstrumente und Gitarre; Gesang",
+"http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+],
+[
+"harp",
+"BA",
+"Bachelor / Master Instrument; Tasteninstrumente und Gitarre; Gesang",
+"http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+],
+[
+"harp",
+"MA",
+"Bachelor / Master Instrument; Tasteninstrumente und Gitarre; Gesang",
+"http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+],
+[
+"accordion",
+"BA",
+"Bachelor / Master Instrument; Tasteninstrumente und Gitarre; Gesang",
+"http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+],
+[
+"accordion",
+"MA",
+"Bachelor / Master Instrument; Tasteninstrumente und Gitarre; Gesang",
+"http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+],
+[
+"vocal-opera",
+"BA",
+"Bachelor / Master Instrument; Tasteninstrumente und Gitarre; Gesang",
+"http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+],
+[
+"vocal-opera",
+"MA",
+"Bachelor / Master Instrument; Tasteninstrumente und Gitarre; Gesang",
+"http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+],
+[
+"jazz",
+"BA",
+"Jazz und aktuelle Musik (B.Mus.); Master of Music Jazz",
+"http://www.hfm.saarland.de/en/studies/study-offer/master-programmes/"
+],
+[
+"jazz",
+"MA",
+"Jazz und aktuelle Musik (B.Mus.); Master of Music Jazz",
+"http://www.hfm.saarland.de/en/studies/study-offer/master-programmes/"
+],
+[
+"popular-music",
+"BA",
+"Jazz und aktuelle Musik (B.Mus.); Master of Music Jazz",
+"http://www.hfm.saarland.de/en/studies/study-offer/master-programmes/"
+],
+[
+"popular-music",
+"MA",
+"Jazz und aktuelle Musik (B.Mus.); Master of Music Jazz",
+"http://www.hfm.saarland.de/en/studies/study-offer/master-programmes/"
+],
+[
+"church-music",
+"BA",
+"Kirchenmusik",
+"http://www.hfm.saarland.de/en/studies/study-offer/master-programmes/"
+],
+[
+"church-music",
+"MA",
+"Kirchenmusik",
+"http://www.hfm.saarland.de/en/studies/study-offer/master-programmes/"
+],
+[
+"chamber-music",
+"MA",
+"Master: Kammermusik, Komposition, Dirigieren, Musiktheorie, Kulturmanagement",
+"http://www.hfm.saarland.de/en/studies/study-offer/master-programmes/"
+],
+[
+"composition",
+"MA",
+"Master: Kammermusik, Komposition, Dirigieren, Musiktheorie, Kulturmanagement",
+"http://www.hfm.saarland.de/en/studies/study-offer/master-programmes/"
+],
+[
+"conducting",
+"MA",
+"Master: Kammermusik, Komposition, Dirigieren, Musiktheorie, Kulturmanagement",
+"http://www.hfm.saarland.de/en/studies/study-offer/master-programmes/"
+],
+[
+"music-theory",
+"MA",
+"Master: Kammermusik, Komposition, Dirigieren, Musiktheorie, Kulturmanagement",
+"http://www.hfm.saarland.de/en/studies/study-offer/master-programmes/"
+],
+[
+"arts-management",
+"MA",
+"Master: Kammermusik, Komposition, Dirigieren, Musiktheorie, Kulturmanagement",
+"http://www.hfm.saarland.de/en/studies/study-offer/master-programmes/"
+],
+[
+"music-education",
+"BA",
+"Lehramt Musik",
+"http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+],
+[
+"music-education",
+"MA",
+"Lehramt Musik",
+"http://www.hfm.saarland.de/en/studies/study-offer/bachelor-studiengaenge/"
+]
+],
+"D  MAINZ01": [
+[
+"jazz",
+"BA",
+"Jazz und Populäre Musik (B.Mus., M.Mus.)",
+"https://www.musik.uni-mainz.de/studium/studienangebot/jazz-pop-musik-b-mus/"
+],
+[
+"jazz",
+"MA",
+"Jazz und Populäre Musik (B.Mus., M.Mus.)",
+"https://www.musik.uni-mainz.de/studium/studienangebot/jazz-pop-musik-b-mus/"
+],
+[
+"popular-music",
+"BA",
+"Jazz und Populäre Musik (B.Mus., M.Mus.)",
+"https://www.musik.uni-mainz.de/studium/studienangebot/jazz-pop-musik-b-mus/"
+],
+[
+"popular-music",
+"MA",
+"Jazz und Populäre Musik (B.Mus., M.Mus.)",
+"https://www.musik.uni-mainz.de/studium/studienangebot/jazz-pop-musik-b-mus/"
+],
+[
+"strings",
+"BA",
+"Orchesterinstrumente (incl. Gitarre); Klavier",
+"https://www.musik.uni-mainz.de/studium/studienangebot/"
+],
+[
+"strings",
+"MA",
+"Orchesterinstrumente (incl. Gitarre); Klavier",
+"https://www.musik.uni-mainz.de/studium/studienangebot/"
+],
+[
+"woodwind",
+"BA",
+"Orchesterinstrumente (incl. Gitarre); Klavier",
+"https://www.musik.uni-mainz.de/studium/studienangebot/"
+],
+[
+"woodwind",
+"MA",
+"Orchesterinstrumente (incl. Gitarre); Klavier",
+"https://www.musik.uni-mainz.de/studium/studienangebot/"
+],
+[
+"brass",
+"BA",
+"Orchesterinstrumente (incl. Gitarre); Klavier",
+"https://www.musik.uni-mainz.de/studium/studienangebot/"
+],
+[
+"brass",
+"MA",
+"Orchesterinstrumente (incl. Gitarre); Klavier",
+"https://www.musik.uni-mainz.de/studium/studienangebot/"
+],
+[
+"percussion",
+"BA",
+"Orchesterinstrumente (incl. Gitarre); Klavier",
+"https://www.musik.uni-mainz.de/studium/studienangebot/"
+],
+[
+"percussion",
+"MA",
+"Orchesterinstrumente (incl. Gitarre); Klavier",
+"https://www.musik.uni-mainz.de/studium/studienangebot/"
+],
+[
+"harp",
+"BA",
+"Orchesterinstrumente (incl. Gitarre); Klavier",
+"https://www.musik.uni-mainz.de/studium/studienangebot/"
+],
+[
+"harp",
+"MA",
+"Orchesterinstrumente (incl. Gitarre); Klavier",
+"https://www.musik.uni-mainz.de/studium/studienangebot/"
+],
+[
+"guitar",
+"BA",
+"Orchesterinstrumente (incl. Gitarre); Klavier",
+"https://www.musik.uni-mainz.de/studium/studienangebot/"
+],
+[
+"guitar",
+"MA",
+"Orchesterinstrumente (incl. Gitarre); Klavier",
+"https://www.musik.uni-mainz.de/studium/studienangebot/"
+],
+[
+"piano",
+"BA",
+"Orchesterinstrumente (incl. Gitarre); Klavier",
+"https://www.musik.uni-mainz.de/studium/studienangebot/"
+],
+[
+"piano",
+"MA",
+"Orchesterinstrumente (incl. Gitarre); Klavier",
+"https://www.musik.uni-mainz.de/studium/studienangebot/"
+],
+[
+"church-music",
+"BA",
+"Kirchenmusik (B.Mus., M.Mus.)",
+"https://www.musik.uni-mainz.de/studium/studienangebot/"
+],
+[
+"church-music",
+"MA",
+"Kirchenmusik (B.Mus., M.Mus.)",
+"https://www.musik.uni-mainz.de/studium/studienangebot/"
+],
+[
+"organ",
+"BA",
+"Kirchenmusik (B.Mus., M.Mus.)",
+"https://www.musik.uni-mainz.de/studium/studienangebot/"
+],
+[
+"organ",
+"MA",
+"Kirchenmusik (B.Mus., M.Mus.)",
+"https://www.musik.uni-mainz.de/studium/studienangebot/"
+],
+[
+"music-education",
+"BA",
+"Elementare Musikpädagogik (B.Mus.)",
+"https://www.musik.uni-mainz.de/studium/studienangebot/emp-b-mus/"
+]
+],
+"D  FRANKFU02": [
+[
+"strings",
+"BA",
+"Künstlerische Ausbildung Musik (KAM): Orchesterinstrumente, Klavier/Gitarre, Orgel, Dirigieren",
+"https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor"
+],
+[
+"strings",
+"MA",
+"Künstlerische Ausbildung Musik (KAM): Orchesterinstrumente, Klavier/Gitarre, Orgel, Dirigieren",
+"https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor"
+],
+[
+"woodwind",
+"BA",
+"Künstlerische Ausbildung Musik (KAM): Orchesterinstrumente, Klavier/Gitarre, Orgel, Dirigieren",
+"https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor"
+],
+[
+"woodwind",
+"MA",
+"Künstlerische Ausbildung Musik (KAM): Orchesterinstrumente, Klavier/Gitarre, Orgel, Dirigieren",
+"https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor"
+],
+[
+"brass",
+"BA",
+"Künstlerische Ausbildung Musik (KAM): Orchesterinstrumente, Klavier/Gitarre, Orgel, Dirigieren",
+"https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor"
+],
+[
+"brass",
+"MA",
+"Künstlerische Ausbildung Musik (KAM): Orchesterinstrumente, Klavier/Gitarre, Orgel, Dirigieren",
+"https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor"
+],
+[
+"percussion",
+"BA",
+"Künstlerische Ausbildung Musik (KAM): Orchesterinstrumente, Klavier/Gitarre, Orgel, Dirigieren",
+"https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor"
+],
+[
+"percussion",
+"MA",
+"Künstlerische Ausbildung Musik (KAM): Orchesterinstrumente, Klavier/Gitarre, Orgel, Dirigieren",
+"https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor"
+],
+[
+"piano",
+"BA",
+"Künstlerische Ausbildung Musik (KAM): Orchesterinstrumente, Klavier/Gitarre, Orgel, Dirigieren",
+"https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor"
+],
+[
+"piano",
+"MA",
+"Künstlerische Ausbildung Musik (KAM): Orchesterinstrumente, Klavier/Gitarre, Orgel, Dirigieren",
+"https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor"
+],
+[
+"guitar",
+"BA",
+"Künstlerische Ausbildung Musik (KAM): Orchesterinstrumente, Klavier/Gitarre, Orgel, Dirigieren",
+"https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor"
+],
+[
+"guitar",
+"MA",
+"Künstlerische Ausbildung Musik (KAM): Orchesterinstrumente, Klavier/Gitarre, Orgel, Dirigieren",
+"https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor"
+],
+[
+"organ",
+"BA",
+"Künstlerische Ausbildung Musik (KAM): Orchesterinstrumente, Klavier/Gitarre, Orgel, Dirigieren",
+"https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor"
+],
+[
+"organ",
+"MA",
+"Künstlerische Ausbildung Musik (KAM): Orchesterinstrumente, Klavier/Gitarre, Orgel, Dirigieren",
+"https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor"
+],
+[
+"conducting",
+"BA",
+"Künstlerische Ausbildung Musik (KAM): Orchesterinstrumente, Klavier/Gitarre, Orgel, Dirigieren",
+"https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor"
+],
+[
+"conducting",
+"MA",
+"Künstlerische Ausbildung Musik (KAM): Orchesterinstrumente, Klavier/Gitarre, Orgel, Dirigieren",
+"https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor"
+],
+[
+"early-music",
+"BA",
+"Künstlerische Ausbildung Musik (KAM): Historische Instrumente",
+"https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor"
+],
+[
+"early-music",
+"MA",
+"Künstlerische Ausbildung Musik (KAM): Historische Instrumente",
+"https://www.hfmdk-frankfurt.de/studiengang/kuenstlerische-ausbildung-musik-kam-bachelor"
+],
+[
+"music-education",
+"BA",
+"Instrumentalpädagogik",
+"https://www.hfmdk-frankfurt.de/thema/instrumentalpaedagogik"
+],
+[
+"music-education",
+"MA",
+"Instrumentalpädagogik",
+"https://www.hfmdk-frankfurt.de/thema/instrumentalpaedagogik"
+],
+[
+"jazz",
+"MA",
+"Master Bigband (Instrumentalists, Composers and Conductors)",
+"https://www.hfmdk-frankfurt.de/en/studiengang/bigband-instrumentalists-composers-and-conductors-master"
+],
+[
+"composition",
+"MA",
+"Master Bigband (Instrumentalists, Composers and Conductors)",
+"https://www.hfmdk-frankfurt.de/en/studiengang/bigband-instrumentalists-composers-and-conductors-master"
+],
+[
+"conducting",
+"MA",
+"Master Bigband (Instrumentalists, Composers and Conductors)",
+"https://www.hfmdk-frankfurt.de/en/studiengang/bigband-instrumentalists-composers-and-conductors-master"
+]
+],
+"D  OSNABRU02": [
+[
+"popular-music",
+"BA",
+"Musikerziehung (B.A.) – Pop",
+"https://www.hs-osnabrueck.de/studium/studienangebot/bachelor/musikerziehung-ba-pop/"
+],
+[
+"music-education",
+"BA",
+"Musikerziehung (B.A.) – Pop",
+"https://www.hs-osnabrueck.de/studium/studienangebot/bachelor/musikerziehung-ba-pop/"
+],
+[
+"jazz",
+"BA",
+"Musikerziehung (B.A.) – Jazz",
+"https://www.hs-osnabrueck.de/studium/studienangebot/bachelor/musikerziehung-ba-jazz/"
+],
+[
+"vocal-opera",
+"BA",
+"Musikerziehung (B.A.) – Musical",
+"https://www.hs-osnabrueck.de/studium/studienangebot/bachelor/musikerziehung-ba-musical/"
+],
+[
+"music-education",
+"BA",
+"Musikerziehung (B.A.) – Musical",
+"https://www.hs-osnabrueck.de/studium/studienangebot/bachelor/musikerziehung-ba-musical/"
+],
+[
+"strings",
+"BA",
+"Musikerziehung (B.A.) – Klassik (Instrument, Gesang, Komposition, Musiktheorie)",
+"https://www.hs-osnabrueck.de/wir/fakultaeten/ifm/klassik/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"BA",
+"Musikerziehung (B.A.) – Klassik (Instrument, Gesang, Komposition, Musiktheorie)",
+"https://www.hs-osnabrueck.de/wir/fakultaeten/ifm/klassik/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"BA",
+"Musikerziehung (B.A.) – Klassik (Instrument, Gesang, Komposition, Musiktheorie)",
+"https://www.hs-osnabrueck.de/wir/fakultaeten/ifm/klassik/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"BA",
+"Musikerziehung (B.A.) – Klassik (Instrument, Gesang, Komposition, Musiktheorie)",
+"https://www.hs-osnabrueck.de/wir/fakultaeten/ifm/klassik/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"BA",
+"Musikerziehung (B.A.) – Klassik (Instrument, Gesang, Komposition, Musiktheorie)",
+"https://www.hs-osnabrueck.de/wir/fakultaeten/ifm/klassik/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"BA",
+"Musikerziehung (B.A.) – Klassik (Instrument, Gesang, Komposition, Musiktheorie)",
+"https://www.hs-osnabrueck.de/wir/fakultaeten/ifm/klassik/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"composition",
+"BA",
+"Musikerziehung (B.A.) – Klassik (Instrument, Gesang, Komposition, Musiktheorie)",
+"https://www.hs-osnabrueck.de/wir/fakultaeten/ifm/klassik/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"music-theory",
+"BA",
+"Musikerziehung (B.A.) – Klassik (Instrument, Gesang, Komposition, Musiktheorie)",
+"https://www.hs-osnabrueck.de/wir/fakultaeten/ifm/klassik/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+]
+]
+},
+"notes": {}
+}
