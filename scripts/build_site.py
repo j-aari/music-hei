@@ -16,7 +16,7 @@ import sys
 from collections import Counter
 from datetime import date
 
-from common import (CONTACTS, GEO, NETWORKS, SITE, SITE_PUBLIC, STRATEGIES, UPSTREAM, UPSTREAM_META, load_annotations, load_upstream, nice_case, normalize_url,
+from common import (CONTACTS, DISCIPLINES, GEO, NETWORKS, PROGRAMMES, SITE, SITE_PUBLIC, STRATEGIES, UPSTREAM, UPSTREAM_META, load_annotations, load_upstream, nice_case, normalize_url,
                     publish, today)
 
 # Sivun tekstit ovat englanniksi; laitosten nimet säilyvät alkuperäiskielellä.
@@ -149,6 +149,9 @@ def build():
         publish(CONTACTS)
     if NETWORKS.exists():  # käsin tarkistettu, kuten strategiat
         publish(NETWORKS)
+    if PROGRAMMES.exists() and DISCIPLINES.exists():  # käsin kerätty; sivu tarvitsee taksonomian alojen nimiin
+        publish(PROGRAMMES)
+        publish(DISCIPLINES)
     return site, warnings
 
 

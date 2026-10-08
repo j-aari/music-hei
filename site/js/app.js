@@ -35,6 +35,7 @@
   let mobility = null;               // data/mobility.json, or null if the file couldn't be loaded
   let contacts = null;               // data/contacts.json, or null if the file couldn't be loaded
   let networks = null;               // data/networks.json, or null if the file couldn't be loaded
+  let programmes = null;             // data/programmes.json + data/disciplines.json, or null if either couldn't be loaded
   const state = { view: 'list', sort: 'country', q: '', country: new Set(), type: new Set(), language: new Set(), partner: new Set(), strategy: new Set(), network: new Set(), id: null };
   let langNames;
   let hasPartnerData = false, hasLanguageData = false, hasStrategyData = false, hasNetworkData = false;
@@ -407,6 +408,48 @@
     }
     return section;
   }
+  // Study programmes: grouped by the fields of disciplines.json, inside a collapsible list. A missing record means
+  // "not found on the pages that were read", so institutions outside the collected set say "not collected yet".
+  const LEVEL_ORDER = ['BA', 'MA', 'Doc'];
+  function renderProgrammesSection(i) {
+    const { meta: pm, byCode, disciplines, groups } = programmes;
+    const section = h('div', { class: 'panel__section' }, h('h3', { class: 'panel__section-title', text: 'Study programmes' }));
+    section.append(h('p', { class: 'panel__coverage', text: `Programme data covers ${pm.institutions.length} of ${data.length} institutions.` }));
+    const recs = byCode.get(i.id) || [];
+    if (!recs.length) {
+      section.append(h('p', { class: 'strategy-empty', text: 'Not collected yet. See the institution’s website for its programmes.' }));
+      return section;
+    }
+    const byDisc = new Map(recs.map((r) => [r.discipline, r]));
+    const levelsHere = new Set(recs.flatMap((r) => r.levels));
+    const summary = `What can be studied here: ${recs.length} ${recs.length === 1 ? 'field' : 'fields'}` +
+      (levelsHere.size ? ` (${LEVEL_ORDER.filter((l) => levelsHere.has(l)).join(', ')})` : '');
+    const body = h('div', { class: 'prog-body' });
+    for (const g of groups) {
+      const inGroup = g.disciplines.filter((d) => byDisc.has(d));
+      if (!inGroup.length) continue;
+      const ul = h('ul', { class: 'prog-list' });
+      for (const d of inGroup) {
+        const r = byDisc.get(d);
+        const levels = h('span', { class: 'prog-levels' }, ...LEVEL_ORDER.filter((l) => r.levels.includes(l)).map((l) => h('span', { class: 'prog-level', title: programmes.levelNames[l] || l, text: l })));
+        const names = h('ul', { class: 'prog-names' });
+        // One evidence row per level, often with the same programme name: list each name once (first page found).
+        // The note is shown only when no level could be told, because then it explains what the study is.
+        const seen = new Set();
+        for (const e of r.evidence) {
+          if (seen.has(e.programme_name)) continue;
+          seen.add(e.programme_name);
+          names.append(h('li', {}, h('a', { href: e.url, target: '_blank', rel: 'noopener noreferrer' }, e.programme_name, h('span', { class: 'sr-only', text: ' (opens in a new tab)' })),
+            e.note && !r.levels.length ? h('span', { class: 'prog-note', text: ` – ${e.note}` }) : null));
+        }
+        ul.append(h('li', {}, h('p', { class: 'prog-name' }, disciplines.get(d) || d, levels), names));
+      }
+      body.append(h('h4', { class: 'network-group', text: g.name }), ul);
+    }
+    body.append(h('p', { class: 'small', text: `Collected from the institution’s own website on ${pm.collected}; not yet checked by a person. A field that is not listed may still be offered.` }));
+    section.append(h('details', { class: 'prog' }, h('summary', { text: summary }), body));
+    return section;
+  }
   // Copy buttons for the two values that go into agreements: the institution's name and its Erasmus code
   async function copyText(text) {
     try { await navigator.clipboard.writeText(text); return true; } catch { /* fall back below */ }
@@ -484,6 +527,7 @@
     if (i.geo_precision === 'city') body.append(h('p', { class: 'small', text: 'Map position is approximate (city centre).' }));
     body.append(renderStrategySection(i));
     if (mobility) body.append(renderMobilitySection(i));
+    if (programmes) body.append(renderProgrammesSection(i));
     if (networks) body.append(renderNetworksSection(i));
     if (state.view === 'list' && i.lat != null && matches(i)) {
       body.append(h('p', { class: 'actions' }, h('button', { type: 'button', class: 'btn', onclick: () => { setView('map'); focusMarker(i); }, text: 'Show on map' })));
@@ -683,6 +727,12 @@
     mobility = await fetchJson('data/mobility.json');  // optional: the panel works without it
     contacts = await fetchJson('data/contacts.json');  // optional
     networks = await fetchJson('data/networks.json');  // optional
+    const [prog, disc] = await Promise.all([fetchJson('data/programmes.json'), fetchJson('data/disciplines.json')]);  // optional
+    if (prog && disc) {
+      const byCode = new Map();
+      for (const r of prog.programmes) (byCode.get(r.erasmus_code) || byCode.set(r.erasmus_code, []).get(r.erasmus_code)).push(r);
+      programmes = { meta: prog.meta, byCode, groups: disc.groups, levelNames: disc.levels, disciplines: new Map(disc.disciplines.map((d) => [d.id, d.name])) };
+    }
     hasNetworkData = !!(networks && networks.networks.some((n) => n.id === 'aec' && n.mapped));
 
     $('#scope').textContent = meta.scope_text;

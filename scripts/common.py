@@ -24,6 +24,8 @@ MOBILITY_CANDIDATES = DATA / "mobility_candidates.json"  # generoitu nimiehdotus
 MOBILITY = DATA / "mobility.json"  # generoitu yhteenveto, julkaistaan sivulle
 CONTACTS = DATA / "contacts.json"  # käsin tarkistettu: kv-toimiston yleisosoite tai yhteystietosivu per laitos
 NETWORKS = DATA / "networks.json"  # käsin tarkistettu: kartoitetut verkostot ja laitosten jäsenyydet (fetch_networks.py)
+PROGRAMMES = DATA / "programmes.json"  # käsin kerätty: opinto-ohjelmat laitoksittain ja aloittain (pilotti)
+DISCIPLINES = DATA / "disciplines.json"  # alojen taksonomia, jota programmes.json käyttää
 NE_COUNTRIES = DATA / "reference" / "ne_110m_admin_0_countries.geojson"
 PUBLIC_DATA = SITE_PUBLIC.parent if SITE_PUBLIC else None  # site/data/
 
