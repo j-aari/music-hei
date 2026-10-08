@@ -1,6 +1,6 @@
 {
  "meta": {
-  "description": "Study programmes per institution and fine-grained discipline (see disciplines.json). Collected so far: 108 institutions.",
+  "description": "Study programmes per institution and fine-grained discipline (see disciplines.json). Collected so far: 116 institutions.",
   "status": "pilot",
   "collected": "2026-10-08",
   "verified_note": "Every record has verified: false. Programme names and URLs were read from the institutions' own websites (programme lists and programme pages) but have not been checked by a person.",
@@ -88,17 +88,25 @@
    "I  AGRIGEN02",
    "I  ALESSAN01",
    "I  BARI03",
+   "I  BOLOGNA04",
    "I  COMO04",
+   "I  CREMONA01",
    "I  FIRENZE04",
    "I  FROSINO02",
+   "I  LATINA02",
+   "I  LECCE03",
    "I  LUCCA03",
    "I  MANTOVA01",
    "I  MATERA01",
    "I  MESSINA04",
+   "I  MODENA05",
    "I  MONOPOL02",
    "I  PARMA02",
+   "I  PERUGIA03",
    "I  POTENZA03",
    "I  ROMA09",
+   "I  ROVIGO01",
+   "I  TRAPANI02",
    "I  TRENTO02",
    "I  VENEZIA04",
    "I  VIBO-VA01",
@@ -286,6 +294,20 @@
      "I  TRENTO02",
      "I  VENEZIA04",
      "I  VIBO-VA01"
+    ],
+    "date": "2026-10-08",
+    "method": "Field-level collection as in batch 1; where a site lists programmes only via JavaScript, the programme pages were located with a web search restricted to the institution's own domain (raw HTML of each institution's own programme pages, PDFs where the list was only there; names mapped to disciplines.json by keyword and checked by hand)."
+   },
+   {
+    "erasmus_codes": [
+     "I  BOLOGNA04",
+     "I  CREMONA01",
+     "I  LATINA02",
+     "I  LECCE03",
+     "I  MODENA05",
+     "I  PERUGIA03",
+     "I  ROVIGO01",
+     "I  TRAPANI02"
     ],
     "date": "2026-10-08",
     "method": "Field-level collection as in batch 1; where a site lists programmes only via JavaScript, the programme pages were located with a web search restricted to the institution's own domain (raw HTML of each institution's own programme pages, PDFs where the list was only there; names mapped to disciplines.json by keyword and checked by hand)."
@@ -31997,6 +32019,2634 @@
      "level": "MA",
      "programme_name": "MUSICA DA CAMERA",
      "url": "https://conservatoriosantacecilia.it/biennio-piani-di-studio-e-ammissione/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  BOLOGNA04",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://consbo.it/insegnamenti/canto-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Canto",
+     "url": "https://consbo.it/insegnamenti/canto-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Canto",
+     "url": "https://consbo.it/insegnamenti/canto-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  BOLOGNA04",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://consbo.it/insegnamenti/canto-rinascimentale-barocco-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Canto Rinascimentale e Barocco",
+     "url": "https://consbo.it/insegnamenti/canto-rinascimentale-barocco-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Canto Rinascimentale e Barocco",
+     "url": "https://consbo.it/insegnamenti/canto-rinascimentale-barocco-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  BOLOGNA04",
+   "discipline": "music-education",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://consbo.it/insegnamenti/didattica-ind-generale-biennio/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Didattica della musica (ind. Generale)",
+     "url": "https://consbo.it/insegnamenti/didattica-ind-generale-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  BOLOGNA04",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://consbo.it/insegnamenti/flauto-traversiere-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Flauto traversiere",
+     "url": "https://consbo.it/insegnamenti/flauto-traversiere-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Flauto traversiere",
+     "url": "https://consbo.it/insegnamenti/flauto-traversiere-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  BOLOGNA04",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://consbo.it/insegnamenti/pianoforte-storico-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Pianoforte storico",
+     "url": "https://consbo.it/insegnamenti/pianoforte-storico-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Pianoforte",
+     "url": "https://consbo.it/insegnamenti/pianoforte-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  BOLOGNA04",
+   "discipline": "chamber-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://consbo.it/insegnamenti/musica-dinsieme-ind-strumenti-a-fiato-biennio/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Musica d'insieme (ind. Strumenti a fiato)",
+     "url": "https://consbo.it/insegnamenti/musica-dinsieme-ind-strumenti-a-fiato-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  BOLOGNA04",
+   "discipline": "music-technology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://consbo.it/insegnamenti/musica-elettronica-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musica elettronica",
+     "url": "https://consbo.it/insegnamenti/musica-elettronica-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musica elettronica (ind. Improvvisazione elettroacustica)",
+     "url": "https://consbo.it/insegnamenti/musica-elettronica-ind-improvvisazione-elettroacustica-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  BOLOGNA04",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://consbo.it/insegnamenti/batteria-e-percussioni-jazz-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Batteria e percussioni jazz",
+     "url": "https://consbo.it/insegnamenti/batteria-e-percussioni-jazz-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Batteria e percussioni jazz",
+     "url": "https://consbo.it/insegnamenti/batteria-e-percussioni-jazz-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  BOLOGNA04",
+   "discipline": "popular-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://consbo.it/insegnamenti/popular-music-canto-pop-rock-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Popular music - Canto Pop Rock",
+     "url": "https://consbo.it/insegnamenti/popular-music-canto-pop-rock-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Popular music - Canto Pop Rock (nelle more dell'approvazione ministeriale)",
+     "url": "https://consbo.it/insegnamenti/popular-music-canto-pop-rock-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  BOLOGNA04",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://consbo.it/insegnamenti/basso-tuba-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Basso tuba",
+     "url": "https://consbo.it/insegnamenti/basso-tuba-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Corno",
+     "url": "https://consbo.it/insegnamenti/corno-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  BOLOGNA04",
+   "discipline": "accordion",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://consbo.it/insegnamenti/fisarmonica-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Fisarmonica",
+     "url": "https://consbo.it/insegnamenti/fisarmonica-triennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  BOLOGNA04",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://consbo.it/insegnamenti/organo-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Organo",
+     "url": "https://consbo.it/insegnamenti/organo-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Organo",
+     "url": "https://consbo.it/insegnamenti/organo-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  BOLOGNA04",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://consbo.it/insegnamenti/strumenti-a-percussione-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Strumenti a percussione",
+     "url": "https://consbo.it/insegnamenti/strumenti-a-percussione-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Strumenti a percussione",
+     "url": "https://consbo.it/insegnamenti/strumenti-a-percussione-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  BOLOGNA04",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://consbo.it/insegnamenti/arpa-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Arpa",
+     "url": "https://consbo.it/insegnamenti/arpa-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Arpa",
+     "url": "https://consbo.it/insegnamenti/arpa-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  BOLOGNA04",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://consbo.it/insegnamenti/chitarra-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Chitarra",
+     "url": "https://consbo.it/insegnamenti/chitarra-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Chitarra",
+     "url": "https://consbo.it/insegnamenti/chitarra-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  BOLOGNA04",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://consbo.it/insegnamenti/contrabbasso-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Contrabbasso",
+     "url": "https://consbo.it/insegnamenti/contrabbasso-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Contrabbasso",
+     "url": "https://consbo.it/insegnamenti/contrabbasso-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  BOLOGNA04",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://consbo.it/insegnamenti/composizione-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composizione",
+     "url": "https://consbo.it/insegnamenti/composizione-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Composizione",
+     "url": "https://consbo.it/insegnamenti/composizione-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  BOLOGNA04",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://consbo.it/insegnamenti/direzione-dorchestra-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Direzione d'orchestra",
+     "url": "https://consbo.it/insegnamenti/direzione-dorchestra-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Direzione d'orchestra",
+     "url": "https://consbo.it/insegnamenti/direzione-dorchestra-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  ROVIGO01",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://conservatoriorovigo.it/insegnamenti/canto-rinascimentale-e-barocco-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Canto rinascimentale e barocco",
+     "url": "https://conservatoriorovigo.it/insegnamenti/canto-rinascimentale-e-barocco-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Canto rinascimentale e barocco",
+     "url": "https://conservatoriorovigo.it/insegnamenti/canto-rinascimentale-e-barocco-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  ROVIGO01",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://conservatoriorovigo.it/insegnamenti/canto-rinascimentale-e-barocco-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Canto rinascimentale e barocco",
+     "url": "https://conservatoriorovigo.it/insegnamenti/canto-rinascimentale-e-barocco-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Canto",
+     "url": "https://conservatoriorovigo.it/insegnamenti/canto-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  ROVIGO01",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://conservatoriorovigo.it/insegnamenti/canto-jazz-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Canto Jazz",
+     "url": "https://conservatoriorovigo.it/insegnamenti/canto-jazz-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Canto Jazz",
+     "url": "https://conservatoriorovigo.it/insegnamenti/canto-jazz-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  ROVIGO01",
+   "discipline": "popular-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://conservatoriorovigo.it/insegnamenti/canto-pop-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Canto Pop Rock",
+     "url": "https://conservatoriorovigo.it/insegnamenti/canto-pop-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Canto Pop Rock",
+     "url": "https://conservatoriorovigo.it/insegnamenti/canto-pop-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  ROVIGO01",
+   "discipline": "piano",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://conservatoriorovigo.it/insegnamenti/pianoforte-storico-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Pianoforte Storico",
+     "url": "https://conservatoriorovigo.it/insegnamenti/pianoforte-storico-triennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  ROVIGO01",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://conservatoriorovigo.it/insegnamenti/organo-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Organo",
+     "url": "https://conservatoriorovigo.it/insegnamenti/organo-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Organo",
+     "url": "https://conservatoriorovigo.it/insegnamenti/organo-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  ROVIGO01",
+   "discipline": "music-technology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://conservatoriorovigo.it/insegnamenti/tastiere-elettroniche-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Tastiere Elettroniche",
+     "url": "https://conservatoriorovigo.it/insegnamenti/tastiere-elettroniche-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Tastiere Elettroniche",
+     "url": "https://conservatoriorovigo.it/insegnamenti/tastiere-elettroniche-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  ROVIGO01",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://conservatoriorovigo.it/insegnamenti/arpa-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Arpa",
+     "url": "https://conservatoriorovigo.it/insegnamenti/arpa-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Arpa",
+     "url": "https://conservatoriorovigo.it/insegnamenti/arpa-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  ROVIGO01",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://conservatoriorovigo.it/insegnamenti/chitarra-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Chitarra",
+     "url": "https://conservatoriorovigo.it/insegnamenti/chitarra-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Chitarra",
+     "url": "https://conservatoriorovigo.it/insegnamenti/chitarra-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  ROVIGO01",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://conservatoriorovigo.it/insegnamenti/violino-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Violino",
+     "url": "https://conservatoriorovigo.it/insegnamenti/violino-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Violino",
+     "url": "https://conservatoriorovigo.it/insegnamenti/violino-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  ROVIGO01",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://conservatoriorovigo.it/insegnamenti/flauto-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Flauto",
+     "url": "https://conservatoriorovigo.it/insegnamenti/flauto-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Flauto",
+     "url": "https://conservatoriorovigo.it/insegnamenti/flauto-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  ROVIGO01",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://conservatoriorovigo.it/insegnamenti/corno-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Corno",
+     "url": "https://conservatoriorovigo.it/insegnamenti/corno-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Corno",
+     "url": "https://conservatoriorovigo.it/insegnamenti/corno-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  ROVIGO01",
+   "discipline": "accordion",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://conservatoriorovigo.it/insegnamenti/fisarmonica-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Fisarmonica",
+     "url": "https://conservatoriorovigo.it/insegnamenti/fisarmonica-triennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  ROVIGO01",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://conservatoriorovigo.it/insegnamenti/strumenti-a-percussione-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Strumenti a Percussione",
+     "url": "https://conservatoriorovigo.it/insegnamenti/strumenti-a-percussione-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Strumenti a Percussione",
+     "url": "https://conservatoriorovigo.it/insegnamenti/strumenti-a-percussione-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  ROVIGO01",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://conservatoriorovigo.it/insegnamenti/didattica-della-musica-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Didattica della musica",
+     "url": "https://conservatoriorovigo.it/insegnamenti/didattica-della-musica-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Didattica della musica - indirizzo Didattica dello strumento",
+     "url": "https://conservatoriorovigo.it/insegnamenti/didattica-della-musica-indirizzo-didattica-dello-strumento-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  ROVIGO01",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://conservatoriorovigo.it/insegnamenti/direzione-di-coro-e-composizione-corale-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Direzione di coro e composizione corale",
+     "url": "https://conservatoriorovigo.it/insegnamenti/direzione-di-coro-e-composizione-corale-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Direzione di coro e composizione corale",
+     "url": "https://conservatoriorovigo.it/insegnamenti/direzione-di-coro-e-composizione-corale-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  ROVIGO01",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://conservatoriorovigo.it/insegnamenti/direzione-di-coro-e-composizione-corale-triennio/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Direzione di coro e composizione corale",
+     "url": "https://conservatoriorovigo.it/insegnamenti/direzione-di-coro-e-composizione-corale-triennio/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Direzione di coro e composizione corale",
+     "url": "https://conservatoriorovigo.it/insegnamenti/direzione-di-coro-e-composizione-corale-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  ROVIGO01",
+   "discipline": "chamber-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://conservatoriorovigo.it/insegnamenti/musica-dinsieme-biennio/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Musica d'insieme",
+     "url": "https://conservatoriorovigo.it/insegnamenti/musica-dinsieme-biennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  TRAPANI02",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.constp.it/?indirizzo=arpa/diploma-accademico-di-primo-livello-test",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Diploma accademico di II livello Arpa",
+     "url": "https://www.constp.it/?indirizzo=arpa/diploma-accademico-di-primo-livello-test"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Diploma Accademico I livello Arpa",
+     "url": "https://www.constp.it/?indirizzo=arpa/diploma-accademico-i-livello-arpa"
+    },
+    {
+     "level": null,
+     "programme_name": "Propedeutico Arpa",
+     "url": "https://www.constp.it/?indirizzo=arpa/propedeutico-arpa"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  TRAPANI02",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.constp.it/?indirizzo=basso-tuba/diploma-accademico-i-livello-basso-tuba",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Diploma accademico I livello Basso Tuba",
+     "url": "https://www.constp.it/?indirizzo=basso-tuba/diploma-accademico-i-livello-basso-tuba"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Diploma accademico II Basso Tuba",
+     "url": "https://www.constp.it/?indirizzo=basso-tuba/diploma-accademico-ii-basso-tuba"
+    },
+    {
+     "level": null,
+     "programme_name": "Propedeutico Basso tuba",
+     "url": "https://www.constp.it/?indirizzo=basso-tuba/propedeutico-basso-tuba"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  TRAPANI02",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.constp.it/?indirizzo=canto-2/canto",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Diploma accademico di I livello Canto",
+     "url": "https://www.constp.it/?indirizzo=canto-2/canto"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Diploma Accademico di II Livello Canto",
+     "url": "https://www.constp.it/?indirizzo=canto-2/diploma-accademico-di-ii-livello-canto"
+    },
+    {
+     "level": null,
+     "programme_name": "Corso di base Canto",
+     "url": "https://www.constp.it/?indirizzo=canto-2/corso-di-base-canto"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  TRAPANI02",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.constp.it/?indirizzo=chitarra",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Chitarra",
+     "url": "https://www.constp.it/?indirizzo=chitarra"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Diploma accademico I° livello – Chitarra",
+     "url": "https://www.constp.it/?indirizzo=chitarra/diploma-accademico-i-livello-chitarra"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Diploma accademico II° livello – Chitarra",
+     "url": "https://www.constp.it/?indirizzo=chitarra/diploma-accademico-ii-livello-chitarra"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  TRAPANI02",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.constp.it/?indirizzo=clarinetto/diploma-accademico-di-i-livello-clarinetto",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Diploma Accademico di I° livello Clarinetto",
+     "url": "https://www.constp.it/?indirizzo=clarinetto/diploma-accademico-di-i-livello-clarinetto"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Diploma Accademico di II° livello Clarinetto",
+     "url": "https://www.constp.it/?indirizzo=clarinetto/diploma-accademico-di-ii-livello-clarinetto"
+    },
+    {
+     "level": null,
+     "programme_name": "Propedeutico-Clarinetto",
+     "url": "https://www.constp.it/?indirizzo=clarinetto/propedeutico-clarinetto"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  TRAPANI02",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.constp.it/?indirizzo=clavicembalo-e-tastiere-storiche",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Clavicembalo e tastiere storiche",
+     "url": "https://www.constp.it/?indirizzo=clavicembalo-e-tastiere-storiche"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Diploma accademico I° livello – Clavicembalo e Tastiere storiche",
+     "url": "https://www.constp.it/?indirizzo=clavicembalo-e-tastiere-storiche/diploma-accademico-i-livello-clavicembalo-e-tastiere-storiche"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Diploma accademico II° livello – Liuto",
+     "url": "https://www.constp.it/?indirizzo=liuto/diploma-accademico-ii-livello-liuto"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  TRAPANI02",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.constp.it/?indirizzo=composizione",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Composizione",
+     "url": "https://www.constp.it/?indirizzo=composizione"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Diploma accademico I° livello – Composizione",
+     "url": "https://www.constp.it/?indirizzo=composizione/diploma-accademico-i-livello-composizione"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Diploma accademico II° livello – Composizione",
+     "url": "https://www.constp.it/?indirizzo=composizione/diploma-accademico-ii-livello-composizione"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  TRAPANI02",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.constp.it/?indirizzo=diploma-accademico-di-i-livello-in-contrabbasso",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Diploma Accademico di I livello in Contrabbasso",
+     "url": "https://www.constp.it/?indirizzo=diploma-accademico-di-i-livello-in-contrabbasso"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Diploma accademico II° livello – Contrabbasso",
+     "url": "https://www.constp.it/?indirizzo=contrabbasso/diploma-accademico-ii-livello-contrabbasso"
+    },
+    {
+     "level": null,
+     "programme_name": "Propedeutico Contrabbasso",
+     "url": "https://www.constp.it/?indirizzo=propedeutico-contrabbasso"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  TRAPANI02",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.constp.it/?indirizzo=didattica-della-musica-e-dello-strumento",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Didattica della musica e dello strumento",
+     "url": "https://www.constp.it/?indirizzo=didattica-della-musica-e-dello-strumento"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Diploma accademico I° livello – Didattica della musica e dello strumento",
+     "url": "https://www.constp.it/?indirizzo=didattica-della-musica-e-dello-strumento/diploma-accademico-i-livello-didattica-della-musica-e-dello-strumento"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Diploma accademico II° livello – Didattica della musica e dello strumento",
+     "url": "https://www.constp.it/?indirizzo=didattica-della-musica-e-dello-strumento/diploma-accademico-ii-livello-didattica-della-musica-e-dello-strumento"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  TRAPANI02",
+   "discipline": "accordion",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.constp.it/?indirizzo=fisarmonica",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Propedeutico Fisarmonica",
+     "url": "https://www.constp.it/?indirizzo=fisarmonica"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Diploma Accademico di I° livello – Fisarmonica",
+     "url": "https://www.constp.it/?indirizzo=diploma-accademico-di-i-livello-fisarmonica"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  TRAPANI02",
+   "discipline": "jazz",
+   "levels": [],
+   "source_url": "https://www.constp.it/?indirizzo=batteria-e-percussioni-jazz",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Batteria e Percussioni Jazz",
+     "url": "https://www.constp.it/?indirizzo=batteria-e-percussioni-jazz"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  TRAPANI02",
+   "discipline": "chamber-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.constp.it/?indirizzo=musica-dinsieme-indirizzo-musica-da-camera/diploma-accademico-di-ii-livello-musica-da-camera",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Diploma accademico di II livello Musica da Camera",
+     "url": "https://www.constp.it/?indirizzo=musica-dinsieme-indirizzo-musica-da-camera/diploma-accademico-di-ii-livello-musica-da-camera"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  TRAPANI02",
+   "discipline": "music-technology",
+   "levels": [],
+   "source_url": "https://www.constp.it/?indirizzo=musica-elettronica",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Musica Elettronica",
+     "url": "https://www.constp.it/?indirizzo=musica-elettronica"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  TRAPANI02",
+   "discipline": "music-therapy",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.constp.it/?indirizzo=musicoterapia",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Diploma Accademico di II livello in Musicoterapia",
+     "url": "https://www.constp.it/?indirizzo=musicoterapia"
+    },
+    {
+     "level": null,
+     "programme_name": "Propedeutico in Musicoterapia",
+     "url": "https://www.constp.it/?indirizzo=propedeutico-in-musicoterapia"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  TRAPANI02",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.constp.it/?indirizzo=organo",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Organo",
+     "url": "https://www.constp.it/?indirizzo=organo"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Diploma accademico I° livello – Organo",
+     "url": "https://www.constp.it/?indirizzo=organo/diploma-accademico-i-livello-organo"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Diploma accademico II° livello – Organo",
+     "url": "https://www.constp.it/?indirizzo=organo/diploma-accademico-ii-livello-organo"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  TRAPANI02",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.constp.it/?indirizzo=pianoforte",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Pianoforte",
+     "url": "https://www.constp.it/?indirizzo=pianoforte"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Diploma accademico I° livello – Pianoforte",
+     "url": "https://www.constp.it/?indirizzo=pianoforte/diploma-accademico-i-livello-pianoforte"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Diploma accademico II° livello – Pianoforte",
+     "url": "https://www.constp.it/?indirizzo=pianoforte/diploma-accademico-ii-livello-pianoforte"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  TRAPANI02",
+   "discipline": "popular-music",
+   "levels": [],
+   "source_url": "https://www.constp.it/?indirizzo=basso-elettrico-pop-rock",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Basso Elettrico pop rock",
+     "url": "https://www.constp.it/?indirizzo=basso-elettrico-pop-rock"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  TRAPANI02",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.constp.it/?indirizzo=strumenti-a-percussione",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Strumenti a Percussione",
+     "url": "https://www.constp.it/?indirizzo=strumenti-a-percussione"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Diploma accademico I° livello – Strumenti a percussione",
+     "url": "https://www.constp.it/?indirizzo=strumenti-a-percussione/diploma-accademico-i-livello-strumenti-a-percussione"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Diploma accademico II° livello – Strumenti a percussione",
+     "url": "https://www.constp.it/?indirizzo=strumenti-a-percussione/diploma-accademico-ii-livello-strumenti-a-percussione"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  CREMONA01",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conscremona.it/trienni/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Corsi di Formazione di Base di strumento e canto",
+     "url": "https://www.conscremona.it/trienni/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Corsi di Formazione di Base di strumento e canto",
+     "url": "https://www.conscremona.it/bienni/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  CREMONA01",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conscremona.it/trienni/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "ARPA",
+     "url": "https://www.conscremona.it/trienni/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Biennio Arpa",
+     "url": "https://www.conscremona.it/bienni/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  CREMONA01",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conscremona.it/trienni/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "CANTO RINASCIMENTALE E BAROCCO",
+     "url": "https://www.conscremona.it/trienni/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Biennio Clavicembalo e tastiere storiche",
+     "url": "https://www.conscremona.it/bienni/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  CREMONA01",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conscremona.it/trienni/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "CHITARRA",
+     "url": "https://www.conscremona.it/trienni/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "CHITARRA",
+     "url": "https://www.conscremona.it/bienni/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  CREMONA01",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conscremona.it/trienni/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "CLARINETTO",
+     "url": "https://www.conscremona.it/trienni/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "CLARINETTO",
+     "url": "https://www.conscremona.it/bienni/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  CREMONA01",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conscremona.it/trienni/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "CONTRABBASSO",
+     "url": "https://www.conscremona.it/trienni/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Biennio Contrabbasso",
+     "url": "https://www.conscremona.it/bienni/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  CREMONA01",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conscremona.it/trienni/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "CORNO",
+     "url": "https://www.conscremona.it/trienni/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "CORNO",
+     "url": "https://www.conscremona.it/bienni/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  CREMONA01",
+   "discipline": "music-education",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conscremona.it/trienni/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DIDATTICA DELLA MUSICA",
+     "url": "https://www.conscremona.it/trienni/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  CREMONA01",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conscremona.it/trienni/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "ORGANO",
+     "url": "https://www.conscremona.it/trienni/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "ORGANO E COMPOSIZIONE ORGANISTICA",
+     "url": "https://www.conscremona.it/bienni/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  CREMONA01",
+   "discipline": "church-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conscremona.it/trienni/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "ORGANO E MUSICA LITURGICA",
+     "url": "https://www.conscremona.it/trienni/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  CREMONA01",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conscremona.it/trienni/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "PIANOFORTE",
+     "url": "https://www.conscremona.it/trienni/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "PIANOFORTE",
+     "url": "https://www.conscremona.it/bienni/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  CREMONA01",
+   "discipline": "chamber-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.conscremona.it/bienni/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "MUSICA D’INSIEME",
+     "url": "https://www.conscremona.it/bienni/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  CREMONA01",
+   "discipline": "composition",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.conscremona.it/bienni/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "ORGANO E COMPOSIZIONE ORGANISTICA",
+     "url": "https://www.conscremona.it/bienni/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  LATINA02",
+   "discipline": "music-education",
+   "levels": [],
+   "source_url": "https://www.conslatina.it/cms.php?cat=6&sub=27",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Corso libero: Educare con la Musica nello zerosei",
+     "url": "https://www.conslatina.it/cms.php?cat=6&sub=27"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  LATINA02",
+   "discipline": "harp",
+   "levels": [],
+   "source_url": "https://www.conslatina.it/cms.php?cat=6&sub=27",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Arpa",
+     "url": "https://www.conslatina.it/cms.php?cat=6&sub=27"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  LATINA02",
+   "discipline": "early-music",
+   "levels": [],
+   "source_url": "https://www.conslatina.it/cms.php?cat=6&sub=27",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Arpa rinascimentale e barocca",
+     "url": "https://www.conslatina.it/cms.php?cat=6&sub=27"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  LATINA02",
+   "discipline": "jazz",
+   "levels": [],
+   "source_url": "https://www.conslatina.it/cms.php?cat=6&sub=27",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Basso elettrico jazz",
+     "url": "https://www.conslatina.it/cms.php?cat=6&sub=27"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  LATINA02",
+   "discipline": "vocal-opera",
+   "levels": [],
+   "source_url": "https://www.conslatina.it/cms.php?cat=6&sub=27",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Canto",
+     "url": "https://www.conslatina.it/cms.php?cat=6&sub=27"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  LATINA02",
+   "discipline": "guitar",
+   "levels": [],
+   "source_url": "https://www.conslatina.it/cms.php?cat=6&sub=27",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Chitarra",
+     "url": "https://www.conslatina.it/cms.php?cat=6&sub=27"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  LATINA02",
+   "discipline": "woodwind",
+   "levels": [],
+   "source_url": "https://www.conslatina.it/cms.php?cat=6&sub=27",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Clarinetto",
+     "url": "https://www.conslatina.it/cms.php?cat=6&sub=27"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  LATINA02",
+   "discipline": "composition",
+   "levels": [],
+   "source_url": "https://www.conslatina.it/cms.php?cat=6&sub=27",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Composizione",
+     "url": "https://www.conslatina.it/cms.php?cat=6&sub=27"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  LATINA02",
+   "discipline": "strings",
+   "levels": [],
+   "source_url": "https://www.conslatina.it/cms.php?cat=6&sub=27",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Contrabbasso",
+     "url": "https://www.conslatina.it/cms.php?cat=6&sub=27"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  LATINA02",
+   "discipline": "brass",
+   "levels": [],
+   "source_url": "https://www.conslatina.it/cms.php?cat=6&sub=27",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Corno",
+     "url": "https://www.conslatina.it/cms.php?cat=6&sub=27"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  LATINA02",
+   "discipline": "conducting",
+   "levels": [],
+   "source_url": "https://www.conslatina.it/cms.php?cat=6&sub=27",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Direzione di coro e composizione corale",
+     "url": "https://www.conslatina.it/cms.php?cat=6&sub=27"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  LATINA02",
+   "discipline": "accordion",
+   "levels": [],
+   "source_url": "https://www.conslatina.it/cms.php?cat=6&sub=27",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Fisarmonica",
+     "url": "https://www.conslatina.it/cms.php?cat=6&sub=27"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  LATINA02",
+   "discipline": "chamber-music",
+   "levels": [],
+   "source_url": "https://www.conslatina.it/cms.php?cat=6&sub=27",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Musica d'insieme (solo biennio)",
+     "url": "https://www.conslatina.it/cms.php?cat=6&sub=27"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  LATINA02",
+   "discipline": "music-technology",
+   "levels": [],
+   "source_url": "https://www.conslatina.it/cms.php?cat=6&sub=27",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Musica elettronica",
+     "url": "https://www.conslatina.it/cms.php?cat=6&sub=27"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  LATINA02",
+   "discipline": "music-therapy",
+   "levels": [],
+   "source_url": "https://www.conslatina.it/cms.php?cat=6&sub=27",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Musicoterapia (solo Biennio) Teorie e Tecniche in Musicoterapia",
+     "url": "https://www.conslatina.it/cms.php?cat=6&sub=27"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  LATINA02",
+   "discipline": "organ",
+   "levels": [],
+   "source_url": "https://www.conslatina.it/cms.php?cat=6&sub=27",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Organo",
+     "url": "https://www.conslatina.it/cms.php?cat=6&sub=27"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  LATINA02",
+   "discipline": "church-music",
+   "levels": [],
+   "source_url": "https://www.conslatina.it/cms.php?cat=6&sub=27",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Organo e musica liturgica (solo triennio)",
+     "url": "https://www.conslatina.it/cms.php?cat=6&sub=27"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  LATINA02",
+   "discipline": "piano",
+   "levels": [],
+   "source_url": "https://www.conslatina.it/cms.php?cat=6&sub=27",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Pianoforte",
+     "url": "https://www.conslatina.it/cms.php?cat=6&sub=27"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  LATINA02",
+   "discipline": "percussion",
+   "levels": [],
+   "source_url": "https://www.conslatina.it/cms.php?cat=6&sub=27",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Strumenti a percussione",
+     "url": "https://www.conslatina.it/cms.php?cat=6&sub=27"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  LATINA02",
+   "discipline": "global-music",
+   "levels": [],
+   "source_url": "https://www.conslatina.it/cms.php?cat=6&sub=27",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "ufficio.protocollo@conslatina.it",
+     "url": "https://www.conslatina.it/cms.php?cat=6&sub=27"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  LECCE03",
+   "discipline": "harp",
+   "levels": [],
+   "source_url": "https://www.conservatoriolecce.it/struttura/diploma-accademico-di-i-livello-triennio/",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Arpa",
+     "url": "https://www.conservatoriolecce.it/struttura/diploma-accademico-di-i-livello-triennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  LECCE03",
+   "discipline": "brass",
+   "levels": [],
+   "source_url": "https://www.conservatoriolecce.it/struttura/diploma-accademico-di-i-livello-triennio/",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Basso tuba",
+     "url": "https://www.conservatoriolecce.it/struttura/diploma-accademico-di-i-livello-triennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  LECCE03",
+   "discipline": "jazz",
+   "levels": [],
+   "source_url": "https://www.conservatoriolecce.it/struttura/diploma-accademico-di-i-livello-triennio/",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Batteria e percussioni Jazz",
+     "url": "https://www.conservatoriolecce.it/struttura/diploma-accademico-di-i-livello-triennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  LECCE03",
+   "discipline": "popular-music",
+   "levels": [],
+   "source_url": "https://www.conservatoriolecce.it/struttura/diploma-accademico-di-i-livello-triennio/",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Batteria e percussioni Pop Rock",
+     "url": "https://www.conservatoriolecce.it/struttura/diploma-accademico-di-i-livello-triennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  LECCE03",
+   "discipline": "vocal-opera",
+   "levels": [],
+   "source_url": "https://www.conservatoriolecce.it/struttura/diploma-accademico-di-i-livello-triennio/",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Canto",
+     "url": "https://www.conservatoriolecce.it/struttura/diploma-accademico-di-i-livello-triennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  LECCE03",
+   "discipline": "guitar",
+   "levels": [],
+   "source_url": "https://www.conservatoriolecce.it/struttura/diploma-accademico-di-i-livello-triennio/",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Chitarra",
+     "url": "https://www.conservatoriolecce.it/struttura/diploma-accademico-di-i-livello-triennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  LECCE03",
+   "discipline": "woodwind",
+   "levels": [],
+   "source_url": "https://www.conservatoriolecce.it/struttura/diploma-accademico-di-i-livello-triennio/",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Clarinetto",
+     "url": "https://www.conservatoriolecce.it/struttura/diploma-accademico-di-i-livello-triennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  LECCE03",
+   "discipline": "composition",
+   "levels": [],
+   "source_url": "https://www.conservatoriolecce.it/struttura/diploma-accademico-di-i-livello-triennio/",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Composizione",
+     "url": "https://www.conservatoriolecce.it/struttura/diploma-accademico-di-i-livello-triennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  LECCE03",
+   "discipline": "strings",
+   "levels": [],
+   "source_url": "https://www.conservatoriolecce.it/struttura/diploma-accademico-di-i-livello-triennio/",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Contrabbasso",
+     "url": "https://www.conservatoriolecce.it/struttura/diploma-accademico-di-i-livello-triennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  LECCE03",
+   "discipline": "conducting",
+   "levels": [],
+   "source_url": "https://www.conservatoriolecce.it/struttura/diploma-accademico-di-i-livello-triennio/",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Direzione di coro e composizione corale",
+     "url": "https://www.conservatoriolecce.it/struttura/diploma-accademico-di-i-livello-triennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  LECCE03",
+   "discipline": "accordion",
+   "levels": [],
+   "source_url": "https://www.conservatoriolecce.it/struttura/diploma-accademico-di-i-livello-triennio/",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Fisarmonica",
+     "url": "https://www.conservatoriolecce.it/struttura/diploma-accademico-di-i-livello-triennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  LECCE03",
+   "discipline": "music-technology",
+   "levels": [],
+   "source_url": "https://www.conservatoriolecce.it/struttura/diploma-accademico-di-i-livello-triennio/",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Musica Elettronica",
+     "url": "https://www.conservatoriolecce.it/struttura/diploma-accademico-di-i-livello-triennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  LECCE03",
+   "discipline": "folk",
+   "levels": [],
+   "source_url": "https://www.conservatoriolecce.it/struttura/diploma-accademico-di-i-livello-triennio/",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Musiche Tradizionali ad indirizzo Etnomusicologico",
+     "url": "https://www.conservatoriolecce.it/struttura/diploma-accademico-di-i-livello-triennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  LECCE03",
+   "discipline": "musicology",
+   "levels": [],
+   "source_url": "https://www.conservatoriolecce.it/struttura/diploma-accademico-di-i-livello-triennio/",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Musiche Tradizionali ad indirizzo Etnomusicologico",
+     "url": "https://www.conservatoriolecce.it/struttura/diploma-accademico-di-i-livello-triennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  LECCE03",
+   "discipline": "organ",
+   "levels": [],
+   "source_url": "https://www.conservatoriolecce.it/struttura/diploma-accademico-di-i-livello-triennio/",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Organo",
+     "url": "https://www.conservatoriolecce.it/struttura/diploma-accademico-di-i-livello-triennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  LECCE03",
+   "discipline": "church-music",
+   "levels": [],
+   "source_url": "https://www.conservatoriolecce.it/struttura/diploma-accademico-di-i-livello-triennio/",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Organo e musica liturgica",
+     "url": "https://www.conservatoriolecce.it/struttura/diploma-accademico-di-i-livello-triennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  LECCE03",
+   "discipline": "piano",
+   "levels": [],
+   "source_url": "https://www.conservatoriolecce.it/struttura/diploma-accademico-di-i-livello-triennio/",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Pianoforte",
+     "url": "https://www.conservatoriolecce.it/struttura/diploma-accademico-di-i-livello-triennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  LECCE03",
+   "discipline": "percussion",
+   "levels": [],
+   "source_url": "https://www.conservatoriolecce.it/struttura/diploma-accademico-di-i-livello-triennio/",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Strumenti a Percussione",
+     "url": "https://www.conservatoriolecce.it/struttura/diploma-accademico-di-i-livello-triennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  LECCE03",
+   "discipline": "music-theory",
+   "levels": [],
+   "source_url": "https://www.conservatoriolecce.it/struttura/diploma-accademico-di-i-livello-triennio/",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Teoria, analisi, composizione e direzione",
+     "url": "https://www.conservatoriolecce.it/struttura/diploma-accademico-di-i-livello-triennio/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  MODENA05",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.vecchitonelli.it/triennio-ordinamento-di-i-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Corsi strumentali, vocali e compositivi di base",
+     "url": "https://www.vecchitonelli.it/triennio-ordinamento-di-i-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Corsi strumentali, vocali e compositivi di base",
+     "url": "https://www.vecchitonelli.it/biennio-ordinamento-di-ii-livello/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  MODENA05",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.vecchitonelli.it/triennio-ordinamento-di-i-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Corsi strumentali, vocali e compositivi di base",
+     "url": "https://www.vecchitonelli.it/triennio-ordinamento-di-i-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Corsi strumentali, vocali e compositivi di base",
+     "url": "https://www.vecchitonelli.it/biennio-ordinamento-di-ii-livello/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  MODENA05",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.vecchitonelli.it/triennio-ordinamento-di-i-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Tecniche e repertori della Tromba",
+     "url": "https://www.vecchitonelli.it/triennio-ordinamento-di-i-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Tecniche e repertori della Tromba",
+     "url": "https://www.vecchitonelli.it/biennio-ordinamento-di-ii-livello/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  MODENA05",
+   "discipline": "music-technology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.vecchitonelli.it/triennio-ordinamento-di-i-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Registro elettronico – NettunoPA",
+     "url": "https://www.vecchitonelli.it/triennio-ordinamento-di-i-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Registro elettronico – NettunoPA",
+     "url": "https://www.vecchitonelli.it/biennio-ordinamento-di-ii-livello/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  MODENA05",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.vecchitonelli.it/triennio-ordinamento-di-i-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Didattica Online",
+     "url": "https://www.vecchitonelli.it/triennio-ordinamento-di-i-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Didattica Online",
+     "url": "https://www.vecchitonelli.it/biennio-ordinamento-di-ii-livello/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  MODENA05",
+   "discipline": "harp",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.vecchitonelli.it/triennio-ordinamento-di-i-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Arpa",
+     "url": "https://www.vecchitonelli.it/triennio-ordinamento-di-i-livello/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  MODENA05",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.vecchitonelli.it/triennio-ordinamento-di-i-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Chitarra",
+     "url": "https://www.vecchitonelli.it/triennio-ordinamento-di-i-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Chitarra",
+     "url": "https://www.vecchitonelli.it/biennio-ordinamento-di-ii-livello/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  MODENA05",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.vecchitonelli.it/triennio-ordinamento-di-i-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Clarinetto",
+     "url": "https://www.vecchitonelli.it/triennio-ordinamento-di-i-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Clarinetto",
+     "url": "https://www.vecchitonelli.it/biennio-ordinamento-di-ii-livello/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  MODENA05",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.vecchitonelli.it/triennio-ordinamento-di-i-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Contrabbasso",
+     "url": "https://www.vecchitonelli.it/triennio-ordinamento-di-i-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Contrabbasso",
+     "url": "https://www.vecchitonelli.it/biennio-ordinamento-di-ii-livello/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  MODENA05",
+   "discipline": "percussion",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.vecchitonelli.it/triennio-ordinamento-di-i-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Percussione",
+     "url": "https://www.vecchitonelli.it/triennio-ordinamento-di-i-livello/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  MODENA05",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.vecchitonelli.it/triennio-ordinamento-di-i-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Pianoforte",
+     "url": "https://www.vecchitonelli.it/triennio-ordinamento-di-i-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Pianoforte",
+     "url": "https://www.vecchitonelli.it/biennio-ordinamento-di-ii-livello/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  MODENA05",
+   "discipline": "chamber-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.vecchitonelli.it/biennio-ordinamento-di-ii-livello/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Musica da camera",
+     "url": "https://www.vecchitonelli.it/biennio-ordinamento-di-ii-livello/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  PERUGIA03",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorioperugia.it/corsi-di-i-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Organo",
+     "url": "https://www.conservatorioperugia.it/corsi-di-i-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Organo",
+     "url": "https://www.conservatorioperugia.it/corsi-di-ii-livello/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  PERUGIA03",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorioperugia.it/corsi-di-i-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Fortepiani",
+     "url": "https://www.conservatorioperugia.it/corsi-di-i-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Fortepiani",
+     "url": "https://www.conservatorioperugia.it/corsi-di-ii-livello/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  PERUGIA03",
+   "discipline": "music-technology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorioperugia.it/corsi-di-i-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Laboratorio di Musica Elettronica",
+     "url": "https://www.conservatorioperugia.it/corsi-di-i-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Laboratorio di Musica Elettronica",
+     "url": "https://www.conservatorioperugia.it/corsi-di-ii-livello/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  PERUGIA03",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorioperugia.it/corsi-di-i-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Acc. Pianoforte & Clavicembalo",
+     "url": "https://www.conservatorioperugia.it/corsi-di-i-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Acc. Pianoforte & Clavicembalo",
+     "url": "https://www.conservatorioperugia.it/corsi-di-ii-livello/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  PERUGIA03",
+   "discipline": "accordion",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatorioperugia.it/corsi-di-i-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "FISARMONICA",
+     "url": "https://www.conservatorioperugia.it/corsi-di-i-livello/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  PERUGIA03",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorioperugia.it/corsi-di-i-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "ARPA",
+     "url": "https://www.conservatorioperugia.it/corsi-di-i-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Arpa",
+     "url": "https://www.conservatorioperugia.it/corsi-di-ii-livello/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  PERUGIA03",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorioperugia.it/corsi-di-i-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "CHITARRA",
+     "url": "https://www.conservatorioperugia.it/corsi-di-i-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Chitarra Indirizzo Formativo",
+     "url": "https://www.conservatorioperugia.it/corsi-di-ii-livello/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  PERUGIA03",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorioperugia.it/corsi-di-i-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "CONTRABBASSO",
+     "url": "https://www.conservatorioperugia.it/corsi-di-i-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musica da Camera per Archi e con Pianoforte",
+     "url": "https://www.conservatorioperugia.it/corsi-di-ii-livello/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  PERUGIA03",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorioperugia.it/corsi-di-i-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "CANTO",
+     "url": "https://www.conservatorioperugia.it/corsi-di-i-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Canto e Teatro Musicale",
+     "url": "https://www.conservatorioperugia.it/corsi-di-ii-livello/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  PERUGIA03",
+   "discipline": "music-theory",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatorioperugia.it/corsi-di-i-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "TEORIA DELL’ARMONIA E ANALISI",
+     "url": "https://www.conservatorioperugia.it/corsi-di-i-livello/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  PERUGIA03",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorioperugia.it/corsi-di-i-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DIDATTICA DELLA MUSICA",
+     "url": "https://www.conservatorioperugia.it/corsi-di-i-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Didattica della Musica e dello Strumento",
+     "url": "https://www.conservatorioperugia.it/corsi-di-ii-livello/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  PERUGIA03",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorioperugia.it/corsi-di-i-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "COMPOSIZIONE",
+     "url": "https://www.conservatorioperugia.it/corsi-di-i-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Composizione e Musica Applicata",
+     "url": "https://www.conservatorioperugia.it/corsi-di-ii-livello/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  PERUGIA03",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorioperugia.it/corsi-di-i-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DIREZIONE DI CORO E COMPOSIZIONE CORALE",
+     "url": "https://www.conservatorioperugia.it/corsi-di-i-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Direzione di Coro",
+     "url": "https://www.conservatorioperugia.it/corsi-di-ii-livello/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  PERUGIA03",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorioperugia.it/corsi-di-i-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "BASSO TUBA",
+     "url": "https://www.conservatorioperugia.it/corsi-di-i-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Basso Tuba",
+     "url": "https://www.conservatorioperugia.it/corsi-di-ii-livello/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  PERUGIA03",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorioperugia.it/corsi-di-i-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "CLARINETTO",
+     "url": "https://www.conservatorioperugia.it/corsi-di-i-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Clarinetto",
+     "url": "https://www.conservatorioperugia.it/corsi-di-ii-livello/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  PERUGIA03",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorioperugia.it/corsi-di-i-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "BATTERIA E PERCUSSIONI JAZZ",
+     "url": "https://www.conservatorioperugia.it/corsi-di-i-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Canto Jazz",
+     "url": "https://www.conservatorioperugia.it/corsi-di-ii-livello/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  PERUGIA03",
+   "discipline": "church-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatorioperugia.it/corsi-di-i-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "ORGANO E MUSICA LITURGICA",
+     "url": "https://www.conservatorioperugia.it/corsi-di-i-livello/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  PERUGIA03",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorioperugia.it/corsi-di-i-livello/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "STRUMENTI A PERCUSSIONE",
+     "url": "https://www.conservatorioperugia.it/corsi-di-i-livello/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Strumenti a Fiato e a Percussione",
+     "url": "https://www.conservatorioperugia.it/corsi-di-ii-livello/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "I  PERUGIA03",
+   "discipline": "chamber-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.conservatorioperugia.it/corsi-di-ii-livello/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Musica da Camera per Archi e con Pianoforte",
+     "url": "https://www.conservatorioperugia.it/corsi-di-ii-livello/"
     }
    ],
    "verified": false

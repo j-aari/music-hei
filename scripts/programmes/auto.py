@@ -2,8 +2,8 @@
 import re, sys
 from f import get, links
 from mp import classify
-LV = [("Doc", r"\bdoktor|\bphd\b|doctor|doctorat|dottorato|doctorado|tohtori"), ("MA", r"\bmaster|\bma\b|\bm\.?mus|\bmed\b|magist|laurea magistrale|biennio|2nd cycle|2e cycle|2ème cycle|deuxième cycle|segundo ciclo"),
-      ("BA", r"\bbachelier|\bbachelor|\bba\b|\bb\.?mus|\bbed\b|bakalau|bachiller|grado|licence|triennio|1st cycle|1er cycle|premier cycle|primer ciclo|kandidat")]
+LV = [("Doc", r"\bdoktor|\bphd\b|doctor|doctorat|dottorato|doctorado|tohtori"), ("MA", r"\bmaster|\bma\b|\bm\.?mus|\bmed\b|magist|laurea magistrale|biennio|\bii°? livello|secondo livello|2° livello|accademico ii\b|2nd cycle|2e cycle|2ème cycle|deuxième cycle|segundo ciclo"),
+      ("BA", r"\bbachelier|\bbachelor|\bba\b|\bb\.?mus|\bbed\b|bakalau|bachiller|grado|licence|triennio|\bi°? livello|primo livello|1° livello|1st cycle|1er cycle|premier cycle|primer ciclo|kandidat")]
 def level(s):
     for lv, p in LV:
         if re.search(p, s, re.I): return lv
