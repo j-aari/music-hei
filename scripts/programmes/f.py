@@ -1,5 +1,5 @@
 """f.py URL [link-regex] [-t]  : hae sivu (välimuisti), tulosta linkit (teksti | href) suodatettuna; -t tulostaa tekstin."""
-import sys, re, os, hashlib, html, urllib.request, urllib.parse, ssl
+import sys, re, os, hashlib, html, urllib.request, urllib.error, urllib.parse, ssl
 sys.stdout.reconfigure(encoding="utf-8")
 C = os.path.join(os.path.dirname(__file__), "cache")
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36", "Accept-Language": "en,de;q=0.8"}
@@ -7,8 +7,15 @@ def get(url):
     p = os.path.join(C, hashlib.md5(url.encode()).hexdigest())
     if os.path.exists(p): return open(p, encoding="utf-8").read()
     ctx = ssl.create_default_context(); ctx.check_hostname = False; ctx.verify_mode = ssl.CERT_NONE
-    r = urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=40, context=ctx)
-    t = r.read().decode(r.headers.get_content_charset() or "utf-8", "replace")
+    try:
+        r = urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=40, context=ctx)
+        t = r.read().decode(r.headers.get_content_charset() or "utf-8", "replace")
+    except urllib.error.HTTPError as e:
+        if e.code not in (403, 406, 429): raise
+        # osa sivustoista torjuu Pythonin TLS-sormenjäljen mutta päästää curlin läpi
+        import subprocess
+        t = subprocess.run(["curl", "-skL", "--max-time", "40", "-A", UA["User-Agent"], url], capture_output=True).stdout.decode("utf-8", "replace")
+        if not t: raise
     open(p, "w", encoding="utf-8").write(t); return t
 def text(h):
     h = re.sub(r"(?is)<(script|style|noscript|svg)[^>]*>.*?</\1>", " ", h)
