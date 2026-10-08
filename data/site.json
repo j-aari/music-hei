@@ -1,7 +1,7 @@
 {
  "meta": {
   "fetched": "2026-09-20",
-  "generated": "2026-09-29",
+  "generated": "2026-10-08",
   "upstream_file": "upstream.json",
   "upstream_source": "https://eche-list.erasmuswithoutpaper.eu/api/?_verified=all",
   "counts": {
@@ -1211,7 +1211,7 @@
    "city": "Bordeaux",
    "street": "19 rue Monthyon",
    "postal_code": "33800",
-   "website": "https://www.pesmd-bordeaux-aquitaine.com",
+   "website": "https://resonances-na.eu/",
    "parent_name": null,
    "tier": 1,
    "institution_type": "independent_music_hei",

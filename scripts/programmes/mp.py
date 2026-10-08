@@ -3,7 +3,7 @@ import re
 RULES = [
     ("jazz", r"jazz"),
     ("popular-music", r"\bpop|popular|rock\b|songwrit|e-gitarre|e-bass|electric (guitar|bass)|pop/rock|musique actuelle|musiques actuelles|lichte muziek|popul[aä]r|afro|urban|contemporary (popular|music performance)"),
-    ("early-music", r"alte musik|historisch|historical|early music|baroque|barock|cembalo|harpsichord|clavecin|clavic[eé]mbalo|fortepiano|hammerklavier|blockfl|recorder|fl[uû]te [aà] bec|flauto dolce|viola da gamba|viole de gambe|gamba|laute|lute|luth|liuto|traversfl|oude muziek|musique ancienne|m[uú]sica antigua|musica antica|theorbo|violone"),
+    ("early-music", r"ancien|sacqueboute|cornet à bouquin|alte musik|historisch|historical|early music|baroque|barock|cembalo|harpsichord|clavecin|clavic[eé]mbalo|fortepiano|hammerklavier|blockfl|recorder|fl[uû]te [aà] bec|flauto dolce|viola da gamba|viole de gambe|gamba|laute|lute|luth|liuto|traversfl|oude muziek|musique ancienne|m[uú]sica antigua|musica antica|theorbo|violone"),
     ("folk", r"volksmusik|folk|traditional music|musique traditionnelle|m[uú]sica tradicional|kansanmusiik|folkemusik|folkmusik|hackbrett|zither|steirische|diatonische harmonika|ethno(?!musikolog)"),
     ("global-music", r"world music|global music|wereldmuziek|musiques du monde|maailmanmusiik|flamenco|latin"),
     ("church-music", r"kirkemusik|kyrkomusik|duchovní hudba|kirchenmusik|church music|musique sacr|musica sacra|kerkmuziek|kyrkomusik|kirkkomusiik|m[uú]sica sacra"),
@@ -24,7 +24,7 @@ RULES = [
     ("music-education", r"musiklærer|musikpædagog|musikformidl|musikkpedagog|musiklärar|musiikkipedagog|musiikinopettaj|p[aä]dagog|pedagog|p[eé]dagog|didakt|educa|lehramt|teacher|enseign|insegn|docent|igp\b|emp\b|elementar|musikerzieh|schoolmusic|schulmusik|didattica|formation musicale|vermittlung"),
     ("music-technology", r"tonemester|lydtekn|lyddesign|ljudtekn|ljuddesign|elektronisk musik|musiikkiteknolog|äänitekn|computermusik|computer music|sound art|klangkunst|tonmeister|toningenieur|sound engineer|audio|recording|\bson\b|ingénieur du son|sonolog|elektronische musik|electronic music|electroacoust|elektroakust|music technology|musiktechnolog|sonic arts|acoustic|sound design"),
     ("music-production", r"produktion|production|produzione|producci[oó]n|producer|music business"),
-    ("musicology", r"musikwissenschaft|musicolog|musikologie|muziekwetenschap|ethnomusikolog|ethnomusicolog|musikologia|musicologia|cultural study"),
+    ("musicology", r"culture musicale|musikwissenschaft|musicolog|musikologie|muziekwetenschap|ethnomusikolog|ethnomusicolog|musikologia|musicologia|cultural study"),
     ("arts-management", r"management|kulturmanag|arts admin|entrepreneur|business|médiation culturelle"),
     ("music-therapy", r"therap"),
 ]

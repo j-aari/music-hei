@@ -1,0 +1,1216 @@
+{
+"collected": "2026-10-08",
+"method": "Field-level collection as in batch 1 (raw HTML of each institution's own programme pages, PDFs where the list was only there; names mapped to disciplines.json by keyword and checked by hand).",
+"institutions": {
+"SF HELSINK41": [
+[
+"music-education",
+"BA",
+"Musiikkipedagogi (AMK): soiton- ja laulunopetus, klassinen tai pop/jazz-musiikki",
+"https://www.metropolia.fi/fi/opiskelu-metropoliassa/amk-tutkinnot/musiikki"
+],
+[
+"piano",
+"BA",
+"Musiikkipedagogi (AMK), klassinen musiikki: piano, jousisoittimet, kitara, puhaltimet, laulu",
+"https://www.metropolia.fi/fi/opiskelu-metropoliassa/amk-tutkinnot/musiikki"
+],
+[
+"strings",
+"BA",
+"Musiikkipedagogi (AMK), klassinen musiikki: piano, jousisoittimet, kitara, puhaltimet, laulu",
+"https://www.metropolia.fi/fi/opiskelu-metropoliassa/amk-tutkinnot/musiikki"
+],
+[
+"guitar",
+"BA",
+"Musiikkipedagogi (AMK), klassinen musiikki: piano, jousisoittimet, kitara, puhaltimet, laulu",
+"https://www.metropolia.fi/fi/opiskelu-metropoliassa/amk-tutkinnot/musiikki"
+],
+[
+"woodwind",
+"BA",
+"Musiikkipedagogi (AMK), klassinen musiikki: piano, jousisoittimet, kitara, puhaltimet, laulu",
+"https://www.metropolia.fi/fi/opiskelu-metropoliassa/amk-tutkinnot/musiikki"
+],
+[
+"brass",
+"BA",
+"Musiikkipedagogi (AMK), klassinen musiikki: piano, jousisoittimet, kitara, puhaltimet, laulu",
+"https://www.metropolia.fi/fi/opiskelu-metropoliassa/amk-tutkinnot/musiikki"
+],
+[
+"vocal-opera",
+"BA",
+"Musiikkipedagogi (AMK), klassinen musiikki: piano, jousisoittimet, kitara, puhaltimet, laulu",
+"https://www.metropolia.fi/fi/opiskelu-metropoliassa/amk-tutkinnot/musiikki"
+],
+[
+"jazz",
+"BA",
+"Muusikko (AMK): musiikin esittäminen, pop/jazz-musiikki; Musiikkipedagogi (AMK), pop/jazz",
+"https://www.metropolia.fi/fi/opiskelu-metropoliassa/amk-tutkinnot/musiikki"
+],
+[
+"popular-music",
+"BA",
+"Muusikko (AMK): musiikin esittäminen, pop/jazz-musiikki; Musiikkipedagogi (AMK), pop/jazz",
+"https://www.metropolia.fi/fi/opiskelu-metropoliassa/amk-tutkinnot/musiikki"
+],
+[
+"music-production",
+"BA",
+"Muusikko (AMK): musiikin tekeminen ja tuottaminen, pop/jazz-musiikki",
+"https://www.metropolia.fi/fi/opiskelu-metropoliassa/amk-tutkinnot/musiikki"
+],
+[
+"composition",
+"BA",
+"Muusikko (AMK): musiikin tekeminen ja tuottaminen, pop/jazz-musiikki",
+"https://www.metropolia.fi/fi/opiskelu-metropoliassa/amk-tutkinnot/musiikki"
+],
+[
+"music-education",
+"MA",
+"Musiikkipedagogi ja muusikko (ylempi AMK)",
+"https://www.metropolia.fi/fi/opiskelu-metropoliassa/amk-tutkinnot/musiikki",
+"Master's degree of a university of applied sciences (ylempi AMK)"
+]
+],
+"SF KUOPIO08": [
+[
+"music-education",
+"BA",
+"Musiikkipedagogi (AMK) – klassisen musiikin tai rytmimusiikin painotus",
+"https://www.savonia.fi/opiskele-tutkinto/tutkinnot-ja-hakeminen/amk-ja-yamk-tutkinnot-tarjonta/musiikkipedagogi-amk-paivatoteutus/"
+],
+[
+"jazz",
+"BA",
+"Musiikkipedagogi (AMK) – rytmimusiikin painotus (jazz, pop/rock)",
+"https://www.savonia.fi/opiskele-tutkinto/tutkinnot-ja-hakeminen/amk-ja-yamk-tutkinnot-tarjonta/musiikkipedagogi-amk-paivatoteutus/"
+],
+[
+"popular-music",
+"BA",
+"Musiikkipedagogi (AMK) – rytmimusiikin painotus (jazz, pop/rock)",
+"https://www.savonia.fi/opiskele-tutkinto/tutkinnot-ja-hakeminen/amk-ja-yamk-tutkinnot-tarjonta/musiikkipedagogi-amk-paivatoteutus/"
+]
+],
+"SF JYVASKY11": [
+[
+"music-education",
+"BA",
+"Musiikkipedagogi (AMK) – klassinen ja pop/jazz",
+"https://www.jamk.fi/fi/hae-opiskelemaan/amk-tutkinto/musiikkipedagogi-on-musiikin-moniosaaja"
+],
+[
+"jazz",
+"BA",
+"Musiikkipedagogi (AMK) – pop/jazz-instrumentit",
+"https://www.jamk.fi/fi/hae-opiskelemaan/amk-tutkinto/musiikkipedagogi-on-musiikin-moniosaaja"
+],
+[
+"popular-music",
+"BA",
+"Musiikkipedagogi (AMK) – pop/jazz-instrumentit",
+"https://www.jamk.fi/fi/hae-opiskelemaan/amk-tutkinto/musiikkipedagogi-on-musiikin-moniosaaja"
+],
+[
+"kantele",
+"BA",
+"Musiikkipedagogi (AMK) – klassiset instrumentit, mm. kantele",
+"https://www.jamk.fi/fi/hae-opiskelemaan/amk-tutkinto/musiikkipedagogi-on-musiikin-moniosaaja"
+]
+],
+"SF OULU11": [
+[
+"music-education",
+"BA",
+"Musiikkipedagogi (AMK)",
+"https://oamk.fi/koulutus/ammattikorkeakoulututkinnot/musiikkipedagogi-amk/"
+],
+[
+"jazz",
+"BA",
+"Musiikkipedagogi (AMK) – rytmimusiikki: laulu, piano, sähkökitara, sähköbasso, rummut, saksofoni, trumpetti, pasuuna",
+"https://oamk.fi/koulutus/ammattikorkeakoulututkinnot/musiikkipedagogi-amk/"
+],
+[
+"popular-music",
+"BA",
+"Musiikkipedagogi (AMK) – rytmimusiikki: laulu, piano, sähkökitara, sähköbasso, rummut, saksofoni, trumpetti, pasuuna",
+"https://oamk.fi/koulutus/ammattikorkeakoulututkinnot/musiikkipedagogi-amk/"
+],
+[
+"music-technology",
+"BA",
+"Musiikkipedagogi (AMK) – musiikkiteknologian osaamispolku (musiikkituotanto ja studiotyöskentely)",
+"https://oamk.fi/koulutus/ammattikorkeakoulututkinnot/musiikkipedagogi-amk/"
+],
+[
+"music-production",
+"BA",
+"Musiikkipedagogi (AMK) – musiikkiteknologian osaamispolku (musiikkituotanto ja studiotyöskentely)",
+"https://oamk.fi/koulutus/ammattikorkeakoulututkinnot/musiikkipedagogi-amk/"
+]
+],
+"SF KOKKOLA05": [
+[
+"music-education",
+"BA",
+"Musiikkipedagogi (AMK) – suuntautumisvaihtoehdot klassinen ja rytmimusiikki",
+"https://net.centria.fi/koulutukset/musiikkipedagogi-amk/"
+],
+[
+"jazz",
+"BA",
+"Musiikkipedagogi (AMK) – rytmimusiikki",
+"https://net.centria.fi/koulutukset/musiikkipedagogi-amk/"
+],
+[
+"popular-music",
+"BA",
+"Musiikkipedagogi (AMK) – rytmimusiikki",
+"https://net.centria.fi/koulutukset/musiikkipedagogi-amk/"
+]
+],
+"SF TURKU05": [
+[
+"music-education",
+"BA",
+"Musiikkipedagogi (AMK) – soiton- ja laulunopettajat, musiikin hahmotusaineiden opettajat",
+"https://www.turkuamk.fi/koulutukset/musiikkipedagogi-amk/"
+],
+[
+"music-education",
+"MA",
+"Musiikkipedagogi (ylempi AMK)",
+"https://www.turkuamk.fi/fi/tutkinnot-ja-opiskelu/tutkinnot/musiikkipedagogi-ylempi-amk/",
+"Master's degree of a university of applied sciences (ylempi AMK)"
+]
+],
+"SF TAMPERE06": [
+[
+"music-education",
+"BA",
+"Musiikkipedagogi (AMK): instrumenttipedagogi, musiikin hahmotustaitojen pedagogi",
+"https://sites.tuni.fi/tamkmusiikki/musiikin-tutkinto-ohjelma-musiikkipedagogi/"
+],
+[
+"conducting",
+"BA",
+"Musiikkipedagogi (AMK): kuoronjohtaja tai orkesterinjohtaja",
+"https://sites.tuni.fi/tamkmusiikki/musiikin-tutkinto-ohjelma-musiikkipedagogi/"
+],
+[
+"composition",
+"BA",
+"Muusikko (AMK): esittävä ja luova säveltaide",
+"https://sites.tuni.fi/tamkmusiikki/tutkinto-ohjelmat/"
+],
+[
+"music-education",
+"MA",
+"Musiikin ylempi tutkinto-ohjelma: Musiikkipedagogi (ylempi AMK), Muusikko (ylempi AMK)",
+"https://sites.tuni.fi/tamkmusiikki/musiikin-ylempi-tutkinto-ohjelma-musiikkipedagogi/",
+"Master's degree of a university of applied sciences (ylempi AMK)"
+]
+],
+"F  LYON24": [
+[
+"musicology",
+"BA",
+"Bachelor de Culture musicale 1er cycle Culture musicale",
+"https://cnsmd-lyon.fr/formations-musique/bachelor-de-culture-musicale/"
+],
+[
+"strings",
+"MA",
+"Master Violon 2ème cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/master-violon/"
+],
+[
+"strings",
+"BA",
+"DNSPM Violon 1er cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/dnspm-violon/"
+],
+[
+"vocal-opera",
+"MA",
+"Master Chant lyrique 2ème cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/master-chant-lyrique/"
+],
+[
+"vocal-opera",
+"BA",
+"DNSPM Chant lyrique 1er cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/dnspm-chant-lyrique/"
+],
+[
+"woodwind",
+"MA",
+"Master Basson allemand 2ème cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/master-basson-allemand/"
+],
+[
+"woodwind",
+"BA",
+"DNSPM Basson allemand 1er cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/dnspm-basson-allemand/"
+],
+[
+"composition",
+"MA",
+"Master Composition pour l’image 2ème cycle Espace Tranversal de Création",
+"https://cnsmd-lyon.fr/formations-musique/master-composition-pour-limage/"
+],
+[
+"early-music",
+"BA",
+"DNSPM Chant musique ancienne 1er cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/dnspm-chant-musique-ancienne/"
+],
+[
+"vocal-opera",
+"BA",
+"DNSPM Chant musique ancienne 1er cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/dnspm-chant-musique-ancienne/"
+],
+[
+"early-music",
+"MA",
+"Master Chant musique ancienne 2ème cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/master-chant-musique-ancienne/"
+],
+[
+"vocal-opera",
+"MA",
+"Master Chant musique ancienne 2ème cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/master-chant-musique-ancienne/"
+],
+[
+"strings",
+"MA",
+"Master Alto 2ème cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/master-alto/"
+],
+[
+"early-music",
+"BA",
+"DNSPM Bassons anciens 1er cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/dnspm-bassons-anciens/"
+],
+[
+"early-music",
+"MA",
+"Master Bassons anciens 2ème cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/master-bassons-anciens/"
+],
+[
+"strings",
+"BA",
+"DNSPM Alto 1er cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/dnspm-alto/"
+],
+[
+"composition",
+"BA",
+"DNSPM Composition pour l’image 1er cycle Espace Tranversal de Création",
+"https://cnsmd-lyon.fr/formations-musique/dnspm-composition-pour-limage/"
+],
+[
+"woodwind",
+"MA",
+"Master Hautbois 2ème cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/master-hautbois/"
+],
+[
+"woodwind",
+"BA",
+"DNSPM Hautbois 1er cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/dnspm-hautbois/"
+],
+[
+"music-education",
+"BA",
+"Diplôme d’Etat professeur·e de musique 1er cycle Pédagogie",
+"https://cnsmd-lyon.fr/formations-musique/diplome-detat-professeur-de-musique/"
+],
+[
+"conducting",
+"MA",
+"Master Direction de chœur 2ème cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/master-direction-de-choeur/"
+],
+[
+"conducting",
+"BA",
+"DNSPM Direction de chœur 1er cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/dnspm-direction-de-choeur/"
+],
+[
+"chamber-music",
+"MA",
+"Master Musique de chambre 2ème cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/master-musique-de-chambre/"
+],
+[
+"musicology",
+"MA",
+"Master Culture Musicale 2ème cycle Culture musicale",
+"https://cnsmd-lyon.fr/formations-musique/master-culture-musicale/"
+],
+[
+"early-music",
+"MA",
+"Master Harpes anciennes 2ème cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/master-harpes-anciennes/"
+],
+[
+"early-music",
+"BA",
+"DNSPM Harpes anciennes 1er cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/dnspm-harpes-anciennes/"
+],
+[
+"early-music",
+"MA",
+"Master Flûte traversière baroque 2ème cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/master-flute-traversiere-baroque/"
+],
+[
+"early-music",
+"MA",
+"Master Trompette baroque 2ème cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/master-trompette-baroque/"
+],
+[
+"early-music",
+"BA",
+"DNSPM Trompette baroque 1er cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/dnspm-trompette-baroque/"
+],
+[
+"early-music",
+"MA",
+"Master Sacqueboute 2ème cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/master-sacqueboute/"
+],
+[
+"early-music",
+"BA",
+"DNSPM Sacqueboute 1er cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/dnspm-sacqueboute/"
+],
+[
+"early-music",
+"MA",
+"Master Luth et cordes pincées 2ème cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/master-luth-et-cordes-pincees/"
+],
+[
+"early-music",
+"BA",
+"DNSPM Luth et cordes pincées 1er cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/dnspm-luth-et-cordes-pincees/"
+],
+[
+"woodwind",
+"MA",
+"Master Flûte traversière 2ème cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/master-flute-traversiere/"
+],
+[
+"woodwind",
+"BA",
+"DNSPM Flûte traversière 1er cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/dnspm-flute-traversiere/"
+],
+[
+"early-music",
+"MA",
+"Master Clavecin – Basse continue – Improvisation au clavecin 2ème cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/master-clavecin-basse-continue-improvisation-au-clavecin/"
+],
+[
+"early-music",
+"BA",
+"DNSPM Clavecin – Basse continue 1er cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/dnspm-clavecin-basse-continue/"
+],
+[
+"early-music",
+"BA",
+"DNSPM Violoncelle baroque 1er cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/dnspm-violoncelle-baroque/"
+],
+[
+"early-music",
+"MA",
+"Master Violoncelle baroque 2ème cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/master-violoncelle-baroque/"
+],
+[
+"early-music",
+"BA",
+"DNSPM Violon baroque 1er cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/dnspm-violon-baroque/"
+],
+[
+"early-music",
+"MA",
+"Master Violon baroque 2ème cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/master-violon-baroque/"
+],
+[
+"early-music",
+"MA",
+"Master Viole de gambe 2ème cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/master-viole-de-gambe/"
+],
+[
+"early-music",
+"BA",
+"DNSPM Viole de gambe 1er cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/dnspm-viole-de-gambe/"
+],
+[
+"brass",
+"MA",
+"Master Tuba basse 2ème cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/master-tuba-basse/"
+],
+[
+"brass",
+"BA",
+"DNSPM Tuba basse 1er cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/dnspm-tuba-basse/"
+],
+[
+"brass",
+"MA",
+"Master Euphonium – Saxhorn 2ème cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/master-euphonium-saxhorn/"
+],
+[
+"brass",
+"BA",
+"DNSPM Euphonium – Saxhorn 1er cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/dnspm-euphonium-saxhorn/"
+],
+[
+"brass",
+"MA",
+"Master Trompette 2ème cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/master-trompette/"
+],
+[
+"brass",
+"BA",
+"DNSPM Trompette 1er cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/dnspm-trompette/"
+],
+[
+"brass",
+"MA",
+"Master Trombone 2ème cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/master-trombone/"
+],
+[
+"brass",
+"BA",
+"DNSPM Trombone 1er cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/dnspm-trombone/"
+],
+[
+"brass",
+"MA",
+"Master Trombone basse 2ème cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/master-trombone-basse/"
+],
+[
+"brass",
+"BA",
+"DNSPM Trombone basse 1er cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/dnspm-trombone-basse/"
+],
+[
+"brass",
+"MA",
+"Master Cor 2ème cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/master-cor/"
+],
+[
+"brass",
+"BA",
+"DNSPM Cor 1er cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/dnspm-cor/"
+],
+[
+"strings",
+"MA",
+"Master Violoncelle 2ème cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/master-violoncelle/"
+],
+[
+"strings",
+"BA",
+"DNSPM Violoncelle 1er cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/dnspm-violoncelle-2/"
+],
+[
+"strings",
+"MA",
+"Master Contrebasse 2ème cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/master-contrebasse/"
+],
+[
+"strings",
+"BA",
+"DNSPM Contrebasse 1er cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/dnspm-contrebasse/"
+],
+[
+"piano",
+"MA",
+"Master Accompagnement au piano 2ème cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/master-accompagnement-au-piano/"
+],
+[
+"piano",
+"BA",
+"DNSPM Accompagnement au piano 1er cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/dnspm-accompagnement-au-piano/"
+],
+[
+"piano",
+"MA",
+"Master Piano 2ème cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/master-piano/"
+],
+[
+"piano",
+"BA",
+"DNSPM Piano 1er cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/dnspm-piano/"
+],
+[
+"organ",
+"MA",
+"Master Orgue 2ème cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/master-orgue/"
+],
+[
+"organ",
+"BA",
+"DNSPM Orgue 1er cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/dnspm-orgue/"
+],
+[
+"harp",
+"MA",
+"Master Harpe 2ème cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/master-harpe/"
+],
+[
+"harp",
+"BA",
+"DNSPM Harpe 1er cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/dnspm-harpe/"
+],
+[
+"woodwind",
+"BA",
+"DNSPM Clarinette 1er cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/dnspm-clarinette/"
+],
+[
+"woodwind",
+"MA",
+"Master Clarinette 2ème cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/master-clarinette/"
+],
+[
+"woodwind",
+"BA",
+"DNSPM Basson français 1er cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/dnspm-basson-francais/"
+],
+[
+"woodwind",
+"MA",
+"Master Basson français 2ème cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/master-basson-francais/"
+],
+[
+"percussion",
+"MA",
+"Master Percussions 2ème cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/master-percussions/"
+],
+[
+"percussion",
+"BA",
+"DNSPM Percussions 1er cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/dnspm-percussions/"
+],
+[
+"early-music",
+"MA",
+"Master Flûte à bec 2ème cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/master-flute-a-bec/"
+],
+[
+"early-music",
+"BA",
+"DNSPM Flûte à bec 1er cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/dnspm-flute-a-bec/"
+],
+[
+"composition",
+"BA",
+"DNSPM Ecriture – Composition 1er cycle Espace Tranversal de Création",
+"https://cnsmd-lyon.fr/formations-musique/dnspm-ecriture-composition/"
+],
+[
+"composition",
+"MA",
+"Master Ecriture – Composition 2ème cycle Espace Tranversal de Création",
+"https://cnsmd-lyon.fr/formations-musique/master-ecriture-composition/"
+],
+[
+"vocal-opera",
+"BA",
+"DNSPM Composition instrumentale et vocale 1er cycle Espace Tranversal de Création",
+"https://cnsmd-lyon.fr/formations-musique/dnspm-composition-instrumentale-et-vocale/"
+],
+[
+"composition",
+"BA",
+"DNSPM Composition instrumentale et vocale 1er cycle Espace Tranversal de Création",
+"https://cnsmd-lyon.fr/formations-musique/dnspm-composition-instrumentale-et-vocale/"
+],
+[
+"vocal-opera",
+"MA",
+"Master Composition instrumentale et vocale 2ème cycle Espace Tranversal de Création",
+"https://cnsmd-lyon.fr/formations-musique/master-composition-instrumentale-et-vocale/"
+],
+[
+"composition",
+"MA",
+"Master Composition instrumentale et vocale 2ème cycle Espace Tranversal de Création",
+"https://cnsmd-lyon.fr/formations-musique/master-composition-instrumentale-et-vocale/"
+],
+[
+"composition",
+"BA",
+"DNSPM Composition mixte 1er cycle Espace Tranversal de Création",
+"https://cnsmd-lyon.fr/formations-musique/dnspm-composition-mixte/"
+],
+[
+"composition",
+"MA",
+"Master Composition mixte 2ème cycle Espace Tranversal de Création",
+"https://cnsmd-lyon.fr/formations-musique/master-composition-mixte/"
+],
+[
+"composition",
+"BA",
+"DNSPM Composition électroacoustique 1er cycle Espace Tranversal de Création",
+"https://cnsmd-lyon.fr/formations-musique/dnspm-composition-electroacoustique/"
+],
+[
+"composition",
+"MA",
+"Master Composition électroacoustique 2ème cycle Espace Tranversal de Création",
+"https://cnsmd-lyon.fr/formations-musique/master-composition-electroacoustique/"
+],
+[
+"early-music",
+"MA",
+"Master Hautbois baroque 2ème cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/master-hautbois-baroque/"
+],
+[
+"early-music",
+"BA",
+"DNSPM Cornet à bouquin 1er cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/dnspm-cornet-a-bouquin/"
+],
+[
+"early-music",
+"MA",
+"Master Cornet à bouquin 2ème cycle Interprétation",
+"https://cnsmd-lyon.fr/formations-musique/master-cornet-a-bouquin/"
+],
+[
+"music-education",
+"MA",
+"Certificat d’aptitude professeur·e de musique 2ème cycle Pédagogie",
+"https://cnsmd-lyon.fr/formations-musique/certificat-daptitude-professeur-de-musique/"
+],
+[
+"composition",
+"MA",
+"Master CoPeCo; Master InMICS (composition)",
+"https://cnsmd-lyon.fr/formations-musique/master-copeco/"
+]
+],
+"F  STRASBO51": [
+[
+"piano",
+"BA",
+"Licence CIM / DNSPM (dominantes enseignées)",
+"https://www.hear.fr/musique/licence-dnspm/"
+],
+[
+"accordion",
+"BA",
+"Licence CIM / DNSPM (dominantes enseignées)",
+"https://www.hear.fr/musique/licence-dnspm/"
+],
+[
+"organ",
+"BA",
+"Licence CIM / DNSPM (dominantes enseignées)",
+"https://www.hear.fr/musique/licence-dnspm/"
+],
+[
+"guitar",
+"BA",
+"Licence CIM / DNSPM (dominantes enseignées)",
+"https://www.hear.fr/musique/licence-dnspm/"
+],
+[
+"harp",
+"BA",
+"Licence CIM / DNSPM (dominantes enseignées)",
+"https://www.hear.fr/musique/licence-dnspm/"
+],
+[
+"strings",
+"BA",
+"Licence CIM / DNSPM (dominantes enseignées)",
+"https://www.hear.fr/musique/licence-dnspm/"
+],
+[
+"woodwind",
+"BA",
+"Licence CIM / DNSPM (dominantes enseignées)",
+"https://www.hear.fr/musique/licence-dnspm/"
+],
+[
+"brass",
+"BA",
+"Licence CIM / DNSPM (dominantes enseignées)",
+"https://www.hear.fr/musique/licence-dnspm/"
+],
+[
+"percussion",
+"BA",
+"Licence CIM / DNSPM (dominantes enseignées)",
+"https://www.hear.fr/musique/licence-dnspm/"
+],
+[
+"vocal-opera",
+"BA",
+"Licence CIM / DNSPM (dominantes enseignées)",
+"https://www.hear.fr/musique/licence-dnspm/"
+],
+[
+"composition",
+"BA",
+"Licence CIM / DNSPM (dominantes enseignées)",
+"https://www.hear.fr/musique/licence-dnspm/"
+],
+[
+"piano",
+"MA",
+"Master CIM (dominantes enseignées)",
+"https://www.hear.fr/musique/master/"
+],
+[
+"accordion",
+"MA",
+"Master CIM (dominantes enseignées)",
+"https://www.hear.fr/musique/master/"
+],
+[
+"organ",
+"MA",
+"Master CIM (dominantes enseignées)",
+"https://www.hear.fr/musique/master/"
+],
+[
+"guitar",
+"MA",
+"Master CIM (dominantes enseignées)",
+"https://www.hear.fr/musique/master/"
+],
+[
+"harp",
+"MA",
+"Master CIM (dominantes enseignées)",
+"https://www.hear.fr/musique/master/"
+],
+[
+"strings",
+"MA",
+"Master CIM (dominantes enseignées)",
+"https://www.hear.fr/musique/master/"
+],
+[
+"woodwind",
+"MA",
+"Master CIM (dominantes enseignées)",
+"https://www.hear.fr/musique/master/"
+],
+[
+"brass",
+"MA",
+"Master CIM (dominantes enseignées)",
+"https://www.hear.fr/musique/master/"
+],
+[
+"percussion",
+"MA",
+"Master CIM (dominantes enseignées)",
+"https://www.hear.fr/musique/master/"
+],
+[
+"vocal-opera",
+"MA",
+"Master CIM (dominantes enseignées)",
+"https://www.hear.fr/musique/master/"
+],
+[
+"composition",
+"MA",
+"Master CIM (dominantes enseignées)",
+"https://www.hear.fr/musique/master/"
+],
+[
+"jazz",
+"BA",
+"Jazz et musiques improvisées (DNSPM, Master CIM)",
+"https://www.hear.fr/musique/dominantes-enseignees-3/"
+],
+[
+"jazz",
+"MA",
+"Jazz et musiques improvisées (DNSPM, Master CIM)",
+"https://www.hear.fr/musique/dominantes-enseignees-3/"
+],
+[
+"early-music",
+"BA",
+"Musique ancienne: chant baroque, clavecin, claviers historiques, flûte à bec, traverso, luth, viole de gambe, violon et violoncelle baroques",
+"https://www.hear.fr/musique/dominantes-enseignees-3/"
+],
+[
+"early-music",
+"MA",
+"Musique ancienne: chant baroque, clavecin, claviers historiques, flûte à bec, traverso, luth, viole de gambe, violon et violoncelle baroques",
+"https://www.hear.fr/musique/dominantes-enseignees-3/"
+],
+[
+"music-technology",
+"BA",
+"Composition et musiques électroniques; Composition électroacoustique et temps réel",
+"https://www.hear.fr/musique/dominantes-enseignees-3/"
+],
+[
+"music-technology",
+"MA",
+"Composition et musiques électroniques; Composition électroacoustique et temps réel",
+"https://www.hear.fr/musique/dominantes-enseignees-3/"
+],
+[
+"chamber-music",
+"MA",
+"Musique de chambre (master CIM uniquement)",
+"https://www.hear.fr/musique/dominantes-enseignees-3/"
+],
+[
+"music-education",
+"BA",
+"Diplôme d’État de professeur de musique",
+"https://www.hear.fr/musique/de/"
+],
+[
+"music-education",
+"MA",
+"Master Pédagogie (MEEF)",
+"https://www.hear.fr/musique/master-meef/"
+]
+],
+"F  LILLE71": [
+[
+"strings",
+"BA",
+"DNSPM classique à contemporain",
+"https://www.esmd.fr/musique/diplome-national-superieur-professionnel-de-musicien/"
+],
+[
+"woodwind",
+"BA",
+"DNSPM classique à contemporain",
+"https://www.esmd.fr/musique/diplome-national-superieur-professionnel-de-musicien/"
+],
+[
+"brass",
+"BA",
+"DNSPM classique à contemporain",
+"https://www.esmd.fr/musique/diplome-national-superieur-professionnel-de-musicien/"
+],
+[
+"piano",
+"BA",
+"DNSPM classique à contemporain",
+"https://www.esmd.fr/musique/diplome-national-superieur-professionnel-de-musicien/"
+],
+[
+"guitar",
+"BA",
+"DNSPM classique à contemporain",
+"https://www.esmd.fr/musique/diplome-national-superieur-professionnel-de-musicien/"
+],
+[
+"harp",
+"BA",
+"DNSPM classique à contemporain",
+"https://www.esmd.fr/musique/diplome-national-superieur-professionnel-de-musicien/"
+],
+[
+"percussion",
+"BA",
+"DNSPM classique à contemporain",
+"https://www.esmd.fr/musique/diplome-national-superieur-professionnel-de-musicien/"
+],
+[
+"vocal-opera",
+"BA",
+"DNSPM classique à contemporain",
+"https://www.esmd.fr/musique/diplome-national-superieur-professionnel-de-musicien/"
+],
+[
+"jazz",
+"BA",
+"DNSPM jazz et musiques improvisées; musiques actuelles amplifiées",
+"https://www.esmd.fr/musique/diplome-national-superieur-professionnel-de-musicien/"
+],
+[
+"popular-music",
+"BA",
+"DNSPM jazz et musiques improvisées; musiques actuelles amplifiées",
+"https://www.esmd.fr/musique/diplome-national-superieur-professionnel-de-musicien/"
+],
+[
+"music-education",
+"BA",
+"Diplôme d’État de professeur de musique",
+"https://www.esmd.fr/musique/diplome-d-etat-de-professeur-de-musique/"
+]
+],
+"F  DIJON32": [
+[
+"vocal-opera",
+"BA",
+"DNSPM domaine classique à contemporain – chanteur et instrumentiste",
+"https://www.esmbourgognefranchecomte.fr/fr/formation-superieure-initiale/le-diplome-national-superieur-professionnel-de-musicien-dnspm"
+],
+[
+"early-music",
+"BA",
+"DNSPM domaine musique ancienne – chanteur et instrumentiste",
+"https://www.esmbourgognefranchecomte.fr/fr/formation-superieure-initiale/le-diplome-national-superieur-professionnel-de-musicien-dnspm"
+],
+[
+"popular-music",
+"BA",
+"DNSPM domaine musiques actuelles amplifiées",
+"https://www.esmbourgognefranchecomte.fr/fr/formation-superieure-initiale/le-diplome-national-superieur-professionnel-de-musicien-dnspm"
+],
+[
+"conducting",
+"BA",
+"DNSPM Direction d'ensembles vocaux",
+"https://www.esmbourgognefranchecomte.fr/fr/formation-superieure-initiale/le-diplome-national-superieur-professionnel-de-musicien-dnspm"
+],
+[
+"music-education",
+"BA",
+"Diplôme d’État de professeur de musique",
+"https://www.esmbourgognefranchecomte.fr/fr/formation-superieure-initiale/le-diplome-detat-de-professeur-de-musique-de"
+]
+],
+"F  BORDEAU62": [
+[
+"strings",
+"BA",
+"DNSPM: cordes frottées, piano, guitare, percussions",
+"https://resonances-na.eu/dnspm/",
+"The school now operates as RésoNAnces (resonances-na.eu)"
+],
+[
+"piano",
+"BA",
+"DNSPM: cordes frottées, piano, guitare, percussions",
+"https://resonances-na.eu/dnspm/",
+"The school now operates as RésoNAnces (resonances-na.eu)"
+],
+[
+"guitar",
+"BA",
+"DNSPM: cordes frottées, piano, guitare, percussions",
+"https://resonances-na.eu/dnspm/",
+"The school now operates as RésoNAnces (resonances-na.eu)"
+],
+[
+"percussion",
+"BA",
+"DNSPM: cordes frottées, piano, guitare, percussions",
+"https://resonances-na.eu/dnspm/",
+"The school now operates as RésoNAnces (resonances-na.eu)"
+],
+[
+"popular-music",
+"BA",
+"DNSPM: musiques actuelles amplifiées",
+"https://resonances-na.eu/maa/"
+],
+[
+"early-music",
+"BA",
+"DNSPM: musique ancienne",
+"https://resonances-na.eu/musique-ancienne/"
+],
+[
+"folk",
+"BA",
+"DNSPM: musiques traditionnelles",
+"https://resonances-na.eu/musiques-traditionnelles/"
+],
+[
+"music-education",
+"BA",
+"Diplôme d’État de professeur de musique",
+"https://resonances-na.eu/de-musique/"
+],
+[
+"chamber-music",
+"MA",
+"Master universitaire : musique, recherche et pratiques d’ensemble",
+"https://resonances-na.eu/accueil/master-musique/"
+]
+],
+"F  BOBIGNY05": [
+[
+"vocal-opera",
+"BA",
+"DNSPM classique à contemporain: chant, piano, guitare, violon, violoncelle, percussions",
+"https://polesup93.fr/dnspm-formation-initiale"
+],
+[
+"piano",
+"BA",
+"DNSPM classique à contemporain: chant, piano, guitare, violon, violoncelle, percussions",
+"https://polesup93.fr/dnspm-formation-initiale"
+],
+[
+"guitar",
+"BA",
+"DNSPM classique à contemporain: chant, piano, guitare, violon, violoncelle, percussions",
+"https://polesup93.fr/dnspm-formation-initiale"
+],
+[
+"strings",
+"BA",
+"DNSPM classique à contemporain: chant, piano, guitare, violon, violoncelle, percussions",
+"https://polesup93.fr/dnspm-formation-initiale"
+],
+[
+"percussion",
+"BA",
+"DNSPM classique à contemporain: chant, piano, guitare, violon, violoncelle, percussions",
+"https://polesup93.fr/dnspm-formation-initiale"
+],
+[
+"jazz",
+"BA",
+"DNSPM jazz et musiques improvisées",
+"https://polesup93.fr/dnspm-formation-initiale"
+],
+[
+"conducting",
+"BA",
+"DNSPM direction d’ensembles vocaux et instrumentaux",
+"https://polesup93.fr/dnspm-formation-initiale"
+],
+[
+"music-education",
+"BA",
+"Diplôme d’État (articulé avec le DNSPM; formation professionnelle)",
+"https://polesup93.fr/diplome-detat-articule-avec-le-dnspm"
+]
+],
+"F  PARIS365": [
+[
+"composition",
+"BA",
+"DNSPM création musicale contemporaine (composition instrumentale, composition électroacoustique)",
+"https://www.pspbb.fr/musique/diplome-national-superieur-professionnel-de-musicien-dnspm-diplome-d-etat-de"
+],
+[
+"music-technology",
+"BA",
+"DNSPM création musicale contemporaine (composition instrumentale, composition électroacoustique)",
+"https://www.pspbb.fr/musique/diplome-national-superieur-professionnel-de-musicien-dnspm-diplome-d-etat-de"
+],
+[
+"music-education",
+"BA",
+"Diplôme d’État de professeur de musique",
+"https://www.pspbb.fr/musique/parcours-de-diplome-d-etat-de-professeur-de-musique-1963"
+],
+[
+"composition",
+"MA",
+"Master Improvisation et création musicale",
+"https://www.pspbb.fr/musique/master/parcours-master-improvisation-et-creation-musicale-niveau-7-du-rncp-1964"
+],
+[
+"strings",
+"MA",
+"Master Recherche et Pratique, option pratiques orchestrales cordes",
+"https://www.pspbb.fr/master-recherche-et-pratique-option-pratiques-orchestrales-cordes-3531"
+]
+],
+"F  NANTES72": [
+[
+"music-education",
+"BA",
+"DE professeur de musique (formation initiale)",
+"https://www.lepontsuperieur.eu/musique/cursus-et-diplomes/de-professeur-de-musique-formation-initiale/"
+]
+],
+"F  AIX-PRO29": [
+[
+"music-education",
+"BA",
+"Diplôme d’État de professeur de musique",
+"https://iesm.fr/diplome-detat-de-professeur-de-musique-de/"
+],
+[
+"folk",
+"BA",
+"Diplôme d’État de professeur de musiques et chants traditionnels de Corse et Méditerranée",
+"https://iesm.fr/formations-inscriptions/"
+]
+]
+},
+"notes": {}
+}

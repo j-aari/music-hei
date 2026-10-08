@@ -1213,7 +1213,8 @@
   "classified_by": "manual",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "2026-10-08: pesmd-bordeaux-aquitaine.com now serves unrelated betting ads; pesmd.com redirects to the school's new name RésoNAnces (resonances-na.eu).",
+  "website_override": "https://resonances-na.eu/"
  },
  "F  DIJON32": {
   "erasmus_code_raw": "F  DIJON32",

@@ -1,6 +1,6 @@
 {
  "meta": {
-  "description": "Study programmes per institution and fine-grained discipline (see disciplines.json). Collected so far: 44 institutions.",
+  "description": "Study programmes per institution and fine-grained discipline (see disciplines.json). Collected so far: 60 institutions.",
   "status": "pilot",
   "collected": "2026-10-08",
   "verified_note": "Every record has verified: false. Programme names and URLs were read from the institutions' own websites (programme lists and programme pages) but have not been checked by a person.",
@@ -46,7 +46,16 @@
    "E  BARCELO29",
    "EE TALLINN03",
    "EE TARTU02",
+   "F  AIX-PRO29",
+   "F  BOBIGNY05",
+   "F  BORDEAU62",
+   "F  DIJON32",
+   "F  LILLE71",
+   "F  LYON24",
+   "F  NANTES72",
    "F  PARIS119",
+   "F  PARIS365",
+   "F  STRASBO51",
    "HR PULA01",
    "HR ZAGREB01",
    "N  OSLO03",
@@ -54,7 +63,14 @@
    "NL S-GRAVE05",
    "RO BUCURES03",
    "S  STOCKHO11",
-   "SF HELSINK42"
+   "SF HELSINK41",
+   "SF HELSINK42",
+   "SF JYVASKY11",
+   "SF KOKKOLA05",
+   "SF KUOPIO08",
+   "SF OULU11",
+   "SF TAMPERE06",
+   "SF TURKU05"
   ],
   "verification_log": [
    {
@@ -122,6 +138,28 @@
      "EE TARTU02",
      "HR PULA01",
      "HR ZAGREB01"
+    ],
+    "date": "2026-10-08",
+    "method": "Field-level collection as in batch 1 (raw HTML of each institution's own programme pages, PDFs where the list was only there; names mapped to disciplines.json by keyword and checked by hand)."
+   },
+   {
+    "erasmus_codes": [
+     "F  AIX-PRO29",
+     "F  BOBIGNY05",
+     "F  BORDEAU62",
+     "F  DIJON32",
+     "F  LILLE71",
+     "F  LYON24",
+     "F  NANTES72",
+     "F  PARIS365",
+     "F  STRASBO51",
+     "SF HELSINK41",
+     "SF JYVASKY11",
+     "SF KOKKOLA05",
+     "SF KUOPIO08",
+     "SF OULU11",
+     "SF TAMPERE06",
+     "SF TURKU05"
     ],
     "date": "2026-10-08",
     "method": "Field-level collection as in batch 1 (raw HTML of each institution's own programme pages, PDFs where the list was only there; names mapped to disciplines.json by keyword and checked by hand)."
@@ -16417,6 +16455,1805 @@
      "level": "BA",
      "programme_name": "Culture Management curriculum",
      "url": "https://kultuur.ut.ee/en/content/bachelors"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF HELSINK41",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.metropolia.fi/fi/opiskelu-metropoliassa/amk-tutkinnot/musiikki",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musiikkipedagogi (AMK): soiton- ja laulunopetus, klassinen tai pop/jazz-musiikki",
+     "url": "https://www.metropolia.fi/fi/opiskelu-metropoliassa/amk-tutkinnot/musiikki"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musiikkipedagogi ja muusikko (ylempi AMK)",
+     "url": "https://www.metropolia.fi/fi/opiskelu-metropoliassa/amk-tutkinnot/musiikki",
+     "note": "Master's degree of a university of applied sciences (ylempi AMK)"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF HELSINK41",
+   "discipline": "piano",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.metropolia.fi/fi/opiskelu-metropoliassa/amk-tutkinnot/musiikki",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musiikkipedagogi (AMK), klassinen musiikki: piano, jousisoittimet, kitara, puhaltimet, laulu",
+     "url": "https://www.metropolia.fi/fi/opiskelu-metropoliassa/amk-tutkinnot/musiikki"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF HELSINK41",
+   "discipline": "strings",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.metropolia.fi/fi/opiskelu-metropoliassa/amk-tutkinnot/musiikki",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musiikkipedagogi (AMK), klassinen musiikki: piano, jousisoittimet, kitara, puhaltimet, laulu",
+     "url": "https://www.metropolia.fi/fi/opiskelu-metropoliassa/amk-tutkinnot/musiikki"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF HELSINK41",
+   "discipline": "guitar",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.metropolia.fi/fi/opiskelu-metropoliassa/amk-tutkinnot/musiikki",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musiikkipedagogi (AMK), klassinen musiikki: piano, jousisoittimet, kitara, puhaltimet, laulu",
+     "url": "https://www.metropolia.fi/fi/opiskelu-metropoliassa/amk-tutkinnot/musiikki"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF HELSINK41",
+   "discipline": "woodwind",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.metropolia.fi/fi/opiskelu-metropoliassa/amk-tutkinnot/musiikki",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musiikkipedagogi (AMK), klassinen musiikki: piano, jousisoittimet, kitara, puhaltimet, laulu",
+     "url": "https://www.metropolia.fi/fi/opiskelu-metropoliassa/amk-tutkinnot/musiikki"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF HELSINK41",
+   "discipline": "brass",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.metropolia.fi/fi/opiskelu-metropoliassa/amk-tutkinnot/musiikki",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musiikkipedagogi (AMK), klassinen musiikki: piano, jousisoittimet, kitara, puhaltimet, laulu",
+     "url": "https://www.metropolia.fi/fi/opiskelu-metropoliassa/amk-tutkinnot/musiikki"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF HELSINK41",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.metropolia.fi/fi/opiskelu-metropoliassa/amk-tutkinnot/musiikki",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musiikkipedagogi (AMK), klassinen musiikki: piano, jousisoittimet, kitara, puhaltimet, laulu",
+     "url": "https://www.metropolia.fi/fi/opiskelu-metropoliassa/amk-tutkinnot/musiikki"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF HELSINK41",
+   "discipline": "jazz",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.metropolia.fi/fi/opiskelu-metropoliassa/amk-tutkinnot/musiikki",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Muusikko (AMK): musiikin esittäminen, pop/jazz-musiikki; Musiikkipedagogi (AMK), pop/jazz",
+     "url": "https://www.metropolia.fi/fi/opiskelu-metropoliassa/amk-tutkinnot/musiikki"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF HELSINK41",
+   "discipline": "popular-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.metropolia.fi/fi/opiskelu-metropoliassa/amk-tutkinnot/musiikki",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Muusikko (AMK): musiikin esittäminen, pop/jazz-musiikki; Musiikkipedagogi (AMK), pop/jazz",
+     "url": "https://www.metropolia.fi/fi/opiskelu-metropoliassa/amk-tutkinnot/musiikki"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF HELSINK41",
+   "discipline": "music-production",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.metropolia.fi/fi/opiskelu-metropoliassa/amk-tutkinnot/musiikki",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Muusikko (AMK): musiikin tekeminen ja tuottaminen, pop/jazz-musiikki",
+     "url": "https://www.metropolia.fi/fi/opiskelu-metropoliassa/amk-tutkinnot/musiikki"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF HELSINK41",
+   "discipline": "composition",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.metropolia.fi/fi/opiskelu-metropoliassa/amk-tutkinnot/musiikki",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Muusikko (AMK): musiikin tekeminen ja tuottaminen, pop/jazz-musiikki",
+     "url": "https://www.metropolia.fi/fi/opiskelu-metropoliassa/amk-tutkinnot/musiikki"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF KUOPIO08",
+   "discipline": "music-education",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.savonia.fi/opiskele-tutkinto/tutkinnot-ja-hakeminen/amk-ja-yamk-tutkinnot-tarjonta/musiikkipedagogi-amk-paivatoteutus/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musiikkipedagogi (AMK) – klassisen musiikin tai rytmimusiikin painotus",
+     "url": "https://www.savonia.fi/opiskele-tutkinto/tutkinnot-ja-hakeminen/amk-ja-yamk-tutkinnot-tarjonta/musiikkipedagogi-amk-paivatoteutus/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF KUOPIO08",
+   "discipline": "jazz",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.savonia.fi/opiskele-tutkinto/tutkinnot-ja-hakeminen/amk-ja-yamk-tutkinnot-tarjonta/musiikkipedagogi-amk-paivatoteutus/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musiikkipedagogi (AMK) – rytmimusiikin painotus (jazz, pop/rock)",
+     "url": "https://www.savonia.fi/opiskele-tutkinto/tutkinnot-ja-hakeminen/amk-ja-yamk-tutkinnot-tarjonta/musiikkipedagogi-amk-paivatoteutus/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF KUOPIO08",
+   "discipline": "popular-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.savonia.fi/opiskele-tutkinto/tutkinnot-ja-hakeminen/amk-ja-yamk-tutkinnot-tarjonta/musiikkipedagogi-amk-paivatoteutus/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musiikkipedagogi (AMK) – rytmimusiikin painotus (jazz, pop/rock)",
+     "url": "https://www.savonia.fi/opiskele-tutkinto/tutkinnot-ja-hakeminen/amk-ja-yamk-tutkinnot-tarjonta/musiikkipedagogi-amk-paivatoteutus/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF JYVASKY11",
+   "discipline": "music-education",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.jamk.fi/fi/hae-opiskelemaan/amk-tutkinto/musiikkipedagogi-on-musiikin-moniosaaja",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musiikkipedagogi (AMK) – klassinen ja pop/jazz",
+     "url": "https://www.jamk.fi/fi/hae-opiskelemaan/amk-tutkinto/musiikkipedagogi-on-musiikin-moniosaaja"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF JYVASKY11",
+   "discipline": "jazz",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.jamk.fi/fi/hae-opiskelemaan/amk-tutkinto/musiikkipedagogi-on-musiikin-moniosaaja",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musiikkipedagogi (AMK) – pop/jazz-instrumentit",
+     "url": "https://www.jamk.fi/fi/hae-opiskelemaan/amk-tutkinto/musiikkipedagogi-on-musiikin-moniosaaja"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF JYVASKY11",
+   "discipline": "popular-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.jamk.fi/fi/hae-opiskelemaan/amk-tutkinto/musiikkipedagogi-on-musiikin-moniosaaja",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musiikkipedagogi (AMK) – pop/jazz-instrumentit",
+     "url": "https://www.jamk.fi/fi/hae-opiskelemaan/amk-tutkinto/musiikkipedagogi-on-musiikin-moniosaaja"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF JYVASKY11",
+   "discipline": "kantele",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.jamk.fi/fi/hae-opiskelemaan/amk-tutkinto/musiikkipedagogi-on-musiikin-moniosaaja",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musiikkipedagogi (AMK) – klassiset instrumentit, mm. kantele",
+     "url": "https://www.jamk.fi/fi/hae-opiskelemaan/amk-tutkinto/musiikkipedagogi-on-musiikin-moniosaaja"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF OULU11",
+   "discipline": "music-education",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://oamk.fi/koulutus/ammattikorkeakoulututkinnot/musiikkipedagogi-amk/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musiikkipedagogi (AMK)",
+     "url": "https://oamk.fi/koulutus/ammattikorkeakoulututkinnot/musiikkipedagogi-amk/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF OULU11",
+   "discipline": "jazz",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://oamk.fi/koulutus/ammattikorkeakoulututkinnot/musiikkipedagogi-amk/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musiikkipedagogi (AMK) – rytmimusiikki: laulu, piano, sähkökitara, sähköbasso, rummut, saksofoni, trumpetti, pasuuna",
+     "url": "https://oamk.fi/koulutus/ammattikorkeakoulututkinnot/musiikkipedagogi-amk/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF OULU11",
+   "discipline": "popular-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://oamk.fi/koulutus/ammattikorkeakoulututkinnot/musiikkipedagogi-amk/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musiikkipedagogi (AMK) – rytmimusiikki: laulu, piano, sähkökitara, sähköbasso, rummut, saksofoni, trumpetti, pasuuna",
+     "url": "https://oamk.fi/koulutus/ammattikorkeakoulututkinnot/musiikkipedagogi-amk/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF OULU11",
+   "discipline": "music-technology",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://oamk.fi/koulutus/ammattikorkeakoulututkinnot/musiikkipedagogi-amk/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musiikkipedagogi (AMK) – musiikkiteknologian osaamispolku (musiikkituotanto ja studiotyöskentely)",
+     "url": "https://oamk.fi/koulutus/ammattikorkeakoulututkinnot/musiikkipedagogi-amk/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF OULU11",
+   "discipline": "music-production",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://oamk.fi/koulutus/ammattikorkeakoulututkinnot/musiikkipedagogi-amk/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musiikkipedagogi (AMK) – musiikkiteknologian osaamispolku (musiikkituotanto ja studiotyöskentely)",
+     "url": "https://oamk.fi/koulutus/ammattikorkeakoulututkinnot/musiikkipedagogi-amk/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF KOKKOLA05",
+   "discipline": "music-education",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://net.centria.fi/koulutukset/musiikkipedagogi-amk/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musiikkipedagogi (AMK) – suuntautumisvaihtoehdot klassinen ja rytmimusiikki",
+     "url": "https://net.centria.fi/koulutukset/musiikkipedagogi-amk/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF KOKKOLA05",
+   "discipline": "jazz",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://net.centria.fi/koulutukset/musiikkipedagogi-amk/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musiikkipedagogi (AMK) – rytmimusiikki",
+     "url": "https://net.centria.fi/koulutukset/musiikkipedagogi-amk/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF KOKKOLA05",
+   "discipline": "popular-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://net.centria.fi/koulutukset/musiikkipedagogi-amk/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musiikkipedagogi (AMK) – rytmimusiikki",
+     "url": "https://net.centria.fi/koulutukset/musiikkipedagogi-amk/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF TURKU05",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.turkuamk.fi/koulutukset/musiikkipedagogi-amk/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musiikkipedagogi (AMK) – soiton- ja laulunopettajat, musiikin hahmotusaineiden opettajat",
+     "url": "https://www.turkuamk.fi/koulutukset/musiikkipedagogi-amk/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musiikkipedagogi (ylempi AMK)",
+     "url": "https://www.turkuamk.fi/fi/tutkinnot-ja-opiskelu/tutkinnot/musiikkipedagogi-ylempi-amk/",
+     "note": "Master's degree of a university of applied sciences (ylempi AMK)"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF TAMPERE06",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://sites.tuni.fi/tamkmusiikki/musiikin-tutkinto-ohjelma-musiikkipedagogi/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musiikkipedagogi (AMK): instrumenttipedagogi, musiikin hahmotustaitojen pedagogi",
+     "url": "https://sites.tuni.fi/tamkmusiikki/musiikin-tutkinto-ohjelma-musiikkipedagogi/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musiikin ylempi tutkinto-ohjelma: Musiikkipedagogi (ylempi AMK), Muusikko (ylempi AMK)",
+     "url": "https://sites.tuni.fi/tamkmusiikki/musiikin-ylempi-tutkinto-ohjelma-musiikkipedagogi/",
+     "note": "Master's degree of a university of applied sciences (ylempi AMK)"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF TAMPERE06",
+   "discipline": "conducting",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://sites.tuni.fi/tamkmusiikki/musiikin-tutkinto-ohjelma-musiikkipedagogi/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musiikkipedagogi (AMK): kuoronjohtaja tai orkesterinjohtaja",
+     "url": "https://sites.tuni.fi/tamkmusiikki/musiikin-tutkinto-ohjelma-musiikkipedagogi/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SF TAMPERE06",
+   "discipline": "composition",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://sites.tuni.fi/tamkmusiikki/tutkinto-ohjelmat/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Muusikko (AMK): esittävä ja luova säveltaide",
+     "url": "https://sites.tuni.fi/tamkmusiikki/tutkinto-ohjelmat/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  LYON24",
+   "discipline": "musicology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://cnsmd-lyon.fr/formations-musique/bachelor-de-culture-musicale/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor de Culture musicale 1er cycle Culture musicale",
+     "url": "https://cnsmd-lyon.fr/formations-musique/bachelor-de-culture-musicale/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Culture Musicale 2ème cycle Culture musicale",
+     "url": "https://cnsmd-lyon.fr/formations-musique/master-culture-musicale/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  LYON24",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://cnsmd-lyon.fr/formations-musique/master-violon/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Master Violon 2ème cycle Interprétation",
+     "url": "https://cnsmd-lyon.fr/formations-musique/master-violon/"
+    },
+    {
+     "level": "BA",
+     "programme_name": "DNSPM Violon 1er cycle Interprétation",
+     "url": "https://cnsmd-lyon.fr/formations-musique/dnspm-violon/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  LYON24",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://cnsmd-lyon.fr/formations-musique/master-chant-lyrique/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Master Chant lyrique 2ème cycle Interprétation",
+     "url": "https://cnsmd-lyon.fr/formations-musique/master-chant-lyrique/"
+    },
+    {
+     "level": "BA",
+     "programme_name": "DNSPM Chant lyrique 1er cycle Interprétation",
+     "url": "https://cnsmd-lyon.fr/formations-musique/dnspm-chant-lyrique/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  LYON24",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://cnsmd-lyon.fr/formations-musique/master-basson-allemand/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Master Basson allemand 2ème cycle Interprétation",
+     "url": "https://cnsmd-lyon.fr/formations-musique/master-basson-allemand/"
+    },
+    {
+     "level": "BA",
+     "programme_name": "DNSPM Basson allemand 1er cycle Interprétation",
+     "url": "https://cnsmd-lyon.fr/formations-musique/dnspm-basson-allemand/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  LYON24",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://cnsmd-lyon.fr/formations-musique/master-composition-pour-limage/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Master Composition pour l’image 2ème cycle Espace Tranversal de Création",
+     "url": "https://cnsmd-lyon.fr/formations-musique/master-composition-pour-limage/"
+    },
+    {
+     "level": "BA",
+     "programme_name": "DNSPM Composition pour l’image 1er cycle Espace Tranversal de Création",
+     "url": "https://cnsmd-lyon.fr/formations-musique/dnspm-composition-pour-limage/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  LYON24",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://cnsmd-lyon.fr/formations-musique/dnspm-chant-musique-ancienne/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DNSPM Chant musique ancienne 1er cycle Interprétation",
+     "url": "https://cnsmd-lyon.fr/formations-musique/dnspm-chant-musique-ancienne/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Chant musique ancienne 2ème cycle Interprétation",
+     "url": "https://cnsmd-lyon.fr/formations-musique/master-chant-musique-ancienne/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  LYON24",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://cnsmd-lyon.fr/formations-musique/diplome-detat-professeur-de-musique/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Diplôme d’Etat professeur·e de musique 1er cycle Pédagogie",
+     "url": "https://cnsmd-lyon.fr/formations-musique/diplome-detat-professeur-de-musique/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Certificat d’aptitude professeur·e de musique 2ème cycle Pédagogie",
+     "url": "https://cnsmd-lyon.fr/formations-musique/certificat-daptitude-professeur-de-musique/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  LYON24",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://cnsmd-lyon.fr/formations-musique/master-direction-de-choeur/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Master Direction de chœur 2ème cycle Interprétation",
+     "url": "https://cnsmd-lyon.fr/formations-musique/master-direction-de-choeur/"
+    },
+    {
+     "level": "BA",
+     "programme_name": "DNSPM Direction de chœur 1er cycle Interprétation",
+     "url": "https://cnsmd-lyon.fr/formations-musique/dnspm-direction-de-choeur/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  LYON24",
+   "discipline": "chamber-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://cnsmd-lyon.fr/formations-musique/master-musique-de-chambre/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Master Musique de chambre 2ème cycle Interprétation",
+     "url": "https://cnsmd-lyon.fr/formations-musique/master-musique-de-chambre/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  LYON24",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://cnsmd-lyon.fr/formations-musique/master-tuba-basse/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Master Tuba basse 2ème cycle Interprétation",
+     "url": "https://cnsmd-lyon.fr/formations-musique/master-tuba-basse/"
+    },
+    {
+     "level": "BA",
+     "programme_name": "DNSPM Tuba basse 1er cycle Interprétation",
+     "url": "https://cnsmd-lyon.fr/formations-musique/dnspm-tuba-basse/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  LYON24",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://cnsmd-lyon.fr/formations-musique/master-accompagnement-au-piano/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Master Accompagnement au piano 2ème cycle Interprétation",
+     "url": "https://cnsmd-lyon.fr/formations-musique/master-accompagnement-au-piano/"
+    },
+    {
+     "level": "BA",
+     "programme_name": "DNSPM Accompagnement au piano 1er cycle Interprétation",
+     "url": "https://cnsmd-lyon.fr/formations-musique/dnspm-accompagnement-au-piano/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  LYON24",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://cnsmd-lyon.fr/formations-musique/master-orgue/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Master Orgue 2ème cycle Interprétation",
+     "url": "https://cnsmd-lyon.fr/formations-musique/master-orgue/"
+    },
+    {
+     "level": "BA",
+     "programme_name": "DNSPM Orgue 1er cycle Interprétation",
+     "url": "https://cnsmd-lyon.fr/formations-musique/dnspm-orgue/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  LYON24",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://cnsmd-lyon.fr/formations-musique/master-harpe/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Master Harpe 2ème cycle Interprétation",
+     "url": "https://cnsmd-lyon.fr/formations-musique/master-harpe/"
+    },
+    {
+     "level": "BA",
+     "programme_name": "DNSPM Harpe 1er cycle Interprétation",
+     "url": "https://cnsmd-lyon.fr/formations-musique/dnspm-harpe/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  LYON24",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://cnsmd-lyon.fr/formations-musique/master-percussions/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Master Percussions 2ème cycle Interprétation",
+     "url": "https://cnsmd-lyon.fr/formations-musique/master-percussions/"
+    },
+    {
+     "level": "BA",
+     "programme_name": "DNSPM Percussions 1er cycle Interprétation",
+     "url": "https://cnsmd-lyon.fr/formations-musique/dnspm-percussions/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  STRASBO51",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hear.fr/musique/licence-dnspm/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Licence CIM / DNSPM (dominantes enseignées)",
+     "url": "https://www.hear.fr/musique/licence-dnspm/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master CIM (dominantes enseignées)",
+     "url": "https://www.hear.fr/musique/master/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  STRASBO51",
+   "discipline": "accordion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hear.fr/musique/licence-dnspm/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Licence CIM / DNSPM (dominantes enseignées)",
+     "url": "https://www.hear.fr/musique/licence-dnspm/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master CIM (dominantes enseignées)",
+     "url": "https://www.hear.fr/musique/master/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  STRASBO51",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hear.fr/musique/licence-dnspm/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Licence CIM / DNSPM (dominantes enseignées)",
+     "url": "https://www.hear.fr/musique/licence-dnspm/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master CIM (dominantes enseignées)",
+     "url": "https://www.hear.fr/musique/master/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  STRASBO51",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hear.fr/musique/licence-dnspm/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Licence CIM / DNSPM (dominantes enseignées)",
+     "url": "https://www.hear.fr/musique/licence-dnspm/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master CIM (dominantes enseignées)",
+     "url": "https://www.hear.fr/musique/master/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  STRASBO51",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hear.fr/musique/licence-dnspm/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Licence CIM / DNSPM (dominantes enseignées)",
+     "url": "https://www.hear.fr/musique/licence-dnspm/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master CIM (dominantes enseignées)",
+     "url": "https://www.hear.fr/musique/master/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  STRASBO51",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hear.fr/musique/licence-dnspm/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Licence CIM / DNSPM (dominantes enseignées)",
+     "url": "https://www.hear.fr/musique/licence-dnspm/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master CIM (dominantes enseignées)",
+     "url": "https://www.hear.fr/musique/master/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  STRASBO51",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hear.fr/musique/licence-dnspm/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Licence CIM / DNSPM (dominantes enseignées)",
+     "url": "https://www.hear.fr/musique/licence-dnspm/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master CIM (dominantes enseignées)",
+     "url": "https://www.hear.fr/musique/master/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  STRASBO51",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hear.fr/musique/licence-dnspm/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Licence CIM / DNSPM (dominantes enseignées)",
+     "url": "https://www.hear.fr/musique/licence-dnspm/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master CIM (dominantes enseignées)",
+     "url": "https://www.hear.fr/musique/master/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  STRASBO51",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hear.fr/musique/licence-dnspm/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Licence CIM / DNSPM (dominantes enseignées)",
+     "url": "https://www.hear.fr/musique/licence-dnspm/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master CIM (dominantes enseignées)",
+     "url": "https://www.hear.fr/musique/master/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  STRASBO51",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hear.fr/musique/licence-dnspm/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Licence CIM / DNSPM (dominantes enseignées)",
+     "url": "https://www.hear.fr/musique/licence-dnspm/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master CIM (dominantes enseignées)",
+     "url": "https://www.hear.fr/musique/master/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  STRASBO51",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hear.fr/musique/licence-dnspm/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Licence CIM / DNSPM (dominantes enseignées)",
+     "url": "https://www.hear.fr/musique/licence-dnspm/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master CIM (dominantes enseignées)",
+     "url": "https://www.hear.fr/musique/master/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  STRASBO51",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hear.fr/musique/dominantes-enseignees-3/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Jazz et musiques improvisées (DNSPM, Master CIM)",
+     "url": "https://www.hear.fr/musique/dominantes-enseignees-3/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Jazz et musiques improvisées (DNSPM, Master CIM)",
+     "url": "https://www.hear.fr/musique/dominantes-enseignees-3/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  STRASBO51",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hear.fr/musique/dominantes-enseignees-3/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musique ancienne: chant baroque, clavecin, claviers historiques, flûte à bec, traverso, luth, viole de gambe, violon et violoncelle baroques",
+     "url": "https://www.hear.fr/musique/dominantes-enseignees-3/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musique ancienne: chant baroque, clavecin, claviers historiques, flûte à bec, traverso, luth, viole de gambe, violon et violoncelle baroques",
+     "url": "https://www.hear.fr/musique/dominantes-enseignees-3/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  STRASBO51",
+   "discipline": "music-technology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hear.fr/musique/dominantes-enseignees-3/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composition et musiques électroniques; Composition électroacoustique et temps réel",
+     "url": "https://www.hear.fr/musique/dominantes-enseignees-3/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Composition et musiques électroniques; Composition électroacoustique et temps réel",
+     "url": "https://www.hear.fr/musique/dominantes-enseignees-3/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  STRASBO51",
+   "discipline": "chamber-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.hear.fr/musique/dominantes-enseignees-3/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Musique de chambre (master CIM uniquement)",
+     "url": "https://www.hear.fr/musique/dominantes-enseignees-3/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  STRASBO51",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hear.fr/musique/de/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Diplôme d’État de professeur de musique",
+     "url": "https://www.hear.fr/musique/de/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Pédagogie (MEEF)",
+     "url": "https://www.hear.fr/musique/master-meef/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  LILLE71",
+   "discipline": "strings",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.esmd.fr/musique/diplome-national-superieur-professionnel-de-musicien/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DNSPM classique à contemporain",
+     "url": "https://www.esmd.fr/musique/diplome-national-superieur-professionnel-de-musicien/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  LILLE71",
+   "discipline": "woodwind",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.esmd.fr/musique/diplome-national-superieur-professionnel-de-musicien/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DNSPM classique à contemporain",
+     "url": "https://www.esmd.fr/musique/diplome-national-superieur-professionnel-de-musicien/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  LILLE71",
+   "discipline": "brass",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.esmd.fr/musique/diplome-national-superieur-professionnel-de-musicien/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DNSPM classique à contemporain",
+     "url": "https://www.esmd.fr/musique/diplome-national-superieur-professionnel-de-musicien/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  LILLE71",
+   "discipline": "piano",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.esmd.fr/musique/diplome-national-superieur-professionnel-de-musicien/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DNSPM classique à contemporain",
+     "url": "https://www.esmd.fr/musique/diplome-national-superieur-professionnel-de-musicien/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  LILLE71",
+   "discipline": "guitar",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.esmd.fr/musique/diplome-national-superieur-professionnel-de-musicien/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DNSPM classique à contemporain",
+     "url": "https://www.esmd.fr/musique/diplome-national-superieur-professionnel-de-musicien/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  LILLE71",
+   "discipline": "harp",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.esmd.fr/musique/diplome-national-superieur-professionnel-de-musicien/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DNSPM classique à contemporain",
+     "url": "https://www.esmd.fr/musique/diplome-national-superieur-professionnel-de-musicien/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  LILLE71",
+   "discipline": "percussion",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.esmd.fr/musique/diplome-national-superieur-professionnel-de-musicien/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DNSPM classique à contemporain",
+     "url": "https://www.esmd.fr/musique/diplome-national-superieur-professionnel-de-musicien/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  LILLE71",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.esmd.fr/musique/diplome-national-superieur-professionnel-de-musicien/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DNSPM classique à contemporain",
+     "url": "https://www.esmd.fr/musique/diplome-national-superieur-professionnel-de-musicien/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  LILLE71",
+   "discipline": "jazz",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.esmd.fr/musique/diplome-national-superieur-professionnel-de-musicien/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DNSPM jazz et musiques improvisées; musiques actuelles amplifiées",
+     "url": "https://www.esmd.fr/musique/diplome-national-superieur-professionnel-de-musicien/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  LILLE71",
+   "discipline": "popular-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.esmd.fr/musique/diplome-national-superieur-professionnel-de-musicien/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DNSPM jazz et musiques improvisées; musiques actuelles amplifiées",
+     "url": "https://www.esmd.fr/musique/diplome-national-superieur-professionnel-de-musicien/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  LILLE71",
+   "discipline": "music-education",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.esmd.fr/musique/diplome-d-etat-de-professeur-de-musique/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Diplôme d’État de professeur de musique",
+     "url": "https://www.esmd.fr/musique/diplome-d-etat-de-professeur-de-musique/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  DIJON32",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.esmbourgognefranchecomte.fr/fr/formation-superieure-initiale/le-diplome-national-superieur-professionnel-de-musicien-dnspm",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DNSPM domaine classique à contemporain – chanteur et instrumentiste",
+     "url": "https://www.esmbourgognefranchecomte.fr/fr/formation-superieure-initiale/le-diplome-national-superieur-professionnel-de-musicien-dnspm"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  DIJON32",
+   "discipline": "early-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.esmbourgognefranchecomte.fr/fr/formation-superieure-initiale/le-diplome-national-superieur-professionnel-de-musicien-dnspm",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DNSPM domaine musique ancienne – chanteur et instrumentiste",
+     "url": "https://www.esmbourgognefranchecomte.fr/fr/formation-superieure-initiale/le-diplome-national-superieur-professionnel-de-musicien-dnspm"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  DIJON32",
+   "discipline": "popular-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.esmbourgognefranchecomte.fr/fr/formation-superieure-initiale/le-diplome-national-superieur-professionnel-de-musicien-dnspm",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DNSPM domaine musiques actuelles amplifiées",
+     "url": "https://www.esmbourgognefranchecomte.fr/fr/formation-superieure-initiale/le-diplome-national-superieur-professionnel-de-musicien-dnspm"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  DIJON32",
+   "discipline": "conducting",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.esmbourgognefranchecomte.fr/fr/formation-superieure-initiale/le-diplome-national-superieur-professionnel-de-musicien-dnspm",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DNSPM Direction d'ensembles vocaux",
+     "url": "https://www.esmbourgognefranchecomte.fr/fr/formation-superieure-initiale/le-diplome-national-superieur-professionnel-de-musicien-dnspm"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  DIJON32",
+   "discipline": "music-education",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.esmbourgognefranchecomte.fr/fr/formation-superieure-initiale/le-diplome-detat-de-professeur-de-musique-de",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Diplôme d’État de professeur de musique",
+     "url": "https://www.esmbourgognefranchecomte.fr/fr/formation-superieure-initiale/le-diplome-detat-de-professeur-de-musique-de"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  BORDEAU62",
+   "discipline": "strings",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://resonances-na.eu/dnspm/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DNSPM: cordes frottées, piano, guitare, percussions",
+     "url": "https://resonances-na.eu/dnspm/",
+     "note": "The school now operates as RésoNAnces (resonances-na.eu)"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  BORDEAU62",
+   "discipline": "piano",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://resonances-na.eu/dnspm/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DNSPM: cordes frottées, piano, guitare, percussions",
+     "url": "https://resonances-na.eu/dnspm/",
+     "note": "The school now operates as RésoNAnces (resonances-na.eu)"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  BORDEAU62",
+   "discipline": "guitar",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://resonances-na.eu/dnspm/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DNSPM: cordes frottées, piano, guitare, percussions",
+     "url": "https://resonances-na.eu/dnspm/",
+     "note": "The school now operates as RésoNAnces (resonances-na.eu)"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  BORDEAU62",
+   "discipline": "percussion",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://resonances-na.eu/dnspm/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DNSPM: cordes frottées, piano, guitare, percussions",
+     "url": "https://resonances-na.eu/dnspm/",
+     "note": "The school now operates as RésoNAnces (resonances-na.eu)"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  BORDEAU62",
+   "discipline": "popular-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://resonances-na.eu/maa/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DNSPM: musiques actuelles amplifiées",
+     "url": "https://resonances-na.eu/maa/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  BORDEAU62",
+   "discipline": "early-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://resonances-na.eu/musique-ancienne/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DNSPM: musique ancienne",
+     "url": "https://resonances-na.eu/musique-ancienne/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  BORDEAU62",
+   "discipline": "folk",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://resonances-na.eu/musiques-traditionnelles/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DNSPM: musiques traditionnelles",
+     "url": "https://resonances-na.eu/musiques-traditionnelles/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  BORDEAU62",
+   "discipline": "music-education",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://resonances-na.eu/de-musique/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Diplôme d’État de professeur de musique",
+     "url": "https://resonances-na.eu/de-musique/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  BORDEAU62",
+   "discipline": "chamber-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://resonances-na.eu/accueil/master-musique/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Master universitaire : musique, recherche et pratiques d’ensemble",
+     "url": "https://resonances-na.eu/accueil/master-musique/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  BOBIGNY05",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://polesup93.fr/dnspm-formation-initiale",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DNSPM classique à contemporain: chant, piano, guitare, violon, violoncelle, percussions",
+     "url": "https://polesup93.fr/dnspm-formation-initiale"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  BOBIGNY05",
+   "discipline": "piano",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://polesup93.fr/dnspm-formation-initiale",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DNSPM classique à contemporain: chant, piano, guitare, violon, violoncelle, percussions",
+     "url": "https://polesup93.fr/dnspm-formation-initiale"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  BOBIGNY05",
+   "discipline": "guitar",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://polesup93.fr/dnspm-formation-initiale",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DNSPM classique à contemporain: chant, piano, guitare, violon, violoncelle, percussions",
+     "url": "https://polesup93.fr/dnspm-formation-initiale"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  BOBIGNY05",
+   "discipline": "strings",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://polesup93.fr/dnspm-formation-initiale",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DNSPM classique à contemporain: chant, piano, guitare, violon, violoncelle, percussions",
+     "url": "https://polesup93.fr/dnspm-formation-initiale"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  BOBIGNY05",
+   "discipline": "percussion",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://polesup93.fr/dnspm-formation-initiale",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DNSPM classique à contemporain: chant, piano, guitare, violon, violoncelle, percussions",
+     "url": "https://polesup93.fr/dnspm-formation-initiale"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  BOBIGNY05",
+   "discipline": "jazz",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://polesup93.fr/dnspm-formation-initiale",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DNSPM jazz et musiques improvisées",
+     "url": "https://polesup93.fr/dnspm-formation-initiale"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  BOBIGNY05",
+   "discipline": "conducting",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://polesup93.fr/dnspm-formation-initiale",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DNSPM direction d’ensembles vocaux et instrumentaux",
+     "url": "https://polesup93.fr/dnspm-formation-initiale"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  BOBIGNY05",
+   "discipline": "music-education",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://polesup93.fr/diplome-detat-articule-avec-le-dnspm",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Diplôme d’État (articulé avec le DNSPM; formation professionnelle)",
+     "url": "https://polesup93.fr/diplome-detat-articule-avec-le-dnspm"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  PARIS365",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.pspbb.fr/musique/diplome-national-superieur-professionnel-de-musicien-dnspm-diplome-d-etat-de",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DNSPM création musicale contemporaine (composition instrumentale, composition électroacoustique)",
+     "url": "https://www.pspbb.fr/musique/diplome-national-superieur-professionnel-de-musicien-dnspm-diplome-d-etat-de"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Improvisation et création musicale",
+     "url": "https://www.pspbb.fr/musique/master/parcours-master-improvisation-et-creation-musicale-niveau-7-du-rncp-1964"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  PARIS365",
+   "discipline": "music-technology",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.pspbb.fr/musique/diplome-national-superieur-professionnel-de-musicien-dnspm-diplome-d-etat-de",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DNSPM création musicale contemporaine (composition instrumentale, composition électroacoustique)",
+     "url": "https://www.pspbb.fr/musique/diplome-national-superieur-professionnel-de-musicien-dnspm-diplome-d-etat-de"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  PARIS365",
+   "discipline": "music-education",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.pspbb.fr/musique/parcours-de-diplome-d-etat-de-professeur-de-musique-1963",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Diplôme d’État de professeur de musique",
+     "url": "https://www.pspbb.fr/musique/parcours-de-diplome-d-etat-de-professeur-de-musique-1963"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  PARIS365",
+   "discipline": "strings",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.pspbb.fr/master-recherche-et-pratique-option-pratiques-orchestrales-cordes-3531",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Master Recherche et Pratique, option pratiques orchestrales cordes",
+     "url": "https://www.pspbb.fr/master-recherche-et-pratique-option-pratiques-orchestrales-cordes-3531"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  NANTES72",
+   "discipline": "music-education",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.lepontsuperieur.eu/musique/cursus-et-diplomes/de-professeur-de-musique-formation-initiale/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DE professeur de musique (formation initiale)",
+     "url": "https://www.lepontsuperieur.eu/musique/cursus-et-diplomes/de-professeur-de-musique-formation-initiale/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  AIX-PRO29",
+   "discipline": "music-education",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://iesm.fr/diplome-detat-de-professeur-de-musique-de/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Diplôme d’État de professeur de musique",
+     "url": "https://iesm.fr/diplome-detat-de-professeur-de-musique-de/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "F  AIX-PRO29",
+   "discipline": "folk",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://iesm.fr/formations-inscriptions/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Diplôme d’État de professeur de musiques et chants traditionnels de Corse et Méditerranée",
+     "url": "https://iesm.fr/formations-inscriptions/"
     }
    ],
    "verified": false
