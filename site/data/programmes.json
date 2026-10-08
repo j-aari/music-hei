@@ -1,6 +1,6 @@
 {
  "meta": {
-  "description": "Study programmes per institution and fine-grained discipline (see disciplines.json). Collected so far: 71 institutions.",
+  "description": "Study programmes per institution and fine-grained discipline (see disciplines.json). Collected so far: 75 institutions.",
   "status": "pilot",
   "collected": "2026-10-08",
   "verified_note": "Every record has verified: false. Programme names and URLs were read from the institutions' own websites (programme lists and programme pages) but have not been checked by a person.",
@@ -46,10 +46,14 @@
    "D  HALLE04",
    "D  KARLSRU03",
    "D  KOLN03",
+   "D  MANNHEI02",
+   "D  MANNHEI09",
    "D  NURNBER04",
    "D  REGENSB03",
+   "D  TROSSIN01",
    "D  TUBINGE02",
    "D  WEIMAR02",
+   "D  WURZBUR02",
    "DK ARHUS05",
    "DK KOBENHA09",
    "DK KOBENHA39",
@@ -188,6 +192,16 @@
      "D  REGENSB03",
      "D  TUBINGE02",
      "D  WEIMAR02"
+    ],
+    "date": "2026-10-08",
+    "method": "Field-level collection as in batch 1 (raw HTML of each institution's own programme pages, PDFs where the list was only there; names mapped to disciplines.json by keyword and checked by hand)."
+   },
+   {
+    "erasmus_codes": [
+     "D  MANNHEI02",
+     "D  MANNHEI09",
+     "D  TROSSIN01",
+     "D  WURZBUR02"
     ],
     "date": "2026-10-08",
     "method": "Field-level collection as in batch 1 (raw HTML of each institution's own programme pages, PDFs where the list was only there; names mapped to disciplines.json by keyword and checked by hand)."
@@ -21714,6 +21728,1000 @@
      "level": "MA",
      "programme_name": "MA Musikpädagogik: Elementare Musikpädagogik / Instrument/Gesang KPA; MA Musizieren in heterogenen Gruppen",
      "url": "https://www.hfm-nuernberg.de/studium/studienangebot"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  WURZBUR02",
+   "discipline": "accordion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-wuerzburg.de/studiengaenge/ba/akkordeon",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Akkordeon",
+     "url": "https://www.hfm-wuerzburg.de/studiengaenge/ba/akkordeon"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Akkordeon",
+     "url": "https://www.hfm-wuerzburg.de/studiengaenge/ma/performance/akkordeon"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  WURZBUR02",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-wuerzburg.de/studiengaenge/ba/dirigieren",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Dirigieren",
+     "url": "https://www.hfm-wuerzburg.de/studiengaenge/ba/dirigieren"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Chorleitung",
+     "url": "https://www.hfm-wuerzburg.de/studiengaenge/ma/performance/dirigieren/chorleitung"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  WURZBUR02",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.hfm-wuerzburg.de/studiengaenge/ba/gesang",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Gesang",
+     "url": "https://www.hfm-wuerzburg.de/studiengaenge/ba/gesang"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  WURZBUR02",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-wuerzburg.de/studiengaenge/ba/gitarre",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Gitarre",
+     "url": "https://www.hfm-wuerzburg.de/studiengaenge/ba/gitarre"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Gitarre",
+     "url": "https://www.hfm-wuerzburg.de/studiengaenge/ma/performance/gitarre"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  WURZBUR02",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-wuerzburg.de/studiengaenge/ba/hist-instrument/barockcello",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Barockcello",
+     "url": "https://www.hfm-wuerzburg.de/studiengaenge/ba/hist-instrument/barockcello"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Barockcello",
+     "url": "https://www.hfm-wuerzburg.de/studiengaenge/ma/performance/hist-instrument/barockcello"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  WURZBUR02",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-wuerzburg.de/studiengaenge/ba/jazz",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Jazz",
+     "url": "https://www.hfm-wuerzburg.de/studiengaenge/ba/jazz"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Jazz",
+     "url": "https://www.hfm-wuerzburg.de/studiengaenge/ma/performance/jazz"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  WURZBUR02",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-wuerzburg.de/studiengaenge/ba/klavier",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Klavier",
+     "url": "https://www.hfm-wuerzburg.de/studiengaenge/ba/klavier"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Klavier",
+     "url": "https://www.hfm-wuerzburg.de/studiengaenge/ma/performance/klavier"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  WURZBUR02",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-wuerzburg.de/studiengaenge/ba/komposition",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Komposition",
+     "url": "https://www.hfm-wuerzburg.de/studiengaenge/ba/komposition"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Komposition",
+     "url": "https://www.hfm-wuerzburg.de/studiengaenge/ma/music-theory-composition/komposition"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  WURZBUR02",
+   "discipline": "music-theory",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-wuerzburg.de/studiengaenge/ba/musiktheorie",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musiktheorie",
+     "url": "https://www.hfm-wuerzburg.de/studiengaenge/ba/musiktheorie"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musiktheorie",
+     "url": "https://www.hfm-wuerzburg.de/studiengaenge/ma/music-theory-composition/musiktheorie"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  WURZBUR02",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-wuerzburg.de/studiengaenge/ba/orchester/fagott",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Fagott",
+     "url": "https://www.hfm-wuerzburg.de/studiengaenge/ba/orchester/fagott"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Fagott",
+     "url": "https://www.hfm-wuerzburg.de/studiengaenge/ma/performance/orchester/fagott"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  WURZBUR02",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-wuerzburg.de/studiengaenge/ba/orchester/harfe",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Harfe",
+     "url": "https://www.hfm-wuerzburg.de/studiengaenge/ba/orchester/harfe"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Harfe",
+     "url": "https://www.hfm-wuerzburg.de/studiengaenge/ma/performance/orchester/harfe"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  WURZBUR02",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-wuerzburg.de/studiengaenge/ba/orchester/horn",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Horn",
+     "url": "https://www.hfm-wuerzburg.de/studiengaenge/ba/orchester/horn"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Horn",
+     "url": "https://www.hfm-wuerzburg.de/studiengaenge/ma/performance/orchester/horn"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  WURZBUR02",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-wuerzburg.de/studiengaenge/ba/orchester/kontrabass",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kontrabass",
+     "url": "https://www.hfm-wuerzburg.de/studiengaenge/ba/orchester/kontrabass"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kontrabass",
+     "url": "https://www.hfm-wuerzburg.de/studiengaenge/ma/performance/orchester/kontrabass"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  WURZBUR02",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-wuerzburg.de/studiengaenge/ba/orchester/percussion",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Percussion",
+     "url": "https://www.hfm-wuerzburg.de/studiengaenge/ba/orchester/percussion"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Percussion",
+     "url": "https://www.hfm-wuerzburg.de/studiengaenge/ma/performance/orchester/percussion"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  WURZBUR02",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-wuerzburg.de/studiengaenge/ba/orgel",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Orgel",
+     "url": "https://www.hfm-wuerzburg.de/studiengaenge/ba/orgel"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Orgel",
+     "url": "https://www.hfm-wuerzburg.de/studiengaenge/ma/performance/orgel"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  WURZBUR02",
+   "discipline": "chamber-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.hfm-wuerzburg.de/studiengaenge",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Kammermusik",
+     "url": "https://www.hfm-wuerzburg.de/studiengaenge"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  WURZBUR02",
+   "discipline": "church-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-wuerzburg.de/studiengaenge",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kirchenmusik (ev./kath.)",
+     "url": "https://www.hfm-wuerzburg.de/studiengaenge"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kirchenmusik (ev./kath.)",
+     "url": "https://www.hfm-wuerzburg.de/studiengaenge"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  WURZBUR02",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-wuerzburg.de/studiengaenge",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Elementare Musikpädagogik (EMP); Inklusive Musikpädagogik / Community Music; Musik an Grundschulen, Mittelschulen, Realschulen, Gymnasien; Master of Music in Performance and Pedagogy",
+     "url": "https://www.hfm-wuerzburg.de/studiengaenge"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Elementare Musikpädagogik (EMP); Inklusive Musikpädagogik / Community Music; Musik an Grundschulen, Mittelschulen, Realschulen, Gymnasien; Master of Music in Performance and Pedagogy",
+     "url": "https://www.hfm-wuerzburg.de/studiengaenge"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  TROSSIN01",
+   "discipline": "accordion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-trossingen.de/studium/uebersicht-studienangebote",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor / Master Podium und Orchester (Akkordeon, Gitarre, Klavier, Orgel, Streicher, Bläser, Schlagzeug, Gesang)",
+     "url": "https://www.mh-trossingen.de/studium/uebersicht-studienangebote"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelor / Master Podium und Orchester (Akkordeon, Gitarre, Klavier, Orgel, Streicher, Bläser, Schlagzeug, Gesang)",
+     "url": "https://www.mh-trossingen.de/studium/uebersicht-studienangebote"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  TROSSIN01",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-trossingen.de/studium/uebersicht-studienangebote",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor / Master Podium und Orchester (Akkordeon, Gitarre, Klavier, Orgel, Streicher, Bläser, Schlagzeug, Gesang)",
+     "url": "https://www.mh-trossingen.de/studium/uebersicht-studienangebote"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelor / Master Podium und Orchester (Akkordeon, Gitarre, Klavier, Orgel, Streicher, Bläser, Schlagzeug, Gesang)",
+     "url": "https://www.mh-trossingen.de/studium/uebersicht-studienangebote"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  TROSSIN01",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-trossingen.de/studium/uebersicht-studienangebote",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor / Master Podium und Orchester (Akkordeon, Gitarre, Klavier, Orgel, Streicher, Bläser, Schlagzeug, Gesang)",
+     "url": "https://www.mh-trossingen.de/studium/uebersicht-studienangebote"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelor / Master Podium und Orchester (Akkordeon, Gitarre, Klavier, Orgel, Streicher, Bläser, Schlagzeug, Gesang)",
+     "url": "https://www.mh-trossingen.de/studium/uebersicht-studienangebote"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  TROSSIN01",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-trossingen.de/studium/uebersicht-studienangebote",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor / Master Podium und Orchester (Akkordeon, Gitarre, Klavier, Orgel, Streicher, Bläser, Schlagzeug, Gesang)",
+     "url": "https://www.mh-trossingen.de/studium/uebersicht-studienangebote"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelor / Master Podium und Orchester (Akkordeon, Gitarre, Klavier, Orgel, Streicher, Bläser, Schlagzeug, Gesang)",
+     "url": "https://www.mh-trossingen.de/studium/uebersicht-studienangebote"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  TROSSIN01",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-trossingen.de/studium/uebersicht-studienangebote",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor / Master Podium und Orchester (Akkordeon, Gitarre, Klavier, Orgel, Streicher, Bläser, Schlagzeug, Gesang)",
+     "url": "https://www.mh-trossingen.de/studium/uebersicht-studienangebote"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelor / Master Podium und Orchester (Akkordeon, Gitarre, Klavier, Orgel, Streicher, Bläser, Schlagzeug, Gesang)",
+     "url": "https://www.mh-trossingen.de/studium/uebersicht-studienangebote"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  TROSSIN01",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-trossingen.de/studium/uebersicht-studienangebote",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor / Master Podium und Orchester (Akkordeon, Gitarre, Klavier, Orgel, Streicher, Bläser, Schlagzeug, Gesang)",
+     "url": "https://www.mh-trossingen.de/studium/uebersicht-studienangebote"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelor / Master Podium und Orchester (Akkordeon, Gitarre, Klavier, Orgel, Streicher, Bläser, Schlagzeug, Gesang)",
+     "url": "https://www.mh-trossingen.de/studium/uebersicht-studienangebote"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  TROSSIN01",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-trossingen.de/studium/uebersicht-studienangebote",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor / Master Podium und Orchester (Akkordeon, Gitarre, Klavier, Orgel, Streicher, Bläser, Schlagzeug, Gesang)",
+     "url": "https://www.mh-trossingen.de/studium/uebersicht-studienangebote"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelor / Master Podium und Orchester (Akkordeon, Gitarre, Klavier, Orgel, Streicher, Bläser, Schlagzeug, Gesang)",
+     "url": "https://www.mh-trossingen.de/studium/uebersicht-studienangebote"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  TROSSIN01",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-trossingen.de/studium/uebersicht-studienangebote",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor / Master Podium und Orchester (Akkordeon, Gitarre, Klavier, Orgel, Streicher, Bläser, Schlagzeug, Gesang)",
+     "url": "https://www.mh-trossingen.de/studium/uebersicht-studienangebote"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelor / Master Podium und Orchester (Akkordeon, Gitarre, Klavier, Orgel, Streicher, Bläser, Schlagzeug, Gesang)",
+     "url": "https://www.mh-trossingen.de/studium/uebersicht-studienangebote"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  TROSSIN01",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-trossingen.de/studium/uebersicht-studienangebote",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor / Master Podium und Orchester (Akkordeon, Gitarre, Klavier, Orgel, Streicher, Bläser, Schlagzeug, Gesang)",
+     "url": "https://www.mh-trossingen.de/studium/uebersicht-studienangebote"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelor / Master Podium und Orchester (Akkordeon, Gitarre, Klavier, Orgel, Streicher, Bläser, Schlagzeug, Gesang)",
+     "url": "https://www.mh-trossingen.de/studium/uebersicht-studienangebote"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  TROSSIN01",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-trossingen.de/studium/uebersicht-studienangebote",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Alte Musik",
+     "url": "https://www.mh-trossingen.de/studium/uebersicht-studienangebote"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Alte Musik",
+     "url": "https://www.mh-trossingen.de/studium/uebersicht-studienangebote"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  TROSSIN01",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-trossingen.de/studium/uebersicht-studienangebote",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Komposition",
+     "url": "https://www.mh-trossingen.de/studium/uebersicht-studienangebote"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Komposition",
+     "url": "https://www.mh-trossingen.de/studium/uebersicht-studienangebote"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  TROSSIN01",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-trossingen.de/studium/bachelor-musikpaedagogik",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor / Master Musik-Pädagogik; Gymnasiallehramt; Rhythmik mit EMP",
+     "url": "https://www.mh-trossingen.de/studium/bachelor-musikpaedagogik"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelor / Master Musik-Pädagogik; Gymnasiallehramt; Rhythmik mit EMP",
+     "url": "https://www.mh-trossingen.de/studium/bachelor-musikpaedagogik"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  TROSSIN01",
+   "discipline": "music-production",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.mh-trossingen.de/bachelor-musikdesign",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Musikdesign",
+     "url": "https://www.mh-trossingen.de/bachelor-musikdesign"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  TROSSIN01",
+   "discipline": "music-technology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-trossingen.de/bachelor-musikdesign",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Musikdesign",
+     "url": "https://www.mh-trossingen.de/bachelor-musikdesign"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Audio Experience Design",
+     "url": "https://www.mh-trossingen.de/master-audio-experience-design"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  TROSSIN01",
+   "discipline": "chamber-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.mh-trossingen.de/studium/uebersicht-studienangebote",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Master Kammermusik einschl. Lied(-gestaltung)",
+     "url": "https://www.mh-trossingen.de/studium/uebersicht-studienangebote"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MANNHEI02",
+   "discipline": "conducting",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.muho-mannheim.de/studienangebote/bachelor-musik/bachelor-musik-kuenstlerischer-schwerpunkt/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Musik (künstlerischer Schwerpunkt): Dirigieren, Klavier, Harfe, Streicher, Bläser, Schlagzeug, Gesang, Komposition",
+     "url": "https://www.muho-mannheim.de/studienangebote/bachelor-musik/bachelor-musik-kuenstlerischer-schwerpunkt/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MANNHEI02",
+   "discipline": "piano",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.muho-mannheim.de/studienangebote/bachelor-musik/bachelor-musik-kuenstlerischer-schwerpunkt/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Musik (künstlerischer Schwerpunkt): Dirigieren, Klavier, Harfe, Streicher, Bläser, Schlagzeug, Gesang, Komposition",
+     "url": "https://www.muho-mannheim.de/studienangebote/bachelor-musik/bachelor-musik-kuenstlerischer-schwerpunkt/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MANNHEI02",
+   "discipline": "harp",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.muho-mannheim.de/studienangebote/bachelor-musik/bachelor-musik-kuenstlerischer-schwerpunkt/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Musik (künstlerischer Schwerpunkt): Dirigieren, Klavier, Harfe, Streicher, Bläser, Schlagzeug, Gesang, Komposition",
+     "url": "https://www.muho-mannheim.de/studienangebote/bachelor-musik/bachelor-musik-kuenstlerischer-schwerpunkt/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MANNHEI02",
+   "discipline": "strings",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.muho-mannheim.de/studienangebote/bachelor-musik/bachelor-musik-kuenstlerischer-schwerpunkt/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Musik (künstlerischer Schwerpunkt): Dirigieren, Klavier, Harfe, Streicher, Bläser, Schlagzeug, Gesang, Komposition",
+     "url": "https://www.muho-mannheim.de/studienangebote/bachelor-musik/bachelor-musik-kuenstlerischer-schwerpunkt/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MANNHEI02",
+   "discipline": "woodwind",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.muho-mannheim.de/studienangebote/bachelor-musik/bachelor-musik-kuenstlerischer-schwerpunkt/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Musik (künstlerischer Schwerpunkt): Dirigieren, Klavier, Harfe, Streicher, Bläser, Schlagzeug, Gesang, Komposition",
+     "url": "https://www.muho-mannheim.de/studienangebote/bachelor-musik/bachelor-musik-kuenstlerischer-schwerpunkt/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MANNHEI02",
+   "discipline": "brass",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.muho-mannheim.de/studienangebote/bachelor-musik/bachelor-musik-kuenstlerischer-schwerpunkt/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Musik (künstlerischer Schwerpunkt): Dirigieren, Klavier, Harfe, Streicher, Bläser, Schlagzeug, Gesang, Komposition",
+     "url": "https://www.muho-mannheim.de/studienangebote/bachelor-musik/bachelor-musik-kuenstlerischer-schwerpunkt/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MANNHEI02",
+   "discipline": "percussion",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.muho-mannheim.de/studienangebote/bachelor-musik/bachelor-musik-kuenstlerischer-schwerpunkt/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Musik (künstlerischer Schwerpunkt): Dirigieren, Klavier, Harfe, Streicher, Bläser, Schlagzeug, Gesang, Komposition",
+     "url": "https://www.muho-mannheim.de/studienangebote/bachelor-musik/bachelor-musik-kuenstlerischer-schwerpunkt/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MANNHEI02",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.muho-mannheim.de/studienangebote/bachelor-musik/bachelor-musik-kuenstlerischer-schwerpunkt/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Musik (künstlerischer Schwerpunkt): Dirigieren, Klavier, Harfe, Streicher, Bläser, Schlagzeug, Gesang, Komposition",
+     "url": "https://www.muho-mannheim.de/studienangebote/bachelor-musik/bachelor-musik-kuenstlerischer-schwerpunkt/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Opernstudio",
+     "url": "https://www.muho-mannheim.de/studienangebote/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MANNHEI02",
+   "discipline": "composition",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.muho-mannheim.de/studienangebote/bachelor-musik/bachelor-musik-kuenstlerischer-schwerpunkt/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Musik (künstlerischer Schwerpunkt): Dirigieren, Klavier, Harfe, Streicher, Bläser, Schlagzeug, Gesang, Komposition",
+     "url": "https://www.muho-mannheim.de/studienangebote/bachelor-musik/bachelor-musik-kuenstlerischer-schwerpunkt/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MANNHEI02",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.muho-mannheim.de/studienangebote/bachelor-musik/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Musik (künstlerisch-pädagogischer Schwerpunkt); Bachelor Lehramt Musik an Gymnasien",
+     "url": "https://www.muho-mannheim.de/studienangebote/bachelor-musik/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Lehramt Musik an Gymnasien",
+     "url": "https://www.muho-mannheim.de/studienangebote/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MANNHEI02",
+   "discipline": "musicology",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.muho-mannheim.de/studienangebote/bachelor-musik/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Musik (Schwerpunkt Musikforschung / Medienpraxis)",
+     "url": "https://www.muho-mannheim.de/studienangebote/bachelor-musik/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MANNHEI02",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.muho-mannheim.de/studienangebote/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor / Master of Music (Jazz / Popularmusik)",
+     "url": "https://www.muho-mannheim.de/studienangebote/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelor / Master of Music (Jazz / Popularmusik)",
+     "url": "https://www.muho-mannheim.de/studienangebote/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MANNHEI02",
+   "discipline": "popular-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.muho-mannheim.de/studienangebote/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor / Master of Music (Jazz / Popularmusik)",
+     "url": "https://www.muho-mannheim.de/studienangebote/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelor / Master of Music (Jazz / Popularmusik)",
+     "url": "https://www.muho-mannheim.de/studienangebote/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MANNHEI09",
+   "discipline": "popular-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.popakademie.de/de/studium/popmusikdesign-ba/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Popmusikdesign (B.A.)",
+     "url": "https://www.popakademie.de/de/studium/popmusikdesign-ba/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Popular Music (M.A.)",
+     "url": "https://www.popakademie.de/de/studium/popular-music-ma/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MANNHEI09",
+   "discipline": "global-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.popakademie.de/de/studium/globalmusic-ba/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Weltmusik / Global Music (B.A.)",
+     "url": "https://www.popakademie.de/de/studium/globalmusic-ba/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MANNHEI09",
+   "discipline": "arts-management",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.popakademie.de/de/studium/musikbusiness-ba/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikbusiness (B.A.)",
+     "url": "https://www.popakademie.de/de/studium/musikbusiness-ba/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Music and Creative Industries (M.A.)",
+     "url": "https://www.popakademie.de/de/studium/music-and-creative-industries-ma/"
     }
    ],
    "verified": false
