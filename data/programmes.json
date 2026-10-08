@@ -1,6 +1,6 @@
 {
  "meta": {
-  "description": "Study programmes per institution and fine-grained discipline (see disciplines.json). Collected so far: 152 institutions.",
+  "description": "Study programmes per institution and fine-grained discipline (see disciplines.json). Collected so far: 178 institutions.",
   "status": "pilot",
   "collected": "2026-10-08",
   "verified_note": "Every record has verified: false. Programme names and URLs were read from the institutions' own websites (programme lists and programme pages) but have not been checked by a person.",
@@ -145,6 +145,10 @@
    "NL S-GRAVE05",
    "NL S-GRAVE37",
    "NL UTRECHT29",
+   "P  AVEIRO01",
+   "P  LISBOA05",
+   "P  LISBOA12",
+   "P  PORTO05",
    "PL BYDGOSZ04",
    "PL GDANSK04",
    "PL KATOWIC04",
@@ -154,7 +158,21 @@
    "PL WARSZAW09",
    "PL WROCLAW06",
    "RO BUCURES03",
+   "RO CLUJNAP02",
+   "RO IASI01",
+   "RO TARGU01",
+   "RS BELGRAD01",
+   "RS KRAGUJE01",
+   "RS NIS01",
+   "RS NOVISAD02",
+   "S  GOTEBOR01",
+   "S  KARLSTA01",
+   "S  LULEA01",
+   "S  LUND01",
+   "S  OREBRO01",
    "S  STOCKHO11",
+   "S  STOCKHO15",
+   "S  STOCKHO27",
    "SF HELSINK41",
    "SF HELSINK42",
    "SF JYVASKY11",
@@ -162,7 +180,15 @@
    "SF KUOPIO08",
    "SF OULU11",
    "SF TAMPERE06",
-   "SF TURKU05"
+   "SF TURKU05",
+   "SI LJUBLJA01",
+   "SI LJUBLJA33",
+   "SK BRATISL05",
+   "TR ANKARA26",
+   "TR ISTANBU06",
+   "TR ISTANBU18",
+   "TR IZMIR01",
+   "TR IZMIR05"
   ],
   "verification_log": [
    {
@@ -401,11 +427,44 @@
     ],
     "date": "2026-10-08",
     "method": "Field-level collection as in batch 1; where a site lists programmes only via JavaScript, the programme pages were located with a web search restricted to the institution's own domain (raw HTML of each institution's own programme pages, PDFs where the list was only there; names mapped to disciplines.json by keyword and checked by hand)."
+   },
+   {
+    "erasmus_codes": [
+     "P  AVEIRO01",
+     "P  LISBOA05",
+     "P  LISBOA12",
+     "P  PORTO05",
+     "RO CLUJNAP02",
+     "RO IASI01",
+     "RO TARGU01",
+     "RS BELGRAD01",
+     "RS KRAGUJE01",
+     "RS NIS01",
+     "RS NOVISAD02",
+     "S  GOTEBOR01",
+     "S  KARLSTA01",
+     "S  LULEA01",
+     "S  LUND01",
+     "S  OREBRO01",
+     "S  STOCKHO15",
+     "S  STOCKHO27",
+     "SI LJUBLJA01",
+     "SI LJUBLJA33",
+     "SK BRATISL05",
+     "TR ANKARA26",
+     "TR ISTANBU06",
+     "TR ISTANBU18",
+     "TR IZMIR01",
+     "TR IZMIR05"
+    ],
+    "date": "2026-10-08",
+    "method": "Field-level collection as in batch 1; where a site lists programmes only via JavaScript, the programme pages were located with a web search restricted to the institution's own domain (raw HTML of each institution's own programme pages, PDFs where the list was only there; names mapped to disciplines.json by keyword and checked by hand)."
    }
   ],
   "institution_notes": {
    "B  GENT40": "The Orpheus Institute offers only doctoral study (docARTES) and research residencies, not degree programmes in named fields.",
-   "BG SOFIA02": "The Music Department lists the programmes Musical Performance (in Bulgarian and in English) and Musical, but its pages do not name the instruments, fields or degree levels."
+   "BG SOFIA02": "The Music Department lists the programmes Musical Performance (in Bulgarian and in English) and Musical, but its pages do not name the instruments, fields or degree levels.",
+   "SI LJUBLJA33": "The conservatoire's higher vocational school (Višja baletna šola) teaches only ballet; its music programmes are at basic and secondary level, not degree programmes."
   }
  },
  "programmes": [
@@ -42923,6 +42982,5081 @@
      "level": "MA",
      "programme_name": "Reżyseria dźwięku (film i telewizja, reżyseria muzyczna, multimedia)",
      "url": "https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FpokazProgram&prg_kod=RD-RM-SM"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "P  LISBOA05",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.esml.ipl.pt/cursos/licenciaturas/licenciatura-em-musica/59-ensinoformacao",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Licenciatura em Música – Execução: Canto, Cordas Dedilhadas, Instrumentos de Arco, Sopro e Percussão, Órgão, Piano",
+     "url": "https://www.esml.ipl.pt/cursos/licenciaturas/licenciatura-em-musica/59-ensinoformacao"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Mestrado em Música: Canto, Composição, Direção Coral, Direção de Orquestra, Instrumento, Música de Câmara",
+     "url": "https://www.esml.ipl.pt/cursos/mestrados/mestrado-em-musica",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "P  LISBOA05",
+   "discipline": "guitar",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.esml.ipl.pt/cursos/licenciaturas/licenciatura-em-musica/59-ensinoformacao",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Licenciatura em Música – Execução: Canto, Cordas Dedilhadas, Instrumentos de Arco, Sopro e Percussão, Órgão, Piano",
+     "url": "https://www.esml.ipl.pt/cursos/licenciaturas/licenciatura-em-musica/59-ensinoformacao"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "P  LISBOA05",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.esml.ipl.pt/cursos/licenciaturas/licenciatura-em-musica/59-ensinoformacao",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Licenciatura em Música – Execução: Canto, Cordas Dedilhadas, Instrumentos de Arco, Sopro e Percussão, Órgão, Piano",
+     "url": "https://www.esml.ipl.pt/cursos/licenciaturas/licenciatura-em-musica/59-ensinoformacao"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Mestrado em Música: Canto, Composição, Direção Coral, Direção de Orquestra, Instrumento, Música de Câmara",
+     "url": "https://www.esml.ipl.pt/cursos/mestrados/mestrado-em-musica",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "P  LISBOA05",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.esml.ipl.pt/cursos/licenciaturas/licenciatura-em-musica/59-ensinoformacao",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Licenciatura em Música – Execução: Canto, Cordas Dedilhadas, Instrumentos de Arco, Sopro e Percussão, Órgão, Piano",
+     "url": "https://www.esml.ipl.pt/cursos/licenciaturas/licenciatura-em-musica/59-ensinoformacao"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Mestrado em Música: Canto, Composição, Direção Coral, Direção de Orquestra, Instrumento, Música de Câmara",
+     "url": "https://www.esml.ipl.pt/cursos/mestrados/mestrado-em-musica",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "P  LISBOA05",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.esml.ipl.pt/cursos/licenciaturas/licenciatura-em-musica/59-ensinoformacao",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Licenciatura em Música – Execução: Canto, Cordas Dedilhadas, Instrumentos de Arco, Sopro e Percussão, Órgão, Piano",
+     "url": "https://www.esml.ipl.pt/cursos/licenciaturas/licenciatura-em-musica/59-ensinoformacao"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Mestrado em Música: Canto, Composição, Direção Coral, Direção de Orquestra, Instrumento, Música de Câmara",
+     "url": "https://www.esml.ipl.pt/cursos/mestrados/mestrado-em-musica",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "P  LISBOA05",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.esml.ipl.pt/cursos/licenciaturas/licenciatura-em-musica/59-ensinoformacao",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Licenciatura em Música – Execução: Canto, Cordas Dedilhadas, Instrumentos de Arco, Sopro e Percussão, Órgão, Piano",
+     "url": "https://www.esml.ipl.pt/cursos/licenciaturas/licenciatura-em-musica/59-ensinoformacao"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Mestrado em Música: Canto, Composição, Direção Coral, Direção de Orquestra, Instrumento, Música de Câmara",
+     "url": "https://www.esml.ipl.pt/cursos/mestrados/mestrado-em-musica",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "P  LISBOA05",
+   "discipline": "organ",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.esml.ipl.pt/cursos/licenciaturas/licenciatura-em-musica/59-ensinoformacao",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Licenciatura em Música – Execução: Canto, Cordas Dedilhadas, Instrumentos de Arco, Sopro e Percussão, Órgão, Piano",
+     "url": "https://www.esml.ipl.pt/cursos/licenciaturas/licenciatura-em-musica/59-ensinoformacao"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "P  LISBOA05",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.esml.ipl.pt/cursos/licenciaturas/licenciatura-em-musica/59-ensinoformacao",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Licenciatura em Música – Execução: Canto, Cordas Dedilhadas, Instrumentos de Arco, Sopro e Percussão, Órgão, Piano",
+     "url": "https://www.esml.ipl.pt/cursos/licenciaturas/licenciatura-em-musica/59-ensinoformacao"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Mestrado em Música: Canto, Composição, Direção Coral, Direção de Orquestra, Instrumento, Música de Câmara",
+     "url": "https://www.esml.ipl.pt/cursos/mestrados/mestrado-em-musica",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "P  LISBOA05",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.esml.ipl.pt/cursos/mestrados/mestrado-em-musica",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Execução – Música Antiga; Mestrado em Música – Música Antiga",
+     "url": "https://www.esml.ipl.pt/cursos/mestrados/mestrado-em-musica"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Execução – Música Antiga; Mestrado em Música – Música Antiga",
+     "url": "https://www.esml.ipl.pt/cursos/mestrados/mestrado-em-musica"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "P  LISBOA05",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.esml.ipl.pt/cursos/licenciaturas/licenciatura-em-musica/67-ensinoformacao/licenciatura-em-musica/72-composicao",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Licenciatura em Música – Composição, Direção e Formação Musical",
+     "url": "https://www.esml.ipl.pt/cursos/licenciaturas/licenciatura-em-musica/67-ensinoformacao/licenciatura-em-musica/72-composicao"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Mestrado em Música: Canto, Composição, Direção Coral, Direção de Orquestra, Instrumento, Música de Câmara",
+     "url": "https://www.esml.ipl.pt/cursos/mestrados/mestrado-em-musica",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "P  LISBOA05",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.esml.ipl.pt/cursos/licenciaturas/licenciatura-em-musica/67-ensinoformacao/licenciatura-em-musica/72-composicao",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Licenciatura em Música – Composição, Direção e Formação Musical",
+     "url": "https://www.esml.ipl.pt/cursos/licenciaturas/licenciatura-em-musica/67-ensinoformacao/licenciatura-em-musica/72-composicao"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Mestrado em Música: Canto, Composição, Direção Coral, Direção de Orquestra, Instrumento, Música de Câmara",
+     "url": "https://www.esml.ipl.pt/cursos/mestrados/mestrado-em-musica",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "P  LISBOA05",
+   "discipline": "music-theory",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.esml.ipl.pt/cursos/licenciaturas/licenciatura-em-musica/67-ensinoformacao/licenciatura-em-musica/72-composicao",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Licenciatura em Música – Composição, Direção e Formação Musical",
+     "url": "https://www.esml.ipl.pt/cursos/licenciaturas/licenciatura-em-musica/67-ensinoformacao/licenciatura-em-musica/72-composicao"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "P  LISBOA05",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.esml.ipl.pt/index.php/cursos/licenciaturas/licenciatura-em-musica/67-ensinoformacao/licenciatura-em-musica/176-jazz",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Licenciatura em Música – Jazz; Mestrado em Música – Jazz",
+     "url": "https://www.esml.ipl.pt/index.php/cursos/licenciaturas/licenciatura-em-musica/67-ensinoformacao/licenciatura-em-musica/176-jazz"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Licenciatura em Música – Jazz; Mestrado em Música – Jazz",
+     "url": "https://www.esml.ipl.pt/index.php/cursos/licenciaturas/licenciatura-em-musica/67-ensinoformacao/licenciatura-em-musica/176-jazz"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "P  LISBOA05",
+   "discipline": "music-technology",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.esml.ipl.pt/cursos/licenciaturas/licenciatura-em-musica/59-ensinoformacao",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Licenciatura em Tecnologias da Música",
+     "url": "https://www.esml.ipl.pt/cursos/licenciaturas/licenciatura-em-musica/59-ensinoformacao"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "P  LISBOA05",
+   "discipline": "chamber-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.esml.ipl.pt/cursos/mestrados/mestrado-em-musica",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Mestrado em Música: Canto, Composição, Direção Coral, Direção de Orquestra, Instrumento, Música de Câmara",
+     "url": "https://www.esml.ipl.pt/cursos/mestrados/mestrado-em-musica",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "P  LISBOA05",
+   "discipline": "music-education",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.esml.ipl.pt/cursos/mestrados/mestrado-em-ensino-de-musica",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Mestrado em Ensino de Música",
+     "url": "https://www.esml.ipl.pt/cursos/mestrados/mestrado-em-ensino-de-musica"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "P  PORTO05",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.esmae.ipp.pt/cursos/licenciatura",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Licenciatura em Música – Composição; Mestrado em Composição",
+     "url": "https://www.esmae.ipp.pt/cursos/licenciatura"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Licenciatura em Música – Composição; Mestrado em Composição",
+     "url": "https://www.esmae.ipp.pt/cursos/licenciatura"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "P  PORTO05",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.esmae.ipp.pt/cursos/licenciatura/1017",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Licenciatura em Música – Jazz; Mestrado Música – Interpretação Artística (Jazz)",
+     "url": "https://www.esmae.ipp.pt/cursos/licenciatura/1017"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Licenciatura em Música – Jazz; Mestrado Música – Interpretação Artística (Jazz)",
+     "url": "https://www.esmae.ipp.pt/cursos/licenciatura/1017"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "P  PORTO05",
+   "discipline": "music-technology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.esmae.ipp.pt/cursos/licenciatura/1015",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Licenciatura – Produção e Tecnologias da Música; Mestrado em Artes e Tecnologias do Som",
+     "url": "https://www.esmae.ipp.pt/cursos/licenciatura/1015"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Licenciatura – Produção e Tecnologias da Música; Mestrado em Artes e Tecnologias do Som",
+     "url": "https://www.esmae.ipp.pt/cursos/licenciatura/1015"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "P  PORTO05",
+   "discipline": "music-production",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.esmae.ipp.pt/cursos/licenciatura/1015",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Licenciatura – Produção e Tecnologias da Música; Mestrado em Artes e Tecnologias do Som",
+     "url": "https://www.esmae.ipp.pt/cursos/licenciatura/1015"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Licenciatura – Produção e Tecnologias da Música; Mestrado em Artes e Tecnologias do Som",
+     "url": "https://www.esmae.ipp.pt/cursos/licenciatura/1015"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "P  PORTO05",
+   "discipline": "strings",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.esmae.ipp.pt/departamentos/dep-musica",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Mestrado em Música – Interpretação Artística",
+     "url": "https://www.esmae.ipp.pt/departamentos/dep-musica",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "P  PORTO05",
+   "discipline": "woodwind",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.esmae.ipp.pt/departamentos/dep-musica",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Mestrado em Música – Interpretação Artística",
+     "url": "https://www.esmae.ipp.pt/departamentos/dep-musica",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "P  PORTO05",
+   "discipline": "brass",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.esmae.ipp.pt/departamentos/dep-musica",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Mestrado em Música – Interpretação Artística",
+     "url": "https://www.esmae.ipp.pt/departamentos/dep-musica",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "P  PORTO05",
+   "discipline": "percussion",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.esmae.ipp.pt/departamentos/dep-musica",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Mestrado em Música – Interpretação Artística",
+     "url": "https://www.esmae.ipp.pt/departamentos/dep-musica",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "P  PORTO05",
+   "discipline": "piano",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.esmae.ipp.pt/departamentos/dep-musica",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Mestrado em Música – Interpretação Artística",
+     "url": "https://www.esmae.ipp.pt/departamentos/dep-musica",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "P  PORTO05",
+   "discipline": "vocal-opera",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.esmae.ipp.pt/departamentos/dep-musica",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Mestrado em Música – Interpretação Artística",
+     "url": "https://www.esmae.ipp.pt/departamentos/dep-musica",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "P  PORTO05",
+   "discipline": "music-education",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.esmae.ipp.pt/departamentos/dep-musica",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Mestrado em Ensino de Música",
+     "url": "https://www.esmae.ipp.pt/departamentos/dep-musica"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "P  AVEIRO01",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.ua.pt/deca",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Licenciatura em Música; Mestrado em Música (incl. Performance Jazz)",
+     "url": "https://www.ua.pt/deca",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Licenciatura em Música; Mestrado em Música (incl. Performance Jazz)",
+     "url": "https://www.ua.pt/deca",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "P  AVEIRO01",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.ua.pt/deca",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Licenciatura em Música; Mestrado em Música (incl. Performance Jazz)",
+     "url": "https://www.ua.pt/deca",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Licenciatura em Música; Mestrado em Música (incl. Performance Jazz)",
+     "url": "https://www.ua.pt/deca",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "P  AVEIRO01",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.ua.pt/deca",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Licenciatura em Música; Mestrado em Música (incl. Performance Jazz)",
+     "url": "https://www.ua.pt/deca",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Licenciatura em Música; Mestrado em Música (incl. Performance Jazz)",
+     "url": "https://www.ua.pt/deca",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "P  AVEIRO01",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.ua.pt/deca",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Licenciatura em Música; Mestrado em Música (incl. Performance Jazz)",
+     "url": "https://www.ua.pt/deca",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Licenciatura em Música; Mestrado em Música (incl. Performance Jazz)",
+     "url": "https://www.ua.pt/deca",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "P  AVEIRO01",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.ua.pt/deca",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Licenciatura em Música; Mestrado em Música (incl. Performance Jazz)",
+     "url": "https://www.ua.pt/deca",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Licenciatura em Música; Mestrado em Música (incl. Performance Jazz)",
+     "url": "https://www.ua.pt/deca",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "P  AVEIRO01",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.ua.pt/deca",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Licenciatura em Música; Mestrado em Música (incl. Performance Jazz)",
+     "url": "https://www.ua.pt/deca",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Licenciatura em Música; Mestrado em Música (incl. Performance Jazz)",
+     "url": "https://www.ua.pt/deca",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "P  AVEIRO01",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.ua.pt/deca",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Licenciatura em Música; Mestrado em Música (incl. Performance Jazz)",
+     "url": "https://www.ua.pt/deca",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Licenciatura em Música; Mestrado em Música (incl. Performance Jazz)",
+     "url": "https://www.ua.pt/deca",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "P  AVEIRO01",
+   "discipline": "music-education",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.ua.pt/pt/c/184/p",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Mestrado em Ensino de Música",
+     "url": "https://www.ua.pt/pt/c/184/p"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SK BRATISL05",
+   "discipline": "church-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://htf.vsmu.sk/studium/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Cirkevná hudba",
+     "url": "https://htf.vsmu.sk/studium/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Cirkevná hudba",
+     "url": "https://htf.vsmu.sk/studium/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SK BRATISL05",
+   "discipline": "accordion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://htf.vsmu.sk/studium/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Klávesové nástroje (akordeón, klavír, organ)",
+     "url": "https://htf.vsmu.sk/studium/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Klávesové nástroje (akordeón, klavír, organ)",
+     "url": "https://htf.vsmu.sk/studium/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SK BRATISL05",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://htf.vsmu.sk/studium/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Klávesové nástroje (akordeón, klavír, organ)",
+     "url": "https://htf.vsmu.sk/studium/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Klávesové nástroje (akordeón, klavír, organ)",
+     "url": "https://htf.vsmu.sk/studium/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SK BRATISL05",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://htf.vsmu.sk/studium/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Klávesové nástroje (akordeón, klavír, organ)",
+     "url": "https://htf.vsmu.sk/studium/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Klávesové nástroje (akordeón, klavír, organ)",
+     "url": "https://htf.vsmu.sk/studium/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SK BRATISL05",
+   "discipline": "chamber-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://htf.vsmu.sk/studium/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Komorná hra",
+     "url": "https://htf.vsmu.sk/studium/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SK BRATISL05",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://htf.vsmu.sk/studium/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Skladba a dirigovanie (skladba, dirigovanie orchestra, dirigovanie zboru)",
+     "url": "https://htf.vsmu.sk/studium/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Skladba a dirigovanie (skladba, dirigovanie orchestra, dirigovanie zboru)",
+     "url": "https://htf.vsmu.sk/studium/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SK BRATISL05",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://htf.vsmu.sk/studium/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Skladba a dirigovanie (skladba, dirigovanie orchestra, dirigovanie zboru)",
+     "url": "https://htf.vsmu.sk/studium/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Skladba a dirigovanie (skladba, dirigovanie orchestra, dirigovanie zboru)",
+     "url": "https://htf.vsmu.sk/studium/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SK BRATISL05",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://htf.vsmu.sk/studium/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Spev",
+     "url": "https://htf.vsmu.sk/studium/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Spev",
+     "url": "https://htf.vsmu.sk/studium/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SK BRATISL05",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://htf.vsmu.sk/studium/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Strunové a dychové nástroje",
+     "url": "https://htf.vsmu.sk/studium/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Strunové a dychové nástroje",
+     "url": "https://htf.vsmu.sk/studium/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SK BRATISL05",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://htf.vsmu.sk/studium/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Strunové a dychové nástroje",
+     "url": "https://htf.vsmu.sk/studium/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Strunové a dychové nástroje",
+     "url": "https://htf.vsmu.sk/studium/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SK BRATISL05",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://htf.vsmu.sk/studium/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Strunové a dychové nástroje",
+     "url": "https://htf.vsmu.sk/studium/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Strunové a dychové nástroje",
+     "url": "https://htf.vsmu.sk/studium/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SK BRATISL05",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://htf.vsmu.sk/studium/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Strunové a dychové nástroje",
+     "url": "https://htf.vsmu.sk/studium/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Strunové a dychové nástroje",
+     "url": "https://htf.vsmu.sk/studium/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SK BRATISL05",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://htf.vsmu.sk/studium/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Strunové a dychové nástroje",
+     "url": "https://htf.vsmu.sk/studium/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Strunové a dychové nástroje",
+     "url": "https://htf.vsmu.sk/studium/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SK BRATISL05",
+   "discipline": "music-theory",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://htf.vsmu.sk/studium/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Teória a dramaturgia hudby (teória hudby, dramaturgia a manažment hudby)",
+     "url": "https://htf.vsmu.sk/studium/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Teória a dramaturgia hudby (teória hudby, dramaturgia a manažment hudby)",
+     "url": "https://htf.vsmu.sk/studium/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SK BRATISL05",
+   "discipline": "arts-management",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://htf.vsmu.sk/studium/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Teória a dramaturgia hudby (teória hudby, dramaturgia a manažment hudby)",
+     "url": "https://htf.vsmu.sk/studium/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Teória a dramaturgia hudby (teória hudby, dramaturgia a manažment hudby)",
+     "url": "https://htf.vsmu.sk/studium/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SI LJUBLJA01",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.ag.uni-lj.si/studij/predstavitev-studija",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Glasbena umetnost (26 smeri, I. in II. stopnja)",
+     "url": "https://www.ag.uni-lj.si/studij/predstavitev-studija"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Glasbena umetnost (26 smeri, I. in II. stopnja)",
+     "url": "https://www.ag.uni-lj.si/studij/predstavitev-studija"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SI LJUBLJA01",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.ag.uni-lj.si/studij/predstavitev-studija",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Glasbena umetnost (26 smeri, I. in II. stopnja)",
+     "url": "https://www.ag.uni-lj.si/studij/predstavitev-studija"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Glasbena umetnost (26 smeri, I. in II. stopnja)",
+     "url": "https://www.ag.uni-lj.si/studij/predstavitev-studija"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SI LJUBLJA01",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.ag.uni-lj.si/studij/predstavitev-studija",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Glasbena umetnost (26 smeri, I. in II. stopnja)",
+     "url": "https://www.ag.uni-lj.si/studij/predstavitev-studija"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Glasbena umetnost (26 smeri, I. in II. stopnja)",
+     "url": "https://www.ag.uni-lj.si/studij/predstavitev-studija"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SI LJUBLJA01",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.ag.uni-lj.si/studij/predstavitev-studija",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Glasbena umetnost (26 smeri, I. in II. stopnja)",
+     "url": "https://www.ag.uni-lj.si/studij/predstavitev-studija"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Glasbena umetnost (26 smeri, I. in II. stopnja)",
+     "url": "https://www.ag.uni-lj.si/studij/predstavitev-studija"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SI LJUBLJA01",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.ag.uni-lj.si/studij/predstavitev-studija",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Glasbena umetnost (26 smeri, I. in II. stopnja)",
+     "url": "https://www.ag.uni-lj.si/studij/predstavitev-studija"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Glasbena umetnost (26 smeri, I. in II. stopnja)",
+     "url": "https://www.ag.uni-lj.si/studij/predstavitev-studija"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SI LJUBLJA01",
+   "discipline": "accordion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.ag.uni-lj.si/studij/predstavitev-studija",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Glasbena umetnost (26 smeri, I. in II. stopnja)",
+     "url": "https://www.ag.uni-lj.si/studij/predstavitev-studija"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Glasbena umetnost (26 smeri, I. in II. stopnja)",
+     "url": "https://www.ag.uni-lj.si/studij/predstavitev-studija"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SI LJUBLJA01",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.ag.uni-lj.si/studij/predstavitev-studija",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Glasbena umetnost (26 smeri, I. in II. stopnja)",
+     "url": "https://www.ag.uni-lj.si/studij/predstavitev-studija"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Glasbena umetnost (26 smeri, I. in II. stopnja)",
+     "url": "https://www.ag.uni-lj.si/studij/predstavitev-studija"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SI LJUBLJA01",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.ag.uni-lj.si/studij/predstavitev-studija",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Glasbena umetnost (26 smeri, I. in II. stopnja)",
+     "url": "https://www.ag.uni-lj.si/studij/predstavitev-studija"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Glasbena umetnost (26 smeri, I. in II. stopnja)",
+     "url": "https://www.ag.uni-lj.si/studij/predstavitev-studija"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SI LJUBLJA01",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.ag.uni-lj.si/studij/predstavitev-studija",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Glasbena umetnost (26 smeri, I. in II. stopnja)",
+     "url": "https://www.ag.uni-lj.si/studij/predstavitev-studija"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Glasbena umetnost (26 smeri, I. in II. stopnja)",
+     "url": "https://www.ag.uni-lj.si/studij/predstavitev-studija"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SI LJUBLJA01",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.ag.uni-lj.si/studij/predstavitev-studija",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Glasbena umetnost (26 smeri, I. in II. stopnja)",
+     "url": "https://www.ag.uni-lj.si/studij/predstavitev-studija"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Glasbena umetnost (26 smeri, I. in II. stopnja)",
+     "url": "https://www.ag.uni-lj.si/studij/predstavitev-studija"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SI LJUBLJA01",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.ag.uni-lj.si/studij/predstavitev-studija",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Glasbena umetnost (26 smeri, I. in II. stopnja)",
+     "url": "https://www.ag.uni-lj.si/studij/predstavitev-studija"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Glasbena umetnost (26 smeri, I. in II. stopnja)",
+     "url": "https://www.ag.uni-lj.si/studij/predstavitev-studija"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SI LJUBLJA01",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.ag.uni-lj.si/studij/predstavitev-studija",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Glasbena umetnost (26 smeri, I. in II. stopnja)",
+     "url": "https://www.ag.uni-lj.si/studij/predstavitev-studija"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Glasbena umetnost (26 smeri, I. in II. stopnja)",
+     "url": "https://www.ag.uni-lj.si/studij/predstavitev-studija"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SI LJUBLJA01",
+   "discipline": "church-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.ag.uni-lj.si/studij/predstavitev-studija",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Glasbena umetnost (26 smeri, I. in II. stopnja)",
+     "url": "https://www.ag.uni-lj.si/studij/predstavitev-studija"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Glasbena umetnost (26 smeri, I. in II. stopnja)",
+     "url": "https://www.ag.uni-lj.si/studij/predstavitev-studija"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SI LJUBLJA01",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.ag.uni-lj.si/studij/oddelki-in-katedre-1",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Glasbena umetnost – čembalo, kljunasta flavta",
+     "url": "https://www.ag.uni-lj.si/studij/oddelki-in-katedre-1"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Glasbena umetnost – čembalo, kljunasta flavta",
+     "url": "https://www.ag.uni-lj.si/studij/oddelki-in-katedre-1"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "SI LJUBLJA01",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.ag.uni-lj.si/studij/podiplomski-studij-ii-stopnje",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Glasbena pedagogika; Instrumentalna in pevska pedagogika (II. stopnja)",
+     "url": "https://www.ag.uni-lj.si/studij/podiplomski-studij-ii-stopnje"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Glasbena pedagogika; Instrumentalna in pevska pedagogika (II. stopnja)",
+     "url": "https://www.ag.uni-lj.si/studij/podiplomski-studij-ii-stopnje"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RO CLUJNAP02",
+   "discipline": "vocal-opera",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://anmgd.ro/oferta-educationala/master/facultatea-de-interpretare-muzicala/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Masterat Interpretare muzicală: Canto, Instrumente cu coarde, Instrumente de suflat și percuție",
+     "url": "https://anmgd.ro/oferta-educationala/master/facultatea-de-interpretare-muzicala/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RO CLUJNAP02",
+   "discipline": "strings",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://anmgd.ro/oferta-educationala/master/facultatea-de-interpretare-muzicala/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Masterat Interpretare muzicală: Canto, Instrumente cu coarde, Instrumente de suflat și percuție",
+     "url": "https://anmgd.ro/oferta-educationala/master/facultatea-de-interpretare-muzicala/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RO CLUJNAP02",
+   "discipline": "woodwind",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://anmgd.ro/oferta-educationala/master/facultatea-de-interpretare-muzicala/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Masterat Interpretare muzicală: Canto, Instrumente cu coarde, Instrumente de suflat și percuție",
+     "url": "https://anmgd.ro/oferta-educationala/master/facultatea-de-interpretare-muzicala/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RO CLUJNAP02",
+   "discipline": "brass",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://anmgd.ro/oferta-educationala/master/facultatea-de-interpretare-muzicala/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Masterat Interpretare muzicală: Canto, Instrumente cu coarde, Instrumente de suflat și percuție",
+     "url": "https://anmgd.ro/oferta-educationala/master/facultatea-de-interpretare-muzicala/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RO CLUJNAP02",
+   "discipline": "percussion",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://anmgd.ro/oferta-educationala/master/facultatea-de-interpretare-muzicala/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Masterat Interpretare muzicală: Canto, Instrumente cu coarde, Instrumente de suflat și percuție",
+     "url": "https://anmgd.ro/oferta-educationala/master/facultatea-de-interpretare-muzicala/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RO CLUJNAP02",
+   "discipline": "music-education",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://anmgd.ro/oferta-educationala/master/facultatea-teoretica/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Pedagogie muzicală / Artă muzicală; Compoziţie, Muzicologie, Dirijat",
+     "url": "https://anmgd.ro/oferta-educationala/master/facultatea-teoretica/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RO CLUJNAP02",
+   "discipline": "composition",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://anmgd.ro/oferta-educationala/master/facultatea-teoretica/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Pedagogie muzicală / Artă muzicală; Compoziţie, Muzicologie, Dirijat",
+     "url": "https://anmgd.ro/oferta-educationala/master/facultatea-teoretica/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RO CLUJNAP02",
+   "discipline": "musicology",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://anmgd.ro/oferta-educationala/master/facultatea-teoretica/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Pedagogie muzicală / Artă muzicală; Compoziţie, Muzicologie, Dirijat",
+     "url": "https://anmgd.ro/oferta-educationala/master/facultatea-teoretica/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RO CLUJNAP02",
+   "discipline": "conducting",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://anmgd.ro/oferta-educationala/master/facultatea-teoretica/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Pedagogie muzicală / Artă muzicală; Compoziţie, Muzicologie, Dirijat",
+     "url": "https://anmgd.ro/oferta-educationala/master/facultatea-teoretica/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RO IASI01",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/interpretare-muzicala-instrumente/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretare muzicală – Instrumente",
+     "url": "https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/interpretare-muzicala-instrumente/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Interpretare muzicală – Instrumente",
+     "url": "https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/interpretare-muzicala-instrumente/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RO IASI01",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/interpretare-muzicala-instrumente/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretare muzicală – Instrumente",
+     "url": "https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/interpretare-muzicala-instrumente/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Interpretare muzicală – Instrumente",
+     "url": "https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/interpretare-muzicala-instrumente/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RO IASI01",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/interpretare-muzicala-instrumente/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretare muzicală – Instrumente",
+     "url": "https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/interpretare-muzicala-instrumente/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Interpretare muzicală – Instrumente",
+     "url": "https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/interpretare-muzicala-instrumente/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RO IASI01",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/interpretare-muzicala-instrumente/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretare muzicală – Instrumente",
+     "url": "https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/interpretare-muzicala-instrumente/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Interpretare muzicală – Instrumente",
+     "url": "https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/interpretare-muzicala-instrumente/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RO IASI01",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/interpretare-muzicala-instrumente/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretare muzicală – Instrumente",
+     "url": "https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/interpretare-muzicala-instrumente/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Interpretare muzicală – Instrumente",
+     "url": "https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/interpretare-muzicala-instrumente/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RO IASI01",
+   "discipline": "accordion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/interpretare-muzicala-instrumente/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretare muzicală – Instrumente",
+     "url": "https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/interpretare-muzicala-instrumente/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Interpretare muzicală – Instrumente",
+     "url": "https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/interpretare-muzicala-instrumente/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RO IASI01",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/interpretare-muzicala-canto/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretare muzicală – Canto",
+     "url": "https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/interpretare-muzicala-canto/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Interpretare muzicală – Canto",
+     "url": "https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/interpretare-muzicala-canto/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RO IASI01",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/compozitie-muzicala-compozitie-clasica-compozitie-muzica-usoara-jazz/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Compoziție muzicală (clasică)",
+     "url": "https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/compozitie-muzicala-compozitie-clasica-compozitie-muzica-usoara-jazz/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Compoziție muzicală (clasică)",
+     "url": "https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/compozitie-muzicala-compozitie-clasica-compozitie-muzica-usoara-jazz/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RO IASI01",
+   "discipline": "jazz",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/compozitie-muzicala-compozitie-clasica-compozitie-muzica-usoara-jazz/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Compoziție muzicală – muzică ușoară și jazz",
+     "url": "https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/compozitie-muzicala-compozitie-clasica-compozitie-muzica-usoara-jazz/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RO IASI01",
+   "discipline": "popular-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/compozitie-muzicala-compozitie-clasica-compozitie-muzica-usoara-jazz/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Compoziție muzicală – muzică ușoară și jazz",
+     "url": "https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/compozitie-muzicala-compozitie-clasica-compozitie-muzica-usoara-jazz/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RO IASI01",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-masterat/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Dirijat; Muzicologie; Muzică religioasă",
+     "url": "https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-masterat/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Dirijat; Muzicologie; Muzică religioasă",
+     "url": "https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-masterat/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RO IASI01",
+   "discipline": "musicology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-masterat/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Dirijat; Muzicologie; Muzică religioasă",
+     "url": "https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-masterat/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Dirijat; Muzicologie; Muzică religioasă",
+     "url": "https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-masterat/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RO IASI01",
+   "discipline": "church-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-masterat/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Dirijat; Muzicologie; Muzică religioasă",
+     "url": "https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-masterat/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Dirijat; Muzicologie; Muzică religioasă",
+     "url": "https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-masterat/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RO IASI01",
+   "discipline": "music-education",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Muzică; Pedagogie muzicală",
+     "url": "https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RO TARGU01",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.uat.ro/facultati-si-programe-de-studiu",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Muzică (licență); Educație muzicală contemporană (master)",
+     "url": "https://www.uat.ro/facultati-si-programe-de-studiu"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Muzică (licență); Educație muzicală contemporană (master)",
+     "url": "https://www.uat.ro/facultati-si-programe-de-studiu"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RO TARGU01",
+   "discipline": "composition",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.uat.ro/facultati-si-programe-de-studiu",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Concepții muzicale contemporane",
+     "url": "https://www.uat.ro/facultati-si-programe-de-studiu"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS BELGRAD01",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.fmu.bg.ac.rs/studies/study-programs/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Departments: Piano, String Instruments, Wind Instruments, Vocal Studies, Composition, Conducting, Music Theory, Musicology, Chamber Music",
+     "url": "https://www.fmu.bg.ac.rs/studies/study-programs/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Departments: Piano, String Instruments, Wind Instruments, Vocal Studies, Composition, Conducting, Music Theory, Musicology, Chamber Music",
+     "url": "https://www.fmu.bg.ac.rs/studies/study-programs/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS BELGRAD01",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.fmu.bg.ac.rs/studies/study-programs/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Departments: Piano, String Instruments, Wind Instruments, Vocal Studies, Composition, Conducting, Music Theory, Musicology, Chamber Music",
+     "url": "https://www.fmu.bg.ac.rs/studies/study-programs/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Departments: Piano, String Instruments, Wind Instruments, Vocal Studies, Composition, Conducting, Music Theory, Musicology, Chamber Music",
+     "url": "https://www.fmu.bg.ac.rs/studies/study-programs/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS BELGRAD01",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.fmu.bg.ac.rs/studies/study-programs/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Departments: Piano, String Instruments, Wind Instruments, Vocal Studies, Composition, Conducting, Music Theory, Musicology, Chamber Music",
+     "url": "https://www.fmu.bg.ac.rs/studies/study-programs/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Departments: Piano, String Instruments, Wind Instruments, Vocal Studies, Composition, Conducting, Music Theory, Musicology, Chamber Music",
+     "url": "https://www.fmu.bg.ac.rs/studies/study-programs/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS BELGRAD01",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.fmu.bg.ac.rs/studies/study-programs/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Departments: Piano, String Instruments, Wind Instruments, Vocal Studies, Composition, Conducting, Music Theory, Musicology, Chamber Music",
+     "url": "https://www.fmu.bg.ac.rs/studies/study-programs/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Departments: Piano, String Instruments, Wind Instruments, Vocal Studies, Composition, Conducting, Music Theory, Musicology, Chamber Music",
+     "url": "https://www.fmu.bg.ac.rs/studies/study-programs/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS BELGRAD01",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.fmu.bg.ac.rs/studies/study-programs/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Departments: Piano, String Instruments, Wind Instruments, Vocal Studies, Composition, Conducting, Music Theory, Musicology, Chamber Music",
+     "url": "https://www.fmu.bg.ac.rs/studies/study-programs/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Departments: Piano, String Instruments, Wind Instruments, Vocal Studies, Composition, Conducting, Music Theory, Musicology, Chamber Music",
+     "url": "https://www.fmu.bg.ac.rs/studies/study-programs/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS BELGRAD01",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.fmu.bg.ac.rs/studies/study-programs/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Departments: Piano, String Instruments, Wind Instruments, Vocal Studies, Composition, Conducting, Music Theory, Musicology, Chamber Music",
+     "url": "https://www.fmu.bg.ac.rs/studies/study-programs/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Departments: Piano, String Instruments, Wind Instruments, Vocal Studies, Composition, Conducting, Music Theory, Musicology, Chamber Music",
+     "url": "https://www.fmu.bg.ac.rs/studies/study-programs/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS BELGRAD01",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.fmu.bg.ac.rs/studies/study-programs/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Departments: Piano, String Instruments, Wind Instruments, Vocal Studies, Composition, Conducting, Music Theory, Musicology, Chamber Music",
+     "url": "https://www.fmu.bg.ac.rs/studies/study-programs/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Departments: Piano, String Instruments, Wind Instruments, Vocal Studies, Composition, Conducting, Music Theory, Musicology, Chamber Music",
+     "url": "https://www.fmu.bg.ac.rs/studies/study-programs/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS BELGRAD01",
+   "discipline": "music-theory",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.fmu.bg.ac.rs/studies/study-programs/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Departments: Piano, String Instruments, Wind Instruments, Vocal Studies, Composition, Conducting, Music Theory, Musicology, Chamber Music",
+     "url": "https://www.fmu.bg.ac.rs/studies/study-programs/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Departments: Piano, String Instruments, Wind Instruments, Vocal Studies, Composition, Conducting, Music Theory, Musicology, Chamber Music",
+     "url": "https://www.fmu.bg.ac.rs/studies/study-programs/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS BELGRAD01",
+   "discipline": "musicology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.fmu.bg.ac.rs/studies/study-programs/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Departments: Piano, String Instruments, Wind Instruments, Vocal Studies, Composition, Conducting, Music Theory, Musicology, Chamber Music",
+     "url": "https://www.fmu.bg.ac.rs/studies/study-programs/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Departments: Piano, String Instruments, Wind Instruments, Vocal Studies, Composition, Conducting, Music Theory, Musicology, Chamber Music",
+     "url": "https://www.fmu.bg.ac.rs/studies/study-programs/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS BELGRAD01",
+   "discipline": "chamber-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.fmu.bg.ac.rs/studies/study-programs/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Departments: Piano, String Instruments, Wind Instruments, Vocal Studies, Composition, Conducting, Music Theory, Musicology, Chamber Music",
+     "url": "https://www.fmu.bg.ac.rs/studies/study-programs/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Departments: Piano, String Instruments, Wind Instruments, Vocal Studies, Composition, Conducting, Music Theory, Musicology, Chamber Music",
+     "url": "https://www.fmu.bg.ac.rs/studies/study-programs/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS BELGRAD01",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.fmu.bg.ac.rs/studies/study-programs/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Department of Jazz and Popular Music",
+     "url": "https://www.fmu.bg.ac.rs/studies/study-programs/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Department of Jazz and Popular Music",
+     "url": "https://www.fmu.bg.ac.rs/studies/study-programs/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS BELGRAD01",
+   "discipline": "popular-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.fmu.bg.ac.rs/studies/study-programs/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Department of Jazz and Popular Music",
+     "url": "https://www.fmu.bg.ac.rs/studies/study-programs/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Department of Jazz and Popular Music",
+     "url": "https://www.fmu.bg.ac.rs/studies/study-programs/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS BELGRAD01",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.fmu.bg.ac.rs/studies/study-programs/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Solfeggio and Music Pedagogy Department",
+     "url": "https://www.fmu.bg.ac.rs/studies/study-programs/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Solfeggio and Music Pedagogy Department",
+     "url": "https://www.fmu.bg.ac.rs/studies/study-programs/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS BELGRAD01",
+   "discipline": "folk",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.fmu.bg.ac.rs/about-us/structure/departments/department-of-ethnomusicology/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Department of Ethnomusicology",
+     "url": "https://www.fmu.bg.ac.rs/about-us/structure/departments/department-of-ethnomusicology/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Department of Ethnomusicology",
+     "url": "https://www.fmu.bg.ac.rs/about-us/structure/departments/department-of-ethnomusicology/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS NOVISAD02",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Izvođačke umetnosti: klavir, gudački, duvački, gitara, harfa, orgulje, udaraljke, solo pevanje",
+     "url": "https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Izvođačke umetnosti: klavir, gudački, duvački, gitara, harfa, orgulje, udaraljke, solo pevanje",
+     "url": "https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS NOVISAD02",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Izvođačke umetnosti: klavir, gudački, duvački, gitara, harfa, orgulje, udaraljke, solo pevanje",
+     "url": "https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Izvođačke umetnosti: klavir, gudački, duvački, gitara, harfa, orgulje, udaraljke, solo pevanje",
+     "url": "https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS NOVISAD02",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Izvođačke umetnosti: klavir, gudački, duvački, gitara, harfa, orgulje, udaraljke, solo pevanje",
+     "url": "https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Izvođačke umetnosti: klavir, gudački, duvački, gitara, harfa, orgulje, udaraljke, solo pevanje",
+     "url": "https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS NOVISAD02",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Izvođačke umetnosti: klavir, gudački, duvački, gitara, harfa, orgulje, udaraljke, solo pevanje",
+     "url": "https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Izvođačke umetnosti: klavir, gudački, duvački, gitara, harfa, orgulje, udaraljke, solo pevanje",
+     "url": "https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS NOVISAD02",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Izvođačke umetnosti: klavir, gudački, duvački, gitara, harfa, orgulje, udaraljke, solo pevanje",
+     "url": "https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Izvođačke umetnosti: klavir, gudački, duvački, gitara, harfa, orgulje, udaraljke, solo pevanje",
+     "url": "https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS NOVISAD02",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Izvođačke umetnosti: klavir, gudački, duvački, gitara, harfa, orgulje, udaraljke, solo pevanje",
+     "url": "https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Izvođačke umetnosti: klavir, gudački, duvački, gitara, harfa, orgulje, udaraljke, solo pevanje",
+     "url": "https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS NOVISAD02",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Izvođačke umetnosti: klavir, gudački, duvački, gitara, harfa, orgulje, udaraljke, solo pevanje",
+     "url": "https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Izvođačke umetnosti: klavir, gudački, duvački, gitara, harfa, orgulje, udaraljke, solo pevanje",
+     "url": "https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS NOVISAD02",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Izvođačke umetnosti: klavir, gudački, duvački, gitara, harfa, orgulje, udaraljke, solo pevanje",
+     "url": "https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Izvođačke umetnosti: klavir, gudački, duvački, gitara, harfa, orgulje, udaraljke, solo pevanje",
+     "url": "https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS NOVISAD02",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Izvođačke umetnosti: klavir, gudački, duvački, gitara, harfa, orgulje, udaraljke, solo pevanje",
+     "url": "https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Izvođačke umetnosti: klavir, gudački, duvački, gitara, harfa, orgulje, udaraljke, solo pevanje",
+     "url": "https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS NOVISAD02",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://akademija.uns.ac.rs/studijski-programi/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kompozicija; Muzička pedagogija; Muzikologija i etnomuzikologija",
+     "url": "https://akademija.uns.ac.rs/studijski-programi/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kompozicija; Muzička pedagogija; Muzikologija i etnomuzikologija",
+     "url": "https://akademija.uns.ac.rs/studijski-programi/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS NOVISAD02",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://akademija.uns.ac.rs/studijski-programi/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kompozicija; Muzička pedagogija; Muzikologija i etnomuzikologija",
+     "url": "https://akademija.uns.ac.rs/studijski-programi/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kompozicija; Muzička pedagogija; Muzikologija i etnomuzikologija",
+     "url": "https://akademija.uns.ac.rs/studijski-programi/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS NOVISAD02",
+   "discipline": "musicology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://akademija.uns.ac.rs/studijski-programi/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kompozicija; Muzička pedagogija; Muzikologija i etnomuzikologija",
+     "url": "https://akademija.uns.ac.rs/studijski-programi/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kompozicija; Muzička pedagogija; Muzikologija i etnomuzikologija",
+     "url": "https://akademija.uns.ac.rs/studijski-programi/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS NOVISAD02",
+   "discipline": "music-technology",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://akademija.uns.ac.rs/master-studije-muzika-i-mediji/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Muzika i mediji (master)",
+     "url": "https://akademija.uns.ac.rs/master-studije-muzika-i-mediji/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  GOTEBOR01",
+   "discipline": "church-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.gu.se/studera/hitta-utbildning/konstnarligt-kandidatprogram-i-musik-inriktning-kyrkomusik-k1kyr",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Konstnärligt kandidatprogram i musik, inriktning Kyrkomusik",
+     "url": "https://www.gu.se/studera/hitta-utbildning/konstnarligt-kandidatprogram-i-musik-inriktning-kyrkomusik-k1kyr"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  GOTEBOR01",
+   "discipline": "organ",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.gu.se/studera/hitta-utbildning/konstnarligt-kandidatprogram-i-musik-inriktning-kyrkomusik-k1kyr",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Konstnärligt kandidatprogram i musik, inriktning Kyrkomusik",
+     "url": "https://www.gu.se/studera/hitta-utbildning/konstnarligt-kandidatprogram-i-musik-inriktning-kyrkomusik-k1kyr"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  GOTEBOR01",
+   "discipline": "music-production",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.gu.se/studera/hitta-utbildning/konstnarligt-kandidatprogram-i-musik-inriktning-musik-och-ljudproduktion-k1mlp",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Konstnärligt kandidatprogram i musik, inriktning Musik- och ljudproduktion",
+     "url": "https://www.gu.se/studera/hitta-utbildning/konstnarligt-kandidatprogram-i-musik-inriktning-musik-och-ljudproduktion-k1mlp"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  GOTEBOR01",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.gu.se/studera/hitta-utbildning/konstnarligt-kandidatprogram-i-musik-inriktning-musik-och-ljudproduktion-k1mlp",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Konstnärligt kandidatprogram i musik, inriktning Musik- och ljudproduktion",
+     "url": "https://www.gu.se/studera/hitta-utbildning/konstnarligt-kandidatprogram-i-musik-inriktning-musik-och-ljudproduktion-k1mlp"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kandidatprogram, inriktning Komposition; Masterprogram Experimental Composition and Creation",
+     "url": "https://www.gu.se/studera/hitta-utbildning/konstnarligt-kandidatprogram-i-musik-inriktning-komposition-k1kmp"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  GOTEBOR01",
+   "discipline": "jazz",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.gu.se/en/study-gothenburg/improvisation-or-world-music-k2miv",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Masterprogram i musik: Improvisation or World Music",
+     "url": "https://www.gu.se/en/study-gothenburg/improvisation-or-world-music-k2miv"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  GOTEBOR01",
+   "discipline": "global-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.gu.se/en/study-gothenburg/improvisation-or-world-music-k2miv",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Masterprogram i musik: Improvisation or World Music",
+     "url": "https://www.gu.se/en/study-gothenburg/improvisation-or-world-music-k2miv"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  LUND01",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mhm.lu.se/utbildning/musikerutbildningar/symfoniorkesterinstrument-0",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikerutbildning – Symfoniorkesterinstrument (kandidat, master)",
+     "url": "https://www.mhm.lu.se/utbildning/musikerutbildningar/symfoniorkesterinstrument-0"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musikerutbildning – Symfoniorkesterinstrument (kandidat, master)",
+     "url": "https://www.mhm.lu.se/utbildning/musikerutbildningar/symfoniorkesterinstrument-0"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  LUND01",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mhm.lu.se/utbildning/musikerutbildningar/symfoniorkesterinstrument-0",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikerutbildning – Symfoniorkesterinstrument (kandidat, master)",
+     "url": "https://www.mhm.lu.se/utbildning/musikerutbildningar/symfoniorkesterinstrument-0"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musikerutbildning – Symfoniorkesterinstrument (kandidat, master)",
+     "url": "https://www.mhm.lu.se/utbildning/musikerutbildningar/symfoniorkesterinstrument-0"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  LUND01",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mhm.lu.se/utbildning/musikerutbildningar/symfoniorkesterinstrument-0",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikerutbildning – Symfoniorkesterinstrument (kandidat, master)",
+     "url": "https://www.mhm.lu.se/utbildning/musikerutbildningar/symfoniorkesterinstrument-0"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musikerutbildning – Symfoniorkesterinstrument (kandidat, master)",
+     "url": "https://www.mhm.lu.se/utbildning/musikerutbildningar/symfoniorkesterinstrument-0"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  LUND01",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mhm.lu.se/utbildning/musikerutbildningar/symfoniorkesterinstrument-0",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikerutbildning – Symfoniorkesterinstrument (kandidat, master)",
+     "url": "https://www.mhm.lu.se/utbildning/musikerutbildningar/symfoniorkesterinstrument-0"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musikerutbildning – Symfoniorkesterinstrument (kandidat, master)",
+     "url": "https://www.mhm.lu.se/utbildning/musikerutbildningar/symfoniorkesterinstrument-0"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  LUND01",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mhm.lu.se/utbildning/musikerutbildningar/symfoniorkesterinstrument-0",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikerutbildning – Symfoniorkesterinstrument (kandidat, master)",
+     "url": "https://www.mhm.lu.se/utbildning/musikerutbildningar/symfoniorkesterinstrument-0"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musikerutbildning – Symfoniorkesterinstrument (kandidat, master)",
+     "url": "https://www.mhm.lu.se/utbildning/musikerutbildningar/symfoniorkesterinstrument-0"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  LUND01",
+   "discipline": "vocal-opera",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.mhm.lu.se/utbildning/antagning/antagning-musiker-och-kyrkomusikerutbildningar/antagning-till-konstnarligt-masterprogram-i-musik/antagning-till-sang-master",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Konstnärligt masterprogram i musik – Sång",
+     "url": "https://www.mhm.lu.se/utbildning/antagning/antagning-musiker-och-kyrkomusikerutbildningar/antagning-till-konstnarligt-masterprogram-i-musik/antagning-till-sang-master"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  LUND01",
+   "discipline": "folk",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.mhm.lu.se/utbildning/musikerutbildningar/folk-och-varldsmusik",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Konstnärligt kandidatprogram i musik – Folk- och världsmusik",
+     "url": "https://www.mhm.lu.se/utbildning/musikerutbildningar/folk-och-varldsmusik"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  LUND01",
+   "discipline": "global-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.mhm.lu.se/utbildning/musikerutbildningar/folk-och-varldsmusik",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Konstnärligt kandidatprogram i musik – Folk- och världsmusik",
+     "url": "https://www.mhm.lu.se/utbildning/musikerutbildningar/folk-och-varldsmusik"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  LUND01",
+   "discipline": "church-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.lu.se/lubas/i-uoh-lu-KAKYM-ARKO/18750",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Konstnärligt masterprogram i kyrkomusik, Arrangering och komposition",
+     "url": "https://www.lu.se/lubas/i-uoh-lu-KAKYM-ARKO/18750"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  LUND01",
+   "discipline": "composition",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.lu.se/lubas/i-uoh-lu-KAKYM-ARKO/18750",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Konstnärligt masterprogram i kyrkomusik, Arrangering och komposition",
+     "url": "https://www.lu.se/lubas/i-uoh-lu-KAKYM-ARKO/18750"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  LUND01",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mhm.lu.se/utbildning/program-och-kurser/amneslararutbildning-i-musik-for-gymnasieskolan-gy/folk-och-0",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Ämneslärarutbildning i musik för gymnasieskolan (incl. jazz)",
+     "url": "https://www.mhm.lu.se/utbildning/program-och-kurser/amneslararutbildning-i-musik-for-gymnasieskolan-gy/folk-och-0"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Ämneslärarutbildning i musik för gymnasieskolan (incl. jazz)",
+     "url": "https://www.mhm.lu.se/utbildning/program-och-kurser/amneslararutbildning-i-musik-for-gymnasieskolan-gy/folk-och-0"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  LUND01",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mhm.lu.se/utbildning/program-och-kurser/amneslararutbildning-i-musik-for-gymnasieskolan-gy/folk-och-0",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Ämneslärarutbildning i musik för gymnasieskolan (incl. jazz)",
+     "url": "https://www.mhm.lu.se/utbildning/program-och-kurser/amneslararutbildning-i-musik-for-gymnasieskolan-gy/folk-och-0"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Ämneslärarutbildning i musik för gymnasieskolan (incl. jazz)",
+     "url": "https://www.mhm.lu.se/utbildning/program-och-kurser/amneslararutbildning-i-musik-for-gymnasieskolan-gy/folk-och-0"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  KARLSTA01",
+   "discipline": "strings",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.kau.se/musikhogskolan-ingesund/utbildning/program/konstnarlig-kandidat-musiker-180-hp/om-konstnarlig",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Konstnärlig kandidat musiker (violin, viola, cello, kontrabas, piano, sång, gitarr, flöjt, klarinett)",
+     "url": "https://www.kau.se/musikhogskolan-ingesund/utbildning/program/konstnarlig-kandidat-musiker-180-hp/om-konstnarlig"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  KARLSTA01",
+   "discipline": "piano",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.kau.se/musikhogskolan-ingesund/utbildning/program/konstnarlig-kandidat-musiker-180-hp/om-konstnarlig",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Konstnärlig kandidat musiker (violin, viola, cello, kontrabas, piano, sång, gitarr, flöjt, klarinett)",
+     "url": "https://www.kau.se/musikhogskolan-ingesund/utbildning/program/konstnarlig-kandidat-musiker-180-hp/om-konstnarlig"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  KARLSTA01",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.kau.se/musikhogskolan-ingesund/utbildning/program/konstnarlig-kandidat-musiker-180-hp/om-konstnarlig",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Konstnärlig kandidat musiker (violin, viola, cello, kontrabas, piano, sång, gitarr, flöjt, klarinett)",
+     "url": "https://www.kau.se/musikhogskolan-ingesund/utbildning/program/konstnarlig-kandidat-musiker-180-hp/om-konstnarlig"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  KARLSTA01",
+   "discipline": "guitar",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.kau.se/musikhogskolan-ingesund/utbildning/program/konstnarlig-kandidat-musiker-180-hp/om-konstnarlig",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Konstnärlig kandidat musiker (violin, viola, cello, kontrabas, piano, sång, gitarr, flöjt, klarinett)",
+     "url": "https://www.kau.se/musikhogskolan-ingesund/utbildning/program/konstnarlig-kandidat-musiker-180-hp/om-konstnarlig"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  KARLSTA01",
+   "discipline": "woodwind",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.kau.se/musikhogskolan-ingesund/utbildning/program/konstnarlig-kandidat-musiker-180-hp/om-konstnarlig",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Konstnärlig kandidat musiker (violin, viola, cello, kontrabas, piano, sång, gitarr, flöjt, klarinett)",
+     "url": "https://www.kau.se/musikhogskolan-ingesund/utbildning/program/konstnarlig-kandidat-musiker-180-hp/om-konstnarlig"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  KARLSTA01",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.kau.se/musikhogskolan-ingesund/utbildning/program/musiklararprogrammet-300-hp/om-musiklararprogrammet",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musiklärarprogrammet 300 hp (folkmusik, klassisk, jazz)",
+     "url": "https://www.kau.se/musikhogskolan-ingesund/utbildning/program/musiklararprogrammet-300-hp/om-musiklararprogrammet"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musiklärarprogrammet 300 hp (folkmusik, klassisk, jazz)",
+     "url": "https://www.kau.se/musikhogskolan-ingesund/utbildning/program/musiklararprogrammet-300-hp/om-musiklararprogrammet"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  KARLSTA01",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.kau.se/musikhogskolan-ingesund/utbildning/program/musiklararprogrammet-300-hp/om-musiklararprogrammet",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musiklärarprogrammet 300 hp (folkmusik, klassisk, jazz)",
+     "url": "https://www.kau.se/musikhogskolan-ingesund/utbildning/program/musiklararprogrammet-300-hp/om-musiklararprogrammet"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musiklärarprogrammet 300 hp (folkmusik, klassisk, jazz)",
+     "url": "https://www.kau.se/musikhogskolan-ingesund/utbildning/program/musiklararprogrammet-300-hp/om-musiklararprogrammet"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  KARLSTA01",
+   "discipline": "folk",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.kau.se/musikhogskolan-ingesund/utbildning/program/musiklararprogrammet-300-hp/om-musiklararprogrammet",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musiklärarprogrammet 300 hp (folkmusik, klassisk, jazz)",
+     "url": "https://www.kau.se/musikhogskolan-ingesund/utbildning/program/musiklararprogrammet-300-hp/om-musiklararprogrammet"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musiklärarprogrammet 300 hp (folkmusik, klassisk, jazz)",
+     "url": "https://www.kau.se/musikhogskolan-ingesund/utbildning/program/musiklararprogrammet-300-hp/om-musiklararprogrammet"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  KARLSTA01",
+   "discipline": "music-production",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.kau.se/musikhogskolan-ingesund/utbildning/program",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikproduktionsprogrammet 180 hp",
+     "url": "https://www.kau.se/musikhogskolan-ingesund/utbildning/program"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  LULEA01",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.ltu.se/en/education/programme/kkmug-bachelor-programme-in-music",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Programme in Music: Jazz, Classical, Composition, Music Production and Songwriting, Rock, Studio, Church Musician",
+     "url": "https://www.ltu.se/en/education/programme/kkmug-bachelor-programme-in-music",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Programme in Music Performance: musician, composition, conducting",
+     "url": "https://www.ltu.se/en/education/programme/kmmga-master-programme-in-music-performance",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  LULEA01",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.ltu.se/en/education/programme/kkmug-bachelor-programme-in-music",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Programme in Music: Jazz, Classical, Composition, Music Production and Songwriting, Rock, Studio, Church Musician",
+     "url": "https://www.ltu.se/en/education/programme/kkmug-bachelor-programme-in-music",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Programme in Music Performance: musician, composition, conducting",
+     "url": "https://www.ltu.se/en/education/programme/kmmga-master-programme-in-music-performance",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  LULEA01",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.ltu.se/en/education/programme/kkmug-bachelor-programme-in-music",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Programme in Music: Jazz, Classical, Composition, Music Production and Songwriting, Rock, Studio, Church Musician",
+     "url": "https://www.ltu.se/en/education/programme/kkmug-bachelor-programme-in-music",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Programme in Music Performance: musician, composition, conducting",
+     "url": "https://www.ltu.se/en/education/programme/kmmga-master-programme-in-music-performance",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  LULEA01",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.ltu.se/en/education/programme/kkmug-bachelor-programme-in-music",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Programme in Music: Jazz, Classical, Composition, Music Production and Songwriting, Rock, Studio, Church Musician",
+     "url": "https://www.ltu.se/en/education/programme/kkmug-bachelor-programme-in-music",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Programme in Music Performance: musician, composition, conducting",
+     "url": "https://www.ltu.se/en/education/programme/kmmga-master-programme-in-music-performance",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  LULEA01",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.ltu.se/en/education/programme/kkmug-bachelor-programme-in-music",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Programme in Music: Jazz, Classical, Composition, Music Production and Songwriting, Rock, Studio, Church Musician",
+     "url": "https://www.ltu.se/en/education/programme/kkmug-bachelor-programme-in-music",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Programme in Music Performance: musician, composition, conducting",
+     "url": "https://www.ltu.se/en/education/programme/kmmga-master-programme-in-music-performance",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  LULEA01",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.ltu.se/en/education/programme/kkmug-bachelor-programme-in-music",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Programme in Music: Jazz, Classical, Composition, Music Production and Songwriting, Rock, Studio, Church Musician",
+     "url": "https://www.ltu.se/en/education/programme/kkmug-bachelor-programme-in-music",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Programme in Music Performance: musician, composition, conducting",
+     "url": "https://www.ltu.se/en/education/programme/kmmga-master-programme-in-music-performance",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  LULEA01",
+   "discipline": "jazz",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.ltu.se/en/education/programme/kkmug-bachelor-programme-in-music",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Programme in Music: Jazz, Classical, Composition, Music Production and Songwriting, Rock, Studio, Church Musician",
+     "url": "https://www.ltu.se/en/education/programme/kkmug-bachelor-programme-in-music",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  LULEA01",
+   "discipline": "popular-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.ltu.se/en/education/programme/kkmug-bachelor-programme-in-music",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Programme in Music: Jazz, Classical, Composition, Music Production and Songwriting, Rock, Studio, Church Musician",
+     "url": "https://www.ltu.se/en/education/programme/kkmug-bachelor-programme-in-music",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  LULEA01",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.ltu.se/en/education/programme/kkmug-bachelor-programme-in-music",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Programme in Music: Jazz, Classical, Composition, Music Production and Songwriting, Rock, Studio, Church Musician",
+     "url": "https://www.ltu.se/en/education/programme/kkmug-bachelor-programme-in-music",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Programme in Music Performance: musician, composition, conducting",
+     "url": "https://www.ltu.se/en/education/programme/kmmga-master-programme-in-music-performance",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  LULEA01",
+   "discipline": "music-production",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.ltu.se/en/education/programme/kkmug-bachelor-programme-in-music",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Programme in Music: Jazz, Classical, Composition, Music Production and Songwriting, Rock, Studio, Church Musician",
+     "url": "https://www.ltu.se/en/education/programme/kkmug-bachelor-programme-in-music",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  LULEA01",
+   "discipline": "church-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.ltu.se/en/education/programme/kkmug-bachelor-programme-in-music",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Programme in Music: Jazz, Classical, Composition, Music Production and Songwriting, Rock, Studio, Church Musician",
+     "url": "https://www.ltu.se/en/education/programme/kkmug-bachelor-programme-in-music",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  LULEA01",
+   "discipline": "conducting",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.ltu.se/en/education/programme/kmmga-master-programme-in-music-performance",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Master Programme in Music Performance: musician, composition, conducting",
+     "url": "https://www.ltu.se/en/education/programme/kmmga-master-programme-in-music-performance",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  OREBRO01",
+   "discipline": "jazz",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.oru.se/utbildning/program/konstnarligt-kandidatprogram-i-musikalisk-gestaltning-inriktning-jazz-och-pop/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Konstnärligt kandidatprogram i musikalisk gestaltning, inriktning Jazz och pop",
+     "url": "https://www.oru.se/utbildning/program/konstnarligt-kandidatprogram-i-musikalisk-gestaltning-inriktning-jazz-och-pop/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  OREBRO01",
+   "discipline": "popular-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.oru.se/utbildning/program/konstnarligt-kandidatprogram-i-musikalisk-gestaltning-inriktning-jazz-och-pop/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Konstnärligt kandidatprogram i musikalisk gestaltning, inriktning Jazz och pop",
+     "url": "https://www.oru.se/utbildning/program/konstnarligt-kandidatprogram-i-musikalisk-gestaltning-inriktning-jazz-och-pop/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  OREBRO01",
+   "discipline": "chamber-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.oru.se/institutioner/musikhogskolan/utbildning/program/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Konstnärligt kandidatprogram: Kammarmusik, Komposition, Musikproduktion och songwriting",
+     "url": "https://www.oru.se/institutioner/musikhogskolan/utbildning/program/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  OREBRO01",
+   "discipline": "composition",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.oru.se/institutioner/musikhogskolan/utbildning/program/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Konstnärligt kandidatprogram: Kammarmusik, Komposition, Musikproduktion och songwriting",
+     "url": "https://www.oru.se/institutioner/musikhogskolan/utbildning/program/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  OREBRO01",
+   "discipline": "music-production",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.oru.se/institutioner/musikhogskolan/utbildning/program/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Konstnärligt kandidatprogram: Kammarmusik, Komposition, Musikproduktion och songwriting",
+     "url": "https://www.oru.se/institutioner/musikhogskolan/utbildning/program/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  OREBRO01",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.oru.se/institutioner/musikhogskolan/utbildning/program/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Ämneslärarprogrammet Musik",
+     "url": "https://www.oru.se/institutioner/musikhogskolan/utbildning/program/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Ämneslärarprogrammet Musik",
+     "url": "https://www.oru.se/institutioner/musikhogskolan/utbildning/program/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  STOCKHO15",
+   "discipline": "music-education",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://smi.se/pdf/blankett/smiUtbKat2024.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kandidatexamen i musikpedagogik (Instrument/Sång, Musikskapande)",
+     "url": "https://smi.se/pdf/blankett/smiUtbKat2024.pdf"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  STOCKHO15",
+   "discipline": "accordion",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://smi.se/utbildningar/programutbildning/instrument-sang/index.html",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikpedagogik – profiler: dragspel, bleckblås, bas, elgitarr, gitarr, piano, slagverk, stråk, sång, träblås",
+     "url": "https://smi.se/utbildningar/programutbildning/instrument-sang/index.html"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  STOCKHO15",
+   "discipline": "brass",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://smi.se/utbildningar/programutbildning/instrument-sang/index.html",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikpedagogik – profiler: dragspel, bleckblås, bas, elgitarr, gitarr, piano, slagverk, stråk, sång, träblås",
+     "url": "https://smi.se/utbildningar/programutbildning/instrument-sang/index.html"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  STOCKHO15",
+   "discipline": "guitar",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://smi.se/utbildningar/programutbildning/instrument-sang/index.html",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikpedagogik – profiler: dragspel, bleckblås, bas, elgitarr, gitarr, piano, slagverk, stråk, sång, träblås",
+     "url": "https://smi.se/utbildningar/programutbildning/instrument-sang/index.html"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  STOCKHO15",
+   "discipline": "piano",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://smi.se/utbildningar/programutbildning/instrument-sang/index.html",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikpedagogik – profiler: dragspel, bleckblås, bas, elgitarr, gitarr, piano, slagverk, stråk, sång, träblås",
+     "url": "https://smi.se/utbildningar/programutbildning/instrument-sang/index.html"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  STOCKHO15",
+   "discipline": "percussion",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://smi.se/utbildningar/programutbildning/instrument-sang/index.html",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikpedagogik – profiler: dragspel, bleckblås, bas, elgitarr, gitarr, piano, slagverk, stråk, sång, träblås",
+     "url": "https://smi.se/utbildningar/programutbildning/instrument-sang/index.html"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  STOCKHO15",
+   "discipline": "strings",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://smi.se/utbildningar/programutbildning/instrument-sang/index.html",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikpedagogik – profiler: dragspel, bleckblås, bas, elgitarr, gitarr, piano, slagverk, stråk, sång, träblås",
+     "url": "https://smi.se/utbildningar/programutbildning/instrument-sang/index.html"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  STOCKHO15",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://smi.se/utbildningar/programutbildning/instrument-sang/index.html",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikpedagogik – profiler: dragspel, bleckblås, bas, elgitarr, gitarr, piano, slagverk, stråk, sång, träblås",
+     "url": "https://smi.se/utbildningar/programutbildning/instrument-sang/index.html"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  STOCKHO15",
+   "discipline": "woodwind",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://smi.se/utbildningar/programutbildning/instrument-sang/index.html",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikpedagogik – profiler: dragspel, bleckblås, bas, elgitarr, gitarr, piano, slagverk, stråk, sång, träblås",
+     "url": "https://smi.se/utbildningar/programutbildning/instrument-sang/index.html"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  STOCKHO15",
+   "discipline": "composition",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://smi.se/pdf/blankett/smiUtbKat2024.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikpedagogik – Musikskapande (låtskrivande, musikproduktion, komposition)",
+     "url": "https://smi.se/pdf/blankett/smiUtbKat2024.pdf"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  STOCKHO15",
+   "discipline": "music-production",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://smi.se/pdf/blankett/smiUtbKat2024.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikpedagogik – Musikskapande (låtskrivande, musikproduktion, komposition)",
+     "url": "https://smi.se/pdf/blankett/smiUtbKat2024.pdf"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "S  STOCKHO27",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.uniarts.se/utbildningar/kandidatprogram/kandidatprogram-i-opera-med-inriktning-sang/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kandidatprogram i opera med inriktning sång",
+     "url": "https://www.uniarts.se/utbildningar/kandidatprogram/kandidatprogram-i-opera-med-inriktning-sang/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Magisterprogram i opera med inriktning sång",
+     "url": "https://www.uniarts.se/utbildningar/magister-masterprogram/magisterprogram-i-opera-med-inriktning-sang/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR ANKARA26",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mgu.edu.tr/muzik-ve-sahne-sanatlari-fakultesi/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Müzik ve Sahne Sanatları Fakültesi – Çalgı Eğitimi Bölümü; Çalgı Eğitimi Ana Sanat Dalı (yüksek lisans)",
+     "url": "https://www.mgu.edu.tr/muzik-ve-sahne-sanatlari-fakultesi/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Müzik ve Sahne Sanatları Fakültesi – Çalgı Eğitimi Bölümü; Çalgı Eğitimi Ana Sanat Dalı (yüksek lisans)",
+     "url": "https://www.mgu.edu.tr/muzik-ve-sahne-sanatlari-fakultesi/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR ANKARA26",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mgu.edu.tr/muzik-ve-sahne-sanatlari-fakultesi/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Müzik ve Sahne Sanatları Fakültesi – Çalgı Eğitimi Bölümü; Çalgı Eğitimi Ana Sanat Dalı (yüksek lisans)",
+     "url": "https://www.mgu.edu.tr/muzik-ve-sahne-sanatlari-fakultesi/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Müzik ve Sahne Sanatları Fakültesi – Çalgı Eğitimi Bölümü; Çalgı Eğitimi Ana Sanat Dalı (yüksek lisans)",
+     "url": "https://www.mgu.edu.tr/muzik-ve-sahne-sanatlari-fakultesi/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR ANKARA26",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mgu.edu.tr/muzik-ve-sahne-sanatlari-fakultesi/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Müzik ve Sahne Sanatları Fakültesi – Çalgı Eğitimi Bölümü; Çalgı Eğitimi Ana Sanat Dalı (yüksek lisans)",
+     "url": "https://www.mgu.edu.tr/muzik-ve-sahne-sanatlari-fakultesi/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Müzik ve Sahne Sanatları Fakültesi – Çalgı Eğitimi Bölümü; Çalgı Eğitimi Ana Sanat Dalı (yüksek lisans)",
+     "url": "https://www.mgu.edu.tr/muzik-ve-sahne-sanatlari-fakultesi/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR ANKARA26",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mgu.edu.tr/muzik-ve-sahne-sanatlari-fakultesi/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Müzik ve Sahne Sanatları Fakültesi – Çalgı Eğitimi Bölümü; Çalgı Eğitimi Ana Sanat Dalı (yüksek lisans)",
+     "url": "https://www.mgu.edu.tr/muzik-ve-sahne-sanatlari-fakultesi/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Müzik ve Sahne Sanatları Fakültesi – Çalgı Eğitimi Bölümü; Çalgı Eğitimi Ana Sanat Dalı (yüksek lisans)",
+     "url": "https://www.mgu.edu.tr/muzik-ve-sahne-sanatlari-fakultesi/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR ANKARA26",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mgu.edu.tr/muzik-ve-sahne-sanatlari-fakultesi/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Müzik ve Sahne Sanatları Fakültesi – Çalgı Eğitimi Bölümü; Çalgı Eğitimi Ana Sanat Dalı (yüksek lisans)",
+     "url": "https://www.mgu.edu.tr/muzik-ve-sahne-sanatlari-fakultesi/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Müzik ve Sahne Sanatları Fakültesi – Çalgı Eğitimi Bölümü; Çalgı Eğitimi Ana Sanat Dalı (yüksek lisans)",
+     "url": "https://www.mgu.edu.tr/muzik-ve-sahne-sanatlari-fakultesi/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR ANKARA26",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mgu.edu.tr/muzik-ve-sahne-sanatlari-fakultesi/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Müzik ve Sahne Sanatları Fakültesi – Çalgı Eğitimi Bölümü; Çalgı Eğitimi Ana Sanat Dalı (yüksek lisans)",
+     "url": "https://www.mgu.edu.tr/muzik-ve-sahne-sanatlari-fakultesi/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Müzik ve Sahne Sanatları Fakültesi – Çalgı Eğitimi Bölümü; Çalgı Eğitimi Ana Sanat Dalı (yüksek lisans)",
+     "url": "https://www.mgu.edu.tr/muzik-ve-sahne-sanatlari-fakultesi/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR ANKARA26",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mgu.edu.tr/muzik-ve-sahne-sanatlari-fakultesi/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Müzik ve Sahne Sanatları Fakültesi – Çalgı Eğitimi Bölümü; Çalgı Eğitimi Ana Sanat Dalı (yüksek lisans)",
+     "url": "https://www.mgu.edu.tr/muzik-ve-sahne-sanatlari-fakultesi/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Müzik ve Sahne Sanatları Fakültesi – Çalgı Eğitimi Bölümü; Çalgı Eğitimi Ana Sanat Dalı (yüksek lisans)",
+     "url": "https://www.mgu.edu.tr/muzik-ve-sahne-sanatlari-fakultesi/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR ANKARA26",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mgu.edu.tr/ses-egitimi-bolumu-akademik-kadro/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Ses Eğitimi Bölümü; Ses Eğitimi Ana Sanat Dalı (yüksek lisans)",
+     "url": "https://www.mgu.edu.tr/ses-egitimi-bolumu-akademik-kadro/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Ses Eğitimi Bölümü; Ses Eğitimi Ana Sanat Dalı (yüksek lisans)",
+     "url": "https://www.mgu.edu.tr/ses-egitimi-bolumu-akademik-kadro/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR ANKARA26",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mgu.edu.tr/muzik-ve-guzel-sanatlar-enstitusu/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bestecilik / Kompozisyon ve Orkestra Şefliği; Bestecilik tezli yüksek lisans",
+     "url": "https://www.mgu.edu.tr/muzik-ve-guzel-sanatlar-enstitusu/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bestecilik / Kompozisyon ve Orkestra Şefliği; Bestecilik tezli yüksek lisans",
+     "url": "https://www.mgu.edu.tr/muzik-ve-guzel-sanatlar-enstitusu/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR ANKARA26",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mgu.edu.tr/muzik-ve-guzel-sanatlar-enstitusu/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bestecilik / Kompozisyon ve Orkestra Şefliği; Bestecilik tezli yüksek lisans",
+     "url": "https://www.mgu.edu.tr/muzik-ve-guzel-sanatlar-enstitusu/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bestecilik / Kompozisyon ve Orkestra Şefliği; Bestecilik tezli yüksek lisans",
+     "url": "https://www.mgu.edu.tr/muzik-ve-guzel-sanatlar-enstitusu/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR ANKARA26",
+   "discipline": "jazz",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.mgu.edu.tr/sahne-sanatlari-bolumu/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Sahne Sanatları Bölümü – Caz ve Popüler Müzik ASD",
+     "url": "https://www.mgu.edu.tr/sahne-sanatlari-bolumu/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR ANKARA26",
+   "discipline": "popular-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.mgu.edu.tr/sahne-sanatlari-bolumu/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Sahne Sanatları Bölümü – Caz ve Popüler Müzik ASD",
+     "url": "https://www.mgu.edu.tr/sahne-sanatlari-bolumu/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR ANKARA26",
+   "discipline": "folk",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.mgu.edu.tr/calgi-egitimi-bolumu-saz-baglama/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Türk Halk Müziği; Çalgı Eğitimi – saz/bağlama",
+     "url": "https://www.mgu.edu.tr/calgi-egitimi-bolumu-saz-baglama/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR ANKARA26",
+   "discipline": "music-technology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mgu.edu.tr/muzik-ve-guzel-sanatlar-enstitusu-muzik-teknolojileri-tezli-yuksek-lisans-programi/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Müzik Bilimleri ve Teknolojileri Fakültesi; Müzik Teknolojileri tezli yüksek lisans",
+     "url": "https://www.mgu.edu.tr/muzik-ve-guzel-sanatlar-enstitusu-muzik-teknolojileri-tezli-yuksek-lisans-programi/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Müzik Bilimleri ve Teknolojileri Fakültesi; Müzik Teknolojileri tezli yüksek lisans",
+     "url": "https://www.mgu.edu.tr/muzik-ve-guzel-sanatlar-enstitusu-muzik-teknolojileri-tezli-yuksek-lisans-programi/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR ISTANBU06",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Müzik Bölümü: Piyano-Arp-Gitar, Yaylı Çalgılar, Üflemeli ve Vurmalı Çalgılar",
+     "url": "https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Müzik Bölümü: Piyano-Arp-Gitar, Yaylı Çalgılar, Üflemeli ve Vurmalı Çalgılar",
+     "url": "https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR ISTANBU06",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Müzik Bölümü: Piyano-Arp-Gitar, Yaylı Çalgılar, Üflemeli ve Vurmalı Çalgılar",
+     "url": "https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Müzik Bölümü: Piyano-Arp-Gitar, Yaylı Çalgılar, Üflemeli ve Vurmalı Çalgılar",
+     "url": "https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR ISTANBU06",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Müzik Bölümü: Piyano-Arp-Gitar, Yaylı Çalgılar, Üflemeli ve Vurmalı Çalgılar",
+     "url": "https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Müzik Bölümü: Piyano-Arp-Gitar, Yaylı Çalgılar, Üflemeli ve Vurmalı Çalgılar",
+     "url": "https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR ISTANBU06",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Müzik Bölümü: Piyano-Arp-Gitar, Yaylı Çalgılar, Üflemeli ve Vurmalı Çalgılar",
+     "url": "https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Müzik Bölümü: Piyano-Arp-Gitar, Yaylı Çalgılar, Üflemeli ve Vurmalı Çalgılar",
+     "url": "https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR ISTANBU06",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Müzik Bölümü: Piyano-Arp-Gitar, Yaylı Çalgılar, Üflemeli ve Vurmalı Çalgılar",
+     "url": "https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Müzik Bölümü: Piyano-Arp-Gitar, Yaylı Çalgılar, Üflemeli ve Vurmalı Çalgılar",
+     "url": "https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR ISTANBU06",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Müzik Bölümü: Piyano-Arp-Gitar, Yaylı Çalgılar, Üflemeli ve Vurmalı Çalgılar",
+     "url": "https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Müzik Bölümü: Piyano-Arp-Gitar, Yaylı Çalgılar, Üflemeli ve Vurmalı Çalgılar",
+     "url": "https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR ISTANBU06",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Müzik Bölümü: Piyano-Arp-Gitar, Yaylı Çalgılar, Üflemeli ve Vurmalı Çalgılar",
+     "url": "https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Müzik Bölümü: Piyano-Arp-Gitar, Yaylı Çalgılar, Üflemeli ve Vurmalı Çalgılar",
+     "url": "https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR ISTANBU06",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bestecilik ve Orkestra Şefliği (bestecilik, orkestra şefliği, müzik teorisi)",
+     "url": "https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bestecilik ve Orkestra Şefliği (bestecilik, orkestra şefliği, müzik teorisi)",
+     "url": "https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR ISTANBU06",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bestecilik ve Orkestra Şefliği (bestecilik, orkestra şefliği, müzik teorisi)",
+     "url": "https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bestecilik ve Orkestra Şefliği (bestecilik, orkestra şefliği, müzik teorisi)",
+     "url": "https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR ISTANBU06",
+   "discipline": "music-theory",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bestecilik ve Orkestra Şefliği (bestecilik, orkestra şefliği, müzik teorisi)",
+     "url": "https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bestecilik ve Orkestra Şefliği (bestecilik, orkestra şefliği, müzik teorisi)",
+     "url": "https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR ISTANBU06",
+   "discipline": "musicology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzikoloji/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Müzikoloji Bölümü (müzikoloji, etnomüzikoloji)",
+     "url": "https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzikoloji/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Müzikoloji Bölümü (müzikoloji, etnomüzikoloji)",
+     "url": "https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzikoloji/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR ISTANBU06",
+   "discipline": "folk",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzikoloji/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Müzikoloji Bölümü (müzikoloji, etnomüzikoloji)",
+     "url": "https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzikoloji/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Müzikoloji Bölümü (müzikoloji, etnomüzikoloji)",
+     "url": "https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzikoloji/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR ISTANBU06",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://msgsu.edu.tr/akademik/lisansustu-egitim-enstitusu/programlar/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Sahne Sanatları Bölümü – Opera",
+     "url": "https://msgsu.edu.tr/akademik/lisansustu-egitim-enstitusu/programlar/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Sahne Sanatları Bölümü – Opera",
+     "url": "https://msgsu.edu.tr/akademik/lisansustu-egitim-enstitusu/programlar/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR IZMIR01",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://tercihrehberi.deu.edu.tr/wp-content/uploads/2022/07/konservatuvar.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Müzik Bölümü: Piyano, Gitar, Arp, Yaylı, Üfleme ve Vurma Çalgılar, Kompozisyon",
+     "url": "https://tercihrehberi.deu.edu.tr/wp-content/uploads/2022/07/konservatuvar.pdf"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Müzik (Konservatuvar) Yüksek Lisans",
+     "url": "https://gse.deu.edu.tr/en/master-of-music-mmus/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR IZMIR01",
+   "discipline": "harp",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://tercihrehberi.deu.edu.tr/wp-content/uploads/2022/07/konservatuvar.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Müzik Bölümü: Piyano, Gitar, Arp, Yaylı, Üfleme ve Vurma Çalgılar, Kompozisyon",
+     "url": "https://tercihrehberi.deu.edu.tr/wp-content/uploads/2022/07/konservatuvar.pdf"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR IZMIR01",
+   "discipline": "guitar",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://tercihrehberi.deu.edu.tr/wp-content/uploads/2022/07/konservatuvar.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Müzik Bölümü: Piyano, Gitar, Arp, Yaylı, Üfleme ve Vurma Çalgılar, Kompozisyon",
+     "url": "https://tercihrehberi.deu.edu.tr/wp-content/uploads/2022/07/konservatuvar.pdf"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR IZMIR01",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://tercihrehberi.deu.edu.tr/wp-content/uploads/2022/07/konservatuvar.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Müzik Bölümü: Piyano, Gitar, Arp, Yaylı, Üfleme ve Vurma Çalgılar, Kompozisyon",
+     "url": "https://tercihrehberi.deu.edu.tr/wp-content/uploads/2022/07/konservatuvar.pdf"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Müzik (Konservatuvar) Yüksek Lisans",
+     "url": "https://gse.deu.edu.tr/en/master-of-music-mmus/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR IZMIR01",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://tercihrehberi.deu.edu.tr/wp-content/uploads/2022/07/konservatuvar.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Müzik Bölümü: Piyano, Gitar, Arp, Yaylı, Üfleme ve Vurma Çalgılar, Kompozisyon",
+     "url": "https://tercihrehberi.deu.edu.tr/wp-content/uploads/2022/07/konservatuvar.pdf"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Müzik (Konservatuvar) Yüksek Lisans",
+     "url": "https://gse.deu.edu.tr/en/master-of-music-mmus/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR IZMIR01",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://tercihrehberi.deu.edu.tr/wp-content/uploads/2022/07/konservatuvar.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Müzik Bölümü: Piyano, Gitar, Arp, Yaylı, Üfleme ve Vurma Çalgılar, Kompozisyon",
+     "url": "https://tercihrehberi.deu.edu.tr/wp-content/uploads/2022/07/konservatuvar.pdf"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Müzik (Konservatuvar) Yüksek Lisans",
+     "url": "https://gse.deu.edu.tr/en/master-of-music-mmus/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR IZMIR01",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://tercihrehberi.deu.edu.tr/wp-content/uploads/2022/07/konservatuvar.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Müzik Bölümü: Piyano, Gitar, Arp, Yaylı, Üfleme ve Vurma Çalgılar, Kompozisyon",
+     "url": "https://tercihrehberi.deu.edu.tr/wp-content/uploads/2022/07/konservatuvar.pdf"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Müzik (Konservatuvar) Yüksek Lisans",
+     "url": "https://gse.deu.edu.tr/en/master-of-music-mmus/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR IZMIR01",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://tercihrehberi.deu.edu.tr/wp-content/uploads/2022/07/konservatuvar.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Müzik Bölümü: Piyano, Gitar, Arp, Yaylı, Üfleme ve Vurma Çalgılar, Kompozisyon",
+     "url": "https://tercihrehberi.deu.edu.tr/wp-content/uploads/2022/07/konservatuvar.pdf"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Müzik (Konservatuvar) Yüksek Lisans",
+     "url": "https://gse.deu.edu.tr/en/master-of-music-mmus/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR IZMIR01",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://tercihrehberi.deu.edu.tr/wp-content/uploads/2022/07/konservatuvar.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Sahne Sanatları – Opera; Müzikoloji Bölümü",
+     "url": "https://tercihrehberi.deu.edu.tr/wp-content/uploads/2022/07/konservatuvar.pdf"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Müzik (Konservatuvar) Yüksek Lisans",
+     "url": "https://gse.deu.edu.tr/en/master-of-music-mmus/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR IZMIR01",
+   "discipline": "musicology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://tercihrehberi.deu.edu.tr/wp-content/uploads/2022/07/konservatuvar.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Sahne Sanatları – Opera; Müzikoloji Bölümü",
+     "url": "https://tercihrehberi.deu.edu.tr/wp-content/uploads/2022/07/konservatuvar.pdf"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Müzik Bilimleri Yüksek Lisans",
+     "url": "https://gse.deu.edu.tr/en/master-of-science-msc/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR IZMIR01",
+   "discipline": "music-technology",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://gse.deu.edu.tr/en/master-of-science/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Müzik Teknolojisi Yüksek Lisans",
+     "url": "https://gse.deu.edu.tr/en/master-of-science/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR ISTANBU18",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.maltepe.edu.tr/konservatuvar",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Müzik Bölümü: Bestecilik ve Orkestra Şefliği, Piyano-Arp-Gitar, Üflemeli ve Vurmalı Çalgılar, Yaylı Çalgılar (lisans, yüksek lisans)",
+     "url": "https://www.maltepe.edu.tr/konservatuvar"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Müzik Bölümü: Bestecilik ve Orkestra Şefliği, Piyano-Arp-Gitar, Üflemeli ve Vurmalı Çalgılar, Yaylı Çalgılar (lisans, yüksek lisans)",
+     "url": "https://www.maltepe.edu.tr/konservatuvar"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR ISTANBU18",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.maltepe.edu.tr/konservatuvar",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Müzik Bölümü: Bestecilik ve Orkestra Şefliği, Piyano-Arp-Gitar, Üflemeli ve Vurmalı Çalgılar, Yaylı Çalgılar (lisans, yüksek lisans)",
+     "url": "https://www.maltepe.edu.tr/konservatuvar"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Müzik Bölümü: Bestecilik ve Orkestra Şefliği, Piyano-Arp-Gitar, Üflemeli ve Vurmalı Çalgılar, Yaylı Çalgılar (lisans, yüksek lisans)",
+     "url": "https://www.maltepe.edu.tr/konservatuvar"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR ISTANBU18",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.maltepe.edu.tr/konservatuvar",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Müzik Bölümü: Bestecilik ve Orkestra Şefliği, Piyano-Arp-Gitar, Üflemeli ve Vurmalı Çalgılar, Yaylı Çalgılar (lisans, yüksek lisans)",
+     "url": "https://www.maltepe.edu.tr/konservatuvar"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Müzik Bölümü: Bestecilik ve Orkestra Şefliği, Piyano-Arp-Gitar, Üflemeli ve Vurmalı Çalgılar, Yaylı Çalgılar (lisans, yüksek lisans)",
+     "url": "https://www.maltepe.edu.tr/konservatuvar"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR ISTANBU18",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.maltepe.edu.tr/konservatuvar",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Müzik Bölümü: Bestecilik ve Orkestra Şefliği, Piyano-Arp-Gitar, Üflemeli ve Vurmalı Çalgılar, Yaylı Çalgılar (lisans, yüksek lisans)",
+     "url": "https://www.maltepe.edu.tr/konservatuvar"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Müzik Bölümü: Bestecilik ve Orkestra Şefliği, Piyano-Arp-Gitar, Üflemeli ve Vurmalı Çalgılar, Yaylı Çalgılar (lisans, yüksek lisans)",
+     "url": "https://www.maltepe.edu.tr/konservatuvar"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR ISTANBU18",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.maltepe.edu.tr/konservatuvar",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Müzik Bölümü: Bestecilik ve Orkestra Şefliği, Piyano-Arp-Gitar, Üflemeli ve Vurmalı Çalgılar, Yaylı Çalgılar (lisans, yüksek lisans)",
+     "url": "https://www.maltepe.edu.tr/konservatuvar"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Müzik Bölümü: Bestecilik ve Orkestra Şefliği, Piyano-Arp-Gitar, Üflemeli ve Vurmalı Çalgılar, Yaylı Çalgılar (lisans, yüksek lisans)",
+     "url": "https://www.maltepe.edu.tr/konservatuvar"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR ISTANBU18",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.maltepe.edu.tr/konservatuvar",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Müzik Bölümü: Bestecilik ve Orkestra Şefliği, Piyano-Arp-Gitar, Üflemeli ve Vurmalı Çalgılar, Yaylı Çalgılar (lisans, yüksek lisans)",
+     "url": "https://www.maltepe.edu.tr/konservatuvar"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Müzik Bölümü: Bestecilik ve Orkestra Şefliği, Piyano-Arp-Gitar, Üflemeli ve Vurmalı Çalgılar, Yaylı Çalgılar (lisans, yüksek lisans)",
+     "url": "https://www.maltepe.edu.tr/konservatuvar"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR ISTANBU18",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.maltepe.edu.tr/konservatuvar",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Müzik Bölümü: Bestecilik ve Orkestra Şefliği, Piyano-Arp-Gitar, Üflemeli ve Vurmalı Çalgılar, Yaylı Çalgılar (lisans, yüksek lisans)",
+     "url": "https://www.maltepe.edu.tr/konservatuvar"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Müzik Bölümü: Bestecilik ve Orkestra Şefliği, Piyano-Arp-Gitar, Üflemeli ve Vurmalı Çalgılar, Yaylı Çalgılar (lisans, yüksek lisans)",
+     "url": "https://www.maltepe.edu.tr/konservatuvar"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR ISTANBU18",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.maltepe.edu.tr/konservatuvar",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Müzik Bölümü: Bestecilik ve Orkestra Şefliği, Piyano-Arp-Gitar, Üflemeli ve Vurmalı Çalgılar, Yaylı Çalgılar (lisans, yüksek lisans)",
+     "url": "https://www.maltepe.edu.tr/konservatuvar"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Müzik Bölümü: Bestecilik ve Orkestra Şefliği, Piyano-Arp-Gitar, Üflemeli ve Vurmalı Çalgılar, Yaylı Çalgılar (lisans, yüksek lisans)",
+     "url": "https://www.maltepe.edu.tr/konservatuvar"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR ISTANBU18",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.maltepe.edu.tr/konservatuvar",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Müzik Bölümü: Bestecilik ve Orkestra Şefliği, Piyano-Arp-Gitar, Üflemeli ve Vurmalı Çalgılar, Yaylı Çalgılar (lisans, yüksek lisans)",
+     "url": "https://www.maltepe.edu.tr/konservatuvar"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Müzik Bölümü: Bestecilik ve Orkestra Şefliği, Piyano-Arp-Gitar, Üflemeli ve Vurmalı Çalgılar, Yaylı Çalgılar (lisans, yüksek lisans)",
+     "url": "https://www.maltepe.edu.tr/konservatuvar"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR ISTANBU18",
+   "discipline": "folk",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.maltepe.edu.tr/konservatuvar",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Türk Müziği Bölümü – Türk Halk Müziği",
+     "url": "https://www.maltepe.edu.tr/konservatuvar"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR IZMIR05",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://mssyltezli.yasar.edu.tr/caz-performans-caz-gitar-anasanat-dali/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Müzik Bölümü – caz alanları (piyano, vokal, gitar, bas, davul); Caz Performans ASD (yüksek lisans)",
+     "url": "https://mssyltezli.yasar.edu.tr/caz-performans-caz-gitar-anasanat-dali/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Müzik Bölümü – caz alanları (piyano, vokal, gitar, bas, davul); Caz Performans ASD (yüksek lisans)",
+     "url": "https://mssyltezli.yasar.edu.tr/caz-performans-caz-gitar-anasanat-dali/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR IZMIR05",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://music.yasar.edu.tr/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bestecilik, Elektroakustik Müzik, Müzik Teknolojileri; Müzik ve Sahne Sanatları Yüksek Lisans",
+     "url": "https://music.yasar.edu.tr/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bestecilik, Elektroakustik Müzik, Müzik Teknolojileri; Müzik ve Sahne Sanatları Yüksek Lisans",
+     "url": "https://music.yasar.edu.tr/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "TR IZMIR05",
+   "discipline": "music-technology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://music.yasar.edu.tr/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bestecilik, Elektroakustik Müzik, Müzik Teknolojileri; Müzik ve Sahne Sanatları Yüksek Lisans",
+     "url": "https://music.yasar.edu.tr/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bestecilik, Elektroakustik Müzik, Müzik Teknolojileri; Müzik ve Sahne Sanatları Yüksek Lisans",
+     "url": "https://music.yasar.edu.tr/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS NIS01",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "http://www.artf.ni.ac.rs/lat/master-akademske-studije/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Izvođačke umetnosti: klavir, gudački, duvački instrumenti, solo pevanje, gitara, harmonika, udaraljke",
+     "url": "http://www.artf.ni.ac.rs/lat/master-akademske-studije/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Izvođačke umetnosti: klavir, gudački, duvački instrumenti, solo pevanje, gitara, harmonika, udaraljke",
+     "url": "http://www.artf.ni.ac.rs/lat/master-akademske-studije/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS NIS01",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "http://www.artf.ni.ac.rs/lat/master-akademske-studije/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Izvođačke umetnosti: klavir, gudački, duvački instrumenti, solo pevanje, gitara, harmonika, udaraljke",
+     "url": "http://www.artf.ni.ac.rs/lat/master-akademske-studije/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Izvođačke umetnosti: klavir, gudački, duvački instrumenti, solo pevanje, gitara, harmonika, udaraljke",
+     "url": "http://www.artf.ni.ac.rs/lat/master-akademske-studije/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS NIS01",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "http://www.artf.ni.ac.rs/lat/master-akademske-studije/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Izvođačke umetnosti: klavir, gudački, duvački instrumenti, solo pevanje, gitara, harmonika, udaraljke",
+     "url": "http://www.artf.ni.ac.rs/lat/master-akademske-studije/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Izvođačke umetnosti: klavir, gudački, duvački instrumenti, solo pevanje, gitara, harmonika, udaraljke",
+     "url": "http://www.artf.ni.ac.rs/lat/master-akademske-studije/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS NIS01",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "http://www.artf.ni.ac.rs/lat/master-akademske-studije/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Izvođačke umetnosti: klavir, gudački, duvački instrumenti, solo pevanje, gitara, harmonika, udaraljke",
+     "url": "http://www.artf.ni.ac.rs/lat/master-akademske-studije/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Izvođačke umetnosti: klavir, gudački, duvački instrumenti, solo pevanje, gitara, harmonika, udaraljke",
+     "url": "http://www.artf.ni.ac.rs/lat/master-akademske-studije/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS NIS01",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "http://www.artf.ni.ac.rs/lat/master-akademske-studije/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Izvođačke umetnosti: klavir, gudački, duvački instrumenti, solo pevanje, gitara, harmonika, udaraljke",
+     "url": "http://www.artf.ni.ac.rs/lat/master-akademske-studije/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Izvođačke umetnosti: klavir, gudački, duvački instrumenti, solo pevanje, gitara, harmonika, udaraljke",
+     "url": "http://www.artf.ni.ac.rs/lat/master-akademske-studije/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS NIS01",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "http://www.artf.ni.ac.rs/lat/master-akademske-studije/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Izvođačke umetnosti: klavir, gudački, duvački instrumenti, solo pevanje, gitara, harmonika, udaraljke",
+     "url": "http://www.artf.ni.ac.rs/lat/master-akademske-studije/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Izvođačke umetnosti: klavir, gudački, duvački instrumenti, solo pevanje, gitara, harmonika, udaraljke",
+     "url": "http://www.artf.ni.ac.rs/lat/master-akademske-studije/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS NIS01",
+   "discipline": "accordion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "http://www.artf.ni.ac.rs/lat/master-akademske-studije/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Izvođačke umetnosti: klavir, gudački, duvački instrumenti, solo pevanje, gitara, harmonika, udaraljke",
+     "url": "http://www.artf.ni.ac.rs/lat/master-akademske-studije/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Izvođačke umetnosti: klavir, gudački, duvački instrumenti, solo pevanje, gitara, harmonika, udaraljke",
+     "url": "http://www.artf.ni.ac.rs/lat/master-akademske-studije/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS NIS01",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "http://www.artf.ni.ac.rs/lat/master-akademske-studije/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Izvođačke umetnosti: klavir, gudački, duvački instrumenti, solo pevanje, gitara, harmonika, udaraljke",
+     "url": "http://www.artf.ni.ac.rs/lat/master-akademske-studije/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Izvođačke umetnosti: klavir, gudački, duvački instrumenti, solo pevanje, gitara, harmonika, udaraljke",
+     "url": "http://www.artf.ni.ac.rs/lat/master-akademske-studije/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS NIS01",
+   "discipline": "music-theory",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "http://www.artf.ni.ac.rs/lat/master-akademske-studije/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Muzička teorija i pedagogija; Muzička pedagogija (master)",
+     "url": "http://www.artf.ni.ac.rs/lat/master-akademske-studije/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Muzička teorija i pedagogija; Muzička pedagogija (master)",
+     "url": "http://www.artf.ni.ac.rs/lat/master-akademske-studije/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS NIS01",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "http://www.artf.ni.ac.rs/lat/master-akademske-studije/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Muzička teorija i pedagogija; Muzička pedagogija (master)",
+     "url": "http://www.artf.ni.ac.rs/lat/master-akademske-studije/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Muzička teorija i pedagogija; Muzička pedagogija (master)",
+     "url": "http://www.artf.ni.ac.rs/lat/master-akademske-studije/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS KRAGUJE01",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Izvođačke umetnosti (duvački, gudački, harmonika, klavir, solo pevanje, trzački instrumenti)",
+     "url": "https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Izvođačke umetnosti (duvački, gudački, harmonika, klavir, solo pevanje, trzački instrumenti)",
+     "url": "https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS KRAGUJE01",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Izvođačke umetnosti (duvački, gudački, harmonika, klavir, solo pevanje, trzački instrumenti)",
+     "url": "https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Izvođačke umetnosti (duvački, gudački, harmonika, klavir, solo pevanje, trzački instrumenti)",
+     "url": "https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS KRAGUJE01",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Izvođačke umetnosti (duvački, gudački, harmonika, klavir, solo pevanje, trzački instrumenti)",
+     "url": "https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Izvođačke umetnosti (duvački, gudački, harmonika, klavir, solo pevanje, trzački instrumenti)",
+     "url": "https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS KRAGUJE01",
+   "discipline": "accordion",
+   "levels": [
+    "BA",
+    "MA",
+    "Doc"
+   ],
+   "source_url": "https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Izvođačke umetnosti (duvački, gudački, harmonika, klavir, solo pevanje, trzački instrumenti)",
+     "url": "https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Izvođačke umetnosti (duvački, gudački, harmonika, klavir, solo pevanje, trzački instrumenti)",
+     "url": "https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+    },
+    {
+     "level": "Doc",
+     "programme_name": "Doktorske akademske studije – Izvođačke umetnosti: harmonika",
+     "url": "https://www.filum.kg.ac.rs/index.php?option=com_content&view=article&id=46&Itemid=110&lang=sr"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS KRAGUJE01",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Izvođačke umetnosti (duvački, gudački, harmonika, klavir, solo pevanje, trzački instrumenti)",
+     "url": "https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Izvođačke umetnosti (duvački, gudački, harmonika, klavir, solo pevanje, trzački instrumenti)",
+     "url": "https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS KRAGUJE01",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Izvođačke umetnosti (duvački, gudački, harmonika, klavir, solo pevanje, trzački instrumenti)",
+     "url": "https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Izvođačke umetnosti (duvački, gudački, harmonika, klavir, solo pevanje, trzački instrumenti)",
+     "url": "https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS KRAGUJE01",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Izvođačke umetnosti (duvački, gudački, harmonika, klavir, solo pevanje, trzački instrumenti)",
+     "url": "https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Izvođačke umetnosti (duvački, gudački, harmonika, klavir, solo pevanje, trzački instrumenti)",
+     "url": "https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS KRAGUJE01",
+   "discipline": "chamber-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Izvođačke umetnosti – kamerna muzika",
+     "url": "https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS KRAGUJE01",
+   "discipline": "music-theory",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Muzička teorija i pedagogija; Muzička pedagogija",
+     "url": "https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Muzička teorija i pedagogija; Muzička pedagogija",
+     "url": "https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS KRAGUJE01",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Muzička teorija i pedagogija; Muzička pedagogija",
+     "url": "https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Muzička teorija i pedagogija; Muzička pedagogija",
+     "url": "https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "RS KRAGUJE01",
+   "discipline": "music-technology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Muzika u medijima",
+     "url": "https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Muzika u medijima",
+     "url": "https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "P  LISBOA12",
+   "discipline": "jazz",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.lis.ulusiada.pt/en-gb/degrees/1314/1stcycle-undergraduatedegreesandintegratedmasters/jazzandmodernmusic.aspx",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Licenciatura em Jazz e Música Moderna (jazz ou música moderna pop/rock)",
+     "url": "https://www.lis.ulusiada.pt/en-gb/degrees/1314/1stcycle-undergraduatedegreesandintegratedmasters/jazzandmodernmusic.aspx"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "P  LISBOA12",
+   "discipline": "popular-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.lis.ulusiada.pt/en-gb/degrees/1314/1stcycle-undergraduatedegreesandintegratedmasters/jazzandmodernmusic.aspx",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Licenciatura em Jazz e Música Moderna (jazz ou música moderna pop/rock)",
+     "url": "https://www.lis.ulusiada.pt/en-gb/degrees/1314/1stcycle-undergraduatedegreesandintegratedmasters/jazzandmodernmusic.aspx"
     }
    ],
    "verified": false

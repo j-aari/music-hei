@@ -1,0 +1,2666 @@
+{
+"collected": "2026-10-08",
+"method": "Field-level collection as in batch 1; where a site lists programmes only via JavaScript, the programme pages were located with a web search restricted to the institution's own domain (raw HTML of each institution's own programme pages, PDFs where the list was only there; names mapped to disciplines.json by keyword and checked by hand).",
+"institutions": {
+"P  LISBOA05": [
+[
+"vocal-opera",
+"BA",
+"Licenciatura em Música – Execução: Canto, Cordas Dedilhadas, Instrumentos de Arco, Sopro e Percussão, Órgão, Piano",
+"https://www.esml.ipl.pt/cursos/licenciaturas/licenciatura-em-musica/59-ensinoformacao"
+],
+[
+"guitar",
+"BA",
+"Licenciatura em Música – Execução: Canto, Cordas Dedilhadas, Instrumentos de Arco, Sopro e Percussão, Órgão, Piano",
+"https://www.esml.ipl.pt/cursos/licenciaturas/licenciatura-em-musica/59-ensinoformacao"
+],
+[
+"strings",
+"BA",
+"Licenciatura em Música – Execução: Canto, Cordas Dedilhadas, Instrumentos de Arco, Sopro e Percussão, Órgão, Piano",
+"https://www.esml.ipl.pt/cursos/licenciaturas/licenciatura-em-musica/59-ensinoformacao"
+],
+[
+"woodwind",
+"BA",
+"Licenciatura em Música – Execução: Canto, Cordas Dedilhadas, Instrumentos de Arco, Sopro e Percussão, Órgão, Piano",
+"https://www.esml.ipl.pt/cursos/licenciaturas/licenciatura-em-musica/59-ensinoformacao"
+],
+[
+"brass",
+"BA",
+"Licenciatura em Música – Execução: Canto, Cordas Dedilhadas, Instrumentos de Arco, Sopro e Percussão, Órgão, Piano",
+"https://www.esml.ipl.pt/cursos/licenciaturas/licenciatura-em-musica/59-ensinoformacao"
+],
+[
+"percussion",
+"BA",
+"Licenciatura em Música – Execução: Canto, Cordas Dedilhadas, Instrumentos de Arco, Sopro e Percussão, Órgão, Piano",
+"https://www.esml.ipl.pt/cursos/licenciaturas/licenciatura-em-musica/59-ensinoformacao"
+],
+[
+"organ",
+"BA",
+"Licenciatura em Música – Execução: Canto, Cordas Dedilhadas, Instrumentos de Arco, Sopro e Percussão, Órgão, Piano",
+"https://www.esml.ipl.pt/cursos/licenciaturas/licenciatura-em-musica/59-ensinoformacao"
+],
+[
+"piano",
+"BA",
+"Licenciatura em Música – Execução: Canto, Cordas Dedilhadas, Instrumentos de Arco, Sopro e Percussão, Órgão, Piano",
+"https://www.esml.ipl.pt/cursos/licenciaturas/licenciatura-em-musica/59-ensinoformacao"
+],
+[
+"early-music",
+"BA",
+"Execução – Música Antiga; Mestrado em Música – Música Antiga",
+"https://www.esml.ipl.pt/cursos/mestrados/mestrado-em-musica"
+],
+[
+"early-music",
+"MA",
+"Execução – Música Antiga; Mestrado em Música – Música Antiga",
+"https://www.esml.ipl.pt/cursos/mestrados/mestrado-em-musica"
+],
+[
+"composition",
+"BA",
+"Licenciatura em Música – Composição, Direção e Formação Musical",
+"https://www.esml.ipl.pt/cursos/licenciaturas/licenciatura-em-musica/67-ensinoformacao/licenciatura-em-musica/72-composicao"
+],
+[
+"conducting",
+"BA",
+"Licenciatura em Música – Composição, Direção e Formação Musical",
+"https://www.esml.ipl.pt/cursos/licenciaturas/licenciatura-em-musica/67-ensinoformacao/licenciatura-em-musica/72-composicao"
+],
+[
+"music-theory",
+"BA",
+"Licenciatura em Música – Composição, Direção e Formação Musical",
+"https://www.esml.ipl.pt/cursos/licenciaturas/licenciatura-em-musica/67-ensinoformacao/licenciatura-em-musica/72-composicao"
+],
+[
+"jazz",
+"BA",
+"Licenciatura em Música – Jazz; Mestrado em Música – Jazz",
+"https://www.esml.ipl.pt/index.php/cursos/licenciaturas/licenciatura-em-musica/67-ensinoformacao/licenciatura-em-musica/176-jazz"
+],
+[
+"jazz",
+"MA",
+"Licenciatura em Música – Jazz; Mestrado em Música – Jazz",
+"https://www.esml.ipl.pt/index.php/cursos/licenciaturas/licenciatura-em-musica/67-ensinoformacao/licenciatura-em-musica/176-jazz"
+],
+[
+"music-technology",
+"BA",
+"Licenciatura em Tecnologias da Música",
+"https://www.esml.ipl.pt/cursos/licenciaturas/licenciatura-em-musica/59-ensinoformacao"
+],
+[
+"strings",
+"MA",
+"Mestrado em Música: Canto, Composição, Direção Coral, Direção de Orquestra, Instrumento, Música de Câmara",
+"https://www.esml.ipl.pt/cursos/mestrados/mestrado-em-musica",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"MA",
+"Mestrado em Música: Canto, Composição, Direção Coral, Direção de Orquestra, Instrumento, Música de Câmara",
+"https://www.esml.ipl.pt/cursos/mestrados/mestrado-em-musica",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"MA",
+"Mestrado em Música: Canto, Composição, Direção Coral, Direção de Orquestra, Instrumento, Música de Câmara",
+"https://www.esml.ipl.pt/cursos/mestrados/mestrado-em-musica",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"MA",
+"Mestrado em Música: Canto, Composição, Direção Coral, Direção de Orquestra, Instrumento, Música de Câmara",
+"https://www.esml.ipl.pt/cursos/mestrados/mestrado-em-musica",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"MA",
+"Mestrado em Música: Canto, Composição, Direção Coral, Direção de Orquestra, Instrumento, Música de Câmara",
+"https://www.esml.ipl.pt/cursos/mestrados/mestrado-em-musica",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"MA",
+"Mestrado em Música: Canto, Composição, Direção Coral, Direção de Orquestra, Instrumento, Música de Câmara",
+"https://www.esml.ipl.pt/cursos/mestrados/mestrado-em-musica",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"composition",
+"MA",
+"Mestrado em Música: Canto, Composição, Direção Coral, Direção de Orquestra, Instrumento, Música de Câmara",
+"https://www.esml.ipl.pt/cursos/mestrados/mestrado-em-musica",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"conducting",
+"MA",
+"Mestrado em Música: Canto, Composição, Direção Coral, Direção de Orquestra, Instrumento, Música de Câmara",
+"https://www.esml.ipl.pt/cursos/mestrados/mestrado-em-musica",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"chamber-music",
+"MA",
+"Mestrado em Música: Canto, Composição, Direção Coral, Direção de Orquestra, Instrumento, Música de Câmara",
+"https://www.esml.ipl.pt/cursos/mestrados/mestrado-em-musica",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"music-education",
+"MA",
+"Mestrado em Ensino de Música",
+"https://www.esml.ipl.pt/cursos/mestrados/mestrado-em-ensino-de-musica"
+]
+],
+"P  PORTO05": [
+[
+"composition",
+"BA",
+"Licenciatura em Música – Composição; Mestrado em Composição",
+"https://www.esmae.ipp.pt/cursos/licenciatura"
+],
+[
+"composition",
+"MA",
+"Licenciatura em Música – Composição; Mestrado em Composição",
+"https://www.esmae.ipp.pt/cursos/licenciatura"
+],
+[
+"jazz",
+"BA",
+"Licenciatura em Música – Jazz; Mestrado Música – Interpretação Artística (Jazz)",
+"https://www.esmae.ipp.pt/cursos/licenciatura/1017"
+],
+[
+"jazz",
+"MA",
+"Licenciatura em Música – Jazz; Mestrado Música – Interpretação Artística (Jazz)",
+"https://www.esmae.ipp.pt/cursos/licenciatura/1017"
+],
+[
+"music-technology",
+"BA",
+"Licenciatura – Produção e Tecnologias da Música; Mestrado em Artes e Tecnologias do Som",
+"https://www.esmae.ipp.pt/cursos/licenciatura/1015"
+],
+[
+"music-technology",
+"MA",
+"Licenciatura – Produção e Tecnologias da Música; Mestrado em Artes e Tecnologias do Som",
+"https://www.esmae.ipp.pt/cursos/licenciatura/1015"
+],
+[
+"music-production",
+"BA",
+"Licenciatura – Produção e Tecnologias da Música; Mestrado em Artes e Tecnologias do Som",
+"https://www.esmae.ipp.pt/cursos/licenciatura/1015"
+],
+[
+"music-production",
+"MA",
+"Licenciatura – Produção e Tecnologias da Música; Mestrado em Artes e Tecnologias do Som",
+"https://www.esmae.ipp.pt/cursos/licenciatura/1015"
+],
+[
+"strings",
+"MA",
+"Mestrado em Música – Interpretação Artística",
+"https://www.esmae.ipp.pt/departamentos/dep-musica",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"MA",
+"Mestrado em Música – Interpretação Artística",
+"https://www.esmae.ipp.pt/departamentos/dep-musica",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"MA",
+"Mestrado em Música – Interpretação Artística",
+"https://www.esmae.ipp.pt/departamentos/dep-musica",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"MA",
+"Mestrado em Música – Interpretação Artística",
+"https://www.esmae.ipp.pt/departamentos/dep-musica",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"MA",
+"Mestrado em Música – Interpretação Artística",
+"https://www.esmae.ipp.pt/departamentos/dep-musica",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"MA",
+"Mestrado em Música – Interpretação Artística",
+"https://www.esmae.ipp.pt/departamentos/dep-musica",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"music-education",
+"MA",
+"Mestrado em Ensino de Música",
+"https://www.esmae.ipp.pt/departamentos/dep-musica"
+]
+],
+"P  AVEIRO01": [
+[
+"strings",
+"BA",
+"Licenciatura em Música; Mestrado em Música (incl. Performance Jazz)",
+"https://www.ua.pt/deca",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"strings",
+"MA",
+"Licenciatura em Música; Mestrado em Música (incl. Performance Jazz)",
+"https://www.ua.pt/deca",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"BA",
+"Licenciatura em Música; Mestrado em Música (incl. Performance Jazz)",
+"https://www.ua.pt/deca",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"MA",
+"Licenciatura em Música; Mestrado em Música (incl. Performance Jazz)",
+"https://www.ua.pt/deca",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"BA",
+"Licenciatura em Música; Mestrado em Música (incl. Performance Jazz)",
+"https://www.ua.pt/deca",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"MA",
+"Licenciatura em Música; Mestrado em Música (incl. Performance Jazz)",
+"https://www.ua.pt/deca",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"BA",
+"Licenciatura em Música; Mestrado em Música (incl. Performance Jazz)",
+"https://www.ua.pt/deca",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"MA",
+"Licenciatura em Música; Mestrado em Música (incl. Performance Jazz)",
+"https://www.ua.pt/deca",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"BA",
+"Licenciatura em Música; Mestrado em Música (incl. Performance Jazz)",
+"https://www.ua.pt/deca",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"MA",
+"Licenciatura em Música; Mestrado em Música (incl. Performance Jazz)",
+"https://www.ua.pt/deca",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"BA",
+"Licenciatura em Música; Mestrado em Música (incl. Performance Jazz)",
+"https://www.ua.pt/deca",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"MA",
+"Licenciatura em Música; Mestrado em Música (incl. Performance Jazz)",
+"https://www.ua.pt/deca",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"jazz",
+"BA",
+"Licenciatura em Música; Mestrado em Música (incl. Performance Jazz)",
+"https://www.ua.pt/deca",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"jazz",
+"MA",
+"Licenciatura em Música; Mestrado em Música (incl. Performance Jazz)",
+"https://www.ua.pt/deca",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"music-education",
+"MA",
+"Mestrado em Ensino de Música",
+"https://www.ua.pt/pt/c/184/p"
+]
+],
+"SK BRATISL05": [
+[
+"church-music",
+"BA",
+"Cirkevná hudba",
+"https://htf.vsmu.sk/studium/"
+],
+[
+"church-music",
+"MA",
+"Cirkevná hudba",
+"https://htf.vsmu.sk/studium/"
+],
+[
+"accordion",
+"BA",
+"Klávesové nástroje (akordeón, klavír, organ)",
+"https://htf.vsmu.sk/studium/"
+],
+[
+"accordion",
+"MA",
+"Klávesové nástroje (akordeón, klavír, organ)",
+"https://htf.vsmu.sk/studium/"
+],
+[
+"piano",
+"BA",
+"Klávesové nástroje (akordeón, klavír, organ)",
+"https://htf.vsmu.sk/studium/"
+],
+[
+"piano",
+"MA",
+"Klávesové nástroje (akordeón, klavír, organ)",
+"https://htf.vsmu.sk/studium/"
+],
+[
+"organ",
+"BA",
+"Klávesové nástroje (akordeón, klavír, organ)",
+"https://htf.vsmu.sk/studium/"
+],
+[
+"organ",
+"MA",
+"Klávesové nástroje (akordeón, klavír, organ)",
+"https://htf.vsmu.sk/studium/"
+],
+[
+"chamber-music",
+"MA",
+"Komorná hra",
+"https://htf.vsmu.sk/studium/"
+],
+[
+"composition",
+"BA",
+"Skladba a dirigovanie (skladba, dirigovanie orchestra, dirigovanie zboru)",
+"https://htf.vsmu.sk/studium/"
+],
+[
+"composition",
+"MA",
+"Skladba a dirigovanie (skladba, dirigovanie orchestra, dirigovanie zboru)",
+"https://htf.vsmu.sk/studium/"
+],
+[
+"conducting",
+"BA",
+"Skladba a dirigovanie (skladba, dirigovanie orchestra, dirigovanie zboru)",
+"https://htf.vsmu.sk/studium/"
+],
+[
+"conducting",
+"MA",
+"Skladba a dirigovanie (skladba, dirigovanie orchestra, dirigovanie zboru)",
+"https://htf.vsmu.sk/studium/"
+],
+[
+"vocal-opera",
+"BA",
+"Spev",
+"https://htf.vsmu.sk/studium/"
+],
+[
+"vocal-opera",
+"MA",
+"Spev",
+"https://htf.vsmu.sk/studium/"
+],
+[
+"strings",
+"BA",
+"Strunové a dychové nástroje",
+"https://htf.vsmu.sk/studium/"
+],
+[
+"strings",
+"MA",
+"Strunové a dychové nástroje",
+"https://htf.vsmu.sk/studium/"
+],
+[
+"guitar",
+"BA",
+"Strunové a dychové nástroje",
+"https://htf.vsmu.sk/studium/"
+],
+[
+"guitar",
+"MA",
+"Strunové a dychové nástroje",
+"https://htf.vsmu.sk/studium/"
+],
+[
+"harp",
+"BA",
+"Strunové a dychové nástroje",
+"https://htf.vsmu.sk/studium/"
+],
+[
+"harp",
+"MA",
+"Strunové a dychové nástroje",
+"https://htf.vsmu.sk/studium/"
+],
+[
+"woodwind",
+"BA",
+"Strunové a dychové nástroje",
+"https://htf.vsmu.sk/studium/"
+],
+[
+"woodwind",
+"MA",
+"Strunové a dychové nástroje",
+"https://htf.vsmu.sk/studium/"
+],
+[
+"brass",
+"BA",
+"Strunové a dychové nástroje",
+"https://htf.vsmu.sk/studium/"
+],
+[
+"brass",
+"MA",
+"Strunové a dychové nástroje",
+"https://htf.vsmu.sk/studium/"
+],
+[
+"music-theory",
+"BA",
+"Teória a dramaturgia hudby (teória hudby, dramaturgia a manažment hudby)",
+"https://htf.vsmu.sk/studium/"
+],
+[
+"music-theory",
+"MA",
+"Teória a dramaturgia hudby (teória hudby, dramaturgia a manažment hudby)",
+"https://htf.vsmu.sk/studium/"
+],
+[
+"arts-management",
+"BA",
+"Teória a dramaturgia hudby (teória hudby, dramaturgia a manažment hudby)",
+"https://htf.vsmu.sk/studium/"
+],
+[
+"arts-management",
+"MA",
+"Teória a dramaturgia hudby (teória hudby, dramaturgia a manažment hudby)",
+"https://htf.vsmu.sk/studium/"
+]
+],
+"SI LJUBLJA01": [
+[
+"strings",
+"BA",
+"Glasbena umetnost (26 smeri, I. in II. stopnja)",
+"https://www.ag.uni-lj.si/studij/predstavitev-studija"
+],
+[
+"strings",
+"MA",
+"Glasbena umetnost (26 smeri, I. in II. stopnja)",
+"https://www.ag.uni-lj.si/studij/predstavitev-studija"
+],
+[
+"harp",
+"BA",
+"Glasbena umetnost (26 smeri, I. in II. stopnja)",
+"https://www.ag.uni-lj.si/studij/predstavitev-studija"
+],
+[
+"harp",
+"MA",
+"Glasbena umetnost (26 smeri, I. in II. stopnja)",
+"https://www.ag.uni-lj.si/studij/predstavitev-studija"
+],
+[
+"guitar",
+"BA",
+"Glasbena umetnost (26 smeri, I. in II. stopnja)",
+"https://www.ag.uni-lj.si/studij/predstavitev-studija"
+],
+[
+"guitar",
+"MA",
+"Glasbena umetnost (26 smeri, I. in II. stopnja)",
+"https://www.ag.uni-lj.si/studij/predstavitev-studija"
+],
+[
+"piano",
+"BA",
+"Glasbena umetnost (26 smeri, I. in II. stopnja)",
+"https://www.ag.uni-lj.si/studij/predstavitev-studija"
+],
+[
+"piano",
+"MA",
+"Glasbena umetnost (26 smeri, I. in II. stopnja)",
+"https://www.ag.uni-lj.si/studij/predstavitev-studija"
+],
+[
+"organ",
+"BA",
+"Glasbena umetnost (26 smeri, I. in II. stopnja)",
+"https://www.ag.uni-lj.si/studij/predstavitev-studija"
+],
+[
+"organ",
+"MA",
+"Glasbena umetnost (26 smeri, I. in II. stopnja)",
+"https://www.ag.uni-lj.si/studij/predstavitev-studija"
+],
+[
+"accordion",
+"BA",
+"Glasbena umetnost (26 smeri, I. in II. stopnja)",
+"https://www.ag.uni-lj.si/studij/predstavitev-studija"
+],
+[
+"accordion",
+"MA",
+"Glasbena umetnost (26 smeri, I. in II. stopnja)",
+"https://www.ag.uni-lj.si/studij/predstavitev-studija"
+],
+[
+"woodwind",
+"BA",
+"Glasbena umetnost (26 smeri, I. in II. stopnja)",
+"https://www.ag.uni-lj.si/studij/predstavitev-studija"
+],
+[
+"woodwind",
+"MA",
+"Glasbena umetnost (26 smeri, I. in II. stopnja)",
+"https://www.ag.uni-lj.si/studij/predstavitev-studija"
+],
+[
+"brass",
+"BA",
+"Glasbena umetnost (26 smeri, I. in II. stopnja)",
+"https://www.ag.uni-lj.si/studij/predstavitev-studija"
+],
+[
+"brass",
+"MA",
+"Glasbena umetnost (26 smeri, I. in II. stopnja)",
+"https://www.ag.uni-lj.si/studij/predstavitev-studija"
+],
+[
+"percussion",
+"BA",
+"Glasbena umetnost (26 smeri, I. in II. stopnja)",
+"https://www.ag.uni-lj.si/studij/predstavitev-studija"
+],
+[
+"percussion",
+"MA",
+"Glasbena umetnost (26 smeri, I. in II. stopnja)",
+"https://www.ag.uni-lj.si/studij/predstavitev-studija"
+],
+[
+"vocal-opera",
+"BA",
+"Glasbena umetnost (26 smeri, I. in II. stopnja)",
+"https://www.ag.uni-lj.si/studij/predstavitev-studija"
+],
+[
+"vocal-opera",
+"MA",
+"Glasbena umetnost (26 smeri, I. in II. stopnja)",
+"https://www.ag.uni-lj.si/studij/predstavitev-studija"
+],
+[
+"conducting",
+"BA",
+"Glasbena umetnost (26 smeri, I. in II. stopnja)",
+"https://www.ag.uni-lj.si/studij/predstavitev-studija"
+],
+[
+"conducting",
+"MA",
+"Glasbena umetnost (26 smeri, I. in II. stopnja)",
+"https://www.ag.uni-lj.si/studij/predstavitev-studija"
+],
+[
+"composition",
+"BA",
+"Glasbena umetnost (26 smeri, I. in II. stopnja)",
+"https://www.ag.uni-lj.si/studij/predstavitev-studija"
+],
+[
+"composition",
+"MA",
+"Glasbena umetnost (26 smeri, I. in II. stopnja)",
+"https://www.ag.uni-lj.si/studij/predstavitev-studija"
+],
+[
+"church-music",
+"BA",
+"Glasbena umetnost (26 smeri, I. in II. stopnja)",
+"https://www.ag.uni-lj.si/studij/predstavitev-studija"
+],
+[
+"church-music",
+"MA",
+"Glasbena umetnost (26 smeri, I. in II. stopnja)",
+"https://www.ag.uni-lj.si/studij/predstavitev-studija"
+],
+[
+"early-music",
+"BA",
+"Glasbena umetnost – čembalo, kljunasta flavta",
+"https://www.ag.uni-lj.si/studij/oddelki-in-katedre-1"
+],
+[
+"early-music",
+"MA",
+"Glasbena umetnost – čembalo, kljunasta flavta",
+"https://www.ag.uni-lj.si/studij/oddelki-in-katedre-1"
+],
+[
+"music-education",
+"BA",
+"Glasbena pedagogika; Instrumentalna in pevska pedagogika (II. stopnja)",
+"https://www.ag.uni-lj.si/studij/podiplomski-studij-ii-stopnje"
+],
+[
+"music-education",
+"MA",
+"Glasbena pedagogika; Instrumentalna in pevska pedagogika (II. stopnja)",
+"https://www.ag.uni-lj.si/studij/podiplomski-studij-ii-stopnje"
+]
+],
+"RO CLUJNAP02": [
+[
+"vocal-opera",
+"MA",
+"Masterat Interpretare muzicală: Canto, Instrumente cu coarde, Instrumente de suflat și percuție",
+"https://anmgd.ro/oferta-educationala/master/facultatea-de-interpretare-muzicala/"
+],
+[
+"strings",
+"MA",
+"Masterat Interpretare muzicală: Canto, Instrumente cu coarde, Instrumente de suflat și percuție",
+"https://anmgd.ro/oferta-educationala/master/facultatea-de-interpretare-muzicala/"
+],
+[
+"woodwind",
+"MA",
+"Masterat Interpretare muzicală: Canto, Instrumente cu coarde, Instrumente de suflat și percuție",
+"https://anmgd.ro/oferta-educationala/master/facultatea-de-interpretare-muzicala/"
+],
+[
+"brass",
+"MA",
+"Masterat Interpretare muzicală: Canto, Instrumente cu coarde, Instrumente de suflat și percuție",
+"https://anmgd.ro/oferta-educationala/master/facultatea-de-interpretare-muzicala/"
+],
+[
+"percussion",
+"MA",
+"Masterat Interpretare muzicală: Canto, Instrumente cu coarde, Instrumente de suflat și percuție",
+"https://anmgd.ro/oferta-educationala/master/facultatea-de-interpretare-muzicala/"
+],
+[
+"music-education",
+"MA",
+"Pedagogie muzicală / Artă muzicală; Compoziţie, Muzicologie, Dirijat",
+"https://anmgd.ro/oferta-educationala/master/facultatea-teoretica/"
+],
+[
+"composition",
+"MA",
+"Pedagogie muzicală / Artă muzicală; Compoziţie, Muzicologie, Dirijat",
+"https://anmgd.ro/oferta-educationala/master/facultatea-teoretica/"
+],
+[
+"musicology",
+"MA",
+"Pedagogie muzicală / Artă muzicală; Compoziţie, Muzicologie, Dirijat",
+"https://anmgd.ro/oferta-educationala/master/facultatea-teoretica/"
+],
+[
+"conducting",
+"MA",
+"Pedagogie muzicală / Artă muzicală; Compoziţie, Muzicologie, Dirijat",
+"https://anmgd.ro/oferta-educationala/master/facultatea-teoretica/"
+]
+],
+"RO IASI01": [
+[
+"piano",
+"BA",
+"Interpretare muzicală – Instrumente",
+"https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/interpretare-muzicala-instrumente/"
+],
+[
+"piano",
+"MA",
+"Interpretare muzicală – Instrumente",
+"https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/interpretare-muzicala-instrumente/"
+],
+[
+"strings",
+"BA",
+"Interpretare muzicală – Instrumente",
+"https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/interpretare-muzicala-instrumente/"
+],
+[
+"strings",
+"MA",
+"Interpretare muzicală – Instrumente",
+"https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/interpretare-muzicala-instrumente/"
+],
+[
+"woodwind",
+"BA",
+"Interpretare muzicală – Instrumente",
+"https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/interpretare-muzicala-instrumente/"
+],
+[
+"woodwind",
+"MA",
+"Interpretare muzicală – Instrumente",
+"https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/interpretare-muzicala-instrumente/"
+],
+[
+"brass",
+"BA",
+"Interpretare muzicală – Instrumente",
+"https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/interpretare-muzicala-instrumente/"
+],
+[
+"brass",
+"MA",
+"Interpretare muzicală – Instrumente",
+"https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/interpretare-muzicala-instrumente/"
+],
+[
+"percussion",
+"BA",
+"Interpretare muzicală – Instrumente",
+"https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/interpretare-muzicala-instrumente/"
+],
+[
+"percussion",
+"MA",
+"Interpretare muzicală – Instrumente",
+"https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/interpretare-muzicala-instrumente/"
+],
+[
+"accordion",
+"BA",
+"Interpretare muzicală – Instrumente",
+"https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/interpretare-muzicala-instrumente/"
+],
+[
+"accordion",
+"MA",
+"Interpretare muzicală – Instrumente",
+"https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/interpretare-muzicala-instrumente/"
+],
+[
+"vocal-opera",
+"BA",
+"Interpretare muzicală – Canto",
+"https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/interpretare-muzicala-canto/"
+],
+[
+"vocal-opera",
+"MA",
+"Interpretare muzicală – Canto",
+"https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/interpretare-muzicala-canto/"
+],
+[
+"composition",
+"BA",
+"Compoziție muzicală (clasică)",
+"https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/compozitie-muzicala-compozitie-clasica-compozitie-muzica-usoara-jazz/"
+],
+[
+"composition",
+"MA",
+"Compoziție muzicală (clasică)",
+"https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/compozitie-muzicala-compozitie-clasica-compozitie-muzica-usoara-jazz/"
+],
+[
+"jazz",
+"BA",
+"Compoziție muzicală – muzică ușoară și jazz",
+"https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/compozitie-muzicala-compozitie-clasica-compozitie-muzica-usoara-jazz/"
+],
+[
+"popular-music",
+"BA",
+"Compoziție muzicală – muzică ușoară și jazz",
+"https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-de-licenta/compozitie-muzicala-compozitie-clasica-compozitie-muzica-usoara-jazz/"
+],
+[
+"conducting",
+"BA",
+"Dirijat; Muzicologie; Muzică religioasă",
+"https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-masterat/"
+],
+[
+"conducting",
+"MA",
+"Dirijat; Muzicologie; Muzică religioasă",
+"https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-masterat/"
+],
+[
+"musicology",
+"BA",
+"Dirijat; Muzicologie; Muzică religioasă",
+"https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-masterat/"
+],
+[
+"musicology",
+"MA",
+"Dirijat; Muzicologie; Muzică religioasă",
+"https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-masterat/"
+],
+[
+"church-music",
+"BA",
+"Dirijat; Muzicologie; Muzică religioasă",
+"https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-masterat/"
+],
+[
+"church-music",
+"MA",
+"Dirijat; Muzicologie; Muzică religioasă",
+"https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/studii-masterat/"
+],
+[
+"music-education",
+"BA",
+"Muzică; Pedagogie muzicală",
+"https://www.arteiasi.ro/facultatea-de-interpretare-compozitie-si-studii-muzicale-teoretice/"
+]
+],
+"RO TARGU01": [
+[
+"music-education",
+"BA",
+"Muzică (licență); Educație muzicală contemporană (master)",
+"https://www.uat.ro/facultati-si-programe-de-studiu"
+],
+[
+"music-education",
+"MA",
+"Muzică (licență); Educație muzicală contemporană (master)",
+"https://www.uat.ro/facultati-si-programe-de-studiu"
+],
+[
+"composition",
+"BA",
+"Concepții muzicale contemporane",
+"https://www.uat.ro/facultati-si-programe-de-studiu"
+]
+],
+"RS BELGRAD01": [
+[
+"piano",
+"BA",
+"Departments: Piano, String Instruments, Wind Instruments, Vocal Studies, Composition, Conducting, Music Theory, Musicology, Chamber Music",
+"https://www.fmu.bg.ac.rs/studies/study-programs/"
+],
+[
+"piano",
+"MA",
+"Departments: Piano, String Instruments, Wind Instruments, Vocal Studies, Composition, Conducting, Music Theory, Musicology, Chamber Music",
+"https://www.fmu.bg.ac.rs/studies/study-programs/"
+],
+[
+"strings",
+"BA",
+"Departments: Piano, String Instruments, Wind Instruments, Vocal Studies, Composition, Conducting, Music Theory, Musicology, Chamber Music",
+"https://www.fmu.bg.ac.rs/studies/study-programs/"
+],
+[
+"strings",
+"MA",
+"Departments: Piano, String Instruments, Wind Instruments, Vocal Studies, Composition, Conducting, Music Theory, Musicology, Chamber Music",
+"https://www.fmu.bg.ac.rs/studies/study-programs/"
+],
+[
+"woodwind",
+"BA",
+"Departments: Piano, String Instruments, Wind Instruments, Vocal Studies, Composition, Conducting, Music Theory, Musicology, Chamber Music",
+"https://www.fmu.bg.ac.rs/studies/study-programs/"
+],
+[
+"woodwind",
+"MA",
+"Departments: Piano, String Instruments, Wind Instruments, Vocal Studies, Composition, Conducting, Music Theory, Musicology, Chamber Music",
+"https://www.fmu.bg.ac.rs/studies/study-programs/"
+],
+[
+"brass",
+"BA",
+"Departments: Piano, String Instruments, Wind Instruments, Vocal Studies, Composition, Conducting, Music Theory, Musicology, Chamber Music",
+"https://www.fmu.bg.ac.rs/studies/study-programs/"
+],
+[
+"brass",
+"MA",
+"Departments: Piano, String Instruments, Wind Instruments, Vocal Studies, Composition, Conducting, Music Theory, Musicology, Chamber Music",
+"https://www.fmu.bg.ac.rs/studies/study-programs/"
+],
+[
+"vocal-opera",
+"BA",
+"Departments: Piano, String Instruments, Wind Instruments, Vocal Studies, Composition, Conducting, Music Theory, Musicology, Chamber Music",
+"https://www.fmu.bg.ac.rs/studies/study-programs/"
+],
+[
+"vocal-opera",
+"MA",
+"Departments: Piano, String Instruments, Wind Instruments, Vocal Studies, Composition, Conducting, Music Theory, Musicology, Chamber Music",
+"https://www.fmu.bg.ac.rs/studies/study-programs/"
+],
+[
+"composition",
+"BA",
+"Departments: Piano, String Instruments, Wind Instruments, Vocal Studies, Composition, Conducting, Music Theory, Musicology, Chamber Music",
+"https://www.fmu.bg.ac.rs/studies/study-programs/"
+],
+[
+"composition",
+"MA",
+"Departments: Piano, String Instruments, Wind Instruments, Vocal Studies, Composition, Conducting, Music Theory, Musicology, Chamber Music",
+"https://www.fmu.bg.ac.rs/studies/study-programs/"
+],
+[
+"conducting",
+"BA",
+"Departments: Piano, String Instruments, Wind Instruments, Vocal Studies, Composition, Conducting, Music Theory, Musicology, Chamber Music",
+"https://www.fmu.bg.ac.rs/studies/study-programs/"
+],
+[
+"conducting",
+"MA",
+"Departments: Piano, String Instruments, Wind Instruments, Vocal Studies, Composition, Conducting, Music Theory, Musicology, Chamber Music",
+"https://www.fmu.bg.ac.rs/studies/study-programs/"
+],
+[
+"music-theory",
+"BA",
+"Departments: Piano, String Instruments, Wind Instruments, Vocal Studies, Composition, Conducting, Music Theory, Musicology, Chamber Music",
+"https://www.fmu.bg.ac.rs/studies/study-programs/"
+],
+[
+"music-theory",
+"MA",
+"Departments: Piano, String Instruments, Wind Instruments, Vocal Studies, Composition, Conducting, Music Theory, Musicology, Chamber Music",
+"https://www.fmu.bg.ac.rs/studies/study-programs/"
+],
+[
+"musicology",
+"BA",
+"Departments: Piano, String Instruments, Wind Instruments, Vocal Studies, Composition, Conducting, Music Theory, Musicology, Chamber Music",
+"https://www.fmu.bg.ac.rs/studies/study-programs/"
+],
+[
+"musicology",
+"MA",
+"Departments: Piano, String Instruments, Wind Instruments, Vocal Studies, Composition, Conducting, Music Theory, Musicology, Chamber Music",
+"https://www.fmu.bg.ac.rs/studies/study-programs/"
+],
+[
+"chamber-music",
+"BA",
+"Departments: Piano, String Instruments, Wind Instruments, Vocal Studies, Composition, Conducting, Music Theory, Musicology, Chamber Music",
+"https://www.fmu.bg.ac.rs/studies/study-programs/"
+],
+[
+"chamber-music",
+"MA",
+"Departments: Piano, String Instruments, Wind Instruments, Vocal Studies, Composition, Conducting, Music Theory, Musicology, Chamber Music",
+"https://www.fmu.bg.ac.rs/studies/study-programs/"
+],
+[
+"jazz",
+"BA",
+"Department of Jazz and Popular Music",
+"https://www.fmu.bg.ac.rs/studies/study-programs/"
+],
+[
+"jazz",
+"MA",
+"Department of Jazz and Popular Music",
+"https://www.fmu.bg.ac.rs/studies/study-programs/"
+],
+[
+"popular-music",
+"BA",
+"Department of Jazz and Popular Music",
+"https://www.fmu.bg.ac.rs/studies/study-programs/"
+],
+[
+"popular-music",
+"MA",
+"Department of Jazz and Popular Music",
+"https://www.fmu.bg.ac.rs/studies/study-programs/"
+],
+[
+"music-education",
+"BA",
+"Solfeggio and Music Pedagogy Department",
+"https://www.fmu.bg.ac.rs/studies/study-programs/"
+],
+[
+"music-education",
+"MA",
+"Solfeggio and Music Pedagogy Department",
+"https://www.fmu.bg.ac.rs/studies/study-programs/"
+],
+[
+"folk",
+"BA",
+"Department of Ethnomusicology",
+"https://www.fmu.bg.ac.rs/about-us/structure/departments/department-of-ethnomusicology/"
+],
+[
+"folk",
+"MA",
+"Department of Ethnomusicology",
+"https://www.fmu.bg.ac.rs/about-us/structure/departments/department-of-ethnomusicology/"
+]
+],
+"RS NOVISAD02": [
+[
+"piano",
+"BA",
+"Izvođačke umetnosti: klavir, gudački, duvački, gitara, harfa, orgulje, udaraljke, solo pevanje",
+"https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/"
+],
+[
+"piano",
+"MA",
+"Izvođačke umetnosti: klavir, gudački, duvački, gitara, harfa, orgulje, udaraljke, solo pevanje",
+"https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/"
+],
+[
+"strings",
+"BA",
+"Izvođačke umetnosti: klavir, gudački, duvački, gitara, harfa, orgulje, udaraljke, solo pevanje",
+"https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/"
+],
+[
+"strings",
+"MA",
+"Izvođačke umetnosti: klavir, gudački, duvački, gitara, harfa, orgulje, udaraljke, solo pevanje",
+"https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/"
+],
+[
+"woodwind",
+"BA",
+"Izvođačke umetnosti: klavir, gudački, duvački, gitara, harfa, orgulje, udaraljke, solo pevanje",
+"https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/"
+],
+[
+"woodwind",
+"MA",
+"Izvođačke umetnosti: klavir, gudački, duvački, gitara, harfa, orgulje, udaraljke, solo pevanje",
+"https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/"
+],
+[
+"brass",
+"BA",
+"Izvođačke umetnosti: klavir, gudački, duvački, gitara, harfa, orgulje, udaraljke, solo pevanje",
+"https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/"
+],
+[
+"brass",
+"MA",
+"Izvođačke umetnosti: klavir, gudački, duvački, gitara, harfa, orgulje, udaraljke, solo pevanje",
+"https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/"
+],
+[
+"guitar",
+"BA",
+"Izvođačke umetnosti: klavir, gudački, duvački, gitara, harfa, orgulje, udaraljke, solo pevanje",
+"https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/"
+],
+[
+"guitar",
+"MA",
+"Izvođačke umetnosti: klavir, gudački, duvački, gitara, harfa, orgulje, udaraljke, solo pevanje",
+"https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/"
+],
+[
+"harp",
+"BA",
+"Izvođačke umetnosti: klavir, gudački, duvački, gitara, harfa, orgulje, udaraljke, solo pevanje",
+"https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/"
+],
+[
+"harp",
+"MA",
+"Izvođačke umetnosti: klavir, gudački, duvački, gitara, harfa, orgulje, udaraljke, solo pevanje",
+"https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/"
+],
+[
+"organ",
+"BA",
+"Izvođačke umetnosti: klavir, gudački, duvački, gitara, harfa, orgulje, udaraljke, solo pevanje",
+"https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/"
+],
+[
+"organ",
+"MA",
+"Izvođačke umetnosti: klavir, gudački, duvački, gitara, harfa, orgulje, udaraljke, solo pevanje",
+"https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/"
+],
+[
+"percussion",
+"BA",
+"Izvođačke umetnosti: klavir, gudački, duvački, gitara, harfa, orgulje, udaraljke, solo pevanje",
+"https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/"
+],
+[
+"percussion",
+"MA",
+"Izvođačke umetnosti: klavir, gudački, duvački, gitara, harfa, orgulje, udaraljke, solo pevanje",
+"https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/"
+],
+[
+"vocal-opera",
+"BA",
+"Izvođačke umetnosti: klavir, gudački, duvački, gitara, harfa, orgulje, udaraljke, solo pevanje",
+"https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/"
+],
+[
+"vocal-opera",
+"MA",
+"Izvođačke umetnosti: klavir, gudački, duvački, gitara, harfa, orgulje, udaraljke, solo pevanje",
+"https://akademija.uns.ac.rs/departman-muzicke-umetnosti-3/"
+],
+[
+"composition",
+"BA",
+"Kompozicija; Muzička pedagogija; Muzikologija i etnomuzikologija",
+"https://akademija.uns.ac.rs/studijski-programi/"
+],
+[
+"composition",
+"MA",
+"Kompozicija; Muzička pedagogija; Muzikologija i etnomuzikologija",
+"https://akademija.uns.ac.rs/studijski-programi/"
+],
+[
+"music-education",
+"BA",
+"Kompozicija; Muzička pedagogija; Muzikologija i etnomuzikologija",
+"https://akademija.uns.ac.rs/studijski-programi/"
+],
+[
+"music-education",
+"MA",
+"Kompozicija; Muzička pedagogija; Muzikologija i etnomuzikologija",
+"https://akademija.uns.ac.rs/studijski-programi/"
+],
+[
+"musicology",
+"BA",
+"Kompozicija; Muzička pedagogija; Muzikologija i etnomuzikologija",
+"https://akademija.uns.ac.rs/studijski-programi/"
+],
+[
+"musicology",
+"MA",
+"Kompozicija; Muzička pedagogija; Muzikologija i etnomuzikologija",
+"https://akademija.uns.ac.rs/studijski-programi/"
+],
+[
+"music-technology",
+"MA",
+"Muzika i mediji (master)",
+"https://akademija.uns.ac.rs/master-studije-muzika-i-mediji/"
+]
+],
+"S  GOTEBOR01": [
+[
+"church-music",
+"BA",
+"Konstnärligt kandidatprogram i musik, inriktning Kyrkomusik",
+"https://www.gu.se/studera/hitta-utbildning/konstnarligt-kandidatprogram-i-musik-inriktning-kyrkomusik-k1kyr"
+],
+[
+"organ",
+"BA",
+"Konstnärligt kandidatprogram i musik, inriktning Kyrkomusik",
+"https://www.gu.se/studera/hitta-utbildning/konstnarligt-kandidatprogram-i-musik-inriktning-kyrkomusik-k1kyr"
+],
+[
+"music-production",
+"BA",
+"Konstnärligt kandidatprogram i musik, inriktning Musik- och ljudproduktion",
+"https://www.gu.se/studera/hitta-utbildning/konstnarligt-kandidatprogram-i-musik-inriktning-musik-och-ljudproduktion-k1mlp"
+],
+[
+"composition",
+"BA",
+"Konstnärligt kandidatprogram i musik, inriktning Musik- och ljudproduktion",
+"https://www.gu.se/studera/hitta-utbildning/konstnarligt-kandidatprogram-i-musik-inriktning-musik-och-ljudproduktion-k1mlp"
+],
+[
+"composition",
+"BA",
+"Kandidatprogram, inriktning Komposition; Masterprogram Experimental Composition and Creation",
+"https://www.gu.se/studera/hitta-utbildning/konstnarligt-kandidatprogram-i-musik-inriktning-komposition-k1kmp"
+],
+[
+"composition",
+"MA",
+"Kandidatprogram, inriktning Komposition; Masterprogram Experimental Composition and Creation",
+"https://www.gu.se/studera/hitta-utbildning/konstnarligt-kandidatprogram-i-musik-inriktning-komposition-k1kmp"
+],
+[
+"jazz",
+"MA",
+"Masterprogram i musik: Improvisation or World Music",
+"https://www.gu.se/en/study-gothenburg/improvisation-or-world-music-k2miv"
+],
+[
+"global-music",
+"MA",
+"Masterprogram i musik: Improvisation or World Music",
+"https://www.gu.se/en/study-gothenburg/improvisation-or-world-music-k2miv"
+]
+],
+"S  LUND01": [
+[
+"strings",
+"BA",
+"Musikerutbildning – Symfoniorkesterinstrument (kandidat, master)",
+"https://www.mhm.lu.se/utbildning/musikerutbildningar/symfoniorkesterinstrument-0"
+],
+[
+"strings",
+"MA",
+"Musikerutbildning – Symfoniorkesterinstrument (kandidat, master)",
+"https://www.mhm.lu.se/utbildning/musikerutbildningar/symfoniorkesterinstrument-0"
+],
+[
+"woodwind",
+"BA",
+"Musikerutbildning – Symfoniorkesterinstrument (kandidat, master)",
+"https://www.mhm.lu.se/utbildning/musikerutbildningar/symfoniorkesterinstrument-0"
+],
+[
+"woodwind",
+"MA",
+"Musikerutbildning – Symfoniorkesterinstrument (kandidat, master)",
+"https://www.mhm.lu.se/utbildning/musikerutbildningar/symfoniorkesterinstrument-0"
+],
+[
+"brass",
+"BA",
+"Musikerutbildning – Symfoniorkesterinstrument (kandidat, master)",
+"https://www.mhm.lu.se/utbildning/musikerutbildningar/symfoniorkesterinstrument-0"
+],
+[
+"brass",
+"MA",
+"Musikerutbildning – Symfoniorkesterinstrument (kandidat, master)",
+"https://www.mhm.lu.se/utbildning/musikerutbildningar/symfoniorkesterinstrument-0"
+],
+[
+"percussion",
+"BA",
+"Musikerutbildning – Symfoniorkesterinstrument (kandidat, master)",
+"https://www.mhm.lu.se/utbildning/musikerutbildningar/symfoniorkesterinstrument-0"
+],
+[
+"percussion",
+"MA",
+"Musikerutbildning – Symfoniorkesterinstrument (kandidat, master)",
+"https://www.mhm.lu.se/utbildning/musikerutbildningar/symfoniorkesterinstrument-0"
+],
+[
+"harp",
+"BA",
+"Musikerutbildning – Symfoniorkesterinstrument (kandidat, master)",
+"https://www.mhm.lu.se/utbildning/musikerutbildningar/symfoniorkesterinstrument-0"
+],
+[
+"harp",
+"MA",
+"Musikerutbildning – Symfoniorkesterinstrument (kandidat, master)",
+"https://www.mhm.lu.se/utbildning/musikerutbildningar/symfoniorkesterinstrument-0"
+],
+[
+"vocal-opera",
+"MA",
+"Konstnärligt masterprogram i musik – Sång",
+"https://www.mhm.lu.se/utbildning/antagning/antagning-musiker-och-kyrkomusikerutbildningar/antagning-till-konstnarligt-masterprogram-i-musik/antagning-till-sang-master"
+],
+[
+"folk",
+"BA",
+"Konstnärligt kandidatprogram i musik – Folk- och världsmusik",
+"https://www.mhm.lu.se/utbildning/musikerutbildningar/folk-och-varldsmusik"
+],
+[
+"global-music",
+"BA",
+"Konstnärligt kandidatprogram i musik – Folk- och världsmusik",
+"https://www.mhm.lu.se/utbildning/musikerutbildningar/folk-och-varldsmusik"
+],
+[
+"church-music",
+"MA",
+"Konstnärligt masterprogram i kyrkomusik, Arrangering och komposition",
+"https://www.lu.se/lubas/i-uoh-lu-KAKYM-ARKO/18750"
+],
+[
+"composition",
+"MA",
+"Konstnärligt masterprogram i kyrkomusik, Arrangering och komposition",
+"https://www.lu.se/lubas/i-uoh-lu-KAKYM-ARKO/18750"
+],
+[
+"composition",
+"MA",
+"Konstnärligt masterprogram i musik, Komposition – Musik för film och media",
+"https://www.lu.se/lubas/i-uoh-lu-KAMUS-KOFM"
+],
+[
+"music-education",
+"BA",
+"Ämneslärarutbildning i musik för gymnasieskolan (incl. jazz)",
+"https://www.mhm.lu.se/utbildning/program-och-kurser/amneslararutbildning-i-musik-for-gymnasieskolan-gy/folk-och-0"
+],
+[
+"music-education",
+"MA",
+"Ämneslärarutbildning i musik för gymnasieskolan (incl. jazz)",
+"https://www.mhm.lu.se/utbildning/program-och-kurser/amneslararutbildning-i-musik-for-gymnasieskolan-gy/folk-och-0"
+],
+[
+"jazz",
+"BA",
+"Ämneslärarutbildning i musik för gymnasieskolan (incl. jazz)",
+"https://www.mhm.lu.se/utbildning/program-och-kurser/amneslararutbildning-i-musik-for-gymnasieskolan-gy/folk-och-0"
+],
+[
+"jazz",
+"MA",
+"Ämneslärarutbildning i musik för gymnasieskolan (incl. jazz)",
+"https://www.mhm.lu.se/utbildning/program-och-kurser/amneslararutbildning-i-musik-for-gymnasieskolan-gy/folk-och-0"
+]
+],
+"S  KARLSTA01": [
+[
+"strings",
+"BA",
+"Konstnärlig kandidat musiker (violin, viola, cello, kontrabas, piano, sång, gitarr, flöjt, klarinett)",
+"https://www.kau.se/musikhogskolan-ingesund/utbildning/program/konstnarlig-kandidat-musiker-180-hp/om-konstnarlig"
+],
+[
+"piano",
+"BA",
+"Konstnärlig kandidat musiker (violin, viola, cello, kontrabas, piano, sång, gitarr, flöjt, klarinett)",
+"https://www.kau.se/musikhogskolan-ingesund/utbildning/program/konstnarlig-kandidat-musiker-180-hp/om-konstnarlig"
+],
+[
+"vocal-opera",
+"BA",
+"Konstnärlig kandidat musiker (violin, viola, cello, kontrabas, piano, sång, gitarr, flöjt, klarinett)",
+"https://www.kau.se/musikhogskolan-ingesund/utbildning/program/konstnarlig-kandidat-musiker-180-hp/om-konstnarlig"
+],
+[
+"guitar",
+"BA",
+"Konstnärlig kandidat musiker (violin, viola, cello, kontrabas, piano, sång, gitarr, flöjt, klarinett)",
+"https://www.kau.se/musikhogskolan-ingesund/utbildning/program/konstnarlig-kandidat-musiker-180-hp/om-konstnarlig"
+],
+[
+"woodwind",
+"BA",
+"Konstnärlig kandidat musiker (violin, viola, cello, kontrabas, piano, sång, gitarr, flöjt, klarinett)",
+"https://www.kau.se/musikhogskolan-ingesund/utbildning/program/konstnarlig-kandidat-musiker-180-hp/om-konstnarlig"
+],
+[
+"music-education",
+"BA",
+"Musiklärarprogrammet 300 hp (folkmusik, klassisk, jazz)",
+"https://www.kau.se/musikhogskolan-ingesund/utbildning/program/musiklararprogrammet-300-hp/om-musiklararprogrammet"
+],
+[
+"music-education",
+"MA",
+"Musiklärarprogrammet 300 hp (folkmusik, klassisk, jazz)",
+"https://www.kau.se/musikhogskolan-ingesund/utbildning/program/musiklararprogrammet-300-hp/om-musiklararprogrammet"
+],
+[
+"jazz",
+"BA",
+"Musiklärarprogrammet 300 hp (folkmusik, klassisk, jazz)",
+"https://www.kau.se/musikhogskolan-ingesund/utbildning/program/musiklararprogrammet-300-hp/om-musiklararprogrammet"
+],
+[
+"jazz",
+"MA",
+"Musiklärarprogrammet 300 hp (folkmusik, klassisk, jazz)",
+"https://www.kau.se/musikhogskolan-ingesund/utbildning/program/musiklararprogrammet-300-hp/om-musiklararprogrammet"
+],
+[
+"folk",
+"BA",
+"Musiklärarprogrammet 300 hp (folkmusik, klassisk, jazz)",
+"https://www.kau.se/musikhogskolan-ingesund/utbildning/program/musiklararprogrammet-300-hp/om-musiklararprogrammet"
+],
+[
+"folk",
+"MA",
+"Musiklärarprogrammet 300 hp (folkmusik, klassisk, jazz)",
+"https://www.kau.se/musikhogskolan-ingesund/utbildning/program/musiklararprogrammet-300-hp/om-musiklararprogrammet"
+],
+[
+"music-production",
+"BA",
+"Musikproduktionsprogrammet 180 hp",
+"https://www.kau.se/musikhogskolan-ingesund/utbildning/program"
+]
+],
+"S  LULEA01": [
+[
+"strings",
+"BA",
+"Bachelor Programme in Music: Jazz, Classical, Composition, Music Production and Songwriting, Rock, Studio, Church Musician",
+"https://www.ltu.se/en/education/programme/kkmug-bachelor-programme-in-music",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"BA",
+"Bachelor Programme in Music: Jazz, Classical, Composition, Music Production and Songwriting, Rock, Studio, Church Musician",
+"https://www.ltu.se/en/education/programme/kkmug-bachelor-programme-in-music",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"BA",
+"Bachelor Programme in Music: Jazz, Classical, Composition, Music Production and Songwriting, Rock, Studio, Church Musician",
+"https://www.ltu.se/en/education/programme/kkmug-bachelor-programme-in-music",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"BA",
+"Bachelor Programme in Music: Jazz, Classical, Composition, Music Production and Songwriting, Rock, Studio, Church Musician",
+"https://www.ltu.se/en/education/programme/kkmug-bachelor-programme-in-music",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"BA",
+"Bachelor Programme in Music: Jazz, Classical, Composition, Music Production and Songwriting, Rock, Studio, Church Musician",
+"https://www.ltu.se/en/education/programme/kkmug-bachelor-programme-in-music",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"BA",
+"Bachelor Programme in Music: Jazz, Classical, Composition, Music Production and Songwriting, Rock, Studio, Church Musician",
+"https://www.ltu.se/en/education/programme/kkmug-bachelor-programme-in-music",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"jazz",
+"BA",
+"Bachelor Programme in Music: Jazz, Classical, Composition, Music Production and Songwriting, Rock, Studio, Church Musician",
+"https://www.ltu.se/en/education/programme/kkmug-bachelor-programme-in-music",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"popular-music",
+"BA",
+"Bachelor Programme in Music: Jazz, Classical, Composition, Music Production and Songwriting, Rock, Studio, Church Musician",
+"https://www.ltu.se/en/education/programme/kkmug-bachelor-programme-in-music",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"composition",
+"BA",
+"Bachelor Programme in Music: Jazz, Classical, Composition, Music Production and Songwriting, Rock, Studio, Church Musician",
+"https://www.ltu.se/en/education/programme/kkmug-bachelor-programme-in-music",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"music-production",
+"BA",
+"Bachelor Programme in Music: Jazz, Classical, Composition, Music Production and Songwriting, Rock, Studio, Church Musician",
+"https://www.ltu.se/en/education/programme/kkmug-bachelor-programme-in-music",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"church-music",
+"BA",
+"Bachelor Programme in Music: Jazz, Classical, Composition, Music Production and Songwriting, Rock, Studio, Church Musician",
+"https://www.ltu.se/en/education/programme/kkmug-bachelor-programme-in-music",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"strings",
+"MA",
+"Master Programme in Music Performance: musician, composition, conducting",
+"https://www.ltu.se/en/education/programme/kmmga-master-programme-in-music-performance",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"MA",
+"Master Programme in Music Performance: musician, composition, conducting",
+"https://www.ltu.se/en/education/programme/kmmga-master-programme-in-music-performance",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"MA",
+"Master Programme in Music Performance: musician, composition, conducting",
+"https://www.ltu.se/en/education/programme/kmmga-master-programme-in-music-performance",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"MA",
+"Master Programme in Music Performance: musician, composition, conducting",
+"https://www.ltu.se/en/education/programme/kmmga-master-programme-in-music-performance",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"MA",
+"Master Programme in Music Performance: musician, composition, conducting",
+"https://www.ltu.se/en/education/programme/kmmga-master-programme-in-music-performance",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"MA",
+"Master Programme in Music Performance: musician, composition, conducting",
+"https://www.ltu.se/en/education/programme/kmmga-master-programme-in-music-performance",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"composition",
+"MA",
+"Master Programme in Music Performance: musician, composition, conducting",
+"https://www.ltu.se/en/education/programme/kmmga-master-programme-in-music-performance",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"conducting",
+"MA",
+"Master Programme in Music Performance: musician, composition, conducting",
+"https://www.ltu.se/en/education/programme/kmmga-master-programme-in-music-performance",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+]
+],
+"S  OREBRO01": [
+[
+"jazz",
+"BA",
+"Konstnärligt kandidatprogram i musikalisk gestaltning, inriktning Jazz och pop",
+"https://www.oru.se/utbildning/program/konstnarligt-kandidatprogram-i-musikalisk-gestaltning-inriktning-jazz-och-pop/"
+],
+[
+"popular-music",
+"BA",
+"Konstnärligt kandidatprogram i musikalisk gestaltning, inriktning Jazz och pop",
+"https://www.oru.se/utbildning/program/konstnarligt-kandidatprogram-i-musikalisk-gestaltning-inriktning-jazz-och-pop/"
+],
+[
+"chamber-music",
+"BA",
+"Konstnärligt kandidatprogram: Kammarmusik, Komposition, Musikproduktion och songwriting",
+"https://www.oru.se/institutioner/musikhogskolan/utbildning/program/"
+],
+[
+"composition",
+"BA",
+"Konstnärligt kandidatprogram: Kammarmusik, Komposition, Musikproduktion och songwriting",
+"https://www.oru.se/institutioner/musikhogskolan/utbildning/program/"
+],
+[
+"music-production",
+"BA",
+"Konstnärligt kandidatprogram: Kammarmusik, Komposition, Musikproduktion och songwriting",
+"https://www.oru.se/institutioner/musikhogskolan/utbildning/program/"
+],
+[
+"music-education",
+"BA",
+"Ämneslärarprogrammet Musik",
+"https://www.oru.se/institutioner/musikhogskolan/utbildning/program/"
+],
+[
+"music-education",
+"MA",
+"Ämneslärarprogrammet Musik",
+"https://www.oru.se/institutioner/musikhogskolan/utbildning/program/"
+]
+],
+"S  STOCKHO15": [
+[
+"music-education",
+"BA",
+"Kandidatexamen i musikpedagogik (Instrument/Sång, Musikskapande)",
+"https://smi.se/pdf/blankett/smiUtbKat2024.pdf"
+],
+[
+"accordion",
+"BA",
+"Musikpedagogik – profiler: dragspel, bleckblås, bas, elgitarr, gitarr, piano, slagverk, stråk, sång, träblås",
+"https://smi.se/utbildningar/programutbildning/instrument-sang/index.html"
+],
+[
+"brass",
+"BA",
+"Musikpedagogik – profiler: dragspel, bleckblås, bas, elgitarr, gitarr, piano, slagverk, stråk, sång, träblås",
+"https://smi.se/utbildningar/programutbildning/instrument-sang/index.html"
+],
+[
+"guitar",
+"BA",
+"Musikpedagogik – profiler: dragspel, bleckblås, bas, elgitarr, gitarr, piano, slagverk, stråk, sång, träblås",
+"https://smi.se/utbildningar/programutbildning/instrument-sang/index.html"
+],
+[
+"piano",
+"BA",
+"Musikpedagogik – profiler: dragspel, bleckblås, bas, elgitarr, gitarr, piano, slagverk, stråk, sång, träblås",
+"https://smi.se/utbildningar/programutbildning/instrument-sang/index.html"
+],
+[
+"percussion",
+"BA",
+"Musikpedagogik – profiler: dragspel, bleckblås, bas, elgitarr, gitarr, piano, slagverk, stråk, sång, träblås",
+"https://smi.se/utbildningar/programutbildning/instrument-sang/index.html"
+],
+[
+"strings",
+"BA",
+"Musikpedagogik – profiler: dragspel, bleckblås, bas, elgitarr, gitarr, piano, slagverk, stråk, sång, träblås",
+"https://smi.se/utbildningar/programutbildning/instrument-sang/index.html"
+],
+[
+"vocal-opera",
+"BA",
+"Musikpedagogik – profiler: dragspel, bleckblås, bas, elgitarr, gitarr, piano, slagverk, stråk, sång, träblås",
+"https://smi.se/utbildningar/programutbildning/instrument-sang/index.html"
+],
+[
+"woodwind",
+"BA",
+"Musikpedagogik – profiler: dragspel, bleckblås, bas, elgitarr, gitarr, piano, slagverk, stråk, sång, träblås",
+"https://smi.se/utbildningar/programutbildning/instrument-sang/index.html"
+],
+[
+"composition",
+"BA",
+"Musikpedagogik – Musikskapande (låtskrivande, musikproduktion, komposition)",
+"https://smi.se/pdf/blankett/smiUtbKat2024.pdf"
+],
+[
+"music-production",
+"BA",
+"Musikpedagogik – Musikskapande (låtskrivande, musikproduktion, komposition)",
+"https://smi.se/pdf/blankett/smiUtbKat2024.pdf"
+]
+],
+"S  STOCKHO27": [
+[
+"vocal-opera",
+"BA",
+"Kandidatprogram i opera med inriktning sång",
+"https://www.uniarts.se/utbildningar/kandidatprogram/kandidatprogram-i-opera-med-inriktning-sang/"
+],
+[
+"vocal-opera",
+"MA",
+"Magisterprogram i opera med inriktning sång",
+"https://www.uniarts.se/utbildningar/magister-masterprogram/magisterprogram-i-opera-med-inriktning-sang/"
+]
+],
+"TR ANKARA26": [
+[
+"piano",
+"BA",
+"Müzik ve Sahne Sanatları Fakültesi – Çalgı Eğitimi Bölümü; Çalgı Eğitimi Ana Sanat Dalı (yüksek lisans)",
+"https://www.mgu.edu.tr/muzik-ve-sahne-sanatlari-fakultesi/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"MA",
+"Müzik ve Sahne Sanatları Fakültesi – Çalgı Eğitimi Bölümü; Çalgı Eğitimi Ana Sanat Dalı (yüksek lisans)",
+"https://www.mgu.edu.tr/muzik-ve-sahne-sanatlari-fakultesi/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"harp",
+"BA",
+"Müzik ve Sahne Sanatları Fakültesi – Çalgı Eğitimi Bölümü; Çalgı Eğitimi Ana Sanat Dalı (yüksek lisans)",
+"https://www.mgu.edu.tr/muzik-ve-sahne-sanatlari-fakultesi/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"harp",
+"MA",
+"Müzik ve Sahne Sanatları Fakültesi – Çalgı Eğitimi Bölümü; Çalgı Eğitimi Ana Sanat Dalı (yüksek lisans)",
+"https://www.mgu.edu.tr/muzik-ve-sahne-sanatlari-fakultesi/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"guitar",
+"BA",
+"Müzik ve Sahne Sanatları Fakültesi – Çalgı Eğitimi Bölümü; Çalgı Eğitimi Ana Sanat Dalı (yüksek lisans)",
+"https://www.mgu.edu.tr/muzik-ve-sahne-sanatlari-fakultesi/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"guitar",
+"MA",
+"Müzik ve Sahne Sanatları Fakültesi – Çalgı Eğitimi Bölümü; Çalgı Eğitimi Ana Sanat Dalı (yüksek lisans)",
+"https://www.mgu.edu.tr/muzik-ve-sahne-sanatlari-fakultesi/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"strings",
+"BA",
+"Müzik ve Sahne Sanatları Fakültesi – Çalgı Eğitimi Bölümü; Çalgı Eğitimi Ana Sanat Dalı (yüksek lisans)",
+"https://www.mgu.edu.tr/muzik-ve-sahne-sanatlari-fakultesi/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"strings",
+"MA",
+"Müzik ve Sahne Sanatları Fakültesi – Çalgı Eğitimi Bölümü; Çalgı Eğitimi Ana Sanat Dalı (yüksek lisans)",
+"https://www.mgu.edu.tr/muzik-ve-sahne-sanatlari-fakultesi/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"BA",
+"Müzik ve Sahne Sanatları Fakültesi – Çalgı Eğitimi Bölümü; Çalgı Eğitimi Ana Sanat Dalı (yüksek lisans)",
+"https://www.mgu.edu.tr/muzik-ve-sahne-sanatlari-fakultesi/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"MA",
+"Müzik ve Sahne Sanatları Fakültesi – Çalgı Eğitimi Bölümü; Çalgı Eğitimi Ana Sanat Dalı (yüksek lisans)",
+"https://www.mgu.edu.tr/muzik-ve-sahne-sanatlari-fakultesi/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"BA",
+"Müzik ve Sahne Sanatları Fakültesi – Çalgı Eğitimi Bölümü; Çalgı Eğitimi Ana Sanat Dalı (yüksek lisans)",
+"https://www.mgu.edu.tr/muzik-ve-sahne-sanatlari-fakultesi/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"MA",
+"Müzik ve Sahne Sanatları Fakültesi – Çalgı Eğitimi Bölümü; Çalgı Eğitimi Ana Sanat Dalı (yüksek lisans)",
+"https://www.mgu.edu.tr/muzik-ve-sahne-sanatlari-fakultesi/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"BA",
+"Müzik ve Sahne Sanatları Fakültesi – Çalgı Eğitimi Bölümü; Çalgı Eğitimi Ana Sanat Dalı (yüksek lisans)",
+"https://www.mgu.edu.tr/muzik-ve-sahne-sanatlari-fakultesi/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"MA",
+"Müzik ve Sahne Sanatları Fakültesi – Çalgı Eğitimi Bölümü; Çalgı Eğitimi Ana Sanat Dalı (yüksek lisans)",
+"https://www.mgu.edu.tr/muzik-ve-sahne-sanatlari-fakultesi/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"BA",
+"Ses Eğitimi Bölümü; Ses Eğitimi Ana Sanat Dalı (yüksek lisans)",
+"https://www.mgu.edu.tr/ses-egitimi-bolumu-akademik-kadro/"
+],
+[
+"vocal-opera",
+"MA",
+"Ses Eğitimi Bölümü; Ses Eğitimi Ana Sanat Dalı (yüksek lisans)",
+"https://www.mgu.edu.tr/ses-egitimi-bolumu-akademik-kadro/"
+],
+[
+"composition",
+"BA",
+"Bestecilik / Kompozisyon ve Orkestra Şefliği; Bestecilik tezli yüksek lisans",
+"https://www.mgu.edu.tr/muzik-ve-guzel-sanatlar-enstitusu/"
+],
+[
+"composition",
+"MA",
+"Bestecilik / Kompozisyon ve Orkestra Şefliği; Bestecilik tezli yüksek lisans",
+"https://www.mgu.edu.tr/muzik-ve-guzel-sanatlar-enstitusu/"
+],
+[
+"conducting",
+"BA",
+"Bestecilik / Kompozisyon ve Orkestra Şefliği; Bestecilik tezli yüksek lisans",
+"https://www.mgu.edu.tr/muzik-ve-guzel-sanatlar-enstitusu/"
+],
+[
+"conducting",
+"MA",
+"Bestecilik / Kompozisyon ve Orkestra Şefliği; Bestecilik tezli yüksek lisans",
+"https://www.mgu.edu.tr/muzik-ve-guzel-sanatlar-enstitusu/"
+],
+[
+"jazz",
+"BA",
+"Sahne Sanatları Bölümü – Caz ve Popüler Müzik ASD",
+"https://www.mgu.edu.tr/sahne-sanatlari-bolumu/"
+],
+[
+"popular-music",
+"BA",
+"Sahne Sanatları Bölümü – Caz ve Popüler Müzik ASD",
+"https://www.mgu.edu.tr/sahne-sanatlari-bolumu/"
+],
+[
+"folk",
+"BA",
+"Türk Halk Müziği; Çalgı Eğitimi – saz/bağlama",
+"https://www.mgu.edu.tr/calgi-egitimi-bolumu-saz-baglama/"
+],
+[
+"music-technology",
+"BA",
+"Müzik Bilimleri ve Teknolojileri Fakültesi; Müzik Teknolojileri tezli yüksek lisans",
+"https://www.mgu.edu.tr/muzik-ve-guzel-sanatlar-enstitusu-muzik-teknolojileri-tezli-yuksek-lisans-programi/"
+],
+[
+"music-technology",
+"MA",
+"Müzik Bilimleri ve Teknolojileri Fakültesi; Müzik Teknolojileri tezli yüksek lisans",
+"https://www.mgu.edu.tr/muzik-ve-guzel-sanatlar-enstitusu-muzik-teknolojileri-tezli-yuksek-lisans-programi/"
+]
+],
+"TR ISTANBU06": [
+[
+"piano",
+"BA",
+"Müzik Bölümü: Piyano-Arp-Gitar, Yaylı Çalgılar, Üflemeli ve Vurmalı Çalgılar",
+"https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/"
+],
+[
+"piano",
+"MA",
+"Müzik Bölümü: Piyano-Arp-Gitar, Yaylı Çalgılar, Üflemeli ve Vurmalı Çalgılar",
+"https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/"
+],
+[
+"harp",
+"BA",
+"Müzik Bölümü: Piyano-Arp-Gitar, Yaylı Çalgılar, Üflemeli ve Vurmalı Çalgılar",
+"https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/"
+],
+[
+"harp",
+"MA",
+"Müzik Bölümü: Piyano-Arp-Gitar, Yaylı Çalgılar, Üflemeli ve Vurmalı Çalgılar",
+"https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/"
+],
+[
+"guitar",
+"BA",
+"Müzik Bölümü: Piyano-Arp-Gitar, Yaylı Çalgılar, Üflemeli ve Vurmalı Çalgılar",
+"https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/"
+],
+[
+"guitar",
+"MA",
+"Müzik Bölümü: Piyano-Arp-Gitar, Yaylı Çalgılar, Üflemeli ve Vurmalı Çalgılar",
+"https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/"
+],
+[
+"strings",
+"BA",
+"Müzik Bölümü: Piyano-Arp-Gitar, Yaylı Çalgılar, Üflemeli ve Vurmalı Çalgılar",
+"https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/"
+],
+[
+"strings",
+"MA",
+"Müzik Bölümü: Piyano-Arp-Gitar, Yaylı Çalgılar, Üflemeli ve Vurmalı Çalgılar",
+"https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/"
+],
+[
+"woodwind",
+"BA",
+"Müzik Bölümü: Piyano-Arp-Gitar, Yaylı Çalgılar, Üflemeli ve Vurmalı Çalgılar",
+"https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/"
+],
+[
+"woodwind",
+"MA",
+"Müzik Bölümü: Piyano-Arp-Gitar, Yaylı Çalgılar, Üflemeli ve Vurmalı Çalgılar",
+"https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/"
+],
+[
+"brass",
+"BA",
+"Müzik Bölümü: Piyano-Arp-Gitar, Yaylı Çalgılar, Üflemeli ve Vurmalı Çalgılar",
+"https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/"
+],
+[
+"brass",
+"MA",
+"Müzik Bölümü: Piyano-Arp-Gitar, Yaylı Çalgılar, Üflemeli ve Vurmalı Çalgılar",
+"https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/"
+],
+[
+"percussion",
+"BA",
+"Müzik Bölümü: Piyano-Arp-Gitar, Yaylı Çalgılar, Üflemeli ve Vurmalı Çalgılar",
+"https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/"
+],
+[
+"percussion",
+"MA",
+"Müzik Bölümü: Piyano-Arp-Gitar, Yaylı Çalgılar, Üflemeli ve Vurmalı Çalgılar",
+"https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/"
+],
+[
+"composition",
+"BA",
+"Bestecilik ve Orkestra Şefliği (bestecilik, orkestra şefliği, müzik teorisi)",
+"https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/"
+],
+[
+"composition",
+"MA",
+"Bestecilik ve Orkestra Şefliği (bestecilik, orkestra şefliği, müzik teorisi)",
+"https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/"
+],
+[
+"conducting",
+"BA",
+"Bestecilik ve Orkestra Şefliği (bestecilik, orkestra şefliği, müzik teorisi)",
+"https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/"
+],
+[
+"conducting",
+"MA",
+"Bestecilik ve Orkestra Şefliği (bestecilik, orkestra şefliği, müzik teorisi)",
+"https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/"
+],
+[
+"music-theory",
+"BA",
+"Bestecilik ve Orkestra Şefliği (bestecilik, orkestra şefliği, müzik teorisi)",
+"https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/"
+],
+[
+"music-theory",
+"MA",
+"Bestecilik ve Orkestra Şefliği (bestecilik, orkestra şefliği, müzik teorisi)",
+"https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzik-bolumu/"
+],
+[
+"musicology",
+"BA",
+"Müzikoloji Bölümü (müzikoloji, etnomüzikoloji)",
+"https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzikoloji/"
+],
+[
+"musicology",
+"MA",
+"Müzikoloji Bölümü (müzikoloji, etnomüzikoloji)",
+"https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzikoloji/"
+],
+[
+"folk",
+"BA",
+"Müzikoloji Bölümü (müzikoloji, etnomüzikoloji)",
+"https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzikoloji/"
+],
+[
+"folk",
+"MA",
+"Müzikoloji Bölümü (müzikoloji, etnomüzikoloji)",
+"https://msgsu.edu.tr/akademik/istanbul-devlet-konservatuvari/bolumler/muzikoloji/"
+],
+[
+"vocal-opera",
+"BA",
+"Sahne Sanatları Bölümü – Opera",
+"https://msgsu.edu.tr/akademik/lisansustu-egitim-enstitusu/programlar/"
+],
+[
+"vocal-opera",
+"MA",
+"Sahne Sanatları Bölümü – Opera",
+"https://msgsu.edu.tr/akademik/lisansustu-egitim-enstitusu/programlar/"
+]
+],
+"TR IZMIR01": [
+[
+"piano",
+"BA",
+"Müzik Bölümü: Piyano, Gitar, Arp, Yaylı, Üfleme ve Vurma Çalgılar, Kompozisyon",
+"https://tercihrehberi.deu.edu.tr/wp-content/uploads/2022/07/konservatuvar.pdf"
+],
+[
+"harp",
+"BA",
+"Müzik Bölümü: Piyano, Gitar, Arp, Yaylı, Üfleme ve Vurma Çalgılar, Kompozisyon",
+"https://tercihrehberi.deu.edu.tr/wp-content/uploads/2022/07/konservatuvar.pdf"
+],
+[
+"guitar",
+"BA",
+"Müzik Bölümü: Piyano, Gitar, Arp, Yaylı, Üfleme ve Vurma Çalgılar, Kompozisyon",
+"https://tercihrehberi.deu.edu.tr/wp-content/uploads/2022/07/konservatuvar.pdf"
+],
+[
+"strings",
+"BA",
+"Müzik Bölümü: Piyano, Gitar, Arp, Yaylı, Üfleme ve Vurma Çalgılar, Kompozisyon",
+"https://tercihrehberi.deu.edu.tr/wp-content/uploads/2022/07/konservatuvar.pdf"
+],
+[
+"woodwind",
+"BA",
+"Müzik Bölümü: Piyano, Gitar, Arp, Yaylı, Üfleme ve Vurma Çalgılar, Kompozisyon",
+"https://tercihrehberi.deu.edu.tr/wp-content/uploads/2022/07/konservatuvar.pdf"
+],
+[
+"brass",
+"BA",
+"Müzik Bölümü: Piyano, Gitar, Arp, Yaylı, Üfleme ve Vurma Çalgılar, Kompozisyon",
+"https://tercihrehberi.deu.edu.tr/wp-content/uploads/2022/07/konservatuvar.pdf"
+],
+[
+"percussion",
+"BA",
+"Müzik Bölümü: Piyano, Gitar, Arp, Yaylı, Üfleme ve Vurma Çalgılar, Kompozisyon",
+"https://tercihrehberi.deu.edu.tr/wp-content/uploads/2022/07/konservatuvar.pdf"
+],
+[
+"composition",
+"BA",
+"Müzik Bölümü: Piyano, Gitar, Arp, Yaylı, Üfleme ve Vurma Çalgılar, Kompozisyon",
+"https://tercihrehberi.deu.edu.tr/wp-content/uploads/2022/07/konservatuvar.pdf"
+],
+[
+"vocal-opera",
+"BA",
+"Sahne Sanatları – Opera; Müzikoloji Bölümü",
+"https://tercihrehberi.deu.edu.tr/wp-content/uploads/2022/07/konservatuvar.pdf"
+],
+[
+"musicology",
+"BA",
+"Sahne Sanatları – Opera; Müzikoloji Bölümü",
+"https://tercihrehberi.deu.edu.tr/wp-content/uploads/2022/07/konservatuvar.pdf"
+],
+[
+"strings",
+"MA",
+"Müzik (Konservatuvar) Yüksek Lisans",
+"https://gse.deu.edu.tr/en/master-of-music-mmus/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"MA",
+"Müzik (Konservatuvar) Yüksek Lisans",
+"https://gse.deu.edu.tr/en/master-of-music-mmus/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"MA",
+"Müzik (Konservatuvar) Yüksek Lisans",
+"https://gse.deu.edu.tr/en/master-of-music-mmus/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"MA",
+"Müzik (Konservatuvar) Yüksek Lisans",
+"https://gse.deu.edu.tr/en/master-of-music-mmus/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"MA",
+"Müzik (Konservatuvar) Yüksek Lisans",
+"https://gse.deu.edu.tr/en/master-of-music-mmus/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"MA",
+"Müzik (Konservatuvar) Yüksek Lisans",
+"https://gse.deu.edu.tr/en/master-of-music-mmus/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"composition",
+"MA",
+"Müzik (Konservatuvar) Yüksek Lisans",
+"https://gse.deu.edu.tr/en/master-of-music-mmus/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"musicology",
+"MA",
+"Müzik Bilimleri Yüksek Lisans",
+"https://gse.deu.edu.tr/en/master-of-science-msc/"
+],
+[
+"music-technology",
+"MA",
+"Müzik Teknolojisi Yüksek Lisans",
+"https://gse.deu.edu.tr/en/master-of-science/"
+]
+],
+"TR ISTANBU18": [
+[
+"piano",
+"BA",
+"Müzik Bölümü: Bestecilik ve Orkestra Şefliği, Piyano-Arp-Gitar, Üflemeli ve Vurmalı Çalgılar, Yaylı Çalgılar (lisans, yüksek lisans)",
+"https://www.maltepe.edu.tr/konservatuvar"
+],
+[
+"piano",
+"MA",
+"Müzik Bölümü: Bestecilik ve Orkestra Şefliği, Piyano-Arp-Gitar, Üflemeli ve Vurmalı Çalgılar, Yaylı Çalgılar (lisans, yüksek lisans)",
+"https://www.maltepe.edu.tr/konservatuvar"
+],
+[
+"harp",
+"BA",
+"Müzik Bölümü: Bestecilik ve Orkestra Şefliği, Piyano-Arp-Gitar, Üflemeli ve Vurmalı Çalgılar, Yaylı Çalgılar (lisans, yüksek lisans)",
+"https://www.maltepe.edu.tr/konservatuvar"
+],
+[
+"harp",
+"MA",
+"Müzik Bölümü: Bestecilik ve Orkestra Şefliği, Piyano-Arp-Gitar, Üflemeli ve Vurmalı Çalgılar, Yaylı Çalgılar (lisans, yüksek lisans)",
+"https://www.maltepe.edu.tr/konservatuvar"
+],
+[
+"guitar",
+"BA",
+"Müzik Bölümü: Bestecilik ve Orkestra Şefliği, Piyano-Arp-Gitar, Üflemeli ve Vurmalı Çalgılar, Yaylı Çalgılar (lisans, yüksek lisans)",
+"https://www.maltepe.edu.tr/konservatuvar"
+],
+[
+"guitar",
+"MA",
+"Müzik Bölümü: Bestecilik ve Orkestra Şefliği, Piyano-Arp-Gitar, Üflemeli ve Vurmalı Çalgılar, Yaylı Çalgılar (lisans, yüksek lisans)",
+"https://www.maltepe.edu.tr/konservatuvar"
+],
+[
+"strings",
+"BA",
+"Müzik Bölümü: Bestecilik ve Orkestra Şefliği, Piyano-Arp-Gitar, Üflemeli ve Vurmalı Çalgılar, Yaylı Çalgılar (lisans, yüksek lisans)",
+"https://www.maltepe.edu.tr/konservatuvar"
+],
+[
+"strings",
+"MA",
+"Müzik Bölümü: Bestecilik ve Orkestra Şefliği, Piyano-Arp-Gitar, Üflemeli ve Vurmalı Çalgılar, Yaylı Çalgılar (lisans, yüksek lisans)",
+"https://www.maltepe.edu.tr/konservatuvar"
+],
+[
+"woodwind",
+"BA",
+"Müzik Bölümü: Bestecilik ve Orkestra Şefliği, Piyano-Arp-Gitar, Üflemeli ve Vurmalı Çalgılar, Yaylı Çalgılar (lisans, yüksek lisans)",
+"https://www.maltepe.edu.tr/konservatuvar"
+],
+[
+"woodwind",
+"MA",
+"Müzik Bölümü: Bestecilik ve Orkestra Şefliği, Piyano-Arp-Gitar, Üflemeli ve Vurmalı Çalgılar, Yaylı Çalgılar (lisans, yüksek lisans)",
+"https://www.maltepe.edu.tr/konservatuvar"
+],
+[
+"brass",
+"BA",
+"Müzik Bölümü: Bestecilik ve Orkestra Şefliği, Piyano-Arp-Gitar, Üflemeli ve Vurmalı Çalgılar, Yaylı Çalgılar (lisans, yüksek lisans)",
+"https://www.maltepe.edu.tr/konservatuvar"
+],
+[
+"brass",
+"MA",
+"Müzik Bölümü: Bestecilik ve Orkestra Şefliği, Piyano-Arp-Gitar, Üflemeli ve Vurmalı Çalgılar, Yaylı Çalgılar (lisans, yüksek lisans)",
+"https://www.maltepe.edu.tr/konservatuvar"
+],
+[
+"percussion",
+"BA",
+"Müzik Bölümü: Bestecilik ve Orkestra Şefliği, Piyano-Arp-Gitar, Üflemeli ve Vurmalı Çalgılar, Yaylı Çalgılar (lisans, yüksek lisans)",
+"https://www.maltepe.edu.tr/konservatuvar"
+],
+[
+"percussion",
+"MA",
+"Müzik Bölümü: Bestecilik ve Orkestra Şefliği, Piyano-Arp-Gitar, Üflemeli ve Vurmalı Çalgılar, Yaylı Çalgılar (lisans, yüksek lisans)",
+"https://www.maltepe.edu.tr/konservatuvar"
+],
+[
+"composition",
+"BA",
+"Müzik Bölümü: Bestecilik ve Orkestra Şefliği, Piyano-Arp-Gitar, Üflemeli ve Vurmalı Çalgılar, Yaylı Çalgılar (lisans, yüksek lisans)",
+"https://www.maltepe.edu.tr/konservatuvar"
+],
+[
+"composition",
+"MA",
+"Müzik Bölümü: Bestecilik ve Orkestra Şefliği, Piyano-Arp-Gitar, Üflemeli ve Vurmalı Çalgılar, Yaylı Çalgılar (lisans, yüksek lisans)",
+"https://www.maltepe.edu.tr/konservatuvar"
+],
+[
+"conducting",
+"BA",
+"Müzik Bölümü: Bestecilik ve Orkestra Şefliği, Piyano-Arp-Gitar, Üflemeli ve Vurmalı Çalgılar, Yaylı Çalgılar (lisans, yüksek lisans)",
+"https://www.maltepe.edu.tr/konservatuvar"
+],
+[
+"conducting",
+"MA",
+"Müzik Bölümü: Bestecilik ve Orkestra Şefliği, Piyano-Arp-Gitar, Üflemeli ve Vurmalı Çalgılar, Yaylı Çalgılar (lisans, yüksek lisans)",
+"https://www.maltepe.edu.tr/konservatuvar"
+],
+[
+"folk",
+"BA",
+"Türk Müziği Bölümü – Türk Halk Müziği",
+"https://www.maltepe.edu.tr/konservatuvar"
+]
+],
+"TR IZMIR05": [
+[
+"jazz",
+"BA",
+"Müzik Bölümü – caz alanları (piyano, vokal, gitar, bas, davul); Caz Performans ASD (yüksek lisans)",
+"https://mssyltezli.yasar.edu.tr/caz-performans-caz-gitar-anasanat-dali/"
+],
+[
+"jazz",
+"MA",
+"Müzik Bölümü – caz alanları (piyano, vokal, gitar, bas, davul); Caz Performans ASD (yüksek lisans)",
+"https://mssyltezli.yasar.edu.tr/caz-performans-caz-gitar-anasanat-dali/"
+],
+[
+"composition",
+"BA",
+"Bestecilik, Elektroakustik Müzik, Müzik Teknolojileri; Müzik ve Sahne Sanatları Yüksek Lisans",
+"https://music.yasar.edu.tr/"
+],
+[
+"composition",
+"MA",
+"Bestecilik, Elektroakustik Müzik, Müzik Teknolojileri; Müzik ve Sahne Sanatları Yüksek Lisans",
+"https://music.yasar.edu.tr/"
+],
+[
+"music-technology",
+"BA",
+"Bestecilik, Elektroakustik Müzik, Müzik Teknolojileri; Müzik ve Sahne Sanatları Yüksek Lisans",
+"https://music.yasar.edu.tr/"
+],
+[
+"music-technology",
+"MA",
+"Bestecilik, Elektroakustik Müzik, Müzik Teknolojileri; Müzik ve Sahne Sanatları Yüksek Lisans",
+"https://music.yasar.edu.tr/"
+]
+],
+"RS NIS01": [
+[
+"piano",
+"BA",
+"Izvođačke umetnosti: klavir, gudački, duvački instrumenti, solo pevanje, gitara, harmonika, udaraljke",
+"http://www.artf.ni.ac.rs/lat/master-akademske-studije/"
+],
+[
+"piano",
+"MA",
+"Izvođačke umetnosti: klavir, gudački, duvački instrumenti, solo pevanje, gitara, harmonika, udaraljke",
+"http://www.artf.ni.ac.rs/lat/master-akademske-studije/"
+],
+[
+"strings",
+"BA",
+"Izvođačke umetnosti: klavir, gudački, duvački instrumenti, solo pevanje, gitara, harmonika, udaraljke",
+"http://www.artf.ni.ac.rs/lat/master-akademske-studije/"
+],
+[
+"strings",
+"MA",
+"Izvođačke umetnosti: klavir, gudački, duvački instrumenti, solo pevanje, gitara, harmonika, udaraljke",
+"http://www.artf.ni.ac.rs/lat/master-akademske-studije/"
+],
+[
+"woodwind",
+"BA",
+"Izvođačke umetnosti: klavir, gudački, duvački instrumenti, solo pevanje, gitara, harmonika, udaraljke",
+"http://www.artf.ni.ac.rs/lat/master-akademske-studije/"
+],
+[
+"woodwind",
+"MA",
+"Izvođačke umetnosti: klavir, gudački, duvački instrumenti, solo pevanje, gitara, harmonika, udaraljke",
+"http://www.artf.ni.ac.rs/lat/master-akademske-studije/"
+],
+[
+"brass",
+"BA",
+"Izvođačke umetnosti: klavir, gudački, duvački instrumenti, solo pevanje, gitara, harmonika, udaraljke",
+"http://www.artf.ni.ac.rs/lat/master-akademske-studije/"
+],
+[
+"brass",
+"MA",
+"Izvođačke umetnosti: klavir, gudački, duvački instrumenti, solo pevanje, gitara, harmonika, udaraljke",
+"http://www.artf.ni.ac.rs/lat/master-akademske-studije/"
+],
+[
+"vocal-opera",
+"BA",
+"Izvođačke umetnosti: klavir, gudački, duvački instrumenti, solo pevanje, gitara, harmonika, udaraljke",
+"http://www.artf.ni.ac.rs/lat/master-akademske-studije/"
+],
+[
+"vocal-opera",
+"MA",
+"Izvođačke umetnosti: klavir, gudački, duvački instrumenti, solo pevanje, gitara, harmonika, udaraljke",
+"http://www.artf.ni.ac.rs/lat/master-akademske-studije/"
+],
+[
+"guitar",
+"BA",
+"Izvođačke umetnosti: klavir, gudački, duvački instrumenti, solo pevanje, gitara, harmonika, udaraljke",
+"http://www.artf.ni.ac.rs/lat/master-akademske-studije/"
+],
+[
+"guitar",
+"MA",
+"Izvođačke umetnosti: klavir, gudački, duvački instrumenti, solo pevanje, gitara, harmonika, udaraljke",
+"http://www.artf.ni.ac.rs/lat/master-akademske-studije/"
+],
+[
+"accordion",
+"BA",
+"Izvođačke umetnosti: klavir, gudački, duvački instrumenti, solo pevanje, gitara, harmonika, udaraljke",
+"http://www.artf.ni.ac.rs/lat/master-akademske-studije/"
+],
+[
+"accordion",
+"MA",
+"Izvođačke umetnosti: klavir, gudački, duvački instrumenti, solo pevanje, gitara, harmonika, udaraljke",
+"http://www.artf.ni.ac.rs/lat/master-akademske-studije/"
+],
+[
+"percussion",
+"BA",
+"Izvođačke umetnosti: klavir, gudački, duvački instrumenti, solo pevanje, gitara, harmonika, udaraljke",
+"http://www.artf.ni.ac.rs/lat/master-akademske-studije/"
+],
+[
+"percussion",
+"MA",
+"Izvođačke umetnosti: klavir, gudački, duvački instrumenti, solo pevanje, gitara, harmonika, udaraljke",
+"http://www.artf.ni.ac.rs/lat/master-akademske-studije/"
+],
+[
+"music-theory",
+"BA",
+"Muzička teorija i pedagogija; Muzička pedagogija (master)",
+"http://www.artf.ni.ac.rs/lat/master-akademske-studije/"
+],
+[
+"music-theory",
+"MA",
+"Muzička teorija i pedagogija; Muzička pedagogija (master)",
+"http://www.artf.ni.ac.rs/lat/master-akademske-studije/"
+],
+[
+"music-education",
+"BA",
+"Muzička teorija i pedagogija; Muzička pedagogija (master)",
+"http://www.artf.ni.ac.rs/lat/master-akademske-studije/"
+],
+[
+"music-education",
+"MA",
+"Muzička teorija i pedagogija; Muzička pedagogija (master)",
+"http://www.artf.ni.ac.rs/lat/master-akademske-studije/"
+]
+],
+"RS KRAGUJE01": [
+[
+"woodwind",
+"BA",
+"Izvođačke umetnosti (duvački, gudački, harmonika, klavir, solo pevanje, trzački instrumenti)",
+"https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+],
+[
+"woodwind",
+"MA",
+"Izvođačke umetnosti (duvački, gudački, harmonika, klavir, solo pevanje, trzački instrumenti)",
+"https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+],
+[
+"brass",
+"BA",
+"Izvođačke umetnosti (duvački, gudački, harmonika, klavir, solo pevanje, trzački instrumenti)",
+"https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+],
+[
+"brass",
+"MA",
+"Izvođačke umetnosti (duvački, gudački, harmonika, klavir, solo pevanje, trzački instrumenti)",
+"https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+],
+[
+"strings",
+"BA",
+"Izvođačke umetnosti (duvački, gudački, harmonika, klavir, solo pevanje, trzački instrumenti)",
+"https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+],
+[
+"strings",
+"MA",
+"Izvođačke umetnosti (duvački, gudački, harmonika, klavir, solo pevanje, trzački instrumenti)",
+"https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+],
+[
+"accordion",
+"BA",
+"Izvođačke umetnosti (duvački, gudački, harmonika, klavir, solo pevanje, trzački instrumenti)",
+"https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+],
+[
+"accordion",
+"MA",
+"Izvođačke umetnosti (duvački, gudački, harmonika, klavir, solo pevanje, trzački instrumenti)",
+"https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+],
+[
+"piano",
+"BA",
+"Izvođačke umetnosti (duvački, gudački, harmonika, klavir, solo pevanje, trzački instrumenti)",
+"https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+],
+[
+"piano",
+"MA",
+"Izvođačke umetnosti (duvački, gudački, harmonika, klavir, solo pevanje, trzački instrumenti)",
+"https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+],
+[
+"vocal-opera",
+"BA",
+"Izvođačke umetnosti (duvački, gudački, harmonika, klavir, solo pevanje, trzački instrumenti)",
+"https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+],
+[
+"vocal-opera",
+"MA",
+"Izvođačke umetnosti (duvački, gudački, harmonika, klavir, solo pevanje, trzački instrumenti)",
+"https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+],
+[
+"guitar",
+"BA",
+"Izvođačke umetnosti (duvački, gudački, harmonika, klavir, solo pevanje, trzački instrumenti)",
+"https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+],
+[
+"guitar",
+"MA",
+"Izvođačke umetnosti (duvački, gudački, harmonika, klavir, solo pevanje, trzački instrumenti)",
+"https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+],
+[
+"chamber-music",
+"MA",
+"Izvođačke umetnosti – kamerna muzika",
+"https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+],
+[
+"music-theory",
+"BA",
+"Muzička teorija i pedagogija; Muzička pedagogija",
+"https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+],
+[
+"music-theory",
+"MA",
+"Muzička teorija i pedagogija; Muzička pedagogija",
+"https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+],
+[
+"music-education",
+"BA",
+"Muzička teorija i pedagogija; Muzička pedagogija",
+"https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+],
+[
+"music-education",
+"MA",
+"Muzička teorija i pedagogija; Muzička pedagogija",
+"https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+],
+[
+"music-technology",
+"BA",
+"Muzika u medijima",
+"https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+],
+[
+"music-technology",
+"MA",
+"Muzika u medijima",
+"https://www.filum.kg.ac.rs/index.php?Itemid=595&lang=sr"
+],
+[
+"accordion",
+"Doc",
+"Doktorske akademske studije – Izvođačke umetnosti: harmonika",
+"https://www.filum.kg.ac.rs/index.php?option=com_content&view=article&id=46&Itemid=110&lang=sr"
+]
+],
+"P  LISBOA12": [
+[
+"jazz",
+"BA",
+"Licenciatura em Jazz e Música Moderna (jazz ou música moderna pop/rock)",
+"https://www.lis.ulusiada.pt/en-gb/degrees/1314/1stcycle-undergraduatedegreesandintegratedmasters/jazzandmodernmusic.aspx"
+],
+[
+"popular-music",
+"BA",
+"Licenciatura em Jazz e Música Moderna (jazz ou música moderna pop/rock)",
+"https://www.lis.ulusiada.pt/en-gb/degrees/1314/1stcycle-undergraduatedegreesandintegratedmasters/jazzandmodernmusic.aspx"
+]
+]
+},
+"notes": {
+"SI LJUBLJA33": "The conservatoire's higher vocational school (Višja baletna šola) teaches only ballet; its music programmes are at basic and secondary level, not degree programmes."
+}
+}
