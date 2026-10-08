@@ -1,6 +1,6 @@
 {
  "meta": {
-  "description": "Study programmes per institution and fine-grained discipline (see disciplines.json). Collected so far: 75 institutions.",
+  "description": "Study programmes per institution and fine-grained discipline (see disciplines.json). Collected so far: 83 institutions.",
   "status": "pilot",
   "collected": "2026-10-08",
   "verified_note": "Every record has verified: false. Programme names and URLs were read from the institutions' own websites (programme lists and programme pages) but have not been checked by a person.",
@@ -41,15 +41,23 @@
    "CZ PRAHA04",
    "D  BERLIN16",
    "D  DETMOLD01",
+   "D  DRESDEN05",
+   "D  DUSSELD06",
    "D  ESSEN02",
    "D  FREIBUR03",
    "D  HALLE04",
+   "D  HAMBURG05",
+   "D  HANNOVE04",
    "D  KARLSRU03",
    "D  KOLN03",
+   "D  LEIPZIG05",
    "D  MANNHEI02",
    "D  MANNHEI09",
+   "D  MUNSTER01",
    "D  NURNBER04",
    "D  REGENSB03",
+   "D  ROSTOCK02",
+   "D  STUTTGA03",
    "D  TROSSIN01",
    "D  TUBINGE02",
    "D  WEIMAR02",
@@ -202,6 +210,20 @@
      "D  MANNHEI09",
      "D  TROSSIN01",
      "D  WURZBUR02"
+    ],
+    "date": "2026-10-08",
+    "method": "Field-level collection as in batch 1 (raw HTML of each institution's own programme pages, PDFs where the list was only there; names mapped to disciplines.json by keyword and checked by hand)."
+   },
+   {
+    "erasmus_codes": [
+     "D  DRESDEN05",
+     "D  DUSSELD06",
+     "D  HAMBURG05",
+     "D  HANNOVE04",
+     "D  LEIPZIG05",
+     "D  MUNSTER01",
+     "D  ROSTOCK02",
+     "D  STUTTGA03"
     ],
     "date": "2026-10-08",
     "method": "Field-level collection as in batch 1 (raw HTML of each institution's own programme pages, PDFs where the list was only there; names mapped to disciplines.json by keyword and checked by hand)."
@@ -22722,6 +22744,2640 @@
      "level": "MA",
      "programme_name": "Music and Creative Industries (M.A.)",
      "url": "https://www.popakademie.de/de/studium/music-and-creative-industries-ma/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  LEIPZIG05",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/musikpaedagogik/studieninformationen/studiengang-1-2/bachelorstudiengang-alte-musik",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Alte Musik",
+     "url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/musikpaedagogik/studieninformationen/studiengang-1-2/bachelorstudiengang-alte-musik"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Alte Musik",
+     "url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/musikpaedagogik/studieninformationen/studiengang-1-2/masterstudiengang-alte-musik-konsekutiv-verbreiternd"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  LEIPZIG05",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/gesang-musiktheater/studieninformationen/steckbriefe/bachelorstudiengang-klassischer-gesang-musiktheater",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Klassischer Gesang | Musiktheater",
+     "url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/gesang-musiktheater/studieninformationen/steckbriefe/bachelorstudiengang-klassischer-gesang-musiktheater"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master klassischer Gesang – künstlerisch",
+     "url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/gesang-musiktheater/studieninformationen/steckbriefe/masterstudiengang-klassischer-gesang-konsekutiv-kuenstlerisch"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  LEIPZIG05",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/gesang-musiktheater/studieninformationen/steckbriefe/masterstudiengang-klassischer-gesang-konsekutiv-paedagogisch-kuenstlerisch",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Master klassischer Gesang – pädagogisch-künstlerisch",
+     "url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/gesang-musiktheater/studieninformationen/steckbriefe/masterstudiengang-klassischer-gesang-konsekutiv-paedagogisch-kuenstlerisch"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Instrumental-/Gesangspädagogik, Elementare Musik-/Tanzpädagogik; Doppelfach Schulmusik",
+     "url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/musikpaedagogik"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  LEIPZIG05",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/musikpaedagogik/studieninformationen/studiengang-1-1/bachelorstudiengang-jazz-popularmusik",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Jazz | Popularmusik",
+     "url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/musikpaedagogik/studieninformationen/studiengang-1-1/bachelorstudiengang-jazz-popularmusik"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Jazz | Popularmusik – künstlerisch",
+     "url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/musikpaedagogik/studieninformationen/studiengang-1-1/masterstudiengang-jazz-popularmusik-konsekutiv-kuenstlerisch"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  LEIPZIG05",
+   "discipline": "popular-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/musikpaedagogik/studieninformationen/studiengang-1-1/bachelorstudiengang-jazz-popularmusik",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Jazz | Popularmusik",
+     "url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/musikpaedagogik/studieninformationen/studiengang-1-1/bachelorstudiengang-jazz-popularmusik"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Jazz | Popularmusik – künstlerisch",
+     "url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/musikpaedagogik/studieninformationen/studiengang-1-1/masterstudiengang-jazz-popularmusik-konsekutiv-kuenstlerisch"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  LEIPZIG05",
+   "discipline": "church-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/kirchenmusik/studieninformationen/studiengang/bachelorstudiengang-kirchenmusik",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Kirchenmusik",
+     "url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/kirchenmusik/studieninformationen/studiengang/bachelorstudiengang-kirchenmusik"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Kirchenmusik",
+     "url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/kirchenmusik/studieninformationen/studiengang/masterstudiengang-kirchenmusik-konsekutiv"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  LEIPZIG05",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/kirchenmusik/studieninformationen/studiengang/bachelorstudiengang-orgel",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Orgel",
+     "url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/kirchenmusik/studieninformationen/studiengang/bachelorstudiengang-orgel"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Orgel",
+     "url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/kirchenmusik/studieninformationen/studiengang/masterstudiengang-orgel-konsekutiv"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  LEIPZIG05",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/klavier-dirigieren/studieninformationen/steckbriefe/bachelorstudiengang-dirigieren",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Dirigieren",
+     "url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/klavier-dirigieren/studieninformationen/steckbriefe/bachelorstudiengang-dirigieren"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Dirigieren",
+     "url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/klavier-dirigieren/studieninformationen/steckbriefe/masterstudiengang-dirigieren-konsekutiv"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  LEIPZIG05",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/klavier-dirigieren/studieninformationen/steckbriefe/bachelorstudiengang-klavier",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Klavier",
+     "url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/klavier-dirigieren/studieninformationen/steckbriefe/bachelorstudiengang-klavier"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Klavier – künstlerisch",
+     "url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/klavier-dirigieren/studieninformationen/steckbriefe/masterstudiengang-klavier-konsekutiv-kuenstlerisch"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  LEIPZIG05",
+   "discipline": "chamber-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/streichinstrumente-harfe/studieninformationen/steckbriefe/masterstudiengang-kammermusik-konsekutiv-kuenstlerisch",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Master Kammermusik (Ensembles)",
+     "url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/streichinstrumente-harfe/studieninformationen/steckbriefe/masterstudiengang-kammermusik-konsekutiv-kuenstlerisch"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  LEIPZIG05",
+   "discipline": "music-technology",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/komposition-tonsatz/studieninformationen/steckbriefe/masterstudiengang-elektroakustische-musik-konsekutiv-kuenstlerisch",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Master Elektroakustische Musik",
+     "url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/komposition-tonsatz/studieninformationen/steckbriefe/masterstudiengang-elektroakustische-musik-konsekutiv-kuenstlerisch"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  LEIPZIG05",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/komposition-tonsatz/studieninformationen/steckbriefe/masterstudiengang-komposition-konsekutiv-kuenstlerisch",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Master Komposition",
+     "url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/komposition-tonsatz/studieninformationen/steckbriefe/masterstudiengang-komposition-konsekutiv-kuenstlerisch"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Komposition | Musiktheorie | Improvisation",
+     "url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/komposition-tonsatz/studieninformationen/steckbriefe/bachelorstudiengang-kompositionmusiktheorieimprovisation"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  LEIPZIG05",
+   "discipline": "music-theory",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/komposition-tonsatz/studieninformationen/steckbriefe/masterstudiengang-tonsatz-konsekutiv-kuenstlerisch",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Master Tonsatz",
+     "url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/komposition-tonsatz/studieninformationen/steckbriefe/masterstudiengang-tonsatz-konsekutiv-kuenstlerisch"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Komposition | Musiktheorie | Improvisation",
+     "url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/komposition-tonsatz/studieninformationen/steckbriefe/bachelorstudiengang-kompositionmusiktheorieimprovisation"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  LEIPZIG05",
+   "discipline": "musicology",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/musikwissenschaft/studieninformationen/steckbriefe/masterstudiengang-musikwissenschaft-konsekutiv",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Master Musikwissenschaft",
+     "url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/musikwissenschaft/studieninformationen/steckbriefe/masterstudiengang-musikwissenschaft-konsekutiv"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  LEIPZIG05",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/streichinstrumente-harfe/studieninformationen/steckbriefe/bachelorstudiengang-streichinstrumente-harfe",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Streichinstrumente | Harfe",
+     "url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/streichinstrumente-harfe/studieninformationen/steckbriefe/bachelorstudiengang-streichinstrumente-harfe"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Streichinstrumente | Harfe – künstlerisch",
+     "url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/streichinstrumente-harfe/studieninformationen/steckbriefe/masterstudiengang-streichinstrumente-harfe-konsekutiv-kuenstlerisch"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  LEIPZIG05",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/streichinstrumente-harfe/studieninformationen/steckbriefe/bachelorstudiengang-streichinstrumente-harfe",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Streichinstrumente | Harfe",
+     "url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/streichinstrumente-harfe/studieninformationen/steckbriefe/bachelorstudiengang-streichinstrumente-harfe"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Streichinstrumente | Harfe – künstlerisch",
+     "url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/streichinstrumente-harfe/studieninformationen/steckbriefe/masterstudiengang-streichinstrumente-harfe-konsekutiv-kuenstlerisch"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  LEIPZIG05",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/musikpaedagogik/studieninformationen/studiengang-1/bachelorstudiengang-blasinstrumente-schlagzeug",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Blasinstrumente | Schlagzeug",
+     "url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/musikpaedagogik/studieninformationen/studiengang-1/bachelorstudiengang-blasinstrumente-schlagzeug"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Blasinstrumente | Schlagzeug",
+     "url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/musikpaedagogik/studieninformationen/studiengang-1/masterstudiengang-blasinstrumente-schlagzeug-konsekutiv-kuenstlerisch"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  LEIPZIG05",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/musikpaedagogik/studieninformationen/studiengang-1/bachelorstudiengang-blasinstrumente-schlagzeug",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Blasinstrumente | Schlagzeug",
+     "url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/musikpaedagogik/studieninformationen/studiengang-1/bachelorstudiengang-blasinstrumente-schlagzeug"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Blasinstrumente | Schlagzeug",
+     "url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/musikpaedagogik/studieninformationen/studiengang-1/masterstudiengang-blasinstrumente-schlagzeug-konsekutiv-kuenstlerisch"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  LEIPZIG05",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/musikpaedagogik/studieninformationen/studiengang-1/bachelorstudiengang-blasinstrumente-schlagzeug",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Blasinstrumente | Schlagzeug",
+     "url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/musikpaedagogik/studieninformationen/studiengang-1/bachelorstudiengang-blasinstrumente-schlagzeug"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Blasinstrumente | Schlagzeug",
+     "url": "https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/musikpaedagogik/studieninformationen/studiengang-1/masterstudiengang-blasinstrumente-schlagzeug-konsekutiv-kuenstlerisch"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HAMBURG05",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmt-hamburg.de/fileadmin/u/ordnungen/PO_BMus_Instr.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelorstudiengang Instrumentalmusik (Violine … Schlagzeug, Klavier, Orgel, Cembalo, Blockflöte, Traversflöte)",
+     "url": "https://www.hfmt-hamburg.de/fileadmin/u/ordnungen/PO_BMus_Instr.pdf"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Instrumentalmusik; Internationaler Master",
+     "url": "https://www.hfmt-hamburg.de/studieren/vorlesungsverzeichnis/?tx_hfmtdb_degree%5Bcat%5D=4&tx_hfmtdb_degree%5Baction%5D=list&tx_hfmtdb_degree%5Bcontroller%5D=Degree"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HAMBURG05",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmt-hamburg.de/fileadmin/u/ordnungen/PO_BMus_Instr.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelorstudiengang Instrumentalmusik (Violine … Schlagzeug, Klavier, Orgel, Cembalo, Blockflöte, Traversflöte)",
+     "url": "https://www.hfmt-hamburg.de/fileadmin/u/ordnungen/PO_BMus_Instr.pdf"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Instrumentalmusik; Internationaler Master",
+     "url": "https://www.hfmt-hamburg.de/studieren/vorlesungsverzeichnis/?tx_hfmtdb_degree%5Bcat%5D=4&tx_hfmtdb_degree%5Baction%5D=list&tx_hfmtdb_degree%5Bcontroller%5D=Degree"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HAMBURG05",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmt-hamburg.de/fileadmin/u/ordnungen/PO_BMus_Instr.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelorstudiengang Instrumentalmusik (Violine … Schlagzeug, Klavier, Orgel, Cembalo, Blockflöte, Traversflöte)",
+     "url": "https://www.hfmt-hamburg.de/fileadmin/u/ordnungen/PO_BMus_Instr.pdf"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Instrumentalmusik; Internationaler Master",
+     "url": "https://www.hfmt-hamburg.de/studieren/vorlesungsverzeichnis/?tx_hfmtdb_degree%5Bcat%5D=4&tx_hfmtdb_degree%5Baction%5D=list&tx_hfmtdb_degree%5Bcontroller%5D=Degree"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HAMBURG05",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmt-hamburg.de/fileadmin/u/ordnungen/PO_BMus_Instr.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelorstudiengang Instrumentalmusik (Violine … Schlagzeug, Klavier, Orgel, Cembalo, Blockflöte, Traversflöte)",
+     "url": "https://www.hfmt-hamburg.de/fileadmin/u/ordnungen/PO_BMus_Instr.pdf"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Instrumentalmusik; Internationaler Master",
+     "url": "https://www.hfmt-hamburg.de/studieren/vorlesungsverzeichnis/?tx_hfmtdb_degree%5Bcat%5D=4&tx_hfmtdb_degree%5Baction%5D=list&tx_hfmtdb_degree%5Bcontroller%5D=Degree"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HAMBURG05",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmt-hamburg.de/fileadmin/u/ordnungen/PO_BMus_Instr.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelorstudiengang Instrumentalmusik (Violine … Schlagzeug, Klavier, Orgel, Cembalo, Blockflöte, Traversflöte)",
+     "url": "https://www.hfmt-hamburg.de/fileadmin/u/ordnungen/PO_BMus_Instr.pdf"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Instrumentalmusik; Internationaler Master",
+     "url": "https://www.hfmt-hamburg.de/studieren/vorlesungsverzeichnis/?tx_hfmtdb_degree%5Bcat%5D=4&tx_hfmtdb_degree%5Baction%5D=list&tx_hfmtdb_degree%5Bcontroller%5D=Degree"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HAMBURG05",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmt-hamburg.de/fileadmin/u/ordnungen/PO_BMus_Instr.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelorstudiengang Instrumentalmusik (Violine … Schlagzeug, Klavier, Orgel, Cembalo, Blockflöte, Traversflöte)",
+     "url": "https://www.hfmt-hamburg.de/fileadmin/u/ordnungen/PO_BMus_Instr.pdf"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Instrumentalmusik; Internationaler Master",
+     "url": "https://www.hfmt-hamburg.de/studieren/vorlesungsverzeichnis/?tx_hfmtdb_degree%5Bcat%5D=4&tx_hfmtdb_degree%5Baction%5D=list&tx_hfmtdb_degree%5Bcontroller%5D=Degree"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HAMBURG05",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmt-hamburg.de/fileadmin/u/ordnungen/PO_BMus_Instr.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelorstudiengang Instrumentalmusik (Violine … Schlagzeug, Klavier, Orgel, Cembalo, Blockflöte, Traversflöte)",
+     "url": "https://www.hfmt-hamburg.de/fileadmin/u/ordnungen/PO_BMus_Instr.pdf"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Instrumentalmusik; Internationaler Master",
+     "url": "https://www.hfmt-hamburg.de/studieren/vorlesungsverzeichnis/?tx_hfmtdb_degree%5Bcat%5D=4&tx_hfmtdb_degree%5Baction%5D=list&tx_hfmtdb_degree%5Bcontroller%5D=Degree"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HAMBURG05",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmt-hamburg.de/fileadmin/u/ordnungen/PO_BMus_Instr.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelorstudiengang Instrumentalmusik (Violine … Schlagzeug, Klavier, Orgel, Cembalo, Blockflöte, Traversflöte)",
+     "url": "https://www.hfmt-hamburg.de/fileadmin/u/ordnungen/PO_BMus_Instr.pdf"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Instrumentalmusik; Internationaler Master",
+     "url": "https://www.hfmt-hamburg.de/studieren/vorlesungsverzeichnis/?tx_hfmtdb_degree%5Bcat%5D=4&tx_hfmtdb_degree%5Baction%5D=list&tx_hfmtdb_degree%5Bcontroller%5D=Degree"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HAMBURG05",
+   "discipline": "early-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.hfmt-hamburg.de/fileadmin/u/ordnungen/PO_BMus_Instr.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelorstudiengang Instrumentalmusik (Violine … Schlagzeug, Klavier, Orgel, Cembalo, Blockflöte, Traversflöte)",
+     "url": "https://www.hfmt-hamburg.de/fileadmin/u/ordnungen/PO_BMus_Instr.pdf"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HAMBURG05",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmt-hamburg.de/musik/studiengaenge/jazz",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Jazz (Bachelor, Master)",
+     "url": "https://www.hfmt-hamburg.de/musik/studiengaenge/jazz"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Jazz (Bachelor, Master)",
+     "url": "https://www.hfmt-hamburg.de/musik/studiengaenge/jazz"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HAMBURG05",
+   "discipline": "composition",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.hfmt-hamburg.de/studieren/vorlesungsverzeichnis/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Multimediale Komposition (Master)",
+     "url": "https://www.hfmt-hamburg.de/studieren/vorlesungsverzeichnis/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HAMBURG05",
+   "discipline": "music-technology",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.hfmt-hamburg.de/studieren/vorlesungsverzeichnis/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Multimediale Komposition (Master)",
+     "url": "https://www.hfmt-hamburg.de/studieren/vorlesungsverzeichnis/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HAMBURG05",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmt-hamburg.de/musik/studiengaenge/gesang",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Gesang; Operngesang",
+     "url": "https://www.hfmt-hamburg.de/musik/studiengaenge/gesang"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Gesang; Operngesang",
+     "url": "https://www.hfmt-hamburg.de/musik/studiengaenge/gesang"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HAMBURG05",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmt-hamburg.de/musik/studiengaenge/dirigieren",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Dirigieren; Chorleitung",
+     "url": "https://www.hfmt-hamburg.de/musik/studiengaenge/dirigieren"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Dirigieren; Chorleitung",
+     "url": "https://www.hfmt-hamburg.de/musik/studiengaenge/dirigieren"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HAMBURG05",
+   "discipline": "church-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmt-hamburg.de/musik/studiengaenge/kirchenmusik",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kirchenmusik",
+     "url": "https://www.hfmt-hamburg.de/musik/studiengaenge/kirchenmusik"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kirchenmusik",
+     "url": "https://www.hfmt-hamburg.de/musik/studiengaenge/kirchenmusik"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HAMBURG05",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmt-hamburg.de/en/paedagogik-therapie-wissenschaft/musikpaedagogik/instrumentalpaedagogik",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalpädagogik; Lehramt für Sekundarstufe I & II",
+     "url": "https://www.hfmt-hamburg.de/en/paedagogik-therapie-wissenschaft/musikpaedagogik/instrumentalpaedagogik"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalpädagogik; Lehramt für Sekundarstufe I & II",
+     "url": "https://www.hfmt-hamburg.de/en/paedagogik-therapie-wissenschaft/musikpaedagogik/instrumentalpaedagogik"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HAMBURG05",
+   "discipline": "music-therapy",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.hfmt-hamburg.de/studieren/vorlesungsverzeichnis/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Master Musiktherapie",
+     "url": "https://www.hfmt-hamburg.de/studieren/vorlesungsverzeichnis/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HAMBURG05",
+   "discipline": "arts-management",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.hfmt-hamburg.de/kultur-und-medienmanagement/studiengaenge/fernshystudium-master",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Kultur- und Medienmanagement (Fernstudium Master)",
+     "url": "https://www.hfmt-hamburg.de/kultur-und-medienmanagement/studiengaenge/fernshystudium-master"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  ROSTOCK02",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmt-rostock.de/studium/studienangebot/musik/streichinstrumente/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor of Music | Streichinstrumente",
+     "url": "https://www.hmt-rostock.de/studium/studienangebot/musik/streichinstrumente/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music | Orchesterinstrumente mit Hauptfach Streichinstrument",
+     "url": "https://www.hmt-rostock.de/studium/studienangebot/musik/orchesterinstrumente-hf-streichinstrument/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  ROSTOCK02",
+   "discipline": "popular-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.hmt-rostock.de/studium/studienangebot/musik/popularmusik-mit-klassik/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor of Music | Popularmusik mit Klassik Kontrabass",
+     "url": "https://www.hmt-rostock.de/studium/studienangebot/musik/popularmusik-mit-klassik/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  ROSTOCK02",
+   "discipline": "chamber-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.hmt-rostock.de/studium/studienangebot/musik/kammermusik-hf-instrumentalensemble/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Master of Music | Kammermusik Instrumentalensembles",
+     "url": "https://www.hmt-rostock.de/studium/studienangebot/musik/kammermusik-hf-instrumentalensemble/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  ROSTOCK02",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmt-rostock.de/studium/studienangebot/musik/blasinstrumente/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor of Music | Blasinstrumente",
+     "url": "https://www.hmt-rostock.de/studium/studienangebot/musik/blasinstrumente/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music | Orchesterinstrumente Hauptfach Blasinstrument",
+     "url": "https://www.hmt-rostock.de/studium/studienangebot/musik/orchesterinstrumente-hf-blasinstrument/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  ROSTOCK02",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmt-rostock.de/studium/studienangebot/musik/blasinstrumente/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor of Music | Blasinstrumente",
+     "url": "https://www.hmt-rostock.de/studium/studienangebot/musik/blasinstrumente/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music | Orchesterinstrumente Hauptfach Blasinstrument",
+     "url": "https://www.hmt-rostock.de/studium/studienangebot/musik/orchesterinstrumente-hf-blasinstrument/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  ROSTOCK02",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmt-rostock.de/studium/studienangebot/musik/klavier/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor of Music | Klavier",
+     "url": "https://www.hmt-rostock.de/studium/studienangebot/musik/klavier/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music | Klavier solo",
+     "url": "https://www.hmt-rostock.de/studium/studienangebot/musik/klavier-solo/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  ROSTOCK02",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmt-rostock.de/studium/studienangebot/musik/schlagzeug/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor of Music | Schlagzeug",
+     "url": "https://www.hmt-rostock.de/studium/studienangebot/musik/schlagzeug/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music | Orchesterinstrumente, Hauptfach Schlagzeug",
+     "url": "https://www.hmt-rostock.de/studium/studienangebot/musik/orchesterinstrumente-hf-schlagzeug/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  ROSTOCK02",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmt-rostock.de/studium/studienangebot/musik/gitarre/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor of Music | Gitarre",
+     "url": "https://www.hmt-rostock.de/studium/studienangebot/musik/gitarre/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music | Gitarre solo",
+     "url": "https://www.hmt-rostock.de/studium/studienangebot/musik/gitarre-solo/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  ROSTOCK02",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmt-rostock.de/studium/studienangebot/musik/harfe/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor of Music | Harfe",
+     "url": "https://www.hmt-rostock.de/studium/studienangebot/musik/harfe/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music | Orchesterinstrumente, Hauptfach Harfe",
+     "url": "https://www.hmt-rostock.de/studium/studienangebot/musik/orchesterinstrumente-hf-harfe/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  ROSTOCK02",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmt-rostock.de/studium/studienangebot/musik/gesang/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor of Music | Gesang",
+     "url": "https://www.hmt-rostock.de/studium/studienangebot/musik/gesang/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music | Bühnengesang",
+     "url": "https://www.hmt-rostock.de/studium/studienangebot/musik/buehnengesang/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  ROSTOCK02",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmt-rostock.de/studium/studienangebot/musik/orchesterdirigieren/korrepetition-bm/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor of Music | Orchesterdirigieren/Korrepetition",
+     "url": "https://www.hmt-rostock.de/studium/studienangebot/musik/orchesterdirigieren/korrepetition-bm/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music | Orchesterdirigieren/Korrepetition",
+     "url": "https://www.hmt-rostock.de/studium/studienangebot/musik/orchesterdirigieren/korrepetition-mm/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  ROSTOCK02",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmt-rostock.de/studium/studienangebot/musik/musiktheorie/komposition-bm/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor of Music | Musiktheorie/Komposition",
+     "url": "https://www.hmt-rostock.de/studium/studienangebot/musik/musiktheorie/komposition-bm/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music | Komposition",
+     "url": "https://www.hmt-rostock.de/studium/studienangebot/musik/komposition-mm/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  ROSTOCK02",
+   "discipline": "music-theory",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmt-rostock.de/studium/studienangebot/musik/musiktheorie/komposition-bm/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor of Music | Musiktheorie/Komposition",
+     "url": "https://www.hmt-rostock.de/studium/studienangebot/musik/musiktheorie/komposition-bm/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music | Musiktheorie",
+     "url": "https://www.hmt-rostock.de/studium/studienangebot/musik/musiktheorie-mm/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  ROSTOCK02",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmt-rostock.de/studium/studienangebot/musik/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor / Master of Music | Instrumental- und Gesangspädagogik (alle Hauptfächer)",
+     "url": "https://www.hmt-rostock.de/studium/studienangebot/musik/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelor / Master of Music | Instrumental- und Gesangspädagogik (alle Hauptfächer)",
+     "url": "https://www.hmt-rostock.de/studium/studienangebot/musik/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  ROSTOCK02",
+   "discipline": "musicology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmt-rostock.de/studium/studienangebot/wissenschaft/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikwissenschaft",
+     "url": "https://www.hmt-rostock.de/studium/studienangebot/wissenschaft/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musikwissenschaft",
+     "url": "https://www.hmt-rostock.de/studium/studienangebot/wissenschaft/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DUSSELD06",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.rsh-duesseldorf.de/studiengaenge/bachelor/chorleitung",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Chorleitung",
+     "url": "https://www.rsh-duesseldorf.de/studiengaenge/bachelor/chorleitung"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Chorleitung",
+     "url": "https://www.rsh-duesseldorf.de/studiengaenge/master/chorleitung"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DUSSELD06",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.rsh-duesseldorf.de/studiengaenge/bachelor/gesang",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Gesang",
+     "url": "https://www.rsh-duesseldorf.de/studiengaenge/bachelor/gesang"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Gesang",
+     "url": "https://www.rsh-duesseldorf.de/studiengaenge/master/gesang"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DUSSELD06",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.rsh-duesseldorf.de/studiengaenge/bachelor/gitarre",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Gitarre",
+     "url": "https://www.rsh-duesseldorf.de/studiengaenge/bachelor/gitarre"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Gitarre",
+     "url": "https://www.rsh-duesseldorf.de/studiengaenge/master/gitarre"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DUSSELD06",
+   "discipline": "church-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.rsh-duesseldorf.de/studiengaenge/bachelor/kirchenmusik",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kirchenmusik",
+     "url": "https://www.rsh-duesseldorf.de/studiengaenge/bachelor/kirchenmusik"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kirchenmusik",
+     "url": "https://www.rsh-duesseldorf.de/studiengaenge/master/kirchenmusik"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DUSSELD06",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.rsh-duesseldorf.de/studiengaenge/bachelor/klavier",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Klavier",
+     "url": "https://www.rsh-duesseldorf.de/studiengaenge/bachelor/klavier"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Klavier",
+     "url": "https://www.rsh-duesseldorf.de/studiengaenge/master/klavier"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DUSSELD06",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.rsh-duesseldorf.de/studiengaenge/bachelor/komposition",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Komposition",
+     "url": "https://www.rsh-duesseldorf.de/studiengaenge/bachelor/komposition"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Komposition",
+     "url": "https://www.rsh-duesseldorf.de/studiengaenge/master/komposition"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DUSSELD06",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.rsh-duesseldorf.de/studiengaenge/bachelor/musikpaedagogik",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikpädagogik",
+     "url": "https://www.rsh-duesseldorf.de/studiengaenge/bachelor/musikpaedagogik"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musikpädagogik",
+     "url": "https://www.rsh-duesseldorf.de/studiengaenge/master/musikpaedagogik"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DUSSELD06",
+   "discipline": "music-theory",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.rsh-duesseldorf.de/studiengaenge/bachelor/musiktheorie-und-hoererziehung",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musiktheorie und Hörerziehung",
+     "url": "https://www.rsh-duesseldorf.de/studiengaenge/bachelor/musiktheorie-und-hoererziehung"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DUSSELD06",
+   "discipline": "musicology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.rsh-duesseldorf.de/studiengaenge/bachelor/musikwissenschaft",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikwissenschaft (Bachelor)",
+     "url": "https://www.rsh-duesseldorf.de/studiengaenge/bachelor/musikwissenschaft"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musikwissenschaft (Master)",
+     "url": "https://www.rsh-duesseldorf.de/studiengaenge/master/musikwissenschaft"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DUSSELD06",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.rsh-duesseldorf.de/studiengaenge/bachelor/orgel",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Orgel",
+     "url": "https://www.rsh-duesseldorf.de/studiengaenge/bachelor/orgel"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Orgel",
+     "url": "https://www.rsh-duesseldorf.de/studiengaenge/master/orgel"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DUSSELD06",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.rsh-duesseldorf.de/studiengaenge/bachelor/orchesterinstrumente",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Orchesterinstrumente (B.Mus., M.Mus.)",
+     "url": "https://www.rsh-duesseldorf.de/studiengaenge/bachelor/orchesterinstrumente"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Orchesterinstrumente (B.Mus., M.Mus.)",
+     "url": "https://www.rsh-duesseldorf.de/studiengaenge/bachelor/orchesterinstrumente"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DUSSELD06",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.rsh-duesseldorf.de/studiengaenge/bachelor/orchesterinstrumente",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Orchesterinstrumente (B.Mus., M.Mus.)",
+     "url": "https://www.rsh-duesseldorf.de/studiengaenge/bachelor/orchesterinstrumente"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Orchesterinstrumente (B.Mus., M.Mus.)",
+     "url": "https://www.rsh-duesseldorf.de/studiengaenge/bachelor/orchesterinstrumente"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DUSSELD06",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.rsh-duesseldorf.de/studiengaenge/bachelor/orchesterinstrumente",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Orchesterinstrumente (B.Mus., M.Mus.)",
+     "url": "https://www.rsh-duesseldorf.de/studiengaenge/bachelor/orchesterinstrumente"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Orchesterinstrumente (B.Mus., M.Mus.)",
+     "url": "https://www.rsh-duesseldorf.de/studiengaenge/bachelor/orchesterinstrumente"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DUSSELD06",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.rsh-duesseldorf.de/studiengaenge/bachelor/orchesterinstrumente",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Orchesterinstrumente (B.Mus., M.Mus.)",
+     "url": "https://www.rsh-duesseldorf.de/studiengaenge/bachelor/orchesterinstrumente"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Orchesterinstrumente (B.Mus., M.Mus.)",
+     "url": "https://www.rsh-duesseldorf.de/studiengaenge/bachelor/orchesterinstrumente"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DUSSELD06",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.rsh-duesseldorf.de/studiengaenge/bachelor/orchesterinstrumente",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Orchesterinstrumente (B.Mus., M.Mus.)",
+     "url": "https://www.rsh-duesseldorf.de/studiengaenge/bachelor/orchesterinstrumente"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Orchesterinstrumente (B.Mus., M.Mus.)",
+     "url": "https://www.rsh-duesseldorf.de/studiengaenge/bachelor/orchesterinstrumente"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DUSSELD06",
+   "discipline": "chamber-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.rsh-duesseldorf.de/studiengaenge/master/blaeser-kammermusik",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Bläser-, Klavier- und Streicher-Kammermusik (M.Mus.)",
+     "url": "https://www.rsh-duesseldorf.de/studiengaenge/master/blaeser-kammermusik"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DUSSELD06",
+   "discipline": "music-technology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.rsh-duesseldorf.de/studiengaenge/bachelor/musik-und-medien",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musik und Medien (Ton- und Bildingenieur)",
+     "url": "https://www.rsh-duesseldorf.de/studiengaenge/bachelor/musik-und-medien"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Klang und Realität",
+     "url": "https://www.rsh-duesseldorf.de/studiengaenge/master/klang-und-realitaet"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DUSSELD06",
+   "discipline": "music-production",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.rsh-duesseldorf.de/studiengaenge/master/kuenstlerische-musikproduktion",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Künstlerische Musikproduktion",
+     "url": "https://www.rsh-duesseldorf.de/studiengaenge/master/kuenstlerische-musikproduktion"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DRESDEN05",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmdd.de/studieren/blasinstrumente",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Blasinstrumente",
+     "url": "https://www.hfmdd.de/studieren/blasinstrumente"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Blasinstrumente",
+     "url": "https://www.hfmdd.de/studieren/blasinstrumente"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DRESDEN05",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmdd.de/studieren/blasinstrumente",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Blasinstrumente",
+     "url": "https://www.hfmdd.de/studieren/blasinstrumente"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Blasinstrumente",
+     "url": "https://www.hfmdd.de/studieren/blasinstrumente"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DRESDEN05",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmdd.de/studieren/dirigierenkorrepetition",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Dirigieren/Korrepetition",
+     "url": "https://www.hfmdd.de/studieren/dirigierenkorrepetition"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Dirigieren/Korrepetition",
+     "url": "https://www.hfmdd.de/studieren/dirigierenkorrepetition"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DRESDEN05",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmdd.de/studieren/gesang",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Gesang",
+     "url": "https://www.hfmdd.de/studieren/gesang"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Gesang",
+     "url": "https://www.hfmdd.de/studieren/gesang"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DRESDEN05",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmdd.de/studieren/gitarre",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Gitarre",
+     "url": "https://www.hfmdd.de/studieren/gitarre"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Gitarre",
+     "url": "https://www.hfmdd.de/studieren/gitarre"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DRESDEN05",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmdd.de/studieren/harfe",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Harfe",
+     "url": "https://www.hfmdd.de/studieren/harfe"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Harfe",
+     "url": "https://www.hfmdd.de/studieren/harfe"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DRESDEN05",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmdd.de/studieren/jazzrockpop",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Jazz/Rock/Pop",
+     "url": "https://www.hfmdd.de/studieren/jazzrockpop"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Jazz/Rock/Pop",
+     "url": "https://www.hfmdd.de/studieren/jazzrockpop"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DRESDEN05",
+   "discipline": "popular-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmdd.de/studieren/jazzrockpop",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Jazz/Rock/Pop",
+     "url": "https://www.hfmdd.de/studieren/jazzrockpop"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Jazz/Rock/Pop",
+     "url": "https://www.hfmdd.de/studieren/jazzrockpop"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DRESDEN05",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmdd.de/studieren/klavier",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Klavier",
+     "url": "https://www.hfmdd.de/studieren/klavier"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Klavier",
+     "url": "https://www.hfmdd.de/studieren/klavier"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DRESDEN05",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmdd.de/studieren/komposition",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Komposition",
+     "url": "https://www.hfmdd.de/studieren/komposition"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Komposition",
+     "url": "https://www.hfmdd.de/studieren/komposition"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DRESDEN05",
+   "discipline": "music-theory",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmdd.de/studieren/musiktheorie",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musiktheorie",
+     "url": "https://www.hfmdd.de/studieren/musiktheorie"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musiktheorie",
+     "url": "https://www.hfmdd.de/studieren/musiktheorie"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DRESDEN05",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmdd.de/studieren/paukeschlagwerk",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Pauke/Schlagwerk",
+     "url": "https://www.hfmdd.de/studieren/paukeschlagwerk"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Pauke/Schlagwerk",
+     "url": "https://www.hfmdd.de/studieren/paukeschlagwerk"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DRESDEN05",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmdd.de/studieren/streichinstrumente",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Streichinstrumente",
+     "url": "https://www.hfmdd.de/studieren/streichinstrumente"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Streichinstrumente",
+     "url": "https://www.hfmdd.de/studieren/streichinstrumente"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DRESDEN05",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmdd.de/studieren/kuenstlerisch-paedagogische-ausbildung",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Künstlerisch-Pädagogische Ausbildung; Lehramt Musik",
+     "url": "https://www.hfmdd.de/studieren/kuenstlerisch-paedagogische-ausbildung"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Künstlerisch-Pädagogische Ausbildung; Lehramt Musik",
+     "url": "https://www.hfmdd.de/studieren/kuenstlerisch-paedagogische-ausbildung"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HANNOVE04",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/dirigieren-bachelor-of-music/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Dirigieren | Chor- und Orchesterleitung (B.Mus.)",
+     "url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/dirigieren-bachelor-of-music/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Dirigieren | Chor- und Orchesterleitung; Kinder- und Jugendchorleitung (M.Mus.)",
+     "url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/dirigieren-mmus/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HANNOVE04",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/gesang-b-mus/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Gesang (B.Mus.)",
+     "url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/gesang-b-mus/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Gesang/Oper; Gesang in freiberuflicher Tätigkeit (M.Mus.)",
+     "url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/gesangoper-mmus/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HANNOVE04",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/jazz-und-jazzverwandte-musik/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Jazz und jazzverwandte Musik (B.Mus.)",
+     "url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/jazz-und-jazzverwandte-musik/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "JazzRockPop (M.Mus.)",
+     "url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/jazz-rock-pop-studieren-master-of-music/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HANNOVE04",
+   "discipline": "popular-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/jazz-und-jazzverwandte-musik/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Jazz und jazzverwandte Musik (B.Mus.)",
+     "url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/jazz-und-jazzverwandte-musik/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "JazzRockPop (M.Mus.)",
+     "url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/jazz-rock-pop-studieren-master-of-music/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HANNOVE04",
+   "discipline": "chamber-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kammermusik-mmus/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Kammermusik (M.Mus.)",
+     "url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kammermusik-mmus/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HANNOVE04",
+   "discipline": "church-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kirchenmusik-bachelor-of-music/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kirchenmusik (B.Mus.)",
+     "url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kirchenmusik-bachelor-of-music/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kirchenmusik (M.Mus.)",
+     "url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kirchenmusik-mmus/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HANNOVE04",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kirchenmusik-bachelor-of-music/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kirchenmusik (B.Mus.)",
+     "url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kirchenmusik-bachelor-of-music/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kirchenmusik (M.Mus.)",
+     "url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kirchenmusik-mmus/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HANNOVE04",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/klavier-bmus/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Klavier (B.Mus.)",
+     "url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/klavier-bmus/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Tasteninstrumente (M.Mus.)",
+     "url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/tasteninstrumente-mmus/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HANNOVE04",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/komposition-bmus/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Komposition (B.Mus.)",
+     "url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/komposition-bmus/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Komposition (M.Mus.)",
+     "url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/komposition-mmus/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HANNOVE04",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kuenstlerisch-paedagogische-ausbildung-bmus/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Künstlerisch-pädagogische Ausbildung (B.Mus.); Fächerübergreifender Bachelor (Schulmusik)",
+     "url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kuenstlerisch-paedagogische-ausbildung-bmus/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Künstlerisch-pädagogische Ausbildung (M.Mus.); Lehramt an Gymnasien (M.Ed.)",
+     "url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kuenstlerisch-paedagogische-ausbildung-mmus/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HANNOVE04",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kuenstlerische-ausbildung-bmus/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Künstlerische Ausbildung / Musical Performance (B.Mus.): alle Orchesterinstrumente, Blockflöte, Akkordeon",
+     "url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kuenstlerische-ausbildung-bmus/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Künstlerische Ausbildung (M.Mus.)",
+     "url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kuenstlerische-ausbildung-mmus/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HANNOVE04",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kuenstlerische-ausbildung-bmus/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Künstlerische Ausbildung / Musical Performance (B.Mus.): alle Orchesterinstrumente, Blockflöte, Akkordeon",
+     "url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kuenstlerische-ausbildung-bmus/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Künstlerische Ausbildung (M.Mus.)",
+     "url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kuenstlerische-ausbildung-mmus/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HANNOVE04",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kuenstlerische-ausbildung-bmus/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Künstlerische Ausbildung / Musical Performance (B.Mus.): alle Orchesterinstrumente, Blockflöte, Akkordeon",
+     "url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kuenstlerische-ausbildung-bmus/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Künstlerische Ausbildung (M.Mus.)",
+     "url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kuenstlerische-ausbildung-mmus/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HANNOVE04",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kuenstlerische-ausbildung-bmus/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Künstlerische Ausbildung / Musical Performance (B.Mus.): alle Orchesterinstrumente, Blockflöte, Akkordeon",
+     "url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kuenstlerische-ausbildung-bmus/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Künstlerische Ausbildung (M.Mus.)",
+     "url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kuenstlerische-ausbildung-mmus/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HANNOVE04",
+   "discipline": "accordion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kuenstlerische-ausbildung-bmus/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Künstlerische Ausbildung / Musical Performance (B.Mus.): alle Orchesterinstrumente, Blockflöte, Akkordeon",
+     "url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kuenstlerische-ausbildung-bmus/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Künstlerische Ausbildung (M.Mus.)",
+     "url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kuenstlerische-ausbildung-mmus/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HANNOVE04",
+   "discipline": "early-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kuenstlerische-ausbildung-bmus/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Künstlerische Ausbildung / Musical Performance (B.Mus.): alle Orchesterinstrumente, Blockflöte, Akkordeon",
+     "url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kuenstlerische-ausbildung-bmus/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HANNOVE04",
+   "discipline": "music-theory",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/musiktheorie-mmus/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Musiktheorie (M.Mus.)",
+     "url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/musiktheorie-mmus/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HANNOVE04",
+   "discipline": "musicology",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/musikforschung-und-musikvermittlung-ma/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Musikwissenschaft und Musikvermittlung (M.A.)",
+     "url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/musikforschung-und-musikvermittlung-ma/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HANNOVE04",
+   "discipline": "arts-management",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/medien-und-musik-ma/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Medien und Musik (M.A.)",
+     "url": "https://www.hmtm-hannover.de/de/bewerbung/studienangebote/medien-und-musik-ma/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  STUTTGA03",
+   "discipline": "strings",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-streichinstrumente-harfe",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Musik – Streichinstrumente, Harfe",
+     "url": "https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-streichinstrumente-harfe"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  STUTTGA03",
+   "discipline": "harp",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-streichinstrumente-harfe",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Musik – Streichinstrumente, Harfe",
+     "url": "https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-streichinstrumente-harfe"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  STUTTGA03",
+   "discipline": "woodwind",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-blasinstrumente",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Musik – Blasinstrumente",
+     "url": "https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-blasinstrumente"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  STUTTGA03",
+   "discipline": "brass",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-blasinstrumente",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Musik – Blasinstrumente",
+     "url": "https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-blasinstrumente"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  STUTTGA03",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-orgel",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Musik – Orgel",
+     "url": "https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-orgel"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Orgel",
+     "url": "https://www.hmdk-stuttgart.de/studiengang/master-musik-orgel"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  STUTTGA03",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-gitarre",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Musik – Gitarre",
+     "url": "https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-gitarre"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Gitarre, Gitarrenduo, historische Saiteninstrumente",
+     "url": "https://www.hmdk-stuttgart.de/studiengang/master-musik-gitarre"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  STUTTGA03",
+   "discipline": "early-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.hmdk-stuttgart.de/studiengang/master-musik-gitarre",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Master Gitarre, Gitarrenduo, historische Saiteninstrumente",
+     "url": "https://www.hmdk-stuttgart.de/studiengang/master-musik-gitarre"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  STUTTGA03",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-komposition",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Musik – Komposition (Instrumentalkomposition, Computermusik)",
+     "url": "https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-komposition"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Komposition",
+     "url": "https://www.hmdk-stuttgart.de/studiengang/master-musik-komposition"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  STUTTGA03",
+   "discipline": "music-technology",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-komposition",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Musik – Komposition: Computermusik",
+     "url": "https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-komposition"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  STUTTGA03",
+   "discipline": "conducting",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-chordirigieren",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Musik – Chordirigieren; Orchesterdirigieren",
+     "url": "https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-chordirigieren"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  STUTTGA03",
+   "discipline": "piano",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-klavier",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Musik – Klavier",
+     "url": "https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-klavier"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  STUTTGA03",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-gesang",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Musik – Gesang",
+     "url": "https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-gesang"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Oper",
+     "url": "https://www.hmdk-stuttgart.de/studiengang/master-oper"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  STUTTGA03",
+   "discipline": "percussion",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-schlagzeug",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Musik – Schlagzeug",
+     "url": "https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-schlagzeug"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  STUTTGA03",
+   "discipline": "accordion",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-akkordeon",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Musik – Akkordeon",
+     "url": "https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-akkordeon"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  STUTTGA03",
+   "discipline": "jazz",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-jazz-pop",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Musik – Jazz & Pop",
+     "url": "https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-jazz-pop"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  STUTTGA03",
+   "discipline": "popular-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-jazz-pop",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Musik – Jazz & Pop",
+     "url": "https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-jazz-pop"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  STUTTGA03",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-elementare-musikpaedagogik",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Musik – Elementare Musikpädagogik; Bachelor Lehramt",
+     "url": "https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-elementare-musikpaedagogik"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Instrumental- & Gesangspädagogik; Master Lehramt",
+     "url": "https://www.hmdk-stuttgart.de/studiengang/master-instrumental-gesangspaedagogik"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  STUTTGA03",
+   "discipline": "music-theory",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-musiktheorie",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Musik – Musiktheorie",
+     "url": "https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-musiktheorie"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Musiktheorie",
+     "url": "https://www.hmdk-stuttgart.de/studiengang/master-musik-musiktheorie"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  STUTTGA03",
+   "discipline": "church-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hmdk-stuttgart.de/studiengang/bachelor-kirchenmusik-b",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Kirchenmusik B",
+     "url": "https://www.hmdk-stuttgart.de/studiengang/bachelor-kirchenmusik-b"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master Kirchenmusik A",
+     "url": "https://www.hmdk-stuttgart.de/studiengang/master-kirchenmusik"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  STUTTGA03",
+   "discipline": "chamber-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.hmdk-stuttgart.de/studiengang/master-kammermusik",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Master Kammermusik",
+     "url": "https://www.hmdk-stuttgart.de/studiengang/master-kammermusik"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  STUTTGA03",
+   "discipline": "musicology",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.hmdk-stuttgart.de/studiengang/master-musikwissenschaft",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Master Musikwissenschaft",
+     "url": "https://www.hmdk-stuttgart.de/studiengang/master-musikwissenschaft"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MUNSTER01",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.uni-muenster.de/Musikhochschule/Studieninteressierte/Bewerbung.html",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor / Master of Music – Instrument / Gesang (klassische Ausbildung)",
+     "url": "https://www.uni-muenster.de/Musikhochschule/Studieninteressierte/Bewerbung.html"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelor / Master of Music – Instrument / Gesang (klassische Ausbildung)",
+     "url": "https://www.uni-muenster.de/Musikhochschule/Studieninteressierte/Bewerbung.html"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MUNSTER01",
+   "discipline": "popular-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.uni-muenster.de/Musikhochschule/Studieninteressierte/Bewerbung.html",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor of Music – Popularmusik (Pop-Vocals, Drum-Set, E-Bass, E-Gitarre)",
+     "url": "https://www.uni-muenster.de/Musikhochschule/Studieninteressierte/Bewerbung.html"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MUNSTER01",
+   "discipline": "music-production",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.uni-muenster.de/Musikhochschule/Studieninteressierte/Bewerbung.html",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor of Music – Popularmusik / Keyboards & Music Production",
+     "url": "https://www.uni-muenster.de/Musikhochschule/Studieninteressierte/Bewerbung.html"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MUNSTER01",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.uni-muenster.de/Musikhochschule/Studieninteressierte/Bewerbung.html",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor of Music – Musik und Vermittlung; Elementare Musikpädagogik",
+     "url": "https://www.uni-muenster.de/Musikhochschule/Studieninteressierte/Bewerbung.html"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music – Musikpädagogik",
+     "url": "https://www.uni-muenster.de/Musikhochschule/Studieninteressierte/Bewerbung.html"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  MUNSTER01",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.uni-muenster.de/Musikhochschule/Studieninteressierte/Bewerbung.html",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor / Master of Music – Musik und Kreativität",
+     "url": "https://www.uni-muenster.de/Musikhochschule/Studieninteressierte/Bewerbung.html"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelor / Master of Music – Musik und Kreativität",
+     "url": "https://www.uni-muenster.de/Musikhochschule/Studieninteressierte/Bewerbung.html"
     }
    ],
    "verified": false

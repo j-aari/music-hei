@@ -53,10 +53,13 @@ Tilanne näkyy komennolla:
 - **Tasot:** jos sivu kertoo rakenteen yhteisesti (Saksa: B.Mus./M.Mus., Tanska: bachelor+kandidat, FWB: bachelier+master), sama taso kaikille aloille `default_level`-parametrilla.
 - **Verkko-osoite vanhentunut:** korjaa `data/annotations.json`-tiedostoon `website_override` ja perustelu `notes`-kenttään (esim. PESMD Bordeaux → resonances-na.eu).
 
-### Odottaa (sivuilta ei saatu kattavaa listaa ensimmäisellä yrityksellä)
+### Odottaa (sivuilta ei saatu kattavaa listaa; päivitetty erän 6 jälkeen)
 
-- `D  HAMBURG05` (hfmt-hamburg.de: vain osa ohjelmista linkkeinä; instrumenttiohjelmat puuttuvat)
-- `D  FRANKFU02` (hfmdk-frankfurt.de/thema/studiengaenge-von-bis-z on JS-lista)
-- `D  SAARBRU08` (hfm.saarland.de ei vastannut)
-- `D  MAINZ01` (musik.uni-mainz.de: DNS-virhe; kokeile uni-mainz.de:n kautta)
-- `D  LEIPZIG05`, `D  MUNCHEN03`, `D  ROSTOCK02`, `D  HANNOVE04`, `D  DUSSELD06`, `D  STUTTGA03`, `D  DRESDEN05`, `D  LUBECK02` ja muut Saksan jäljellä olevat (next.py listaa ne ensimmäisinä)
+- `D  FRANKFU02` – instrumentti- ja dirigointiohjelmat (KIA) on merkitty "Auslaufend / Keine Bewerbung möglich"; korvaavia ohjelmasivuja ei löytynyt (`/studiengang/<slug>` toimii, lista on JS)
+- `D  MUNCHEN03` – hmtm.de: ohjelmakortit ladataan JS:llä (`/studiengangskategorie/musik/`)
+- `D  LUBECK02` – mh-luebeck.de: hakukoneen löytämät `/studium/studiengaenge/...`-osoitteet antavat 404
+- `D  BREMEN03` – hfk-bremen.de/de/studium/musik: sisältö JS:llä; alasivustot altemusik.hfk-bremen.de, kpa.hfk-bremen.de
+- `D  BERLIN03` (UdK) – /studium/studienangebot/ antaa 404
+- `D  OSNABRU02` – hs-osnabrueck.de/institut-fuer-musik/ antaa 404
+- `D  SAARBRU08` – hfm.saarland.de ei vastannut
+- `D  MAINZ01` – musik.uni-mainz.de: DNS-virhe; kokeile uni-mainz.de:n kautta

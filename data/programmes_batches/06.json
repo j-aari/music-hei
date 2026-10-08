@@ -1,0 +1,1589 @@
+{
+"collected": "2026-10-08",
+"method": "Field-level collection as in batch 1 (raw HTML of each institution's own programme pages, PDFs where the list was only there; names mapped to disciplines.json by keyword and checked by hand).",
+"institutions": {
+"D  LEIPZIG05": [
+[
+"early-music",
+"BA",
+"Bachelor Alte Musik",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/musikpaedagogik/studieninformationen/studiengang-1-2/bachelorstudiengang-alte-musik"
+],
+[
+"early-music",
+"MA",
+"Master Alte Musik",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/musikpaedagogik/studieninformationen/studiengang-1-2/masterstudiengang-alte-musik-konsekutiv-verbreiternd"
+],
+[
+"early-music",
+"MA",
+"Master Alte Musik",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/musikpaedagogik/studieninformationen/studiengang-1-2/masterstudiengang-alte-musik-konsekutiv-vertiefend"
+],
+[
+"vocal-opera",
+"BA",
+"Bachelor Klassischer Gesang | Musiktheater",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/gesang-musiktheater/studieninformationen/steckbriefe/bachelorstudiengang-klassischer-gesang-musiktheater"
+],
+[
+"vocal-opera",
+"MA",
+"Master klassischer Gesang – künstlerisch",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/gesang-musiktheater/studieninformationen/steckbriefe/masterstudiengang-klassischer-gesang-konsekutiv-kuenstlerisch"
+],
+[
+"vocal-opera",
+"MA",
+"Master klassischer Gesang – pädagogisch-künstlerisch",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/gesang-musiktheater/studieninformationen/steckbriefe/masterstudiengang-klassischer-gesang-konsekutiv-paedagogisch-kuenstlerisch"
+],
+[
+"music-education",
+"MA",
+"Master klassischer Gesang – pädagogisch-künstlerisch",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/gesang-musiktheater/studieninformationen/steckbriefe/masterstudiengang-klassischer-gesang-konsekutiv-paedagogisch-kuenstlerisch"
+],
+[
+"vocal-opera",
+"MA",
+"Master Operngesang – künstlerisch",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/gesang-musiktheater/studieninformationen/steckbriefe/masterstudiengang-operngesang-konsekutiv-kuenstlerisch"
+],
+[
+"jazz",
+"BA",
+"Bachelor Jazz | Popularmusik",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/musikpaedagogik/studieninformationen/studiengang-1-1/bachelorstudiengang-jazz-popularmusik"
+],
+[
+"popular-music",
+"BA",
+"Bachelor Jazz | Popularmusik",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/musikpaedagogik/studieninformationen/studiengang-1-1/bachelorstudiengang-jazz-popularmusik"
+],
+[
+"jazz",
+"MA",
+"Master Jazz | Popularmusik – künstlerisch",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/musikpaedagogik/studieninformationen/studiengang-1-1/masterstudiengang-jazz-popularmusik-konsekutiv-kuenstlerisch"
+],
+[
+"popular-music",
+"MA",
+"Master Jazz | Popularmusik – künstlerisch",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/musikpaedagogik/studieninformationen/studiengang-1-1/masterstudiengang-jazz-popularmusik-konsekutiv-kuenstlerisch"
+],
+[
+"jazz",
+"MA",
+"Master Jazz | Popularmusik – pädagogisch-künstlerisch",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/musikpaedagogik/studieninformationen/studiengang-1-1/masterstudiengang-jazz-popularmusik-konsekutiv-paedagogisch-kuenstlerisch"
+],
+[
+"popular-music",
+"MA",
+"Master Jazz | Popularmusik – pädagogisch-künstlerisch",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/musikpaedagogik/studieninformationen/studiengang-1-1/masterstudiengang-jazz-popularmusik-konsekutiv-paedagogisch-kuenstlerisch"
+],
+[
+"church-music",
+"BA",
+"Bachelor Kirchenmusik",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/kirchenmusik/studieninformationen/studiengang/bachelorstudiengang-kirchenmusik"
+],
+[
+"organ",
+"BA",
+"Bachelor Orgel",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/kirchenmusik/studieninformationen/studiengang/bachelorstudiengang-orgel"
+],
+[
+"church-music",
+"MA",
+"Master Kirchenmusik",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/kirchenmusik/studieninformationen/studiengang/masterstudiengang-kirchenmusik-konsekutiv"
+],
+[
+"organ",
+"MA",
+"Master Orgel",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/kirchenmusik/studieninformationen/studiengang/masterstudiengang-orgel-konsekutiv"
+],
+[
+"conducting",
+"BA",
+"Bachelor Dirigieren",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/klavier-dirigieren/studieninformationen/steckbriefe/bachelorstudiengang-dirigieren"
+],
+[
+"piano",
+"BA",
+"Bachelor Klavier",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/klavier-dirigieren/studieninformationen/steckbriefe/bachelorstudiengang-klavier"
+],
+[
+"conducting",
+"MA",
+"Master Dirigieren",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/klavier-dirigieren/studieninformationen/steckbriefe/masterstudiengang-dirigieren-konsekutiv"
+],
+[
+"chamber-music",
+"MA",
+"Master Kammermusik (Ensembles)",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/streichinstrumente-harfe/studieninformationen/steckbriefe/masterstudiengang-kammermusik-konsekutiv-kuenstlerisch"
+],
+[
+"piano",
+"MA",
+"Master Klavier – künstlerisch",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/klavier-dirigieren/studieninformationen/steckbriefe/masterstudiengang-klavier-konsekutiv-kuenstlerisch"
+],
+[
+"piano",
+"MA",
+"Master Klavier – pädagogisch-künstlerisch",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/klavier-dirigieren/studieninformationen/steckbriefe/masterstudiengang-klavier-konsekutiv-paedagogisch-kuenstlerisch"
+],
+[
+"music-education",
+"MA",
+"Master Klavier – pädagogisch-künstlerisch",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/klavier-dirigieren/studieninformationen/steckbriefe/masterstudiengang-klavier-konsekutiv-paedagogisch-kuenstlerisch"
+],
+[
+"chamber-music",
+"MA",
+"Master Klavierkammermusik",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/klavier-dirigieren/studieninformationen/steckbriefe/masterstudiengang-klavierkammermusik-konsekutiv"
+],
+[
+"music-technology",
+"MA",
+"Master Elektroakustische Musik",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/komposition-tonsatz/studieninformationen/steckbriefe/masterstudiengang-elektroakustische-musik-konsekutiv-kuenstlerisch"
+],
+[
+"composition",
+"MA",
+"Master Komposition",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/komposition-tonsatz/studieninformationen/steckbriefe/masterstudiengang-komposition-konsekutiv-kuenstlerisch"
+],
+[
+"composition",
+"MA",
+"Master Tonsatz",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/komposition-tonsatz/studieninformationen/steckbriefe/masterstudiengang-tonsatz-konsekutiv-kuenstlerisch"
+],
+[
+"music-theory",
+"MA",
+"Master Tonsatz",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/komposition-tonsatz/studieninformationen/steckbriefe/masterstudiengang-tonsatz-konsekutiv-kuenstlerisch"
+],
+[
+"musicology",
+"MA",
+"Master Musikwissenschaft",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/musikwissenschaft/studieninformationen/steckbriefe/masterstudiengang-musikwissenschaft-konsekutiv"
+],
+[
+"harp",
+"BA",
+"Bachelor Streichinstrumente | Harfe",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/streichinstrumente-harfe/studieninformationen/steckbriefe/bachelorstudiengang-streichinstrumente-harfe"
+],
+[
+"strings",
+"BA",
+"Bachelor Streichinstrumente | Harfe",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/streichinstrumente-harfe/studieninformationen/steckbriefe/bachelorstudiengang-streichinstrumente-harfe"
+],
+[
+"chamber-music",
+"MA",
+"Master Kammermusik (Ensembles)",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/streichinstrumente-harfe/studieninformationen/steckbriefe/masterstudiengang-kammermusik-konsekutiv-kuenstlerisch"
+],
+[
+"harp",
+"MA",
+"Master Streichinstrumente | Harfe – künstlerisch",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/streichinstrumente-harfe/studieninformationen/steckbriefe/masterstudiengang-streichinstrumente-harfe-konsekutiv-kuenstlerisch"
+],
+[
+"strings",
+"MA",
+"Master Streichinstrumente | Harfe – künstlerisch",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/streichinstrumente-harfe/studieninformationen/steckbriefe/masterstudiengang-streichinstrumente-harfe-konsekutiv-kuenstlerisch"
+],
+[
+"harp",
+"MA",
+"Master Streichinstrumente | Harfe – pädagogisch-künstlerisch",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/streichinstrumente-harfe/studieninformationen/steckbriefe/masterstudiengang-streichinstrumente-harfe-konsekutiv-paedagogisch-kuenstlerisch"
+],
+[
+"strings",
+"MA",
+"Master Streichinstrumente | Harfe – pädagogisch-künstlerisch",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/streichinstrumente-harfe/studieninformationen/steckbriefe/masterstudiengang-streichinstrumente-harfe-konsekutiv-paedagogisch-kuenstlerisch"
+],
+[
+"music-education",
+"MA",
+"Master Streichinstrumente | Harfe – pädagogisch-künstlerisch",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/streichinstrumente-harfe/studieninformationen/steckbriefe/masterstudiengang-streichinstrumente-harfe-konsekutiv-paedagogisch-kuenstlerisch"
+],
+[
+"woodwind",
+"BA",
+"Bachelor Blasinstrumente | Schlagzeug",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/musikpaedagogik/studieninformationen/studiengang-1/bachelorstudiengang-blasinstrumente-schlagzeug"
+],
+[
+"brass",
+"BA",
+"Bachelor Blasinstrumente | Schlagzeug",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/musikpaedagogik/studieninformationen/studiengang-1/bachelorstudiengang-blasinstrumente-schlagzeug"
+],
+[
+"percussion",
+"BA",
+"Bachelor Blasinstrumente | Schlagzeug",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/musikpaedagogik/studieninformationen/studiengang-1/bachelorstudiengang-blasinstrumente-schlagzeug"
+],
+[
+"woodwind",
+"MA",
+"Master Blasinstrumente | Schlagzeug",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/musikpaedagogik/studieninformationen/studiengang-1/masterstudiengang-blasinstrumente-schlagzeug-konsekutiv-kuenstlerisch"
+],
+[
+"brass",
+"MA",
+"Master Blasinstrumente | Schlagzeug",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/musikpaedagogik/studieninformationen/studiengang-1/masterstudiengang-blasinstrumente-schlagzeug-konsekutiv-kuenstlerisch"
+],
+[
+"percussion",
+"MA",
+"Master Blasinstrumente | Schlagzeug",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/musikpaedagogik/studieninformationen/studiengang-1/masterstudiengang-blasinstrumente-schlagzeug-konsekutiv-kuenstlerisch"
+],
+[
+"harp",
+"BA",
+"Streichinstrumente | Harfe",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/streichinstrumente-harfe/studieninformationen/steckbriefe/bachelorstudiengang-streichinstrumente-harfe"
+],
+[
+"harp",
+"MA",
+"Streichinstrumente | Harfe",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/streichinstrumente-harfe/studieninformationen/steckbriefe/bachelorstudiengang-streichinstrumente-harfe"
+],
+[
+"music-education",
+"BA",
+"Bachelor Instrumental-/Gesangspädagogik, Elementare Musik-/Tanzpädagogik; Doppelfach Schulmusik",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/musikpaedagogik"
+],
+[
+"music-education",
+"MA",
+"Master Elementare Musik- und Tanzpädagogik; Doppelfach Schulmusik; pädagogisch-künstlerische Master",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/musikpaedagogik"
+],
+[
+"composition",
+"BA",
+"Bachelor Komposition | Musiktheorie | Improvisation",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/komposition-tonsatz/studieninformationen/steckbriefe/bachelorstudiengang-kompositionmusiktheorieimprovisation"
+],
+[
+"music-theory",
+"BA",
+"Bachelor Komposition | Musiktheorie | Improvisation",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/komposition-tonsatz/studieninformationen/steckbriefe/bachelorstudiengang-kompositionmusiktheorieimprovisation"
+],
+[
+"music-technology",
+"MA",
+"Master Elektroakustische Musik",
+"https://www.hmt-leipzig.de/hochschule/fachrichtungen-institute/komposition-tonsatz/studieninformationen/steckbriefe/masterstudiengang-elektroakustische-musik-konsekutiv-kuenstlerisch"
+]
+],
+"D  HAMBURG05": [
+[
+"strings",
+"BA",
+"Bachelorstudiengang Instrumentalmusik (Violine … Schlagzeug, Klavier, Orgel, Cembalo, Blockflöte, Traversflöte)",
+"https://www.hfmt-hamburg.de/fileadmin/u/ordnungen/PO_BMus_Instr.pdf"
+],
+[
+"guitar",
+"BA",
+"Bachelorstudiengang Instrumentalmusik (Violine … Schlagzeug, Klavier, Orgel, Cembalo, Blockflöte, Traversflöte)",
+"https://www.hfmt-hamburg.de/fileadmin/u/ordnungen/PO_BMus_Instr.pdf"
+],
+[
+"harp",
+"BA",
+"Bachelorstudiengang Instrumentalmusik (Violine … Schlagzeug, Klavier, Orgel, Cembalo, Blockflöte, Traversflöte)",
+"https://www.hfmt-hamburg.de/fileadmin/u/ordnungen/PO_BMus_Instr.pdf"
+],
+[
+"woodwind",
+"BA",
+"Bachelorstudiengang Instrumentalmusik (Violine … Schlagzeug, Klavier, Orgel, Cembalo, Blockflöte, Traversflöte)",
+"https://www.hfmt-hamburg.de/fileadmin/u/ordnungen/PO_BMus_Instr.pdf"
+],
+[
+"brass",
+"BA",
+"Bachelorstudiengang Instrumentalmusik (Violine … Schlagzeug, Klavier, Orgel, Cembalo, Blockflöte, Traversflöte)",
+"https://www.hfmt-hamburg.de/fileadmin/u/ordnungen/PO_BMus_Instr.pdf"
+],
+[
+"percussion",
+"BA",
+"Bachelorstudiengang Instrumentalmusik (Violine … Schlagzeug, Klavier, Orgel, Cembalo, Blockflöte, Traversflöte)",
+"https://www.hfmt-hamburg.de/fileadmin/u/ordnungen/PO_BMus_Instr.pdf"
+],
+[
+"piano",
+"BA",
+"Bachelorstudiengang Instrumentalmusik (Violine … Schlagzeug, Klavier, Orgel, Cembalo, Blockflöte, Traversflöte)",
+"https://www.hfmt-hamburg.de/fileadmin/u/ordnungen/PO_BMus_Instr.pdf"
+],
+[
+"organ",
+"BA",
+"Bachelorstudiengang Instrumentalmusik (Violine … Schlagzeug, Klavier, Orgel, Cembalo, Blockflöte, Traversflöte)",
+"https://www.hfmt-hamburg.de/fileadmin/u/ordnungen/PO_BMus_Instr.pdf"
+],
+[
+"early-music",
+"BA",
+"Bachelorstudiengang Instrumentalmusik (Violine … Schlagzeug, Klavier, Orgel, Cembalo, Blockflöte, Traversflöte)",
+"https://www.hfmt-hamburg.de/fileadmin/u/ordnungen/PO_BMus_Instr.pdf"
+],
+[
+"strings",
+"MA",
+"Master Instrumentalmusik; Internationaler Master",
+"https://www.hfmt-hamburg.de/studieren/vorlesungsverzeichnis/?tx_hfmtdb_degree%5Bcat%5D=4&tx_hfmtdb_degree%5Baction%5D=list&tx_hfmtdb_degree%5Bcontroller%5D=Degree"
+],
+[
+"guitar",
+"MA",
+"Master Instrumentalmusik; Internationaler Master",
+"https://www.hfmt-hamburg.de/studieren/vorlesungsverzeichnis/?tx_hfmtdb_degree%5Bcat%5D=4&tx_hfmtdb_degree%5Baction%5D=list&tx_hfmtdb_degree%5Bcontroller%5D=Degree"
+],
+[
+"harp",
+"MA",
+"Master Instrumentalmusik; Internationaler Master",
+"https://www.hfmt-hamburg.de/studieren/vorlesungsverzeichnis/?tx_hfmtdb_degree%5Bcat%5D=4&tx_hfmtdb_degree%5Baction%5D=list&tx_hfmtdb_degree%5Bcontroller%5D=Degree"
+],
+[
+"woodwind",
+"MA",
+"Master Instrumentalmusik; Internationaler Master",
+"https://www.hfmt-hamburg.de/studieren/vorlesungsverzeichnis/?tx_hfmtdb_degree%5Bcat%5D=4&tx_hfmtdb_degree%5Baction%5D=list&tx_hfmtdb_degree%5Bcontroller%5D=Degree"
+],
+[
+"brass",
+"MA",
+"Master Instrumentalmusik; Internationaler Master",
+"https://www.hfmt-hamburg.de/studieren/vorlesungsverzeichnis/?tx_hfmtdb_degree%5Bcat%5D=4&tx_hfmtdb_degree%5Baction%5D=list&tx_hfmtdb_degree%5Bcontroller%5D=Degree"
+],
+[
+"percussion",
+"MA",
+"Master Instrumentalmusik; Internationaler Master",
+"https://www.hfmt-hamburg.de/studieren/vorlesungsverzeichnis/?tx_hfmtdb_degree%5Bcat%5D=4&tx_hfmtdb_degree%5Baction%5D=list&tx_hfmtdb_degree%5Bcontroller%5D=Degree"
+],
+[
+"piano",
+"MA",
+"Master Instrumentalmusik; Internationaler Master",
+"https://www.hfmt-hamburg.de/studieren/vorlesungsverzeichnis/?tx_hfmtdb_degree%5Bcat%5D=4&tx_hfmtdb_degree%5Baction%5D=list&tx_hfmtdb_degree%5Bcontroller%5D=Degree"
+],
+[
+"organ",
+"MA",
+"Master Instrumentalmusik; Internationaler Master",
+"https://www.hfmt-hamburg.de/studieren/vorlesungsverzeichnis/?tx_hfmtdb_degree%5Bcat%5D=4&tx_hfmtdb_degree%5Baction%5D=list&tx_hfmtdb_degree%5Bcontroller%5D=Degree"
+],
+[
+"jazz",
+"BA",
+"Jazz (Bachelor, Master)",
+"https://www.hfmt-hamburg.de/musik/studiengaenge/jazz"
+],
+[
+"jazz",
+"MA",
+"Jazz (Bachelor, Master)",
+"https://www.hfmt-hamburg.de/musik/studiengaenge/jazz"
+],
+[
+"composition",
+"MA",
+"Multimediale Komposition (Master)",
+"https://www.hfmt-hamburg.de/studieren/vorlesungsverzeichnis/"
+],
+[
+"music-technology",
+"MA",
+"Multimediale Komposition (Master)",
+"https://www.hfmt-hamburg.de/studieren/vorlesungsverzeichnis/"
+],
+[
+"vocal-opera",
+"BA",
+"Gesang; Operngesang",
+"https://www.hfmt-hamburg.de/musik/studiengaenge/gesang"
+],
+[
+"vocal-opera",
+"MA",
+"Gesang; Operngesang",
+"https://www.hfmt-hamburg.de/musik/studiengaenge/gesang"
+],
+[
+"conducting",
+"BA",
+"Dirigieren; Chorleitung",
+"https://www.hfmt-hamburg.de/musik/studiengaenge/dirigieren"
+],
+[
+"conducting",
+"MA",
+"Dirigieren; Chorleitung",
+"https://www.hfmt-hamburg.de/musik/studiengaenge/dirigieren"
+],
+[
+"church-music",
+"BA",
+"Kirchenmusik",
+"https://www.hfmt-hamburg.de/musik/studiengaenge/kirchenmusik"
+],
+[
+"church-music",
+"MA",
+"Kirchenmusik",
+"https://www.hfmt-hamburg.de/musik/studiengaenge/kirchenmusik"
+],
+[
+"music-education",
+"BA",
+"Instrumentalpädagogik; Lehramt für Sekundarstufe I & II",
+"https://www.hfmt-hamburg.de/en/paedagogik-therapie-wissenschaft/musikpaedagogik/instrumentalpaedagogik"
+],
+[
+"music-education",
+"MA",
+"Instrumentalpädagogik; Lehramt für Sekundarstufe I & II",
+"https://www.hfmt-hamburg.de/en/paedagogik-therapie-wissenschaft/musikpaedagogik/instrumentalpaedagogik"
+],
+[
+"music-therapy",
+"MA",
+"Master Musiktherapie",
+"https://www.hfmt-hamburg.de/studieren/vorlesungsverzeichnis/"
+],
+[
+"arts-management",
+"MA",
+"Kultur- und Medienmanagement (Fernstudium Master)",
+"https://www.hfmt-hamburg.de/kultur-und-medienmanagement/studiengaenge/fernshystudium-master"
+]
+],
+"D  ROSTOCK02": [
+[
+"strings",
+"BA",
+"Bachelor of Music | Streichinstrumente",
+"https://www.hmt-rostock.de/studium/studienangebot/musik/streichinstrumente/"
+],
+[
+"popular-music",
+"BA",
+"Bachelor of Music | Popularmusik mit Klassik Kontrabass",
+"https://www.hmt-rostock.de/studium/studienangebot/musik/popularmusik-mit-klassik/"
+],
+[
+"strings",
+"MA",
+"Master of Music | Orchesterinstrumente mit Hauptfach Streichinstrument",
+"https://www.hmt-rostock.de/studium/studienangebot/musik/orchesterinstrumente-hf-streichinstrument/"
+],
+[
+"chamber-music",
+"MA",
+"Master of Music | Kammermusik Instrumentalensembles",
+"https://www.hmt-rostock.de/studium/studienangebot/musik/kammermusik-hf-instrumentalensemble/"
+],
+[
+"woodwind",
+"BA",
+"Bachelor of Music | Blasinstrumente",
+"https://www.hmt-rostock.de/studium/studienangebot/musik/blasinstrumente/"
+],
+[
+"brass",
+"BA",
+"Bachelor of Music | Blasinstrumente",
+"https://www.hmt-rostock.de/studium/studienangebot/musik/blasinstrumente/"
+],
+[
+"popular-music",
+"BA",
+"Bachelor of Music | Popularmusik mit Klassik Saxophon",
+"https://www.hmt-rostock.de/studium/studienangebot/musik/popularmusik-mit-klassik/"
+],
+[
+"woodwind",
+"MA",
+"Master of Music | Orchesterinstrumente Hauptfach Blasinstrument",
+"https://www.hmt-rostock.de/studium/studienangebot/musik/orchesterinstrumente-hf-blasinstrument/"
+],
+[
+"brass",
+"MA",
+"Master of Music | Orchesterinstrumente Hauptfach Blasinstrument",
+"https://www.hmt-rostock.de/studium/studienangebot/musik/orchesterinstrumente-hf-blasinstrument/"
+],
+[
+"piano",
+"BA",
+"Bachelor of Music | Klavier",
+"https://www.hmt-rostock.de/studium/studienangebot/musik/klavier/"
+],
+[
+"popular-music",
+"BA",
+"Bachelor of Music | Popularmusik mit Klassik Klavier",
+"https://www.hmt-rostock.de/studium/studienangebot/musik/popularmusik-mit-klassik/"
+],
+[
+"piano",
+"MA",
+"Master of Music | Klavier solo",
+"https://www.hmt-rostock.de/studium/studienangebot/musik/klavier-solo/"
+],
+[
+"piano",
+"MA",
+"Master of Music | Klavierduo",
+"https://www.hmt-rostock.de/studium/studienangebot/musik/klavierduo/"
+],
+[
+"chamber-music",
+"MA",
+"Master of Music | Kammermusik Instrumentalensemble",
+"https://www.hmt-rostock.de/studium/studienangebot/musik/kammermusik-hf-instrumentalensemble/"
+],
+[
+"chamber-music",
+"MA",
+"Master of Music | Kammermusik Liedgestaltung",
+"https://www.hmt-rostock.de/studium/studienangebot/musik/kammermusik-hf-liedgestaltung/"
+],
+[
+"percussion",
+"BA",
+"Bachelor of Music | Schlagzeug",
+"https://www.hmt-rostock.de/studium/studienangebot/musik/schlagzeug/"
+],
+[
+"popular-music",
+"BA",
+"Bachelor of Music | Popularmusik mit Klassik Schlagzeug",
+"https://www.hmt-rostock.de/studium/studienangebot/musik/popularmusik-mit-klassik/"
+],
+[
+"percussion",
+"MA",
+"Master of Music | Orchesterinstrumente, Hauptfach Schlagzeug",
+"https://www.hmt-rostock.de/studium/studienangebot/musik/orchesterinstrumente-hf-schlagzeug/"
+],
+[
+"guitar",
+"BA",
+"Bachelor of Music | Gitarre",
+"https://www.hmt-rostock.de/studium/studienangebot/musik/gitarre/"
+],
+[
+"popular-music",
+"BA",
+"Bachelor of Music | Popularmusik mit Klassik Gitarre oder E-Bass/Kontrabass",
+"https://www.hmt-rostock.de/studium/studienangebot/musik/popularmusik-mit-klassik/"
+],
+[
+"guitar",
+"MA",
+"Master of Music | Gitarre solo",
+"https://www.hmt-rostock.de/studium/studienangebot/musik/gitarre-solo/"
+],
+[
+"harp",
+"BA",
+"Bachelor of Music | Harfe",
+"https://www.hmt-rostock.de/studium/studienangebot/musik/harfe/"
+],
+[
+"harp",
+"MA",
+"Master of Music | Orchesterinstrumente, Hauptfach Harfe",
+"https://www.hmt-rostock.de/studium/studienangebot/musik/orchesterinstrumente-hf-harfe/"
+],
+[
+"vocal-opera",
+"BA",
+"Bachelor of Music | Gesang",
+"https://www.hmt-rostock.de/studium/studienangebot/musik/gesang/"
+],
+[
+"popular-music",
+"BA",
+"Bachelor of Music | Popularmusik mit Klassik Gesang",
+"https://www.hmt-rostock.de/studium/studienangebot/musik/popularmusik-mit-klassik/"
+],
+[
+"vocal-opera",
+"BA",
+"Bachelor of Music | Popularmusik mit Klassik Gesang",
+"https://www.hmt-rostock.de/studium/studienangebot/musik/popularmusik-mit-klassik/"
+],
+[
+"vocal-opera",
+"MA",
+"Master of Music | Bühnengesang",
+"https://www.hmt-rostock.de/studium/studienangebot/musik/buehnengesang/"
+],
+[
+"vocal-opera",
+"MA",
+"Master of Music | Konzertgesang",
+"https://www.hmt-rostock.de/studium/studienangebot/musik/konzertgesang/"
+],
+[
+"conducting",
+"BA",
+"Bachelor of Music | Orchesterdirigieren/Korrepetition",
+"https://www.hmt-rostock.de/studium/studienangebot/musik/orchesterdirigieren/korrepetition-bm/"
+],
+[
+"conducting",
+"MA",
+"Master of Music | Orchesterdirigieren/Korrepetition",
+"https://www.hmt-rostock.de/studium/studienangebot/musik/orchesterdirigieren/korrepetition-mm/"
+],
+[
+"composition",
+"BA",
+"Bachelor of Music | Musiktheorie/Komposition",
+"https://www.hmt-rostock.de/studium/studienangebot/musik/musiktheorie/komposition-bm/"
+],
+[
+"music-theory",
+"BA",
+"Bachelor of Music | Musiktheorie/Komposition",
+"https://www.hmt-rostock.de/studium/studienangebot/musik/musiktheorie/komposition-bm/"
+],
+[
+"composition",
+"MA",
+"Master of Music | Komposition",
+"https://www.hmt-rostock.de/studium/studienangebot/musik/komposition-mm/"
+],
+[
+"music-theory",
+"MA",
+"Master of Music | Musiktheorie",
+"https://www.hmt-rostock.de/studium/studienangebot/musik/musiktheorie-mm/"
+],
+[
+"music-education",
+"BA",
+"Bachelor / Master of Music | Instrumental- und Gesangspädagogik (alle Hauptfächer)",
+"https://www.hmt-rostock.de/studium/studienangebot/musik/"
+],
+[
+"music-education",
+"MA",
+"Bachelor / Master of Music | Instrumental- und Gesangspädagogik (alle Hauptfächer)",
+"https://www.hmt-rostock.de/studium/studienangebot/musik/"
+],
+[
+"music-education",
+"BA",
+"Lehramt Musik",
+"https://www.hmt-rostock.de/studium/studienangebot/lehramt/"
+],
+[
+"music-education",
+"MA",
+"Lehramt Musik",
+"https://www.hmt-rostock.de/studium/studienangebot/lehramt/"
+],
+[
+"musicology",
+"BA",
+"Musikwissenschaft",
+"https://www.hmt-rostock.de/studium/studienangebot/wissenschaft/"
+],
+[
+"musicology",
+"MA",
+"Musikwissenschaft",
+"https://www.hmt-rostock.de/studium/studienangebot/wissenschaft/"
+]
+],
+"D  DUSSELD06": [
+[
+"conducting",
+"BA",
+"Chorleitung",
+"https://www.rsh-duesseldorf.de/studiengaenge/bachelor/chorleitung"
+],
+[
+"vocal-opera",
+"BA",
+"Gesang",
+"https://www.rsh-duesseldorf.de/studiengaenge/bachelor/gesang"
+],
+[
+"guitar",
+"BA",
+"Gitarre",
+"https://www.rsh-duesseldorf.de/studiengaenge/bachelor/gitarre"
+],
+[
+"church-music",
+"BA",
+"Kirchenmusik",
+"https://www.rsh-duesseldorf.de/studiengaenge/bachelor/kirchenmusik"
+],
+[
+"piano",
+"BA",
+"Klavier",
+"https://www.rsh-duesseldorf.de/studiengaenge/bachelor/klavier"
+],
+[
+"composition",
+"BA",
+"Komposition",
+"https://www.rsh-duesseldorf.de/studiengaenge/bachelor/komposition"
+],
+[
+"music-education",
+"BA",
+"Musikpädagogik",
+"https://www.rsh-duesseldorf.de/studiengaenge/bachelor/musikpaedagogik"
+],
+[
+"music-theory",
+"BA",
+"Musiktheorie und Hörerziehung",
+"https://www.rsh-duesseldorf.de/studiengaenge/bachelor/musiktheorie-und-hoererziehung"
+],
+[
+"musicology",
+"BA",
+"Musikwissenschaft (Bachelor)",
+"https://www.rsh-duesseldorf.de/studiengaenge/bachelor/musikwissenschaft"
+],
+[
+"organ",
+"BA",
+"Orgel",
+"https://www.rsh-duesseldorf.de/studiengaenge/bachelor/orgel"
+],
+[
+"conducting",
+"MA",
+"Chorleitung",
+"https://www.rsh-duesseldorf.de/studiengaenge/master/chorleitung"
+],
+[
+"vocal-opera",
+"MA",
+"Gesang",
+"https://www.rsh-duesseldorf.de/studiengaenge/master/gesang"
+],
+[
+"guitar",
+"MA",
+"Gitarre",
+"https://www.rsh-duesseldorf.de/studiengaenge/master/gitarre"
+],
+[
+"church-music",
+"MA",
+"Kirchenmusik",
+"https://www.rsh-duesseldorf.de/studiengaenge/master/kirchenmusik"
+],
+[
+"piano",
+"MA",
+"Klavier",
+"https://www.rsh-duesseldorf.de/studiengaenge/master/klavier"
+],
+[
+"composition",
+"MA",
+"Komposition",
+"https://www.rsh-duesseldorf.de/studiengaenge/master/komposition"
+],
+[
+"music-education",
+"MA",
+"Musikpädagogik",
+"https://www.rsh-duesseldorf.de/studiengaenge/master/musikpaedagogik"
+],
+[
+"musicology",
+"MA",
+"Musikwissenschaft (Master)",
+"https://www.rsh-duesseldorf.de/studiengaenge/master/musikwissenschaft"
+],
+[
+"organ",
+"MA",
+"Orgel",
+"https://www.rsh-duesseldorf.de/studiengaenge/master/orgel"
+],
+[
+"musicology",
+"MA",
+"Masterstudium Musikwissenschaft",
+"https://www.rsh-duesseldorf.de/studiengaenge/master/musikwissenschaft"
+],
+[
+"strings",
+"BA",
+"Orchesterinstrumente (B.Mus., M.Mus.)",
+"https://www.rsh-duesseldorf.de/studiengaenge/bachelor/orchesterinstrumente"
+],
+[
+"strings",
+"MA",
+"Orchesterinstrumente (B.Mus., M.Mus.)",
+"https://www.rsh-duesseldorf.de/studiengaenge/bachelor/orchesterinstrumente"
+],
+[
+"woodwind",
+"BA",
+"Orchesterinstrumente (B.Mus., M.Mus.)",
+"https://www.rsh-duesseldorf.de/studiengaenge/bachelor/orchesterinstrumente"
+],
+[
+"woodwind",
+"MA",
+"Orchesterinstrumente (B.Mus., M.Mus.)",
+"https://www.rsh-duesseldorf.de/studiengaenge/bachelor/orchesterinstrumente"
+],
+[
+"brass",
+"BA",
+"Orchesterinstrumente (B.Mus., M.Mus.)",
+"https://www.rsh-duesseldorf.de/studiengaenge/bachelor/orchesterinstrumente"
+],
+[
+"brass",
+"MA",
+"Orchesterinstrumente (B.Mus., M.Mus.)",
+"https://www.rsh-duesseldorf.de/studiengaenge/bachelor/orchesterinstrumente"
+],
+[
+"percussion",
+"BA",
+"Orchesterinstrumente (B.Mus., M.Mus.)",
+"https://www.rsh-duesseldorf.de/studiengaenge/bachelor/orchesterinstrumente"
+],
+[
+"percussion",
+"MA",
+"Orchesterinstrumente (B.Mus., M.Mus.)",
+"https://www.rsh-duesseldorf.de/studiengaenge/bachelor/orchesterinstrumente"
+],
+[
+"harp",
+"BA",
+"Orchesterinstrumente (B.Mus., M.Mus.)",
+"https://www.rsh-duesseldorf.de/studiengaenge/bachelor/orchesterinstrumente"
+],
+[
+"harp",
+"MA",
+"Orchesterinstrumente (B.Mus., M.Mus.)",
+"https://www.rsh-duesseldorf.de/studiengaenge/bachelor/orchesterinstrumente"
+],
+[
+"chamber-music",
+"MA",
+"Bläser-, Klavier- und Streicher-Kammermusik (M.Mus.)",
+"https://www.rsh-duesseldorf.de/studiengaenge/master/blaeser-kammermusik"
+],
+[
+"music-technology",
+"BA",
+"Musik und Medien (Ton- und Bildingenieur)",
+"https://www.rsh-duesseldorf.de/studiengaenge/bachelor/musik-und-medien"
+],
+[
+"music-technology",
+"MA",
+"Klang und Realität",
+"https://www.rsh-duesseldorf.de/studiengaenge/master/klang-und-realitaet"
+],
+[
+"music-production",
+"MA",
+"Künstlerische Musikproduktion",
+"https://www.rsh-duesseldorf.de/studiengaenge/master/kuenstlerische-musikproduktion"
+]
+],
+"D  DRESDEN05": [
+[
+"woodwind",
+"BA",
+"Blasinstrumente",
+"https://www.hfmdd.de/studieren/blasinstrumente"
+],
+[
+"brass",
+"BA",
+"Blasinstrumente",
+"https://www.hfmdd.de/studieren/blasinstrumente"
+],
+[
+"conducting",
+"BA",
+"Dirigieren/Korrepetition",
+"https://www.hfmdd.de/studieren/dirigierenkorrepetition"
+],
+[
+"vocal-opera",
+"BA",
+"Gesang",
+"https://www.hfmdd.de/studieren/gesang"
+],
+[
+"guitar",
+"BA",
+"Gitarre",
+"https://www.hfmdd.de/studieren/gitarre"
+],
+[
+"harp",
+"BA",
+"Harfe",
+"https://www.hfmdd.de/studieren/harfe"
+],
+[
+"jazz",
+"BA",
+"Jazz/Rock/Pop",
+"https://www.hfmdd.de/studieren/jazzrockpop"
+],
+[
+"popular-music",
+"BA",
+"Jazz/Rock/Pop",
+"https://www.hfmdd.de/studieren/jazzrockpop"
+],
+[
+"piano",
+"BA",
+"Klavier",
+"https://www.hfmdd.de/studieren/klavier"
+],
+[
+"composition",
+"BA",
+"Komposition",
+"https://www.hfmdd.de/studieren/komposition"
+],
+[
+"music-theory",
+"BA",
+"Musiktheorie",
+"https://www.hfmdd.de/studieren/musiktheorie"
+],
+[
+"percussion",
+"BA",
+"Pauke/Schlagwerk",
+"https://www.hfmdd.de/studieren/paukeschlagwerk"
+],
+[
+"strings",
+"BA",
+"Streichinstrumente",
+"https://www.hfmdd.de/studieren/streichinstrumente"
+],
+[
+"woodwind",
+"MA",
+"Blasinstrumente",
+"https://www.hfmdd.de/studieren/blasinstrumente"
+],
+[
+"brass",
+"MA",
+"Blasinstrumente",
+"https://www.hfmdd.de/studieren/blasinstrumente"
+],
+[
+"conducting",
+"MA",
+"Dirigieren/Korrepetition",
+"https://www.hfmdd.de/studieren/dirigierenkorrepetition"
+],
+[
+"vocal-opera",
+"MA",
+"Gesang",
+"https://www.hfmdd.de/studieren/gesang"
+],
+[
+"guitar",
+"MA",
+"Gitarre",
+"https://www.hfmdd.de/studieren/gitarre"
+],
+[
+"harp",
+"MA",
+"Harfe",
+"https://www.hfmdd.de/studieren/harfe"
+],
+[
+"jazz",
+"MA",
+"Jazz/Rock/Pop",
+"https://www.hfmdd.de/studieren/jazzrockpop"
+],
+[
+"popular-music",
+"MA",
+"Jazz/Rock/Pop",
+"https://www.hfmdd.de/studieren/jazzrockpop"
+],
+[
+"piano",
+"MA",
+"Klavier",
+"https://www.hfmdd.de/studieren/klavier"
+],
+[
+"composition",
+"MA",
+"Komposition",
+"https://www.hfmdd.de/studieren/komposition"
+],
+[
+"music-theory",
+"MA",
+"Musiktheorie",
+"https://www.hfmdd.de/studieren/musiktheorie"
+],
+[
+"percussion",
+"MA",
+"Pauke/Schlagwerk",
+"https://www.hfmdd.de/studieren/paukeschlagwerk"
+],
+[
+"strings",
+"MA",
+"Streichinstrumente",
+"https://www.hfmdd.de/studieren/streichinstrumente"
+],
+[
+"jazz",
+"BA",
+"Jazz/Rock/Pop",
+"https://www.hfmdd.de/studieren/jazzrockpop"
+],
+[
+"jazz",
+"MA",
+"Jazz/Rock/Pop",
+"https://www.hfmdd.de/studieren/jazzrockpop"
+],
+[
+"popular-music",
+"BA",
+"Jazz/Rock/Pop",
+"https://www.hfmdd.de/studieren/jazzrockpop"
+],
+[
+"popular-music",
+"MA",
+"Jazz/Rock/Pop",
+"https://www.hfmdd.de/studieren/jazzrockpop"
+],
+[
+"music-education",
+"BA",
+"Künstlerisch-Pädagogische Ausbildung; Lehramt Musik",
+"https://www.hfmdd.de/studieren/kuenstlerisch-paedagogische-ausbildung"
+],
+[
+"music-education",
+"MA",
+"Künstlerisch-Pädagogische Ausbildung; Lehramt Musik",
+"https://www.hfmdd.de/studieren/kuenstlerisch-paedagogische-ausbildung"
+]
+],
+"D  HANNOVE04": [
+[
+"conducting",
+"BA",
+"Dirigieren | Chor- und Orchesterleitung (B.Mus.)",
+"https://www.hmtm-hannover.de/de/bewerbung/studienangebote/dirigieren-bachelor-of-music/"
+],
+[
+"conducting",
+"MA",
+"Dirigieren | Chor- und Orchesterleitung; Kinder- und Jugendchorleitung (M.Mus.)",
+"https://www.hmtm-hannover.de/de/bewerbung/studienangebote/dirigieren-mmus/"
+],
+[
+"vocal-opera",
+"BA",
+"Gesang (B.Mus.)",
+"https://www.hmtm-hannover.de/de/bewerbung/studienangebote/gesang-b-mus/"
+],
+[
+"vocal-opera",
+"MA",
+"Gesang/Oper; Gesang in freiberuflicher Tätigkeit (M.Mus.)",
+"https://www.hmtm-hannover.de/de/bewerbung/studienangebote/gesangoper-mmus/"
+],
+[
+"jazz",
+"BA",
+"Jazz und jazzverwandte Musik (B.Mus.)",
+"https://www.hmtm-hannover.de/de/bewerbung/studienangebote/jazz-und-jazzverwandte-musik/"
+],
+[
+"popular-music",
+"BA",
+"Jazz und jazzverwandte Musik (B.Mus.)",
+"https://www.hmtm-hannover.de/de/bewerbung/studienangebote/jazz-und-jazzverwandte-musik/"
+],
+[
+"jazz",
+"MA",
+"JazzRockPop (M.Mus.)",
+"https://www.hmtm-hannover.de/de/bewerbung/studienangebote/jazz-rock-pop-studieren-master-of-music/"
+],
+[
+"popular-music",
+"MA",
+"JazzRockPop (M.Mus.)",
+"https://www.hmtm-hannover.de/de/bewerbung/studienangebote/jazz-rock-pop-studieren-master-of-music/"
+],
+[
+"popular-music",
+"BA",
+"Popular Music (B.Mus.)",
+"https://www.hmtm-hannover.de/de/bewerbung/studienangebote/popular-music-bmus/"
+],
+[
+"chamber-music",
+"MA",
+"Kammermusik (M.Mus.)",
+"https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kammermusik-mmus/"
+],
+[
+"church-music",
+"BA",
+"Kirchenmusik (B.Mus.)",
+"https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kirchenmusik-bachelor-of-music/"
+],
+[
+"organ",
+"BA",
+"Kirchenmusik (B.Mus.)",
+"https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kirchenmusik-bachelor-of-music/"
+],
+[
+"church-music",
+"MA",
+"Kirchenmusik (M.Mus.)",
+"https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kirchenmusik-mmus/"
+],
+[
+"organ",
+"MA",
+"Kirchenmusik (M.Mus.)",
+"https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kirchenmusik-mmus/"
+],
+[
+"piano",
+"BA",
+"Klavier (B.Mus.)",
+"https://www.hmtm-hannover.de/de/bewerbung/studienangebote/klavier-bmus/"
+],
+[
+"piano",
+"MA",
+"Tasteninstrumente (M.Mus.)",
+"https://www.hmtm-hannover.de/de/bewerbung/studienangebote/tasteninstrumente-mmus/"
+],
+[
+"organ",
+"MA",
+"Tasteninstrumente (M.Mus.)",
+"https://www.hmtm-hannover.de/de/bewerbung/studienangebote/tasteninstrumente-mmus/"
+],
+[
+"composition",
+"BA",
+"Komposition (B.Mus.)",
+"https://www.hmtm-hannover.de/de/bewerbung/studienangebote/komposition-bmus/"
+],
+[
+"composition",
+"MA",
+"Komposition (M.Mus.)",
+"https://www.hmtm-hannover.de/de/bewerbung/studienangebote/komposition-mmus/"
+],
+[
+"music-education",
+"BA",
+"Künstlerisch-pädagogische Ausbildung (B.Mus.); Fächerübergreifender Bachelor (Schulmusik)",
+"https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kuenstlerisch-paedagogische-ausbildung-bmus/"
+],
+[
+"music-education",
+"MA",
+"Künstlerisch-pädagogische Ausbildung (M.Mus.); Lehramt an Gymnasien (M.Ed.)",
+"https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kuenstlerisch-paedagogische-ausbildung-mmus/"
+],
+[
+"strings",
+"BA",
+"Künstlerische Ausbildung / Musical Performance (B.Mus.): alle Orchesterinstrumente, Blockflöte, Akkordeon",
+"https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kuenstlerische-ausbildung-bmus/"
+],
+[
+"woodwind",
+"BA",
+"Künstlerische Ausbildung / Musical Performance (B.Mus.): alle Orchesterinstrumente, Blockflöte, Akkordeon",
+"https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kuenstlerische-ausbildung-bmus/"
+],
+[
+"brass",
+"BA",
+"Künstlerische Ausbildung / Musical Performance (B.Mus.): alle Orchesterinstrumente, Blockflöte, Akkordeon",
+"https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kuenstlerische-ausbildung-bmus/"
+],
+[
+"percussion",
+"BA",
+"Künstlerische Ausbildung / Musical Performance (B.Mus.): alle Orchesterinstrumente, Blockflöte, Akkordeon",
+"https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kuenstlerische-ausbildung-bmus/"
+],
+[
+"accordion",
+"BA",
+"Künstlerische Ausbildung / Musical Performance (B.Mus.): alle Orchesterinstrumente, Blockflöte, Akkordeon",
+"https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kuenstlerische-ausbildung-bmus/"
+],
+[
+"early-music",
+"BA",
+"Künstlerische Ausbildung / Musical Performance (B.Mus.): alle Orchesterinstrumente, Blockflöte, Akkordeon",
+"https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kuenstlerische-ausbildung-bmus/"
+],
+[
+"strings",
+"MA",
+"Künstlerische Ausbildung (M.Mus.)",
+"https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kuenstlerische-ausbildung-mmus/"
+],
+[
+"woodwind",
+"MA",
+"Künstlerische Ausbildung (M.Mus.)",
+"https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kuenstlerische-ausbildung-mmus/"
+],
+[
+"brass",
+"MA",
+"Künstlerische Ausbildung (M.Mus.)",
+"https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kuenstlerische-ausbildung-mmus/"
+],
+[
+"percussion",
+"MA",
+"Künstlerische Ausbildung (M.Mus.)",
+"https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kuenstlerische-ausbildung-mmus/"
+],
+[
+"accordion",
+"MA",
+"Künstlerische Ausbildung (M.Mus.)",
+"https://www.hmtm-hannover.de/de/bewerbung/studienangebote/kuenstlerische-ausbildung-mmus/"
+],
+[
+"music-theory",
+"MA",
+"Musiktheorie (M.Mus.)",
+"https://www.hmtm-hannover.de/de/bewerbung/studienangebote/musiktheorie-mmus/"
+],
+[
+"musicology",
+"MA",
+"Musikwissenschaft und Musikvermittlung (M.A.)",
+"https://www.hmtm-hannover.de/de/bewerbung/studienangebote/musikforschung-und-musikvermittlung-ma/"
+],
+[
+"music-education",
+"MA",
+"Musikwissenschaft und Musikvermittlung (M.A.)",
+"https://www.hmtm-hannover.de/de/bewerbung/studienangebote/musikforschung-und-musikvermittlung-ma/"
+],
+[
+"arts-management",
+"MA",
+"Medien und Musik (M.A.)",
+"https://www.hmtm-hannover.de/de/bewerbung/studienangebote/medien-und-musik-ma/"
+]
+],
+"D  STUTTGA03": [
+[
+"strings",
+"BA",
+"Bachelor Musik – Streichinstrumente, Harfe",
+"https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-streichinstrumente-harfe"
+],
+[
+"harp",
+"BA",
+"Bachelor Musik – Streichinstrumente, Harfe",
+"https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-streichinstrumente-harfe"
+],
+[
+"woodwind",
+"BA",
+"Bachelor Musik – Blasinstrumente",
+"https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-blasinstrumente"
+],
+[
+"brass",
+"BA",
+"Bachelor Musik – Blasinstrumente",
+"https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-blasinstrumente"
+],
+[
+"organ",
+"BA",
+"Bachelor Musik – Orgel",
+"https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-orgel"
+],
+[
+"organ",
+"MA",
+"Master Orgel",
+"https://www.hmdk-stuttgart.de/studiengang/master-musik-orgel"
+],
+[
+"guitar",
+"BA",
+"Bachelor Musik – Gitarre",
+"https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-gitarre"
+],
+[
+"guitar",
+"MA",
+"Master Gitarre, Gitarrenduo, historische Saiteninstrumente",
+"https://www.hmdk-stuttgart.de/studiengang/master-musik-gitarre"
+],
+[
+"early-music",
+"MA",
+"Master Gitarre, Gitarrenduo, historische Saiteninstrumente",
+"https://www.hmdk-stuttgart.de/studiengang/master-musik-gitarre"
+],
+[
+"composition",
+"BA",
+"Bachelor Musik – Komposition (Instrumentalkomposition, Computermusik)",
+"https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-komposition"
+],
+[
+"composition",
+"MA",
+"Master Komposition",
+"https://www.hmdk-stuttgart.de/studiengang/master-musik-komposition"
+],
+[
+"music-technology",
+"BA",
+"Bachelor Musik – Komposition: Computermusik",
+"https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-komposition"
+],
+[
+"conducting",
+"BA",
+"Bachelor Musik – Chordirigieren; Orchesterdirigieren",
+"https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-chordirigieren"
+],
+[
+"piano",
+"BA",
+"Bachelor Musik – Klavier",
+"https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-klavier"
+],
+[
+"vocal-opera",
+"BA",
+"Bachelor Musik – Gesang",
+"https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-gesang"
+],
+[
+"vocal-opera",
+"MA",
+"Master Oper",
+"https://www.hmdk-stuttgart.de/studiengang/master-oper"
+],
+[
+"percussion",
+"BA",
+"Bachelor Musik – Schlagzeug",
+"https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-schlagzeug"
+],
+[
+"accordion",
+"BA",
+"Bachelor Musik – Akkordeon",
+"https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-akkordeon"
+],
+[
+"jazz",
+"BA",
+"Bachelor Musik – Jazz & Pop",
+"https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-jazz-pop"
+],
+[
+"popular-music",
+"BA",
+"Bachelor Musik – Jazz & Pop",
+"https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-jazz-pop"
+],
+[
+"music-education",
+"BA",
+"Bachelor Musik – Elementare Musikpädagogik; Bachelor Lehramt",
+"https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-elementare-musikpaedagogik"
+],
+[
+"music-education",
+"MA",
+"Master Instrumental- & Gesangspädagogik; Master Lehramt",
+"https://www.hmdk-stuttgart.de/studiengang/master-instrumental-gesangspaedagogik"
+],
+[
+"music-theory",
+"BA",
+"Bachelor Musik – Musiktheorie",
+"https://www.hmdk-stuttgart.de/studiengang/bachelor-musik-musiktheorie"
+],
+[
+"music-theory",
+"MA",
+"Master Musiktheorie",
+"https://www.hmdk-stuttgart.de/studiengang/master-musik-musiktheorie"
+],
+[
+"church-music",
+"BA",
+"Bachelor Kirchenmusik B",
+"https://www.hmdk-stuttgart.de/studiengang/bachelor-kirchenmusik-b"
+],
+[
+"church-music",
+"MA",
+"Master Kirchenmusik A",
+"https://www.hmdk-stuttgart.de/studiengang/master-kirchenmusik"
+],
+[
+"chamber-music",
+"MA",
+"Master Kammermusik",
+"https://www.hmdk-stuttgart.de/studiengang/master-kammermusik"
+],
+[
+"musicology",
+"MA",
+"Master Musikwissenschaft",
+"https://www.hmdk-stuttgart.de/studiengang/master-musikwissenschaft"
+]
+],
+"D  MUNSTER01": [
+[
+"vocal-opera",
+"BA",
+"Bachelor / Master of Music – Instrument / Gesang (klassische Ausbildung)",
+"https://www.uni-muenster.de/Musikhochschule/Studieninteressierte/Bewerbung.html"
+],
+[
+"vocal-opera",
+"MA",
+"Bachelor / Master of Music – Instrument / Gesang (klassische Ausbildung)",
+"https://www.uni-muenster.de/Musikhochschule/Studieninteressierte/Bewerbung.html"
+],
+[
+"popular-music",
+"BA",
+"Bachelor of Music – Popularmusik (Pop-Vocals, Drum-Set, E-Bass, E-Gitarre)",
+"https://www.uni-muenster.de/Musikhochschule/Studieninteressierte/Bewerbung.html"
+],
+[
+"music-production",
+"BA",
+"Bachelor of Music – Popularmusik / Keyboards & Music Production",
+"https://www.uni-muenster.de/Musikhochschule/Studieninteressierte/Bewerbung.html"
+],
+[
+"music-education",
+"BA",
+"Bachelor of Music – Musik und Vermittlung; Elementare Musikpädagogik",
+"https://www.uni-muenster.de/Musikhochschule/Studieninteressierte/Bewerbung.html"
+],
+[
+"music-education",
+"MA",
+"Master of Music – Musikpädagogik",
+"https://www.uni-muenster.de/Musikhochschule/Studieninteressierte/Bewerbung.html"
+],
+[
+"composition",
+"BA",
+"Bachelor / Master of Music – Musik und Kreativität",
+"https://www.uni-muenster.de/Musikhochschule/Studieninteressierte/Bewerbung.html"
+],
+[
+"composition",
+"MA",
+"Bachelor / Master of Music – Musik und Kreativität",
+"https://www.uni-muenster.de/Musikhochschule/Studieninteressierte/Bewerbung.html"
+]
+]
+},
+"notes": {}
+}
