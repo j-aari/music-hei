@@ -1,6 +1,6 @@
 {
  "meta": {
-  "description": "Study programmes per institution and fine-grained discipline (see disciplines.json). Collected so far: 178 institutions.",
+  "description": "Study programmes per institution and fine-grained discipline (see disciplines.json). Collected so far: 204 institutions.",
   "status": "pilot",
   "collected": "2026-10-08",
   "verified_note": "Every record has verified: false. Programme names and URLs were read from the institutions' own websites (programme lists and programme pages) but have not been checked by a person.",
@@ -66,7 +66,33 @@
    "DK KOBENHA09",
    "DK KOBENHA39",
    "DK ODENSE22",
+   "E  ALBACET19",
+   "E  BADAJOZ39",
+   "E  BARCELO137",
    "E  BARCELO29",
+   "E  BARCELO30",
+   "E  CASTELL13",
+   "E  CORDOBA04",
+   "E  GRANADA04",
+   "E  JAEN07",
+   "E  LA-CORU05",
+   "E  LAS-PAL18",
+   "E  MADRID222",
+   "E  MADRID252",
+   "E  MADRID27",
+   "E  MALAGA02",
+   "E  MURCIA02",
+   "E  OVIEDO03",
+   "E  PALMA25",
+   "E  PALMA27",
+   "E  PAMPLON17",
+   "E  SALAMAN03",
+   "E  SAN-SEB01",
+   "E  SANTAND38",
+   "E  SEVILLA04",
+   "E  VALENCI67",
+   "E  VIGO03",
+   "E  ZARAGOZ05",
    "EE TALLINN03",
    "EE TARTU02",
    "F  AIX-PRO29",
@@ -459,12 +485,45 @@
     ],
     "date": "2026-10-08",
     "method": "Field-level collection as in batch 1; where a site lists programmes only via JavaScript, the programme pages were located with a web search restricted to the institution's own domain (raw HTML of each institution's own programme pages, PDFs where the list was only there; names mapped to disciplines.json by keyword and checked by hand)."
+   },
+   {
+    "erasmus_codes": [
+     "E  ALBACET19",
+     "E  BADAJOZ39",
+     "E  BARCELO137",
+     "E  BARCELO30",
+     "E  CASTELL13",
+     "E  CORDOBA04",
+     "E  GRANADA04",
+     "E  JAEN07",
+     "E  LA-CORU05",
+     "E  LAS-PAL18",
+     "E  MADRID222",
+     "E  MADRID252",
+     "E  MADRID27",
+     "E  MALAGA02",
+     "E  MURCIA02",
+     "E  OVIEDO03",
+     "E  PALMA25",
+     "E  PALMA27",
+     "E  PAMPLON17",
+     "E  SALAMAN03",
+     "E  SAN-SEB01",
+     "E  SANTAND38",
+     "E  SEVILLA04",
+     "E  VALENCI67",
+     "E  VIGO03",
+     "E  ZARAGOZ05"
+    ],
+    "date": "2026-10-08",
+    "method": "Field-level collection as in batch 1; where a site lists programmes only via JavaScript, the programme pages were located with a web search restricted to the institution's own domain (raw HTML of each institution's own programme pages, PDFs where the list was only there; names mapped to disciplines.json by keyword and checked by hand)."
    }
   ],
   "institution_notes": {
    "B  GENT40": "The Orpheus Institute offers only doctoral study (docARTES) and research residencies, not degree programmes in named fields.",
    "BG SOFIA02": "The Music Department lists the programmes Musical Performance (in Bulgarian and in English) and Musical, but its pages do not name the instruments, fields or degree levels.",
-   "SI LJUBLJA33": "The conservatoire's higher vocational school (Višja baletna šola) teaches only ballet; its music programmes are at basic and secondary level, not degree programmes."
+   "SI LJUBLJA33": "The conservatoire's higher vocational school (Višja baletna šola) teaches only ballet; its music programmes are at basic and secondary level, not degree programmes.",
+   "E  PALMA25": "ESADIB is the Balearic school of dramatic art; it teaches voice and singing within acting, but offers no degree programmes in music."
   }
  },
  "programmes": [
@@ -48057,6 +48116,4637 @@
      "level": "BA",
      "programme_name": "Licenciatura em Jazz e Música Moderna (jazz ou música moderna pop/rock)",
      "url": "https://www.lis.ulusiada.pt/en-gb/degrees/1314/1stcycle-undergraduatedegreesandintegratedmasters/jazzandmodernmusic.aspx"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MADRID252",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://katarinagurska.com/oferta-academica/grado-superior/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Pop, rock y jazz: Aula Moderna",
+     "url": "https://katarinagurska.com/oferta-academica/grado-superior/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Pop, rock y jazz: Aula Moderna",
+     "url": "https://katarinagurska.com/oferta-academica/master/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MADRID252",
+   "discipline": "popular-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://katarinagurska.com/oferta-academica/grado-superior/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Pop, rock y jazz: Aula Moderna",
+     "url": "https://katarinagurska.com/oferta-academica/grado-superior/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Pop, rock y jazz: Aula Moderna",
+     "url": "https://katarinagurska.com/oferta-academica/master/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MADRID252",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://katarinagurska.com/oferta-academica/grado-superior/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación Itinerario D: Canto Canto Ver programa",
+     "url": "https://katarinagurska.com/oferta-academica/grado-superior/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MADRID252",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://katarinagurska.com/oferta-academica/grado-superior/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Grado Oficial Dirección Hacemos música, dirigimos personas. Ver programa",
+     "url": "https://katarinagurska.com/oferta-academica/grado-superior/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Máster de Dirección e Investigación Coral – MDIC Ver programa",
+     "url": "https://katarinagurska.com/oferta-academica/master/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MADRID252",
+   "discipline": "strings",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://katarinagurska.com/oferta-academica/grado-superior/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación Itinerario A: Cuerda y viento",
+     "url": "https://katarinagurska.com/oferta-academica/grado-superior/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MADRID252",
+   "discipline": "woodwind",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://katarinagurska.com/oferta-academica/grado-superior/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación Itinerario A: Cuerda y viento",
+     "url": "https://katarinagurska.com/oferta-academica/grado-superior/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MADRID252",
+   "discipline": "brass",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://katarinagurska.com/oferta-academica/grado-superior/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación Itinerario A: Cuerda y viento",
+     "url": "https://katarinagurska.com/oferta-academica/grado-superior/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MADRID252",
+   "discipline": "piano",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://katarinagurska.com/oferta-academica/grado-superior/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Piano, Guitarra y Acordeón",
+     "url": "https://katarinagurska.com/oferta-academica/grado-superior/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MADRID252",
+   "discipline": "accordion",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://katarinagurska.com/oferta-academica/grado-superior/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Piano, Guitarra y Acordeón",
+     "url": "https://katarinagurska.com/oferta-academica/grado-superior/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MADRID252",
+   "discipline": "guitar",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://katarinagurska.com/oferta-academica/grado-superior/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Piano, Guitarra y Acordeón",
+     "url": "https://katarinagurska.com/oferta-academica/grado-superior/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MADRID252",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://katarinagurska.com/oferta-academica/grado-superior/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Grado Oficial Composición",
+     "url": "https://katarinagurska.com/oferta-academica/grado-superior/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Máster de Composición para Medios Audiovisuales – MCAV",
+     "url": "https://katarinagurska.com/oferta-academica/master/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MADRID252",
+   "discipline": "music-technology",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://katarinagurska.com/oferta-academica/master/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Máster de Composición para Medios Audiovisuales – MCAV",
+     "url": "https://katarinagurska.com/oferta-academica/master/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  VALENCI67",
+   "discipline": "music-technology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.csmvalencia.es/grado/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Máster en Sonología aplicada y creación sonora",
+     "url": "https://www.csmvalencia.es/grado/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Máster en Sonología aplicada y creación sonora",
+     "url": "http://www.sonologiacsmv.com/master.html"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  VALENCI67",
+   "discipline": "composition",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.csmvalencia.es/grado/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "COMPOSICIÓN",
+     "url": "https://www.csmvalencia.es/grado/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  VALENCI67",
+   "discipline": "conducting",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.csmvalencia.es/grado/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "DIRECCIÓN",
+     "url": "https://www.csmvalencia.es/grado/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  VALENCI67",
+   "discipline": "harp",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.csmvalencia.es/grado/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "INTERPRETACIÓN Arpa",
+     "url": "https://www.csmvalencia.es/grado/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  VALENCI67",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.csmvalencia.es/grado/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "INTERPRETACIÓN Canto",
+     "url": "https://www.csmvalencia.es/grado/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  VALENCI67",
+   "discipline": "guitar",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.csmvalencia.es/grado/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "INTERPRETACIÓN Guitarra",
+     "url": "https://www.csmvalencia.es/grado/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  VALENCI67",
+   "discipline": "popular-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.csmvalencia.es/grado/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "INTERPRETACIÓN Instrumentos de la Música Tradicional y Popular",
+     "url": "https://www.csmvalencia.es/grado/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  VALENCI67",
+   "discipline": "folk",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.csmvalencia.es/grado/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "INTERPRETACIÓN Instrumentos de la Música Tradicional y Popular",
+     "url": "https://www.csmvalencia.es/grado/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  VALENCI67",
+   "discipline": "jazz",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.csmvalencia.es/grado/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "INTERPRETACIÓN Jazz",
+     "url": "https://www.csmvalencia.es/grado/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  VALENCI67",
+   "discipline": "organ",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.csmvalencia.es/grado/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "INTERPRETACIÓN Órgano",
+     "url": "https://www.csmvalencia.es/grado/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  VALENCI67",
+   "discipline": "piano",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.csmvalencia.es/grado/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "INTERPRETACIÓN Piano",
+     "url": "https://www.csmvalencia.es/grado/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  VALENCI67",
+   "discipline": "musicology",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.csmvalencia.es/grado/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "MUSICOLOGÍA",
+     "url": "https://www.csmvalencia.es/grado/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  VALENCI67",
+   "discipline": "music-education",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.csmvalencia.es/grado/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "PEDAGOGÍA",
+     "url": "https://www.csmvalencia.es/grado/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  VALENCI67",
+   "discipline": "music-production",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.csmvalencia.es/grado/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "PRODUCCIÓN Y GESTIÓN",
+     "url": "https://www.csmvalencia.es/grado/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  VALENCI67",
+   "discipline": "arts-management",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.csmvalencia.es/grado/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "PRODUCCIÓN Y GESTIÓN",
+     "url": "https://www.csmvalencia.es/grado/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MALAGA02",
+   "discipline": "conducting",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatoriosuperiormalaga.com/pages/especialidades",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composición y Dirección",
+     "url": "https://www.conservatoriosuperiormalaga.com/pages/especialidades"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MALAGA02",
+   "discipline": "composition",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatoriosuperiormalaga.com/pages/especialidades",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composición y Dirección",
+     "url": "https://www.conservatoriosuperiormalaga.com/pages/especialidades"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MALAGA02",
+   "discipline": "strings",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatoriosuperiormalaga.com/pages/especialidades",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Cuerda Frotada",
+     "url": "https://www.conservatoriosuperiormalaga.com/pages/especialidades"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MALAGA02",
+   "discipline": "jazz",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatoriosuperiormalaga.com/pages/especialidades",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Didáctica, Canto y Jazz",
+     "url": "https://www.conservatoriosuperiormalaga.com/pages/especialidades"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MALAGA02",
+   "discipline": "musicology",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatoriosuperiormalaga.com/pages/especialidades",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musicología",
+     "url": "https://www.conservatoriosuperiormalaga.com/pages/especialidades"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MALAGA02",
+   "discipline": "woodwind",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatoriosuperiormalaga.com/pages/especialidades",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Viento y Percusión",
+     "url": "https://www.conservatoriosuperiormalaga.com/pages/especialidades"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MALAGA02",
+   "discipline": "brass",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatoriosuperiormalaga.com/pages/especialidades",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Viento y Percusión",
+     "url": "https://www.conservatoriosuperiormalaga.com/pages/especialidades"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MALAGA02",
+   "discipline": "percussion",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatoriosuperiormalaga.com/pages/especialidades",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Viento y Percusión",
+     "url": "https://www.conservatoriosuperiormalaga.com/pages/especialidades"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MALAGA02",
+   "discipline": "music-education",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatoriosuperiormalaga.com/pages/especialidades",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Erasmus+ Incoming Teachers / Staff",
+     "url": "https://www.conservatoriosuperiormalaga.com/pages/especialidades"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MALAGA02",
+   "discipline": "folk",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatoriosuperiormalaga.com/pages/especialidades",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Isla Norfolk EUR €",
+     "url": "https://www.conservatoriosuperiormalaga.com/pages/especialidades"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MALAGA02",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatoriosuperiormalaga.com/pages/especialidades",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "CANTO",
+     "url": "https://www.conservatoriosuperiormalaga.com/pages/especialidades"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MALAGA02",
+   "discipline": "guitar",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatoriosuperiormalaga.com/pages/especialidades",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "GUITARRA",
+     "url": "https://www.conservatoriosuperiormalaga.com/pages/especialidades"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MALAGA02",
+   "discipline": "piano",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatoriosuperiormalaga.com/pages/especialidades",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "PIANO",
+     "url": "https://www.conservatoriosuperiormalaga.com/pages/especialidades"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MALAGA02",
+   "discipline": "organ",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatoriosuperiormalaga.com/pages/especialidades",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "ÓRGANO",
+     "url": "https://www.conservatoriosuperiormalaga.com/pages/especialidades"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  BADAJOZ39",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmbadajoz.es/?page_id=275",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Departamento de canto y asignaturas teórico-prácticas",
+     "url": "https://csmbadajoz.es/?page_id=275"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  BADAJOZ39",
+   "discipline": "composition",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmbadajoz.es/?page_id=275",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Departamento de composición",
+     "url": "https://csmbadajoz.es/?page_id=275"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  BADAJOZ39",
+   "discipline": "strings",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmbadajoz.es/?page_id=275",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Departamento de cuerda",
+     "url": "https://csmbadajoz.es/?page_id=275"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  BADAJOZ39",
+   "discipline": "woodwind",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmbadajoz.es/?page_id=275",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Departamento de viento y percusión",
+     "url": "https://csmbadajoz.es/?page_id=275"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  BADAJOZ39",
+   "discipline": "brass",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmbadajoz.es/?page_id=275",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Departamento de viento y percusión",
+     "url": "https://csmbadajoz.es/?page_id=275"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  BADAJOZ39",
+   "discipline": "percussion",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmbadajoz.es/?page_id=275",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Departamento de viento y percusión",
+     "url": "https://csmbadajoz.es/?page_id=275"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  BADAJOZ39",
+   "discipline": "guitar",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmbadajoz.es/?page_id=275",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Guitarra",
+     "url": "https://csmbadajoz.es/?page_id=275"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  BADAJOZ39",
+   "discipline": "piano",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmbadajoz.es/?page_id=275",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Piano",
+     "url": "https://csmbadajoz.es/?page_id=275"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  BADAJOZ39",
+   "discipline": "music-technology",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmbadajoz.es/?page_id=275",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Audiovisuales",
+     "url": "https://csmbadajoz.es/?page_id=275"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MURCIA02",
+   "discipline": "organ",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmmurcia.com/interpretacion/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Órganos de gobierno",
+     "url": "https://csmmurcia.com/interpretacion/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MURCIA02",
+   "discipline": "composition",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmmurcia.com/interpretacion/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composición",
+     "url": "https://csmmurcia.com/interpretacion/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MURCIA02",
+   "discipline": "conducting",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmmurcia.com/interpretacion/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Dirección",
+     "url": "https://csmmurcia.com/interpretacion/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MURCIA02",
+   "discipline": "musicology",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmmurcia.com/interpretacion/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musicología",
+     "url": "https://csmmurcia.com/interpretacion/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MURCIA02",
+   "discipline": "music-education",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmmurcia.com/interpretacion/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Pedagogía",
+     "url": "https://csmmurcia.com/interpretacion/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MURCIA02",
+   "discipline": "accordion",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmmurcia.com/interpretacion/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Acordeón",
+     "url": "https://csmmurcia.com/interpretacion/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MURCIA02",
+   "discipline": "brass",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmmurcia.com/interpretacion/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bombardino (Tuba)",
+     "url": "https://csmmurcia.com/interpretacion/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MURCIA02",
+   "discipline": "global-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmmurcia.com/interpretacion/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Cante flamenco",
+     "url": "https://csmmurcia.com/interpretacion/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MURCIA02",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmmurcia.com/interpretacion/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Canto",
+     "url": "https://csmmurcia.com/interpretacion/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MURCIA02",
+   "discipline": "woodwind",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmmurcia.com/interpretacion/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Clarinete",
+     "url": "https://csmmurcia.com/interpretacion/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MURCIA02",
+   "discipline": "strings",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmmurcia.com/interpretacion/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Contrabajo",
+     "url": "https://csmmurcia.com/interpretacion/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MURCIA02",
+   "discipline": "guitar",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmmurcia.com/interpretacion/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Guitarra",
+     "url": "https://csmmurcia.com/interpretacion/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MURCIA02",
+   "discipline": "percussion",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmmurcia.com/interpretacion/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Percusión",
+     "url": "https://csmmurcia.com/interpretacion/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MURCIA02",
+   "discipline": "piano",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmmurcia.com/interpretacion/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Piano",
+     "url": "https://csmmurcia.com/interpretacion/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  ZARAGOZ05",
+   "discipline": "strings",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csma.es/estudios-de-nivel-grado/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "INSTRUMENTOS DE CUERDA",
+     "url": "https://csma.es/estudios-de-nivel-grado/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  ZARAGOZ05",
+   "discipline": "harp",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csma.es/estudios-de-nivel-grado/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentos Históricos, Arpa, Canto y Cuerda Pulsada",
+     "url": "https://csma.es/estudios-de-nivel-grado/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  ZARAGOZ05",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csma.es/estudios-de-nivel-grado/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentos Históricos, Arpa, Canto y Cuerda Pulsada",
+     "url": "https://csma.es/estudios-de-nivel-grado/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  ZARAGOZ05",
+   "discipline": "piano",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csma.es/estudios-de-nivel-grado/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Piano, Repertoristas y Acordeón",
+     "url": "https://csma.es/estudios-de-nivel-grado/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  ZARAGOZ05",
+   "discipline": "accordion",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csma.es/estudios-de-nivel-grado/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Piano, Repertoristas y Acordeón",
+     "url": "https://csma.es/estudios-de-nivel-grado/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  ZARAGOZ05",
+   "discipline": "woodwind",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csma.es/estudios-de-nivel-grado/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentos de Viento y Percusión",
+     "url": "https://csma.es/estudios-de-nivel-grado/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  ZARAGOZ05",
+   "discipline": "brass",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csma.es/estudios-de-nivel-grado/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentos de Viento y Percusión",
+     "url": "https://csma.es/estudios-de-nivel-grado/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  ZARAGOZ05",
+   "discipline": "percussion",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csma.es/estudios-de-nivel-grado/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentos de Viento y Percusión",
+     "url": "https://csma.es/estudios-de-nivel-grado/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  ZARAGOZ05",
+   "discipline": "conducting",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csma.es/estudios-de-nivel-grado/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Agrupaciones Sinfónicas y Dirección",
+     "url": "https://csma.es/estudios-de-nivel-grado/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  ZARAGOZ05",
+   "discipline": "composition",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csma.es/estudios-de-nivel-grado/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Proyectos instrumentales y composición",
+     "url": "https://csma.es/estudios-de-nivel-grado/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  ZARAGOZ05",
+   "discipline": "chamber-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csma.es/estudios-de-nivel-grado/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "MÚSICA DE CÁMARA",
+     "url": "https://csma.es/estudios-de-nivel-grado/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  CASTELL13",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorisuperiorcastello.com/master-en-ensenyaments-artistics-en-interpretacio-de-musica-antiga-i-investigacio-de-patrimoni-",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Màster en interpretació de música antiga i investigació de patrimoni",
+     "url": "https://www.conservatorisuperiorcastello.com/master-en-ensenyaments-artistics-en-interpretacio-de-musica-antiga-i-investigacio-de-patrimoni-"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Grado – Música Antigua; Interpretación: Clave",
+     "url": "https://www.conservatorisuperiorcastello.com/es/planes-estudio-titulo-superior/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  CASTELL13",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorisuperiorcastello.com/master-en-ensenyaments-artistics-de-composicio-multimedia/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Màster en ensenyaments artístics de composició multimèdia",
+     "url": "https://www.conservatorisuperiorcastello.com/master-en-ensenyaments-artistics-de-composicio-multimedia/"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Grado: Composición, Pedagogía, Dirección",
+     "url": "https://www.conservatorisuperiorcastello.com/es/planes-estudio-titulo-superior/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  CASTELL13",
+   "discipline": "music-technology",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.conservatorisuperiorcastello.com/master-en-ensenyaments-artistics-de-composicio-multimedia/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Màster en ensenyaments artístics de composició multimèdia",
+     "url": "https://www.conservatorisuperiorcastello.com/master-en-ensenyaments-artistics-de-composicio-multimedia/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  CASTELL13",
+   "discipline": "music-education",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatorisuperiorcastello.com/es/planes-estudio-titulo-superior/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Grado: Composición, Pedagogía, Dirección",
+     "url": "https://www.conservatorisuperiorcastello.com/es/planes-estudio-titulo-superior/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  CASTELL13",
+   "discipline": "conducting",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatorisuperiorcastello.com/es/planes-estudio-titulo-superior/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Grado: Composición, Pedagogía, Dirección",
+     "url": "https://www.conservatorisuperiorcastello.com/es/planes-estudio-titulo-superior/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  CASTELL13",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorisuperiorcastello.com/es/planes-estudio-titulo-superior/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Grado – Interpretación: Canto, Instrumentos Orquesta Sinfónica, Piano, Guitarra",
+     "url": "https://www.conservatorisuperiorcastello.com/es/planes-estudio-titulo-superior/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Máster en Interpretación Musical e Investigación Aplicada",
+     "url": "https://www.conservatorisuperiorcastello.com/master-interpretacio-musical-i-recerca-aplicada/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  CASTELL13",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorisuperiorcastello.com/es/planes-estudio-titulo-superior/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Grado – Interpretación: Canto, Instrumentos Orquesta Sinfónica, Piano, Guitarra",
+     "url": "https://www.conservatorisuperiorcastello.com/es/planes-estudio-titulo-superior/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Máster en Interpretación Musical e Investigación Aplicada",
+     "url": "https://www.conservatorisuperiorcastello.com/master-interpretacio-musical-i-recerca-aplicada/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  CASTELL13",
+   "discipline": "guitar",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatorisuperiorcastello.com/es/planes-estudio-titulo-superior/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Grado – Interpretación: Canto, Instrumentos Orquesta Sinfónica, Piano, Guitarra",
+     "url": "https://www.conservatorisuperiorcastello.com/es/planes-estudio-titulo-superior/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  CASTELL13",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorisuperiorcastello.com/es/planes-estudio-titulo-superior/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Grado – Interpretación: Canto, Instrumentos Orquesta Sinfónica, Piano, Guitarra",
+     "url": "https://www.conservatorisuperiorcastello.com/es/planes-estudio-titulo-superior/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Máster en Interpretación Musical e Investigación Aplicada",
+     "url": "https://www.conservatorisuperiorcastello.com/master-interpretacio-musical-i-recerca-aplicada/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  CASTELL13",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorisuperiorcastello.com/es/planes-estudio-titulo-superior/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Grado – Interpretación: Canto, Instrumentos Orquesta Sinfónica, Piano, Guitarra",
+     "url": "https://www.conservatorisuperiorcastello.com/es/planes-estudio-titulo-superior/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Máster en Interpretación Musical e Investigación Aplicada",
+     "url": "https://www.conservatorisuperiorcastello.com/master-interpretacio-musical-i-recerca-aplicada/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  CASTELL13",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorisuperiorcastello.com/es/planes-estudio-titulo-superior/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Grado – Interpretación: Canto, Instrumentos Orquesta Sinfónica, Piano, Guitarra",
+     "url": "https://www.conservatorisuperiorcastello.com/es/planes-estudio-titulo-superior/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Máster en Interpretación Musical e Investigación Aplicada",
+     "url": "https://www.conservatorisuperiorcastello.com/master-interpretacio-musical-i-recerca-aplicada/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  CASTELL13",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatorisuperiorcastello.com/es/planes-estudio-titulo-superior/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Grado – Interpretación: Canto, Instrumentos Orquesta Sinfónica, Piano, Guitarra",
+     "url": "https://www.conservatorisuperiorcastello.com/es/planes-estudio-titulo-superior/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Máster en Interpretación Musical e Investigación Aplicada",
+     "url": "https://www.conservatorisuperiorcastello.com/master-interpretacio-musical-i-recerca-aplicada/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  CORDOBA04",
+   "discipline": "composition",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmcordoba.com/saludo-del-director/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composición",
+     "url": "https://csmcordoba.com/saludo-del-director/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  CORDOBA04",
+   "discipline": "strings",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.csmcordoba.com/especialidad-interpretaci%C3%B3n-itinerario-de-guitarra",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación (incl. itinerario de guitarra)",
+     "url": "https://www.csmcordoba.com/especialidad-interpretaci%C3%B3n-itinerario-de-guitarra",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  CORDOBA04",
+   "discipline": "woodwind",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.csmcordoba.com/especialidad-interpretaci%C3%B3n-itinerario-de-guitarra",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación (incl. itinerario de guitarra)",
+     "url": "https://www.csmcordoba.com/especialidad-interpretaci%C3%B3n-itinerario-de-guitarra",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  CORDOBA04",
+   "discipline": "brass",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.csmcordoba.com/especialidad-interpretaci%C3%B3n-itinerario-de-guitarra",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación (incl. itinerario de guitarra)",
+     "url": "https://www.csmcordoba.com/especialidad-interpretaci%C3%B3n-itinerario-de-guitarra",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  CORDOBA04",
+   "discipline": "percussion",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.csmcordoba.com/especialidad-interpretaci%C3%B3n-itinerario-de-guitarra",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación (incl. itinerario de guitarra)",
+     "url": "https://www.csmcordoba.com/especialidad-interpretaci%C3%B3n-itinerario-de-guitarra",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  CORDOBA04",
+   "discipline": "piano",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.csmcordoba.com/especialidad-interpretaci%C3%B3n-itinerario-de-guitarra",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación (incl. itinerario de guitarra)",
+     "url": "https://www.csmcordoba.com/especialidad-interpretaci%C3%B3n-itinerario-de-guitarra",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  CORDOBA04",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.csmcordoba.com/especialidad-interpretaci%C3%B3n-itinerario-de-guitarra",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación (incl. itinerario de guitarra)",
+     "url": "https://www.csmcordoba.com/especialidad-interpretaci%C3%B3n-itinerario-de-guitarra",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  CORDOBA04",
+   "discipline": "guitar",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.csmcordoba.com/especialidad-interpretaci%C3%B3n-itinerario-de-guitarra",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación (incl. itinerario de guitarra)",
+     "url": "https://www.csmcordoba.com/especialidad-interpretaci%C3%B3n-itinerario-de-guitarra",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  CORDOBA04",
+   "discipline": "global-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmcordoba.com/wp-content/uploads/2025/07/Guitarraflamenca2526GD.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Flamenco: Cante flamenco, Guitarra flamenca, Flamencología",
+     "url": "https://csmcordoba.com/wp-content/uploads/2025/07/Guitarraflamenca2526GD.pdf"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SEVILLA04",
+   "discipline": "composition",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://consev.es/wp-content/uploads/2015/03/folleto-puertas-abiertas-consev-2015.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composición; Dirección de coro; Musicología",
+     "url": "https://consev.es/wp-content/uploads/2015/03/folleto-puertas-abiertas-consev-2015.pdf"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SEVILLA04",
+   "discipline": "conducting",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://consev.es/wp-content/uploads/2015/03/folleto-puertas-abiertas-consev-2015.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composición; Dirección de coro; Musicología",
+     "url": "https://consev.es/wp-content/uploads/2015/03/folleto-puertas-abiertas-consev-2015.pdf"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SEVILLA04",
+   "discipline": "musicology",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://consev.es/wp-content/uploads/2015/03/folleto-puertas-abiertas-consev-2015.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composición; Dirección de coro; Musicología",
+     "url": "https://consev.es/wp-content/uploads/2015/03/folleto-puertas-abiertas-consev-2015.pdf"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SEVILLA04",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://consev.es/wp-content/uploads/2012/06/Plan-Estudios-LOE-Consev-2012.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación: Canto, Guitarra, Instrumentos sinfónicos, Órgano",
+     "url": "https://consev.es/wp-content/uploads/2012/06/Plan-Estudios-LOE-Consev-2012.pdf"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SEVILLA04",
+   "discipline": "guitar",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://consev.es/wp-content/uploads/2012/06/Plan-Estudios-LOE-Consev-2012.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación: Canto, Guitarra, Instrumentos sinfónicos, Órgano",
+     "url": "https://consev.es/wp-content/uploads/2012/06/Plan-Estudios-LOE-Consev-2012.pdf"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SEVILLA04",
+   "discipline": "organ",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://consev.es/wp-content/uploads/2012/06/Plan-Estudios-LOE-Consev-2012.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación: Canto, Guitarra, Instrumentos sinfónicos, Órgano",
+     "url": "https://consev.es/wp-content/uploads/2012/06/Plan-Estudios-LOE-Consev-2012.pdf"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SEVILLA04",
+   "discipline": "strings",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://consev.es/wp-content/uploads/2012/06/Plan-Estudios-LOE-Consev-2012.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación: Canto, Guitarra, Instrumentos sinfónicos, Órgano",
+     "url": "https://consev.es/wp-content/uploads/2012/06/Plan-Estudios-LOE-Consev-2012.pdf"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SEVILLA04",
+   "discipline": "woodwind",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://consev.es/wp-content/uploads/2012/06/Plan-Estudios-LOE-Consev-2012.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación: Canto, Guitarra, Instrumentos sinfónicos, Órgano",
+     "url": "https://consev.es/wp-content/uploads/2012/06/Plan-Estudios-LOE-Consev-2012.pdf"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SEVILLA04",
+   "discipline": "brass",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://consev.es/wp-content/uploads/2012/06/Plan-Estudios-LOE-Consev-2012.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación: Canto, Guitarra, Instrumentos sinfónicos, Órgano",
+     "url": "https://consev.es/wp-content/uploads/2012/06/Plan-Estudios-LOE-Consev-2012.pdf"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SEVILLA04",
+   "discipline": "percussion",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://consev.es/wp-content/uploads/2012/06/Plan-Estudios-LOE-Consev-2012.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación: Canto, Guitarra, Instrumentos sinfónicos, Órgano",
+     "url": "https://consev.es/wp-content/uploads/2012/06/Plan-Estudios-LOE-Consev-2012.pdf"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SEVILLA04",
+   "discipline": "early-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://consev.es/wp-content/uploads/2012/06/Plan-Estudios-LOE-Consev-2012.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación: Instrumentos de la música antigua",
+     "url": "https://consev.es/wp-content/uploads/2012/06/Plan-Estudios-LOE-Consev-2012.pdf"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  OVIEDO03",
+   "discipline": "accordion",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "http://www.consmupa.es/index.php/planes-de-estudios",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación: Acordeón, Canto, Clave-Órgano, Cuerda de arco-Viento-Percusión, Guitarra, Piano",
+     "url": "http://www.consmupa.es/index.php/planes-de-estudios"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  OVIEDO03",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "http://www.consmupa.es/index.php/planes-de-estudios",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación: Acordeón, Canto, Clave-Órgano, Cuerda de arco-Viento-Percusión, Guitarra, Piano",
+     "url": "http://www.consmupa.es/index.php/planes-de-estudios"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  OVIEDO03",
+   "discipline": "organ",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "http://www.consmupa.es/index.php/planes-de-estudios",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación: Acordeón, Canto, Clave-Órgano, Cuerda de arco-Viento-Percusión, Guitarra, Piano",
+     "url": "http://www.consmupa.es/index.php/planes-de-estudios"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  OVIEDO03",
+   "discipline": "strings",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "http://www.consmupa.es/index.php/planes-de-estudios",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación: Acordeón, Canto, Clave-Órgano, Cuerda de arco-Viento-Percusión, Guitarra, Piano",
+     "url": "http://www.consmupa.es/index.php/planes-de-estudios"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  OVIEDO03",
+   "discipline": "woodwind",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "http://www.consmupa.es/index.php/planes-de-estudios",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación: Acordeón, Canto, Clave-Órgano, Cuerda de arco-Viento-Percusión, Guitarra, Piano",
+     "url": "http://www.consmupa.es/index.php/planes-de-estudios"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  OVIEDO03",
+   "discipline": "brass",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "http://www.consmupa.es/index.php/planes-de-estudios",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación: Acordeón, Canto, Clave-Órgano, Cuerda de arco-Viento-Percusión, Guitarra, Piano",
+     "url": "http://www.consmupa.es/index.php/planes-de-estudios"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  OVIEDO03",
+   "discipline": "percussion",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "http://www.consmupa.es/index.php/planes-de-estudios",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación: Acordeón, Canto, Clave-Órgano, Cuerda de arco-Viento-Percusión, Guitarra, Piano",
+     "url": "http://www.consmupa.es/index.php/planes-de-estudios"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  OVIEDO03",
+   "discipline": "guitar",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "http://www.consmupa.es/index.php/planes-de-estudios",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación: Acordeón, Canto, Clave-Órgano, Cuerda de arco-Viento-Percusión, Guitarra, Piano",
+     "url": "http://www.consmupa.es/index.php/planes-de-estudios"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  OVIEDO03",
+   "discipline": "piano",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "http://www.consmupa.es/index.php/planes-de-estudios",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación: Acordeón, Canto, Clave-Órgano, Cuerda de arco-Viento-Percusión, Guitarra, Piano",
+     "url": "http://www.consmupa.es/index.php/planes-de-estudios"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  OVIEDO03",
+   "discipline": "early-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "http://www.consmupa.es/index.php/planes-de-estudios",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación: Clave",
+     "url": "http://www.consmupa.es/index.php/planes-de-estudios"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  OVIEDO03",
+   "discipline": "folk",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "http://www.consmupa.es/index.php/planes-de-estudios",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación: Instrumentos de la música tradicional y popular de Asturias (gaita)",
+     "url": "http://www.consmupa.es/index.php/planes-de-estudios"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  OVIEDO03",
+   "discipline": "composition",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "http://www.consmupa.es/index.php/planes-de-estudios",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composición; Pedagogía; Dirección",
+     "url": "http://www.consmupa.es/index.php/planes-de-estudios"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  OVIEDO03",
+   "discipline": "music-education",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "http://www.consmupa.es/index.php/planes-de-estudios",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composición; Pedagogía; Dirección",
+     "url": "http://www.consmupa.es/index.php/planes-de-estudios"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  OVIEDO03",
+   "discipline": "conducting",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "http://www.consmupa.es/index.php/planes-de-estudios",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composición; Pedagogía; Dirección",
+     "url": "http://www.consmupa.es/index.php/planes-de-estudios"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  JAEN07",
+   "discipline": "global-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.csmjaen.es/es/flamenco",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Flamenco: Guitarra flamenca, Cante flamenco",
+     "url": "https://www.csmjaen.es/es/flamenco"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  JAEN07",
+   "discipline": "guitar",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.csmjaen.es/es/planes-de-estudios",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación: Guitarra, Canto",
+     "url": "https://www.csmjaen.es/es/planes-de-estudios"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  JAEN07",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.csmjaen.es/es/planes-de-estudios",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación: Guitarra, Canto",
+     "url": "https://www.csmjaen.es/es/planes-de-estudios"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  JAEN07",
+   "discipline": "arts-management",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.csmjaen.es/es/planes-de-estudios",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Producción y Gestión de Música y Artes Escénicas",
+     "url": "https://www.csmjaen.es/es/planes-de-estudios"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  LA-CORU05",
+   "discipline": "accordion",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmcoruna.com/en/especialidades/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación: acordeón, arpa, canto, viento madera, cuerda, guitarra, percusión, piano, viento metal",
+     "url": "https://csmcoruna.com/en/especialidades/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  LA-CORU05",
+   "discipline": "harp",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmcoruna.com/en/especialidades/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación: acordeón, arpa, canto, viento madera, cuerda, guitarra, percusión, piano, viento metal",
+     "url": "https://csmcoruna.com/en/especialidades/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  LA-CORU05",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmcoruna.com/en/especialidades/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación: acordeón, arpa, canto, viento madera, cuerda, guitarra, percusión, piano, viento metal",
+     "url": "https://csmcoruna.com/en/especialidades/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  LA-CORU05",
+   "discipline": "woodwind",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmcoruna.com/en/especialidades/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación: acordeón, arpa, canto, viento madera, cuerda, guitarra, percusión, piano, viento metal",
+     "url": "https://csmcoruna.com/en/especialidades/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  LA-CORU05",
+   "discipline": "strings",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmcoruna.com/en/especialidades/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación: acordeón, arpa, canto, viento madera, cuerda, guitarra, percusión, piano, viento metal",
+     "url": "https://csmcoruna.com/en/especialidades/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  LA-CORU05",
+   "discipline": "guitar",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmcoruna.com/en/especialidades/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación: acordeón, arpa, canto, viento madera, cuerda, guitarra, percusión, piano, viento metal",
+     "url": "https://csmcoruna.com/en/especialidades/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  LA-CORU05",
+   "discipline": "percussion",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmcoruna.com/en/especialidades/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación: acordeón, arpa, canto, viento madera, cuerda, guitarra, percusión, piano, viento metal",
+     "url": "https://csmcoruna.com/en/especialidades/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  LA-CORU05",
+   "discipline": "piano",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmcoruna.com/en/especialidades/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación: acordeón, arpa, canto, viento madera, cuerda, guitarra, percusión, piano, viento metal",
+     "url": "https://csmcoruna.com/en/especialidades/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  LA-CORU05",
+   "discipline": "brass",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmcoruna.com/en/especialidades/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación: acordeón, arpa, canto, viento madera, cuerda, guitarra, percusión, piano, viento metal",
+     "url": "https://csmcoruna.com/en/especialidades/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  LA-CORU05",
+   "discipline": "jazz",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmcoruna.com/en/especialidades/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación – Jazz; Composición; Pedagogía; Dirección",
+     "url": "https://csmcoruna.com/en/especialidades/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  LA-CORU05",
+   "discipline": "composition",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmcoruna.com/en/especialidades/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación – Jazz; Composición; Pedagogía; Dirección",
+     "url": "https://csmcoruna.com/en/especialidades/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  LA-CORU05",
+   "discipline": "music-education",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmcoruna.com/en/especialidades/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación – Jazz; Composición; Pedagogía; Dirección",
+     "url": "https://csmcoruna.com/en/especialidades/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  LA-CORU05",
+   "discipline": "conducting",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmcoruna.com/en/especialidades/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación – Jazz; Composición; Pedagogía; Dirección",
+     "url": "https://csmcoruna.com/en/especialidades/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  LAS-PAL18",
+   "discipline": "strings",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "http://www.consmucan.es/erasmus/erasmus-estudiantes-incoming/bachelor-of-music-in-musicology",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composición, Interpretación, Musicología, Pedagogía",
+     "url": "http://www.consmucan.es/erasmus/erasmus-estudiantes-incoming/bachelor-of-music-in-musicology",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  LAS-PAL18",
+   "discipline": "woodwind",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "http://www.consmucan.es/erasmus/erasmus-estudiantes-incoming/bachelor-of-music-in-musicology",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composición, Interpretación, Musicología, Pedagogía",
+     "url": "http://www.consmucan.es/erasmus/erasmus-estudiantes-incoming/bachelor-of-music-in-musicology",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  LAS-PAL18",
+   "discipline": "brass",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "http://www.consmucan.es/erasmus/erasmus-estudiantes-incoming/bachelor-of-music-in-musicology",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composición, Interpretación, Musicología, Pedagogía",
+     "url": "http://www.consmucan.es/erasmus/erasmus-estudiantes-incoming/bachelor-of-music-in-musicology",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  LAS-PAL18",
+   "discipline": "percussion",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "http://www.consmucan.es/erasmus/erasmus-estudiantes-incoming/bachelor-of-music-in-musicology",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composición, Interpretación, Musicología, Pedagogía",
+     "url": "http://www.consmucan.es/erasmus/erasmus-estudiantes-incoming/bachelor-of-music-in-musicology",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  LAS-PAL18",
+   "discipline": "piano",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "http://www.consmucan.es/erasmus/erasmus-estudiantes-incoming/bachelor-of-music-in-musicology",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composición, Interpretación, Musicología, Pedagogía",
+     "url": "http://www.consmucan.es/erasmus/erasmus-estudiantes-incoming/bachelor-of-music-in-musicology",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  LAS-PAL18",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "http://www.consmucan.es/erasmus/erasmus-estudiantes-incoming/bachelor-of-music-in-musicology",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composición, Interpretación, Musicología, Pedagogía",
+     "url": "http://www.consmucan.es/erasmus/erasmus-estudiantes-incoming/bachelor-of-music-in-musicology",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  LAS-PAL18",
+   "discipline": "composition",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "http://www.consmucan.es/erasmus/erasmus-estudiantes-incoming/bachelor-of-music-in-musicology",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composición, Interpretación, Musicología, Pedagogía",
+     "url": "http://www.consmucan.es/erasmus/erasmus-estudiantes-incoming/bachelor-of-music-in-musicology",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  LAS-PAL18",
+   "discipline": "musicology",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "http://www.consmucan.es/erasmus/erasmus-estudiantes-incoming/bachelor-of-music-in-musicology",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composición, Interpretación, Musicología, Pedagogía",
+     "url": "http://www.consmucan.es/erasmus/erasmus-estudiantes-incoming/bachelor-of-music-in-musicology",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  LAS-PAL18",
+   "discipline": "music-education",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "http://www.consmucan.es/erasmus/erasmus-estudiantes-incoming/bachelor-of-music-in-musicology",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composición, Interpretación, Musicología, Pedagogía",
+     "url": "http://www.consmucan.es/erasmus/erasmus-estudiantes-incoming/bachelor-of-music-in-musicology",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SALAMAN03",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://coscyl.com/en/planes-de-estudios/superior-infogeneral/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Título Superior: Interpretación, Composición, Musicología y Etnomusicología",
+     "url": "https://coscyl.com/en/planes-de-estudios/superior-infogeneral/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Máster en Enseñanzas Artísticas de Interpretación Musical (Solista, Música de Cámara, Orquesta)",
+     "url": "https://coscyl.com/en/master/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SALAMAN03",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://coscyl.com/en/planes-de-estudios/superior-infogeneral/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Título Superior: Interpretación, Composición, Musicología y Etnomusicología",
+     "url": "https://coscyl.com/en/planes-de-estudios/superior-infogeneral/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Máster en Enseñanzas Artísticas de Interpretación Musical (Solista, Música de Cámara, Orquesta)",
+     "url": "https://coscyl.com/en/master/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SALAMAN03",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://coscyl.com/en/planes-de-estudios/superior-infogeneral/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Título Superior: Interpretación, Composición, Musicología y Etnomusicología",
+     "url": "https://coscyl.com/en/planes-de-estudios/superior-infogeneral/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Máster en Enseñanzas Artísticas de Interpretación Musical (Solista, Música de Cámara, Orquesta)",
+     "url": "https://coscyl.com/en/master/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SALAMAN03",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://coscyl.com/en/planes-de-estudios/superior-infogeneral/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Título Superior: Interpretación, Composición, Musicología y Etnomusicología",
+     "url": "https://coscyl.com/en/planes-de-estudios/superior-infogeneral/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Máster en Enseñanzas Artísticas de Interpretación Musical (Solista, Música de Cámara, Orquesta)",
+     "url": "https://coscyl.com/en/master/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SALAMAN03",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://coscyl.com/en/planes-de-estudios/superior-infogeneral/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Título Superior: Interpretación, Composición, Musicología y Etnomusicología",
+     "url": "https://coscyl.com/en/planes-de-estudios/superior-infogeneral/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Máster en Enseñanzas Artísticas de Interpretación Musical (Solista, Música de Cámara, Orquesta)",
+     "url": "https://coscyl.com/en/master/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SALAMAN03",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://coscyl.com/en/planes-de-estudios/superior-infogeneral/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Título Superior: Interpretación, Composición, Musicología y Etnomusicología",
+     "url": "https://coscyl.com/en/planes-de-estudios/superior-infogeneral/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Máster en Enseñanzas Artísticas de Interpretación Musical (Solista, Música de Cámara, Orquesta)",
+     "url": "https://coscyl.com/en/master/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SALAMAN03",
+   "discipline": "composition",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://coscyl.com/en/planes-de-estudios/superior-infogeneral/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Título Superior: Interpretación, Composición, Musicología y Etnomusicología",
+     "url": "https://coscyl.com/en/planes-de-estudios/superior-infogeneral/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SALAMAN03",
+   "discipline": "musicology",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://coscyl.com/en/planes-de-estudios/superior-infogeneral/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Título Superior: Interpretación, Composición, Musicología y Etnomusicología",
+     "url": "https://coscyl.com/en/planes-de-estudios/superior-infogeneral/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SALAMAN03",
+   "discipline": "folk",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://coscyl.com/en/planes-de-estudios/superior-infogeneral/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Título Superior: Interpretación, Composición, Musicología y Etnomusicología",
+     "url": "https://coscyl.com/en/planes-de-estudios/superior-infogeneral/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SALAMAN03",
+   "discipline": "chamber-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://coscyl.com/en/master/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Máster en Enseñanzas Artísticas de Interpretación Musical (Solista, Música de Cámara, Orquesta)",
+     "url": "https://coscyl.com/en/master/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  ALBACET19",
+   "discipline": "woodwind",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmclm.com/jornada-de-puertas-abiertas/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación (clarinete … violonchelo); Dirección de banda; Composición",
+     "url": "https://csmclm.com/jornada-de-puertas-abiertas/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  ALBACET19",
+   "discipline": "brass",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmclm.com/jornada-de-puertas-abiertas/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación (clarinete … violonchelo); Dirección de banda; Composición",
+     "url": "https://csmclm.com/jornada-de-puertas-abiertas/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  ALBACET19",
+   "discipline": "strings",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmclm.com/jornada-de-puertas-abiertas/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación (clarinete … violonchelo); Dirección de banda; Composición",
+     "url": "https://csmclm.com/jornada-de-puertas-abiertas/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  ALBACET19",
+   "discipline": "guitar",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmclm.com/jornada-de-puertas-abiertas/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación (clarinete … violonchelo); Dirección de banda; Composición",
+     "url": "https://csmclm.com/jornada-de-puertas-abiertas/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  ALBACET19",
+   "discipline": "percussion",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmclm.com/jornada-de-puertas-abiertas/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación (clarinete … violonchelo); Dirección de banda; Composición",
+     "url": "https://csmclm.com/jornada-de-puertas-abiertas/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  ALBACET19",
+   "discipline": "piano",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmclm.com/jornada-de-puertas-abiertas/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación (clarinete … violonchelo); Dirección de banda; Composición",
+     "url": "https://csmclm.com/jornada-de-puertas-abiertas/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  ALBACET19",
+   "discipline": "composition",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmclm.com/jornada-de-puertas-abiertas/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación (clarinete … violonchelo); Dirección de banda; Composición",
+     "url": "https://csmclm.com/jornada-de-puertas-abiertas/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  ALBACET19",
+   "discipline": "conducting",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmclm.com/jornada-de-puertas-abiertas/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación (clarinete … violonchelo); Dirección de banda; Composición",
+     "url": "https://csmclm.com/jornada-de-puertas-abiertas/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  PAMPLON17",
+   "discipline": "strings",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmn.educacion.navarra.es/web1/informacion/prueba-de-acceso/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación (clásica y jazz), Composición, Pedagogía (clásico y jazz), Musicología",
+     "url": "https://csmn.educacion.navarra.es/web1/informacion/prueba-de-acceso/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  PAMPLON17",
+   "discipline": "woodwind",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmn.educacion.navarra.es/web1/informacion/prueba-de-acceso/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación (clásica y jazz), Composición, Pedagogía (clásico y jazz), Musicología",
+     "url": "https://csmn.educacion.navarra.es/web1/informacion/prueba-de-acceso/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  PAMPLON17",
+   "discipline": "brass",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmn.educacion.navarra.es/web1/informacion/prueba-de-acceso/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación (clásica y jazz), Composición, Pedagogía (clásico y jazz), Musicología",
+     "url": "https://csmn.educacion.navarra.es/web1/informacion/prueba-de-acceso/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  PAMPLON17",
+   "discipline": "percussion",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmn.educacion.navarra.es/web1/informacion/prueba-de-acceso/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación (clásica y jazz), Composición, Pedagogía (clásico y jazz), Musicología",
+     "url": "https://csmn.educacion.navarra.es/web1/informacion/prueba-de-acceso/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  PAMPLON17",
+   "discipline": "piano",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmn.educacion.navarra.es/web1/informacion/prueba-de-acceso/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación (clásica y jazz), Composición, Pedagogía (clásico y jazz), Musicología",
+     "url": "https://csmn.educacion.navarra.es/web1/informacion/prueba-de-acceso/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  PAMPLON17",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmn.educacion.navarra.es/web1/informacion/prueba-de-acceso/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación (clásica y jazz), Composición, Pedagogía (clásico y jazz), Musicología",
+     "url": "https://csmn.educacion.navarra.es/web1/informacion/prueba-de-acceso/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  PAMPLON17",
+   "discipline": "jazz",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmn.educacion.navarra.es/web1/informacion/prueba-de-acceso/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación (clásica y jazz), Composición, Pedagogía (clásico y jazz), Musicología",
+     "url": "https://csmn.educacion.navarra.es/web1/informacion/prueba-de-acceso/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  PAMPLON17",
+   "discipline": "composition",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmn.educacion.navarra.es/web1/informacion/prueba-de-acceso/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación (clásica y jazz), Composición, Pedagogía (clásico y jazz), Musicología",
+     "url": "https://csmn.educacion.navarra.es/web1/informacion/prueba-de-acceso/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  PAMPLON17",
+   "discipline": "music-education",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmn.educacion.navarra.es/web1/informacion/prueba-de-acceso/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación (clásica y jazz), Composición, Pedagogía (clásico y jazz), Musicología",
+     "url": "https://csmn.educacion.navarra.es/web1/informacion/prueba-de-acceso/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  PAMPLON17",
+   "discipline": "musicology",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://csmn.educacion.navarra.es/web1/informacion/prueba-de-acceso/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación (clásica y jazz), Composición, Pedagogía (clásico y jazz), Musicología",
+     "url": "https://csmn.educacion.navarra.es/web1/informacion/prueba-de-acceso/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  VIGO03",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatoriosuperiorvigo.com/estudios/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Canto, Composición, Corda frotada, Guitarra, Instrumentos da música tradicional e popular, Musicoloxía, Pedagoxía, Percusión, Piano",
+     "url": "https://www.conservatoriosuperiorvigo.com/estudios/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  VIGO03",
+   "discipline": "composition",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatoriosuperiorvigo.com/estudios/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Canto, Composición, Corda frotada, Guitarra, Instrumentos da música tradicional e popular, Musicoloxía, Pedagoxía, Percusión, Piano",
+     "url": "https://www.conservatoriosuperiorvigo.com/estudios/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  VIGO03",
+   "discipline": "strings",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatoriosuperiorvigo.com/estudios/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Canto, Composición, Corda frotada, Guitarra, Instrumentos da música tradicional e popular, Musicoloxía, Pedagoxía, Percusión, Piano",
+     "url": "https://www.conservatoriosuperiorvigo.com/estudios/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  VIGO03",
+   "discipline": "guitar",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatoriosuperiorvigo.com/estudios/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Canto, Composición, Corda frotada, Guitarra, Instrumentos da música tradicional e popular, Musicoloxía, Pedagoxía, Percusión, Piano",
+     "url": "https://www.conservatoriosuperiorvigo.com/estudios/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  VIGO03",
+   "discipline": "folk",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatoriosuperiorvigo.com/estudios/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Canto, Composición, Corda frotada, Guitarra, Instrumentos da música tradicional e popular, Musicoloxía, Pedagoxía, Percusión, Piano",
+     "url": "https://www.conservatoriosuperiorvigo.com/estudios/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  VIGO03",
+   "discipline": "musicology",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatoriosuperiorvigo.com/estudios/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Canto, Composición, Corda frotada, Guitarra, Instrumentos da música tradicional e popular, Musicoloxía, Pedagoxía, Percusión, Piano",
+     "url": "https://www.conservatoriosuperiorvigo.com/estudios/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  VIGO03",
+   "discipline": "music-education",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatoriosuperiorvigo.com/estudios/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Canto, Composición, Corda frotada, Guitarra, Instrumentos da música tradicional e popular, Musicoloxía, Pedagoxía, Percusión, Piano",
+     "url": "https://www.conservatoriosuperiorvigo.com/estudios/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  VIGO03",
+   "discipline": "percussion",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatoriosuperiorvigo.com/estudios/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Canto, Composición, Corda frotada, Guitarra, Instrumentos da música tradicional e popular, Musicoloxía, Pedagoxía, Percusión, Piano",
+     "url": "https://www.conservatoriosuperiorvigo.com/estudios/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  VIGO03",
+   "discipline": "piano",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatoriosuperiorvigo.com/estudios/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Canto, Composición, Corda frotada, Guitarra, Instrumentos da música tradicional e popular, Musicoloxía, Pedagoxía, Percusión, Piano",
+     "url": "https://www.conservatoriosuperiorvigo.com/estudios/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MADRID222",
+   "discipline": "jazz",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://musicacreativa.com/centro-superior/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Grado en Interpretación de Músicas Actuales y Jazz",
+     "url": "https://musicacreativa.com/centro-superior/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MADRID222",
+   "discipline": "popular-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://musicacreativa.com/centro-superior/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Grado en Interpretación de Músicas Actuales y Jazz",
+     "url": "https://musicacreativa.com/centro-superior/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MADRID222",
+   "discipline": "composition",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://musicacreativa.com/centro-superior/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Grado en Composición para Medios Audiovisuales",
+     "url": "https://musicacreativa.com/centro-superior/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MADRID222",
+   "discipline": "global-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://musicacreativa.com/centro-superior/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Máster en Interpretación de Flamenco; Máster en Folklore de la Península Ibérica",
+     "url": "https://musicacreativa.com/centro-superior/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MADRID222",
+   "discipline": "folk",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://musicacreativa.com/centro-superior/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Máster en Interpretación de Flamenco; Máster en Folklore de la Península Ibérica",
+     "url": "https://musicacreativa.com/centro-superior/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SANTAND38",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.escuelasuperiordemusicareinasofia.es/catedras-y-profesorado/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Grado en Enseñanzas Artísticas Superiores de Música; Máster en Interpretación Musical (cátedras: canto, clarinete, contrabajo, fagot, flauta, oboe, piano, trompa, trompeta, viola, violín, violonchelo)",
+     "url": "https://www.escuelasuperiordemusicareinasofia.es/catedras-y-profesorado/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Grado en Enseñanzas Artísticas Superiores de Música; Máster en Interpretación Musical (cátedras: canto, clarinete, contrabajo, fagot, flauta, oboe, piano, trompa, trompeta, viola, violín, violonchelo)",
+     "url": "https://www.escuelasuperiordemusicareinasofia.es/catedras-y-profesorado/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SANTAND38",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.escuelasuperiordemusicareinasofia.es/catedras-y-profesorado/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Grado en Enseñanzas Artísticas Superiores de Música; Máster en Interpretación Musical (cátedras: canto, clarinete, contrabajo, fagot, flauta, oboe, piano, trompa, trompeta, viola, violín, violonchelo)",
+     "url": "https://www.escuelasuperiordemusicareinasofia.es/catedras-y-profesorado/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Grado en Enseñanzas Artísticas Superiores de Música; Máster en Interpretación Musical (cátedras: canto, clarinete, contrabajo, fagot, flauta, oboe, piano, trompa, trompeta, viola, violín, violonchelo)",
+     "url": "https://www.escuelasuperiordemusicareinasofia.es/catedras-y-profesorado/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SANTAND38",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.escuelasuperiordemusicareinasofia.es/catedras-y-profesorado/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Grado en Enseñanzas Artísticas Superiores de Música; Máster en Interpretación Musical (cátedras: canto, clarinete, contrabajo, fagot, flauta, oboe, piano, trompa, trompeta, viola, violín, violonchelo)",
+     "url": "https://www.escuelasuperiordemusicareinasofia.es/catedras-y-profesorado/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Grado en Enseñanzas Artísticas Superiores de Música; Máster en Interpretación Musical (cátedras: canto, clarinete, contrabajo, fagot, flauta, oboe, piano, trompa, trompeta, viola, violín, violonchelo)",
+     "url": "https://www.escuelasuperiordemusicareinasofia.es/catedras-y-profesorado/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SANTAND38",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.escuelasuperiordemusicareinasofia.es/catedras-y-profesorado/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Grado en Enseñanzas Artísticas Superiores de Música; Máster en Interpretación Musical (cátedras: canto, clarinete, contrabajo, fagot, flauta, oboe, piano, trompa, trompeta, viola, violín, violonchelo)",
+     "url": "https://www.escuelasuperiordemusicareinasofia.es/catedras-y-profesorado/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Grado en Enseñanzas Artísticas Superiores de Música; Máster en Interpretación Musical (cátedras: canto, clarinete, contrabajo, fagot, flauta, oboe, piano, trompa, trompeta, viola, violín, violonchelo)",
+     "url": "https://www.escuelasuperiordemusicareinasofia.es/catedras-y-profesorado/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SANTAND38",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.escuelasuperiordemusicareinasofia.es/catedras-y-profesorado/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Grado en Enseñanzas Artísticas Superiores de Música; Máster en Interpretación Musical (cátedras: canto, clarinete, contrabajo, fagot, flauta, oboe, piano, trompa, trompeta, viola, violín, violonchelo)",
+     "url": "https://www.escuelasuperiordemusicareinasofia.es/catedras-y-profesorado/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Grado en Enseñanzas Artísticas Superiores de Música; Máster en Interpretación Musical (cátedras: canto, clarinete, contrabajo, fagot, flauta, oboe, piano, trompa, trompeta, viola, violín, violonchelo)",
+     "url": "https://www.escuelasuperiordemusicareinasofia.es/catedras-y-profesorado/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SANTAND38",
+   "discipline": "composition",
+   "levels": [],
+   "source_url": "https://www.escuelasuperiordemusicareinasofia.es/plan-estudio/",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Diploma en Composición; Diploma de Postgrado en Dirección de Orquesta (títulos propios)",
+     "url": "https://www.escuelasuperiordemusicareinasofia.es/plan-estudio/",
+     "note": "School's own diplomas, not official degrees"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SANTAND38",
+   "discipline": "conducting",
+   "levels": [],
+   "source_url": "https://www.escuelasuperiordemusicareinasofia.es/plan-estudio/",
+   "evidence": [
+    {
+     "level": null,
+     "programme_name": "Diploma en Composición; Diploma de Postgrado en Dirección de Orquesta (títulos propios)",
+     "url": "https://www.escuelasuperiordemusicareinasofia.es/plan-estudio/",
+     "note": "School's own diplomas, not official degrees"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  BARCELO137",
+   "discipline": "jazz",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://tallerdemusics.com/ca/superior/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Grau: Interpretació de jazz i música moderna (incl. veu-songwriting)",
+     "url": "https://tallerdemusics.com/ca/superior/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  BARCELO137",
+   "discipline": "popular-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://tallerdemusics.com/ca/superior/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Grau: Interpretació de jazz i música moderna (incl. veu-songwriting)",
+     "url": "https://tallerdemusics.com/ca/superior/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  BARCELO137",
+   "discipline": "global-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://tallerdemusics.com/ca/superior/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Grau: Interpretació de flamenc (cante, guitarra)",
+     "url": "https://tallerdemusics.com/ca/superior/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  BARCELO137",
+   "discipline": "composition",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://tallerdemusics.com/ca/superior/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Grau: Composició",
+     "url": "https://tallerdemusics.com/ca/superior/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  BARCELO137",
+   "discipline": "music-education",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://tallerdemusics.com/ca/superior/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Màster oficial en Pedagogia musical",
+     "url": "https://tallerdemusics.com/ca/superior/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  BARCELO30",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriliceu.es/superior/titol-superior-musica/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Grau / Màster: Interpretació en música clàssica i contemporània",
+     "url": "https://www.conservatoriliceu.es/superior/titol-superior-musica/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Grau / Màster: Interpretació en música clàssica i contemporània",
+     "url": "https://www.conservatoriliceu.es/superior/titol-superior-musica/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  BARCELO30",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriliceu.es/superior/titol-superior-musica/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Grau / Màster: Interpretació en música clàssica i contemporània",
+     "url": "https://www.conservatoriliceu.es/superior/titol-superior-musica/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Grau / Màster: Interpretació en música clàssica i contemporània",
+     "url": "https://www.conservatoriliceu.es/superior/titol-superior-musica/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  BARCELO30",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriliceu.es/superior/titol-superior-musica/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Grau / Màster: Interpretació en música clàssica i contemporània",
+     "url": "https://www.conservatoriliceu.es/superior/titol-superior-musica/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Grau / Màster: Interpretació en música clàssica i contemporània",
+     "url": "https://www.conservatoriliceu.es/superior/titol-superior-musica/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  BARCELO30",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriliceu.es/superior/titol-superior-musica/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Grau / Màster: Interpretació en música clàssica i contemporània",
+     "url": "https://www.conservatoriliceu.es/superior/titol-superior-musica/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Grau / Màster: Interpretació en música clàssica i contemporània",
+     "url": "https://www.conservatoriliceu.es/superior/titol-superior-musica/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  BARCELO30",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriliceu.es/superior/titol-superior-musica/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Grau / Màster: Interpretació en música clàssica i contemporània",
+     "url": "https://www.conservatoriliceu.es/superior/titol-superior-musica/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Grau / Màster: Interpretació en música clàssica i contemporània",
+     "url": "https://www.conservatoriliceu.es/superior/titol-superior-musica/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  BARCELO30",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriliceu.es/superior/titol-superior-musica/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Grau / Màster: Interpretació en música clàssica i contemporània",
+     "url": "https://www.conservatoriliceu.es/superior/titol-superior-musica/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Grau / Màster: Interpretació en música clàssica i contemporània",
+     "url": "https://www.conservatoriliceu.es/superior/titol-superior-musica/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  BARCELO30",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriliceu.es/superior/titol-superior-musica/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Grau / Màster: Interpretació en música clàssica i contemporània",
+     "url": "https://www.conservatoriliceu.es/superior/titol-superior-musica/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Grau / Màster: Interpretació en música clàssica i contemporània",
+     "url": "https://www.conservatoriliceu.es/superior/titol-superior-musica/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  BARCELO30",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriliceu.es/superior/masters/jazz-musica-moderna/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Grau / Màster: Interpretació en jazz i música moderna",
+     "url": "https://www.conservatoriliceu.es/superior/masters/jazz-musica-moderna/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Grau / Màster: Interpretació en jazz i música moderna",
+     "url": "https://www.conservatoriliceu.es/superior/masters/jazz-musica-moderna/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  BARCELO30",
+   "discipline": "popular-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriliceu.es/superior/masters/jazz-musica-moderna/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Grau / Màster: Interpretació en jazz i música moderna",
+     "url": "https://www.conservatoriliceu.es/superior/masters/jazz-musica-moderna/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Grau / Màster: Interpretació en jazz i música moderna",
+     "url": "https://www.conservatoriliceu.es/superior/masters/jazz-musica-moderna/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  BARCELO30",
+   "discipline": "global-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatoriliceu.es/superior/titol-superior-musica/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Grau: Interpretació en guitarra flamenca",
+     "url": "https://www.conservatoriliceu.es/superior/titol-superior-musica/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  BARCELO30",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriliceu.es/superior/titol-superior-musica/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Grau: Composició; Pedagogia",
+     "url": "https://www.conservatoriliceu.es/superior/titol-superior-musica/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Màsters: Música de cambra; Composició aplicada als mitjans audiovisuals i escènics; Òpera",
+     "url": "https://www.conservatoriliceu.es/superior/masters/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  BARCELO30",
+   "discipline": "music-education",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.conservatoriliceu.es/superior/titol-superior-musica/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Grau: Composició; Pedagogia",
+     "url": "https://www.conservatoriliceu.es/superior/titol-superior-musica/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  BARCELO30",
+   "discipline": "chamber-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.conservatoriliceu.es/superior/masters/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Màsters: Música de cambra; Composició aplicada als mitjans audiovisuals i escènics; Òpera",
+     "url": "https://www.conservatoriliceu.es/superior/masters/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  PALMA27",
+   "discipline": "strings",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://conservatorisuperior.com/interpretacio-classica/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretació clàssica",
+     "url": "https://conservatorisuperior.com/interpretacio-classica/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  PALMA27",
+   "discipline": "woodwind",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://conservatorisuperior.com/interpretacio-classica/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretació clàssica",
+     "url": "https://conservatorisuperior.com/interpretacio-classica/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  PALMA27",
+   "discipline": "brass",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://conservatorisuperior.com/interpretacio-classica/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretació clàssica",
+     "url": "https://conservatorisuperior.com/interpretacio-classica/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  PALMA27",
+   "discipline": "percussion",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://conservatorisuperior.com/interpretacio-classica/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretació clàssica",
+     "url": "https://conservatorisuperior.com/interpretacio-classica/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  PALMA27",
+   "discipline": "piano",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://conservatorisuperior.com/interpretacio-classica/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretació clàssica",
+     "url": "https://conservatorisuperior.com/interpretacio-classica/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  PALMA27",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://conservatorisuperior.com/interpretacio-classica/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretació clàssica",
+     "url": "https://conservatorisuperior.com/interpretacio-classica/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  PALMA27",
+   "discipline": "jazz",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://conservatorisuperior.com/interpretacio-jazz/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretació jazz",
+     "url": "https://conservatorisuperior.com/interpretacio-jazz/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  PALMA27",
+   "discipline": "composition",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://conservatorisuperior.com/pedagogia/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composició; Pedagogia; Musicologia",
+     "url": "https://conservatorisuperior.com/pedagogia/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  PALMA27",
+   "discipline": "music-education",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://conservatorisuperior.com/pedagogia/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composició; Pedagogia; Musicologia",
+     "url": "https://conservatorisuperior.com/pedagogia/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  PALMA27",
+   "discipline": "musicology",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://conservatorisuperior.com/pedagogia/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composició; Pedagogia; Musicologia",
+     "url": "https://conservatorisuperior.com/pedagogia/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SAN-SEB01",
+   "discipline": "accordion",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación (acordeón … txistu …)",
+     "url": "https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SAN-SEB01",
+   "discipline": "harp",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación (acordeón … txistu …)",
+     "url": "https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SAN-SEB01",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación (acordeón … txistu …)",
+     "url": "https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Máster de Interpretación Musical; Máster de Estudios Orquestales",
+     "url": "https://musikene.eus/masters/masters-in-music-performance/?lang=en",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SAN-SEB01",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación (acordeón … txistu …)",
+     "url": "https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Máster de Interpretación Musical; Máster de Estudios Orquestales",
+     "url": "https://musikene.eus/masters/masters-in-music-performance/?lang=en",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SAN-SEB01",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación (acordeón … txistu …)",
+     "url": "https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Máster de Interpretación Musical; Máster de Estudios Orquestales",
+     "url": "https://musikene.eus/masters/masters-in-music-performance/?lang=en",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SAN-SEB01",
+   "discipline": "guitar",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación (acordeón … txistu …)",
+     "url": "https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SAN-SEB01",
+   "discipline": "organ",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación (acordeón … txistu …)",
+     "url": "https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SAN-SEB01",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación (acordeón … txistu …)",
+     "url": "https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Máster de Interpretación Musical; Máster de Estudios Orquestales",
+     "url": "https://musikene.eus/masters/masters-in-music-performance/?lang=en",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SAN-SEB01",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación (acordeón … txistu …)",
+     "url": "https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Máster de Interpretación Musical; Máster de Estudios Orquestales",
+     "url": "https://musikene.eus/masters/masters-in-music-performance/?lang=en",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SAN-SEB01",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación (acordeón … txistu …)",
+     "url": "https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Máster de Interpretación Musical; Máster de Estudios Orquestales",
+     "url": "https://musikene.eus/masters/masters-in-music-performance/?lang=en",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SAN-SEB01",
+   "discipline": "folk",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación (acordeón … txistu …)",
+     "url": "https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SAN-SEB01",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://musikene.eus/masters/?lang=en",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación Jazz; Máster de Interpretación-Jazz",
+     "url": "https://musikene.eus/masters/?lang=en"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Interpretación Jazz; Máster de Interpretación-Jazz",
+     "url": "https://musikene.eus/masters/?lang=en"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SAN-SEB01",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composición; Pedagogía; Dirección (coro, orquesta)",
+     "url": "https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Máster en Mediación, Gestión y Difusión Musical; Máster de Creación de la Música Contemporánea",
+     "url": "https://musikene.eus/masters/?lang=en"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SAN-SEB01",
+   "discipline": "music-education",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composición; Pedagogía; Dirección (coro, orquesta)",
+     "url": "https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SAN-SEB01",
+   "discipline": "conducting",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composición; Pedagogía; Dirección (coro, orquesta)",
+     "url": "https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  SAN-SEB01",
+   "discipline": "arts-management",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://musikene.eus/masters/?lang=en",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Máster en Mediación, Gestión y Difusión Musical; Máster de Creación de la Música Contemporánea",
+     "url": "https://musikene.eus/masters/?lang=en"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MADRID27",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://rcsmm.eu/interpretacion",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación – A. Instrumentos de orquesta y percusión",
+     "url": "https://rcsmm.eu/interpretacion"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Máster en Interpretación e Investigación Performativa de Música Española",
+     "url": "https://rcsmm.eu/master-ensenanzas-artisticas-interpretacion-e-investigacion-performativa-musica-espanola",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MADRID27",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://rcsmm.eu/interpretacion",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación – A. Instrumentos de orquesta y percusión",
+     "url": "https://rcsmm.eu/interpretacion"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Máster en Interpretación e Investigación Performativa de Música Española",
+     "url": "https://rcsmm.eu/master-ensenanzas-artisticas-interpretacion-e-investigacion-performativa-musica-espanola",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MADRID27",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://rcsmm.eu/interpretacion",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación – A. Instrumentos de orquesta y percusión",
+     "url": "https://rcsmm.eu/interpretacion"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Máster en Interpretación e Investigación Performativa de Música Española",
+     "url": "https://rcsmm.eu/master-ensenanzas-artisticas-interpretacion-e-investigacion-performativa-musica-espanola",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MADRID27",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://rcsmm.eu/interpretacion",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación – A. Instrumentos de orquesta y percusión",
+     "url": "https://rcsmm.eu/interpretacion"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Máster en Interpretación e Investigación Performativa de Música Española",
+     "url": "https://rcsmm.eu/master-ensenanzas-artisticas-interpretacion-e-investigacion-performativa-musica-espanola",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MADRID27",
+   "discipline": "harp",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://rcsmm.eu/interpretacion",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación – A. Instrumentos de orquesta y percusión",
+     "url": "https://rcsmm.eu/interpretacion"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MADRID27",
+   "discipline": "accordion",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://rcsmm.eu/interpretacion",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación – B. Instrumentos polifónicos no orquestales",
+     "url": "https://rcsmm.eu/interpretacion"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MADRID27",
+   "discipline": "guitar",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://rcsmm.eu/interpretacion",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación – B. Instrumentos polifónicos no orquestales",
+     "url": "https://rcsmm.eu/interpretacion"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MADRID27",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://rcsmm.eu/interpretacion",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación – B. Instrumentos polifónicos no orquestales",
+     "url": "https://rcsmm.eu/interpretacion"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Máster en Pianista Acompañante y Repertorista",
+     "url": "https://rcsmm.eu/master/masterrepertorista/?m=34&s=155"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MADRID27",
+   "discipline": "early-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://rcsmm.eu/interpretacion",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación – C. Música antigua",
+     "url": "https://rcsmm.eu/interpretacion"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MADRID27",
+   "discipline": "composition",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://rcsmm.eu/composicion",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composición",
+     "url": "https://rcsmm.eu/composicion"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MADRID27",
+   "discipline": "conducting",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://rcsmm.eu/direccion",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Dirección",
+     "url": "https://rcsmm.eu/direccion"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MADRID27",
+   "discipline": "musicology",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://rcsmm.eu/musicologia",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musicología",
+     "url": "https://rcsmm.eu/musicologia"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MADRID27",
+   "discipline": "music-education",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://rcsmm.eu/pedagogia",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Pedagogía",
+     "url": "https://rcsmm.eu/pedagogia"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MADRID27",
+   "discipline": "arts-management",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://rcsmm.eu/produccion-gestion",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Producción y Gestión",
+     "url": "https://rcsmm.eu/produccion-gestion"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MADRID27",
+   "discipline": "music-technology",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://rcsmm.eu/sonologia",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Sonología",
+     "url": "https://rcsmm.eu/sonologia"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  MADRID27",
+   "discipline": "vocal-opera",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://rcsmm.eu/master-ensenanzas-artisticas-interpretacion-e-investigacion-performativa-musica-espanola",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Máster en Interpretación e Investigación Performativa de Música Española",
+     "url": "https://rcsmm.eu/master-ensenanzas-artisticas-interpretacion-e-investigacion-performativa-musica-espanola",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  GRANADA04",
+   "discipline": "strings",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://conservatoriosuperiorgranada.com/plan-de-estudios-2/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación: Sinfónicos, Canto, Piano, Guitarra",
+     "url": "https://conservatoriosuperiorgranada.com/plan-de-estudios-2/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  GRANADA04",
+   "discipline": "woodwind",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://conservatoriosuperiorgranada.com/plan-de-estudios-2/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación: Sinfónicos, Canto, Piano, Guitarra",
+     "url": "https://conservatoriosuperiorgranada.com/plan-de-estudios-2/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  GRANADA04",
+   "discipline": "brass",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://conservatoriosuperiorgranada.com/plan-de-estudios-2/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación: Sinfónicos, Canto, Piano, Guitarra",
+     "url": "https://conservatoriosuperiorgranada.com/plan-de-estudios-2/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  GRANADA04",
+   "discipline": "percussion",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://conservatoriosuperiorgranada.com/plan-de-estudios-2/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación: Sinfónicos, Canto, Piano, Guitarra",
+     "url": "https://conservatoriosuperiorgranada.com/plan-de-estudios-2/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  GRANADA04",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://conservatoriosuperiorgranada.com/plan-de-estudios-2/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación: Sinfónicos, Canto, Piano, Guitarra",
+     "url": "https://conservatoriosuperiorgranada.com/plan-de-estudios-2/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  GRANADA04",
+   "discipline": "piano",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://conservatoriosuperiorgranada.com/plan-de-estudios-2/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación: Sinfónicos, Canto, Piano, Guitarra",
+     "url": "https://conservatoriosuperiorgranada.com/plan-de-estudios-2/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  GRANADA04",
+   "discipline": "guitar",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://conservatoriosuperiorgranada.com/plan-de-estudios-2/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Interpretación: Sinfónicos, Canto, Piano, Guitarra",
+     "url": "https://conservatoriosuperiorgranada.com/plan-de-estudios-2/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  GRANADA04",
+   "discipline": "composition",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://conservatoriosuperiorgranada.com/plan-de-estudios-2/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composición; Pedagogía; Dirección de orquesta",
+     "url": "https://conservatoriosuperiorgranada.com/plan-de-estudios-2/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  GRANADA04",
+   "discipline": "music-education",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://conservatoriosuperiorgranada.com/plan-de-estudios-2/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composición; Pedagogía; Dirección de orquesta",
+     "url": "https://conservatoriosuperiorgranada.com/plan-de-estudios-2/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  GRANADA04",
+   "discipline": "conducting",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://conservatoriosuperiorgranada.com/plan-de-estudios-2/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Composición; Pedagogía; Dirección de orquesta",
+     "url": "https://conservatoriosuperiorgranada.com/plan-de-estudios-2/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "E  GRANADA04",
+   "discipline": "global-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://conservatoriosuperiorgranada.com/plan-de-estudios-2/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Flamenco – Guitarra flamenca",
+     "url": "https://conservatoriosuperiorgranada.com/plan-de-estudios-2/"
     }
    ],
    "verified": false

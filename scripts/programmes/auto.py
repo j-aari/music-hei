@@ -34,7 +34,7 @@ def T(I, code, url, pat, drop=None, default_level=None, quiet=False):
         for d in ds: I.setdefault(code, []).append([d, lv, l[:150], url])
     if unc and not quiet: print(f"[{code}] luokittelematta: {unc}", file=sys.stderr)
 
-NOISE = re.compile(r"esam|orari|appell|bando|graduator|news|notizi|docent|prof\.|m°|maestr[oa] |concert|masterclass|evento|seminar|calendar|iscrizion|ammission|regolament|piano di studi|tasse|contribut|segreteri|biblioteca|orchestra|coro del|ensemble|festival|premio|concorso|\d{4}|perfezionament|^didattica$|^produzione$|cerca|esplora|risorse|operativ|pagopa|^direzione$|^strumenti$|scuola di|dipartiment|programm|education\b|attività|week|prenotazion|aule|huayitong|corsi afam|teachers and students|stagioni|^sito |compimento|rivista|previgente|produzione|interpretazione scenica|compositivo|^la didattica", re.I)
+NOISE = re.compile(r"esam|orari|appell|bando|graduator|news|notizi|docent|prof\.|m°|maestr[oa] |concert|masterclass|evento|seminar|calendar|iscrizion|ammission|regolament|piano di studi|tasse|contribut|segreteri|biblioteca|orchestra|coro del|ensemble|festival|premio|concorso|\d{4}|perfezionament|^didattica$|^produzione$|cerca|esplora|risorse|operativ|pagopa|^direzione$|^strumenti$|scuola di|dipartiment|programm|education\b|attività|week|prenotazion|aule|huayitong|corsi afam|ministerio|homologa|^ciclo de|teachers and students|stagioni|^sito |compimento|rivista|previgente|produzione|interpretazione scenica|compositivo|^la didattica", re.I)
 def IT(I, code, url, lv, extra_drop=None):
     """Italialainen triennio/biennio-sivu: lyhyet rivit ja linkkitekstit, jotka luokittuvat aloiksi."""
     h = get(url); seen = set()

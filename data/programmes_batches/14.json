@@ -1,0 +1,2367 @@
+{
+"collected": "2026-10-08",
+"method": "Field-level collection as in batch 1; where a site lists programmes only via JavaScript, the programme pages were located with a web search restricted to the institution's own domain (raw HTML of each institution's own programme pages, PDFs where the list was only there; names mapped to disciplines.json by keyword and checked by hand).",
+"institutions": {
+"E  MADRID252": [
+[
+"jazz",
+"BA",
+"Pop, rock y jazz: Aula Moderna",
+"https://katarinagurska.com/oferta-academica/grado-superior/"
+],
+[
+"popular-music",
+"BA",
+"Pop, rock y jazz: Aula Moderna",
+"https://katarinagurska.com/oferta-academica/grado-superior/"
+],
+[
+"vocal-opera",
+"BA",
+"Interpretación Itinerario D: Canto Canto Ver programa",
+"https://katarinagurska.com/oferta-academica/grado-superior/"
+],
+[
+"conducting",
+"BA",
+"Grado Oficial Dirección Hacemos música, dirigimos personas. Ver programa",
+"https://katarinagurska.com/oferta-academica/grado-superior/"
+],
+[
+"strings",
+"BA",
+"Interpretación Itinerario A: Cuerda y viento",
+"https://katarinagurska.com/oferta-academica/grado-superior/"
+],
+[
+"woodwind",
+"BA",
+"Interpretación Itinerario A: Cuerda y viento",
+"https://katarinagurska.com/oferta-academica/grado-superior/"
+],
+[
+"brass",
+"BA",
+"Interpretación Itinerario A: Cuerda y viento",
+"https://katarinagurska.com/oferta-academica/grado-superior/"
+],
+[
+"piano",
+"BA",
+"Piano, Guitarra y Acordeón",
+"https://katarinagurska.com/oferta-academica/grado-superior/"
+],
+[
+"accordion",
+"BA",
+"Piano, Guitarra y Acordeón",
+"https://katarinagurska.com/oferta-academica/grado-superior/"
+],
+[
+"guitar",
+"BA",
+"Piano, Guitarra y Acordeón",
+"https://katarinagurska.com/oferta-academica/grado-superior/"
+],
+[
+"vocal-opera",
+"BA",
+"Interpretación Itinerario D: Canto",
+"https://katarinagurska.com/oferta-academica/grado-superior/"
+],
+[
+"vocal-opera",
+"BA",
+"Canto",
+"https://katarinagurska.com/oferta-academica/grado-superior/"
+],
+[
+"composition",
+"BA",
+"Grado Oficial Composición",
+"https://katarinagurska.com/oferta-academica/grado-superior/"
+],
+[
+"conducting",
+"BA",
+"Grado Oficial Dirección",
+"https://katarinagurska.com/oferta-academica/grado-superior/"
+],
+[
+"conducting",
+"BA",
+"Hacemos música, dirigimos personas.",
+"https://katarinagurska.com/oferta-academica/grado-superior/"
+],
+[
+"jazz",
+"MA",
+"Pop, rock y jazz: Aula Moderna",
+"https://katarinagurska.com/oferta-academica/master/"
+],
+[
+"popular-music",
+"MA",
+"Pop, rock y jazz: Aula Moderna",
+"https://katarinagurska.com/oferta-academica/master/"
+],
+[
+"conducting",
+"MA",
+"Máster de Dirección e Investigación Coral – MDIC Ver programa",
+"https://katarinagurska.com/oferta-academica/master/"
+],
+[
+"composition",
+"MA",
+"Máster de Composición para Medios Audiovisuales – MCAV",
+"https://katarinagurska.com/oferta-academica/master/"
+],
+[
+"music-technology",
+"MA",
+"Máster de Composición para Medios Audiovisuales – MCAV",
+"https://katarinagurska.com/oferta-academica/master/"
+],
+[
+"music-technology",
+"MA",
+"La puerta de entrada a la industria del audiovisual",
+"https://katarinagurska.com/oferta-academica/master/"
+],
+[
+"composition",
+"MA",
+"Máster en Composición Electroacústica – MCE",
+"https://katarinagurska.com/oferta-academica/master/"
+],
+[
+"conducting",
+"MA",
+"Máster de Dirección e Investigación Coral – MDIC",
+"https://katarinagurska.com/oferta-academica/master/"
+]
+],
+"E  VALENCI67": [
+[
+"music-technology",
+"BA",
+"Máster en Sonología aplicada y creación sonora",
+"https://www.csmvalencia.es/grado/"
+],
+[
+"composition",
+"BA",
+"COMPOSICIÓN",
+"https://www.csmvalencia.es/grado/"
+],
+[
+"conducting",
+"BA",
+"DIRECCIÓN",
+"https://www.csmvalencia.es/grado/"
+],
+[
+"harp",
+"BA",
+"INTERPRETACIÓN Arpa",
+"https://www.csmvalencia.es/grado/"
+],
+[
+"vocal-opera",
+"BA",
+"INTERPRETACIÓN Canto",
+"https://www.csmvalencia.es/grado/"
+],
+[
+"guitar",
+"BA",
+"INTERPRETACIÓN Guitarra",
+"https://www.csmvalencia.es/grado/"
+],
+[
+"popular-music",
+"BA",
+"INTERPRETACIÓN Instrumentos de la Música Tradicional y Popular",
+"https://www.csmvalencia.es/grado/"
+],
+[
+"folk",
+"BA",
+"INTERPRETACIÓN Instrumentos de la Música Tradicional y Popular",
+"https://www.csmvalencia.es/grado/"
+],
+[
+"jazz",
+"BA",
+"INTERPRETACIÓN Jazz",
+"https://www.csmvalencia.es/grado/"
+],
+[
+"organ",
+"BA",
+"INTERPRETACIÓN Órgano",
+"https://www.csmvalencia.es/grado/"
+],
+[
+"piano",
+"BA",
+"INTERPRETACIÓN Piano",
+"https://www.csmvalencia.es/grado/"
+],
+[
+"musicology",
+"BA",
+"MUSICOLOGÍA",
+"https://www.csmvalencia.es/grado/"
+],
+[
+"music-education",
+"BA",
+"PEDAGOGÍA",
+"https://www.csmvalencia.es/grado/"
+],
+[
+"music-technology",
+"BA",
+"SONOLOGÍA",
+"https://www.csmvalencia.es/grado/"
+],
+[
+"music-production",
+"BA",
+"PRODUCCIÓN Y GESTIÓN",
+"https://www.csmvalencia.es/grado/"
+],
+[
+"arts-management",
+"BA",
+"PRODUCCIÓN Y GESTIÓN",
+"https://www.csmvalencia.es/grado/"
+],
+[
+"piano",
+"BA",
+"Documento solicitud de colaboración con profesor de repertorio con piano",
+"https://www.csmvalencia.es/grado/"
+],
+[
+"music-production",
+"BA",
+"PRÁCTICAS ARTÍSTICAS, PEDAGÓGICAS Y DE PRODUCCIÓN MUSICAL",
+"https://www.csmvalencia.es/grado/"
+],
+[
+"music-education",
+"BA",
+"Especialidad de Pedagogía",
+"https://www.csmvalencia.es/grado/"
+],
+[
+"music-technology",
+"MA",
+"Máster en Sonología aplicada y creación sonora",
+"http://www.sonologiacsmv.com/master.html"
+]
+],
+"E  MALAGA02": [
+[
+"conducting",
+"BA",
+"Composición y Dirección",
+"https://www.conservatoriosuperiormalaga.com/pages/especialidades"
+],
+[
+"composition",
+"BA",
+"Composición y Dirección",
+"https://www.conservatoriosuperiormalaga.com/pages/especialidades"
+],
+[
+"strings",
+"BA",
+"Cuerda Frotada",
+"https://www.conservatoriosuperiormalaga.com/pages/especialidades"
+],
+[
+"strings",
+"BA",
+"Cuerda Pulsada",
+"https://www.conservatoriosuperiormalaga.com/pages/especialidades"
+],
+[
+"jazz",
+"BA",
+"Didáctica, Canto y Jazz",
+"https://www.conservatoriosuperiormalaga.com/pages/especialidades"
+],
+[
+"musicology",
+"BA",
+"Musicología",
+"https://www.conservatoriosuperiormalaga.com/pages/especialidades"
+],
+[
+"woodwind",
+"BA",
+"Viento y Percusión",
+"https://www.conservatoriosuperiormalaga.com/pages/especialidades"
+],
+[
+"brass",
+"BA",
+"Viento y Percusión",
+"https://www.conservatoriosuperiormalaga.com/pages/especialidades"
+],
+[
+"percussion",
+"BA",
+"Viento y Percusión",
+"https://www.conservatoriosuperiormalaga.com/pages/especialidades"
+],
+[
+"music-education",
+"BA",
+"Erasmus+ Incoming Teachers / Staff",
+"https://www.conservatoriosuperiormalaga.com/pages/especialidades"
+],
+[
+"music-education",
+"BA",
+"Servicio Español para la Internacionalización de la Educación (SEPIE)",
+"https://www.conservatoriosuperiormalaga.com/pages/especialidades"
+],
+[
+"folk",
+"BA",
+"Isla Norfolk EUR €",
+"https://www.conservatoriosuperiormalaga.com/pages/especialidades"
+],
+[
+"composition",
+"BA",
+"COMPOSICIÓN",
+"https://www.conservatoriosuperiormalaga.com/pages/especialidades"
+],
+[
+"conducting",
+"BA",
+"DIRECCIÓN DE ORQUESTA",
+"https://www.conservatoriosuperiormalaga.com/pages/especialidades"
+],
+[
+"vocal-opera",
+"BA",
+"CANTO",
+"https://www.conservatoriosuperiormalaga.com/pages/especialidades"
+],
+[
+"guitar",
+"BA",
+"GUITARRA",
+"https://www.conservatoriosuperiormalaga.com/pages/especialidades"
+],
+[
+"jazz",
+"BA",
+"INSTRUMENTOS DE JAZZ",
+"https://www.conservatoriosuperiormalaga.com/pages/especialidades"
+],
+[
+"piano",
+"BA",
+"PIANO",
+"https://www.conservatoriosuperiormalaga.com/pages/especialidades"
+],
+[
+"organ",
+"BA",
+"ÓRGANO",
+"https://www.conservatoriosuperiormalaga.com/pages/especialidades"
+],
+[
+"folk",
+"BA",
+"Isla Norfolk",
+"https://www.conservatoriosuperiormalaga.com/pages/especialidades"
+],
+[
+"conducting",
+"BA",
+"DIRECCIÓN",
+"https://www.conservatoriosuperiormalaga.com/pages/especialidades"
+]
+],
+"E  BADAJOZ39": [
+[
+"vocal-opera",
+"BA",
+"Departamento de canto y asignaturas teórico-prácticas",
+"https://csmbadajoz.es/?page_id=275"
+],
+[
+"composition",
+"BA",
+"Departamento de composición",
+"https://csmbadajoz.es/?page_id=275"
+],
+[
+"strings",
+"BA",
+"Departamento de cuerda",
+"https://csmbadajoz.es/?page_id=275"
+],
+[
+"woodwind",
+"BA",
+"Departamento de viento y percusión",
+"https://csmbadajoz.es/?page_id=275"
+],
+[
+"brass",
+"BA",
+"Departamento de viento y percusión",
+"https://csmbadajoz.es/?page_id=275"
+],
+[
+"percussion",
+"BA",
+"Departamento de viento y percusión",
+"https://csmbadajoz.es/?page_id=275"
+],
+[
+"vocal-opera",
+"BA",
+"Canto",
+"https://csmbadajoz.es/?page_id=275"
+],
+[
+"woodwind",
+"BA",
+"Flauta travesera / Oboe / Clarinete / Fagot",
+"https://csmbadajoz.es/?page_id=275"
+],
+[
+"guitar",
+"BA",
+"Guitarra",
+"https://csmbadajoz.es/?page_id=275"
+],
+[
+"percussion",
+"BA",
+"Percusión",
+"https://csmbadajoz.es/?page_id=275"
+],
+[
+"piano",
+"BA",
+"Piano",
+"https://csmbadajoz.es/?page_id=275"
+],
+[
+"woodwind",
+"BA",
+"Saxofón",
+"https://csmbadajoz.es/?page_id=275"
+],
+[
+"brass",
+"BA",
+"Trompeta / Trompa / Trombón / Tuba",
+"https://csmbadajoz.es/?page_id=275"
+],
+[
+"strings",
+"BA",
+"Violín / Viola / Violonchelo / Contrabajo",
+"https://csmbadajoz.es/?page_id=275"
+],
+[
+"music-technology",
+"BA",
+"Audiovisuales",
+"https://csmbadajoz.es/?page_id=275"
+],
+[
+"vocal-opera",
+"BA",
+"Canto Descarga",
+"https://csmbadajoz.es/?page_id=275"
+],
+[
+"woodwind",
+"BA",
+"Flauta travesera / Oboe / Clarinete / Fagot Descarga",
+"https://csmbadajoz.es/?page_id=275"
+],
+[
+"guitar",
+"BA",
+"Guitarra Descarga",
+"https://csmbadajoz.es/?page_id=275"
+],
+[
+"percussion",
+"BA",
+"Percusión Descarga",
+"https://csmbadajoz.es/?page_id=275"
+],
+[
+"piano",
+"BA",
+"Piano Descarga",
+"https://csmbadajoz.es/?page_id=275"
+],
+[
+"woodwind",
+"BA",
+"Saxofón Descarga",
+"https://csmbadajoz.es/?page_id=275"
+],
+[
+"brass",
+"BA",
+"Trompeta / Trompa / Trombón / Tuba Descarga",
+"https://csmbadajoz.es/?page_id=275"
+],
+[
+"strings",
+"BA",
+"Violín / Viola / Violonchelo / Contrabajo Descarga",
+"https://csmbadajoz.es/?page_id=275"
+],
+[
+"composition",
+"BA",
+"Especialidad de composición",
+"https://csmbadajoz.es/?page_id=275"
+],
+[
+"music-technology",
+"BA",
+"Audiovisuales Descarga",
+"https://csmbadajoz.es/?page_id=275"
+]
+],
+"E  MURCIA02": [
+[
+"organ",
+"BA",
+"Órganos de gobierno",
+"https://csmmurcia.com/interpretacion/"
+],
+[
+"composition",
+"BA",
+"Composición",
+"https://csmmurcia.com/interpretacion/"
+],
+[
+"conducting",
+"BA",
+"Dirección",
+"https://csmmurcia.com/interpretacion/"
+],
+[
+"musicology",
+"BA",
+"Musicología",
+"https://csmmurcia.com/interpretacion/"
+],
+[
+"music-education",
+"BA",
+"Pedagogía",
+"https://csmmurcia.com/interpretacion/"
+],
+[
+"accordion",
+"BA",
+"Acordeón",
+"https://csmmurcia.com/interpretacion/"
+],
+[
+"brass",
+"BA",
+"Bombardino (Tuba)",
+"https://csmmurcia.com/interpretacion/"
+],
+[
+"global-music",
+"BA",
+"Cante flamenco",
+"https://csmmurcia.com/interpretacion/"
+],
+[
+"vocal-opera",
+"BA",
+"Canto",
+"https://csmmurcia.com/interpretacion/"
+],
+[
+"woodwind",
+"BA",
+"Clarinete",
+"https://csmmurcia.com/interpretacion/"
+],
+[
+"strings",
+"BA",
+"Contrabajo",
+"https://csmmurcia.com/interpretacion/"
+],
+[
+"woodwind",
+"BA",
+"Fagot",
+"https://csmmurcia.com/interpretacion/"
+],
+[
+"woodwind",
+"BA",
+"Flauta de pico",
+"https://csmmurcia.com/interpretacion/"
+],
+[
+"woodwind",
+"BA",
+"Flauta travesera",
+"https://csmmurcia.com/interpretacion/"
+],
+[
+"guitar",
+"BA",
+"Guitarra",
+"https://csmmurcia.com/interpretacion/"
+],
+[
+"guitar",
+"BA",
+"Guitarra flamenca",
+"https://csmmurcia.com/interpretacion/"
+],
+[
+"woodwind",
+"BA",
+"Oboe",
+"https://csmmurcia.com/interpretacion/"
+],
+[
+"organ",
+"BA",
+"Órgano",
+"https://csmmurcia.com/interpretacion/"
+],
+[
+"percussion",
+"BA",
+"Percusión",
+"https://csmmurcia.com/interpretacion/"
+],
+[
+"piano",
+"BA",
+"Piano",
+"https://csmmurcia.com/interpretacion/"
+],
+[
+"woodwind",
+"BA",
+"Saxofón",
+"https://csmmurcia.com/interpretacion/"
+],
+[
+"brass",
+"BA",
+"Trombón",
+"https://csmmurcia.com/interpretacion/"
+],
+[
+"brass",
+"BA",
+"Trompa",
+"https://csmmurcia.com/interpretacion/"
+],
+[
+"brass",
+"BA",
+"Trompeta",
+"https://csmmurcia.com/interpretacion/"
+],
+[
+"brass",
+"BA",
+"Tuba",
+"https://csmmurcia.com/interpretacion/"
+],
+[
+"strings",
+"BA",
+"Viola",
+"https://csmmurcia.com/interpretacion/"
+],
+[
+"woodwind",
+"BA",
+"Blog Aula de Viento Madera",
+"https://csmmurcia.com/interpretacion/"
+],
+[
+"brass",
+"BA",
+"Blog Aula de Viento Madera",
+"https://csmmurcia.com/interpretacion/"
+],
+[
+"woodwind",
+"BA",
+"Blog Aula de Viento Metal",
+"https://csmmurcia.com/interpretacion/"
+],
+[
+"brass",
+"BA",
+"Blog Aula de Viento Metal",
+"https://csmmurcia.com/interpretacion/"
+],
+[
+"composition",
+"BA",
+"Composicion",
+"https://csmmurcia.com/composicion/"
+],
+[
+"conducting",
+"BA",
+"Direccion",
+"https://csmmurcia.com/direccion/"
+],
+[
+"musicology",
+"BA",
+"Musicologia",
+"https://csmmurcia.com/musicologia/"
+],
+[
+"music-education",
+"BA",
+"Pedagogia",
+"https://csmmurcia.com/pedagogia/"
+]
+],
+"E  ZARAGOZ05": [
+[
+"strings",
+"BA",
+"INSTRUMENTOS DE CUERDA",
+"https://csma.es/estudios-de-nivel-grado/"
+],
+[
+"harp",
+"BA",
+"Instrumentos Históricos, Arpa, Canto y Cuerda Pulsada",
+"https://csma.es/estudios-de-nivel-grado/"
+],
+[
+"strings",
+"BA",
+"Instrumentos Históricos, Arpa, Canto y Cuerda Pulsada",
+"https://csma.es/estudios-de-nivel-grado/"
+],
+[
+"vocal-opera",
+"BA",
+"Instrumentos Históricos, Arpa, Canto y Cuerda Pulsada",
+"https://csma.es/estudios-de-nivel-grado/"
+],
+[
+"piano",
+"BA",
+"Piano, Repertoristas y Acordeón",
+"https://csma.es/estudios-de-nivel-grado/"
+],
+[
+"accordion",
+"BA",
+"Piano, Repertoristas y Acordeón",
+"https://csma.es/estudios-de-nivel-grado/"
+],
+[
+"woodwind",
+"BA",
+"Instrumentos de Viento y Percusión",
+"https://csma.es/estudios-de-nivel-grado/"
+],
+[
+"brass",
+"BA",
+"Instrumentos de Viento y Percusión",
+"https://csma.es/estudios-de-nivel-grado/"
+],
+[
+"percussion",
+"BA",
+"Instrumentos de Viento y Percusión",
+"https://csma.es/estudios-de-nivel-grado/"
+],
+[
+"conducting",
+"BA",
+"Agrupaciones Sinfónicas y Dirección",
+"https://csma.es/estudios-de-nivel-grado/"
+],
+[
+"composition",
+"BA",
+"Proyectos instrumentales y composición",
+"https://csma.es/estudios-de-nivel-grado/"
+],
+[
+"chamber-music",
+"BA",
+"MÚSICA DE CÁMARA",
+"https://csma.es/estudios-de-nivel-grado/"
+]
+],
+"E  CASTELL13": [
+[
+"early-music",
+"MA",
+"Màster en interpretació de música antiga i investigació de patrimoni",
+"https://www.conservatorisuperiorcastello.com/master-en-ensenyaments-artistics-en-interpretacio-de-musica-antiga-i-investigacio-de-patrimoni-"
+],
+[
+"composition",
+"MA",
+"Màster en ensenyaments artístics de composició multimèdia",
+"https://www.conservatorisuperiorcastello.com/master-en-ensenyaments-artistics-de-composicio-multimedia/"
+],
+[
+"music-technology",
+"MA",
+"Màster en ensenyaments artístics de composició multimèdia",
+"https://www.conservatorisuperiorcastello.com/master-en-ensenyaments-artistics-de-composicio-multimedia/"
+],
+[
+"composition",
+"BA",
+"Grado: Composición, Pedagogía, Dirección",
+"https://www.conservatorisuperiorcastello.com/es/planes-estudio-titulo-superior/"
+],
+[
+"music-education",
+"BA",
+"Grado: Composición, Pedagogía, Dirección",
+"https://www.conservatorisuperiorcastello.com/es/planes-estudio-titulo-superior/"
+],
+[
+"conducting",
+"BA",
+"Grado: Composición, Pedagogía, Dirección",
+"https://www.conservatorisuperiorcastello.com/es/planes-estudio-titulo-superior/"
+],
+[
+"vocal-opera",
+"BA",
+"Grado – Interpretación: Canto, Instrumentos Orquesta Sinfónica, Piano, Guitarra",
+"https://www.conservatorisuperiorcastello.com/es/planes-estudio-titulo-superior/"
+],
+[
+"piano",
+"BA",
+"Grado – Interpretación: Canto, Instrumentos Orquesta Sinfónica, Piano, Guitarra",
+"https://www.conservatorisuperiorcastello.com/es/planes-estudio-titulo-superior/"
+],
+[
+"guitar",
+"BA",
+"Grado – Interpretación: Canto, Instrumentos Orquesta Sinfónica, Piano, Guitarra",
+"https://www.conservatorisuperiorcastello.com/es/planes-estudio-titulo-superior/"
+],
+[
+"strings",
+"BA",
+"Grado – Interpretación: Canto, Instrumentos Orquesta Sinfónica, Piano, Guitarra",
+"https://www.conservatorisuperiorcastello.com/es/planes-estudio-titulo-superior/"
+],
+[
+"woodwind",
+"BA",
+"Grado – Interpretación: Canto, Instrumentos Orquesta Sinfónica, Piano, Guitarra",
+"https://www.conservatorisuperiorcastello.com/es/planes-estudio-titulo-superior/"
+],
+[
+"brass",
+"BA",
+"Grado – Interpretación: Canto, Instrumentos Orquesta Sinfónica, Piano, Guitarra",
+"https://www.conservatorisuperiorcastello.com/es/planes-estudio-titulo-superior/"
+],
+[
+"percussion",
+"BA",
+"Grado – Interpretación: Canto, Instrumentos Orquesta Sinfónica, Piano, Guitarra",
+"https://www.conservatorisuperiorcastello.com/es/planes-estudio-titulo-superior/"
+],
+[
+"early-music",
+"BA",
+"Grado – Música Antigua; Interpretación: Clave",
+"https://www.conservatorisuperiorcastello.com/es/planes-estudio-titulo-superior/"
+],
+[
+"strings",
+"MA",
+"Máster en Interpretación Musical e Investigación Aplicada",
+"https://www.conservatorisuperiorcastello.com/master-interpretacio-musical-i-recerca-aplicada/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"MA",
+"Máster en Interpretación Musical e Investigación Aplicada",
+"https://www.conservatorisuperiorcastello.com/master-interpretacio-musical-i-recerca-aplicada/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"MA",
+"Máster en Interpretación Musical e Investigación Aplicada",
+"https://www.conservatorisuperiorcastello.com/master-interpretacio-musical-i-recerca-aplicada/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"MA",
+"Máster en Interpretación Musical e Investigación Aplicada",
+"https://www.conservatorisuperiorcastello.com/master-interpretacio-musical-i-recerca-aplicada/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"MA",
+"Máster en Interpretación Musical e Investigación Aplicada",
+"https://www.conservatorisuperiorcastello.com/master-interpretacio-musical-i-recerca-aplicada/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"MA",
+"Máster en Interpretación Musical e Investigación Aplicada",
+"https://www.conservatorisuperiorcastello.com/master-interpretacio-musical-i-recerca-aplicada/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+]
+],
+"E  CORDOBA04": [
+[
+"composition",
+"BA",
+"Composición",
+"https://csmcordoba.com/saludo-del-director/"
+],
+[
+"strings",
+"BA",
+"Interpretación (incl. itinerario de guitarra)",
+"https://www.csmcordoba.com/especialidad-interpretaci%C3%B3n-itinerario-de-guitarra",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"BA",
+"Interpretación (incl. itinerario de guitarra)",
+"https://www.csmcordoba.com/especialidad-interpretaci%C3%B3n-itinerario-de-guitarra",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"BA",
+"Interpretación (incl. itinerario de guitarra)",
+"https://www.csmcordoba.com/especialidad-interpretaci%C3%B3n-itinerario-de-guitarra",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"BA",
+"Interpretación (incl. itinerario de guitarra)",
+"https://www.csmcordoba.com/especialidad-interpretaci%C3%B3n-itinerario-de-guitarra",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"BA",
+"Interpretación (incl. itinerario de guitarra)",
+"https://www.csmcordoba.com/especialidad-interpretaci%C3%B3n-itinerario-de-guitarra",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"BA",
+"Interpretación (incl. itinerario de guitarra)",
+"https://www.csmcordoba.com/especialidad-interpretaci%C3%B3n-itinerario-de-guitarra",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"guitar",
+"BA",
+"Interpretación (incl. itinerario de guitarra)",
+"https://www.csmcordoba.com/especialidad-interpretaci%C3%B3n-itinerario-de-guitarra",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"global-music",
+"BA",
+"Flamenco: Cante flamenco, Guitarra flamenca, Flamencología",
+"https://csmcordoba.com/wp-content/uploads/2025/07/Guitarraflamenca2526GD.pdf"
+]
+],
+"E  SEVILLA04": [
+[
+"composition",
+"BA",
+"Composición; Dirección de coro; Musicología",
+"https://consev.es/wp-content/uploads/2015/03/folleto-puertas-abiertas-consev-2015.pdf"
+],
+[
+"conducting",
+"BA",
+"Composición; Dirección de coro; Musicología",
+"https://consev.es/wp-content/uploads/2015/03/folleto-puertas-abiertas-consev-2015.pdf"
+],
+[
+"musicology",
+"BA",
+"Composición; Dirección de coro; Musicología",
+"https://consev.es/wp-content/uploads/2015/03/folleto-puertas-abiertas-consev-2015.pdf"
+],
+[
+"vocal-opera",
+"BA",
+"Interpretación: Canto, Guitarra, Instrumentos sinfónicos, Órgano",
+"https://consev.es/wp-content/uploads/2012/06/Plan-Estudios-LOE-Consev-2012.pdf"
+],
+[
+"guitar",
+"BA",
+"Interpretación: Canto, Guitarra, Instrumentos sinfónicos, Órgano",
+"https://consev.es/wp-content/uploads/2012/06/Plan-Estudios-LOE-Consev-2012.pdf"
+],
+[
+"organ",
+"BA",
+"Interpretación: Canto, Guitarra, Instrumentos sinfónicos, Órgano",
+"https://consev.es/wp-content/uploads/2012/06/Plan-Estudios-LOE-Consev-2012.pdf"
+],
+[
+"strings",
+"BA",
+"Interpretación: Canto, Guitarra, Instrumentos sinfónicos, Órgano",
+"https://consev.es/wp-content/uploads/2012/06/Plan-Estudios-LOE-Consev-2012.pdf"
+],
+[
+"woodwind",
+"BA",
+"Interpretación: Canto, Guitarra, Instrumentos sinfónicos, Órgano",
+"https://consev.es/wp-content/uploads/2012/06/Plan-Estudios-LOE-Consev-2012.pdf"
+],
+[
+"brass",
+"BA",
+"Interpretación: Canto, Guitarra, Instrumentos sinfónicos, Órgano",
+"https://consev.es/wp-content/uploads/2012/06/Plan-Estudios-LOE-Consev-2012.pdf"
+],
+[
+"percussion",
+"BA",
+"Interpretación: Canto, Guitarra, Instrumentos sinfónicos, Órgano",
+"https://consev.es/wp-content/uploads/2012/06/Plan-Estudios-LOE-Consev-2012.pdf"
+],
+[
+"early-music",
+"BA",
+"Interpretación: Instrumentos de la música antigua",
+"https://consev.es/wp-content/uploads/2012/06/Plan-Estudios-LOE-Consev-2012.pdf"
+]
+],
+"E  OVIEDO03": [
+[
+"accordion",
+"BA",
+"Interpretación: Acordeón, Canto, Clave-Órgano, Cuerda de arco-Viento-Percusión, Guitarra, Piano",
+"http://www.consmupa.es/index.php/planes-de-estudios"
+],
+[
+"vocal-opera",
+"BA",
+"Interpretación: Acordeón, Canto, Clave-Órgano, Cuerda de arco-Viento-Percusión, Guitarra, Piano",
+"http://www.consmupa.es/index.php/planes-de-estudios"
+],
+[
+"organ",
+"BA",
+"Interpretación: Acordeón, Canto, Clave-Órgano, Cuerda de arco-Viento-Percusión, Guitarra, Piano",
+"http://www.consmupa.es/index.php/planes-de-estudios"
+],
+[
+"strings",
+"BA",
+"Interpretación: Acordeón, Canto, Clave-Órgano, Cuerda de arco-Viento-Percusión, Guitarra, Piano",
+"http://www.consmupa.es/index.php/planes-de-estudios"
+],
+[
+"woodwind",
+"BA",
+"Interpretación: Acordeón, Canto, Clave-Órgano, Cuerda de arco-Viento-Percusión, Guitarra, Piano",
+"http://www.consmupa.es/index.php/planes-de-estudios"
+],
+[
+"brass",
+"BA",
+"Interpretación: Acordeón, Canto, Clave-Órgano, Cuerda de arco-Viento-Percusión, Guitarra, Piano",
+"http://www.consmupa.es/index.php/planes-de-estudios"
+],
+[
+"percussion",
+"BA",
+"Interpretación: Acordeón, Canto, Clave-Órgano, Cuerda de arco-Viento-Percusión, Guitarra, Piano",
+"http://www.consmupa.es/index.php/planes-de-estudios"
+],
+[
+"guitar",
+"BA",
+"Interpretación: Acordeón, Canto, Clave-Órgano, Cuerda de arco-Viento-Percusión, Guitarra, Piano",
+"http://www.consmupa.es/index.php/planes-de-estudios"
+],
+[
+"piano",
+"BA",
+"Interpretación: Acordeón, Canto, Clave-Órgano, Cuerda de arco-Viento-Percusión, Guitarra, Piano",
+"http://www.consmupa.es/index.php/planes-de-estudios"
+],
+[
+"early-music",
+"BA",
+"Interpretación: Clave",
+"http://www.consmupa.es/index.php/planes-de-estudios"
+],
+[
+"folk",
+"BA",
+"Interpretación: Instrumentos de la música tradicional y popular de Asturias (gaita)",
+"http://www.consmupa.es/index.php/planes-de-estudios"
+],
+[
+"composition",
+"BA",
+"Composición; Pedagogía; Dirección",
+"http://www.consmupa.es/index.php/planes-de-estudios"
+],
+[
+"music-education",
+"BA",
+"Composición; Pedagogía; Dirección",
+"http://www.consmupa.es/index.php/planes-de-estudios"
+],
+[
+"conducting",
+"BA",
+"Composición; Pedagogía; Dirección",
+"http://www.consmupa.es/index.php/planes-de-estudios"
+]
+],
+"E  JAEN07": [
+[
+"global-music",
+"BA",
+"Flamenco: Guitarra flamenca, Cante flamenco",
+"https://www.csmjaen.es/es/flamenco"
+],
+[
+"guitar",
+"BA",
+"Interpretación: Guitarra, Canto",
+"https://www.csmjaen.es/es/planes-de-estudios"
+],
+[
+"vocal-opera",
+"BA",
+"Interpretación: Guitarra, Canto",
+"https://www.csmjaen.es/es/planes-de-estudios"
+],
+[
+"arts-management",
+"BA",
+"Producción y Gestión de Música y Artes Escénicas",
+"https://www.csmjaen.es/es/planes-de-estudios"
+]
+],
+"E  LA-CORU05": [
+[
+"accordion",
+"BA",
+"Interpretación: acordeón, arpa, canto, viento madera, cuerda, guitarra, percusión, piano, viento metal",
+"https://csmcoruna.com/en/especialidades/"
+],
+[
+"harp",
+"BA",
+"Interpretación: acordeón, arpa, canto, viento madera, cuerda, guitarra, percusión, piano, viento metal",
+"https://csmcoruna.com/en/especialidades/"
+],
+[
+"vocal-opera",
+"BA",
+"Interpretación: acordeón, arpa, canto, viento madera, cuerda, guitarra, percusión, piano, viento metal",
+"https://csmcoruna.com/en/especialidades/"
+],
+[
+"woodwind",
+"BA",
+"Interpretación: acordeón, arpa, canto, viento madera, cuerda, guitarra, percusión, piano, viento metal",
+"https://csmcoruna.com/en/especialidades/"
+],
+[
+"strings",
+"BA",
+"Interpretación: acordeón, arpa, canto, viento madera, cuerda, guitarra, percusión, piano, viento metal",
+"https://csmcoruna.com/en/especialidades/"
+],
+[
+"guitar",
+"BA",
+"Interpretación: acordeón, arpa, canto, viento madera, cuerda, guitarra, percusión, piano, viento metal",
+"https://csmcoruna.com/en/especialidades/"
+],
+[
+"percussion",
+"BA",
+"Interpretación: acordeón, arpa, canto, viento madera, cuerda, guitarra, percusión, piano, viento metal",
+"https://csmcoruna.com/en/especialidades/"
+],
+[
+"piano",
+"BA",
+"Interpretación: acordeón, arpa, canto, viento madera, cuerda, guitarra, percusión, piano, viento metal",
+"https://csmcoruna.com/en/especialidades/"
+],
+[
+"brass",
+"BA",
+"Interpretación: acordeón, arpa, canto, viento madera, cuerda, guitarra, percusión, piano, viento metal",
+"https://csmcoruna.com/en/especialidades/"
+],
+[
+"jazz",
+"BA",
+"Interpretación – Jazz; Composición; Pedagogía; Dirección",
+"https://csmcoruna.com/en/especialidades/"
+],
+[
+"composition",
+"BA",
+"Interpretación – Jazz; Composición; Pedagogía; Dirección",
+"https://csmcoruna.com/en/especialidades/"
+],
+[
+"music-education",
+"BA",
+"Interpretación – Jazz; Composición; Pedagogía; Dirección",
+"https://csmcoruna.com/en/especialidades/"
+],
+[
+"conducting",
+"BA",
+"Interpretación – Jazz; Composición; Pedagogía; Dirección",
+"https://csmcoruna.com/en/especialidades/"
+]
+],
+"E  LAS-PAL18": [
+[
+"strings",
+"BA",
+"Composición, Interpretación, Musicología, Pedagogía",
+"http://www.consmucan.es/erasmus/erasmus-estudiantes-incoming/bachelor-of-music-in-musicology",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"BA",
+"Composición, Interpretación, Musicología, Pedagogía",
+"http://www.consmucan.es/erasmus/erasmus-estudiantes-incoming/bachelor-of-music-in-musicology",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"BA",
+"Composición, Interpretación, Musicología, Pedagogía",
+"http://www.consmucan.es/erasmus/erasmus-estudiantes-incoming/bachelor-of-music-in-musicology",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"BA",
+"Composición, Interpretación, Musicología, Pedagogía",
+"http://www.consmucan.es/erasmus/erasmus-estudiantes-incoming/bachelor-of-music-in-musicology",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"BA",
+"Composición, Interpretación, Musicología, Pedagogía",
+"http://www.consmucan.es/erasmus/erasmus-estudiantes-incoming/bachelor-of-music-in-musicology",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"BA",
+"Composición, Interpretación, Musicología, Pedagogía",
+"http://www.consmucan.es/erasmus/erasmus-estudiantes-incoming/bachelor-of-music-in-musicology",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"composition",
+"BA",
+"Composición, Interpretación, Musicología, Pedagogía",
+"http://www.consmucan.es/erasmus/erasmus-estudiantes-incoming/bachelor-of-music-in-musicology",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"musicology",
+"BA",
+"Composición, Interpretación, Musicología, Pedagogía",
+"http://www.consmucan.es/erasmus/erasmus-estudiantes-incoming/bachelor-of-music-in-musicology",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"music-education",
+"BA",
+"Composición, Interpretación, Musicología, Pedagogía",
+"http://www.consmucan.es/erasmus/erasmus-estudiantes-incoming/bachelor-of-music-in-musicology",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+]
+],
+"E  SALAMAN03": [
+[
+"strings",
+"BA",
+"Título Superior: Interpretación, Composición, Musicología y Etnomusicología",
+"https://coscyl.com/en/planes-de-estudios/superior-infogeneral/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"BA",
+"Título Superior: Interpretación, Composición, Musicología y Etnomusicología",
+"https://coscyl.com/en/planes-de-estudios/superior-infogeneral/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"BA",
+"Título Superior: Interpretación, Composición, Musicología y Etnomusicología",
+"https://coscyl.com/en/planes-de-estudios/superior-infogeneral/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"BA",
+"Título Superior: Interpretación, Composición, Musicología y Etnomusicología",
+"https://coscyl.com/en/planes-de-estudios/superior-infogeneral/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"BA",
+"Título Superior: Interpretación, Composición, Musicología y Etnomusicología",
+"https://coscyl.com/en/planes-de-estudios/superior-infogeneral/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"BA",
+"Título Superior: Interpretación, Composición, Musicología y Etnomusicología",
+"https://coscyl.com/en/planes-de-estudios/superior-infogeneral/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"composition",
+"BA",
+"Título Superior: Interpretación, Composición, Musicología y Etnomusicología",
+"https://coscyl.com/en/planes-de-estudios/superior-infogeneral/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"musicology",
+"BA",
+"Título Superior: Interpretación, Composición, Musicología y Etnomusicología",
+"https://coscyl.com/en/planes-de-estudios/superior-infogeneral/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"folk",
+"BA",
+"Título Superior: Interpretación, Composición, Musicología y Etnomusicología",
+"https://coscyl.com/en/planes-de-estudios/superior-infogeneral/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"strings",
+"MA",
+"Máster en Enseñanzas Artísticas de Interpretación Musical (Solista, Música de Cámara, Orquesta)",
+"https://coscyl.com/en/master/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"MA",
+"Máster en Enseñanzas Artísticas de Interpretación Musical (Solista, Música de Cámara, Orquesta)",
+"https://coscyl.com/en/master/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"MA",
+"Máster en Enseñanzas Artísticas de Interpretación Musical (Solista, Música de Cámara, Orquesta)",
+"https://coscyl.com/en/master/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"MA",
+"Máster en Enseñanzas Artísticas de Interpretación Musical (Solista, Música de Cámara, Orquesta)",
+"https://coscyl.com/en/master/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"MA",
+"Máster en Enseñanzas Artísticas de Interpretación Musical (Solista, Música de Cámara, Orquesta)",
+"https://coscyl.com/en/master/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"MA",
+"Máster en Enseñanzas Artísticas de Interpretación Musical (Solista, Música de Cámara, Orquesta)",
+"https://coscyl.com/en/master/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"chamber-music",
+"MA",
+"Máster en Enseñanzas Artísticas de Interpretación Musical (Solista, Música de Cámara, Orquesta)",
+"https://coscyl.com/en/master/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+]
+],
+"E  ALBACET19": [
+[
+"woodwind",
+"BA",
+"Interpretación (clarinete … violonchelo); Dirección de banda; Composición",
+"https://csmclm.com/jornada-de-puertas-abiertas/"
+],
+[
+"brass",
+"BA",
+"Interpretación (clarinete … violonchelo); Dirección de banda; Composición",
+"https://csmclm.com/jornada-de-puertas-abiertas/"
+],
+[
+"strings",
+"BA",
+"Interpretación (clarinete … violonchelo); Dirección de banda; Composición",
+"https://csmclm.com/jornada-de-puertas-abiertas/"
+],
+[
+"guitar",
+"BA",
+"Interpretación (clarinete … violonchelo); Dirección de banda; Composición",
+"https://csmclm.com/jornada-de-puertas-abiertas/"
+],
+[
+"percussion",
+"BA",
+"Interpretación (clarinete … violonchelo); Dirección de banda; Composición",
+"https://csmclm.com/jornada-de-puertas-abiertas/"
+],
+[
+"piano",
+"BA",
+"Interpretación (clarinete … violonchelo); Dirección de banda; Composición",
+"https://csmclm.com/jornada-de-puertas-abiertas/"
+],
+[
+"composition",
+"BA",
+"Interpretación (clarinete … violonchelo); Dirección de banda; Composición",
+"https://csmclm.com/jornada-de-puertas-abiertas/"
+],
+[
+"conducting",
+"BA",
+"Interpretación (clarinete … violonchelo); Dirección de banda; Composición",
+"https://csmclm.com/jornada-de-puertas-abiertas/"
+]
+],
+"E  PAMPLON17": [
+[
+"strings",
+"BA",
+"Interpretación (clásica y jazz), Composición, Pedagogía (clásico y jazz), Musicología",
+"https://csmn.educacion.navarra.es/web1/informacion/prueba-de-acceso/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"BA",
+"Interpretación (clásica y jazz), Composición, Pedagogía (clásico y jazz), Musicología",
+"https://csmn.educacion.navarra.es/web1/informacion/prueba-de-acceso/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"BA",
+"Interpretación (clásica y jazz), Composición, Pedagogía (clásico y jazz), Musicología",
+"https://csmn.educacion.navarra.es/web1/informacion/prueba-de-acceso/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"BA",
+"Interpretación (clásica y jazz), Composición, Pedagogía (clásico y jazz), Musicología",
+"https://csmn.educacion.navarra.es/web1/informacion/prueba-de-acceso/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"BA",
+"Interpretación (clásica y jazz), Composición, Pedagogía (clásico y jazz), Musicología",
+"https://csmn.educacion.navarra.es/web1/informacion/prueba-de-acceso/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"BA",
+"Interpretación (clásica y jazz), Composición, Pedagogía (clásico y jazz), Musicología",
+"https://csmn.educacion.navarra.es/web1/informacion/prueba-de-acceso/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"jazz",
+"BA",
+"Interpretación (clásica y jazz), Composición, Pedagogía (clásico y jazz), Musicología",
+"https://csmn.educacion.navarra.es/web1/informacion/prueba-de-acceso/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"composition",
+"BA",
+"Interpretación (clásica y jazz), Composición, Pedagogía (clásico y jazz), Musicología",
+"https://csmn.educacion.navarra.es/web1/informacion/prueba-de-acceso/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"music-education",
+"BA",
+"Interpretación (clásica y jazz), Composición, Pedagogía (clásico y jazz), Musicología",
+"https://csmn.educacion.navarra.es/web1/informacion/prueba-de-acceso/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"musicology",
+"BA",
+"Interpretación (clásica y jazz), Composición, Pedagogía (clásico y jazz), Musicología",
+"https://csmn.educacion.navarra.es/web1/informacion/prueba-de-acceso/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+]
+],
+"E  VIGO03": [
+[
+"vocal-opera",
+"BA",
+"Canto, Composición, Corda frotada, Guitarra, Instrumentos da música tradicional e popular, Musicoloxía, Pedagoxía, Percusión, Piano",
+"https://www.conservatoriosuperiorvigo.com/estudios/"
+],
+[
+"composition",
+"BA",
+"Canto, Composición, Corda frotada, Guitarra, Instrumentos da música tradicional e popular, Musicoloxía, Pedagoxía, Percusión, Piano",
+"https://www.conservatoriosuperiorvigo.com/estudios/"
+],
+[
+"strings",
+"BA",
+"Canto, Composición, Corda frotada, Guitarra, Instrumentos da música tradicional e popular, Musicoloxía, Pedagoxía, Percusión, Piano",
+"https://www.conservatoriosuperiorvigo.com/estudios/"
+],
+[
+"guitar",
+"BA",
+"Canto, Composición, Corda frotada, Guitarra, Instrumentos da música tradicional e popular, Musicoloxía, Pedagoxía, Percusión, Piano",
+"https://www.conservatoriosuperiorvigo.com/estudios/"
+],
+[
+"folk",
+"BA",
+"Canto, Composición, Corda frotada, Guitarra, Instrumentos da música tradicional e popular, Musicoloxía, Pedagoxía, Percusión, Piano",
+"https://www.conservatoriosuperiorvigo.com/estudios/"
+],
+[
+"musicology",
+"BA",
+"Canto, Composición, Corda frotada, Guitarra, Instrumentos da música tradicional e popular, Musicoloxía, Pedagoxía, Percusión, Piano",
+"https://www.conservatoriosuperiorvigo.com/estudios/"
+],
+[
+"music-education",
+"BA",
+"Canto, Composición, Corda frotada, Guitarra, Instrumentos da música tradicional e popular, Musicoloxía, Pedagoxía, Percusión, Piano",
+"https://www.conservatoriosuperiorvigo.com/estudios/"
+],
+[
+"percussion",
+"BA",
+"Canto, Composición, Corda frotada, Guitarra, Instrumentos da música tradicional e popular, Musicoloxía, Pedagoxía, Percusión, Piano",
+"https://www.conservatoriosuperiorvigo.com/estudios/"
+],
+[
+"piano",
+"BA",
+"Canto, Composición, Corda frotada, Guitarra, Instrumentos da música tradicional e popular, Musicoloxía, Pedagoxía, Percusión, Piano",
+"https://www.conservatoriosuperiorvigo.com/estudios/"
+]
+],
+"E  MADRID222": [
+[
+"jazz",
+"BA",
+"Grado en Interpretación de Músicas Actuales y Jazz",
+"https://musicacreativa.com/centro-superior/"
+],
+[
+"popular-music",
+"BA",
+"Grado en Interpretación de Músicas Actuales y Jazz",
+"https://musicacreativa.com/centro-superior/"
+],
+[
+"composition",
+"BA",
+"Grado en Composición para Medios Audiovisuales",
+"https://musicacreativa.com/centro-superior/"
+],
+[
+"global-music",
+"MA",
+"Máster en Interpretación de Flamenco; Máster en Folklore de la Península Ibérica",
+"https://musicacreativa.com/centro-superior/"
+],
+[
+"folk",
+"MA",
+"Máster en Interpretación de Flamenco; Máster en Folklore de la Península Ibérica",
+"https://musicacreativa.com/centro-superior/"
+]
+],
+"E  SANTAND38": [
+[
+"vocal-opera",
+"BA",
+"Grado en Enseñanzas Artísticas Superiores de Música; Máster en Interpretación Musical (cátedras: canto, clarinete, contrabajo, fagot, flauta, oboe, piano, trompa, trompeta, viola, violín, violonchelo)",
+"https://www.escuelasuperiordemusicareinasofia.es/catedras-y-profesorado/"
+],
+[
+"vocal-opera",
+"MA",
+"Grado en Enseñanzas Artísticas Superiores de Música; Máster en Interpretación Musical (cátedras: canto, clarinete, contrabajo, fagot, flauta, oboe, piano, trompa, trompeta, viola, violín, violonchelo)",
+"https://www.escuelasuperiordemusicareinasofia.es/catedras-y-profesorado/"
+],
+[
+"woodwind",
+"BA",
+"Grado en Enseñanzas Artísticas Superiores de Música; Máster en Interpretación Musical (cátedras: canto, clarinete, contrabajo, fagot, flauta, oboe, piano, trompa, trompeta, viola, violín, violonchelo)",
+"https://www.escuelasuperiordemusicareinasofia.es/catedras-y-profesorado/"
+],
+[
+"woodwind",
+"MA",
+"Grado en Enseñanzas Artísticas Superiores de Música; Máster en Interpretación Musical (cátedras: canto, clarinete, contrabajo, fagot, flauta, oboe, piano, trompa, trompeta, viola, violín, violonchelo)",
+"https://www.escuelasuperiordemusicareinasofia.es/catedras-y-profesorado/"
+],
+[
+"brass",
+"BA",
+"Grado en Enseñanzas Artísticas Superiores de Música; Máster en Interpretación Musical (cátedras: canto, clarinete, contrabajo, fagot, flauta, oboe, piano, trompa, trompeta, viola, violín, violonchelo)",
+"https://www.escuelasuperiordemusicareinasofia.es/catedras-y-profesorado/"
+],
+[
+"brass",
+"MA",
+"Grado en Enseñanzas Artísticas Superiores de Música; Máster en Interpretación Musical (cátedras: canto, clarinete, contrabajo, fagot, flauta, oboe, piano, trompa, trompeta, viola, violín, violonchelo)",
+"https://www.escuelasuperiordemusicareinasofia.es/catedras-y-profesorado/"
+],
+[
+"strings",
+"BA",
+"Grado en Enseñanzas Artísticas Superiores de Música; Máster en Interpretación Musical (cátedras: canto, clarinete, contrabajo, fagot, flauta, oboe, piano, trompa, trompeta, viola, violín, violonchelo)",
+"https://www.escuelasuperiordemusicareinasofia.es/catedras-y-profesorado/"
+],
+[
+"strings",
+"MA",
+"Grado en Enseñanzas Artísticas Superiores de Música; Máster en Interpretación Musical (cátedras: canto, clarinete, contrabajo, fagot, flauta, oboe, piano, trompa, trompeta, viola, violín, violonchelo)",
+"https://www.escuelasuperiordemusicareinasofia.es/catedras-y-profesorado/"
+],
+[
+"piano",
+"BA",
+"Grado en Enseñanzas Artísticas Superiores de Música; Máster en Interpretación Musical (cátedras: canto, clarinete, contrabajo, fagot, flauta, oboe, piano, trompa, trompeta, viola, violín, violonchelo)",
+"https://www.escuelasuperiordemusicareinasofia.es/catedras-y-profesorado/"
+],
+[
+"piano",
+"MA",
+"Grado en Enseñanzas Artísticas Superiores de Música; Máster en Interpretación Musical (cátedras: canto, clarinete, contrabajo, fagot, flauta, oboe, piano, trompa, trompeta, viola, violín, violonchelo)",
+"https://www.escuelasuperiordemusicareinasofia.es/catedras-y-profesorado/"
+],
+[
+"composition",
+null,
+"Diploma en Composición; Diploma de Postgrado en Dirección de Orquesta (títulos propios)",
+"https://www.escuelasuperiordemusicareinasofia.es/plan-estudio/",
+"School's own diplomas, not official degrees"
+],
+[
+"conducting",
+null,
+"Diploma en Composición; Diploma de Postgrado en Dirección de Orquesta (títulos propios)",
+"https://www.escuelasuperiordemusicareinasofia.es/plan-estudio/",
+"School's own diplomas, not official degrees"
+]
+],
+"E  BARCELO137": [
+[
+"jazz",
+"BA",
+"Grau: Interpretació de jazz i música moderna (incl. veu-songwriting)",
+"https://tallerdemusics.com/ca/superior/"
+],
+[
+"popular-music",
+"BA",
+"Grau: Interpretació de jazz i música moderna (incl. veu-songwriting)",
+"https://tallerdemusics.com/ca/superior/"
+],
+[
+"global-music",
+"BA",
+"Grau: Interpretació de flamenc (cante, guitarra)",
+"https://tallerdemusics.com/ca/superior/"
+],
+[
+"composition",
+"BA",
+"Grau: Composició",
+"https://tallerdemusics.com/ca/superior/"
+],
+[
+"music-education",
+"MA",
+"Màster oficial en Pedagogia musical",
+"https://tallerdemusics.com/ca/superior/"
+]
+],
+"E  BARCELO30": [
+[
+"strings",
+"BA",
+"Grau / Màster: Interpretació en música clàssica i contemporània",
+"https://www.conservatoriliceu.es/superior/titol-superior-musica/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"strings",
+"MA",
+"Grau / Màster: Interpretació en música clàssica i contemporània",
+"https://www.conservatoriliceu.es/superior/titol-superior-musica/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"BA",
+"Grau / Màster: Interpretació en música clàssica i contemporània",
+"https://www.conservatoriliceu.es/superior/titol-superior-musica/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"MA",
+"Grau / Màster: Interpretació en música clàssica i contemporània",
+"https://www.conservatoriliceu.es/superior/titol-superior-musica/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"BA",
+"Grau / Màster: Interpretació en música clàssica i contemporània",
+"https://www.conservatoriliceu.es/superior/titol-superior-musica/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"MA",
+"Grau / Màster: Interpretació en música clàssica i contemporània",
+"https://www.conservatoriliceu.es/superior/titol-superior-musica/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"BA",
+"Grau / Màster: Interpretació en música clàssica i contemporània",
+"https://www.conservatoriliceu.es/superior/titol-superior-musica/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"MA",
+"Grau / Màster: Interpretació en música clàssica i contemporània",
+"https://www.conservatoriliceu.es/superior/titol-superior-musica/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"BA",
+"Grau / Màster: Interpretació en música clàssica i contemporània",
+"https://www.conservatoriliceu.es/superior/titol-superior-musica/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"MA",
+"Grau / Màster: Interpretació en música clàssica i contemporània",
+"https://www.conservatoriliceu.es/superior/titol-superior-musica/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"BA",
+"Grau / Màster: Interpretació en música clàssica i contemporània",
+"https://www.conservatoriliceu.es/superior/titol-superior-musica/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"MA",
+"Grau / Màster: Interpretació en música clàssica i contemporània",
+"https://www.conservatoriliceu.es/superior/titol-superior-musica/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"guitar",
+"BA",
+"Grau / Màster: Interpretació en música clàssica i contemporània",
+"https://www.conservatoriliceu.es/superior/titol-superior-musica/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"guitar",
+"MA",
+"Grau / Màster: Interpretació en música clàssica i contemporània",
+"https://www.conservatoriliceu.es/superior/titol-superior-musica/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"jazz",
+"BA",
+"Grau / Màster: Interpretació en jazz i música moderna",
+"https://www.conservatoriliceu.es/superior/masters/jazz-musica-moderna/"
+],
+[
+"jazz",
+"MA",
+"Grau / Màster: Interpretació en jazz i música moderna",
+"https://www.conservatoriliceu.es/superior/masters/jazz-musica-moderna/"
+],
+[
+"popular-music",
+"BA",
+"Grau / Màster: Interpretació en jazz i música moderna",
+"https://www.conservatoriliceu.es/superior/masters/jazz-musica-moderna/"
+],
+[
+"popular-music",
+"MA",
+"Grau / Màster: Interpretació en jazz i música moderna",
+"https://www.conservatoriliceu.es/superior/masters/jazz-musica-moderna/"
+],
+[
+"global-music",
+"BA",
+"Grau: Interpretació en guitarra flamenca",
+"https://www.conservatoriliceu.es/superior/titol-superior-musica/"
+],
+[
+"composition",
+"BA",
+"Grau: Composició; Pedagogia",
+"https://www.conservatoriliceu.es/superior/titol-superior-musica/"
+],
+[
+"music-education",
+"BA",
+"Grau: Composició; Pedagogia",
+"https://www.conservatoriliceu.es/superior/titol-superior-musica/"
+],
+[
+"chamber-music",
+"MA",
+"Màsters: Música de cambra; Composició aplicada als mitjans audiovisuals i escènics; Òpera",
+"https://www.conservatoriliceu.es/superior/masters/"
+],
+[
+"composition",
+"MA",
+"Màsters: Música de cambra; Composició aplicada als mitjans audiovisuals i escènics; Òpera",
+"https://www.conservatoriliceu.es/superior/masters/"
+],
+[
+"vocal-opera",
+"MA",
+"Màsters: Música de cambra; Composició aplicada als mitjans audiovisuals i escènics; Òpera",
+"https://www.conservatoriliceu.es/superior/masters/"
+]
+],
+"E  PALMA27": [
+[
+"strings",
+"BA",
+"Interpretació clàssica",
+"https://conservatorisuperior.com/interpretacio-classica/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"BA",
+"Interpretació clàssica",
+"https://conservatorisuperior.com/interpretacio-classica/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"BA",
+"Interpretació clàssica",
+"https://conservatorisuperior.com/interpretacio-classica/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"BA",
+"Interpretació clàssica",
+"https://conservatorisuperior.com/interpretacio-classica/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"BA",
+"Interpretació clàssica",
+"https://conservatorisuperior.com/interpretacio-classica/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"BA",
+"Interpretació clàssica",
+"https://conservatorisuperior.com/interpretacio-classica/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"jazz",
+"BA",
+"Interpretació jazz",
+"https://conservatorisuperior.com/interpretacio-jazz/"
+],
+[
+"composition",
+"BA",
+"Composició; Pedagogia; Musicologia",
+"https://conservatorisuperior.com/pedagogia/"
+],
+[
+"music-education",
+"BA",
+"Composició; Pedagogia; Musicologia",
+"https://conservatorisuperior.com/pedagogia/"
+],
+[
+"musicology",
+"BA",
+"Composició; Pedagogia; Musicologia",
+"https://conservatorisuperior.com/pedagogia/"
+]
+],
+"E  SAN-SEB01": [
+[
+"accordion",
+"BA",
+"Interpretación (acordeón … txistu …)",
+"https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en"
+],
+[
+"harp",
+"BA",
+"Interpretación (acordeón … txistu …)",
+"https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en"
+],
+[
+"vocal-opera",
+"BA",
+"Interpretación (acordeón … txistu …)",
+"https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en"
+],
+[
+"woodwind",
+"BA",
+"Interpretación (acordeón … txistu …)",
+"https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en"
+],
+[
+"strings",
+"BA",
+"Interpretación (acordeón … txistu …)",
+"https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en"
+],
+[
+"guitar",
+"BA",
+"Interpretación (acordeón … txistu …)",
+"https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en"
+],
+[
+"organ",
+"BA",
+"Interpretación (acordeón … txistu …)",
+"https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en"
+],
+[
+"percussion",
+"BA",
+"Interpretación (acordeón … txistu …)",
+"https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en"
+],
+[
+"piano",
+"BA",
+"Interpretación (acordeón … txistu …)",
+"https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en"
+],
+[
+"brass",
+"BA",
+"Interpretación (acordeón … txistu …)",
+"https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en"
+],
+[
+"folk",
+"BA",
+"Interpretación (acordeón … txistu …)",
+"https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en"
+],
+[
+"jazz",
+"BA",
+"Interpretación Jazz; Máster de Interpretación-Jazz",
+"https://musikene.eus/masters/?lang=en"
+],
+[
+"jazz",
+"MA",
+"Interpretación Jazz; Máster de Interpretación-Jazz",
+"https://musikene.eus/masters/?lang=en"
+],
+[
+"composition",
+"BA",
+"Composición; Pedagogía; Dirección (coro, orquesta)",
+"https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en"
+],
+[
+"music-education",
+"BA",
+"Composición; Pedagogía; Dirección (coro, orquesta)",
+"https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en"
+],
+[
+"conducting",
+"BA",
+"Composición; Pedagogía; Dirección (coro, orquesta)",
+"https://musikene.eus/musikene-abre-el-plazo-de-inscripcion-a-grado-para-el-curso-2026-2027/?lang=en"
+],
+[
+"strings",
+"MA",
+"Máster de Interpretación Musical; Máster de Estudios Orquestales",
+"https://musikene.eus/masters/masters-in-music-performance/?lang=en",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"MA",
+"Máster de Interpretación Musical; Máster de Estudios Orquestales",
+"https://musikene.eus/masters/masters-in-music-performance/?lang=en",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"MA",
+"Máster de Interpretación Musical; Máster de Estudios Orquestales",
+"https://musikene.eus/masters/masters-in-music-performance/?lang=en",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"MA",
+"Máster de Interpretación Musical; Máster de Estudios Orquestales",
+"https://musikene.eus/masters/masters-in-music-performance/?lang=en",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"MA",
+"Máster de Interpretación Musical; Máster de Estudios Orquestales",
+"https://musikene.eus/masters/masters-in-music-performance/?lang=en",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"MA",
+"Máster de Interpretación Musical; Máster de Estudios Orquestales",
+"https://musikene.eus/masters/masters-in-music-performance/?lang=en",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"arts-management",
+"MA",
+"Máster en Mediación, Gestión y Difusión Musical; Máster de Creación de la Música Contemporánea",
+"https://musikene.eus/masters/?lang=en"
+],
+[
+"composition",
+"MA",
+"Máster en Mediación, Gestión y Difusión Musical; Máster de Creación de la Música Contemporánea",
+"https://musikene.eus/masters/?lang=en"
+]
+],
+"E  MADRID27": [
+[
+"strings",
+"BA",
+"Interpretación – A. Instrumentos de orquesta y percusión",
+"https://rcsmm.eu/interpretacion"
+],
+[
+"woodwind",
+"BA",
+"Interpretación – A. Instrumentos de orquesta y percusión",
+"https://rcsmm.eu/interpretacion"
+],
+[
+"brass",
+"BA",
+"Interpretación – A. Instrumentos de orquesta y percusión",
+"https://rcsmm.eu/interpretacion"
+],
+[
+"percussion",
+"BA",
+"Interpretación – A. Instrumentos de orquesta y percusión",
+"https://rcsmm.eu/interpretacion"
+],
+[
+"harp",
+"BA",
+"Interpretación – A. Instrumentos de orquesta y percusión",
+"https://rcsmm.eu/interpretacion"
+],
+[
+"accordion",
+"BA",
+"Interpretación – B. Instrumentos polifónicos no orquestales",
+"https://rcsmm.eu/interpretacion"
+],
+[
+"guitar",
+"BA",
+"Interpretación – B. Instrumentos polifónicos no orquestales",
+"https://rcsmm.eu/interpretacion"
+],
+[
+"piano",
+"BA",
+"Interpretación – B. Instrumentos polifónicos no orquestales",
+"https://rcsmm.eu/interpretacion"
+],
+[
+"early-music",
+"BA",
+"Interpretación – C. Música antigua",
+"https://rcsmm.eu/interpretacion"
+],
+[
+"composition",
+"BA",
+"Composición",
+"https://rcsmm.eu/composicion"
+],
+[
+"conducting",
+"BA",
+"Dirección",
+"https://rcsmm.eu/direccion"
+],
+[
+"musicology",
+"BA",
+"Musicología",
+"https://rcsmm.eu/musicologia"
+],
+[
+"music-education",
+"BA",
+"Pedagogía",
+"https://rcsmm.eu/pedagogia"
+],
+[
+"arts-management",
+"BA",
+"Producción y Gestión",
+"https://rcsmm.eu/produccion-gestion"
+],
+[
+"music-technology",
+"BA",
+"Sonología",
+"https://rcsmm.eu/sonologia"
+],
+[
+"piano",
+"MA",
+"Máster en Pianista Acompañante y Repertorista",
+"https://rcsmm.eu/master/masterrepertorista/?m=34&s=155"
+],
+[
+"strings",
+"MA",
+"Máster en Interpretación e Investigación Performativa de Música Española",
+"https://rcsmm.eu/master-ensenanzas-artisticas-interpretacion-e-investigacion-performativa-musica-espanola",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"MA",
+"Máster en Interpretación e Investigación Performativa de Música Española",
+"https://rcsmm.eu/master-ensenanzas-artisticas-interpretacion-e-investigacion-performativa-musica-espanola",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"MA",
+"Máster en Interpretación e Investigación Performativa de Música Española",
+"https://rcsmm.eu/master-ensenanzas-artisticas-interpretacion-e-investigacion-performativa-musica-espanola",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"MA",
+"Máster en Interpretación e Investigación Performativa de Música Española",
+"https://rcsmm.eu/master-ensenanzas-artisticas-interpretacion-e-investigacion-performativa-musica-espanola",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"MA",
+"Máster en Interpretación e Investigación Performativa de Música Española",
+"https://rcsmm.eu/master-ensenanzas-artisticas-interpretacion-e-investigacion-performativa-musica-espanola",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"MA",
+"Máster en Interpretación e Investigación Performativa de Música Española",
+"https://rcsmm.eu/master-ensenanzas-artisticas-interpretacion-e-investigacion-performativa-musica-espanola",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+]
+],
+"E  GRANADA04": [
+[
+"strings",
+"BA",
+"Interpretación: Sinfónicos, Canto, Piano, Guitarra",
+"https://conservatoriosuperiorgranada.com/plan-de-estudios-2/"
+],
+[
+"woodwind",
+"BA",
+"Interpretación: Sinfónicos, Canto, Piano, Guitarra",
+"https://conservatoriosuperiorgranada.com/plan-de-estudios-2/"
+],
+[
+"brass",
+"BA",
+"Interpretación: Sinfónicos, Canto, Piano, Guitarra",
+"https://conservatoriosuperiorgranada.com/plan-de-estudios-2/"
+],
+[
+"percussion",
+"BA",
+"Interpretación: Sinfónicos, Canto, Piano, Guitarra",
+"https://conservatoriosuperiorgranada.com/plan-de-estudios-2/"
+],
+[
+"vocal-opera",
+"BA",
+"Interpretación: Sinfónicos, Canto, Piano, Guitarra",
+"https://conservatoriosuperiorgranada.com/plan-de-estudios-2/"
+],
+[
+"piano",
+"BA",
+"Interpretación: Sinfónicos, Canto, Piano, Guitarra",
+"https://conservatoriosuperiorgranada.com/plan-de-estudios-2/"
+],
+[
+"guitar",
+"BA",
+"Interpretación: Sinfónicos, Canto, Piano, Guitarra",
+"https://conservatoriosuperiorgranada.com/plan-de-estudios-2/"
+],
+[
+"composition",
+"BA",
+"Composición; Pedagogía; Dirección de orquesta",
+"https://conservatoriosuperiorgranada.com/plan-de-estudios-2/"
+],
+[
+"music-education",
+"BA",
+"Composición; Pedagogía; Dirección de orquesta",
+"https://conservatoriosuperiorgranada.com/plan-de-estudios-2/"
+],
+[
+"conducting",
+"BA",
+"Composición; Pedagogía; Dirección de orquesta",
+"https://conservatoriosuperiorgranada.com/plan-de-estudios-2/"
+],
+[
+"global-music",
+"BA",
+"Flamenco – Guitarra flamenca",
+"https://conservatoriosuperiorgranada.com/plan-de-estudios-2/"
+]
+]
+},
+"notes": {
+"E  PALMA25": "ESADIB is the Balearic school of dramatic art; it teaches voice and singing within acting, but offers no degree programmes in music."
+}
+}

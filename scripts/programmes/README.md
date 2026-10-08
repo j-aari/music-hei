@@ -70,3 +70,4 @@ Tilanne näkyy komennolla:
 - `I  L-AQUIL04` (consaq.it) ja `I  VICENZA03` (consvi.it): ohjelmalista ei näy ilman selainta
 - `I  MILANO09` (consmilano.it: TLS-aikakatkaisu), `I  PIACENZ01` (conservatorionicolini.it: DNS-virhe), `I  REGGIO03` (conservatoriocilea.it: 403), `I  BOLZANO02` (cons.bz.it: vain osastojen nimet)
 - Italia, ohjelmasivua ei saatu luettua ilman selainta tai sivu listasi vain osastot: `I  COSENZA03`, `I  LA-SPEZ01`, `I  SALERNO02`, `I  TRIESTE02`, `I  BRESCIA06`, `I  REGGIO05`, `I  SIENA04`, `I  CESENA03`, `I  PAVIA02`, `I  PALERMO04`, `I  LIVORNO01`, `I  CASTELF01`, `I  VERONA02`, `I  FERRARA02`, `I  FERMO01`, `I  PESARO01`, `I  CAGLIAR02`, `I  TERNI01`, `I  TORINO05`, `I  CAMPOBA03`, `I  FOGGIA02`, `I  CALTANI01`, `I  PADOVA02`, `I  VARESE05`, `I  PESCARA01`
+- `E  ALICANT11` (csmalicante.es: HTTP 526, ei omaa lähdettä), `NL`/`PL GDANSK04`: osittaiset (Gdańsk vain jazz/sävellys/kirkkomusiikki)
