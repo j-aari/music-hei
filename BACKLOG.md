@@ -90,3 +90,11 @@ Why the name search missed them: 8 have no music word in the legal name (a compo
 
 International-office contacts were collected for the original 186 institutions only; `contacts.json` lists them in `meta.searched`, and the panel says "Not collected yet" for the others instead of "No general address found".
 
+
+## Study programmes: field-level collection for all institutions (in progress)
+
+`data/programmes.json` started as a 10-institution pilot with every programme named. From 8 October 2026 it is extended to all institutions, batch by batch in `site.json` order, at **field level**: one row per discipline and level, with the programme name and page that show it. The details panel lists the fields in a collapsible "What can be studied here" list, and the sidebar has a "Field of study" filter (a colleague's question: where can you study popular music?).
+
+**Why field level:** the filter only needs to know which fields an institution offers and at which level. Naming every programme (as in the pilot) took two to three times longer per institution and adds little for the reader, who follows the link to the institution's own page anyway.
+
+**How to apply:** follow `scripts/programmes/README.md`. Uncollected institutions have no value in the filter, so they drop out when a field is selected; the coverage line under the filter says how many are in. Batch 1 (Austria and Belgium, 18 institutions) is in `data/programmes_batches/01.json`; 228 remain.

@@ -1,0 +1,3807 @@
+{
+"collected": "2026-10-08",
+"method": "Field-level collection (one row per discipline and level, evidence = the programme name and page that shows it). Read each institution's own programme listing as raw HTML (stdlib urllib, no LLM summarisation), following department pages and, where the listing was only in a PDF (GMPU, JHP, Stella), the official curriculum or admission-requirement PDF. Programme names were mapped to disciplines.json with a keyword list and checked by hand; jazz/pop/early-music instrument programmes are recorded under the style, not under each instrument. Doctoral programmes that do not name a field are not recorded. Gulda (Diplomstudium) and VMI (conservatory programmes) are recorded without a level, with a note.",
+"institutions": {
+"A  LINZ17": [
+[
+"early-music",
+"BA",
+"Alte Musik und Historische Aufführungspraxis – KBA / KMA",
+"https://www.bruckneruni.ac.at/de/studieren/studienangebot/studien/alte-musik"
+],
+[
+"early-music",
+"MA",
+"Alte Musik und Historische Aufführungspraxis – KBA / KMA",
+"https://www.bruckneruni.ac.at/de/studieren/studienangebot/studien/alte-musik"
+],
+[
+"brass",
+"BA",
+"Blechblasinstrumente und Schlagwerk – KBA / KMA",
+"https://www.bruckneruni.ac.at/de/studieren/studienangebot/studien/blechblasinstrumente-und-schlagwerk"
+],
+[
+"brass",
+"MA",
+"Blechblasinstrumente und Schlagwerk – KBA / KMA",
+"https://www.bruckneruni.ac.at/de/studieren/studienangebot/studien/blechblasinstrumente-und-schlagwerk"
+],
+[
+"percussion",
+"BA",
+"Blechblasinstrumente und Schlagwerk – KBA / KMA",
+"https://www.bruckneruni.ac.at/de/studieren/studienangebot/studien/blechblasinstrumente-und-schlagwerk"
+],
+[
+"percussion",
+"MA",
+"Blechblasinstrumente und Schlagwerk – KBA / KMA",
+"https://www.bruckneruni.ac.at/de/studieren/studienangebot/studien/blechblasinstrumente-und-schlagwerk"
+],
+[
+"vocal-opera",
+"BA",
+"Gesang und Musiktheater – KBA / KMA",
+"https://www.bruckneruni.ac.at/de/studieren/studienangebot/studien/gesang"
+],
+[
+"vocal-opera",
+"MA",
+"Gesang und Musiktheater – KBA / KMA",
+"https://www.bruckneruni.ac.at/de/studieren/studienangebot/studien/gesang"
+],
+[
+"woodwind",
+"BA",
+"Holzblasinstrumente – KBA / KMA",
+"https://www.bruckneruni.ac.at/de/studieren/studienangebot/studien/holzblasinstrumente"
+],
+[
+"woodwind",
+"MA",
+"Holzblasinstrumente – KBA / KMA",
+"https://www.bruckneruni.ac.at/de/studieren/studienangebot/studien/holzblasinstrumente"
+],
+[
+"conducting",
+"BA",
+"Künstlerisches Bachelorstudium Dirigieren",
+"https://www.bruckneruni.ac.at/de/studieren/studienangebot/studien/komposition-dirigieren"
+],
+[
+"composition",
+"BA",
+"Künstlerisches Bachelor-/Masterstudium Komposition",
+"https://www.bruckneruni.ac.at/de/studieren/studienangebot/studien/komposition-dirigieren"
+],
+[
+"composition",
+"MA",
+"Künstlerisches Bachelor-/Masterstudium Komposition",
+"https://www.bruckneruni.ac.at/de/studieren/studienangebot/studien/komposition-dirigieren"
+],
+[
+"jazz",
+"BA",
+"Jazz und Improvisierte Musik – KBA / KMA",
+"https://www.bruckneruni.ac.at/de/studieren/studienangebot/studien/jazz-und-improvisierte-musik"
+],
+[
+"jazz",
+"MA",
+"Jazz und Improvisierte Musik – KBA / KMA",
+"https://www.bruckneruni.ac.at/de/studieren/studienangebot/studien/jazz-und-improvisierte-musik"
+],
+[
+"music-education",
+"BA",
+"Elementare Musikpädagogik; Lehramt Musik Sekundarstufe (BEd/MEd)",
+"https://www.bruckneruni.ac.at/de/studieren/studienangebot/studien/musik/musikpaedagogik"
+],
+[
+"music-education",
+"MA",
+"Elementare Musikpädagogik; Lehramt Musik Sekundarstufe (BEd/MEd)",
+"https://www.bruckneruni.ac.at/de/studieren/studienangebot/studien/musik/musikpaedagogik"
+],
+[
+"strings",
+"BA",
+"Saiteninstrumente – KBA / KMA",
+"https://www.bruckneruni.ac.at/de/studieren/studienangebot/studien/saiteninstrumente"
+],
+[
+"strings",
+"MA",
+"Saiteninstrumente – KBA / KMA",
+"https://www.bruckneruni.ac.at/de/studieren/studienangebot/studien/saiteninstrumente"
+],
+[
+"guitar",
+"BA",
+"Saiteninstrumente – KBA / KMA",
+"https://www.bruckneruni.ac.at/de/studieren/studienangebot/studien/saiteninstrumente"
+],
+[
+"guitar",
+"MA",
+"Saiteninstrumente – KBA / KMA",
+"https://www.bruckneruni.ac.at/de/studieren/studienangebot/studien/saiteninstrumente"
+],
+[
+"harp",
+"BA",
+"Saiteninstrumente – KBA / KMA",
+"https://www.bruckneruni.ac.at/de/studieren/studienangebot/studien/saiteninstrumente"
+],
+[
+"harp",
+"MA",
+"Saiteninstrumente – KBA / KMA",
+"https://www.bruckneruni.ac.at/de/studieren/studienangebot/studien/saiteninstrumente"
+],
+[
+"piano",
+"BA",
+"Tasteninstrumente – KBA / KMA",
+"https://www.bruckneruni.ac.at/de/studieren/studienangebot/studien/tasteninstrumente"
+],
+[
+"piano",
+"MA",
+"Tasteninstrumente – KBA / KMA",
+"https://www.bruckneruni.ac.at/de/studieren/studienangebot/studien/tasteninstrumente"
+],
+[
+"accordion",
+"BA",
+"Tasteninstrumente – KBA / KMA",
+"https://www.bruckneruni.ac.at/de/studieren/studienangebot/studien/tasteninstrumente"
+],
+[
+"accordion",
+"MA",
+"Tasteninstrumente – KBA / KMA",
+"https://www.bruckneruni.ac.at/de/studieren/studienangebot/studien/tasteninstrumente"
+],
+[
+"organ",
+"BA",
+"Tasteninstrumente – KBA / KMA",
+"https://www.bruckneruni.ac.at/de/studieren/studienangebot/studien/tasteninstrumente"
+],
+[
+"organ",
+"MA",
+"Tasteninstrumente – KBA / KMA",
+"https://www.bruckneruni.ac.at/de/studieren/studienangebot/studien/tasteninstrumente"
+]
+],
+"A  WIEN77": [
+[
+"jazz",
+null,
+"Jazz & Popular Music (all instruments, voice, ensemble leading)",
+"https://gulda-school-of-music.com/academics/all-programs",
+"State-recognised diploma programme (Diplomstudium, 8 semesters), not a BA/MA degree"
+],
+[
+"popular-music",
+null,
+"Jazz & Popular Music (all instruments, voice, ensemble leading)",
+"https://gulda-school-of-music.com/academics/all-programs",
+"State-recognised diploma programme (Diplomstudium, 8 semesters), not a BA/MA degree"
+],
+[
+"piano",
+null,
+"Klassik – Klavier",
+"https://gulda-school-of-music.com/academics/all-programs",
+"State-recognised diploma programme (Diplomstudium, 8 semesters), not a BA/MA degree"
+],
+[
+"accordion",
+null,
+"Klassik – Akkordeon",
+"https://gulda-school-of-music.com/academics/all-programs",
+"State-recognised diploma programme (Diplomstudium, 8 semesters), not a BA/MA degree"
+],
+[
+"organ",
+null,
+"Klassik – Orgel",
+"https://gulda-school-of-music.com/academics/all-programs",
+"State-recognised diploma programme (Diplomstudium, 8 semesters), not a BA/MA degree"
+],
+[
+"guitar",
+null,
+"Klassik – Gitarre",
+"https://gulda-school-of-music.com/academics/all-programs",
+"State-recognised diploma programme (Diplomstudium, 8 semesters), not a BA/MA degree"
+],
+[
+"harp",
+null,
+"Klassik – Harfe",
+"https://gulda-school-of-music.com/academics/all-programs",
+"State-recognised diploma programme (Diplomstudium, 8 semesters), not a BA/MA degree"
+],
+[
+"strings",
+null,
+"Klassik – Violine, Viola, Violoncello, Kontrabass",
+"https://gulda-school-of-music.com/academics/all-programs",
+"State-recognised diploma programme (Diplomstudium, 8 semesters), not a BA/MA degree"
+],
+[
+"woodwind",
+null,
+"Klassik – Blockflöte, Flöte, Oboe, Klarinette, Fagott, Saxophon",
+"https://gulda-school-of-music.com/academics/all-programs",
+"State-recognised diploma programme (Diplomstudium, 8 semesters), not a BA/MA degree"
+],
+[
+"brass",
+null,
+"Klassik – Horn, Trompete, Posaune, Tuba",
+"https://gulda-school-of-music.com/academics/all-programs",
+"State-recognised diploma programme (Diplomstudium, 8 semesters), not a BA/MA degree"
+],
+[
+"percussion",
+null,
+"Klassik – Schlaginstrumente",
+"https://gulda-school-of-music.com/academics/all-programs",
+"State-recognised diploma programme (Diplomstudium, 8 semesters), not a BA/MA degree"
+],
+[
+"vocal-opera",
+null,
+"Klassik – Gesang",
+"https://gulda-school-of-music.com/academics/all-programs",
+"State-recognised diploma programme (Diplomstudium, 8 semesters), not a BA/MA degree"
+],
+[
+"conducting",
+null,
+"Klassik – Dirigieren & Ensembleleitung",
+"https://gulda-school-of-music.com/academics/all-programs",
+"State-recognised diploma programme (Diplomstudium, 8 semesters), not a BA/MA degree"
+],
+[
+"composition",
+null,
+"Komposition, Arrangement und Musiktheorie",
+"https://gulda-school-of-music.com/academics/all-programs",
+"State-recognised diploma programme (Diplomstudium, 8 semesters), not a BA/MA degree"
+],
+[
+"music-theory",
+null,
+"Komposition, Arrangement und Musiktheorie",
+"https://gulda-school-of-music.com/academics/all-programs",
+"State-recognised diploma programme (Diplomstudium, 8 semesters), not a BA/MA degree"
+],
+[
+"music-education",
+null,
+"Instrumental(Gesangs)pädagogik (IGP), all majors",
+"https://gulda-school-of-music.com/academics/all-programs",
+"State-recognised diploma programme (Diplomstudium, 8 semesters), not a BA/MA degree"
+]
+],
+"A  WIEN76": [
+[
+"jazz",
+"BA",
+"Bachelor / Master of Arts in Music (jazz and popular music)",
+"https://www.jammusiclab.com/academics/all-programs",
+"JAM MUSIC LAB is a university for jazz and popular music"
+],
+[
+"jazz",
+"MA",
+"Bachelor / Master of Arts in Music (jazz and popular music)",
+"https://www.jammusiclab.com/academics/all-programs",
+"JAM MUSIC LAB is a university for jazz and popular music"
+],
+[
+"popular-music",
+"BA",
+"Bachelor / Master of Arts in Music (jazz and popular music)",
+"https://www.jammusiclab.com/academics/all-programs",
+"JAM MUSIC LAB is a university for jazz and popular music"
+],
+[
+"popular-music",
+"MA",
+"Bachelor / Master of Arts in Music (jazz and popular music)",
+"https://www.jammusiclab.com/academics/all-programs",
+"JAM MUSIC LAB is a university for jazz and popular music"
+],
+[
+"piano",
+"BA",
+"Bachelor / Master of Arts in Music – instrumental and vocal majors (jazz/pop)",
+"https://www.jammusiclab.com/academics/all-programs"
+],
+[
+"piano",
+"MA",
+"Bachelor / Master of Arts in Music – instrumental and vocal majors (jazz/pop)",
+"https://www.jammusiclab.com/academics/all-programs"
+],
+[
+"accordion",
+"BA",
+"Bachelor / Master of Arts in Music – instrumental and vocal majors (jazz/pop)",
+"https://www.jammusiclab.com/academics/all-programs"
+],
+[
+"accordion",
+"MA",
+"Bachelor / Master of Arts in Music – instrumental and vocal majors (jazz/pop)",
+"https://www.jammusiclab.com/academics/all-programs"
+],
+[
+"guitar",
+"BA",
+"Bachelor / Master of Arts in Music – instrumental and vocal majors (jazz/pop)",
+"https://www.jammusiclab.com/academics/all-programs"
+],
+[
+"guitar",
+"MA",
+"Bachelor / Master of Arts in Music – instrumental and vocal majors (jazz/pop)",
+"https://www.jammusiclab.com/academics/all-programs"
+],
+[
+"strings",
+"BA",
+"Bachelor / Master of Arts in Music – instrumental and vocal majors (jazz/pop)",
+"https://www.jammusiclab.com/academics/all-programs"
+],
+[
+"strings",
+"MA",
+"Bachelor / Master of Arts in Music – instrumental and vocal majors (jazz/pop)",
+"https://www.jammusiclab.com/academics/all-programs"
+],
+[
+"harp",
+"BA",
+"Bachelor / Master of Arts in Music – instrumental and vocal majors (jazz/pop)",
+"https://www.jammusiclab.com/academics/all-programs"
+],
+[
+"harp",
+"MA",
+"Bachelor / Master of Arts in Music – instrumental and vocal majors (jazz/pop)",
+"https://www.jammusiclab.com/academics/all-programs"
+],
+[
+"woodwind",
+"BA",
+"Bachelor / Master of Arts in Music – instrumental and vocal majors (jazz/pop)",
+"https://www.jammusiclab.com/academics/all-programs"
+],
+[
+"woodwind",
+"MA",
+"Bachelor / Master of Arts in Music – instrumental and vocal majors (jazz/pop)",
+"https://www.jammusiclab.com/academics/all-programs"
+],
+[
+"brass",
+"BA",
+"Bachelor / Master of Arts in Music – instrumental and vocal majors (jazz/pop)",
+"https://www.jammusiclab.com/academics/all-programs"
+],
+[
+"brass",
+"MA",
+"Bachelor / Master of Arts in Music – instrumental and vocal majors (jazz/pop)",
+"https://www.jammusiclab.com/academics/all-programs"
+],
+[
+"percussion",
+"BA",
+"Bachelor / Master of Arts in Music – instrumental and vocal majors (jazz/pop)",
+"https://www.jammusiclab.com/academics/all-programs"
+],
+[
+"percussion",
+"MA",
+"Bachelor / Master of Arts in Music – instrumental and vocal majors (jazz/pop)",
+"https://www.jammusiclab.com/academics/all-programs"
+],
+[
+"vocal-opera",
+"BA",
+"Bachelor / Master of Arts in Music – instrumental and vocal majors (jazz/pop)",
+"https://www.jammusiclab.com/academics/all-programs"
+],
+[
+"vocal-opera",
+"MA",
+"Bachelor / Master of Arts in Music – instrumental and vocal majors (jazz/pop)",
+"https://www.jammusiclab.com/academics/all-programs"
+],
+[
+"composition",
+"BA",
+"Bachelor / Master of Arts in Music – Composition and Music Theory",
+"https://www.jammusiclab.com/academics/all-programs"
+],
+[
+"composition",
+"MA",
+"Bachelor / Master of Arts in Music – Composition and Music Theory",
+"https://www.jammusiclab.com/academics/all-programs"
+],
+[
+"music-theory",
+"BA",
+"Bachelor / Master of Arts in Music – Composition and Music Theory",
+"https://www.jammusiclab.com/academics/all-programs"
+],
+[
+"music-theory",
+"MA",
+"Bachelor / Master of Arts in Music – Composition and Music Theory",
+"https://www.jammusiclab.com/academics/all-programs"
+],
+[
+"music-production",
+"BA",
+"Media Music: Film Scoring and Music Production",
+"https://www.jammusiclab.com/academics/bachelor-arts-music/media-music"
+],
+[
+"music-production",
+"MA",
+"Media Music: Film Scoring and Music Production",
+"https://www.jammusiclab.com/academics/bachelor-arts-music/media-music"
+],
+[
+"music-education",
+"BA",
+"Bachelor / Master of Arts in Music Education",
+"https://www.jammusiclab.com/academics/bachelor-arts-music-education"
+],
+[
+"music-education",
+"MA",
+"Bachelor / Master of Arts in Music Education",
+"https://www.jammusiclab.com/academics/bachelor-arts-music-education"
+],
+[
+"arts-management",
+"BA",
+"Bachelor of Arts – Arts Management",
+"https://www.jammusiclab.com/academics/bachelor-arts/arts-management"
+]
+],
+"A  KLAGENF06": [
+[
+"piano",
+"BA",
+"Musikalische Aufführungskunst (Klassik, Jazz) – central artistic subjects",
+"https://www.gmpu.ac.at/files/zkF_BA-MAK.pdf"
+],
+[
+"piano",
+"MA",
+"Musikalische Aufführungskunst (Klassik, Jazz) – central artistic subjects",
+"https://www.gmpu.ac.at/files/zkF_BA-MAK.pdf"
+],
+[
+"accordion",
+"BA",
+"Musikalische Aufführungskunst (Klassik, Jazz) – central artistic subjects",
+"https://www.gmpu.ac.at/files/zkF_BA-MAK.pdf"
+],
+[
+"accordion",
+"MA",
+"Musikalische Aufführungskunst (Klassik, Jazz) – central artistic subjects",
+"https://www.gmpu.ac.at/files/zkF_BA-MAK.pdf"
+],
+[
+"guitar",
+"BA",
+"Musikalische Aufführungskunst (Klassik, Jazz) – central artistic subjects",
+"https://www.gmpu.ac.at/files/zkF_BA-MAK.pdf"
+],
+[
+"guitar",
+"MA",
+"Musikalische Aufführungskunst (Klassik, Jazz) – central artistic subjects",
+"https://www.gmpu.ac.at/files/zkF_BA-MAK.pdf"
+],
+[
+"organ",
+"BA",
+"Musikalische Aufführungskunst (Klassik, Jazz) – central artistic subjects",
+"https://www.gmpu.ac.at/files/zkF_BA-MAK.pdf"
+],
+[
+"organ",
+"MA",
+"Musikalische Aufführungskunst (Klassik, Jazz) – central artistic subjects",
+"https://www.gmpu.ac.at/files/zkF_BA-MAK.pdf"
+],
+[
+"strings",
+"BA",
+"Musikalische Aufführungskunst (Klassik, Jazz) – central artistic subjects",
+"https://www.gmpu.ac.at/files/zkF_BA-MAK.pdf"
+],
+[
+"strings",
+"MA",
+"Musikalische Aufführungskunst (Klassik, Jazz) – central artistic subjects",
+"https://www.gmpu.ac.at/files/zkF_BA-MAK.pdf"
+],
+[
+"harp",
+"BA",
+"Musikalische Aufführungskunst (Klassik, Jazz) – central artistic subjects",
+"https://www.gmpu.ac.at/files/zkF_BA-MAK.pdf"
+],
+[
+"harp",
+"MA",
+"Musikalische Aufführungskunst (Klassik, Jazz) – central artistic subjects",
+"https://www.gmpu.ac.at/files/zkF_BA-MAK.pdf"
+],
+[
+"woodwind",
+"BA",
+"Musikalische Aufführungskunst (Klassik, Jazz) – central artistic subjects",
+"https://www.gmpu.ac.at/files/zkF_BA-MAK.pdf"
+],
+[
+"woodwind",
+"MA",
+"Musikalische Aufführungskunst (Klassik, Jazz) – central artistic subjects",
+"https://www.gmpu.ac.at/files/zkF_BA-MAK.pdf"
+],
+[
+"brass",
+"BA",
+"Musikalische Aufführungskunst (Klassik, Jazz) – central artistic subjects",
+"https://www.gmpu.ac.at/files/zkF_BA-MAK.pdf"
+],
+[
+"brass",
+"MA",
+"Musikalische Aufführungskunst (Klassik, Jazz) – central artistic subjects",
+"https://www.gmpu.ac.at/files/zkF_BA-MAK.pdf"
+],
+[
+"percussion",
+"BA",
+"Musikalische Aufführungskunst (Klassik, Jazz) – central artistic subjects",
+"https://www.gmpu.ac.at/files/zkF_BA-MAK.pdf"
+],
+[
+"percussion",
+"MA",
+"Musikalische Aufführungskunst (Klassik, Jazz) – central artistic subjects",
+"https://www.gmpu.ac.at/files/zkF_BA-MAK.pdf"
+],
+[
+"vocal-opera",
+"BA",
+"Musikalische Aufführungskunst (Klassik, Jazz) – central artistic subjects",
+"https://www.gmpu.ac.at/files/zkF_BA-MAK.pdf"
+],
+[
+"vocal-opera",
+"MA",
+"Musikalische Aufführungskunst (Klassik, Jazz) – central artistic subjects",
+"https://www.gmpu.ac.at/files/zkF_BA-MAK.pdf"
+],
+[
+"jazz",
+"BA",
+"Musikalische Aufführungskunst – Studienrichtung Jazz",
+"https://www.gmpu.ac.at/studium/ba-mak"
+],
+[
+"jazz",
+"MA",
+"Musikalische Aufführungskunst – Studienrichtung Jazz",
+"https://www.gmpu.ac.at/studium/ba-mak"
+],
+[
+"conducting",
+"BA",
+"Musikalische Aufführungskunst – Dirigieren, Komposition",
+"https://www.gmpu.ac.at/files/zkF_MA-MAK.pdf"
+],
+[
+"conducting",
+"MA",
+"Musikalische Aufführungskunst – Dirigieren, Komposition",
+"https://www.gmpu.ac.at/files/zkF_MA-MAK.pdf"
+],
+[
+"composition",
+"BA",
+"Musikalische Aufführungskunst – Dirigieren, Komposition",
+"https://www.gmpu.ac.at/files/zkF_MA-MAK.pdf"
+],
+[
+"composition",
+"MA",
+"Musikalische Aufführungskunst – Dirigieren, Komposition",
+"https://www.gmpu.ac.at/files/zkF_MA-MAK.pdf"
+],
+[
+"chamber-music",
+"MA",
+"Musikalische Aufführungskunst (Master) – Kammermusik",
+"https://www.gmpu.ac.at/files/zkF_MA-MAK.pdf"
+],
+[
+"music-education",
+"BA",
+"Instrumental- und Gesangspädagogik (Bachelor / Master)",
+"https://www.gmpu.ac.at/studium/ba-igp"
+],
+[
+"music-education",
+"MA",
+"Instrumental- und Gesangspädagogik (Bachelor / Master)",
+"https://www.gmpu.ac.at/studium/ba-igp"
+],
+[
+"popular-music",
+"BA",
+"IGP Popmusik (Bachelor)",
+"https://www.gmpu.ac.at/universitaet/institute/imp/fachbereiche/pop"
+],
+[
+"folk",
+"BA",
+"Studienrichtung Volksmusik (IGP Bachelor and Master)",
+"https://www.gmpu.ac.at/universitaet/institute/imp/fachbereiche/vm"
+],
+[
+"folk",
+"MA",
+"Studienrichtung Volksmusik (IGP Bachelor and Master)",
+"https://www.gmpu.ac.at/universitaet/institute/imp/fachbereiche/vm"
+]
+],
+"A  EISENST05": [
+[
+"strings",
+"BA",
+"Bachelor Künstlerisch (BAK) – instrument-specific curricula",
+"https://www.jhp.ac.at/fileadmin-jhp/user_upload/1.3._Curriculum_BAK_Kuenstlerische_Kompetenzen_01.10.2026.pdf"
+],
+[
+"woodwind",
+"BA",
+"Bachelor Künstlerisch (BAK) – instrument-specific curricula",
+"https://www.jhp.ac.at/fileadmin-jhp/user_upload/1.3._Curriculum_BAK_Kuenstlerische_Kompetenzen_01.10.2026.pdf"
+],
+[
+"brass",
+"BA",
+"Bachelor Künstlerisch (BAK) – instrument-specific curricula",
+"https://www.jhp.ac.at/fileadmin-jhp/user_upload/1.3._Curriculum_BAK_Kuenstlerische_Kompetenzen_01.10.2026.pdf"
+],
+[
+"guitar",
+"BA",
+"Bachelor Künstlerisch (BAK) – instrument-specific curricula",
+"https://www.jhp.ac.at/fileadmin-jhp/user_upload/1.3._Curriculum_BAK_Kuenstlerische_Kompetenzen_01.10.2026.pdf"
+],
+[
+"piano",
+"BA",
+"Bachelor Künstlerisch (BAK) – instrument-specific curricula",
+"https://www.jhp.ac.at/fileadmin-jhp/user_upload/1.3._Curriculum_BAK_Kuenstlerische_Kompetenzen_01.10.2026.pdf"
+],
+[
+"organ",
+"BA",
+"Bachelor Künstlerisch (BAK) – instrument-specific curricula",
+"https://www.jhp.ac.at/fileadmin-jhp/user_upload/1.3._Curriculum_BAK_Kuenstlerische_Kompetenzen_01.10.2026.pdf"
+],
+[
+"percussion",
+"BA",
+"Bachelor Künstlerisch (BAK) – instrument-specific curricula",
+"https://www.jhp.ac.at/fileadmin-jhp/user_upload/1.3._Curriculum_BAK_Kuenstlerische_Kompetenzen_01.10.2026.pdf"
+],
+[
+"vocal-opera",
+"BA",
+"Bachelor Künstlerisch (BAK) – instrument-specific curricula",
+"https://www.jhp.ac.at/fileadmin-jhp/user_upload/1.3._Curriculum_BAK_Kuenstlerische_Kompetenzen_01.10.2026.pdf"
+],
+[
+"composition",
+"BA",
+"Bachelor Künstlerisch (BAK) – instrument-specific curricula",
+"https://www.jhp.ac.at/fileadmin-jhp/user_upload/1.3._Curriculum_BAK_Kuenstlerische_Kompetenzen_01.10.2026.pdf"
+],
+[
+"strings",
+"MA",
+"Master Künstlerisch (MAK)",
+"https://www.jhp.ac.at/studium/studienangebot/masterstudien/"
+],
+[
+"woodwind",
+"MA",
+"Master Künstlerisch (MAK)",
+"https://www.jhp.ac.at/studium/studienangebot/masterstudien/"
+],
+[
+"brass",
+"MA",
+"Master Künstlerisch (MAK)",
+"https://www.jhp.ac.at/studium/studienangebot/masterstudien/"
+],
+[
+"guitar",
+"MA",
+"Master Künstlerisch (MAK)",
+"https://www.jhp.ac.at/studium/studienangebot/masterstudien/"
+],
+[
+"piano",
+"MA",
+"Master Künstlerisch (MAK)",
+"https://www.jhp.ac.at/studium/studienangebot/masterstudien/"
+],
+[
+"organ",
+"MA",
+"Master Künstlerisch (MAK)",
+"https://www.jhp.ac.at/studium/studienangebot/masterstudien/"
+],
+[
+"percussion",
+"MA",
+"Master Künstlerisch (MAK)",
+"https://www.jhp.ac.at/studium/studienangebot/masterstudien/"
+],
+[
+"vocal-opera",
+"MA",
+"Master Künstlerisch (MAK)",
+"https://www.jhp.ac.at/studium/studienangebot/masterstudien/"
+],
+[
+"composition",
+"MA",
+"Master Künstlerisch (MAK)",
+"https://www.jhp.ac.at/studium/studienangebot/masterstudien/"
+],
+[
+"jazz",
+"BA",
+"Jazz & Popularmusik im Rahmen der BA- und MA-Studien (E-Gitarre, E-Bass, Klavier, Saxophon, Schlagzeug)",
+"https://www.jhp.ac.at/studium/studienangebot/studium-jazz-popularmusik/"
+],
+[
+"jazz",
+"MA",
+"Jazz & Popularmusik im Rahmen der BA- und MA-Studien (E-Gitarre, E-Bass, Klavier, Saxophon, Schlagzeug)",
+"https://www.jhp.ac.at/studium/studienangebot/studium-jazz-popularmusik/"
+],
+[
+"popular-music",
+"BA",
+"Jazz & Popularmusik im Rahmen der BA- und MA-Studien (E-Gitarre, E-Bass, Klavier, Saxophon, Schlagzeug)",
+"https://www.jhp.ac.at/studium/studienangebot/studium-jazz-popularmusik/"
+],
+[
+"popular-music",
+"MA",
+"Jazz & Popularmusik im Rahmen der BA- und MA-Studien (E-Gitarre, E-Bass, Klavier, Saxophon, Schlagzeug)",
+"https://www.jhp.ac.at/studium/studienangebot/studium-jazz-popularmusik/"
+],
+[
+"music-education",
+"BA",
+"Bachelor / Master Künstlerisch-Pädagogisch (BAP / MAP)",
+"https://www.jhp.ac.at/studium/studienangebot/bachelorstudien/"
+],
+[
+"music-education",
+"MA",
+"Bachelor / Master Künstlerisch-Pädagogisch (BAP / MAP)",
+"https://www.jhp.ac.at/studium/studienangebot/bachelorstudien/"
+]
+],
+"A  WIEN52": [
+[
+"piano",
+"BA",
+"Instrumentalstudien (Bachelor- und Masterstudium)",
+"https://www.muk.ac.at/bewerbung/studien-termine/instrumentalstudien/klavier.html"
+],
+[
+"piano",
+"MA",
+"Instrumentalstudien (Bachelor- und Masterstudium)",
+"https://www.muk.ac.at/bewerbung/studien-termine/instrumentalstudien/klavier.html"
+],
+[
+"accordion",
+"BA",
+"Instrumentalstudien (Bachelor- und Masterstudium)",
+"https://www.muk.ac.at/bewerbung/studien-termine/instrumentalstudien/klavier.html"
+],
+[
+"accordion",
+"MA",
+"Instrumentalstudien (Bachelor- und Masterstudium)",
+"https://www.muk.ac.at/bewerbung/studien-termine/instrumentalstudien/klavier.html"
+],
+[
+"guitar",
+"BA",
+"Instrumentalstudien (Bachelor- und Masterstudium)",
+"https://www.muk.ac.at/bewerbung/studien-termine/instrumentalstudien/klavier.html"
+],
+[
+"guitar",
+"MA",
+"Instrumentalstudien (Bachelor- und Masterstudium)",
+"https://www.muk.ac.at/bewerbung/studien-termine/instrumentalstudien/klavier.html"
+],
+[
+"harp",
+"BA",
+"Instrumentalstudien (Bachelor- und Masterstudium)",
+"https://www.muk.ac.at/bewerbung/studien-termine/instrumentalstudien/klavier.html"
+],
+[
+"harp",
+"MA",
+"Instrumentalstudien (Bachelor- und Masterstudium)",
+"https://www.muk.ac.at/bewerbung/studien-termine/instrumentalstudien/klavier.html"
+],
+[
+"strings",
+"BA",
+"Instrumentalstudien (Bachelor- und Masterstudium)",
+"https://www.muk.ac.at/bewerbung/studien-termine/instrumentalstudien/klavier.html"
+],
+[
+"strings",
+"MA",
+"Instrumentalstudien (Bachelor- und Masterstudium)",
+"https://www.muk.ac.at/bewerbung/studien-termine/instrumentalstudien/klavier.html"
+],
+[
+"woodwind",
+"BA",
+"Instrumentalstudien (Bachelor- und Masterstudium)",
+"https://www.muk.ac.at/bewerbung/studien-termine/instrumentalstudien/klavier.html"
+],
+[
+"woodwind",
+"MA",
+"Instrumentalstudien (Bachelor- und Masterstudium)",
+"https://www.muk.ac.at/bewerbung/studien-termine/instrumentalstudien/klavier.html"
+],
+[
+"brass",
+"BA",
+"Instrumentalstudien (Bachelor- und Masterstudium)",
+"https://www.muk.ac.at/bewerbung/studien-termine/instrumentalstudien/klavier.html"
+],
+[
+"brass",
+"MA",
+"Instrumentalstudien (Bachelor- und Masterstudium)",
+"https://www.muk.ac.at/bewerbung/studien-termine/instrumentalstudien/klavier.html"
+],
+[
+"percussion",
+"BA",
+"Instrumentalstudien (Bachelor- und Masterstudium)",
+"https://www.muk.ac.at/bewerbung/studien-termine/instrumentalstudien/klavier.html"
+],
+[
+"percussion",
+"MA",
+"Instrumentalstudien (Bachelor- und Masterstudium)",
+"https://www.muk.ac.at/bewerbung/studien-termine/instrumentalstudien/klavier.html"
+],
+[
+"early-music",
+"BA",
+"Instrumentalstudien Alte Musik (Cembalo, Fortepiano, historische Instrumente, Laute, Viola da gamba); Gesang (Alte Musik)",
+"https://www.muk.ac.at/bewerbung/studien-termine/alle-studien-an-der-muk.html"
+],
+[
+"early-music",
+"MA",
+"Instrumentalstudien Alte Musik (Cembalo, Fortepiano, historische Instrumente, Laute, Viola da gamba); Gesang (Alte Musik)",
+"https://www.muk.ac.at/bewerbung/studien-termine/alle-studien-an-der-muk.html"
+],
+[
+"jazz",
+"BA",
+"Jazz-Bass, -Gitarre, -Klavier, -Posaune, -Saxophon, -Schlagzeug, -Trompete, -Gesang; Jazz-Komposition & Arrangement",
+"https://www.muk.ac.at/bewerbung/studien-termine/instrumentalstudien/jazz-gitarre.html"
+],
+[
+"jazz",
+"MA",
+"Jazz-Bass, -Gitarre, -Klavier, -Posaune, -Saxophon, -Schlagzeug, -Trompete, -Gesang; Jazz-Komposition & Arrangement",
+"https://www.muk.ac.at/bewerbung/studien-termine/instrumentalstudien/jazz-gitarre.html"
+],
+[
+"vocal-opera",
+"BA",
+"Sologesang; Oper; Lied und Oratorium",
+"https://www.muk.ac.at/bewerbung/studien-termine/alle-studien-an-der-muk.html"
+],
+[
+"vocal-opera",
+"MA",
+"Sologesang; Oper; Lied und Oratorium",
+"https://www.muk.ac.at/bewerbung/studien-termine/alle-studien-an-der-muk.html"
+],
+[
+"conducting",
+"BA",
+"Dirigieren (Bachelor- und Masterstudium)",
+"https://www.muk.ac.at/bewerbung/studien-termine/kuenstlerische-studien/dirigieren.html"
+],
+[
+"conducting",
+"MA",
+"Dirigieren (Bachelor- und Masterstudium)",
+"https://www.muk.ac.at/bewerbung/studien-termine/kuenstlerische-studien/dirigieren.html"
+],
+[
+"composition",
+"BA",
+"Komposition",
+"https://www.muk.ac.at/bewerbung/studien-termine/alle-studien-an-der-muk.html"
+],
+[
+"composition",
+"MA",
+"Komposition",
+"https://www.muk.ac.at/bewerbung/studien-termine/alle-studien-an-der-muk.html"
+],
+[
+"organ",
+"BA",
+"Orgel (IGP)",
+"https://www.muk.ac.at/bewerbung/studien-termine/alle-studien-an-der-muk.html"
+],
+[
+"music-education",
+"BA",
+"Instrumental- und Gesangspädagogische Studien (Bachelorstudium IGP)",
+"https://www.muk.ac.at/bewerbung/studien-termine/instrumentalstudien/klavier.html"
+],
+[
+"music-education",
+"MA",
+"Master of Arts Education (MAE)",
+"https://www.muk.ac.at/bewerbung/studien-termine/alle-studien-an-der-muk.html"
+]
+],
+"A  FELDKIR03": [
+[
+"piano",
+"BA",
+"BA Music Performance – artistic main subjects (admission requirements)",
+"https://stella-musikhochschule.ac.at/wp-content/uploads/2025/02/Anforderungen-Zulassungspruefung-ZKF-BA-MP_Stand-Februar-2024.pdf"
+],
+[
+"accordion",
+"BA",
+"BA Music Performance – artistic main subjects (admission requirements)",
+"https://stella-musikhochschule.ac.at/wp-content/uploads/2025/02/Anforderungen-Zulassungspruefung-ZKF-BA-MP_Stand-Februar-2024.pdf"
+],
+[
+"guitar",
+"BA",
+"BA Music Performance – artistic main subjects (admission requirements)",
+"https://stella-musikhochschule.ac.at/wp-content/uploads/2025/02/Anforderungen-Zulassungspruefung-ZKF-BA-MP_Stand-Februar-2024.pdf"
+],
+[
+"harp",
+"BA",
+"BA Music Performance – artistic main subjects (admission requirements)",
+"https://stella-musikhochschule.ac.at/wp-content/uploads/2025/02/Anforderungen-Zulassungspruefung-ZKF-BA-MP_Stand-Februar-2024.pdf"
+],
+[
+"organ",
+"BA",
+"BA Music Performance – artistic main subjects (admission requirements)",
+"https://stella-musikhochschule.ac.at/wp-content/uploads/2025/02/Anforderungen-Zulassungspruefung-ZKF-BA-MP_Stand-Februar-2024.pdf"
+],
+[
+"strings",
+"BA",
+"BA Music Performance – artistic main subjects (admission requirements)",
+"https://stella-musikhochschule.ac.at/wp-content/uploads/2025/02/Anforderungen-Zulassungspruefung-ZKF-BA-MP_Stand-Februar-2024.pdf"
+],
+[
+"woodwind",
+"BA",
+"BA Music Performance – artistic main subjects (admission requirements)",
+"https://stella-musikhochschule.ac.at/wp-content/uploads/2025/02/Anforderungen-Zulassungspruefung-ZKF-BA-MP_Stand-Februar-2024.pdf"
+],
+[
+"brass",
+"BA",
+"BA Music Performance – artistic main subjects (admission requirements)",
+"https://stella-musikhochschule.ac.at/wp-content/uploads/2025/02/Anforderungen-Zulassungspruefung-ZKF-BA-MP_Stand-Februar-2024.pdf"
+],
+[
+"percussion",
+"BA",
+"BA Music Performance – artistic main subjects (admission requirements)",
+"https://stella-musikhochschule.ac.at/wp-content/uploads/2025/02/Anforderungen-Zulassungspruefung-ZKF-BA-MP_Stand-Februar-2024.pdf"
+],
+[
+"vocal-opera",
+"BA",
+"BA Music Performance – artistic main subjects (admission requirements)",
+"https://stella-musikhochschule.ac.at/wp-content/uploads/2025/02/Anforderungen-Zulassungspruefung-ZKF-BA-MP_Stand-Februar-2024.pdf"
+],
+[
+"piano",
+"MA",
+"MA Music Performance & Career Development",
+"https://stella-musikhochschule.ac.at/studium/master/music-performance-career-development"
+],
+[
+"accordion",
+"MA",
+"MA Music Performance & Career Development",
+"https://stella-musikhochschule.ac.at/studium/master/music-performance-career-development"
+],
+[
+"guitar",
+"MA",
+"MA Music Performance & Career Development",
+"https://stella-musikhochschule.ac.at/studium/master/music-performance-career-development"
+],
+[
+"harp",
+"MA",
+"MA Music Performance & Career Development",
+"https://stella-musikhochschule.ac.at/studium/master/music-performance-career-development"
+],
+[
+"organ",
+"MA",
+"MA Music Performance & Career Development",
+"https://stella-musikhochschule.ac.at/studium/master/music-performance-career-development"
+],
+[
+"strings",
+"MA",
+"MA Music Performance & Career Development",
+"https://stella-musikhochschule.ac.at/studium/master/music-performance-career-development"
+],
+[
+"woodwind",
+"MA",
+"MA Music Performance & Career Development",
+"https://stella-musikhochschule.ac.at/studium/master/music-performance-career-development"
+],
+[
+"brass",
+"MA",
+"MA Music Performance & Career Development",
+"https://stella-musikhochschule.ac.at/studium/master/music-performance-career-development"
+],
+[
+"percussion",
+"MA",
+"MA Music Performance & Career Development",
+"https://stella-musikhochschule.ac.at/studium/master/music-performance-career-development"
+],
+[
+"vocal-opera",
+"MA",
+"MA Music Performance & Career Development",
+"https://stella-musikhochschule.ac.at/studium/master/music-performance-career-development"
+],
+[
+"music-education",
+"BA",
+"BA Music Education & Music Performance",
+"https://stella-musikhochschule.ac.at/studium/bachelor/music-education-music-performance"
+],
+[
+"music-education",
+"MA",
+"MA Music Education & Music Performance",
+"https://stella-musikhochschule.ac.at/studium/master/ma-music-education-music-performance"
+]
+],
+"A  GRAZ03": [
+[
+"accordion",
+"BA",
+"Bachelor Akkordeon BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/akkordeon-ba"
+],
+[
+"accordion",
+"MA",
+"Master Akkordeon MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/akkordeon-ma"
+],
+[
+"music-technology",
+"BA",
+"Bachelor BA Acoustics, Music, and Information Engineering (AMIE)",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/acoustics-music-and-information-engineering-/-elektrotechnik-toningenieur/elektrotechnik-toningenieur-ba"
+],
+[
+"brass",
+"BA",
+"Bachelor Basstuba BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/basstuba-ba"
+],
+[
+"brass",
+"MA",
+"Master Basstuba MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/basstuba-ma"
+],
+[
+"early-music",
+"BA",
+"Bachelor Cembalo und Generalbass BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/alte-musik/cembalo-und-generalbass-ba"
+],
+[
+"early-music",
+"MA",
+"Master Cembalo und Generalbass MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/alte-musik/cembalo-und-generalbass-ma"
+],
+[
+"conducting",
+"BA",
+"Bachelor Chordirigier-Pädagogik BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/chordirigier-paedagogik/chordirigier-paedagogik-ba"
+],
+[
+"music-education",
+"BA",
+"Bachelor Chordirigier-Pädagogik BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/chordirigier-paedagogik/chordirigier-paedagogik-ba"
+],
+[
+"conducting",
+"MA",
+"Master Chordirigieren MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/dirigieren/chordirigieren-ma"
+],
+[
+"music-technology",
+"MA",
+"Master Computermusik MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/computermusik/computermusik-ma"
+],
+[
+"music-technology",
+"BA",
+"Bachelor Computermusik und Klangkunst BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/computermusik/computermusik-und-klangkunst-ba"
+],
+[
+"conducting",
+"BA",
+"Bachelor Dirigieren BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/dirigieren/dirigieren-ba"
+],
+[
+"music-technology",
+"MA",
+"Master Elektrotechnik-Toningenieur MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/acoustics-music-and-information-engineering-/-elektrotechnik-toningenieur/elektrotechnik-toningenieur-ma"
+],
+[
+"woodwind",
+"BA",
+"Bachelor Fagott BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/fagott-ba"
+],
+[
+"woodwind",
+"MA",
+"Master Fagott MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/fagott-ma"
+],
+[
+"woodwind",
+"BA",
+"Bachelor Floete BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/floete-ba"
+],
+[
+"woodwind",
+"MA",
+"Master Floete MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/floete-ma"
+],
+[
+"vocal-opera",
+"BA",
+"Bachelor Gesang BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/gesang/gesang-ba"
+],
+[
+"vocal-opera",
+"MA",
+"Master Gesang MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/gesang/gesang-ma"
+],
+[
+"guitar",
+"BA",
+"Bachelor Gitarre BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/gitarre-ba"
+],
+[
+"guitar",
+"MA",
+"Master Gitarre MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/gitarre-ma"
+],
+[
+"harp",
+"BA",
+"Bachelor Harfe BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/harfe-ba"
+],
+[
+"harp",
+"MA",
+"Master Harfe MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/harfe-ma"
+],
+[
+"early-music",
+"BA",
+"Bachelor Historische Blasinstrumente Blockflöte BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/alte-musik/historische-blasinstrumente-blockfloete-ba"
+],
+[
+"early-music",
+"MA",
+"Master Historische Blasinstrumente Blockflöte MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/alte-musik/historische-blasinstrumente-blockfloete-ma"
+],
+[
+"early-music",
+"BA",
+"Bachelor Historische Blasinstrumente Fagottinstrumente BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/alte-musik/historische-blasinstrumente-fagottinstrumente-ba"
+],
+[
+"early-music",
+"MA",
+"Master Historische Blasinstrumente Fagottinstrumente MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/alte-musik/historische-blasinstrumente-fagottinstrumente-ma"
+],
+[
+"early-music",
+"BA",
+"Bachelor Historische Blasinstrumente Klarinetteninstrumente BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/alte-musik/historische-blasinstrumente-klarinetteninstrumente-ba"
+],
+[
+"early-music",
+"MA",
+"Master Historische Blasinstrumente Klarinetteninstrumente MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/alte-musik/historische-blasinstrumente-klarinetteninstrumente-ma"
+],
+[
+"early-music",
+"BA",
+"Bachelor Historische Blasinstrumente Oboe BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/alte-musik/historische-blasinstrumente-oboe-ba"
+],
+[
+"early-music",
+"MA",
+"Master Historische Blasinstrumente Oboe MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/alte-musik/historische-blasinstrumente-oboe-ma"
+],
+[
+"early-music",
+"BA",
+"Bachelor Historische Streichinstrumente Violininstrumente BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/alte-musik/historische-streichinstrumente-violininstrumente-ba"
+],
+[
+"early-music",
+"MA",
+"Master Historische Streichinstrumente Violininstrumente MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/alte-musik/historische-streichinstrumente-violininstrumente-ma"
+],
+[
+"early-music",
+"BA",
+"Bachelor Historische Streichinstrumente Violone BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/alte-musik/historische-streichinstrumente-violone-ba"
+],
+[
+"early-music",
+"MA",
+"Master Historische Streichinstrumente Violone MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/alte-musik/historische-streichinstrumente-violone-ma"
+],
+[
+"brass",
+"BA",
+"Bachelor Horn BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/horn-ba"
+],
+[
+"brass",
+"MA",
+"Master Horn MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/horn-ma"
+],
+[
+"jazz",
+"BA",
+"Bachelor IGP-Jazz BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalgesangspaedagogik-igp/igp-jazz-ba"
+],
+[
+"jazz",
+"MA",
+"Master IGP-Jazz MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalgesangspaedagogik-igp/igp-jazz-ma"
+],
+[
+"music-education",
+"BA",
+"Bachelor IGP-Klassik BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalgesangspaedagogik-igp/igp-klassik-ba"
+],
+[
+"music-education",
+"MA",
+"Master IGP-Klassik MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalgesangspaedagogik-igp/igp-klassik-ma"
+],
+[
+"folk",
+"BA",
+"Bachelor IGP-Volksmusik BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalgesangspaedagogik-igp/igp-volksmusik-ba"
+],
+[
+"music-education",
+"BA",
+"Bachelor IGP-Volksmusik BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalgesangspaedagogik-igp/igp-volksmusik-ba"
+],
+[
+"folk",
+"MA",
+"Master IGP-Volksmusik MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalgesangspaedagogik-igp/igp-volksmusik-ma"
+],
+[
+"music-education",
+"MA",
+"Master IGP-Volksmusik MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalgesangspaedagogik-igp/igp-volksmusik-ma"
+],
+[
+"jazz",
+"BA",
+"Bachelor Jazz Gesang BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/jazz/jazz-gesang-ba"
+],
+[
+"jazz",
+"MA",
+"Master Jazz Gesang MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/jazz/jazz-gesang-ma"
+],
+[
+"jazz",
+"BA",
+"Bachelor Jazz Gitarre BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/jazz/jazz-gitarre-ba"
+],
+[
+"jazz",
+"MA",
+"Master Jazz Gitarre MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/jazz/jazz-gitarre-ma"
+],
+[
+"jazz",
+"BA",
+"Bachelor Jazz Klavier BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/jazz/jazz-klavier-ba"
+],
+[
+"jazz",
+"MA",
+"Master Jazz Klavier MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/jazz/jazz-klavier-ma"
+],
+[
+"jazz",
+"BA",
+"Bachelor Jazz Kontrabass BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/jazz/jazz-kontrabass-ba"
+],
+[
+"jazz",
+"MA",
+"Master Jazz Kontrabass MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/jazz/jazz-kontrabass-ma"
+],
+[
+"jazz",
+"BA",
+"Bachelor Jazz Posaune BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/jazz/jazz-posaune-ba"
+],
+[
+"jazz",
+"MA",
+"Master Jazz Posaune MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/jazz/jazz-posaune-ma"
+],
+[
+"jazz",
+"BA",
+"Bachelor Jazz Saxofon BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/jazz/jazz-saxofon-ba"
+],
+[
+"jazz",
+"MA",
+"Master Jazz Saxofon MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/jazz/jazz-saxofon-ma"
+],
+[
+"jazz",
+"BA",
+"Bachelor Jazz Schlagzeug BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/jazz/jazz-schlagzeug-ba"
+],
+[
+"jazz",
+"MA",
+"Master Jazz Schlagzeug MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/jazz/jazz-schlagzeug-ma"
+],
+[
+"jazz",
+"BA",
+"Bachelor Jazz Trompete BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/jazz/jazz-trompete-ba"
+],
+[
+"jazz",
+"MA",
+"Master Jazz Trompete MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/jazz/jazz-trompete-ma"
+],
+[
+"jazz",
+"BA",
+"Bachelor Jazzkomposition und Arrangement BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/jazz/jazzkomposition-und-arrangement-ba"
+],
+[
+"jazz",
+"MA",
+"Master Jazzkomposition und Arrangement MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/jazz/jazzkomposition-und-arrangement-ma"
+],
+[
+"piano",
+"MA",
+"Master Kammermusik für Streichinstrumente und Klavier MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/kammermusik-fuer-streichinstrumente-und-klavier-ma"
+],
+[
+"strings",
+"MA",
+"Master Kammermusik für Streichinstrumente und Klavier MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/kammermusik-fuer-streichinstrumente-und-klavier-ma"
+],
+[
+"chamber-music",
+"MA",
+"Master Kammermusik für Streichinstrumente und Klavier MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/kammermusik-fuer-streichinstrumente-und-klavier-ma"
+],
+[
+"guitar",
+"MA",
+"Master Kammermusik mit Gitarre MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/kammermusik-mit-gitarre-ma"
+],
+[
+"chamber-music",
+"MA",
+"Master Kammermusik mit Gitarre MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/kammermusik-mit-gitarre-ma"
+],
+[
+"church-music",
+"BA",
+"Bachelor Kirchenmusik BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/katholische-und-evangelische-kirchenmusik/kirchenmusik-ba"
+],
+[
+"church-music",
+"MA",
+"Master Kirchenmusik MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/katholische-und-evangelische-kirchenmusik/kirchenmusik-ma"
+],
+[
+"woodwind",
+"BA",
+"Bachelor Klarinette BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/klarinette-ba"
+],
+[
+"woodwind",
+"MA",
+"Master Klarinette MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/klarinette-ma"
+],
+[
+"piano",
+"BA",
+"Bachelor Klavier BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/klavier-ba"
+],
+[
+"piano",
+"MA",
+"Master Klavier MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/klavier-ma"
+],
+[
+"piano",
+"MA",
+"Master Klavier-Duo MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/klavier-duo-ma"
+],
+[
+"piano",
+"MA",
+"Master Klavier-Vokalbegleitung MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/klavier-vokalbegleitung-ma"
+],
+[
+"composition",
+"MA",
+"Master Komposition - Musiktheater MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/komposition-und-musiktheorie/komposition-musiktheater-ma"
+],
+[
+"composition",
+"MA",
+"Master Komposition MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/komposition-und-musiktheorie/komposition-ma"
+],
+[
+"composition",
+"BA",
+"Bachelor Komposition und Musiktheorie BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/komposition-und-musiktheorie/komposition-und-musiktheorie-ba"
+],
+[
+"music-theory",
+"BA",
+"Bachelor Komposition und Musiktheorie BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/komposition-und-musiktheorie/komposition-und-musiktheorie-ba"
+],
+[
+"composition",
+"BA",
+"Bachelor Kompositions- und Musiktheoriepädagogik BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/kompositions-und-musiktheoriepaedagogik/kompositions-und-musiktheoriepaedagogik-ba"
+],
+[
+"music-theory",
+"BA",
+"Bachelor Kompositions- und Musiktheoriepädagogik BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/kompositions-und-musiktheoriepaedagogik/kompositions-und-musiktheoriepaedagogik-ba"
+],
+[
+"music-education",
+"BA",
+"Bachelor Kompositions- und Musiktheoriepädagogik BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/kompositions-und-musiktheoriepaedagogik/kompositions-und-musiktheoriepaedagogik-ba"
+],
+[
+"composition",
+"MA",
+"Master Kompositions- und Musiktheoriepädagogik MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/kompositions-und-musiktheoriepaedagogik/kompositions-und-musiktheoriepaedagogik-ma"
+],
+[
+"music-theory",
+"MA",
+"Master Kompositions- und Musiktheoriepädagogik MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/kompositions-und-musiktheoriepaedagogik/kompositions-und-musiktheoriepaedagogik-ma"
+],
+[
+"music-education",
+"MA",
+"Master Kompositions- und Musiktheoriepädagogik MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/kompositions-und-musiktheoriepaedagogik/kompositions-und-musiktheoriepaedagogik-ma"
+],
+[
+"strings",
+"BA",
+"Bachelor Kontrabass BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/kontrabass-ba"
+],
+[
+"strings",
+"MA",
+"Master Kontrabass MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/kontrabass-ma"
+],
+[
+"vocal-opera",
+"MA",
+"Master Konzertgesang MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/gesang/konzertgesang-ma"
+],
+[
+"vocal-opera",
+"BA",
+"Bachelor Lehramt Instrumentalmusik und Gesang BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/lehramtsstudium/lehramt-instrumentalmusikerziehung-ba"
+],
+[
+"music-education",
+"BA",
+"Bachelor Lehramt Instrumentalmusik und Gesang BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/lehramtsstudium/lehramt-instrumentalmusikerziehung-ba"
+],
+[
+"vocal-opera",
+"MA",
+"Master Lehramt Instrumentalmusik und Gesang MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/lehramtsstudium/lehramt-instrumentalmusikerziehung-ma"
+],
+[
+"music-education",
+"MA",
+"Master Lehramt Instrumentalmusik und Gesang MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/lehramtsstudium/lehramt-instrumentalmusikerziehung-ma"
+],
+[
+"music-education",
+"BA",
+"Bachelor Lehramt Musik BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/lehramtsstudium/lehramt-musikerziehung-ba"
+],
+[
+"music-education",
+"MA",
+"Master Lehramt Musik MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/lehramtsstudium/lehramt-musikerziehung-ma"
+],
+[
+"music-education",
+"MA",
+"Master Musik- und Theatervermittlung MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/musik-und-theatervermittlung/musik-und-theatervermittlung-ma"
+],
+[
+"musicology",
+"BA",
+"Bachelor Musikologie BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/musikologie/musikologie-ba"
+],
+[
+"musicology",
+"MA",
+"Master Musikologie MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/musikologie/musikologie-ma"
+],
+[
+"music-theory",
+"MA",
+"Master Musiktheorie MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/komposition-und-musiktheorie/musiktheorie-ma"
+],
+[
+"music-therapy",
+"BA",
+"Bachelor Musiktherapie BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/musiktherapie/musiktherapie-ba"
+],
+[
+"music-therapy",
+"MA",
+"Master Musiktherapie MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/musiktherapie/musiktherapie-ma"
+],
+[
+"woodwind",
+"BA",
+"Bachelor Oboe BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/oboe-ba"
+],
+[
+"woodwind",
+"MA",
+"Master Oboe MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/oboe-ma"
+],
+[
+"conducting",
+"MA",
+"Master Orchesterdirigieren MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/dirigieren/orchesterdirigieren-ma"
+],
+[
+"organ",
+"BA",
+"Bachelor Orgel BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/orgel-ba"
+],
+[
+"organ",
+"MA",
+"Master Orgel MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/orgel-ma"
+],
+[
+"brass",
+"BA",
+"Bachelor Posaune BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/posaune-ba"
+],
+[
+"brass",
+"MA",
+"Master Posaune MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/posaune-ma"
+],
+[
+"woodwind",
+"BA",
+"Bachelor Saxofon BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/saxofon-ba"
+],
+[
+"woodwind",
+"MA",
+"Master Saxofon MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/saxofon-ma"
+],
+[
+"percussion",
+"BA",
+"Bachelor Schlaginstrumente BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/schlaginstrumente-ba"
+],
+[
+"percussion",
+"MA",
+"Master Schlaginstrumente MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/schlaginstrumente-ma"
+],
+[
+"music-technology",
+"MA",
+"Master Sound Design MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/sound-design/sound-design-ma"
+],
+[
+"brass",
+"BA",
+"Bachelor Trompete BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/trompete-ba"
+],
+[
+"brass",
+"MA",
+"Master Trompete MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/trompete-ma"
+],
+[
+"strings",
+"BA",
+"Bachelor Viola BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/viola-ba"
+],
+[
+"strings",
+"MA",
+"Master Viola MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/viola-ma"
+],
+[
+"strings",
+"BA",
+"Bachelor Violine BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/violine-ba"
+],
+[
+"strings",
+"MA",
+"Master Violine MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/violine-ma"
+],
+[
+"strings",
+"BA",
+"Bachelor Violoncello BA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/violoncello-ba"
+],
+[
+"strings",
+"MA",
+"Master Violoncello MA",
+"https://www.kug.ac.at/studium/studienangebot/studienrichtungen/instrumentalstudium/violoncello-ma"
+]
+],
+"A  WIEN74": [
+[
+"popular-music",
+null,
+"Konzertfach (performance in modern music); Songwriting",
+"https://www.vmi.at/konzertfach",
+"Conservatory programme (180–240 ECTS); the page does not name a BA/MA degree"
+],
+[
+"composition",
+null,
+"Komposition; Medienkomposition",
+"https://www.vmi.at/komposition",
+"Conservatory programme (180–240 ECTS); the page does not name a BA/MA degree"
+],
+[
+"music-education",
+null,
+"IGP – Instrumental- und Gesangspädagogik; Kompositionspädagogik",
+"https://www.vmi.at/igp-instrumental-und-gesangspaedagogik",
+"Conservatory programme (180–240 ECTS); the page does not name a BA/MA degree"
+],
+[
+"music-technology",
+null,
+"Elektronische Musik und Sound Design",
+"https://www.vmi.at/elektronische-musik-und-sound-design-studiengang",
+"Conservatory programme (180–240 ECTS); the page does not name a BA/MA degree"
+],
+[
+"music-production",
+null,
+"Music Production",
+"https://www.vmi.at/music-production",
+"Conservatory programme (180–240 ECTS); the page does not name a BA/MA degree"
+],
+[
+"arts-management",
+null,
+"Music Business",
+"https://www.vmi.at/music-business",
+"Conservatory programme (180–240 ECTS); the page does not name a BA/MA degree"
+]
+],
+"B  BRUSSEL43": [
+[
+"accordion",
+"BA",
+"Instrument/Zang (campus Leuven Lemmens)",
+"https://www.luca-arts.be/nl/instrumentzang-master"
+],
+[
+"accordion",
+"MA",
+"Instrument/Zang (campus Leuven Lemmens)",
+"https://www.luca-arts.be/nl/instrumentzang-master"
+],
+[
+"guitar",
+"BA",
+"Instrument/Zang (campus Leuven Lemmens)",
+"https://www.luca-arts.be/nl/instrumentzang-master"
+],
+[
+"guitar",
+"MA",
+"Instrument/Zang (campus Leuven Lemmens)",
+"https://www.luca-arts.be/nl/instrumentzang-master"
+],
+[
+"harp",
+"BA",
+"Instrument/Zang (campus Leuven Lemmens)",
+"https://www.luca-arts.be/nl/instrumentzang-master"
+],
+[
+"harp",
+"MA",
+"Instrument/Zang (campus Leuven Lemmens)",
+"https://www.luca-arts.be/nl/instrumentzang-master"
+],
+[
+"organ",
+"BA",
+"Instrument/Zang (campus Leuven Lemmens)",
+"https://www.luca-arts.be/nl/instrumentzang-master"
+],
+[
+"organ",
+"MA",
+"Instrument/Zang (campus Leuven Lemmens)",
+"https://www.luca-arts.be/nl/instrumentzang-master"
+],
+[
+"piano",
+"BA",
+"Instrument/Zang (campus Leuven Lemmens)",
+"https://www.luca-arts.be/nl/instrumentzang-master"
+],
+[
+"piano",
+"MA",
+"Instrument/Zang (campus Leuven Lemmens)",
+"https://www.luca-arts.be/nl/instrumentzang-master"
+],
+[
+"percussion",
+"BA",
+"Instrument/Zang (campus Leuven Lemmens)",
+"https://www.luca-arts.be/nl/instrumentzang-master"
+],
+[
+"percussion",
+"MA",
+"Instrument/Zang (campus Leuven Lemmens)",
+"https://www.luca-arts.be/nl/instrumentzang-master"
+],
+[
+"vocal-opera",
+"BA",
+"Instrument/Zang (campus Leuven Lemmens)",
+"https://www.luca-arts.be/nl/instrumentzang-master"
+],
+[
+"vocal-opera",
+"MA",
+"Instrument/Zang (campus Leuven Lemmens)",
+"https://www.luca-arts.be/nl/instrumentzang-master"
+],
+[
+"strings",
+"BA",
+"Instrument/Zang (campus Leuven Lemmens)",
+"https://www.luca-arts.be/nl/instrumentzang-master"
+],
+[
+"strings",
+"MA",
+"Instrument/Zang (campus Leuven Lemmens)",
+"https://www.luca-arts.be/nl/instrumentzang-master"
+],
+[
+"brass",
+"BA",
+"Instrument/Zang (campus Leuven Lemmens)",
+"https://www.luca-arts.be/nl/instrumentzang-master"
+],
+[
+"brass",
+"MA",
+"Instrument/Zang (campus Leuven Lemmens)",
+"https://www.luca-arts.be/nl/instrumentzang-master"
+],
+[
+"folk",
+"BA",
+"Instrument/Zang – Nyckelharpa",
+"https://www.luca-arts.be/nl/instrumentzang-master"
+],
+[
+"folk",
+"MA",
+"Instrument/Zang – Nyckelharpa",
+"https://www.luca-arts.be/nl/instrumentzang-master"
+],
+[
+"composition",
+"BA",
+"Compositie",
+"https://www.luca-arts.be/nl/compositie-campus-leuven-lemmens-bachelor"
+],
+[
+"composition",
+"MA",
+"Compositie",
+"https://www.luca-arts.be/nl/compositie-campus-leuven-lemmens-bachelor"
+],
+[
+"conducting",
+"BA",
+"Directie (incl. koordirectie)",
+"https://www.luca-arts.be/nl/directie-campus-leuven-lemmens-bachelor"
+],
+[
+"conducting",
+"MA",
+"Directie (incl. koordirectie)",
+"https://www.luca-arts.be/nl/directie-campus-leuven-lemmens-bachelor"
+],
+[
+"jazz",
+"BA",
+"Jazz",
+"https://www.luca-arts.be/nl/jazz-campus-leuven-lemmens-bachelor"
+],
+[
+"jazz",
+"MA",
+"Jazz",
+"https://www.luca-arts.be/nl/jazz-campus-leuven-lemmens-bachelor"
+],
+[
+"music-education",
+"BA",
+"Muziekpedagogie",
+"https://www.luca-arts.be/nl/muziekpedagogie-campus-leuven-lemmens-bachelor"
+],
+[
+"music-education",
+"MA",
+"Educatieve Master in muziek en podiumkunsten",
+"https://www.luca-arts.be/nl/educatieve-master-in-muziek-en-podiumkunsten"
+],
+[
+"music-therapy",
+"BA",
+"Muziektherapie",
+"https://www.luca-arts.be/nl/muziektherapie-campus-leuven-lemmens-bachelor"
+],
+[
+"music-therapy",
+"MA",
+"Muziektherapie",
+"https://www.luca-arts.be/nl/muziektherapie-campus-leuven-lemmens-bachelor"
+]
+],
+"B  MONS24": [
+[
+"piano",
+"BA",
+"Piano",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/claviers/piano/"
+],
+[
+"accordion",
+"BA",
+"Accordéon",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/claviers/accordeon/"
+],
+[
+"organ",
+"BA",
+"Orgue",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/claviers/orgue/"
+],
+[
+"strings",
+"BA",
+"Alto",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/cordes/alto/"
+],
+[
+"strings",
+"BA",
+"Contrebasse",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/cordes/contrebasse/"
+],
+[
+"guitar",
+"BA",
+"Guitare",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/cordes/guitare/"
+],
+[
+"guitar",
+"BA",
+"Guitare romantique",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/cordes/guitare-romantique/"
+],
+[
+"harp",
+"BA",
+"Harpe",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/cordes/harpe/"
+],
+[
+"strings",
+"BA",
+"Violon",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/cordes/violon/"
+],
+[
+"strings",
+"BA",
+"Violoncelle",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/cordes/violoncelle/"
+],
+[
+"percussion",
+"BA",
+"Percussions",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/percussions/"
+],
+[
+"woodwind",
+"BA",
+"Basson",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/vents/basson/"
+],
+[
+"woodwind",
+"BA",
+"Clarinette",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/vents/clarinette/"
+],
+[
+"woodwind",
+"BA",
+"Clarinette basse",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/vents/clarinette-basse/"
+],
+[
+"woodwind",
+"BA",
+"Flûte",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/vents/flute/"
+],
+[
+"brass",
+"BA",
+"Cor",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/vents/cor/"
+],
+[
+"woodwind",
+"BA",
+"Hautbois",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/vents/hautbois/"
+],
+[
+"woodwind",
+"BA",
+"Saxophone",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/vents/saxophone/"
+],
+[
+"brass",
+"BA",
+"Trompette",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/vents/trompette/"
+],
+[
+"brass",
+"BA",
+"Trombone",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/vents/trombone/"
+],
+[
+"vocal-opera",
+"BA",
+"Formation vocale",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-vocale/chant/"
+],
+[
+"vocal-opera",
+"BA",
+"Chant",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-vocale/chant/"
+],
+[
+"music-theory",
+"BA",
+"Écritures Classiques",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/ecritures-et-theorie-musicale/ecritures-classiques/"
+],
+[
+"piano",
+"MA",
+"Piano",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/claviers/piano/"
+],
+[
+"accordion",
+"MA",
+"Accordéon",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/claviers/accordeon/"
+],
+[
+"organ",
+"MA",
+"Orgue",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/claviers/orgue/"
+],
+[
+"strings",
+"MA",
+"Alto",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/cordes/alto/"
+],
+[
+"strings",
+"MA",
+"Contrebasse",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/cordes/contrebasse/"
+],
+[
+"guitar",
+"MA",
+"Guitare",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/cordes/guitare/"
+],
+[
+"guitar",
+"MA",
+"Guitare romantique",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/cordes/guitare-romantique/"
+],
+[
+"harp",
+"MA",
+"Harpe",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/cordes/harpe/"
+],
+[
+"strings",
+"MA",
+"Violon",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/cordes/violon/"
+],
+[
+"strings",
+"MA",
+"Violoncelle",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/cordes/violoncelle/"
+],
+[
+"percussion",
+"MA",
+"Percussions",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/percussions/"
+],
+[
+"woodwind",
+"MA",
+"Basson",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/vents/basson/"
+],
+[
+"woodwind",
+"MA",
+"Clarinette",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/vents/clarinette/"
+],
+[
+"woodwind",
+"MA",
+"Clarinette basse",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/vents/clarinette-basse/"
+],
+[
+"woodwind",
+"MA",
+"Flûte",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/vents/flute/"
+],
+[
+"brass",
+"MA",
+"Cor",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/vents/cor/"
+],
+[
+"woodwind",
+"MA",
+"Hautbois",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/vents/hautbois/"
+],
+[
+"woodwind",
+"MA",
+"Saxophone",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/vents/saxophone/"
+],
+[
+"brass",
+"MA",
+"Trompette",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/vents/trompette/"
+],
+[
+"brass",
+"MA",
+"Trombone",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/vents/trombone/"
+],
+[
+"vocal-opera",
+"MA",
+"Formation vocale",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-vocale/chant/"
+],
+[
+"vocal-opera",
+"MA",
+"Chant",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-vocale/chant/"
+],
+[
+"music-theory",
+"MA",
+"Écritures Classiques",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/ecritures-et-theorie-musicale/ecritures-classiques/"
+],
+[
+"early-music",
+"BA",
+"Guitare romantique",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/cordes/guitare-romantique/"
+],
+[
+"early-music",
+"MA",
+"Guitare romantique",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/formation-instrumentale/cordes/guitare-romantique/"
+],
+[
+"composition",
+"BA",
+"Composition",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/composition/"
+],
+[
+"composition",
+"MA",
+"Composition",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/composition/"
+],
+[
+"composition",
+"BA",
+"Composition acousmatique; Musiques appliquées et interactives (sound design, prise de son)",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/musiques-appliquees/"
+],
+[
+"composition",
+"MA",
+"Composition acousmatique; Musiques appliquées et interactives (sound design, prise de son)",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/musiques-appliquees/"
+],
+[
+"music-technology",
+"BA",
+"Composition acousmatique; Musiques appliquées et interactives (sound design, prise de son)",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/musiques-appliquees/"
+],
+[
+"music-technology",
+"MA",
+"Composition acousmatique; Musiques appliquées et interactives (sound design, prise de son)",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/musiques-appliquees/"
+],
+[
+"conducting",
+"BA",
+"Direction d’orchestre",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/ecritures-et-theorie-musicale/direction-dorchestre/"
+],
+[
+"conducting",
+"MA",
+"Direction d’orchestre",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/ecritures-et-theorie-musicale/direction-dorchestre/"
+],
+[
+"music-theory",
+"BA",
+"Écritures classiques",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/ecritures-et-theorie-musicale/ecritures-classiques/"
+],
+[
+"music-theory",
+"MA",
+"Écritures classiques",
+"https://www.artsaucarre.be/musique-conservatoire-royal/sections/ecritures-et-theorie-musicale/ecritures-classiques/"
+],
+[
+"music-education",
+"MA",
+"Masters en enseignement",
+"https://www.artsaucarre.be/masters-en-enseignement/"
+]
+],
+"B  BRUXEL07": [
+[
+"strings",
+"BA",
+"Musique classique et contemporaine (cordes, vents, percussions, claviers, chant, composition, direction)",
+"https://www.conservatoire.be/etudes/musique-classique-et-contemporaine/"
+],
+[
+"strings",
+"MA",
+"Musique classique et contemporaine (cordes, vents, percussions, claviers, chant, composition, direction)",
+"https://www.conservatoire.be/etudes/musique-classique-et-contemporaine/"
+],
+[
+"guitar",
+"BA",
+"Musique classique et contemporaine (cordes, vents, percussions, claviers, chant, composition, direction)",
+"https://www.conservatoire.be/etudes/musique-classique-et-contemporaine/"
+],
+[
+"guitar",
+"MA",
+"Musique classique et contemporaine (cordes, vents, percussions, claviers, chant, composition, direction)",
+"https://www.conservatoire.be/etudes/musique-classique-et-contemporaine/"
+],
+[
+"harp",
+"BA",
+"Musique classique et contemporaine (cordes, vents, percussions, claviers, chant, composition, direction)",
+"https://www.conservatoire.be/etudes/musique-classique-et-contemporaine/"
+],
+[
+"harp",
+"MA",
+"Musique classique et contemporaine (cordes, vents, percussions, claviers, chant, composition, direction)",
+"https://www.conservatoire.be/etudes/musique-classique-et-contemporaine/"
+],
+[
+"woodwind",
+"BA",
+"Musique classique et contemporaine (cordes, vents, percussions, claviers, chant, composition, direction)",
+"https://www.conservatoire.be/etudes/musique-classique-et-contemporaine/"
+],
+[
+"woodwind",
+"MA",
+"Musique classique et contemporaine (cordes, vents, percussions, claviers, chant, composition, direction)",
+"https://www.conservatoire.be/etudes/musique-classique-et-contemporaine/"
+],
+[
+"brass",
+"BA",
+"Musique classique et contemporaine (cordes, vents, percussions, claviers, chant, composition, direction)",
+"https://www.conservatoire.be/etudes/musique-classique-et-contemporaine/"
+],
+[
+"brass",
+"MA",
+"Musique classique et contemporaine (cordes, vents, percussions, claviers, chant, composition, direction)",
+"https://www.conservatoire.be/etudes/musique-classique-et-contemporaine/"
+],
+[
+"percussion",
+"BA",
+"Musique classique et contemporaine (cordes, vents, percussions, claviers, chant, composition, direction)",
+"https://www.conservatoire.be/etudes/musique-classique-et-contemporaine/"
+],
+[
+"percussion",
+"MA",
+"Musique classique et contemporaine (cordes, vents, percussions, claviers, chant, composition, direction)",
+"https://www.conservatoire.be/etudes/musique-classique-et-contemporaine/"
+],
+[
+"piano",
+"BA",
+"Musique classique et contemporaine (cordes, vents, percussions, claviers, chant, composition, direction)",
+"https://www.conservatoire.be/etudes/musique-classique-et-contemporaine/"
+],
+[
+"piano",
+"MA",
+"Musique classique et contemporaine (cordes, vents, percussions, claviers, chant, composition, direction)",
+"https://www.conservatoire.be/etudes/musique-classique-et-contemporaine/"
+],
+[
+"organ",
+"BA",
+"Musique classique et contemporaine (cordes, vents, percussions, claviers, chant, composition, direction)",
+"https://www.conservatoire.be/etudes/musique-classique-et-contemporaine/"
+],
+[
+"organ",
+"MA",
+"Musique classique et contemporaine (cordes, vents, percussions, claviers, chant, composition, direction)",
+"https://www.conservatoire.be/etudes/musique-classique-et-contemporaine/"
+],
+[
+"vocal-opera",
+"BA",
+"Musique classique et contemporaine (cordes, vents, percussions, claviers, chant, composition, direction)",
+"https://www.conservatoire.be/etudes/musique-classique-et-contemporaine/"
+],
+[
+"vocal-opera",
+"MA",
+"Musique classique et contemporaine (cordes, vents, percussions, claviers, chant, composition, direction)",
+"https://www.conservatoire.be/etudes/musique-classique-et-contemporaine/"
+],
+[
+"composition",
+"BA",
+"Musique classique et contemporaine (cordes, vents, percussions, claviers, chant, composition, direction)",
+"https://www.conservatoire.be/etudes/musique-classique-et-contemporaine/"
+],
+[
+"composition",
+"MA",
+"Musique classique et contemporaine (cordes, vents, percussions, claviers, chant, composition, direction)",
+"https://www.conservatoire.be/etudes/musique-classique-et-contemporaine/"
+],
+[
+"conducting",
+"BA",
+"Musique classique et contemporaine (cordes, vents, percussions, claviers, chant, composition, direction)",
+"https://www.conservatoire.be/etudes/musique-classique-et-contemporaine/"
+],
+[
+"conducting",
+"MA",
+"Musique classique et contemporaine (cordes, vents, percussions, claviers, chant, composition, direction)",
+"https://www.conservatoire.be/etudes/musique-classique-et-contemporaine/"
+],
+[
+"jazz",
+"BA",
+"Jazz",
+"https://www.conservatoire.be/etudes/jazz/"
+],
+[
+"jazz",
+"MA",
+"Jazz",
+"https://www.conservatoire.be/etudes/jazz/"
+],
+[
+"early-music",
+"BA",
+"Musique ancienne",
+"https://www.conservatoire.be/etudes/musique-ancienne/"
+],
+[
+"early-music",
+"MA",
+"Musique ancienne",
+"https://www.conservatoire.be/etudes/musique-ancienne/"
+],
+[
+"music-education",
+"BA",
+"Bachelier en Rythmes et Rythmiques (BaRR)",
+"https://www.conservatoire.be/etudes/rythmes-et-rythmiques/"
+],
+[
+"music-education",
+"MA",
+"Master en enseignement – Musique (Formation musicale; Instrument)",
+"https://www.conservatoire.be/etudes/pedagogie/"
+]
+],
+"B  LIEGE03": [
+[
+"strings",
+"BA",
+"26-27 - Bachelier en musique : alto",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"woodwind",
+"BA",
+"26-27 - Bachelier en musique : basson",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"vocal-opera",
+"BA",
+"26-27 - Bachelier en musique : chant",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"woodwind",
+"BA",
+"26-27 - Bachelier en musique : clarinette",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"composition",
+"BA",
+"26-27 - Bachelier en musique : composition",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"strings",
+"BA",
+"26-27 - Bachelier en musique : contrebasse",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"brass",
+"BA",
+"26-27 - Bachelier en musique : cor",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"woodwind",
+"BA",
+"26-27 - Bachelier en musique : flûte traversière",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"guitar",
+"BA",
+"26-27 - Bachelier en musique : guitare",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"harp",
+"BA",
+"26-27 - Bachelier en musique : harpe",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"woodwind",
+"BA",
+"26-27 - Bachelier en musique : hautbois",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"organ",
+"BA",
+"26-27 - Bachelier en musique : orgue",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"percussion",
+"BA",
+"26-27 - Bachelier en musique : percussions",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"piano",
+"BA",
+"26-27 - Bachelier en musique : piano",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"woodwind",
+"BA",
+"26-27 - Bachelier en musique : saxophone",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"brass",
+"BA",
+"26-27 - Bachelier en musique : trombone",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"brass",
+"BA",
+"26-27 - Bachelier en musique : trompette",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"brass",
+"BA",
+"26-27 - Bachelier en musique : tuba",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"strings",
+"BA",
+"26-27 - Bachelier en musique : violon",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"strings",
+"BA",
+"26-27 - Bachelier en musique : violoncelle",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"strings",
+"MA",
+"26-27 - Master en musique : alto",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"woodwind",
+"MA",
+"26-27 - Master en musique : basson",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"vocal-opera",
+"MA",
+"26-27 - Master en musique : chant",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"woodwind",
+"MA",
+"26-27 - Master en musique : clarinette",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"composition",
+"MA",
+"26-27 - Master en musique : composition",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"strings",
+"MA",
+"26-27 - Master en musique : contrebasse",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"brass",
+"MA",
+"26-27 - Master en musique : cor",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"conducting",
+"MA",
+"26-27 - Master en musique : direction d'orchestre",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"woodwind",
+"MA",
+"26-27 - Master en musique : flûte traversière",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"guitar",
+"MA",
+"26-27 - Master en musique : guitare",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"harp",
+"MA",
+"26-27 - Master en musique : harpe",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"woodwind",
+"MA",
+"26-27 - Master en musique : hautbois",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"organ",
+"MA",
+"26-27 - Master en musique : orgue",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"percussion",
+"MA",
+"26-27 - Master en musique : percussions",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"piano",
+"MA",
+"26-27 - Master en musique : piano",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"woodwind",
+"MA",
+"26-27 - Master en musique : saxophone",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"brass",
+"MA",
+"26-27 - Master en musique : trombone",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"brass",
+"MA",
+"26-27 - Master en musique : trompette",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"brass",
+"MA",
+"26-27 - Master en musique : tuba",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"strings",
+"MA",
+"26-27 - Master en musique : violon",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"strings",
+"MA",
+"26-27 - Master en musique : violoncelle",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"music-theory",
+"MA",
+"26-27 - Master en musique : écritures classiques",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"piano",
+"MA",
+"26-27 - Master en musique : piano, à finalité approfondie",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"strings",
+"MA",
+"26-27 - Master en musique : violon, à finalité approfondie",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"strings",
+"MA",
+"26-27 - Master en musique : alto, à finalité spécialisée",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"woodwind",
+"MA",
+"26-27 - Master en musique : basson, à finalité spécialisée",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"vocal-opera",
+"MA",
+"26-27 - Master en musique : chant, à finalité spécialisée",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"early-music",
+"MA",
+"26-27 - Master en musique : chant, à finalité spécialisée (Musique ancienne)",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"vocal-opera",
+"MA",
+"26-27 - Master en musique : chant, à finalité spécialisée (Musique ancienne)",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"woodwind",
+"MA",
+"26-27 - Master en musique : clarinette, à finalité spécialisée",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"composition",
+"MA",
+"26-27 - Master en musique : composition, à finalité spécialisée",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"strings",
+"MA",
+"26-27 - Master en musique : contrebasse, à finalité spécialisée",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"brass",
+"MA",
+"26-27 - Master en musique : cor, à finalité spécialisée",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"conducting",
+"MA",
+"26-27 - Master en musique : direction d'orchestre, à finalité spécialisée",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"woodwind",
+"MA",
+"26-27 - Master en musique : flûte traversière, à finalité spécialisée",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"woodwind",
+"MA",
+"26-27 - Master en musique : flûte traversière, à finalité spécialisée (Musique contemporaine)",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"guitar",
+"MA",
+"26-27 - Master en musique : guitare, à finalité spécialisée",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"guitar",
+"MA",
+"26-27 - Master en musique : guitare, à finalité spécialisée (Musique contemporaine)",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"harp",
+"MA",
+"26-27 - Master en musique : harpe, à finalité spécialisée",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"woodwind",
+"MA",
+"26-27 - Master en musique : hautbois, à finalité spécialisée",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"organ",
+"MA",
+"26-27 - Master en musique : orgue, à finalité spécialisée",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"early-music",
+"MA",
+"26-27 - Master en musique : orgue, à finalité spécialisée (Musique ancienne)",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"percussion",
+"MA",
+"26-27 - Master en musique : percussions, à finalité spécialisée",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"piano",
+"MA",
+"26-27 - Master en musique : piano, à finalité spécialisée",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"piano",
+"MA",
+"26-27 - Master en musique : piano, à finalité spécialisée (Soliste)",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"woodwind",
+"MA",
+"26-27 - Master en musique : saxophone, à finalité spécialisée",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"brass",
+"MA",
+"26-27 - Master en musique : trombone, à finalité spécialisée",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"brass",
+"MA",
+"26-27 - Master en musique : trompette, à finalité spécialisée",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"brass",
+"MA",
+"26-27 - Master en musique : tuba, à finalité spécialisée",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"strings",
+"MA",
+"26-27 - Master en musique : violon, à finalité spécialisée",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"strings",
+"MA",
+"26-27 - Master en musique : violoncelle, à finalité spécialisée",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"strings",
+"MA",
+"26-27 - Master en musique : violoncelle, à finalité spécialisée (Musique contemporaine)",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"music-theory",
+"MA",
+"26-27 - Master en musique : écritures classiques, à finalité spécialisée",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"jazz",
+"BA",
+"Bachelier en musique : musique improvisée de tradition orale",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"chamber-music",
+"MA",
+"Master en musique, à finalité spécialisée (Musique de chambre)",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"early-music",
+"MA",
+"Master en musique : chant, à finalité spécialisée (Musique ancienne)",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"music-education",
+"BA",
+"Bachelier en enseignement section 3 : musique et éducation culturelle et artistique",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+],
+[
+"music-education",
+"MA",
+"Master en enseignement Section 4 / Section 5 : Musique",
+"https://horizon.student-crlg.be/programmes/2026-2027"
+]
+],
+"B  NAMUR13": [
+[
+"piano",
+"BA",
+"Formation instrumentale / Chant classique (études par cycles, sections, options)",
+"https://www.imep.be/etudes/"
+],
+[
+"piano",
+"MA",
+"Formation instrumentale / Chant classique (études par cycles, sections, options)",
+"https://www.imep.be/etudes/"
+],
+[
+"accordion",
+"BA",
+"Formation instrumentale / Chant classique (études par cycles, sections, options)",
+"https://www.imep.be/etudes/"
+],
+[
+"accordion",
+"MA",
+"Formation instrumentale / Chant classique (études par cycles, sections, options)",
+"https://www.imep.be/etudes/"
+],
+[
+"guitar",
+"BA",
+"Formation instrumentale / Chant classique (études par cycles, sections, options)",
+"https://www.imep.be/etudes/"
+],
+[
+"guitar",
+"MA",
+"Formation instrumentale / Chant classique (études par cycles, sections, options)",
+"https://www.imep.be/etudes/"
+],
+[
+"organ",
+"BA",
+"Formation instrumentale / Chant classique (études par cycles, sections, options)",
+"https://www.imep.be/etudes/"
+],
+[
+"organ",
+"MA",
+"Formation instrumentale / Chant classique (études par cycles, sections, options)",
+"https://www.imep.be/etudes/"
+],
+[
+"strings",
+"BA",
+"Formation instrumentale / Chant classique (études par cycles, sections, options)",
+"https://www.imep.be/etudes/"
+],
+[
+"strings",
+"MA",
+"Formation instrumentale / Chant classique (études par cycles, sections, options)",
+"https://www.imep.be/etudes/"
+],
+[
+"woodwind",
+"BA",
+"Formation instrumentale / Chant classique (études par cycles, sections, options)",
+"https://www.imep.be/etudes/"
+],
+[
+"woodwind",
+"MA",
+"Formation instrumentale / Chant classique (études par cycles, sections, options)",
+"https://www.imep.be/etudes/"
+],
+[
+"brass",
+"BA",
+"Formation instrumentale / Chant classique (études par cycles, sections, options)",
+"https://www.imep.be/etudes/"
+],
+[
+"brass",
+"MA",
+"Formation instrumentale / Chant classique (études par cycles, sections, options)",
+"https://www.imep.be/etudes/"
+],
+[
+"percussion",
+"BA",
+"Formation instrumentale / Chant classique (études par cycles, sections, options)",
+"https://www.imep.be/etudes/"
+],
+[
+"percussion",
+"MA",
+"Formation instrumentale / Chant classique (études par cycles, sections, options)",
+"https://www.imep.be/etudes/"
+],
+[
+"vocal-opera",
+"BA",
+"Formation instrumentale / Chant classique (études par cycles, sections, options)",
+"https://www.imep.be/etudes/"
+],
+[
+"vocal-opera",
+"MA",
+"Formation instrumentale / Chant classique (études par cycles, sections, options)",
+"https://www.imep.be/etudes/"
+],
+[
+"popular-music",
+"BA",
+"Musique pop (Instruments pop, Claviers pop, Guitare électrique, Chant pop)",
+"https://www.imep.be/departement-musique-pop/"
+],
+[
+"popular-music",
+"MA",
+"Musique pop (Instruments pop, Claviers pop, Guitare électrique, Chant pop)",
+"https://www.imep.be/departement-musique-pop/"
+],
+[
+"early-music",
+"BA",
+"Musique Ancienne (clavier, cordes, vents, flûte à bec, violon/violoncelle baroque)",
+"https://www.imep.be/departement-de-musique-ancienne/"
+],
+[
+"early-music",
+"MA",
+"Musique Ancienne (clavier, cordes, vents, flûte à bec, violon/violoncelle baroque)",
+"https://www.imep.be/departement-de-musique-ancienne/"
+],
+[
+"conducting",
+"BA",
+"Direction chorale",
+"https://www.imep.be/etudes/"
+],
+[
+"conducting",
+"MA",
+"Direction chorale",
+"https://www.imep.be/etudes/"
+],
+[
+"music-theory",
+"BA",
+"Écritures & informatique musicale",
+"https://www.imep.be/section-ecriture-et-theorie-musicale/"
+],
+[
+"music-theory",
+"MA",
+"Écritures & informatique musicale",
+"https://www.imep.be/section-ecriture-et-theorie-musicale/"
+],
+[
+"music-technology",
+"BA",
+"Écritures & informatique musicale",
+"https://www.imep.be/section-ecriture-et-theorie-musicale/"
+],
+[
+"music-technology",
+"MA",
+"Écritures & informatique musicale",
+"https://www.imep.be/section-ecriture-et-theorie-musicale/"
+],
+[
+"music-education",
+"BA",
+"Musique & Transmission (section pédagogique)",
+"https://www.imep.be/section-pedagogique/"
+],
+[
+"music-education",
+"MA",
+"Musique & Transmission (section pédagogique)",
+"https://www.imep.be/section-pedagogique/"
+]
+],
+"B  ANTWERP62": [
+[
+"piano",
+"BA",
+"Muziek – Toetsinstrumenten (piano, orgel)",
+"https://www.ap-arts.be/opleiding/toetsinstrumenten",
+"Koninklijk Conservatorium Antwerpen; Bachelor and Master in Muziek"
+],
+[
+"piano",
+"MA",
+"Muziek – Toetsinstrumenten (piano, orgel)",
+"https://www.ap-arts.be/opleiding/toetsinstrumenten",
+"Koninklijk Conservatorium Antwerpen; Bachelor and Master in Muziek"
+],
+[
+"organ",
+"BA",
+"Muziek – Toetsinstrumenten (piano, orgel)",
+"https://www.ap-arts.be/opleiding/toetsinstrumenten",
+"Koninklijk Conservatorium Antwerpen; Bachelor and Master in Muziek"
+],
+[
+"organ",
+"MA",
+"Muziek – Toetsinstrumenten (piano, orgel)",
+"https://www.ap-arts.be/opleiding/toetsinstrumenten",
+"Koninklijk Conservatorium Antwerpen; Bachelor and Master in Muziek"
+],
+[
+"early-music",
+"BA",
+"Muziek – Toetsinstrumenten (klavecimbel)",
+"https://www.ap-arts.be/opleiding/toetsinstrumenten"
+],
+[
+"early-music",
+"MA",
+"Muziek – Toetsinstrumenten (klavecimbel)",
+"https://www.ap-arts.be/opleiding/toetsinstrumenten"
+],
+[
+"chamber-music",
+"MA",
+"Piano – kamermuziek en begeleiding",
+"https://www.ap-arts.be/opleiding/toetsinstrumenten"
+],
+[
+"guitar",
+"BA",
+"Muziek – Tokkelinstrumenten (gitaar, harp)",
+"https://www.ap-arts.be/opleiding/tokkelinstrumenten"
+],
+[
+"guitar",
+"MA",
+"Muziek – Tokkelinstrumenten (gitaar, harp)",
+"https://www.ap-arts.be/opleiding/tokkelinstrumenten"
+],
+[
+"harp",
+"BA",
+"Muziek – Tokkelinstrumenten (gitaar, harp)",
+"https://www.ap-arts.be/opleiding/tokkelinstrumenten"
+],
+[
+"harp",
+"MA",
+"Muziek – Tokkelinstrumenten (gitaar, harp)",
+"https://www.ap-arts.be/opleiding/tokkelinstrumenten"
+],
+[
+"strings",
+"BA",
+"Muziek – Strijkinstrumenten",
+"https://www.ap-arts.be/opleiding/strijkinstrumenten"
+],
+[
+"strings",
+"MA",
+"Muziek – Strijkinstrumenten",
+"https://www.ap-arts.be/opleiding/strijkinstrumenten"
+],
+[
+"woodwind",
+"BA",
+"Muziek – Houtblazers",
+"https://www.ap-arts.be/opleiding/houtblazers"
+],
+[
+"woodwind",
+"MA",
+"Muziek – Houtblazers",
+"https://www.ap-arts.be/opleiding/houtblazers"
+],
+[
+"brass",
+"BA",
+"Muziek – Koperblazers",
+"https://www.ap-arts.be/opleiding/koperblazers"
+],
+[
+"brass",
+"MA",
+"Muziek – Koperblazers",
+"https://www.ap-arts.be/opleiding/koperblazers"
+],
+[
+"percussion",
+"BA",
+"Muziek – Percussie",
+"https://www.ap-arts.be/opleiding/percussie"
+],
+[
+"percussion",
+"MA",
+"Muziek – Percussie",
+"https://www.ap-arts.be/opleiding/percussie"
+],
+[
+"vocal-opera",
+"BA",
+"Muziek – Zang",
+"https://www.ap-arts.be/opleiding/zang"
+],
+[
+"vocal-opera",
+"MA",
+"Muziek – Zang",
+"https://www.ap-arts.be/opleiding/zang"
+],
+[
+"jazz",
+"BA",
+"Muziek – Jazz (instrument/zang)",
+"https://www.ap-arts.be/opleiding/opleiding-jazz"
+],
+[
+"jazz",
+"MA",
+"Muziek – Jazz (instrument/zang)",
+"https://www.ap-arts.be/opleiding/opleiding-jazz"
+],
+[
+"composition",
+"BA",
+"Muziek – Compositie",
+"https://www.ap-arts.be/opleiding/compositie"
+],
+[
+"composition",
+"MA",
+"Muziek – Compositie",
+"https://www.ap-arts.be/opleiding/compositie"
+],
+[
+"conducting",
+"MA",
+"Directie (master)",
+"https://www.ap-arts.be/opleiding/directie"
+],
+[
+"music-technology",
+"MA",
+"Live Electronics (master)",
+"https://www.ap-arts.be/opleiding/live-electronics"
+],
+[
+"music-education",
+"BA",
+"Educatieve bachelor Leraar Muziek",
+"https://www.ap-arts.be/opleiding/educatieve-bachelor-leraar-muziek"
+],
+[
+"music-education",
+"MA",
+"Educatieve master Muziek",
+"https://www.ap-arts.be/opleiding/educatieve-master-muziek"
+]
+],
+"B  BRUSSEL46": [
+[
+"piano",
+"BA",
+"Bachelor en master Muziek – Polyfone instrumenten & zang",
+"https://www.kcb.be/nl/Opleidingen/Muziek/Polyfone-Instrumenten-en-Zang",
+"Koninklijk Conservatorium Brussel (Erasmushogeschool Brussel)"
+],
+[
+"piano",
+"MA",
+"Bachelor en master Muziek – Polyfone instrumenten & zang",
+"https://www.kcb.be/nl/Opleidingen/Muziek/Polyfone-Instrumenten-en-Zang",
+"Koninklijk Conservatorium Brussel (Erasmushogeschool Brussel)"
+],
+[
+"harp",
+"BA",
+"Bachelor en master Muziek – Polyfone instrumenten & zang",
+"https://www.kcb.be/nl/Opleidingen/Muziek/Polyfone-Instrumenten-en-Zang",
+"Koninklijk Conservatorium Brussel (Erasmushogeschool Brussel)"
+],
+[
+"harp",
+"MA",
+"Bachelor en master Muziek – Polyfone instrumenten & zang",
+"https://www.kcb.be/nl/Opleidingen/Muziek/Polyfone-Instrumenten-en-Zang",
+"Koninklijk Conservatorium Brussel (Erasmushogeschool Brussel)"
+],
+[
+"guitar",
+"BA",
+"Bachelor en master Muziek – Polyfone instrumenten & zang",
+"https://www.kcb.be/nl/Opleidingen/Muziek/Polyfone-Instrumenten-en-Zang",
+"Koninklijk Conservatorium Brussel (Erasmushogeschool Brussel)"
+],
+[
+"guitar",
+"MA",
+"Bachelor en master Muziek – Polyfone instrumenten & zang",
+"https://www.kcb.be/nl/Opleidingen/Muziek/Polyfone-Instrumenten-en-Zang",
+"Koninklijk Conservatorium Brussel (Erasmushogeschool Brussel)"
+],
+[
+"vocal-opera",
+"BA",
+"Bachelor en master Muziek – Polyfone instrumenten & zang",
+"https://www.kcb.be/nl/Opleidingen/Muziek/Polyfone-Instrumenten-en-Zang",
+"Koninklijk Conservatorium Brussel (Erasmushogeschool Brussel)"
+],
+[
+"vocal-opera",
+"MA",
+"Bachelor en master Muziek – Polyfone instrumenten & zang",
+"https://www.kcb.be/nl/Opleidingen/Muziek/Polyfone-Instrumenten-en-Zang",
+"Koninklijk Conservatorium Brussel (Erasmushogeschool Brussel)"
+],
+[
+"strings",
+"BA",
+"Bachelor en master Muziek – Orkestinstrumenten",
+"https://www.kcb.be/nl/Opleidingen/Muziek/Orkestinstrumenten"
+],
+[
+"strings",
+"MA",
+"Bachelor en master Muziek – Orkestinstrumenten",
+"https://www.kcb.be/nl/Opleidingen/Muziek/Orkestinstrumenten"
+],
+[
+"woodwind",
+"BA",
+"Bachelor en master Muziek – Orkestinstrumenten",
+"https://www.kcb.be/nl/Opleidingen/Muziek/Orkestinstrumenten"
+],
+[
+"woodwind",
+"MA",
+"Bachelor en master Muziek – Orkestinstrumenten",
+"https://www.kcb.be/nl/Opleidingen/Muziek/Orkestinstrumenten"
+],
+[
+"brass",
+"BA",
+"Bachelor en master Muziek – Orkestinstrumenten",
+"https://www.kcb.be/nl/Opleidingen/Muziek/Orkestinstrumenten"
+],
+[
+"brass",
+"MA",
+"Bachelor en master Muziek – Orkestinstrumenten",
+"https://www.kcb.be/nl/Opleidingen/Muziek/Orkestinstrumenten"
+],
+[
+"percussion",
+"BA",
+"Bachelor en master Muziek – Orkestinstrumenten",
+"https://www.kcb.be/nl/Opleidingen/Muziek/Orkestinstrumenten"
+],
+[
+"percussion",
+"MA",
+"Bachelor en master Muziek – Orkestinstrumenten",
+"https://www.kcb.be/nl/Opleidingen/Muziek/Orkestinstrumenten"
+],
+[
+"early-music",
+"BA",
+"Bachelor en master Muziek – Historische instrumenten",
+"https://www.kcb.be/nl/Opleidingen/Muziek/Historische-Instrumenten"
+],
+[
+"early-music",
+"MA",
+"Bachelor en master Muziek – Historische instrumenten",
+"https://www.kcb.be/nl/Opleidingen/Muziek/Historische-Instrumenten"
+],
+[
+"jazz",
+"BA",
+"Bachelor en master Muziek – Jazz",
+"https://www.kcb.be/Opleidingen/Muziek/Jazz-Lichte-Muziek"
+],
+[
+"jazz",
+"MA",
+"Bachelor en master Muziek – Jazz",
+"https://www.kcb.be/Opleidingen/Muziek/Jazz-Lichte-Muziek"
+],
+[
+"composition",
+"BA",
+"Compositie, Directie & Muziekschriftuur",
+"https://www.kcb.be/Opleidingen/Muziek/Compositie-Directie-Muziektheorie-schriftuur"
+],
+[
+"composition",
+"MA",
+"Compositie, Directie & Muziekschriftuur",
+"https://www.kcb.be/Opleidingen/Muziek/Compositie-Directie-Muziektheorie-schriftuur"
+],
+[
+"conducting",
+"BA",
+"Compositie, Directie & Muziekschriftuur",
+"https://www.kcb.be/Opleidingen/Muziek/Compositie-Directie-Muziektheorie-schriftuur"
+],
+[
+"conducting",
+"MA",
+"Compositie, Directie & Muziekschriftuur",
+"https://www.kcb.be/Opleidingen/Muziek/Compositie-Directie-Muziektheorie-schriftuur"
+],
+[
+"music-theory",
+"BA",
+"Compositie, Directie & Muziekschriftuur",
+"https://www.kcb.be/Opleidingen/Muziek/Compositie-Directie-Muziektheorie-schriftuur"
+],
+[
+"music-theory",
+"MA",
+"Compositie, Directie & Muziekschriftuur",
+"https://www.kcb.be/Opleidingen/Muziek/Compositie-Directie-Muziektheorie-schriftuur"
+],
+[
+"music-education",
+"MA",
+"Educatieve Master Muziek en Podiumkunsten",
+"https://www.kcb.be/nl/opleidingen/educatieve-master-muziek-en-podiumkunsten"
+]
+],
+"B  GENT25": [
+[
+"strings",
+"BA",
+"Bachelor + master muziek – Klassieke muziek",
+"https://schoolofartsgent.be/studeren/opleidingen/klassieke-muziek"
+],
+[
+"strings",
+"MA",
+"Bachelor + master muziek – Klassieke muziek",
+"https://schoolofartsgent.be/studeren/opleidingen/klassieke-muziek"
+],
+[
+"woodwind",
+"BA",
+"Bachelor + master muziek – Klassieke muziek",
+"https://schoolofartsgent.be/studeren/opleidingen/klassieke-muziek"
+],
+[
+"woodwind",
+"MA",
+"Bachelor + master muziek – Klassieke muziek",
+"https://schoolofartsgent.be/studeren/opleidingen/klassieke-muziek"
+],
+[
+"brass",
+"BA",
+"Bachelor + master muziek – Klassieke muziek",
+"https://schoolofartsgent.be/studeren/opleidingen/klassieke-muziek"
+],
+[
+"brass",
+"MA",
+"Bachelor + master muziek – Klassieke muziek",
+"https://schoolofartsgent.be/studeren/opleidingen/klassieke-muziek"
+],
+[
+"harp",
+"BA",
+"Bachelor + master muziek – Klassieke muziek",
+"https://schoolofartsgent.be/studeren/opleidingen/klassieke-muziek"
+],
+[
+"harp",
+"MA",
+"Bachelor + master muziek – Klassieke muziek",
+"https://schoolofartsgent.be/studeren/opleidingen/klassieke-muziek"
+],
+[
+"percussion",
+"BA",
+"Bachelor + master muziek – Klassieke muziek",
+"https://schoolofartsgent.be/studeren/opleidingen/klassieke-muziek"
+],
+[
+"percussion",
+"MA",
+"Bachelor + master muziek – Klassieke muziek",
+"https://schoolofartsgent.be/studeren/opleidingen/klassieke-muziek"
+],
+[
+"piano",
+"BA",
+"Bachelor + master muziek – Klassieke muziek",
+"https://schoolofartsgent.be/studeren/opleidingen/klassieke-muziek"
+],
+[
+"piano",
+"MA",
+"Bachelor + master muziek – Klassieke muziek",
+"https://schoolofartsgent.be/studeren/opleidingen/klassieke-muziek"
+],
+[
+"organ",
+"BA",
+"Bachelor + master muziek – Klassieke muziek",
+"https://schoolofartsgent.be/studeren/opleidingen/klassieke-muziek"
+],
+[
+"organ",
+"MA",
+"Bachelor + master muziek – Klassieke muziek",
+"https://schoolofartsgent.be/studeren/opleidingen/klassieke-muziek"
+],
+[
+"guitar",
+"BA",
+"Bachelor + master muziek – Klassieke muziek",
+"https://schoolofartsgent.be/studeren/opleidingen/klassieke-muziek"
+],
+[
+"guitar",
+"MA",
+"Bachelor + master muziek – Klassieke muziek",
+"https://schoolofartsgent.be/studeren/opleidingen/klassieke-muziek"
+],
+[
+"vocal-opera",
+"BA",
+"Bachelor + master muziek – Klassieke muziek",
+"https://schoolofartsgent.be/studeren/opleidingen/klassieke-muziek"
+],
+[
+"vocal-opera",
+"MA",
+"Bachelor + master muziek – Klassieke muziek",
+"https://schoolofartsgent.be/studeren/opleidingen/klassieke-muziek"
+],
+[
+"jazz",
+"BA",
+"Bachelor + master muziek – Jazz & pop",
+"https://schoolofartsgent.be/studeren/opleidingen/jazz-pop"
+],
+[
+"jazz",
+"MA",
+"Bachelor + master muziek – Jazz & pop",
+"https://schoolofartsgent.be/studeren/opleidingen/jazz-pop"
+],
+[
+"popular-music",
+"BA",
+"Bachelor + master muziek – Jazz & pop",
+"https://schoolofartsgent.be/studeren/opleidingen/jazz-pop"
+],
+[
+"popular-music",
+"MA",
+"Bachelor + master muziek – Jazz & pop",
+"https://schoolofartsgent.be/studeren/opleidingen/jazz-pop"
+],
+[
+"composition",
+"BA",
+"Bachelor + master muziek – Compositie",
+"https://schoolofartsgent.be/studeren/opleidingen/compositie"
+],
+[
+"composition",
+"MA",
+"Bachelor + master muziek – Compositie",
+"https://schoolofartsgent.be/studeren/opleidingen/compositie"
+],
+[
+"composition",
+"MA",
+"Compositie Media & Video Games; International Master in Composition for Screen",
+"https://schoolofartsgent.be/studeren/opleidingen/compositie-media-video-games"
+],
+[
+"music-theory",
+"MA",
+"Master muziek – Muziektheorie/schriftuur",
+"https://schoolofartsgent.be/studeren/opleidingen/muziektheorie-schriftuur"
+],
+[
+"music-production",
+"BA",
+"Bachelor + master muziek – Muziekproductie",
+"https://schoolofartsgent.be/studeren/opleidingen/muziekproductie"
+],
+[
+"music-production",
+"MA",
+"Bachelor + master muziek – Muziekproductie",
+"https://schoolofartsgent.be/studeren/opleidingen/muziekproductie"
+],
+[
+"music-education",
+"MA",
+"Educatieve master",
+"https://schoolofartsgent.be/studeren/opleidingen/educatieve-master"
+]
+]
+},
+"notes": {
+"B  GENT40": "The Orpheus Institute offers only doctoral study (docARTES) and research residencies, not degree programmes in named fields."
+}
+}

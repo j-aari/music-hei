@@ -36,7 +36,7 @@
   let contacts = null;               // data/contacts.json, or null if the file couldn't be loaded
   let networks = null;               // data/networks.json, or null if the file couldn't be loaded
   let programmes = null;             // data/programmes.json + data/disciplines.json, or null if either couldn't be loaded
-  const state = { view: 'list', sort: 'country', q: '', country: new Set(), type: new Set(), language: new Set(), partner: new Set(), strategy: new Set(), network: new Set(), id: null };
+  const state = { view: 'list', sort: 'country', q: '', country: new Set(), type: new Set(), language: new Set(), partner: new Set(), strategy: new Set(), network: new Set(), field: new Set(), id: null };
   let langNames;
   let hasPartnerData = false, hasLanguageData = false, hasStrategyData = false, hasNetworkData = false;
   let lastTrigger = null;
@@ -62,6 +62,13 @@
       },
       text: (v) => ({ aec: 'AEC member', 'not-aec': 'Not an AEC member', eua: 'EUA member' })[v],
     },
+    field: {
+      label: 'Field of study',
+      // Fields come from the groups of disciplines.json. Institutions whose programmes have not been collected have no
+      // value, so they never match once this filter is active (the coverage line under the group says how many are in)
+      values: (i) => (programmes && programmes.fieldsByCode.get(i.id)) || [],
+      text: (v) => (programmes && programmes.groupNames.get(v)) || v,
+    },
     strategy: {
       label: 'Strategy documents',
       // No value at all for institutions not yet checked, so they can never match once this filter is active
@@ -70,7 +77,7 @@
     },
   };
   // Country last: it is the longest list, so the short groups stay in view without scrolling the sidebar
-  const GROUP_ORDER = ['type', 'strategy', 'network', 'language', 'partner', 'country'];
+  const GROUP_ORDER = ['field', 'type', 'strategy', 'network', 'language', 'partner', 'country'];
   let strategyStatusByCode = new Map();
   const strategyStatusOf = (code) => strategyStatusByCode.get(code) || null;
 
@@ -131,9 +138,10 @@
     if (g === 'partner') return ['yes', 'no', 'unknown'].filter((v) => set.has(v));
     if (g === 'strategy') return STRATEGY_STATUS_ORDER; // fixed set, shown in full even when a status has zero institutions
     if (g === 'network') return ['aec', 'not-aec', 'eua'].filter((v) => set.has(v));
+    if (g === 'field') return arr.sort((a, b) => GROUPS.field.text(a).localeCompare(GROUPS.field.text(b), 'en'));
     return arr.sort();
   }
-  const groupVisible = (g) => (g === 'language' ? hasLanguageData : g === 'partner' ? hasPartnerData : g === 'strategy' ? hasStrategyData : g === 'network' ? hasNetworkData : true);
+  const groupVisible = (g) => (g === 'language' ? hasLanguageData : g === 'partner' ? hasPartnerData : g === 'strategy' ? hasStrategyData : g === 'network' ? hasNetworkData : g === 'field' ? !!programmes : true);
 
   function buildFilters() {
     const host = $('#filter-groups');
@@ -151,6 +159,7 @@
       }
       const fs = h('fieldset', { class: `group group--${g}` }, h('legend', { text: GROUPS[g].label }), ul);
       if (g === 'partner') fs.append(h('p', { class: 'group__source', text: `Source: ${meta.partner_source_name}.` }));
+      if (g === 'field') fs.append(h('p', { class: 'group__source', text: `Programmes collected for ${programmes.meta.institutions.length} of ${data.length} institutions so far; the others are not shown when a field is selected.` }));
       host.append(fs);
     }
     const missing = [];
@@ -417,7 +426,8 @@
     section.append(h('p', { class: 'panel__coverage', text: `Programme data covers ${pm.institutions.length} of ${data.length} institutions.` }));
     const recs = byCode.get(i.id) || [];
     if (!recs.length) {
-      section.append(h('p', { class: 'strategy-empty', text: 'Not collected yet. See the institution’s website for its programmes.' }));
+      const note = (pm.institution_notes || {})[i.id];
+      section.append(h('p', { class: 'strategy-empty', text: note || 'Not collected yet. See the institution’s website for its programmes.' }));
       return section;
     }
     const byDisc = new Map(recs.map((r) => [r.discipline, r]));
@@ -731,7 +741,9 @@
     if (prog && disc) {
       const byCode = new Map();
       for (const r of prog.programmes) (byCode.get(r.erasmus_code) || byCode.set(r.erasmus_code, []).get(r.erasmus_code)).push(r);
-      programmes = { meta: prog.meta, byCode, groups: disc.groups, levelNames: disc.levels, disciplines: new Map(disc.disciplines.map((d) => [d.id, d.name])) };
+      const groupOf = new Map(disc.groups.flatMap((g) => g.disciplines.map((d) => [d, g.id])));
+      const fieldsByCode = new Map([...byCode].map(([code, recs]) => [code, [...new Set(recs.map((r) => groupOf.get(r.discipline)).filter(Boolean))]]));
+      programmes = { meta: prog.meta, byCode, fieldsByCode, groups: disc.groups, groupNames: new Map(disc.groups.map((g) => [g.id, g.name])), levelNames: disc.levels, disciplines: new Map(disc.disciplines.map((d) => [d.id, d.name])) };
     }
     hasNetworkData = !!(networks && networks.networks.some((n) => n.id === 'aec' && n.mapped));
 
