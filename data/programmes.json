@@ -1,6 +1,6 @@
 {
  "meta": {
-  "description": "Study programmes per institution and fine-grained discipline (see disciplines.json). Collected so far: 60 institutions.",
+  "description": "Study programmes per institution and fine-grained discipline (see disciplines.json). Collected so far: 71 institutions.",
   "status": "pilot",
   "collected": "2026-10-08",
   "verified_note": "Every record has verified: false. Programme names and URLs were read from the institutions' own websites (programme lists and programme pages) but have not been checked by a person.",
@@ -39,6 +39,17 @@
    "CY NICOSIA24",
    "CZ BRNO03",
    "CZ PRAHA04",
+   "D  BERLIN16",
+   "D  DETMOLD01",
+   "D  ESSEN02",
+   "D  FREIBUR03",
+   "D  HALLE04",
+   "D  KARLSRU03",
+   "D  KOLN03",
+   "D  NURNBER04",
+   "D  REGENSB03",
+   "D  TUBINGE02",
+   "D  WEIMAR02",
    "DK ARHUS05",
    "DK KOBENHA09",
    "DK KOBENHA39",
@@ -160,6 +171,23 @@
      "SF OULU11",
      "SF TAMPERE06",
      "SF TURKU05"
+    ],
+    "date": "2026-10-08",
+    "method": "Field-level collection as in batch 1 (raw HTML of each institution's own programme pages, PDFs where the list was only there; names mapped to disciplines.json by keyword and checked by hand)."
+   },
+   {
+    "erasmus_codes": [
+     "D  BERLIN16",
+     "D  DETMOLD01",
+     "D  ESSEN02",
+     "D  FREIBUR03",
+     "D  HALLE04",
+     "D  KARLSRU03",
+     "D  KOLN03",
+     "D  NURNBER04",
+     "D  REGENSB03",
+     "D  TUBINGE02",
+     "D  WEIMAR02"
     ],
     "date": "2026-10-08",
     "method": "Field-level collection as in batch 1 (raw HTML of each institution's own programme pages, PDFs where the list was only there; names mapped to disciplines.json by keyword and checked by hand)."
@@ -18254,6 +18282,3438 @@
      "level": "BA",
      "programme_name": "Diplôme d’État de professeur de musiques et chants traditionnels de Corse et Méditerranée",
      "url": "https://iesm.fr/formations-inscriptions/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HALLE04",
+   "discipline": "church-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.ehk-halle.de/studiengaenge",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelorstudium Kirchenmusik; Masterstudium Kirchenmusik",
+     "url": "https://www.ehk-halle.de/studiengaenge"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelorstudium Kirchenmusik; Masterstudium Kirchenmusik",
+     "url": "https://www.ehk-halle.de/studiengaenge"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HALLE04",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.ehk-halle.de/studiengaenge",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelorstudium Kirchenmusik; Masterstudium Kirchenmusik",
+     "url": "https://www.ehk-halle.de/studiengaenge"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelorstudium Kirchenmusik; Masterstudium Kirchenmusik",
+     "url": "https://www.ehk-halle.de/studiengaenge"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HALLE04",
+   "discipline": "music-education",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.ehk-halle.de/studiengaenge",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kombistudium Bachelor Kirchenmusik / Lehramt Musik an Gymnasien",
+     "url": "https://www.ehk-halle.de/studiengaenge"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HALLE04",
+   "discipline": "conducting",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.ehk-halle.de/studiengaenge",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Masterstudium Chor- und Orchesterleitung",
+     "url": "https://www.ehk-halle.de/studiengaenge"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HALLE04",
+   "discipline": "popular-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.ehk-halle.de/studiengaenge",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Masterstudium Kirchliche Popularmusik",
+     "url": "https://www.ehk-halle.de/studiengaenge"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  HALLE04",
+   "discipline": "vocal-opera",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.ehk-halle.de/studiengaenge",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Masterstudium Konzert- und Oratoriengesang",
+     "url": "https://www.ehk-halle.de/studiengaenge"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  REGENSB03",
+   "discipline": "church-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfkm-regensburg.de/studium/bachelor-studiengaenge/katholische-kirchenmusik/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Katholische Kirchenmusik",
+     "url": "https://www.hfkm-regensburg.de/studium/bachelor-studiengaenge/katholische-kirchenmusik/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kath. Kirchenmusik (Master)",
+     "url": "https://www.hfkm-regensburg.de/studium/master-studiengaenge/katholische-kirchenmusik/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  REGENSB03",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfkm-regensburg.de/studium/bachelor-studiengaenge/dirigieren-chorleitung/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Dirigieren/Chorleitung",
+     "url": "https://www.hfkm-regensburg.de/studium/bachelor-studiengaenge/dirigieren-chorleitung/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Dirigieren/Chorleitung",
+     "url": "https://www.hfkm-regensburg.de/studium/master-studiengaenge/dirigieren-chorleitung/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  REGENSB03",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfkm-regensburg.de/studium/bachelor-studiengaenge/orgel/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Orgel",
+     "url": "https://www.hfkm-regensburg.de/studium/bachelor-studiengaenge/orgel/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Konzertfach Orgel",
+     "url": "https://www.hfkm-regensburg.de/studium/master-studiengaenge/konzertfach-orgel/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  REGENSB03",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfkm-regensburg.de/studium/bachelor-studiengaenge/cembalo-historisches-tasteninstrument/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Cembalo/Historisches Tasteninstrument",
+     "url": "https://www.hfkm-regensburg.de/studium/bachelor-studiengaenge/cembalo-historisches-tasteninstrument/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Konzertfach Cembalo/Historisches Tasteninstrument",
+     "url": "https://www.hfkm-regensburg.de/studium/master-studiengaenge/konzertfach-cembalo-historisches-tasteninstrument/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  REGENSB03",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfkm-regensburg.de/studium/bachelor-studiengaenge/klavier-kp/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Klavier",
+     "url": "https://www.hfkm-regensburg.de/studium/bachelor-studiengaenge/klavier-kp/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Klavier",
+     "url": "https://www.hfkm-regensburg.de/studium/master-studiengaenge/musikpaedagogik-kuenstlerisches-kernfach-klavier/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  REGENSB03",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfkm-regensburg.de/studium/bachelor-studiengaenge/violine-kp/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Violine",
+     "url": "https://www.hfkm-regensburg.de/studium/bachelor-studiengaenge/violine-kp/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Violine",
+     "url": "https://www.hfkm-regensburg.de/studium/master-studiengaenge/musikpaedagogik-kuenstlerisches-kernfach-violine/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  REGENSB03",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfkm-regensburg.de/studium/bachelor-studiengaenge/querfloete-kp/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Querflöte",
+     "url": "https://www.hfkm-regensburg.de/studium/bachelor-studiengaenge/querfloete-kp/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Querflöte",
+     "url": "https://www.hfkm-regensburg.de/studium/master-studiengaenge/musikpaedagogik-kuenstlerisches-kernfach-querfloete/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  REGENSB03",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfkm-regensburg.de/studium/bachelor-studiengaenge/posaune-kp/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Posaune",
+     "url": "https://www.hfkm-regensburg.de/studium/bachelor-studiengaenge/posaune-kp/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Posaune",
+     "url": "https://www.hfkm-regensburg.de/studium/master-studiengaenge/musikpaedagogik-kuenstlerisches-kernfach-posaune/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  REGENSB03",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfkm-regensburg.de/studium/bachelor-studiengaenge/gesang-kp/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Gesang",
+     "url": "https://www.hfkm-regensburg.de/studium/bachelor-studiengaenge/gesang-kp/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Gregorianik/Liturgiegesang",
+     "url": "https://www.hfkm-regensburg.de/studium/master-studiengaenge/gregorianik-liturgiegesang/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  REGENSB03",
+   "discipline": "composition",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.hfkm-regensburg.de/studium/master-studiengaenge/kirchliche-komposition/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Kirchliche Komposition",
+     "url": "https://www.hfkm-regensburg.de/studium/master-studiengaenge/kirchliche-komposition/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  REGENSB03",
+   "discipline": "music-theory",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.hfkm-regensburg.de/studium/master-studiengaenge/musiktheorie/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Musiktheorie",
+     "url": "https://www.hfkm-regensburg.de/studium/master-studiengaenge/musiktheorie/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  REGENSB03",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfkm-regensburg.de/studium/bachelor-studiengaenge/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikpädagogik (künstlerisches Kernfach); Schulmusik/Lehramt Gymnasium",
+     "url": "https://www.hfkm-regensburg.de/studium/bachelor-studiengaenge/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musikpädagogik (künstlerisches Kernfach); Schulmusik/Lehramt Gymnasium",
+     "url": "https://www.hfkm-regensburg.de/studium/bachelor-studiengaenge/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  REGENSB03",
+   "discipline": "popular-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.hfkm-regensburg.de/studium/master-studiengaenge/neue-geistliche-musik/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Neue Geistliche Musik",
+     "url": "https://www.hfkm-regensburg.de/studium/master-studiengaenge/neue-geistliche-musik/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  BERLIN16",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-berlin.de/studium/studienfaecher/violine/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Violine",
+     "url": "https://www.hfm-berlin.de/studium/studienfaecher/violine/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Violine",
+     "url": "https://www.hfm-berlin.de/studium/studienfaecher/violine/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  BERLIN16",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-berlin.de/studium/studienfaecher/harfe/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Harfe",
+     "url": "https://www.hfm-berlin.de/studium/studienfaecher/harfe/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Harfe",
+     "url": "https://www.hfm-berlin.de/studium/studienfaecher/harfe/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  BERLIN16",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-berlin.de/studium/studienfaecher/gitarre/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Gitarre",
+     "url": "https://www.hfm-berlin.de/studium/studienfaecher/gitarre/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Gitarre",
+     "url": "https://www.hfm-berlin.de/studium/studienfaecher/gitarre/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  BERLIN16",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-berlin.de/studium/studienfaecher/quer-floete/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "(Quer-)Flöte",
+     "url": "https://www.hfm-berlin.de/studium/studienfaecher/quer-floete/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "(Quer-)Flöte",
+     "url": "https://www.hfm-berlin.de/studium/studienfaecher/quer-floete/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  BERLIN16",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-berlin.de/studium/studienfaecher/horn/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Horn",
+     "url": "https://www.hfm-berlin.de/studium/studienfaecher/horn/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Horn",
+     "url": "https://www.hfm-berlin.de/studium/studienfaecher/horn/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  BERLIN16",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-berlin.de/studium/studienfaecher/schlagzeug/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Schlagzeug",
+     "url": "https://www.hfm-berlin.de/studium/studienfaecher/schlagzeug/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Schlagzeug",
+     "url": "https://www.hfm-berlin.de/studium/studienfaecher/schlagzeug/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  BERLIN16",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-berlin.de/studium/studienfaecher/klavier/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Klavier",
+     "url": "https://www.hfm-berlin.de/studium/studienfaecher/klavier/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Klavier",
+     "url": "https://www.hfm-berlin.de/studium/studienfaecher/klavier/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  BERLIN16",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-berlin.de/studium/studienfaecher/gesang/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Gesang",
+     "url": "https://www.hfm-berlin.de/studium/studienfaecher/gesang/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Gesang",
+     "url": "https://www.hfm-berlin.de/studium/studienfaecher/gesang/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  BERLIN16",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-berlin.de/studium/studienfaecher/komposition/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Komposition",
+     "url": "https://www.hfm-berlin.de/studium/studienfaecher/komposition/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Komposition",
+     "url": "https://www.hfm-berlin.de/studium/studienfaecher/komposition/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  BERLIN16",
+   "discipline": "music-technology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-berlin.de/studium/studienfaecher/elektroakustische-musik/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Elektroakustische Musik",
+     "url": "https://www.hfm-berlin.de/studium/studienfaecher/elektroakustische-musik/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Elektroakustische Musik",
+     "url": "https://www.hfm-berlin.de/studium/studienfaecher/elektroakustische-musik/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  BERLIN16",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-berlin.de/studium/studienfaecher/orchesterdirigieren/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Orchesterdirigieren",
+     "url": "https://www.hfm-berlin.de/studium/studienfaecher/orchesterdirigieren/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Orchesterdirigieren",
+     "url": "https://www.hfm-berlin.de/studium/studienfaecher/orchesterdirigieren/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  BERLIN16",
+   "discipline": "music-theory",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-berlin.de/studium/studienfaecher/historischer-und-zeitgenoessischer-tonsatz/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Historischer und Zeitgenössischer Tonsatz",
+     "url": "https://www.hfm-berlin.de/studium/studienfaecher/historischer-und-zeitgenoessischer-tonsatz/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Historischer und Zeitgenössischer Tonsatz",
+     "url": "https://www.hfm-berlin.de/studium/studienfaecher/historischer-und-zeitgenoessischer-tonsatz/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  BERLIN16",
+   "discipline": "chamber-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.hfm-berlin.de/studium/studienfaecher/kammermusik/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Kammermusik",
+     "url": "https://www.hfm-berlin.de/studium/studienfaecher/kammermusik/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  ESSEN02",
+   "discipline": "accordion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.folkwang-uni.de/home/musik/studiengaenge/instrumentalausbildung-bmus/basisinfos-bewerbung",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalausbildung – Bachelor of Music",
+     "url": "https://www.folkwang-uni.de/home/musik/studiengaenge/instrumentalausbildung-bmus/basisinfos-bewerbung"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalausbildung – Master of Music; Instrumentale Spezialisierung; Orchesterspiel",
+     "url": "https://www.folkwang-uni.de/home/musik/studiengaenge/instrumentalausbildung-mmus-2"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  ESSEN02",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.folkwang-uni.de/home/musik/studiengaenge/instrumentalausbildung-bmus/basisinfos-bewerbung",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalausbildung – Bachelor of Music",
+     "url": "https://www.folkwang-uni.de/home/musik/studiengaenge/instrumentalausbildung-bmus/basisinfos-bewerbung"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalausbildung – Master of Music; Instrumentale Spezialisierung; Orchesterspiel",
+     "url": "https://www.folkwang-uni.de/home/musik/studiengaenge/instrumentalausbildung-mmus-2"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  ESSEN02",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.folkwang-uni.de/home/musik/studiengaenge/instrumentalausbildung-bmus/basisinfos-bewerbung",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalausbildung – Bachelor of Music",
+     "url": "https://www.folkwang-uni.de/home/musik/studiengaenge/instrumentalausbildung-bmus/basisinfos-bewerbung"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalausbildung – Master of Music; Instrumentale Spezialisierung; Orchesterspiel",
+     "url": "https://www.folkwang-uni.de/home/musik/studiengaenge/instrumentalausbildung-mmus-2"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  ESSEN02",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.folkwang-uni.de/home/musik/studiengaenge/instrumentalausbildung-bmus/basisinfos-bewerbung",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalausbildung – Bachelor of Music",
+     "url": "https://www.folkwang-uni.de/home/musik/studiengaenge/instrumentalausbildung-bmus/basisinfos-bewerbung"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalausbildung – Master of Music; Instrumentale Spezialisierung; Orchesterspiel",
+     "url": "https://www.folkwang-uni.de/home/musik/studiengaenge/instrumentalausbildung-mmus-2"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  ESSEN02",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.folkwang-uni.de/home/musik/studiengaenge/instrumentalausbildung-bmus/basisinfos-bewerbung",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalausbildung – Bachelor of Music",
+     "url": "https://www.folkwang-uni.de/home/musik/studiengaenge/instrumentalausbildung-bmus/basisinfos-bewerbung"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalausbildung – Master of Music; Instrumentale Spezialisierung; Orchesterspiel",
+     "url": "https://www.folkwang-uni.de/home/musik/studiengaenge/instrumentalausbildung-mmus-2"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  ESSEN02",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.folkwang-uni.de/home/musik/studiengaenge/instrumentalausbildung-bmus/basisinfos-bewerbung",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalausbildung – Bachelor of Music",
+     "url": "https://www.folkwang-uni.de/home/musik/studiengaenge/instrumentalausbildung-bmus/basisinfos-bewerbung"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalausbildung – Master of Music; Instrumentale Spezialisierung; Orchesterspiel",
+     "url": "https://www.folkwang-uni.de/home/musik/studiengaenge/instrumentalausbildung-mmus-2"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  ESSEN02",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.folkwang-uni.de/home/musik/studiengaenge/instrumentalausbildung-bmus/basisinfos-bewerbung",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalausbildung – Bachelor of Music",
+     "url": "https://www.folkwang-uni.de/home/musik/studiengaenge/instrumentalausbildung-bmus/basisinfos-bewerbung"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalausbildung – Master of Music; Instrumentale Spezialisierung; Orchesterspiel",
+     "url": "https://www.folkwang-uni.de/home/musik/studiengaenge/instrumentalausbildung-mmus-2"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  ESSEN02",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.folkwang-uni.de/home/musik/studiengaenge/instrumentalausbildung-bmus/basisinfos-bewerbung",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalausbildung – Bachelor of Music",
+     "url": "https://www.folkwang-uni.de/home/musik/studiengaenge/instrumentalausbildung-bmus/basisinfos-bewerbung"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalausbildung – Master of Music; Instrumentale Spezialisierung; Orchesterspiel",
+     "url": "https://www.folkwang-uni.de/home/musik/studiengaenge/instrumentalausbildung-mmus-2"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  ESSEN02",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.folkwang-uni.de/home/musik/studiengaenge/instrumentalausbildung-bmus/basisinfos-bewerbung",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalausbildung – Bachelor of Music",
+     "url": "https://www.folkwang-uni.de/home/musik/studiengaenge/instrumentalausbildung-bmus/basisinfos-bewerbung"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalausbildung – Master of Music; Instrumentale Spezialisierung; Orchesterspiel",
+     "url": "https://www.folkwang-uni.de/home/musik/studiengaenge/instrumentalausbildung-mmus-2"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  ESSEN02",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.folkwang-uni.de/home/musik/studiengaenge/instrumentalausbildung-bmus/basisinfos-bewerbung",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalausbildung: Barockvioline, -viola, -cello, Blockflöte, Cembalo, historische Tasteninstrumente, Traversflöte; Musik des Mittelalters (M.Mus.)",
+     "url": "https://www.folkwang-uni.de/home/musik/studiengaenge/instrumentalausbildung-bmus/basisinfos-bewerbung"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalausbildung: Barockvioline, -viola, -cello, Blockflöte, Cembalo, historische Tasteninstrumente, Traversflöte; Musik des Mittelalters (M.Mus.)",
+     "url": "https://www.folkwang-uni.de/home/musik/studiengaenge/instrumentalausbildung-bmus/basisinfos-bewerbung"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  ESSEN02",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.folkwang-uni.de/home/musik/studiengaenge/integrative-komposition-bmus",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Integrative Komposition (B.Mus., M.Mus.)",
+     "url": "https://www.folkwang-uni.de/home/musik/studiengaenge/integrative-komposition-bmus"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Integrative Komposition (B.Mus., M.Mus.)",
+     "url": "https://www.folkwang-uni.de/home/musik/studiengaenge/integrative-komposition-bmus"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  ESSEN02",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.folkwang-uni.de/home/musik/studiengaenge/jazz-performing-artist",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Jazz | Performing Artist (B.Mus.); Jazz | Improvising Artist; Jazz | Artistic Producer",
+     "url": "https://www.folkwang-uni.de/home/musik/studiengaenge/jazz-performing-artist"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Jazz | Performing Artist (B.Mus.); Jazz | Improvising Artist; Jazz | Artistic Producer",
+     "url": "https://www.folkwang-uni.de/home/musik/studiengaenge/jazz-performing-artist"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  ESSEN02",
+   "discipline": "popular-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.folkwang-uni.de/home/musik/studiengaenge/populaere-musik",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Populäre Musik (M.Mus.)",
+     "url": "https://www.folkwang-uni.de/home/musik/studiengaenge/populaere-musik"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  ESSEN02",
+   "discipline": "music-production",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.folkwang-uni.de/home/musik/studiengaenge/professional-media-creation",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Professional Media Creation – Master of Arts",
+     "url": "https://www.folkwang-uni.de/home/musik/studiengaenge/professional-media-creation"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  ESSEN02",
+   "discipline": "conducting",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.folkwang-uni.de/home/musik/studiengaenge/leitung-vokaler-ensembles",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Leitung vokaler Ensembles",
+     "url": "https://www.folkwang-uni.de/home/musik/studiengaenge/leitung-vokaler-ensembles"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  ESSEN02",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.folkwang-uni.de/home/theater/studiengaenge/gesang-musiktheater-bmus",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Gesang | Musiktheater (B.Mus., M.Mus.)",
+     "url": "https://www.folkwang-uni.de/home/theater/studiengaenge/gesang-musiktheater-bmus"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Gesang | Musiktheater (B.Mus., M.Mus.)",
+     "url": "https://www.folkwang-uni.de/home/theater/studiengaenge/gesang-musiktheater-bmus"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  ESSEN02",
+   "discipline": "music-education",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.folkwang-uni.de/home/musik/studiengaenge/singen-mit-kindern-und-jugendlichen",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Singen mit Kindern und Jugendlichen",
+     "url": "https://www.folkwang-uni.de/home/musik/studiengaenge/singen-mit-kindern-und-jugendlichen"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  KARLSRU03",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/dirigierenchorleitung",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Dirigieren/Chorleitung",
+     "url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/dirigierenchorleitung"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Dirigieren/Chorleitung",
+     "url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/dirigierenchorleitung"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  KARLSRU03",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/fagott",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Fagott",
+     "url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/fagott"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Fagott",
+     "url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/fagott"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  KARLSRU03",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/gesang",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Gesang",
+     "url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/gesang"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Gesang",
+     "url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/gesang"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  KARLSRU03",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/gitarre",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Gitarre",
+     "url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/gitarre"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Gitarre",
+     "url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/gitarre"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  KARLSRU03",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/harfe",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Harfe",
+     "url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/harfe"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Harfe",
+     "url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/harfe"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  KARLSRU03",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/historische-tasteninstrumente",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Historische Tasteninstrumente",
+     "url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/historische-tasteninstrumente"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Historische Tasteninstrumente",
+     "url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/historische-tasteninstrumente"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  KARLSRU03",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/horn",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Horn",
+     "url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/horn"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Horn",
+     "url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/horn"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  KARLSRU03",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/klavier",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Klavier",
+     "url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/klavier"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Klavier",
+     "url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/klavier"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  KARLSRU03",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/komposition",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Komposition",
+     "url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/komposition"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Komposition",
+     "url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/komposition"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  KARLSRU03",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/kontrabass",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kontrabass",
+     "url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/kontrabass"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kontrabass",
+     "url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/kontrabass"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  KARLSRU03",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/musikpaedagogik",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikpädagogik",
+     "url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/musikpaedagogik"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musikpädagogik",
+     "url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/musikpaedagogik"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  KARLSRU03",
+   "discipline": "music-theory",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/musiktheorie",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musiktheorie",
+     "url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/musiktheorie"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musiktheorie",
+     "url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/musiktheorie"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  KARLSRU03",
+   "discipline": "musicology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/musikwissenschaft",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikwissenschaft",
+     "url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/musikwissenschaft"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musikwissenschaft",
+     "url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/musikwissenschaft"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  KARLSRU03",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/schlagzeug",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Schlagzeug",
+     "url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/schlagzeug"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Schlagzeug",
+     "url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente/schlagzeug"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  KARLSRU03",
+   "discipline": "chamber-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Bläser-, Harfe-, Klavier-, Streicher- und Ensemble-Kammermusik",
+     "url": "https://www.hfm-karlsruhe.de/studieren/faecher-und-instrumente"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DETMOLD01",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/klavier/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Klavier",
+     "url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/klavier/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Klavier",
+     "url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/klavier/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DETMOLD01",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/gitarre-akkordeon-saxophon/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Gitarre | Akkordeon | Saxophon | Blockflöte",
+     "url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/gitarre-akkordeon-saxophon/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Gitarre | Akkordeon | Saxophon | Blockflöte",
+     "url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/gitarre-akkordeon-saxophon/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DETMOLD01",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/gesang/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Gesang",
+     "url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/gesang/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Gesang",
+     "url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/gesang/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DETMOLD01",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-detmold.de/studium/studienbereiche/chorleitung/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Chorleitung",
+     "url": "https://www.hfm-detmold.de/studium/studienbereiche/chorleitung/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Chorleitung",
+     "url": "https://www.hfm-detmold.de/studium/studienbereiche/chorleitung/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DETMOLD01",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/instrumental-und-gesangspaedagogik/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumental- und Gesangspädagogik",
+     "url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/instrumental-und-gesangspaedagogik/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumental- und Gesangspädagogik",
+     "url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/instrumental-und-gesangspaedagogik/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DETMOLD01",
+   "discipline": "music-theory",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/musiktheorie-u-gehoerbildung/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musiktheorie u. Gehörbildung",
+     "url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/musiktheorie-u-gehoerbildung/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musiktheorie u. Gehörbildung",
+     "url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/musiktheorie-u-gehoerbildung/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DETMOLD01",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/komposition/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Komposition",
+     "url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/komposition/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Komposition",
+     "url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/komposition/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DETMOLD01",
+   "discipline": "church-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/kirchenmusik-orgel/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kirchenmusik | Orgel",
+     "url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/kirchenmusik-orgel/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kirchenmusik | Orgel",
+     "url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/kirchenmusik-orgel/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DETMOLD01",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/kirchenmusik-orgel/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kirchenmusik | Orgel",
+     "url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/kirchenmusik-orgel/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kirchenmusik | Orgel",
+     "url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/kirchenmusik-orgel/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DETMOLD01",
+   "discipline": "music-technology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/musikuebertragung/tonmeister-musikregie/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikübertragung/Tonmeister, Musikregie",
+     "url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/musikuebertragung/tonmeister-musikregie/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musikübertragung/Tonmeister, Musikregie",
+     "url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/musikuebertragung/tonmeister-musikregie/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DETMOLD01",
+   "discipline": "musicology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/musikwissenschaft/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikwissenschaft",
+     "url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/musikwissenschaft/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musikwissenschaft",
+     "url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/musikwissenschaft/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DETMOLD01",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/orchesterinstrumente/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Orchesterinstrumente",
+     "url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/orchesterinstrumente/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Orchesterinstrumente",
+     "url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/orchesterinstrumente/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DETMOLD01",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/orchesterinstrumente/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Orchesterinstrumente",
+     "url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/orchesterinstrumente/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Orchesterinstrumente",
+     "url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/orchesterinstrumente/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DETMOLD01",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/orchesterinstrumente/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Orchesterinstrumente",
+     "url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/orchesterinstrumente/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Orchesterinstrumente",
+     "url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/orchesterinstrumente/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DETMOLD01",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/orchesterinstrumente/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Orchesterinstrumente",
+     "url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/orchesterinstrumente/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Orchesterinstrumente",
+     "url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/orchesterinstrumente/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DETMOLD01",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/orchesterinstrumente/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Orchesterinstrumente",
+     "url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/orchesterinstrumente/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Orchesterinstrumente",
+     "url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/orchesterinstrumente/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DETMOLD01",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/gitarre-akkordeon-saxophon/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Gitarre | Akkordeon | Saxophon | Blockflöte",
+     "url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/gitarre-akkordeon-saxophon/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Gitarre | Akkordeon | Saxophon | Blockflöte",
+     "url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/gitarre-akkordeon-saxophon/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DETMOLD01",
+   "discipline": "accordion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/gitarre-akkordeon-saxophon/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Gitarre | Akkordeon | Saxophon | Blockflöte",
+     "url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/gitarre-akkordeon-saxophon/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Gitarre | Akkordeon | Saxophon | Blockflöte",
+     "url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/gitarre-akkordeon-saxophon/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  DETMOLD01",
+   "discipline": "arts-management",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/musikmanagement/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Musikmanagement",
+     "url": "https://www.hfm-detmold.de/studium/studienbereiche-und-bewerbung/musikmanagement/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  WEIMAR02",
+   "discipline": "accordion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/akkordeon",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Akkordeon",
+     "url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/akkordeon"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Akkordeon",
+     "url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/akkordeon"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  WEIMAR02",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/barockviola",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Barockviola",
+     "url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/barockviola"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Barockviola",
+     "url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/barockviola"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  WEIMAR02",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/chordirigieren",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Chordirigieren",
+     "url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/chordirigieren"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Chordirigieren",
+     "url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/chordirigieren"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  WEIMAR02",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/drumset-jazz",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Drumset (Jazz)",
+     "url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/drumset-jazz"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Drumset (Jazz)",
+     "url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/drumset-jazz"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  WEIMAR02",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/elektrische-gitarre",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Elektrische Gitarre",
+     "url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/elektrische-gitarre"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Elektrische Gitarre",
+     "url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/elektrische-gitarre"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  WEIMAR02",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/elementare-musikpaedagogik-rhythmik",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Elementare Musikpädagogik / Rhythmik",
+     "url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/elementare-musikpaedagogik-rhythmik"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Elementare Musikpädagogik / Rhythmik",
+     "url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/elementare-musikpaedagogik-rhythmik"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  WEIMAR02",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/fagott",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Fagott",
+     "url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/fagott"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Fagott",
+     "url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/fagott"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  WEIMAR02",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/gesang-musiktheater",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Gesang | Musiktheater",
+     "url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/gesang-musiktheater"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Gesang | Musiktheater",
+     "url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/gesang-musiktheater"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  WEIMAR02",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/harfe",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Harfe",
+     "url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/harfe"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Harfe",
+     "url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/harfe"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  WEIMAR02",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/horn",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Horn",
+     "url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/horn"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Horn",
+     "url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/horn"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  WEIMAR02",
+   "discipline": "church-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/kirchenmusik",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kirchenmusik",
+     "url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/kirchenmusik"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kirchenmusik",
+     "url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/kirchenmusik"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  WEIMAR02",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/klavier",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Klavier",
+     "url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/klavier"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Klavier",
+     "url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/klavier"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  WEIMAR02",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/komposition",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Komposition",
+     "url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/komposition"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Komposition",
+     "url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/komposition"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  WEIMAR02",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/kontrabass",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kontrabass",
+     "url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/kontrabass"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kontrabass",
+     "url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/kontrabass"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  WEIMAR02",
+   "discipline": "popular-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/kontrabass-jazz-e-bass",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kontrabass (Jazz) / E-Bass",
+     "url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/kontrabass-jazz-e-bass"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kontrabass (Jazz) / E-Bass",
+     "url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/kontrabass-jazz-e-bass"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  WEIMAR02",
+   "discipline": "music-theory",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/musiktheorie",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musiktheorie",
+     "url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/musiktheorie"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musiktheorie",
+     "url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/musiktheorie"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  WEIMAR02",
+   "discipline": "musicology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/musikwissenschaft",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikwissenschaft",
+     "url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/musikwissenschaft"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musikwissenschaft",
+     "url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/musikwissenschaft"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  WEIMAR02",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/orgel",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Orgel",
+     "url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/orgel"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Orgel",
+     "url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/orgel"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  WEIMAR02",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/schlagwerk",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Schlagwerk",
+     "url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/schlagwerk"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Schlagwerk",
+     "url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/schlagwerk"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  WEIMAR02",
+   "discipline": "chamber-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/kammermusik",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Kammermusik",
+     "url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/kammermusik"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  WEIMAR02",
+   "discipline": "arts-management",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/kulturmanagement",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kulturmanagement; Interkulturelles Musik- und Veranstaltungsmanagement",
+     "url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/kulturmanagement"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kulturmanagement; Interkulturelles Musik- und Veranstaltungsmanagement",
+     "url": "https://www.hfm-weimar.de/bewerben/studienfinder/detail/kulturmanagement"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  TUBINGE02",
+   "discipline": "church-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.kirchenmusikhochschule.de/studieren/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Ev. Kirchenmusik (Bachelor B, Master A); KA-Aufbaustudiengang Orgel",
+     "url": "https://www.kirchenmusikhochschule.de/studieren/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Ev. Kirchenmusik (Bachelor B, Master A); KA-Aufbaustudiengang Orgel",
+     "url": "https://www.kirchenmusikhochschule.de/studieren/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  TUBINGE02",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.kirchenmusikhochschule.de/studieren/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Ev. Kirchenmusik (Bachelor B, Master A); KA-Aufbaustudiengang Orgel",
+     "url": "https://www.kirchenmusikhochschule.de/studieren/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Ev. Kirchenmusik (Bachelor B, Master A); KA-Aufbaustudiengang Orgel",
+     "url": "https://www.kirchenmusikhochschule.de/studieren/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  TUBINGE02",
+   "discipline": "popular-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.kirchenmusikhochschule.de/studieren/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Ev. Popular-Kirchenmusik; Kirchliche Popularmusik",
+     "url": "https://www.kirchenmusikhochschule.de/studieren/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Ev. Popular-Kirchenmusik; Kirchliche Popularmusik",
+     "url": "https://www.kirchenmusikhochschule.de/studieren/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  KOLN03",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmt-koeln.de/musik/studiengaenge/master-of-music/blasinstrumente-master-of-music/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Blasinstrumente Master of Music Fagott, Historische Holz- und Blechblasinstrumente, Horn, Klarinette, Oboe, Posaune, Querflöte, Saxophon, Trompete, Tuba",
+     "url": "https://www.hfmt-koeln.de/musik/studiengaenge/master-of-music/blasinstrumente-master-of-music/"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Historische Instrumente Bachelor of Music Blockflöte, Cembalo, Laute, Viola da Gamba",
+     "url": "https://www.hfmt-koeln.de/musik/studiengaenge/bachelor-of-music/historische-instrumente-bachelor-of-music/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  KOLN03",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmt-koeln.de/musik/studiengaenge/bachelor-of-music/blechblaeser-bachelor-of-music/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Blechbläser Bachelor of Music Horn, Posaune, Trompete, Tuba",
+     "url": "https://www.hfmt-koeln.de/musik/studiengaenge/bachelor-of-music/blechblaeser-bachelor-of-music/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music: Streichinstrumente, Blasinstrumente, Gitarre, Klavier",
+     "url": "https://www.hfmt-koeln.de/musik/studiengaenge/master-of-music/blasinstrumente-master-of-music/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  KOLN03",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmt-koeln.de/musik/studiengaenge/bachelor-of-music/chordirigieren-bachelor-of-music/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Chordirigieren Bachelor of Music Chordirigieren",
+     "url": "https://www.hfmt-koeln.de/musik/studiengaenge/bachelor-of-music/chordirigieren-bachelor-of-music/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Dirigieren Chor Master of Music Chordirigieren",
+     "url": "https://www.hfmt-koeln.de/musik/studiengaenge/master-of-music/dirigieren-chor-master-of-music/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  KOLN03",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmt-koeln.de/musik/studiengaenge/bachelor-of-music/elektronische-komposition-bachelor-of-music/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Elektronische Komposition Bachelor of Music Komposition",
+     "url": "https://www.hfmt-koeln.de/musik/studiengaenge/bachelor-of-music/elektronische-komposition-bachelor-of-music/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Elektronische Komposition Master of Music Komposition",
+     "url": "https://www.hfmt-koeln.de/musik/studiengaenge/master-of-music/elektronische-komposition-master-of-music/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  KOLN03",
+   "discipline": "church-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmt-koeln.de/musik/studiengaenge/bachelor-of-music/evangelische-kirchenmusik-bachelor-of-music/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Evangelische Kirchenmusik Bachelor of Music",
+     "url": "https://www.hfmt-koeln.de/musik/studiengaenge/bachelor-of-music/evangelische-kirchenmusik-bachelor-of-music/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Evangelische Kirchenmusik Master of Music Kirchenmusik",
+     "url": "https://www.hfmt-koeln.de/musik/studiengaenge/master-of-music/evangelische-kirchenmusik-master-of-music/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  KOLN03",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmt-koeln.de/musik/studiengaenge/bachelor-of-music/gesang-bachelor-of-music/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Gesang Bachelor of Music Gesang",
+     "url": "https://www.hfmt-koeln.de/musik/studiengaenge/bachelor-of-music/gesang-bachelor-of-music/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Gesang Lied/Konzert Master of Music Gesang",
+     "url": "https://www.hfmt-koeln.de/musik/studiengaenge/master-of-music/gesang-lied/konzert-master-of-music/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  KOLN03",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmt-koeln.de/musik/studiengaenge/bachelor-of-music/gitarre-bachelor-of-music/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Gitarre Bachelor of Music Gitarre",
+     "url": "https://www.hfmt-koeln.de/musik/studiengaenge/bachelor-of-music/gitarre-bachelor-of-music/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music: Streichinstrumente, Blasinstrumente, Gitarre, Klavier",
+     "url": "https://www.hfmt-koeln.de/musik/studiengaenge/master-of-music/blasinstrumente-master-of-music/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  KOLN03",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmt-koeln.de/musik/studiengaenge/bachelor-of-music/harfe-bachelor-of-music/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Harfe Bachelor of Music Harfe",
+     "url": "https://www.hfmt-koeln.de/musik/studiengaenge/bachelor-of-music/harfe-bachelor-of-music/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Harfe Master of Music Harfe",
+     "url": "https://www.hfmt-koeln.de/musik/studiengaenge/master-of-music/harfe-master-of-music/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  KOLN03",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmt-koeln.de/musik/studiengaenge/bachelor-of-music/holzblaeser-bachelor-of-music/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Holzbläser Bachelor of Music Fagott, Klarinette, Oboe, Querflöte, Saxophon",
+     "url": "https://www.hfmt-koeln.de/musik/studiengaenge/bachelor-of-music/holzblaeser-bachelor-of-music/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music: Streichinstrumente, Blasinstrumente, Gitarre, Klavier",
+     "url": "https://www.hfmt-koeln.de/musik/studiengaenge/master-of-music/blasinstrumente-master-of-music/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  KOLN03",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmt-koeln.de/musik/studiengaenge/master-of-music/jazz-komposition/arrangement-master-of-music/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Jazz-Komposition/Arrangement Master of Music Jazz-Komposition / Arrangement",
+     "url": "https://www.hfmt-koeln.de/musik/studiengaenge/master-of-music/jazz-komposition/arrangement-master-of-music/"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Jazz/Pop Bachelor of Music E-Bass, Flöte Jazz/Pop, Gesang Jazz/Pop, Gitarre Jazz/Pop, Improvisation Jazz, Klarinette Jazz/Pop, Klavier Jazz/Pop, Komposition/Arrangement Jazz/Pop, Kontrabass Jazz/Pop, Latin-Percussion, Posaune Jazz, Saxophon Jazz/Pop, Schlagzeug Jazz/Pop, Songwriting Jazz/Pop, Trompete Jazz/Pop, Viola Jazz/Pop, Violine Jazz/Pop, Violoncello Jazz/Pop",
+     "url": "https://www.hfmt-koeln.de/musik/studiengaenge/bachelor-of-music/jazz/pop-bachelor-of-music/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  KOLN03",
+   "discipline": "popular-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmt-koeln.de/musik/studiengaenge/bachelor-of-music/jazz/pop-bachelor-of-music/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Jazz/Pop Bachelor of Music E-Bass, Flöte Jazz/Pop, Gesang Jazz/Pop, Gitarre Jazz/Pop, Improvisation Jazz, Klarinette Jazz/Pop, Klavier Jazz/Pop, Komposition/Arrangement Jazz/Pop, Kontrabass Jazz/Pop, Latin-Percussion, Posaune Jazz, Saxophon Jazz/Pop, Schlagzeug Jazz/Pop, Songwriting Jazz/Pop, Trompete Jazz/Pop, Viola Jazz/Pop, Violine Jazz/Pop, Violoncello Jazz/Pop",
+     "url": "https://www.hfmt-koeln.de/musik/studiengaenge/bachelor-of-music/jazz/pop-bachelor-of-music/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Jazz/Pop instrumental/vokal Master of Music E-Bass, Flöte Jazz/Pop, Gesang Jazz/Pop, Gitarre Jazz/Pop, Improvisation Jazz, Klarinette Jazz/Pop, Klavier Jazz/Pop, Kontrabass Jazz/Pop, Latin-Percussion, Posaune Jazz, Saxophon Jazz/Pop, Schlagzeug Jazz/Pop, Songwriting Jazz/Pop, Trompete Jazz/Pop, Viola Jazz/Pop, Violine Jazz/Pop, Violoncello Jazz/Pop",
+     "url": "https://www.hfmt-koeln.de/musik/studiengaenge/master-of-music/jazz/pop-instrumental/vokal-master-of-music/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  KOLN03",
+   "discipline": "chamber-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.hfmt-koeln.de/musik/studiengaenge/master-of-music/kammermusik-master-of-music/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Kammermusik Master of Music Kammermusik",
+     "url": "https://www.hfmt-koeln.de/musik/studiengaenge/master-of-music/kammermusik-master-of-music/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  KOLN03",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmt-koeln.de/musik/studiengaenge/bachelor-of-music/klavier-bachelor-of-music/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Klavier Bachelor of Music Klavier",
+     "url": "https://www.hfmt-koeln.de/musik/studiengaenge/bachelor-of-music/klavier-bachelor-of-music/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Liedgestaltung (Klavier) Master of Music Liedgestaltung",
+     "url": "https://www.hfmt-koeln.de/musik/studiengaenge/master-of-music/liedgestaltung-klavier-master-of-music/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  KOLN03",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmt-koeln.de/musik/studiengaenge/master-of-arts/musikpaedagogik-master-of-arts/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Musikpädagogik Master of Arts",
+     "url": "https://www.hfmt-koeln.de/musik/studiengaenge/master-of-arts/musikpaedagogik-master-of-arts/"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Elementare Musikpädagogik; Instrumental- / Gesangspädagogik (Bachelor of Music)",
+     "url": "https://www.hfmt-koeln.de/musik/studiengaenge/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  KOLN03",
+   "discipline": "musicology",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.hfmt-koeln.de/musik/studiengaenge/master-of-arts/musikwissenschaft-master-of-arts/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Musikwissenschaft Master of Arts Künstlerische Forschung, Musikwissenschaftliche Forschung",
+     "url": "https://www.hfmt-koeln.de/musik/studiengaenge/master-of-arts/musikwissenschaft-master-of-arts/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  KOLN03",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmt-koeln.de/musik/studiengaenge/bachelor-of-music/orgel-bachelor-of-music/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Orgel Bachelor of Music Orgel",
+     "url": "https://www.hfmt-koeln.de/musik/studiengaenge/bachelor-of-music/orgel-bachelor-of-music/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Orgel Master of Music Orgel",
+     "url": "https://www.hfmt-koeln.de/musik/studiengaenge/master-of-music/orgel-master-of-music/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  KOLN03",
+   "discipline": "music-production",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.hfmt-koeln.de/musik/studiengaenge/master-of-music/production-master-of-music/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Production Master of Music Production",
+     "url": "https://www.hfmt-koeln.de/musik/studiengaenge/master-of-music/production-master-of-music/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  KOLN03",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmt-koeln.de/musik/studiengaenge/master-of-music/schlagzeug-master-of-music/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Schlagzeug Master of Music Pauke/Schlagzeug",
+     "url": "https://www.hfmt-koeln.de/musik/studiengaenge/master-of-music/schlagzeug-master-of-music/"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Schlagzeug / Pauke Bachelor of Music Pauke/Schlagzeug",
+     "url": "https://www.hfmt-koeln.de/musik/studiengaenge/bachelor-of-music/schlagzeug/pauke-bachelor-of-music/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  KOLN03",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmt-koeln.de/musik/studiengaenge/bachelor-of-music/streicher-bachelor-of-music/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Streicher Bachelor of Music Kontrabass, Viola, Violine, Violoncello",
+     "url": "https://www.hfmt-koeln.de/musik/studiengaenge/bachelor-of-music/streicher-bachelor-of-music/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master of Music: Streichinstrumente, Blasinstrumente, Gitarre, Klavier",
+     "url": "https://www.hfmt-koeln.de/musik/studiengaenge/master-of-music/blasinstrumente-master-of-music/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  KOLN03",
+   "discipline": "music-theory",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfmt-koeln.de/musik/studiengaenge/master-of-music/tonsatz-master-of-music/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Tonsatz Master of Music Tonsatz",
+     "url": "https://www.hfmt-koeln.de/musik/studiengaenge/master-of-music/tonsatz-master-of-music/"
+    },
+    {
+     "level": "BA",
+     "programme_name": "Tonsatz/Musiktheorie Bachelor of Music Tonsatz",
+     "url": "https://www.hfmt-koeln.de/musik/studiengaenge/bachelor-of-music/tonsatz/musiktheorie-bachelor-of-music/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  KOLN03",
+   "discipline": "global-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.hfmt-koeln.de/musik/studiengaenge/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumental- / Gesangspädagogik und EMP: Bağlama",
+     "url": "https://www.hfmt-koeln.de/musik/studiengaenge/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  FREIBUR03",
+   "discipline": "accordion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/akkordeon",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Akkordeon",
+     "url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/akkordeon"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Akkordeon",
+     "url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/akkordeon"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  FREIBUR03",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/blockfloete",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Blockflöte",
+     "url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/blockfloete"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Blockflöte",
+     "url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/blockfloete"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  FREIBUR03",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/chorleitung",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Chorleitung",
+     "url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/chorleitung"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Chorleitung",
+     "url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/chorleitung"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  FREIBUR03",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/elementare-musikpaedagogik",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Elementare Musikpädagogik",
+     "url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/elementare-musikpaedagogik"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Elementare Musikpädagogik",
+     "url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/elementare-musikpaedagogik"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  FREIBUR03",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/fagott",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Fagott",
+     "url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/fagott"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Fagott",
+     "url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/fagott"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  FREIBUR03",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/gesang",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Gesang",
+     "url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/gesang"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Gesang",
+     "url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/gesang"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  FREIBUR03",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/gitarre",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Gitarre",
+     "url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/gitarre"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Gitarre",
+     "url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/gitarre"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  FREIBUR03",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/harfe",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Harfe",
+     "url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/harfe"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Harfe",
+     "url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/harfe"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  FREIBUR03",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/horn",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Horn",
+     "url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/horn"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Horn",
+     "url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/horn"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  FREIBUR03",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/klavier",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Klavier",
+     "url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/klavier"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Klavier",
+     "url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/klavier"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  FREIBUR03",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/elektronische-komposition",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Elektronische Komposition",
+     "url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/elektronische-komposition"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Elektronische Komposition",
+     "url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/elektronische-komposition"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  FREIBUR03",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/kontrabass",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kontrabass",
+     "url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/kontrabass"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kontrabass",
+     "url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/kontrabass"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  FREIBUR03",
+   "discipline": "music-theory",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/musiktheorie",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musiktheorie",
+     "url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/musiktheorie"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musiktheorie",
+     "url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/musiktheorie"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  FREIBUR03",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/orgel",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Orgel",
+     "url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/orgel"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Orgel",
+     "url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/orgel"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  FREIBUR03",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/schlaginstrumente",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Schlaginstrumente",
+     "url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/schlaginstrumente"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Schlaginstrumente",
+     "url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/schlaginstrumente"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  FREIBUR03",
+   "discipline": "church-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.mh-freiburg.de/studium/studienangebot/bachelor-kirchenmusik",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor Kirchenmusik",
+     "url": "https://www.mh-freiburg.de/studium/studienangebot/bachelor-kirchenmusik"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  FREIBUR03",
+   "discipline": "music-technology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/elektronische-komposition",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Elektronische Komposition",
+     "url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/elektronische-komposition"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Elektronische Komposition",
+     "url": "https://www.mh-freiburg.de/studium/studienangebot/faecher/elektronische-komposition"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  NURNBER04",
+   "discipline": "accordion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-nuernberg.de/studium/studienangebot",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "BA Akkordeon KA",
+     "url": "https://www.hfm-nuernberg.de/studium/studienangebot"
+    },
+    {
+     "level": "MA",
+     "programme_name": "MA Akkordeon KA",
+     "url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=6"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  NURNBER04",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-nuernberg.de/studium/studienangebot",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "BA Blechblasinstrumente KA",
+     "url": "https://www.hfm-nuernberg.de/studium/studienangebot"
+    },
+    {
+     "level": "MA",
+     "programme_name": "MA Blechblasinstrumente KA",
+     "url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=6"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  NURNBER04",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=2",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "BA Blockflöte KA",
+     "url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=2"
+    },
+    {
+     "level": "MA",
+     "programme_name": "MA Blockflöte KA",
+     "url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=7"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  NURNBER04",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=2",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "BA Dirigieren KA",
+     "url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=2"
+    },
+    {
+     "level": "MA",
+     "programme_name": "MA Chorleitung KA",
+     "url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=7"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  NURNBER04",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=3",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "BA Gesang KA",
+     "url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=3"
+    },
+    {
+     "level": "MA",
+     "programme_name": "MA Aktuelle Musik: Instrument/Gesang KA",
+     "url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=6"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  NURNBER04",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=3",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "BA Gitarre KA",
+     "url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=3"
+    },
+    {
+     "level": "MA",
+     "programme_name": "MA Gitarre KA",
+     "url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=7"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  NURNBER04",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=3",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "BA Harfe KA",
+     "url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=3"
+    },
+    {
+     "level": "MA",
+     "programme_name": "MA Harfe KA",
+     "url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=7"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  NURNBER04",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=3",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "BA Holzblasinstrumente: Oboe/Fagott KA",
+     "url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=3"
+    },
+    {
+     "level": "MA",
+     "programme_name": "MA Holzblasinstrumente KA",
+     "url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=7"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  NURNBER04",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=4",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "BA Jazz-Bass KA",
+     "url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=4"
+    },
+    {
+     "level": "MA",
+     "programme_name": "MA Jazz-Arrangement/-Komposition KA",
+     "url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=8"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  NURNBER04",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=5",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "BA Klavier KA",
+     "url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=5"
+    },
+    {
+     "level": "MA",
+     "programme_name": "MA Klavier: Konzertsolistin/Konzertsolist KA",
+     "url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=8"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  NURNBER04",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=5",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "BA Komposition KA",
+     "url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=5"
+    },
+    {
+     "level": "MA",
+     "programme_name": "MA Komposition KA",
+     "url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=8"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  NURNBER04",
+   "discipline": "global-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=6",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "BA Latin Percussion KA",
+     "url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=6"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  NURNBER04",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=6",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "BA Latin Percussion KA",
+     "url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=6"
+    },
+    {
+     "level": "MA",
+     "programme_name": "MA Schlagzeug KA",
+     "url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=9"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  NURNBER04",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=6",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "BA Orgel KA",
+     "url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=6"
+    },
+    {
+     "level": "MA",
+     "programme_name": "MA Orgel/Orgelimprovisation KA",
+     "url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=9"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  NURNBER04",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=6",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "BA Streichinstrumente KA",
+     "url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=6"
+    },
+    {
+     "level": "MA",
+     "programme_name": "MA Streichinstrumente KA",
+     "url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=9"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  NURNBER04",
+   "discipline": "chamber-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=7",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "MA Gitarre Kammermusik KA",
+     "url": "https://www.hfm-nuernberg.de/studium/studienangebot?tx_kesearch_pi1%5Bpage%5D=7"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "D  NURNBER04",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.hfm-nuernberg.de/studium/studienangebot",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "BA Elementare Musikpädagogik (KPA); künstlerisch-pädagogische Bachelorstudiengänge (KPA)",
+     "url": "https://www.hfm-nuernberg.de/studium/studienangebot"
+    },
+    {
+     "level": "MA",
+     "programme_name": "MA Musikpädagogik: Elementare Musikpädagogik / Instrument/Gesang KPA; MA Musizieren in heterogenen Gruppen",
+     "url": "https://www.hfm-nuernberg.de/studium/studienangebot"
     }
    ],
    "verified": false
