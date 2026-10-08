@@ -1,6 +1,6 @@
 {
  "meta": {
-  "description": "Study programmes per institution and fine-grained discipline (see disciplines.json). Collected so far: 134 institutions.",
+  "description": "Study programmes per institution and fine-grained discipline (see disciplines.json). Collected so far: 152 institutions.",
   "status": "pilot",
   "collected": "2026-10-08",
   "verified_note": "Every record has verified: false. Programme names and URLs were read from the institutions' own websites (programme lists and programme pages) but have not been checked by a person.",
@@ -125,7 +125,17 @@
    "LUXLUX-VIL01",
    "LV RIGA05",
    "ME PODGORI02",
+   "N  BERGEN01",
+   "N  BERGEN12",
+   "N  KONGSBE02",
+   "N  KRISTIA01",
    "N  OSLO03",
+   "N  OSLO07",
+   "N  OSLO58",
+   "N  OSLO66",
+   "N  STAVANG01",
+   "N  TROMSO01",
+   "N  TRONDHE01",
    "NL AMSTERD07",
    "NL EINDHOV03",
    "NL ENSCHED04",
@@ -135,6 +145,14 @@
    "NL S-GRAVE05",
    "NL S-GRAVE37",
    "NL UTRECHT29",
+   "PL BYDGOSZ04",
+   "PL GDANSK04",
+   "PL KATOWIC04",
+   "PL KRAKOW09",
+   "PL LODZ04",
+   "PL POZNAN06",
+   "PL WARSZAW09",
+   "PL WROCLAW06",
    "RO BUCURES03",
    "S  STOCKHO11",
    "SF HELSINK41",
@@ -356,6 +374,30 @@
      "NL HEERLEN14",
      "NL S-GRAVE37",
      "NL UTRECHT29"
+    ],
+    "date": "2026-10-08",
+    "method": "Field-level collection as in batch 1; where a site lists programmes only via JavaScript, the programme pages were located with a web search restricted to the institution's own domain (raw HTML of each institution's own programme pages, PDFs where the list was only there; names mapped to disciplines.json by keyword and checked by hand)."
+   },
+   {
+    "erasmus_codes": [
+     "N  BERGEN01",
+     "N  BERGEN12",
+     "N  KONGSBE02",
+     "N  KRISTIA01",
+     "N  OSLO07",
+     "N  OSLO58",
+     "N  OSLO66",
+     "N  STAVANG01",
+     "N  TROMSO01",
+     "N  TRONDHE01",
+     "PL BYDGOSZ04",
+     "PL GDANSK04",
+     "PL KATOWIC04",
+     "PL KRAKOW09",
+     "PL LODZ04",
+     "PL POZNAN06",
+     "PL WARSZAW09",
+     "PL WROCLAW06"
     ],
     "date": "2026-10-08",
     "method": "Field-level collection as in batch 1; where a site lists programmes only via JavaScript, the programme pages were located with a web search restricted to the institution's own domain (raw HTML of each institution's own programme pages, PDFs where the list was only there; names mapped to disciplines.json by keyword and checked by hand)."
@@ -38874,6 +38916,4013 @@
      "level": "MA",
      "programme_name": "Master of Music – New Audiences and Innovative Practice",
      "url": "https://catalogue.hanze.nl/en/Programme/2022/ECTSMUVNAIP20"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  OSLO66",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://barrattdue.no/studier/hoyere-utdanning/bachelor-i-utovende-musikk/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor i utøvende musikk",
+     "url": "https://barrattdue.no/studier/hoyere-utdanning/bachelor-i-utovende-musikk/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master i utøvende musikk",
+     "url": "https://barrattdue.no/studier/hoyere-utdanning/master-i-utovende-musikk/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  OSLO66",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://barrattdue.no/studier/hoyere-utdanning/bachelor-i-utovende-musikk/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor i utøvende musikk",
+     "url": "https://barrattdue.no/studier/hoyere-utdanning/bachelor-i-utovende-musikk/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master i utøvende musikk",
+     "url": "https://barrattdue.no/studier/hoyere-utdanning/master-i-utovende-musikk/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  OSLO66",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://barrattdue.no/studier/hoyere-utdanning/bachelor-i-utovende-musikk/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor i utøvende musikk",
+     "url": "https://barrattdue.no/studier/hoyere-utdanning/bachelor-i-utovende-musikk/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master i utøvende musikk",
+     "url": "https://barrattdue.no/studier/hoyere-utdanning/master-i-utovende-musikk/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  OSLO66",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://barrattdue.no/studier/hoyere-utdanning/bachelor-i-utovende-musikk/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor i utøvende musikk",
+     "url": "https://barrattdue.no/studier/hoyere-utdanning/bachelor-i-utovende-musikk/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master i utøvende musikk",
+     "url": "https://barrattdue.no/studier/hoyere-utdanning/master-i-utovende-musikk/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  OSLO66",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://barrattdue.no/studier/hoyere-utdanning/bachelor-i-utovende-musikk/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor i utøvende musikk",
+     "url": "https://barrattdue.no/studier/hoyere-utdanning/bachelor-i-utovende-musikk/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master i utøvende musikk",
+     "url": "https://barrattdue.no/studier/hoyere-utdanning/master-i-utovende-musikk/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  OSLO66",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://barrattdue.no/studier/hoyere-utdanning/bachelor-i-utovende-musikk/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor i utøvende musikk",
+     "url": "https://barrattdue.no/studier/hoyere-utdanning/bachelor-i-utovende-musikk/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master i utøvende musikk",
+     "url": "https://barrattdue.no/studier/hoyere-utdanning/master-i-utovende-musikk/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  TRONDHE01",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.ntnu.edu/studies/bmusp/music-performance-studies-bachelor-s-programme",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Music Performance Studies (bachelor, classical 4 years); Music Performance (master, classical or jazz)",
+     "url": "https://www.ntnu.edu/studies/bmusp/music-performance-studies-bachelor-s-programme",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Music Performance Studies (bachelor, classical 4 years); Music Performance (master, classical or jazz)",
+     "url": "https://www.ntnu.edu/studies/bmusp/music-performance-studies-bachelor-s-programme",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  TRONDHE01",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.ntnu.edu/studies/bmusp/music-performance-studies-bachelor-s-programme",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Music Performance Studies (bachelor, classical 4 years); Music Performance (master, classical or jazz)",
+     "url": "https://www.ntnu.edu/studies/bmusp/music-performance-studies-bachelor-s-programme",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Music Performance Studies (bachelor, classical 4 years); Music Performance (master, classical or jazz)",
+     "url": "https://www.ntnu.edu/studies/bmusp/music-performance-studies-bachelor-s-programme",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  TRONDHE01",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.ntnu.edu/studies/bmusp/music-performance-studies-bachelor-s-programme",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Music Performance Studies (bachelor, classical 4 years); Music Performance (master, classical or jazz)",
+     "url": "https://www.ntnu.edu/studies/bmusp/music-performance-studies-bachelor-s-programme",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Music Performance Studies (bachelor, classical 4 years); Music Performance (master, classical or jazz)",
+     "url": "https://www.ntnu.edu/studies/bmusp/music-performance-studies-bachelor-s-programme",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  TRONDHE01",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.ntnu.edu/studies/bmusp/music-performance-studies-bachelor-s-programme",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Music Performance Studies (bachelor, classical 4 years); Music Performance (master, classical or jazz)",
+     "url": "https://www.ntnu.edu/studies/bmusp/music-performance-studies-bachelor-s-programme",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Music Performance Studies (bachelor, classical 4 years); Music Performance (master, classical or jazz)",
+     "url": "https://www.ntnu.edu/studies/bmusp/music-performance-studies-bachelor-s-programme",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  TRONDHE01",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.ntnu.edu/studies/bmusp/music-performance-studies-bachelor-s-programme",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Music Performance Studies (bachelor, classical 4 years); Music Performance (master, classical or jazz)",
+     "url": "https://www.ntnu.edu/studies/bmusp/music-performance-studies-bachelor-s-programme",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Music Performance Studies (bachelor, classical 4 years); Music Performance (master, classical or jazz)",
+     "url": "https://www.ntnu.edu/studies/bmusp/music-performance-studies-bachelor-s-programme",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  TRONDHE01",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.ntnu.edu/studies/bmusp/music-performance-studies-bachelor-s-programme",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Music Performance Studies (bachelor, classical 4 years); Music Performance (master, classical or jazz)",
+     "url": "https://www.ntnu.edu/studies/bmusp/music-performance-studies-bachelor-s-programme",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Music Performance Studies (bachelor, classical 4 years); Music Performance (master, classical or jazz)",
+     "url": "https://www.ntnu.edu/studies/bmusp/music-performance-studies-bachelor-s-programme",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  TRONDHE01",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.ntnu.edu/studies/mmusp/music-performance-studies-master-s-programme",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Music Performance Studies – jazz (bachelor 3 years); Music Performance – jazz (master)",
+     "url": "https://www.ntnu.edu/studies/mmusp/music-performance-studies-master-s-programme"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Music Performance Studies – jazz (bachelor 3 years); Music Performance – jazz (master)",
+     "url": "https://www.ntnu.edu/studies/mmusp/music-performance-studies-master-s-programme"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  TRONDHE01",
+   "discipline": "music-technology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.ntnu.edu/studies/bmust",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Music Technology (bachelor); Creative Music Technology (master); Music, Communication and Technology (master)",
+     "url": "https://www.ntnu.edu/studies/bmust"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Music Technology (bachelor); Creative Music Technology (master); Music, Communication and Technology (master)",
+     "url": "https://www.ntnu.edu/studies/bmust"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  TRONDHE01",
+   "discipline": "musicology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.ntnu.edu/studies/bmusv",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musicology (bachelor, master)",
+     "url": "https://www.ntnu.edu/studies/bmusv"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musicology (bachelor, master)",
+     "url": "https://www.ntnu.edu/studies/bmusv"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  KRISTIA01",
+   "discipline": "jazz",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.uia.no/studier/program/utovende-musikk-rytmisk-bachelor/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Utøvende musikk – rytmisk (Bachelor): utøvende rytmisk; låtskriver og artist",
+     "url": "https://www.uia.no/studier/program/utovende-musikk-rytmisk-bachelor/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  KRISTIA01",
+   "discipline": "popular-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.uia.no/studier/program/utovende-musikk-rytmisk-bachelor/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Utøvende musikk – rytmisk (Bachelor): utøvende rytmisk; låtskriver og artist",
+     "url": "https://www.uia.no/studier/program/utovende-musikk-rytmisk-bachelor/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Rytmisk musikk (Master): Performing Music, Electronic Music, World Music, Songwriting, Music Business and Management",
+     "url": "https://www.uia.no/studier/program/rytmisk-musikk-master-2-ar/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  KRISTIA01",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.uia.no/studier/program/utovende-musikk-klassisk-bachelor/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Utøvende musikk – klassisk (Bachelor)",
+     "url": "https://www.uia.no/studier/program/utovende-musikk-klassisk-bachelor/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Utøvende musikk – klassisk (Master): ensemblesang, orkesterakademi, klaver i samspill, korledelse",
+     "url": "https://www.uia.no/studier/program/utovende-musikk-klassisk-master-2-ar/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  KRISTIA01",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.uia.no/studier/program/utovende-musikk-klassisk-bachelor/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Utøvende musikk – klassisk (Bachelor)",
+     "url": "https://www.uia.no/studier/program/utovende-musikk-klassisk-bachelor/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Utøvende musikk – klassisk (Master): ensemblesang, orkesterakademi, klaver i samspill, korledelse",
+     "url": "https://www.uia.no/studier/program/utovende-musikk-klassisk-master-2-ar/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  KRISTIA01",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.uia.no/studier/program/utovende-musikk-klassisk-bachelor/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Utøvende musikk – klassisk (Bachelor)",
+     "url": "https://www.uia.no/studier/program/utovende-musikk-klassisk-bachelor/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Utøvende musikk – klassisk (Master): ensemblesang, orkesterakademi, klaver i samspill, korledelse",
+     "url": "https://www.uia.no/studier/program/utovende-musikk-klassisk-master-2-ar/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  KRISTIA01",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.uia.no/studier/program/utovende-musikk-klassisk-bachelor/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Utøvende musikk – klassisk (Bachelor)",
+     "url": "https://www.uia.no/studier/program/utovende-musikk-klassisk-bachelor/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Utøvende musikk – klassisk (Master): ensemblesang, orkesterakademi, klaver i samspill, korledelse",
+     "url": "https://www.uia.no/studier/program/utovende-musikk-klassisk-master-2-ar/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  KRISTIA01",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.uia.no/studier/program/utovende-musikk-klassisk-bachelor/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Utøvende musikk – klassisk (Bachelor)",
+     "url": "https://www.uia.no/studier/program/utovende-musikk-klassisk-bachelor/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Utøvende musikk – klassisk (Master): ensemblesang, orkesterakademi, klaver i samspill, korledelse",
+     "url": "https://www.uia.no/studier/program/utovende-musikk-klassisk-master-2-ar/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  KRISTIA01",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.uia.no/studier/program/utovende-musikk-klassisk-bachelor/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Utøvende musikk – klassisk (Bachelor)",
+     "url": "https://www.uia.no/studier/program/utovende-musikk-klassisk-bachelor/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Utøvende musikk – klassisk (Master): ensemblesang, orkesterakademi, klaver i samspill, korledelse",
+     "url": "https://www.uia.no/studier/program/utovende-musikk-klassisk-master-2-ar/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  KRISTIA01",
+   "discipline": "conducting",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.uia.no/studier/program/utovende-musikk-klassisk-master-2-ar/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Utøvende musikk – klassisk (Master): ensemblesang, orkesterakademi, klaver i samspill, korledelse",
+     "url": "https://www.uia.no/studier/program/utovende-musikk-klassisk-master-2-ar/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  KRISTIA01",
+   "discipline": "chamber-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.uia.no/studier/program/utovende-musikk-klassisk-master-2-ar/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Utøvende musikk – klassisk (Master): ensemblesang, orkesterakademi, klaver i samspill, korledelse",
+     "url": "https://www.uia.no/studier/program/utovende-musikk-klassisk-master-2-ar/",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  KRISTIA01",
+   "discipline": "music-technology",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.uia.no/studier/program/rytmisk-musikk-master-2-ar/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Rytmisk musikk (Master): Performing Music, Electronic Music, World Music, Songwriting, Music Business and Management",
+     "url": "https://www.uia.no/studier/program/rytmisk-musikk-master-2-ar/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  KRISTIA01",
+   "discipline": "global-music",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.uia.no/studier/program/rytmisk-musikk-master-2-ar/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Rytmisk musikk (Master): Performing Music, Electronic Music, World Music, Songwriting, Music Business and Management",
+     "url": "https://www.uia.no/studier/program/rytmisk-musikk-master-2-ar/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  KRISTIA01",
+   "discipline": "arts-management",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.uia.no/studier/program/rytmisk-musikk-master-2-ar/",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Rytmisk musikk (Master): Performing Music, Electronic Music, World Music, Songwriting, Music Business and Management",
+     "url": "https://www.uia.no/studier/program/rytmisk-musikk-master-2-ar/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  STAVANG01",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.uis.no/nb/studier/utovende-musikk-bachelor",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor i utøvende musikk: klassisk, jazz/improvisasjon, kirkemusikk, dirigering",
+     "url": "https://www.uis.no/nb/studier/utovende-musikk-bachelor",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master in Music Performance: conducting, classical music, jazz and improvisation",
+     "url": "https://www.uis.no/en/studies/master-music-performance",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  STAVANG01",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.uis.no/nb/studier/utovende-musikk-bachelor",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor i utøvende musikk: klassisk, jazz/improvisasjon, kirkemusikk, dirigering",
+     "url": "https://www.uis.no/nb/studier/utovende-musikk-bachelor",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master in Music Performance: conducting, classical music, jazz and improvisation",
+     "url": "https://www.uis.no/en/studies/master-music-performance",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  STAVANG01",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.uis.no/nb/studier/utovende-musikk-bachelor",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor i utøvende musikk: klassisk, jazz/improvisasjon, kirkemusikk, dirigering",
+     "url": "https://www.uis.no/nb/studier/utovende-musikk-bachelor",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master in Music Performance: conducting, classical music, jazz and improvisation",
+     "url": "https://www.uis.no/en/studies/master-music-performance",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  STAVANG01",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.uis.no/nb/studier/utovende-musikk-bachelor",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor i utøvende musikk: klassisk, jazz/improvisasjon, kirkemusikk, dirigering",
+     "url": "https://www.uis.no/nb/studier/utovende-musikk-bachelor",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master in Music Performance: conducting, classical music, jazz and improvisation",
+     "url": "https://www.uis.no/en/studies/master-music-performance",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  STAVANG01",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.uis.no/nb/studier/utovende-musikk-bachelor",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor i utøvende musikk: klassisk, jazz/improvisasjon, kirkemusikk, dirigering",
+     "url": "https://www.uis.no/nb/studier/utovende-musikk-bachelor",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master in Music Performance: conducting, classical music, jazz and improvisation",
+     "url": "https://www.uis.no/en/studies/master-music-performance",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  STAVANG01",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.uis.no/nb/studier/utovende-musikk-bachelor",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor i utøvende musikk: klassisk, jazz/improvisasjon, kirkemusikk, dirigering",
+     "url": "https://www.uis.no/nb/studier/utovende-musikk-bachelor",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master in Music Performance: conducting, classical music, jazz and improvisation",
+     "url": "https://www.uis.no/en/studies/master-music-performance",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  STAVANG01",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.uis.no/nb/studier/utovende-musikk-bachelor",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor i utøvende musikk: klassisk, jazz/improvisasjon, kirkemusikk, dirigering",
+     "url": "https://www.uis.no/nb/studier/utovende-musikk-bachelor",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master in Music Performance: conducting, classical music, jazz and improvisation",
+     "url": "https://www.uis.no/en/studies/master-music-performance",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  STAVANG01",
+   "discipline": "church-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.uis.no/nb/studier/utovende-musikk-bachelor",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor i utøvende musikk: klassisk, jazz/improvisasjon, kirkemusikk, dirigering",
+     "url": "https://www.uis.no/nb/studier/utovende-musikk-bachelor",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  STAVANG01",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.uis.no/nb/studier/utovende-musikk-bachelor",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor i utøvende musikk: klassisk, jazz/improvisasjon, kirkemusikk, dirigering",
+     "url": "https://www.uis.no/nb/studier/utovende-musikk-bachelor",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master in Music Performance: conducting, classical music, jazz and improvisation",
+     "url": "https://www.uis.no/en/studies/master-music-performance",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  OSLO07",
+   "discipline": "vocal-opera",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://khio.no/en/study-programmes/maop",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Master's Programme in Opera",
+     "url": "https://khio.no/en/study-programmes/maop"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  TROMSO01",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://uit.no/utdanning/program/280865/musikkutoving_-_bachelor",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikkutøving (bachelor, master): klassisk og rytmisk sjanger",
+     "url": "https://uit.no/utdanning/program/280865/musikkutoving_-_bachelor",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musikkutøving (bachelor, master): klassisk og rytmisk sjanger",
+     "url": "https://uit.no/utdanning/program/280865/musikkutoving_-_bachelor",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  TROMSO01",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://uit.no/utdanning/program/280865/musikkutoving_-_bachelor",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikkutøving (bachelor, master): klassisk og rytmisk sjanger",
+     "url": "https://uit.no/utdanning/program/280865/musikkutoving_-_bachelor",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musikkutøving (bachelor, master): klassisk og rytmisk sjanger",
+     "url": "https://uit.no/utdanning/program/280865/musikkutoving_-_bachelor",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  TROMSO01",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://uit.no/utdanning/program/280865/musikkutoving_-_bachelor",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikkutøving (bachelor, master): klassisk og rytmisk sjanger",
+     "url": "https://uit.no/utdanning/program/280865/musikkutoving_-_bachelor",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musikkutøving (bachelor, master): klassisk og rytmisk sjanger",
+     "url": "https://uit.no/utdanning/program/280865/musikkutoving_-_bachelor",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  TROMSO01",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://uit.no/utdanning/program/280865/musikkutoving_-_bachelor",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikkutøving (bachelor, master): klassisk og rytmisk sjanger",
+     "url": "https://uit.no/utdanning/program/280865/musikkutoving_-_bachelor",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musikkutøving (bachelor, master): klassisk og rytmisk sjanger",
+     "url": "https://uit.no/utdanning/program/280865/musikkutoving_-_bachelor",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  TROMSO01",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://uit.no/utdanning/program/280865/musikkutoving_-_bachelor",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikkutøving (bachelor, master): klassisk og rytmisk sjanger",
+     "url": "https://uit.no/utdanning/program/280865/musikkutoving_-_bachelor",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musikkutøving (bachelor, master): klassisk og rytmisk sjanger",
+     "url": "https://uit.no/utdanning/program/280865/musikkutoving_-_bachelor",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  TROMSO01",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://uit.no/utdanning/program/280865/musikkutoving_-_bachelor",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikkutøving (bachelor, master): klassisk og rytmisk sjanger",
+     "url": "https://uit.no/utdanning/program/280865/musikkutoving_-_bachelor",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musikkutøving (bachelor, master): klassisk og rytmisk sjanger",
+     "url": "https://uit.no/utdanning/program/280865/musikkutoving_-_bachelor",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  TROMSO01",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://uit.no/utdanning/program/280865/musikkutoving_-_bachelor",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikkutøving (bachelor, master): klassisk og rytmisk sjanger",
+     "url": "https://uit.no/utdanning/program/280865/musikkutoving_-_bachelor",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musikkutøving (bachelor, master): klassisk og rytmisk sjanger",
+     "url": "https://uit.no/utdanning/program/280865/musikkutoving_-_bachelor",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  TROMSO01",
+   "discipline": "popular-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://uit.no/utdanning/program/280865/musikkutoving_-_bachelor",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikkutøving (bachelor, master): klassisk og rytmisk sjanger",
+     "url": "https://uit.no/utdanning/program/280865/musikkutoving_-_bachelor",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Musikkutøving (bachelor, master): klassisk og rytmisk sjanger",
+     "url": "https://uit.no/utdanning/program/280865/musikkutoving_-_bachelor",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  BERGEN12",
+   "discipline": "popular-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.nla.no/studier/studieprogram/master-i-utovende-rytmisk-musikk/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Utøvende rytmisk musikk (bachelor, master)",
+     "url": "https://www.nla.no/studier/studieprogram/master-i-utovende-rytmisk-musikk/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Utøvende rytmisk musikk (bachelor, master)",
+     "url": "https://www.nla.no/studier/studieprogram/master-i-utovende-rytmisk-musikk/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  BERGEN12",
+   "discipline": "music-production",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.nla.no/studier/studieprogram/bachelor-i-musikkskaping-latskriving-produksjon-og-live/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikkskaping – låtskriving, produksjon og live",
+     "url": "https://www.nla.no/studier/studieprogram/bachelor-i-musikkskaping-latskriving-produksjon-og-live/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  BERGEN12",
+   "discipline": "composition",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.nla.no/studier/studieprogram/bachelor-i-musikkskaping-latskriving-produksjon-og-live/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikkskaping – låtskriving, produksjon og live",
+     "url": "https://www.nla.no/studier/studieprogram/bachelor-i-musikkskaping-latskriving-produksjon-og-live/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  BERGEN12",
+   "discipline": "church-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.nla.no/studier/studieprogram/bachelor-i-musikk-menighet-og-ledelse",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikk, menighet og ledelse / utøvende musikk",
+     "url": "https://www.nla.no/studier/studieprogram/bachelor-i-musikk-menighet-og-ledelse"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  BERGEN12",
+   "discipline": "conducting",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.nla.no/studier/studieprogram/bachelor-i-musikk-menighet-og-ledelse",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Musikk, menighet og ledelse / utøvende musikk",
+     "url": "https://www.nla.no/studier/studieprogram/bachelor-i-musikk-menighet-og-ledelse"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  OSLO58",
+   "discipline": "popular-music",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.kristiania.no/studier/bachelor/musikk/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor i musikk: Musiker og artist; Låtskriving og produksjon; Konsertlyd og studioproduksjon",
+     "url": "https://www.kristiania.no/studier/bachelor/musikk/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  OSLO58",
+   "discipline": "music-production",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.kristiania.no/studier/bachelor/musikk/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor i musikk: Musiker og artist; Låtskriving og produksjon; Konsertlyd og studioproduksjon",
+     "url": "https://www.kristiania.no/studier/bachelor/musikk/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  OSLO58",
+   "discipline": "music-technology",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://www.kristiania.no/studier/bachelor/musikk/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor i musikk: Musiker og artist; Låtskriving og produksjon; Konsertlyd og studioproduksjon",
+     "url": "https://www.kristiania.no/studier/bachelor/musikk/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  BERGEN01",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor / Master i utøvende musikk eller komposisjon (klassisk, jazz, folkemusikk, komposisjon)",
+     "url": "https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelor / Master i utøvende musikk eller komposisjon (klassisk, jazz, folkemusikk, komposisjon)",
+     "url": "https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  BERGEN01",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor / Master i utøvende musikk eller komposisjon (klassisk, jazz, folkemusikk, komposisjon)",
+     "url": "https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelor / Master i utøvende musikk eller komposisjon (klassisk, jazz, folkemusikk, komposisjon)",
+     "url": "https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  BERGEN01",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor / Master i utøvende musikk eller komposisjon (klassisk, jazz, folkemusikk, komposisjon)",
+     "url": "https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelor / Master i utøvende musikk eller komposisjon (klassisk, jazz, folkemusikk, komposisjon)",
+     "url": "https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  BERGEN01",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor / Master i utøvende musikk eller komposisjon (klassisk, jazz, folkemusikk, komposisjon)",
+     "url": "https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelor / Master i utøvende musikk eller komposisjon (klassisk, jazz, folkemusikk, komposisjon)",
+     "url": "https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  BERGEN01",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor / Master i utøvende musikk eller komposisjon (klassisk, jazz, folkemusikk, komposisjon)",
+     "url": "https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelor / Master i utøvende musikk eller komposisjon (klassisk, jazz, folkemusikk, komposisjon)",
+     "url": "https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  BERGEN01",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor / Master i utøvende musikk eller komposisjon (klassisk, jazz, folkemusikk, komposisjon)",
+     "url": "https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelor / Master i utøvende musikk eller komposisjon (klassisk, jazz, folkemusikk, komposisjon)",
+     "url": "https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  BERGEN01",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor / Master i utøvende musikk eller komposisjon (klassisk, jazz, folkemusikk, komposisjon)",
+     "url": "https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelor / Master i utøvende musikk eller komposisjon (klassisk, jazz, folkemusikk, komposisjon)",
+     "url": "https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  BERGEN01",
+   "discipline": "folk",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor / Master i utøvende musikk eller komposisjon (klassisk, jazz, folkemusikk, komposisjon)",
+     "url": "https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelor / Master i utøvende musikk eller komposisjon (klassisk, jazz, folkemusikk, komposisjon)",
+     "url": "https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  BERGEN01",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor / Master i utøvende musikk eller komposisjon (klassisk, jazz, folkemusikk, komposisjon)",
+     "url": "https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Bachelor / Master i utøvende musikk eller komposisjon (klassisk, jazz, folkemusikk, komposisjon)",
+     "url": "https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+     "note": "Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  BERGEN01",
+   "discipline": "musicology",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://kmd.uib.no/no/studier/griegakademiet-institutt-for-musikk",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor i musikkvitenskap",
+     "url": "https://kmd.uib.no/no/studier/griegakademiet-institutt-for-musikk"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  BERGEN01",
+   "discipline": "music-therapy",
+   "levels": [
+    "MA"
+   ],
+   "source_url": "https://www.uib.no/grieg/24761/integrert-masterprogram-i-musikkterapi",
+   "evidence": [
+    {
+     "level": "MA",
+     "programme_name": "Integrert masterprogram i musikkterapi",
+     "url": "https://www.uib.no/grieg/24761/integrert-masterprogram-i-musikkterapi"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "N  KONGSBE02",
+   "discipline": "folk",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.usn.no/studier/bachelor-i-folkemusikk/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Bachelor i folkemusikk",
+     "url": "https://www.usn.no/studier/bachelor-i-folkemusikk/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Master i tradisjonskunst og folkemusikk",
+     "url": "https://www.usn.no/studier/master-i-tradisjonskunst-og-folkemusikk/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL BYDGOSZ04",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka (I i II stopień)",
+     "url": "https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka (I i II stopień)",
+     "url": "https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL BYDGOSZ04",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka (I i II stopień)",
+     "url": "https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka (I i II stopień)",
+     "url": "https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL BYDGOSZ04",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka (I i II stopień)",
+     "url": "https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka (I i II stopień)",
+     "url": "https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL BYDGOSZ04",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka (I i II stopień)",
+     "url": "https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka (I i II stopień)",
+     "url": "https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL BYDGOSZ04",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka (I i II stopień)",
+     "url": "https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka (I i II stopień)",
+     "url": "https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL BYDGOSZ04",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka (I i II stopień)",
+     "url": "https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka (I i II stopień)",
+     "url": "https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL BYDGOSZ04",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka (I i II stopień)",
+     "url": "https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka (I i II stopień)",
+     "url": "https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL BYDGOSZ04",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka (I i II stopień)",
+     "url": "https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka (I i II stopień)",
+     "url": "https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL BYDGOSZ04",
+   "discipline": "accordion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka (I i II stopień)",
+     "url": "https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka (I i II stopień)",
+     "url": "https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL BYDGOSZ04",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.rekrutacja.amuz.bydgoszcz.pl/pl/offer/Rekrutacja_2026/programme/SP-JME-W/?from=org-unit%3A40",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Jazz i muzyka estradowa: instrumentalistyka jazzowa, wokalistyka jazzowa, singer-songwriter",
+     "url": "https://www.rekrutacja.amuz.bydgoszcz.pl/pl/offer/Rekrutacja_2026/programme/SP-JME-W/?from=org-unit%3A40"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Jazz i muzyka estradowa: instrumentalistyka jazzowa, wokalistyka jazzowa, singer-songwriter",
+     "url": "https://www.rekrutacja.amuz.bydgoszcz.pl/pl/offer/Rekrutacja_2026/programme/SP-JME-W/?from=org-unit%3A40"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL BYDGOSZ04",
+   "discipline": "popular-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.rekrutacja.amuz.bydgoszcz.pl/pl/offer/Rekrutacja_2026/programme/SP-JME-W/?from=org-unit%3A40",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Jazz i muzyka estradowa: instrumentalistyka jazzowa, wokalistyka jazzowa, singer-songwriter",
+     "url": "https://www.rekrutacja.amuz.bydgoszcz.pl/pl/offer/Rekrutacja_2026/programme/SP-JME-W/?from=org-unit%3A40"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Jazz i muzyka estradowa: instrumentalistyka jazzowa, wokalistyka jazzowa, singer-songwriter",
+     "url": "https://www.rekrutacja.amuz.bydgoszcz.pl/pl/offer/Rekrutacja_2026/programme/SP-JME-W/?from=org-unit%3A40"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL BYDGOSZ04",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.amuz.bydgoszcz.pl/dla-kandydata/informatoramfn/w4/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kompozycja i teoria muzyki; reżyseria dźwięku",
+     "url": "https://www.amuz.bydgoszcz.pl/dla-kandydata/informatoramfn/w4/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kompozycja i teoria muzyki; reżyseria dźwięku",
+     "url": "https://www.amuz.bydgoszcz.pl/dla-kandydata/informatoramfn/w4/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL BYDGOSZ04",
+   "discipline": "music-theory",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.amuz.bydgoszcz.pl/dla-kandydata/informatoramfn/w4/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kompozycja i teoria muzyki; reżyseria dźwięku",
+     "url": "https://www.amuz.bydgoszcz.pl/dla-kandydata/informatoramfn/w4/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kompozycja i teoria muzyki; reżyseria dźwięku",
+     "url": "https://www.amuz.bydgoszcz.pl/dla-kandydata/informatoramfn/w4/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL BYDGOSZ04",
+   "discipline": "music-technology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.amuz.bydgoszcz.pl/dla-kandydata/informatoramfn/w4/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kompozycja i teoria muzyki; reżyseria dźwięku",
+     "url": "https://www.amuz.bydgoszcz.pl/dla-kandydata/informatoramfn/w4/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kompozycja i teoria muzyki; reżyseria dźwięku",
+     "url": "https://www.amuz.bydgoszcz.pl/dla-kandydata/informatoramfn/w4/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL BYDGOSZ04",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.amuz.bydgoszcz.pl/dla-kandydata/informatoramfn/w4/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Edukacja artystyczna w zakresie sztuki muzycznej (dyrygentura chóralna, muzyka kościelna)",
+     "url": "https://www.amuz.bydgoszcz.pl/dla-kandydata/informatoramfn/w4/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Edukacja artystyczna w zakresie sztuki muzycznej (dyrygentura chóralna, muzyka kościelna)",
+     "url": "https://www.amuz.bydgoszcz.pl/dla-kandydata/informatoramfn/w4/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL BYDGOSZ04",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.amuz.bydgoszcz.pl/dla-kandydata/informatoramfn/w4/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Edukacja artystyczna w zakresie sztuki muzycznej (dyrygentura chóralna, muzyka kościelna)",
+     "url": "https://www.amuz.bydgoszcz.pl/dla-kandydata/informatoramfn/w4/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Edukacja artystyczna w zakresie sztuki muzycznej (dyrygentura chóralna, muzyka kościelna)",
+     "url": "https://www.amuz.bydgoszcz.pl/dla-kandydata/informatoramfn/w4/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL BYDGOSZ04",
+   "discipline": "church-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.amuz.bydgoszcz.pl/dla-kandydata/informatoramfn/w4/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Edukacja artystyczna w zakresie sztuki muzycznej (dyrygentura chóralna, muzyka kościelna)",
+     "url": "https://www.amuz.bydgoszcz.pl/dla-kandydata/informatoramfn/w4/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Edukacja artystyczna w zakresie sztuki muzycznej (dyrygentura chóralna, muzyka kościelna)",
+     "url": "https://www.amuz.bydgoszcz.pl/dla-kandydata/informatoramfn/w4/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL BYDGOSZ04",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.usosweb.amuz.bydgoszcz.pl/kontroler.php?_action=katalog2/programy/pokazProgram&prg_kod=SP-W",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Wokalistyka (Wydział Wokalno-Aktorski)",
+     "url": "https://www.usosweb.amuz.bydgoszcz.pl/kontroler.php?_action=katalog2/programy/pokazProgram&prg_kod=SP-W"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Wokalistyka (Wydział Wokalno-Aktorski)",
+     "url": "https://www.usosweb.amuz.bydgoszcz.pl/kontroler.php?_action=katalog2/programy/pokazProgram&prg_kod=SP-W"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL LODZ04",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.amuz.lodz.pl/index.php/pl/home/oferta-dydaktyczna/instytut-wokalistyki-jazzowej-i-estradowej/wokalistyka-jazzowa",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Jazz i muzyka estradowa: instrumenty jazzowe, wokalistyka jazzowa i estradowa",
+     "url": "https://www.amuz.lodz.pl/index.php/pl/home/oferta-dydaktyczna/instytut-wokalistyki-jazzowej-i-estradowej/wokalistyka-jazzowa"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Jazz i muzyka estradowa: instrumenty jazzowe, wokalistyka jazzowa i estradowa",
+     "url": "https://www.amuz.lodz.pl/index.php/pl/home/oferta-dydaktyczna/instytut-wokalistyki-jazzowej-i-estradowej/wokalistyka-jazzowa"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL LODZ04",
+   "discipline": "popular-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.amuz.lodz.pl/index.php/pl/home/oferta-dydaktyczna/instytut-wokalistyki-jazzowej-i-estradowej/wokalistyka-jazzowa",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Jazz i muzyka estradowa: instrumenty jazzowe, wokalistyka jazzowa i estradowa",
+     "url": "https://www.amuz.lodz.pl/index.php/pl/home/oferta-dydaktyczna/instytut-wokalistyki-jazzowej-i-estradowej/wokalistyka-jazzowa"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Jazz i muzyka estradowa: instrumenty jazzowe, wokalistyka jazzowa i estradowa",
+     "url": "https://www.amuz.lodz.pl/index.php/pl/home/oferta-dydaktyczna/instytut-wokalistyki-jazzowej-i-estradowej/wokalistyka-jazzowa"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL LODZ04",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka",
+     "url": "http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka",
+     "url": "http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL LODZ04",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka",
+     "url": "http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka",
+     "url": "http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL LODZ04",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka",
+     "url": "http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka",
+     "url": "http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL LODZ04",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka",
+     "url": "http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka",
+     "url": "http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL LODZ04",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka",
+     "url": "http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka",
+     "url": "http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL LODZ04",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka",
+     "url": "http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka",
+     "url": "http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL LODZ04",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka",
+     "url": "http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka",
+     "url": "http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL LODZ04",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka",
+     "url": "http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka",
+     "url": "http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL LODZ04",
+   "discipline": "accordion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka",
+     "url": "http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka",
+     "url": "http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL LODZ04",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "http://www.amuz.lodz.pl/en/14-dla-kandydata/149732-wokalistyka-studia-stacjonarne-ii-stopnia-1",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Wokalistyka",
+     "url": "http://www.amuz.lodz.pl/en/14-dla-kandydata/149732-wokalistyka-studia-stacjonarne-ii-stopnia-1"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Wokalistyka",
+     "url": "http://www.amuz.lodz.pl/en/14-dla-kandydata/149732-wokalistyka-studia-stacjonarne-ii-stopnia-1"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL POZNAN06",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka (fortepian, organy, akordeon, dęte, smyczkowe, harfa, gitara)",
+     "url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka (fortepian, organy, akordeon, dęte, smyczkowe, harfa, gitara)",
+     "url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL POZNAN06",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka (fortepian, organy, akordeon, dęte, smyczkowe, harfa, gitara)",
+     "url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka (fortepian, organy, akordeon, dęte, smyczkowe, harfa, gitara)",
+     "url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL POZNAN06",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka (fortepian, organy, akordeon, dęte, smyczkowe, harfa, gitara)",
+     "url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka (fortepian, organy, akordeon, dęte, smyczkowe, harfa, gitara)",
+     "url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL POZNAN06",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka (fortepian, organy, akordeon, dęte, smyczkowe, harfa, gitara)",
+     "url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka (fortepian, organy, akordeon, dęte, smyczkowe, harfa, gitara)",
+     "url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL POZNAN06",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka (fortepian, organy, akordeon, dęte, smyczkowe, harfa, gitara)",
+     "url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka (fortepian, organy, akordeon, dęte, smyczkowe, harfa, gitara)",
+     "url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL POZNAN06",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka (fortepian, organy, akordeon, dęte, smyczkowe, harfa, gitara)",
+     "url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka (fortepian, organy, akordeon, dęte, smyczkowe, harfa, gitara)",
+     "url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL POZNAN06",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka (fortepian, organy, akordeon, dęte, smyczkowe, harfa, gitara)",
+     "url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka (fortepian, organy, akordeon, dęte, smyczkowe, harfa, gitara)",
+     "url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL POZNAN06",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka (fortepian, organy, akordeon, dęte, smyczkowe, harfa, gitara)",
+     "url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka (fortepian, organy, akordeon, dęte, smyczkowe, harfa, gitara)",
+     "url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL POZNAN06",
+   "discipline": "accordion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka (fortepian, organy, akordeon, dęte, smyczkowe, harfa, gitara)",
+     "url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka (fortepian, organy, akordeon, dęte, smyczkowe, harfa, gitara)",
+     "url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL POZNAN06",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://amuz.edu.pl/nowa-struktura-uczelni/wydzial-instrumentalistyki-jazzu-i-muzyki-estradowej/charakterystyka-wydzialu/instytut-instrumentalistyki/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Wykonawstwo historyczne",
+     "url": "https://amuz.edu.pl/nowa-struktura-uczelni/wydzial-instrumentalistyki-jazzu-i-muzyki-estradowej/charakterystyka-wydzialu/instytut-instrumentalistyki/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Wykonawstwo historyczne",
+     "url": "https://amuz.edu.pl/nowa-struktura-uczelni/wydzial-instrumentalistyki-jazzu-i-muzyki-estradowej/charakterystyka-wydzialu/instytut-instrumentalistyki/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL POZNAN06",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Jazz i muzyka estradowa (instrumenty, wokalistyka jazzowa, kompozycja z aranżacją)",
+     "url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Jazz i muzyka estradowa (instrumenty, wokalistyka jazzowa, kompozycja z aranżacją)",
+     "url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL POZNAN06",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kompozycja i teoria muzyki (muzyka filmowa i teatralna, kompozycja elektroakustyczna)",
+     "url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kompozycja i teoria muzyki (muzyka filmowa i teatralna, kompozycja elektroakustyczna)",
+     "url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL POZNAN06",
+   "discipline": "music-theory",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kompozycja i teoria muzyki (muzyka filmowa i teatralna, kompozycja elektroakustyczna)",
+     "url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kompozycja i teoria muzyki (muzyka filmowa i teatralna, kompozycja elektroakustyczna)",
+     "url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL POZNAN06",
+   "discipline": "music-technology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kompozycja i teoria muzyki (muzyka filmowa i teatralna, kompozycja elektroakustyczna)",
+     "url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kompozycja i teoria muzyki (muzyka filmowa i teatralna, kompozycja elektroakustyczna)",
+     "url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL POZNAN06",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Dyrygentura (symfoniczna, operowa, chóralna, orkiestr dętych)",
+     "url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Dyrygentura (symfoniczna, operowa, chóralna, orkiestr dętych)",
+     "url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL POZNAN06",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Wokalistyka (śpiew solowy, śpiew musicalowy)",
+     "url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Wokalistyka (śpiew solowy, śpiew musicalowy)",
+     "url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL POZNAN06",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Edukacja artystyczna w zakresie sztuki muzycznej",
+     "url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Edukacja artystyczna w zakresie sztuki muzycznej",
+     "url": "https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL WROCLAW06",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka (klawiszowe, smyczkowe, dęte, dawne, gitara, harfa, akordeon, perkusja)",
+     "url": "https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka (klawiszowe, smyczkowe, dęte, dawne, gitara, harfa, akordeon, perkusja)",
+     "url": "https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL WROCLAW06",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka (klawiszowe, smyczkowe, dęte, dawne, gitara, harfa, akordeon, perkusja)",
+     "url": "https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka (klawiszowe, smyczkowe, dęte, dawne, gitara, harfa, akordeon, perkusja)",
+     "url": "https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL WROCLAW06",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka (klawiszowe, smyczkowe, dęte, dawne, gitara, harfa, akordeon, perkusja)",
+     "url": "https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka (klawiszowe, smyczkowe, dęte, dawne, gitara, harfa, akordeon, perkusja)",
+     "url": "https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL WROCLAW06",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka (klawiszowe, smyczkowe, dęte, dawne, gitara, harfa, akordeon, perkusja)",
+     "url": "https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka (klawiszowe, smyczkowe, dęte, dawne, gitara, harfa, akordeon, perkusja)",
+     "url": "https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL WROCLAW06",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka (klawiszowe, smyczkowe, dęte, dawne, gitara, harfa, akordeon, perkusja)",
+     "url": "https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka (klawiszowe, smyczkowe, dęte, dawne, gitara, harfa, akordeon, perkusja)",
+     "url": "https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL WROCLAW06",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka (klawiszowe, smyczkowe, dęte, dawne, gitara, harfa, akordeon, perkusja)",
+     "url": "https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka (klawiszowe, smyczkowe, dęte, dawne, gitara, harfa, akordeon, perkusja)",
+     "url": "https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL WROCLAW06",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka (klawiszowe, smyczkowe, dęte, dawne, gitara, harfa, akordeon, perkusja)",
+     "url": "https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka (klawiszowe, smyczkowe, dęte, dawne, gitara, harfa, akordeon, perkusja)",
+     "url": "https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL WROCLAW06",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka (klawiszowe, smyczkowe, dęte, dawne, gitara, harfa, akordeon, perkusja)",
+     "url": "https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka (klawiszowe, smyczkowe, dęte, dawne, gitara, harfa, akordeon, perkusja)",
+     "url": "https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL WROCLAW06",
+   "discipline": "accordion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka (klawiszowe, smyczkowe, dęte, dawne, gitara, harfa, akordeon, perkusja)",
+     "url": "https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka (klawiszowe, smyczkowe, dęte, dawne, gitara, harfa, akordeon, perkusja)",
+     "url": "https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL WROCLAW06",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka (klawiszowe, smyczkowe, dęte, dawne, gitara, harfa, akordeon, perkusja)",
+     "url": "https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka (klawiszowe, smyczkowe, dęte, dawne, gitara, harfa, akordeon, perkusja)",
+     "url": "https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL WROCLAW06",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://amuz.wroc.pl/uczelnia/struktura/wydzialy-1/wydzial-muzyki-jazzowej-1",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Jazz i muzyka estradowa",
+     "url": "https://amuz.wroc.pl/uczelnia/struktura/wydzialy-1/wydzial-muzyki-jazzowej-1"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Jazz i muzyka estradowa",
+     "url": "https://amuz.wroc.pl/uczelnia/struktura/wydzialy-1/wydzial-muzyki-jazzowej-1"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL WROCLAW06",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://amuz.wroc.pl/zakresy-egzaminow-wstepnych-5530",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Wokalistyka",
+     "url": "https://amuz.wroc.pl/zakresy-egzaminow-wstepnych-5530"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Wokalistyka",
+     "url": "https://amuz.wroc.pl/zakresy-egzaminow-wstepnych-5530"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL WROCLAW06",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://amuz.wroc.pl/kompozycja-4086",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kompozycja i teoria muzyki (kompozycja, teoria muzyki, muzykoterapia)",
+     "url": "https://amuz.wroc.pl/kompozycja-4086"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kompozycja i teoria muzyki (kompozycja, teoria muzyki, muzykoterapia)",
+     "url": "https://amuz.wroc.pl/kompozycja-4086"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL WROCLAW06",
+   "discipline": "music-theory",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://amuz.wroc.pl/kompozycja-4086",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kompozycja i teoria muzyki (kompozycja, teoria muzyki, muzykoterapia)",
+     "url": "https://amuz.wroc.pl/kompozycja-4086"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kompozycja i teoria muzyki (kompozycja, teoria muzyki, muzykoterapia)",
+     "url": "https://amuz.wroc.pl/kompozycja-4086"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL WROCLAW06",
+   "discipline": "music-therapy",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://amuz.wroc.pl/kompozycja-4086",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kompozycja i teoria muzyki (kompozycja, teoria muzyki, muzykoterapia)",
+     "url": "https://amuz.wroc.pl/kompozycja-4086"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kompozycja i teoria muzyki (kompozycja, teoria muzyki, muzykoterapia)",
+     "url": "https://amuz.wroc.pl/kompozycja-4086"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL KATOWIC04",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://am.katowice.pl/informacje/informacje-o-kierunkach-struktura-przedmiotu-1224",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Jazz i muzyka estradowa: instrumentalistyka jazzowa, wokalistyka jazzowa i estradowa, kompozycja i aranżacja",
+     "url": "https://am.katowice.pl/informacje/informacje-o-kierunkach-struktura-przedmiotu-1224"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Jazz i muzyka estradowa: instrumentalistyka jazzowa, wokalistyka jazzowa i estradowa, kompozycja i aranżacja",
+     "url": "https://am.katowice.pl/informacje/informacje-o-kierunkach-struktura-przedmiotu-1224"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL KATOWIC04",
+   "discipline": "popular-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://am.katowice.pl/informacje/informacje-o-kierunkach-struktura-przedmiotu-1224",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Jazz i muzyka estradowa: instrumentalistyka jazzowa, wokalistyka jazzowa i estradowa, kompozycja i aranżacja",
+     "url": "https://am.katowice.pl/informacje/informacje-o-kierunkach-struktura-przedmiotu-1224"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Jazz i muzyka estradowa: instrumentalistyka jazzowa, wokalistyka jazzowa i estradowa, kompozycja i aranżacja",
+     "url": "https://am.katowice.pl/informacje/informacje-o-kierunkach-struktura-przedmiotu-1224"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL KATOWIC04",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka",
+     "url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka",
+     "url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL KATOWIC04",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka",
+     "url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka",
+     "url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL KATOWIC04",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka",
+     "url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka",
+     "url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL KATOWIC04",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka",
+     "url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka",
+     "url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL KATOWIC04",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka",
+     "url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka",
+     "url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL KATOWIC04",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka",
+     "url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka",
+     "url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL KATOWIC04",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka",
+     "url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka",
+     "url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL KATOWIC04",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka",
+     "url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka",
+     "url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL KATOWIC04",
+   "discipline": "accordion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka",
+     "url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka",
+     "url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL KATOWIC04",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Wokalistyka",
+     "url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Wokalistyka",
+     "url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL KATOWIC04",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kompozycja, dyrygentura i teoria muzyki (dyrygentura chóralna, symfoniczno-operowa)",
+     "url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kompozycja, dyrygentura i teoria muzyki (dyrygentura chóralna, symfoniczno-operowa)",
+     "url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL KATOWIC04",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kompozycja, dyrygentura i teoria muzyki (dyrygentura chóralna, symfoniczno-operowa)",
+     "url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kompozycja, dyrygentura i teoria muzyki (dyrygentura chóralna, symfoniczno-operowa)",
+     "url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL KATOWIC04",
+   "discipline": "music-theory",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kompozycja, dyrygentura i teoria muzyki (dyrygentura chóralna, symfoniczno-operowa)",
+     "url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kompozycja, dyrygentura i teoria muzyki (dyrygentura chóralna, symfoniczno-operowa)",
+     "url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL KATOWIC04",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Edukacja artystyczna w zakresie sztuki muzycznej",
+     "url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Edukacja artystyczna w zakresie sztuki muzycznej",
+     "url": "https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL KATOWIC04",
+   "discipline": "music-technology",
+   "levels": [
+    "BA"
+   ],
+   "source_url": "https://am.katowice.pl/akademia/informacje/wydzial-jazzu-i-muzyki-rozrywkowej-149",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Realizacja nagłośnienia (studia niestacjonarne)",
+     "url": "https://am.katowice.pl/akademia/informacje/wydzial-jazzu-i-muzyki-rozrywkowej-149"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL KRAKOW09",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+     "url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+     "url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL KRAKOW09",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+     "url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+     "url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL KRAKOW09",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+     "url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+     "url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL KRAKOW09",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+     "url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+     "url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL KRAKOW09",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+     "url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+     "url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL KRAKOW09",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+     "url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+     "url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL KRAKOW09",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+     "url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+     "url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL KRAKOW09",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+     "url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+     "url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL KRAKOW09",
+   "discipline": "accordion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+     "url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+     "url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL KRAKOW09",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+     "url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+     "url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL KRAKOW09",
+   "discipline": "chamber-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+     "url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+     "url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL KRAKOW09",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/jazz-i-muzyka-improwizowana/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Jazz i muzyka improwizowana",
+     "url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/jazz-i-muzyka-improwizowana/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Jazz i muzyka improwizowana",
+     "url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/jazz-i-muzyka-improwizowana/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL KRAKOW09",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kompozycja i teoria muzyki",
+     "url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kompozycja i teoria muzyki",
+     "url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL KRAKOW09",
+   "discipline": "music-theory",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kompozycja i teoria muzyki",
+     "url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kompozycja i teoria muzyki",
+     "url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL KRAKOW09",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Dyrygentura (chóralna, orkiestr dętych)",
+     "url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Dyrygentura (chóralna, orkiestr dętych)",
+     "url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL KRAKOW09",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Edukacja artystyczna; Muzyka kościelna; Wokalistyka",
+     "url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Edukacja artystyczna; Muzyka kościelna; Wokalistyka",
+     "url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL KRAKOW09",
+   "discipline": "church-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Edukacja artystyczna; Muzyka kościelna; Wokalistyka",
+     "url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Edukacja artystyczna; Muzyka kościelna; Wokalistyka",
+     "url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL KRAKOW09",
+   "discipline": "vocal-opera",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Edukacja artystyczna; Muzyka kościelna; Wokalistyka",
+     "url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Edukacja artystyczna; Muzyka kościelna; Wokalistyka",
+     "url": "https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL GDANSK04",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://amuz.gda.pl/wydzialy/wydzial-iv-dyrygentury-choralnej-muzyki-koscielnej-edukacji-artystycznej-rytmiki-i-jazzu/kierunki-i-specjalnosci,680",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Jazz i muzyka estradowa: wokalistyka jazzowa, instrumentalistyka jazzowa, kompozycja i aranżacja jazzowa",
+     "url": "https://amuz.gda.pl/wydzialy/wydzial-iv-dyrygentury-choralnej-muzyki-koscielnej-edukacji-artystycznej-rytmiki-i-jazzu/kierunki-i-specjalnosci,680"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Jazz i muzyka estradowa: wokalistyka jazzowa, instrumentalistyka jazzowa, kompozycja i aranżacja jazzowa",
+     "url": "https://amuz.gda.pl/wydzialy/wydzial-iv-dyrygentury-choralnej-muzyki-koscielnej-edukacji-artystycznej-rytmiki-i-jazzu/kierunki-i-specjalnosci,680"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL GDANSK04",
+   "discipline": "popular-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://amuz.gda.pl/wydzialy/wydzial-iv-dyrygentury-choralnej-muzyki-koscielnej-edukacji-artystycznej-rytmiki-i-jazzu/kierunki-i-specjalnosci,680",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Jazz i muzyka estradowa: wokalistyka jazzowa, instrumentalistyka jazzowa, kompozycja i aranżacja jazzowa",
+     "url": "https://amuz.gda.pl/wydzialy/wydzial-iv-dyrygentury-choralnej-muzyki-koscielnej-edukacji-artystycznej-rytmiki-i-jazzu/kierunki-i-specjalnosci,680"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Jazz i muzyka estradowa: wokalistyka jazzowa, instrumentalistyka jazzowa, kompozycja i aranżacja jazzowa",
+     "url": "https://amuz.gda.pl/wydzialy/wydzial-iv-dyrygentury-choralnej-muzyki-koscielnej-edukacji-artystycznej-rytmiki-i-jazzu/kierunki-i-specjalnosci,680"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL GDANSK04",
+   "discipline": "composition",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://amuz.gda.pl/rekrutacja-2021-2022/o-wydzialach/wydzial-iv/kierunki-i-specjalnosci/kompozycja-i-aranzacja-jazzowa,748",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kompozycja i teoria muzyki (kompozycja klasyczna, muzyka filmowa, gier i mediów, teoria muzyki)",
+     "url": "https://amuz.gda.pl/rekrutacja-2021-2022/o-wydzialach/wydzial-iv/kierunki-i-specjalnosci/kompozycja-i-aranzacja-jazzowa,748"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kompozycja i teoria muzyki (kompozycja klasyczna, muzyka filmowa, gier i mediów, teoria muzyki)",
+     "url": "https://amuz.gda.pl/rekrutacja-2021-2022/o-wydzialach/wydzial-iv/kierunki-i-specjalnosci/kompozycja-i-aranzacja-jazzowa,748"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL GDANSK04",
+   "discipline": "music-theory",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://amuz.gda.pl/rekrutacja-2021-2022/o-wydzialach/wydzial-iv/kierunki-i-specjalnosci/kompozycja-i-aranzacja-jazzowa,748",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Kompozycja i teoria muzyki (kompozycja klasyczna, muzyka filmowa, gier i mediów, teoria muzyki)",
+     "url": "https://amuz.gda.pl/rekrutacja-2021-2022/o-wydzialach/wydzial-iv/kierunki-i-specjalnosci/kompozycja-i-aranzacja-jazzowa,748"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Kompozycja i teoria muzyki (kompozycja klasyczna, muzyka filmowa, gier i mediów, teoria muzyki)",
+     "url": "https://amuz.gda.pl/rekrutacja-2021-2022/o-wydzialach/wydzial-iv/kierunki-i-specjalnosci/kompozycja-i-aranzacja-jazzowa,748"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL GDANSK04",
+   "discipline": "conducting",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://amuz.gda.pl/wydzialy/wydzial-iv-dyrygentury-choralnej-muzyki-koscielnej-edukacji-artystycznej-rytmiki-i-jazzu/kierunki-i-specjalnosci,680",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Wydział IV: dyrygentura chóralna, muzyka kościelna, edukacja artystyczna, rytmika",
+     "url": "https://amuz.gda.pl/wydzialy/wydzial-iv-dyrygentury-choralnej-muzyki-koscielnej-edukacji-artystycznej-rytmiki-i-jazzu/kierunki-i-specjalnosci,680"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Wydział IV: dyrygentura chóralna, muzyka kościelna, edukacja artystyczna, rytmika",
+     "url": "https://amuz.gda.pl/wydzialy/wydzial-iv-dyrygentury-choralnej-muzyki-koscielnej-edukacji-artystycznej-rytmiki-i-jazzu/kierunki-i-specjalnosci,680"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL GDANSK04",
+   "discipline": "church-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://amuz.gda.pl/wydzialy/wydzial-iv-dyrygentury-choralnej-muzyki-koscielnej-edukacji-artystycznej-rytmiki-i-jazzu/kierunki-i-specjalnosci,680",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Wydział IV: dyrygentura chóralna, muzyka kościelna, edukacja artystyczna, rytmika",
+     "url": "https://amuz.gda.pl/wydzialy/wydzial-iv-dyrygentury-choralnej-muzyki-koscielnej-edukacji-artystycznej-rytmiki-i-jazzu/kierunki-i-specjalnosci,680"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Wydział IV: dyrygentura chóralna, muzyka kościelna, edukacja artystyczna, rytmika",
+     "url": "https://amuz.gda.pl/wydzialy/wydzial-iv-dyrygentury-choralnej-muzyki-koscielnej-edukacji-artystycznej-rytmiki-i-jazzu/kierunki-i-specjalnosci,680"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL GDANSK04",
+   "discipline": "music-education",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://amuz.gda.pl/wydzialy/wydzial-iv-dyrygentury-choralnej-muzyki-koscielnej-edukacji-artystycznej-rytmiki-i-jazzu/kierunki-i-specjalnosci,680",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Wydział IV: dyrygentura chóralna, muzyka kościelna, edukacja artystyczna, rytmika",
+     "url": "https://amuz.gda.pl/wydzialy/wydzial-iv-dyrygentury-choralnej-muzyki-koscielnej-edukacji-artystycznej-rytmiki-i-jazzu/kierunki-i-specjalnosci,680"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Wydział IV: dyrygentura chóralna, muzyka kościelna, edukacja artystyczna, rytmika",
+     "url": "https://amuz.gda.pl/wydzialy/wydzial-iv-dyrygentury-choralnej-muzyki-koscielnej-edukacji-artystycznej-rytmiki-i-jazzu/kierunki-i-specjalnosci,680"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL WARSZAW09",
+   "discipline": "strings",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka",
+     "url": "https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka",
+     "url": "https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL WARSZAW09",
+   "discipline": "woodwind",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka",
+     "url": "https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka",
+     "url": "https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL WARSZAW09",
+   "discipline": "brass",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka",
+     "url": "https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka",
+     "url": "https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL WARSZAW09",
+   "discipline": "percussion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka",
+     "url": "https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka",
+     "url": "https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL WARSZAW09",
+   "discipline": "piano",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka",
+     "url": "https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka",
+     "url": "https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL WARSZAW09",
+   "discipline": "organ",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka",
+     "url": "https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka",
+     "url": "https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL WARSZAW09",
+   "discipline": "guitar",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka",
+     "url": "https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka",
+     "url": "https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL WARSZAW09",
+   "discipline": "harp",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka",
+     "url": "https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka",
+     "url": "https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL WARSZAW09",
+   "discipline": "accordion",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka",
+     "url": "https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka",
+     "url": "https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL WARSZAW09",
+   "discipline": "early-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Instrumentalistyka – muzyka dawna (traverso, viola da gamba, teorba, trąbka naturalna, skrzypce historyczne)",
+     "url": "https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Instrumentalistyka – muzyka dawna (traverso, viola da gamba, teorba, trąbka naturalna, skrzypce historyczne)",
+     "url": "https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL WARSZAW09",
+   "discipline": "jazz",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Jazz i muzyka estradowa: jazz; jazz i world music",
+     "url": "https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Jazz i muzyka estradowa: jazz; jazz i world music",
+     "url": "https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL WARSZAW09",
+   "discipline": "global-music",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Jazz i muzyka estradowa: jazz; jazz i world music",
+     "url": "https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Jazz i muzyka estradowa: jazz; jazz i world music",
+     "url": "https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+    }
+   ],
+   "verified": false
+  },
+  {
+   "erasmus_code": "PL WARSZAW09",
+   "discipline": "music-technology",
+   "levels": [
+    "BA",
+    "MA"
+   ],
+   "source_url": "https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FpokazProgram&prg_kod=RD-RM-SM",
+   "evidence": [
+    {
+     "level": "BA",
+     "programme_name": "Reżyseria dźwięku (film i telewizja, reżyseria muzyczna, multimedia)",
+     "url": "https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FpokazProgram&prg_kod=RD-RM-SM"
+    },
+    {
+     "level": "MA",
+     "programme_name": "Reżyseria dźwięku (film i telewizja, reżyseria muzyczna, multimedia)",
+     "url": "https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FpokazProgram&prg_kod=RD-RM-SM"
     }
    ],
    "verified": false

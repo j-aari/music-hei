@@ -1,0 +1,2220 @@
+{
+"collected": "2026-10-08",
+"method": "Field-level collection as in batch 1; where a site lists programmes only via JavaScript, the programme pages were located with a web search restricted to the institution's own domain (raw HTML of each institution's own programme pages, PDFs where the list was only there; names mapped to disciplines.json by keyword and checked by hand).",
+"institutions": {
+"N  OSLO66": [
+[
+"strings",
+"BA",
+"Bachelor i utøvende musikk",
+"https://barrattdue.no/studier/hoyere-utdanning/bachelor-i-utovende-musikk/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"BA",
+"Bachelor i utøvende musikk",
+"https://barrattdue.no/studier/hoyere-utdanning/bachelor-i-utovende-musikk/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"BA",
+"Bachelor i utøvende musikk",
+"https://barrattdue.no/studier/hoyere-utdanning/bachelor-i-utovende-musikk/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"BA",
+"Bachelor i utøvende musikk",
+"https://barrattdue.no/studier/hoyere-utdanning/bachelor-i-utovende-musikk/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"BA",
+"Bachelor i utøvende musikk",
+"https://barrattdue.no/studier/hoyere-utdanning/bachelor-i-utovende-musikk/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"BA",
+"Bachelor i utøvende musikk",
+"https://barrattdue.no/studier/hoyere-utdanning/bachelor-i-utovende-musikk/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"strings",
+"MA",
+"Master i utøvende musikk",
+"https://barrattdue.no/studier/hoyere-utdanning/master-i-utovende-musikk/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"MA",
+"Master i utøvende musikk",
+"https://barrattdue.no/studier/hoyere-utdanning/master-i-utovende-musikk/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"MA",
+"Master i utøvende musikk",
+"https://barrattdue.no/studier/hoyere-utdanning/master-i-utovende-musikk/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"MA",
+"Master i utøvende musikk",
+"https://barrattdue.no/studier/hoyere-utdanning/master-i-utovende-musikk/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"MA",
+"Master i utøvende musikk",
+"https://barrattdue.no/studier/hoyere-utdanning/master-i-utovende-musikk/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"MA",
+"Master i utøvende musikk",
+"https://barrattdue.no/studier/hoyere-utdanning/master-i-utovende-musikk/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+]
+],
+"N  TRONDHE01": [
+[
+"strings",
+"BA",
+"Music Performance Studies (bachelor, classical 4 years); Music Performance (master, classical or jazz)",
+"https://www.ntnu.edu/studies/bmusp/music-performance-studies-bachelor-s-programme",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"strings",
+"MA",
+"Music Performance Studies (bachelor, classical 4 years); Music Performance (master, classical or jazz)",
+"https://www.ntnu.edu/studies/bmusp/music-performance-studies-bachelor-s-programme",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"BA",
+"Music Performance Studies (bachelor, classical 4 years); Music Performance (master, classical or jazz)",
+"https://www.ntnu.edu/studies/bmusp/music-performance-studies-bachelor-s-programme",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"MA",
+"Music Performance Studies (bachelor, classical 4 years); Music Performance (master, classical or jazz)",
+"https://www.ntnu.edu/studies/bmusp/music-performance-studies-bachelor-s-programme",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"BA",
+"Music Performance Studies (bachelor, classical 4 years); Music Performance (master, classical or jazz)",
+"https://www.ntnu.edu/studies/bmusp/music-performance-studies-bachelor-s-programme",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"MA",
+"Music Performance Studies (bachelor, classical 4 years); Music Performance (master, classical or jazz)",
+"https://www.ntnu.edu/studies/bmusp/music-performance-studies-bachelor-s-programme",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"BA",
+"Music Performance Studies (bachelor, classical 4 years); Music Performance (master, classical or jazz)",
+"https://www.ntnu.edu/studies/bmusp/music-performance-studies-bachelor-s-programme",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"MA",
+"Music Performance Studies (bachelor, classical 4 years); Music Performance (master, classical or jazz)",
+"https://www.ntnu.edu/studies/bmusp/music-performance-studies-bachelor-s-programme",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"BA",
+"Music Performance Studies (bachelor, classical 4 years); Music Performance (master, classical or jazz)",
+"https://www.ntnu.edu/studies/bmusp/music-performance-studies-bachelor-s-programme",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"MA",
+"Music Performance Studies (bachelor, classical 4 years); Music Performance (master, classical or jazz)",
+"https://www.ntnu.edu/studies/bmusp/music-performance-studies-bachelor-s-programme",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"BA",
+"Music Performance Studies (bachelor, classical 4 years); Music Performance (master, classical or jazz)",
+"https://www.ntnu.edu/studies/bmusp/music-performance-studies-bachelor-s-programme",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"MA",
+"Music Performance Studies (bachelor, classical 4 years); Music Performance (master, classical or jazz)",
+"https://www.ntnu.edu/studies/bmusp/music-performance-studies-bachelor-s-programme",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"jazz",
+"BA",
+"Music Performance Studies – jazz (bachelor 3 years); Music Performance – jazz (master)",
+"https://www.ntnu.edu/studies/mmusp/music-performance-studies-master-s-programme"
+],
+[
+"jazz",
+"MA",
+"Music Performance Studies – jazz (bachelor 3 years); Music Performance – jazz (master)",
+"https://www.ntnu.edu/studies/mmusp/music-performance-studies-master-s-programme"
+],
+[
+"music-technology",
+"BA",
+"Music Technology (bachelor); Creative Music Technology (master); Music, Communication and Technology (master)",
+"https://www.ntnu.edu/studies/bmust"
+],
+[
+"music-technology",
+"MA",
+"Music Technology (bachelor); Creative Music Technology (master); Music, Communication and Technology (master)",
+"https://www.ntnu.edu/studies/bmust"
+],
+[
+"musicology",
+"BA",
+"Musicology (bachelor, master)",
+"https://www.ntnu.edu/studies/bmusv"
+],
+[
+"musicology",
+"MA",
+"Musicology (bachelor, master)",
+"https://www.ntnu.edu/studies/bmusv"
+]
+],
+"N  KRISTIA01": [
+[
+"jazz",
+"BA",
+"Utøvende musikk – rytmisk (Bachelor): utøvende rytmisk; låtskriver og artist",
+"https://www.uia.no/studier/program/utovende-musikk-rytmisk-bachelor/"
+],
+[
+"popular-music",
+"BA",
+"Utøvende musikk – rytmisk (Bachelor): utøvende rytmisk; låtskriver og artist",
+"https://www.uia.no/studier/program/utovende-musikk-rytmisk-bachelor/"
+],
+[
+"strings",
+"BA",
+"Utøvende musikk – klassisk (Bachelor)",
+"https://www.uia.no/studier/program/utovende-musikk-klassisk-bachelor/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"BA",
+"Utøvende musikk – klassisk (Bachelor)",
+"https://www.uia.no/studier/program/utovende-musikk-klassisk-bachelor/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"BA",
+"Utøvende musikk – klassisk (Bachelor)",
+"https://www.uia.no/studier/program/utovende-musikk-klassisk-bachelor/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"BA",
+"Utøvende musikk – klassisk (Bachelor)",
+"https://www.uia.no/studier/program/utovende-musikk-klassisk-bachelor/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"BA",
+"Utøvende musikk – klassisk (Bachelor)",
+"https://www.uia.no/studier/program/utovende-musikk-klassisk-bachelor/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"BA",
+"Utøvende musikk – klassisk (Bachelor)",
+"https://www.uia.no/studier/program/utovende-musikk-klassisk-bachelor/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"strings",
+"MA",
+"Utøvende musikk – klassisk (Master): ensemblesang, orkesterakademi, klaver i samspill, korledelse",
+"https://www.uia.no/studier/program/utovende-musikk-klassisk-master-2-ar/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"MA",
+"Utøvende musikk – klassisk (Master): ensemblesang, orkesterakademi, klaver i samspill, korledelse",
+"https://www.uia.no/studier/program/utovende-musikk-klassisk-master-2-ar/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"MA",
+"Utøvende musikk – klassisk (Master): ensemblesang, orkesterakademi, klaver i samspill, korledelse",
+"https://www.uia.no/studier/program/utovende-musikk-klassisk-master-2-ar/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"MA",
+"Utøvende musikk – klassisk (Master): ensemblesang, orkesterakademi, klaver i samspill, korledelse",
+"https://www.uia.no/studier/program/utovende-musikk-klassisk-master-2-ar/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"MA",
+"Utøvende musikk – klassisk (Master): ensemblesang, orkesterakademi, klaver i samspill, korledelse",
+"https://www.uia.no/studier/program/utovende-musikk-klassisk-master-2-ar/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"MA",
+"Utøvende musikk – klassisk (Master): ensemblesang, orkesterakademi, klaver i samspill, korledelse",
+"https://www.uia.no/studier/program/utovende-musikk-klassisk-master-2-ar/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"conducting",
+"MA",
+"Utøvende musikk – klassisk (Master): ensemblesang, orkesterakademi, klaver i samspill, korledelse",
+"https://www.uia.no/studier/program/utovende-musikk-klassisk-master-2-ar/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"chamber-music",
+"MA",
+"Utøvende musikk – klassisk (Master): ensemblesang, orkesterakademi, klaver i samspill, korledelse",
+"https://www.uia.no/studier/program/utovende-musikk-klassisk-master-2-ar/",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"popular-music",
+"MA",
+"Rytmisk musikk (Master): Performing Music, Electronic Music, World Music, Songwriting, Music Business and Management",
+"https://www.uia.no/studier/program/rytmisk-musikk-master-2-ar/"
+],
+[
+"music-technology",
+"MA",
+"Rytmisk musikk (Master): Performing Music, Electronic Music, World Music, Songwriting, Music Business and Management",
+"https://www.uia.no/studier/program/rytmisk-musikk-master-2-ar/"
+],
+[
+"global-music",
+"MA",
+"Rytmisk musikk (Master): Performing Music, Electronic Music, World Music, Songwriting, Music Business and Management",
+"https://www.uia.no/studier/program/rytmisk-musikk-master-2-ar/"
+],
+[
+"arts-management",
+"MA",
+"Rytmisk musikk (Master): Performing Music, Electronic Music, World Music, Songwriting, Music Business and Management",
+"https://www.uia.no/studier/program/rytmisk-musikk-master-2-ar/"
+]
+],
+"N  STAVANG01": [
+[
+"strings",
+"BA",
+"Bachelor i utøvende musikk: klassisk, jazz/improvisasjon, kirkemusikk, dirigering",
+"https://www.uis.no/nb/studier/utovende-musikk-bachelor",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"BA",
+"Bachelor i utøvende musikk: klassisk, jazz/improvisasjon, kirkemusikk, dirigering",
+"https://www.uis.no/nb/studier/utovende-musikk-bachelor",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"BA",
+"Bachelor i utøvende musikk: klassisk, jazz/improvisasjon, kirkemusikk, dirigering",
+"https://www.uis.no/nb/studier/utovende-musikk-bachelor",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"BA",
+"Bachelor i utøvende musikk: klassisk, jazz/improvisasjon, kirkemusikk, dirigering",
+"https://www.uis.no/nb/studier/utovende-musikk-bachelor",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"BA",
+"Bachelor i utøvende musikk: klassisk, jazz/improvisasjon, kirkemusikk, dirigering",
+"https://www.uis.no/nb/studier/utovende-musikk-bachelor",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"BA",
+"Bachelor i utøvende musikk: klassisk, jazz/improvisasjon, kirkemusikk, dirigering",
+"https://www.uis.no/nb/studier/utovende-musikk-bachelor",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"jazz",
+"BA",
+"Bachelor i utøvende musikk: klassisk, jazz/improvisasjon, kirkemusikk, dirigering",
+"https://www.uis.no/nb/studier/utovende-musikk-bachelor",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"church-music",
+"BA",
+"Bachelor i utøvende musikk: klassisk, jazz/improvisasjon, kirkemusikk, dirigering",
+"https://www.uis.no/nb/studier/utovende-musikk-bachelor",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"conducting",
+"BA",
+"Bachelor i utøvende musikk: klassisk, jazz/improvisasjon, kirkemusikk, dirigering",
+"https://www.uis.no/nb/studier/utovende-musikk-bachelor",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"strings",
+"MA",
+"Master in Music Performance: conducting, classical music, jazz and improvisation",
+"https://www.uis.no/en/studies/master-music-performance",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"MA",
+"Master in Music Performance: conducting, classical music, jazz and improvisation",
+"https://www.uis.no/en/studies/master-music-performance",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"MA",
+"Master in Music Performance: conducting, classical music, jazz and improvisation",
+"https://www.uis.no/en/studies/master-music-performance",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"MA",
+"Master in Music Performance: conducting, classical music, jazz and improvisation",
+"https://www.uis.no/en/studies/master-music-performance",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"MA",
+"Master in Music Performance: conducting, classical music, jazz and improvisation",
+"https://www.uis.no/en/studies/master-music-performance",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"MA",
+"Master in Music Performance: conducting, classical music, jazz and improvisation",
+"https://www.uis.no/en/studies/master-music-performance",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"jazz",
+"MA",
+"Master in Music Performance: conducting, classical music, jazz and improvisation",
+"https://www.uis.no/en/studies/master-music-performance",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"conducting",
+"MA",
+"Master in Music Performance: conducting, classical music, jazz and improvisation",
+"https://www.uis.no/en/studies/master-music-performance",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+]
+],
+"N  OSLO07": [
+[
+"vocal-opera",
+"MA",
+"Master's Programme in Opera",
+"https://khio.no/en/study-programmes/maop"
+]
+],
+"N  TROMSO01": [
+[
+"strings",
+"BA",
+"Musikkutøving (bachelor, master): klassisk og rytmisk sjanger",
+"https://uit.no/utdanning/program/280865/musikkutoving_-_bachelor",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"strings",
+"MA",
+"Musikkutøving (bachelor, master): klassisk og rytmisk sjanger",
+"https://uit.no/utdanning/program/280865/musikkutoving_-_bachelor",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"BA",
+"Musikkutøving (bachelor, master): klassisk og rytmisk sjanger",
+"https://uit.no/utdanning/program/280865/musikkutoving_-_bachelor",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"MA",
+"Musikkutøving (bachelor, master): klassisk og rytmisk sjanger",
+"https://uit.no/utdanning/program/280865/musikkutoving_-_bachelor",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"BA",
+"Musikkutøving (bachelor, master): klassisk og rytmisk sjanger",
+"https://uit.no/utdanning/program/280865/musikkutoving_-_bachelor",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"MA",
+"Musikkutøving (bachelor, master): klassisk og rytmisk sjanger",
+"https://uit.no/utdanning/program/280865/musikkutoving_-_bachelor",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"BA",
+"Musikkutøving (bachelor, master): klassisk og rytmisk sjanger",
+"https://uit.no/utdanning/program/280865/musikkutoving_-_bachelor",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"MA",
+"Musikkutøving (bachelor, master): klassisk og rytmisk sjanger",
+"https://uit.no/utdanning/program/280865/musikkutoving_-_bachelor",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"BA",
+"Musikkutøving (bachelor, master): klassisk og rytmisk sjanger",
+"https://uit.no/utdanning/program/280865/musikkutoving_-_bachelor",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"MA",
+"Musikkutøving (bachelor, master): klassisk og rytmisk sjanger",
+"https://uit.no/utdanning/program/280865/musikkutoving_-_bachelor",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"BA",
+"Musikkutøving (bachelor, master): klassisk og rytmisk sjanger",
+"https://uit.no/utdanning/program/280865/musikkutoving_-_bachelor",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"MA",
+"Musikkutøving (bachelor, master): klassisk og rytmisk sjanger",
+"https://uit.no/utdanning/program/280865/musikkutoving_-_bachelor",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"jazz",
+"BA",
+"Musikkutøving (bachelor, master): klassisk og rytmisk sjanger",
+"https://uit.no/utdanning/program/280865/musikkutoving_-_bachelor",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"jazz",
+"MA",
+"Musikkutøving (bachelor, master): klassisk og rytmisk sjanger",
+"https://uit.no/utdanning/program/280865/musikkutoving_-_bachelor",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"popular-music",
+"BA",
+"Musikkutøving (bachelor, master): klassisk og rytmisk sjanger",
+"https://uit.no/utdanning/program/280865/musikkutoving_-_bachelor",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"popular-music",
+"MA",
+"Musikkutøving (bachelor, master): klassisk og rytmisk sjanger",
+"https://uit.no/utdanning/program/280865/musikkutoving_-_bachelor",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+]
+],
+"N  BERGEN12": [
+[
+"popular-music",
+"BA",
+"Utøvende rytmisk musikk (bachelor, master)",
+"https://www.nla.no/studier/studieprogram/master-i-utovende-rytmisk-musikk/"
+],
+[
+"popular-music",
+"MA",
+"Utøvende rytmisk musikk (bachelor, master)",
+"https://www.nla.no/studier/studieprogram/master-i-utovende-rytmisk-musikk/"
+],
+[
+"music-production",
+"BA",
+"Musikkskaping – låtskriving, produksjon og live",
+"https://www.nla.no/studier/studieprogram/bachelor-i-musikkskaping-latskriving-produksjon-og-live/"
+],
+[
+"composition",
+"BA",
+"Musikkskaping – låtskriving, produksjon og live",
+"https://www.nla.no/studier/studieprogram/bachelor-i-musikkskaping-latskriving-produksjon-og-live/"
+],
+[
+"church-music",
+"BA",
+"Musikk, menighet og ledelse / utøvende musikk",
+"https://www.nla.no/studier/studieprogram/bachelor-i-musikk-menighet-og-ledelse"
+],
+[
+"conducting",
+"BA",
+"Musikk, menighet og ledelse / utøvende musikk",
+"https://www.nla.no/studier/studieprogram/bachelor-i-musikk-menighet-og-ledelse"
+]
+],
+"N  OSLO58": [
+[
+"popular-music",
+"BA",
+"Bachelor i musikk: Musiker og artist; Låtskriving og produksjon; Konsertlyd og studioproduksjon",
+"https://www.kristiania.no/studier/bachelor/musikk/"
+],
+[
+"music-production",
+"BA",
+"Bachelor i musikk: Musiker og artist; Låtskriving og produksjon; Konsertlyd og studioproduksjon",
+"https://www.kristiania.no/studier/bachelor/musikk/"
+],
+[
+"music-technology",
+"BA",
+"Bachelor i musikk: Musiker og artist; Låtskriving og produksjon; Konsertlyd og studioproduksjon",
+"https://www.kristiania.no/studier/bachelor/musikk/"
+]
+],
+"N  BERGEN01": [
+[
+"strings",
+"BA",
+"Bachelor / Master i utøvende musikk eller komposisjon (klassisk, jazz, folkemusikk, komposisjon)",
+"https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"strings",
+"MA",
+"Bachelor / Master i utøvende musikk eller komposisjon (klassisk, jazz, folkemusikk, komposisjon)",
+"https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"BA",
+"Bachelor / Master i utøvende musikk eller komposisjon (klassisk, jazz, folkemusikk, komposisjon)",
+"https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"woodwind",
+"MA",
+"Bachelor / Master i utøvende musikk eller komposisjon (klassisk, jazz, folkemusikk, komposisjon)",
+"https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"BA",
+"Bachelor / Master i utøvende musikk eller komposisjon (klassisk, jazz, folkemusikk, komposisjon)",
+"https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"brass",
+"MA",
+"Bachelor / Master i utøvende musikk eller komposisjon (klassisk, jazz, folkemusikk, komposisjon)",
+"https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"BA",
+"Bachelor / Master i utøvende musikk eller komposisjon (klassisk, jazz, folkemusikk, komposisjon)",
+"https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"percussion",
+"MA",
+"Bachelor / Master i utøvende musikk eller komposisjon (klassisk, jazz, folkemusikk, komposisjon)",
+"https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"BA",
+"Bachelor / Master i utøvende musikk eller komposisjon (klassisk, jazz, folkemusikk, komposisjon)",
+"https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"piano",
+"MA",
+"Bachelor / Master i utøvende musikk eller komposisjon (klassisk, jazz, folkemusikk, komposisjon)",
+"https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"BA",
+"Bachelor / Master i utøvende musikk eller komposisjon (klassisk, jazz, folkemusikk, komposisjon)",
+"https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"vocal-opera",
+"MA",
+"Bachelor / Master i utøvende musikk eller komposisjon (klassisk, jazz, folkemusikk, komposisjon)",
+"https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"jazz",
+"BA",
+"Bachelor / Master i utøvende musikk eller komposisjon (klassisk, jazz, folkemusikk, komposisjon)",
+"https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"jazz",
+"MA",
+"Bachelor / Master i utøvende musikk eller komposisjon (klassisk, jazz, folkemusikk, komposisjon)",
+"https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"folk",
+"BA",
+"Bachelor / Master i utøvende musikk eller komposisjon (klassisk, jazz, folkemusikk, komposisjon)",
+"https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"folk",
+"MA",
+"Bachelor / Master i utøvende musikk eller komposisjon (klassisk, jazz, folkemusikk, komposisjon)",
+"https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"composition",
+"BA",
+"Bachelor / Master i utøvende musikk eller komposisjon (klassisk, jazz, folkemusikk, komposisjon)",
+"https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"composition",
+"MA",
+"Bachelor / Master i utøvende musikk eller komposisjon (klassisk, jazz, folkemusikk, komposisjon)",
+"https://www.uib.no/grieg/24484/master-i-ut%C3%B8vende-musikk-eller-komposisjon",
+"Classical music programme; the page does not list the instruments, which are recorded as the usual orchestral instruments, piano and voice"
+],
+[
+"musicology",
+"BA",
+"Bachelor i musikkvitenskap",
+"https://kmd.uib.no/no/studier/griegakademiet-institutt-for-musikk"
+],
+[
+"music-therapy",
+"MA",
+"Integrert masterprogram i musikkterapi",
+"https://www.uib.no/grieg/24761/integrert-masterprogram-i-musikkterapi"
+]
+],
+"N  KONGSBE02": [
+[
+"folk",
+"BA",
+"Bachelor i folkemusikk",
+"https://www.usn.no/studier/bachelor-i-folkemusikk/"
+],
+[
+"folk",
+"MA",
+"Master i tradisjonskunst og folkemusikk",
+"https://www.usn.no/studier/master-i-tradisjonskunst-og-folkemusikk/"
+]
+],
+"PL BYDGOSZ04": [
+[
+"strings",
+"BA",
+"Instrumentalistyka (I i II stopień)",
+"https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/"
+],
+[
+"strings",
+"MA",
+"Instrumentalistyka (I i II stopień)",
+"https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/"
+],
+[
+"woodwind",
+"BA",
+"Instrumentalistyka (I i II stopień)",
+"https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/"
+],
+[
+"woodwind",
+"MA",
+"Instrumentalistyka (I i II stopień)",
+"https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/"
+],
+[
+"brass",
+"BA",
+"Instrumentalistyka (I i II stopień)",
+"https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/"
+],
+[
+"brass",
+"MA",
+"Instrumentalistyka (I i II stopień)",
+"https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/"
+],
+[
+"percussion",
+"BA",
+"Instrumentalistyka (I i II stopień)",
+"https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/"
+],
+[
+"percussion",
+"MA",
+"Instrumentalistyka (I i II stopień)",
+"https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/"
+],
+[
+"piano",
+"BA",
+"Instrumentalistyka (I i II stopień)",
+"https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/"
+],
+[
+"piano",
+"MA",
+"Instrumentalistyka (I i II stopień)",
+"https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/"
+],
+[
+"organ",
+"BA",
+"Instrumentalistyka (I i II stopień)",
+"https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/"
+],
+[
+"organ",
+"MA",
+"Instrumentalistyka (I i II stopień)",
+"https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/"
+],
+[
+"guitar",
+"BA",
+"Instrumentalistyka (I i II stopień)",
+"https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/"
+],
+[
+"guitar",
+"MA",
+"Instrumentalistyka (I i II stopień)",
+"https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/"
+],
+[
+"harp",
+"BA",
+"Instrumentalistyka (I i II stopień)",
+"https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/"
+],
+[
+"harp",
+"MA",
+"Instrumentalistyka (I i II stopień)",
+"https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/"
+],
+[
+"accordion",
+"BA",
+"Instrumentalistyka (I i II stopień)",
+"https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/"
+],
+[
+"accordion",
+"MA",
+"Instrumentalistyka (I i II stopień)",
+"https://www.amuz.bydgoszcz.pl/drugi-nabor-na-studia-i-i-ii-stopnia/"
+],
+[
+"jazz",
+"BA",
+"Jazz i muzyka estradowa: instrumentalistyka jazzowa, wokalistyka jazzowa, singer-songwriter",
+"https://www.rekrutacja.amuz.bydgoszcz.pl/pl/offer/Rekrutacja_2026/programme/SP-JME-W/?from=org-unit%3A40"
+],
+[
+"jazz",
+"MA",
+"Jazz i muzyka estradowa: instrumentalistyka jazzowa, wokalistyka jazzowa, singer-songwriter",
+"https://www.rekrutacja.amuz.bydgoszcz.pl/pl/offer/Rekrutacja_2026/programme/SP-JME-W/?from=org-unit%3A40"
+],
+[
+"popular-music",
+"BA",
+"Jazz i muzyka estradowa: instrumentalistyka jazzowa, wokalistyka jazzowa, singer-songwriter",
+"https://www.rekrutacja.amuz.bydgoszcz.pl/pl/offer/Rekrutacja_2026/programme/SP-JME-W/?from=org-unit%3A40"
+],
+[
+"popular-music",
+"MA",
+"Jazz i muzyka estradowa: instrumentalistyka jazzowa, wokalistyka jazzowa, singer-songwriter",
+"https://www.rekrutacja.amuz.bydgoszcz.pl/pl/offer/Rekrutacja_2026/programme/SP-JME-W/?from=org-unit%3A40"
+],
+[
+"composition",
+"BA",
+"Kompozycja i teoria muzyki; reżyseria dźwięku",
+"https://www.amuz.bydgoszcz.pl/dla-kandydata/informatoramfn/w4/"
+],
+[
+"composition",
+"MA",
+"Kompozycja i teoria muzyki; reżyseria dźwięku",
+"https://www.amuz.bydgoszcz.pl/dla-kandydata/informatoramfn/w4/"
+],
+[
+"music-theory",
+"BA",
+"Kompozycja i teoria muzyki; reżyseria dźwięku",
+"https://www.amuz.bydgoszcz.pl/dla-kandydata/informatoramfn/w4/"
+],
+[
+"music-theory",
+"MA",
+"Kompozycja i teoria muzyki; reżyseria dźwięku",
+"https://www.amuz.bydgoszcz.pl/dla-kandydata/informatoramfn/w4/"
+],
+[
+"music-technology",
+"BA",
+"Kompozycja i teoria muzyki; reżyseria dźwięku",
+"https://www.amuz.bydgoszcz.pl/dla-kandydata/informatoramfn/w4/"
+],
+[
+"music-technology",
+"MA",
+"Kompozycja i teoria muzyki; reżyseria dźwięku",
+"https://www.amuz.bydgoszcz.pl/dla-kandydata/informatoramfn/w4/"
+],
+[
+"music-education",
+"BA",
+"Edukacja artystyczna w zakresie sztuki muzycznej (dyrygentura chóralna, muzyka kościelna)",
+"https://www.amuz.bydgoszcz.pl/dla-kandydata/informatoramfn/w4/"
+],
+[
+"music-education",
+"MA",
+"Edukacja artystyczna w zakresie sztuki muzycznej (dyrygentura chóralna, muzyka kościelna)",
+"https://www.amuz.bydgoszcz.pl/dla-kandydata/informatoramfn/w4/"
+],
+[
+"conducting",
+"BA",
+"Edukacja artystyczna w zakresie sztuki muzycznej (dyrygentura chóralna, muzyka kościelna)",
+"https://www.amuz.bydgoszcz.pl/dla-kandydata/informatoramfn/w4/"
+],
+[
+"conducting",
+"MA",
+"Edukacja artystyczna w zakresie sztuki muzycznej (dyrygentura chóralna, muzyka kościelna)",
+"https://www.amuz.bydgoszcz.pl/dla-kandydata/informatoramfn/w4/"
+],
+[
+"church-music",
+"BA",
+"Edukacja artystyczna w zakresie sztuki muzycznej (dyrygentura chóralna, muzyka kościelna)",
+"https://www.amuz.bydgoszcz.pl/dla-kandydata/informatoramfn/w4/"
+],
+[
+"church-music",
+"MA",
+"Edukacja artystyczna w zakresie sztuki muzycznej (dyrygentura chóralna, muzyka kościelna)",
+"https://www.amuz.bydgoszcz.pl/dla-kandydata/informatoramfn/w4/"
+],
+[
+"vocal-opera",
+"BA",
+"Wokalistyka (Wydział Wokalno-Aktorski)",
+"https://www.usosweb.amuz.bydgoszcz.pl/kontroler.php?_action=katalog2/programy/pokazProgram&prg_kod=SP-W"
+],
+[
+"vocal-opera",
+"MA",
+"Wokalistyka (Wydział Wokalno-Aktorski)",
+"https://www.usosweb.amuz.bydgoszcz.pl/kontroler.php?_action=katalog2/programy/pokazProgram&prg_kod=SP-W"
+]
+],
+"PL LODZ04": [
+[
+"jazz",
+"BA",
+"Jazz i muzyka estradowa: instrumenty jazzowe, wokalistyka jazzowa i estradowa",
+"https://www.amuz.lodz.pl/index.php/pl/home/oferta-dydaktyczna/instytut-wokalistyki-jazzowej-i-estradowej/wokalistyka-jazzowa"
+],
+[
+"jazz",
+"MA",
+"Jazz i muzyka estradowa: instrumenty jazzowe, wokalistyka jazzowa i estradowa",
+"https://www.amuz.lodz.pl/index.php/pl/home/oferta-dydaktyczna/instytut-wokalistyki-jazzowej-i-estradowej/wokalistyka-jazzowa"
+],
+[
+"popular-music",
+"BA",
+"Jazz i muzyka estradowa: instrumenty jazzowe, wokalistyka jazzowa i estradowa",
+"https://www.amuz.lodz.pl/index.php/pl/home/oferta-dydaktyczna/instytut-wokalistyki-jazzowej-i-estradowej/wokalistyka-jazzowa"
+],
+[
+"popular-music",
+"MA",
+"Jazz i muzyka estradowa: instrumenty jazzowe, wokalistyka jazzowa i estradowa",
+"https://www.amuz.lodz.pl/index.php/pl/home/oferta-dydaktyczna/instytut-wokalistyki-jazzowej-i-estradowej/wokalistyka-jazzowa"
+],
+[
+"strings",
+"BA",
+"Instrumentalistyka",
+"http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1"
+],
+[
+"strings",
+"MA",
+"Instrumentalistyka",
+"http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1"
+],
+[
+"woodwind",
+"BA",
+"Instrumentalistyka",
+"http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1"
+],
+[
+"woodwind",
+"MA",
+"Instrumentalistyka",
+"http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1"
+],
+[
+"brass",
+"BA",
+"Instrumentalistyka",
+"http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1"
+],
+[
+"brass",
+"MA",
+"Instrumentalistyka",
+"http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1"
+],
+[
+"percussion",
+"BA",
+"Instrumentalistyka",
+"http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1"
+],
+[
+"percussion",
+"MA",
+"Instrumentalistyka",
+"http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1"
+],
+[
+"piano",
+"BA",
+"Instrumentalistyka",
+"http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1"
+],
+[
+"piano",
+"MA",
+"Instrumentalistyka",
+"http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1"
+],
+[
+"organ",
+"BA",
+"Instrumentalistyka",
+"http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1"
+],
+[
+"organ",
+"MA",
+"Instrumentalistyka",
+"http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1"
+],
+[
+"guitar",
+"BA",
+"Instrumentalistyka",
+"http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1"
+],
+[
+"guitar",
+"MA",
+"Instrumentalistyka",
+"http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1"
+],
+[
+"harp",
+"BA",
+"Instrumentalistyka",
+"http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1"
+],
+[
+"harp",
+"MA",
+"Instrumentalistyka",
+"http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1"
+],
+[
+"accordion",
+"BA",
+"Instrumentalistyka",
+"http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1"
+],
+[
+"accordion",
+"MA",
+"Instrumentalistyka",
+"http://www.amuz.lodz.pl/en/14-dla-kandydata/149721-instrumentalistyka-studia-stacjonarne-ii-stopnia-1"
+],
+[
+"vocal-opera",
+"BA",
+"Wokalistyka",
+"http://www.amuz.lodz.pl/en/14-dla-kandydata/149732-wokalistyka-studia-stacjonarne-ii-stopnia-1"
+],
+[
+"vocal-opera",
+"MA",
+"Wokalistyka",
+"http://www.amuz.lodz.pl/en/14-dla-kandydata/149732-wokalistyka-studia-stacjonarne-ii-stopnia-1"
+]
+],
+"PL POZNAN06": [
+[
+"strings",
+"BA",
+"Instrumentalistyka (fortepian, organy, akordeon, dęte, smyczkowe, harfa, gitara)",
+"https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+],
+[
+"strings",
+"MA",
+"Instrumentalistyka (fortepian, organy, akordeon, dęte, smyczkowe, harfa, gitara)",
+"https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+],
+[
+"woodwind",
+"BA",
+"Instrumentalistyka (fortepian, organy, akordeon, dęte, smyczkowe, harfa, gitara)",
+"https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+],
+[
+"woodwind",
+"MA",
+"Instrumentalistyka (fortepian, organy, akordeon, dęte, smyczkowe, harfa, gitara)",
+"https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+],
+[
+"brass",
+"BA",
+"Instrumentalistyka (fortepian, organy, akordeon, dęte, smyczkowe, harfa, gitara)",
+"https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+],
+[
+"brass",
+"MA",
+"Instrumentalistyka (fortepian, organy, akordeon, dęte, smyczkowe, harfa, gitara)",
+"https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+],
+[
+"percussion",
+"BA",
+"Instrumentalistyka (fortepian, organy, akordeon, dęte, smyczkowe, harfa, gitara)",
+"https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+],
+[
+"percussion",
+"MA",
+"Instrumentalistyka (fortepian, organy, akordeon, dęte, smyczkowe, harfa, gitara)",
+"https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+],
+[
+"piano",
+"BA",
+"Instrumentalistyka (fortepian, organy, akordeon, dęte, smyczkowe, harfa, gitara)",
+"https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+],
+[
+"piano",
+"MA",
+"Instrumentalistyka (fortepian, organy, akordeon, dęte, smyczkowe, harfa, gitara)",
+"https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+],
+[
+"organ",
+"BA",
+"Instrumentalistyka (fortepian, organy, akordeon, dęte, smyczkowe, harfa, gitara)",
+"https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+],
+[
+"organ",
+"MA",
+"Instrumentalistyka (fortepian, organy, akordeon, dęte, smyczkowe, harfa, gitara)",
+"https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+],
+[
+"guitar",
+"BA",
+"Instrumentalistyka (fortepian, organy, akordeon, dęte, smyczkowe, harfa, gitara)",
+"https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+],
+[
+"guitar",
+"MA",
+"Instrumentalistyka (fortepian, organy, akordeon, dęte, smyczkowe, harfa, gitara)",
+"https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+],
+[
+"harp",
+"BA",
+"Instrumentalistyka (fortepian, organy, akordeon, dęte, smyczkowe, harfa, gitara)",
+"https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+],
+[
+"harp",
+"MA",
+"Instrumentalistyka (fortepian, organy, akordeon, dęte, smyczkowe, harfa, gitara)",
+"https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+],
+[
+"accordion",
+"BA",
+"Instrumentalistyka (fortepian, organy, akordeon, dęte, smyczkowe, harfa, gitara)",
+"https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+],
+[
+"accordion",
+"MA",
+"Instrumentalistyka (fortepian, organy, akordeon, dęte, smyczkowe, harfa, gitara)",
+"https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+],
+[
+"early-music",
+"BA",
+"Wykonawstwo historyczne",
+"https://amuz.edu.pl/nowa-struktura-uczelni/wydzial-instrumentalistyki-jazzu-i-muzyki-estradowej/charakterystyka-wydzialu/instytut-instrumentalistyki/"
+],
+[
+"early-music",
+"MA",
+"Wykonawstwo historyczne",
+"https://amuz.edu.pl/nowa-struktura-uczelni/wydzial-instrumentalistyki-jazzu-i-muzyki-estradowej/charakterystyka-wydzialu/instytut-instrumentalistyki/"
+],
+[
+"jazz",
+"BA",
+"Jazz i muzyka estradowa (instrumenty, wokalistyka jazzowa, kompozycja z aranżacją)",
+"https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+],
+[
+"jazz",
+"MA",
+"Jazz i muzyka estradowa (instrumenty, wokalistyka jazzowa, kompozycja z aranżacją)",
+"https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+],
+[
+"composition",
+"BA",
+"Kompozycja i teoria muzyki (muzyka filmowa i teatralna, kompozycja elektroakustyczna)",
+"https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+],
+[
+"composition",
+"MA",
+"Kompozycja i teoria muzyki (muzyka filmowa i teatralna, kompozycja elektroakustyczna)",
+"https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+],
+[
+"music-theory",
+"BA",
+"Kompozycja i teoria muzyki (muzyka filmowa i teatralna, kompozycja elektroakustyczna)",
+"https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+],
+[
+"music-theory",
+"MA",
+"Kompozycja i teoria muzyki (muzyka filmowa i teatralna, kompozycja elektroakustyczna)",
+"https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+],
+[
+"music-technology",
+"BA",
+"Kompozycja i teoria muzyki (muzyka filmowa i teatralna, kompozycja elektroakustyczna)",
+"https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+],
+[
+"music-technology",
+"MA",
+"Kompozycja i teoria muzyki (muzyka filmowa i teatralna, kompozycja elektroakustyczna)",
+"https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+],
+[
+"conducting",
+"BA",
+"Dyrygentura (symfoniczna, operowa, chóralna, orkiestr dętych)",
+"https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+],
+[
+"conducting",
+"MA",
+"Dyrygentura (symfoniczna, operowa, chóralna, orkiestr dętych)",
+"https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+],
+[
+"vocal-opera",
+"BA",
+"Wokalistyka (śpiew solowy, śpiew musicalowy)",
+"https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+],
+[
+"vocal-opera",
+"MA",
+"Wokalistyka (śpiew solowy, śpiew musicalowy)",
+"https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+],
+[
+"music-education",
+"BA",
+"Edukacja artystyczna w zakresie sztuki muzycznej",
+"https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+],
+[
+"music-education",
+"MA",
+"Edukacja artystyczna w zakresie sztuki muzycznej",
+"https://amuz.edu.pl/wp-content/uploads/informator-PL-2025-2026.pdf"
+]
+],
+"PL WROCLAW06": [
+[
+"strings",
+"BA",
+"Instrumentalistyka (klawiszowe, smyczkowe, dęte, dawne, gitara, harfa, akordeon, perkusja)",
+"https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet"
+],
+[
+"strings",
+"MA",
+"Instrumentalistyka (klawiszowe, smyczkowe, dęte, dawne, gitara, harfa, akordeon, perkusja)",
+"https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet"
+],
+[
+"woodwind",
+"BA",
+"Instrumentalistyka (klawiszowe, smyczkowe, dęte, dawne, gitara, harfa, akordeon, perkusja)",
+"https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet"
+],
+[
+"woodwind",
+"MA",
+"Instrumentalistyka (klawiszowe, smyczkowe, dęte, dawne, gitara, harfa, akordeon, perkusja)",
+"https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet"
+],
+[
+"brass",
+"BA",
+"Instrumentalistyka (klawiszowe, smyczkowe, dęte, dawne, gitara, harfa, akordeon, perkusja)",
+"https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet"
+],
+[
+"brass",
+"MA",
+"Instrumentalistyka (klawiszowe, smyczkowe, dęte, dawne, gitara, harfa, akordeon, perkusja)",
+"https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet"
+],
+[
+"percussion",
+"BA",
+"Instrumentalistyka (klawiszowe, smyczkowe, dęte, dawne, gitara, harfa, akordeon, perkusja)",
+"https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet"
+],
+[
+"percussion",
+"MA",
+"Instrumentalistyka (klawiszowe, smyczkowe, dęte, dawne, gitara, harfa, akordeon, perkusja)",
+"https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet"
+],
+[
+"piano",
+"BA",
+"Instrumentalistyka (klawiszowe, smyczkowe, dęte, dawne, gitara, harfa, akordeon, perkusja)",
+"https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet"
+],
+[
+"piano",
+"MA",
+"Instrumentalistyka (klawiszowe, smyczkowe, dęte, dawne, gitara, harfa, akordeon, perkusja)",
+"https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet"
+],
+[
+"organ",
+"BA",
+"Instrumentalistyka (klawiszowe, smyczkowe, dęte, dawne, gitara, harfa, akordeon, perkusja)",
+"https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet"
+],
+[
+"organ",
+"MA",
+"Instrumentalistyka (klawiszowe, smyczkowe, dęte, dawne, gitara, harfa, akordeon, perkusja)",
+"https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet"
+],
+[
+"guitar",
+"BA",
+"Instrumentalistyka (klawiszowe, smyczkowe, dęte, dawne, gitara, harfa, akordeon, perkusja)",
+"https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet"
+],
+[
+"guitar",
+"MA",
+"Instrumentalistyka (klawiszowe, smyczkowe, dęte, dawne, gitara, harfa, akordeon, perkusja)",
+"https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet"
+],
+[
+"harp",
+"BA",
+"Instrumentalistyka (klawiszowe, smyczkowe, dęte, dawne, gitara, harfa, akordeon, perkusja)",
+"https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet"
+],
+[
+"harp",
+"MA",
+"Instrumentalistyka (klawiszowe, smyczkowe, dęte, dawne, gitara, harfa, akordeon, perkusja)",
+"https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet"
+],
+[
+"accordion",
+"BA",
+"Instrumentalistyka (klawiszowe, smyczkowe, dęte, dawne, gitara, harfa, akordeon, perkusja)",
+"https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet"
+],
+[
+"accordion",
+"MA",
+"Instrumentalistyka (klawiszowe, smyczkowe, dęte, dawne, gitara, harfa, akordeon, perkusja)",
+"https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet"
+],
+[
+"early-music",
+"BA",
+"Instrumentalistyka (klawiszowe, smyczkowe, dęte, dawne, gitara, harfa, akordeon, perkusja)",
+"https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet"
+],
+[
+"early-music",
+"MA",
+"Instrumentalistyka (klawiszowe, smyczkowe, dęte, dawne, gitara, harfa, akordeon, perkusja)",
+"https://amuz.wroc.pl/dla-kandydata/slowo-jm-rektora/studiuj-u-nas-1/kierunki-studiow/instrumentalistyka/klarnet"
+],
+[
+"jazz",
+"BA",
+"Jazz i muzyka estradowa",
+"https://amuz.wroc.pl/uczelnia/struktura/wydzialy-1/wydzial-muzyki-jazzowej-1"
+],
+[
+"jazz",
+"MA",
+"Jazz i muzyka estradowa",
+"https://amuz.wroc.pl/uczelnia/struktura/wydzialy-1/wydzial-muzyki-jazzowej-1"
+],
+[
+"vocal-opera",
+"BA",
+"Wokalistyka",
+"https://amuz.wroc.pl/zakresy-egzaminow-wstepnych-5530"
+],
+[
+"vocal-opera",
+"MA",
+"Wokalistyka",
+"https://amuz.wroc.pl/zakresy-egzaminow-wstepnych-5530"
+],
+[
+"composition",
+"BA",
+"Kompozycja i teoria muzyki (kompozycja, teoria muzyki, muzykoterapia)",
+"https://amuz.wroc.pl/kompozycja-4086"
+],
+[
+"composition",
+"MA",
+"Kompozycja i teoria muzyki (kompozycja, teoria muzyki, muzykoterapia)",
+"https://amuz.wroc.pl/kompozycja-4086"
+],
+[
+"music-theory",
+"BA",
+"Kompozycja i teoria muzyki (kompozycja, teoria muzyki, muzykoterapia)",
+"https://amuz.wroc.pl/kompozycja-4086"
+],
+[
+"music-theory",
+"MA",
+"Kompozycja i teoria muzyki (kompozycja, teoria muzyki, muzykoterapia)",
+"https://amuz.wroc.pl/kompozycja-4086"
+],
+[
+"music-therapy",
+"BA",
+"Kompozycja i teoria muzyki (kompozycja, teoria muzyki, muzykoterapia)",
+"https://amuz.wroc.pl/kompozycja-4086"
+],
+[
+"music-therapy",
+"MA",
+"Kompozycja i teoria muzyki (kompozycja, teoria muzyki, muzykoterapia)",
+"https://amuz.wroc.pl/kompozycja-4086"
+]
+],
+"PL KATOWIC04": [
+[
+"jazz",
+"BA",
+"Jazz i muzyka estradowa: instrumentalistyka jazzowa, wokalistyka jazzowa i estradowa, kompozycja i aranżacja",
+"https://am.katowice.pl/informacje/informacje-o-kierunkach-struktura-przedmiotu-1224"
+],
+[
+"jazz",
+"MA",
+"Jazz i muzyka estradowa: instrumentalistyka jazzowa, wokalistyka jazzowa i estradowa, kompozycja i aranżacja",
+"https://am.katowice.pl/informacje/informacje-o-kierunkach-struktura-przedmiotu-1224"
+],
+[
+"popular-music",
+"BA",
+"Jazz i muzyka estradowa: instrumentalistyka jazzowa, wokalistyka jazzowa i estradowa, kompozycja i aranżacja",
+"https://am.katowice.pl/informacje/informacje-o-kierunkach-struktura-przedmiotu-1224"
+],
+[
+"popular-music",
+"MA",
+"Jazz i muzyka estradowa: instrumentalistyka jazzowa, wokalistyka jazzowa i estradowa, kompozycja i aranżacja",
+"https://am.katowice.pl/informacje/informacje-o-kierunkach-struktura-przedmiotu-1224"
+],
+[
+"strings",
+"BA",
+"Instrumentalistyka",
+"https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+],
+[
+"strings",
+"MA",
+"Instrumentalistyka",
+"https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+],
+[
+"woodwind",
+"BA",
+"Instrumentalistyka",
+"https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+],
+[
+"woodwind",
+"MA",
+"Instrumentalistyka",
+"https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+],
+[
+"brass",
+"BA",
+"Instrumentalistyka",
+"https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+],
+[
+"brass",
+"MA",
+"Instrumentalistyka",
+"https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+],
+[
+"percussion",
+"BA",
+"Instrumentalistyka",
+"https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+],
+[
+"percussion",
+"MA",
+"Instrumentalistyka",
+"https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+],
+[
+"piano",
+"BA",
+"Instrumentalistyka",
+"https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+],
+[
+"piano",
+"MA",
+"Instrumentalistyka",
+"https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+],
+[
+"organ",
+"BA",
+"Instrumentalistyka",
+"https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+],
+[
+"organ",
+"MA",
+"Instrumentalistyka",
+"https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+],
+[
+"guitar",
+"BA",
+"Instrumentalistyka",
+"https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+],
+[
+"guitar",
+"MA",
+"Instrumentalistyka",
+"https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+],
+[
+"harp",
+"BA",
+"Instrumentalistyka",
+"https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+],
+[
+"harp",
+"MA",
+"Instrumentalistyka",
+"https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+],
+[
+"accordion",
+"BA",
+"Instrumentalistyka",
+"https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+],
+[
+"accordion",
+"MA",
+"Instrumentalistyka",
+"https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+],
+[
+"vocal-opera",
+"BA",
+"Wokalistyka",
+"https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+],
+[
+"vocal-opera",
+"MA",
+"Wokalistyka",
+"https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+],
+[
+"composition",
+"BA",
+"Kompozycja, dyrygentura i teoria muzyki (dyrygentura chóralna, symfoniczno-operowa)",
+"https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+],
+[
+"composition",
+"MA",
+"Kompozycja, dyrygentura i teoria muzyki (dyrygentura chóralna, symfoniczno-operowa)",
+"https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+],
+[
+"conducting",
+"BA",
+"Kompozycja, dyrygentura i teoria muzyki (dyrygentura chóralna, symfoniczno-operowa)",
+"https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+],
+[
+"conducting",
+"MA",
+"Kompozycja, dyrygentura i teoria muzyki (dyrygentura chóralna, symfoniczno-operowa)",
+"https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+],
+[
+"music-theory",
+"BA",
+"Kompozycja, dyrygentura i teoria muzyki (dyrygentura chóralna, symfoniczno-operowa)",
+"https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+],
+[
+"music-theory",
+"MA",
+"Kompozycja, dyrygentura i teoria muzyki (dyrygentura chóralna, symfoniczno-operowa)",
+"https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+],
+[
+"music-education",
+"BA",
+"Edukacja artystyczna w zakresie sztuki muzycznej",
+"https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+],
+[
+"music-education",
+"MA",
+"Edukacja artystyczna w zakresie sztuki muzycznej",
+"https://am.katowice.pl/informacje/informacja-o-instytucji-lista-oferowanych-kierunkow-1208"
+],
+[
+"music-technology",
+"BA",
+"Realizacja nagłośnienia (studia niestacjonarne)",
+"https://am.katowice.pl/akademia/informacje/wydzial-jazzu-i-muzyki-rozrywkowej-149"
+]
+],
+"PL KRAKOW09": [
+[
+"strings",
+"BA",
+"Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+"https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+],
+[
+"strings",
+"MA",
+"Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+"https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+],
+[
+"woodwind",
+"BA",
+"Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+"https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+],
+[
+"woodwind",
+"MA",
+"Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+"https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+],
+[
+"brass",
+"BA",
+"Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+"https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+],
+[
+"brass",
+"MA",
+"Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+"https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+],
+[
+"percussion",
+"BA",
+"Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+"https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+],
+[
+"percussion",
+"MA",
+"Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+"https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+],
+[
+"piano",
+"BA",
+"Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+"https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+],
+[
+"piano",
+"MA",
+"Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+"https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+],
+[
+"organ",
+"BA",
+"Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+"https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+],
+[
+"organ",
+"MA",
+"Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+"https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+],
+[
+"guitar",
+"BA",
+"Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+"https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+],
+[
+"guitar",
+"MA",
+"Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+"https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+],
+[
+"harp",
+"BA",
+"Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+"https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+],
+[
+"harp",
+"MA",
+"Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+"https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+],
+[
+"accordion",
+"BA",
+"Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+"https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+],
+[
+"accordion",
+"MA",
+"Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+"https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+],
+[
+"early-music",
+"BA",
+"Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+"https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+],
+[
+"early-music",
+"MA",
+"Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+"https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+],
+[
+"chamber-music",
+"BA",
+"Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+"https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+],
+[
+"chamber-music",
+"MA",
+"Instrumentalistyka (piano, organ, early music instruments, guitar, harp, strings, winds, accordion, brass, percussion, chamber music)",
+"https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+],
+[
+"jazz",
+"BA",
+"Jazz i muzyka improwizowana",
+"https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/jazz-i-muzyka-improwizowana/"
+],
+[
+"jazz",
+"MA",
+"Jazz i muzyka improwizowana",
+"https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/jazz-i-muzyka-improwizowana/"
+],
+[
+"composition",
+"BA",
+"Kompozycja i teoria muzyki",
+"https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+],
+[
+"composition",
+"MA",
+"Kompozycja i teoria muzyki",
+"https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+],
+[
+"music-theory",
+"BA",
+"Kompozycja i teoria muzyki",
+"https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+],
+[
+"music-theory",
+"MA",
+"Kompozycja i teoria muzyki",
+"https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+],
+[
+"conducting",
+"BA",
+"Dyrygentura (chóralna, orkiestr dętych)",
+"https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+],
+[
+"conducting",
+"MA",
+"Dyrygentura (chóralna, orkiestr dętych)",
+"https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+],
+[
+"music-education",
+"BA",
+"Edukacja artystyczna; Muzyka kościelna; Wokalistyka",
+"https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+],
+[
+"music-education",
+"MA",
+"Edukacja artystyczna; Muzyka kościelna; Wokalistyka",
+"https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+],
+[
+"church-music",
+"BA",
+"Edukacja artystyczna; Muzyka kościelna; Wokalistyka",
+"https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+],
+[
+"church-music",
+"MA",
+"Edukacja artystyczna; Muzyka kościelna; Wokalistyka",
+"https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+],
+[
+"vocal-opera",
+"BA",
+"Edukacja artystyczna; Muzyka kościelna; Wokalistyka",
+"https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+],
+[
+"vocal-opera",
+"MA",
+"Edukacja artystyczna; Muzyka kościelna; Wokalistyka",
+"https://www.amuz.krakow.pl/en/kandydaci/rekrutacja/"
+]
+],
+"PL GDANSK04": [
+[
+"jazz",
+"BA",
+"Jazz i muzyka estradowa: wokalistyka jazzowa, instrumentalistyka jazzowa, kompozycja i aranżacja jazzowa",
+"https://amuz.gda.pl/wydzialy/wydzial-iv-dyrygentury-choralnej-muzyki-koscielnej-edukacji-artystycznej-rytmiki-i-jazzu/kierunki-i-specjalnosci,680"
+],
+[
+"jazz",
+"MA",
+"Jazz i muzyka estradowa: wokalistyka jazzowa, instrumentalistyka jazzowa, kompozycja i aranżacja jazzowa",
+"https://amuz.gda.pl/wydzialy/wydzial-iv-dyrygentury-choralnej-muzyki-koscielnej-edukacji-artystycznej-rytmiki-i-jazzu/kierunki-i-specjalnosci,680"
+],
+[
+"popular-music",
+"BA",
+"Jazz i muzyka estradowa: wokalistyka jazzowa, instrumentalistyka jazzowa, kompozycja i aranżacja jazzowa",
+"https://amuz.gda.pl/wydzialy/wydzial-iv-dyrygentury-choralnej-muzyki-koscielnej-edukacji-artystycznej-rytmiki-i-jazzu/kierunki-i-specjalnosci,680"
+],
+[
+"popular-music",
+"MA",
+"Jazz i muzyka estradowa: wokalistyka jazzowa, instrumentalistyka jazzowa, kompozycja i aranżacja jazzowa",
+"https://amuz.gda.pl/wydzialy/wydzial-iv-dyrygentury-choralnej-muzyki-koscielnej-edukacji-artystycznej-rytmiki-i-jazzu/kierunki-i-specjalnosci,680"
+],
+[
+"composition",
+"BA",
+"Kompozycja i teoria muzyki (kompozycja klasyczna, muzyka filmowa, gier i mediów, teoria muzyki)",
+"https://amuz.gda.pl/rekrutacja-2021-2022/o-wydzialach/wydzial-iv/kierunki-i-specjalnosci/kompozycja-i-aranzacja-jazzowa,748"
+],
+[
+"composition",
+"MA",
+"Kompozycja i teoria muzyki (kompozycja klasyczna, muzyka filmowa, gier i mediów, teoria muzyki)",
+"https://amuz.gda.pl/rekrutacja-2021-2022/o-wydzialach/wydzial-iv/kierunki-i-specjalnosci/kompozycja-i-aranzacja-jazzowa,748"
+],
+[
+"music-theory",
+"BA",
+"Kompozycja i teoria muzyki (kompozycja klasyczna, muzyka filmowa, gier i mediów, teoria muzyki)",
+"https://amuz.gda.pl/rekrutacja-2021-2022/o-wydzialach/wydzial-iv/kierunki-i-specjalnosci/kompozycja-i-aranzacja-jazzowa,748"
+],
+[
+"music-theory",
+"MA",
+"Kompozycja i teoria muzyki (kompozycja klasyczna, muzyka filmowa, gier i mediów, teoria muzyki)",
+"https://amuz.gda.pl/rekrutacja-2021-2022/o-wydzialach/wydzial-iv/kierunki-i-specjalnosci/kompozycja-i-aranzacja-jazzowa,748"
+],
+[
+"conducting",
+"BA",
+"Wydział IV: dyrygentura chóralna, muzyka kościelna, edukacja artystyczna, rytmika",
+"https://amuz.gda.pl/wydzialy/wydzial-iv-dyrygentury-choralnej-muzyki-koscielnej-edukacji-artystycznej-rytmiki-i-jazzu/kierunki-i-specjalnosci,680"
+],
+[
+"conducting",
+"MA",
+"Wydział IV: dyrygentura chóralna, muzyka kościelna, edukacja artystyczna, rytmika",
+"https://amuz.gda.pl/wydzialy/wydzial-iv-dyrygentury-choralnej-muzyki-koscielnej-edukacji-artystycznej-rytmiki-i-jazzu/kierunki-i-specjalnosci,680"
+],
+[
+"church-music",
+"BA",
+"Wydział IV: dyrygentura chóralna, muzyka kościelna, edukacja artystyczna, rytmika",
+"https://amuz.gda.pl/wydzialy/wydzial-iv-dyrygentury-choralnej-muzyki-koscielnej-edukacji-artystycznej-rytmiki-i-jazzu/kierunki-i-specjalnosci,680"
+],
+[
+"church-music",
+"MA",
+"Wydział IV: dyrygentura chóralna, muzyka kościelna, edukacja artystyczna, rytmika",
+"https://amuz.gda.pl/wydzialy/wydzial-iv-dyrygentury-choralnej-muzyki-koscielnej-edukacji-artystycznej-rytmiki-i-jazzu/kierunki-i-specjalnosci,680"
+],
+[
+"music-education",
+"BA",
+"Wydział IV: dyrygentura chóralna, muzyka kościelna, edukacja artystyczna, rytmika",
+"https://amuz.gda.pl/wydzialy/wydzial-iv-dyrygentury-choralnej-muzyki-koscielnej-edukacji-artystycznej-rytmiki-i-jazzu/kierunki-i-specjalnosci,680"
+],
+[
+"music-education",
+"MA",
+"Wydział IV: dyrygentura chóralna, muzyka kościelna, edukacja artystyczna, rytmika",
+"https://amuz.gda.pl/wydzialy/wydzial-iv-dyrygentury-choralnej-muzyki-koscielnej-edukacji-artystycznej-rytmiki-i-jazzu/kierunki-i-specjalnosci,680"
+]
+],
+"PL WARSZAW09": [
+[
+"strings",
+"BA",
+"Instrumentalistyka",
+"https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+],
+[
+"strings",
+"MA",
+"Instrumentalistyka",
+"https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+],
+[
+"woodwind",
+"BA",
+"Instrumentalistyka",
+"https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+],
+[
+"woodwind",
+"MA",
+"Instrumentalistyka",
+"https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+],
+[
+"brass",
+"BA",
+"Instrumentalistyka",
+"https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+],
+[
+"brass",
+"MA",
+"Instrumentalistyka",
+"https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+],
+[
+"percussion",
+"BA",
+"Instrumentalistyka",
+"https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+],
+[
+"percussion",
+"MA",
+"Instrumentalistyka",
+"https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+],
+[
+"piano",
+"BA",
+"Instrumentalistyka",
+"https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+],
+[
+"piano",
+"MA",
+"Instrumentalistyka",
+"https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+],
+[
+"organ",
+"BA",
+"Instrumentalistyka",
+"https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+],
+[
+"organ",
+"MA",
+"Instrumentalistyka",
+"https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+],
+[
+"guitar",
+"BA",
+"Instrumentalistyka",
+"https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+],
+[
+"guitar",
+"MA",
+"Instrumentalistyka",
+"https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+],
+[
+"harp",
+"BA",
+"Instrumentalistyka",
+"https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+],
+[
+"harp",
+"MA",
+"Instrumentalistyka",
+"https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+],
+[
+"accordion",
+"BA",
+"Instrumentalistyka",
+"https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+],
+[
+"accordion",
+"MA",
+"Instrumentalistyka",
+"https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+],
+[
+"early-music",
+"BA",
+"Instrumentalistyka – muzyka dawna (traverso, viola da gamba, teorba, trąbka naturalna, skrzypce historyczne)",
+"https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+],
+[
+"early-music",
+"MA",
+"Instrumentalistyka – muzyka dawna (traverso, viola da gamba, teorba, trąbka naturalna, skrzypce historyczne)",
+"https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+],
+[
+"jazz",
+"BA",
+"Jazz i muzyka estradowa: jazz; jazz i world music",
+"https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+],
+[
+"jazz",
+"MA",
+"Jazz i muzyka estradowa: jazz; jazz i world music",
+"https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+],
+[
+"global-music",
+"BA",
+"Jazz i muzyka estradowa: jazz; jazz i world music",
+"https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+],
+[
+"global-music",
+"MA",
+"Jazz i muzyka estradowa: jazz; jazz i world music",
+"https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FwszystkieKierunki"
+],
+[
+"music-technology",
+"BA",
+"Reżyseria dźwięku (film i telewizja, reżyseria muzyczna, multimedia)",
+"https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FpokazProgram&prg_kod=RD-RM-SM"
+],
+[
+"music-technology",
+"MA",
+"Reżyseria dźwięku (film i telewizja, reżyseria muzyczna, multimedia)",
+"https://usosweb.chopin.edu.pl/kontroler.php?_action=katalog2%2Fprogramy%2FpokazProgram&prg_kod=RD-RM-SM"
+]
+]
+},
+"notes": {}
+}
