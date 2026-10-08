@@ -43,3 +43,20 @@ Tilanne näkyy komennolla:
 - Tasot BA/MA/Doc. Tohtoritaso vain, jos tohtorisivu nimeää alan. Diplomi- ja konservatorio-ohjelmat ilman tasoa, huomautuksella.
 - Fédération Wallonie-Bruxelles, Flanderi yms.: jos sivusto kertoo rakenteen (Bachelier + Master) yhteisesti, sama taso kaikille sen osastoille.
 - Opettajankoulutus, IGP ja pedagogiset maisteriohjelmat → `music-education`.
+
+## Havaintoja keruusta (erät 1–5, 8.10.2026)
+
+- **Aikaraja:** noin 6 sivuhakua per laitos. Jos ohjelmalistaa ei löydy, kirjaa vain löydetty (esim. pelkkä `music-education`) tai `NOTES`-huomautus, ja siirry eteenpäin.
+- **Vajaata tietoa ei kirjata isoille konservatorioille.** Jos sivu näyttää vain osan ohjelmista (esim. ei soittimia), jätä laitos odottamaan alla olevaan listaan; muuten suodatin antaa väärän kuvan.
+- **Tyylisääntö `mp.classify`:ssa:** jos nimessä on jazz/pop/vanha musiikki, soitinalat pudotetaan. Nimet kuten "Streichinstrumente: Historische …, Violine" menettävät siksi `strings`-alan – lisää se käsin `R(...)`-rivillä.
+- **Sivujen haku:** `f.py` kokeilee curlia, jos Python saa 403/406/429. JS-sivuille (hakulomakkeet) etsi sivutus- tai AJAX-osoite (`?page=`, `tx_solr[page]`, `/ajax/...`) tai käytä WebSearchia oikean ohjelmasivun löytämiseen.
+- **Tasot:** jos sivu kertoo rakenteen yhteisesti (Saksa: B.Mus./M.Mus., Tanska: bachelor+kandidat, FWB: bachelier+master), sama taso kaikille aloille `default_level`-parametrilla.
+- **Verkko-osoite vanhentunut:** korjaa `data/annotations.json`-tiedostoon `website_override` ja perustelu `notes`-kenttään (esim. PESMD Bordeaux → resonances-na.eu).
+
+### Odottaa (sivuilta ei saatu kattavaa listaa ensimmäisellä yrityksellä)
+
+- `D  HAMBURG05` (hfmt-hamburg.de: vain osa ohjelmista linkkeinä; instrumenttiohjelmat puuttuvat)
+- `D  FRANKFU02` (hfmdk-frankfurt.de/thema/studiengaenge-von-bis-z on JS-lista)
+- `D  SAARBRU08` (hfm.saarland.de ei vastannut)
+- `D  MAINZ01` (musik.uni-mainz.de: DNS-virhe; kokeile uni-mainz.de:n kautta)
+- `D  LEIPZIG05`, `D  MUNCHEN03`, `D  ROSTOCK02`, `D  HANNOVE04`, `D  DUSSELD06`, `D  STUTTGA03`, `D  DRESDEN05`, `D  LUBECK02` ja muut Saksan jäljellä olevat (next.py listaa ne ensimmäisinä)
