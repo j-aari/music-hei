@@ -1027,7 +1027,8 @@
   "classified_by": "name-search-strict",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "2026-10-09: consmupa.es shows only a hosting default page; the conservatory's site is consmupa.com.",
+  "website_override": "https://consmupa.com/"
  },
  "E  PALMA25": {
   "erasmus_code_raw": "E  PALMA25",
@@ -1063,7 +1064,8 @@
   "classified_by": "name-search-strict",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "2026-10-09: csmn.educacion.navarra.es no longer resolves (DNS); the conservatory's site is csmn.es.",
+  "website_override": "https://csmn.es/"
  },
  "E  SALAMAN03": {
   "erasmus_code_raw": "E  SALAMAN03",
@@ -1075,7 +1077,8 @@
   "classified_by": "name-search-strict",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "2026-10-09: coscyl.es no longer resolves (DNS); the conservatory's site is coscyl.com.",
+  "website_override": "https://coscyl.com/"
  },
  "E  SAN-SEB01": {
   "erasmus_code_raw": "E  SAN-SEB01",
@@ -1100,8 +1103,9 @@
   "classified_by": "manual",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": "",
-  "public_note": "The Erasmus Charter is held by the Fundación Albéniz, which runs the school."
+  "notes": "2026-10-09: fundacionalbeniz.com returns 'Web Site Not Found'; the school's site is escuelasuperiordemusicareinasofia.es.",
+  "public_note": "The Erasmus Charter is held by the Fundación Albéniz, which runs the school.",
+  "website_override": "https://www.escuelasuperiordemusicareinasofia.es/"
  },
  "E  SEVILLA04": {
   "erasmus_code_raw": "E  SEVILLA04",
@@ -1617,7 +1621,8 @@
   "classified_by": "name-search-strict",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "2026-10-09: conservatoriodicosenza.it now serves online-casino advertising; the conservatory's site is conservatoriocosenza.it.",
+  "website_override": "https://www.conservatoriocosenza.it/"
  },
  "I  CREMONA01": {
   "erasmus_code_raw": "I  CREMONA01",
@@ -1849,8 +1854,9 @@
   "classified_by": "name-search-strict",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": "",
-  "display_name": "Conservatorio di Musica \"Giuseppe Verdi\" di Milano"
+  "notes": "2026-10-09: the conservatory has moved its site from consmilano.it to consmi.it.",
+  "display_name": "Conservatorio di Musica \"Giuseppe Verdi\" di Milano",
+  "website_override": "https://www.consmi.it/"
  },
  "I  MILANO24": {
   "erasmus_code_raw": "I  MILANO24",
@@ -2009,8 +2015,8 @@
   "classified_by": "name-search-strict",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "website_override": "https://www.conservatorionicolini.it",
-  "notes": "upstreamin webpage-kenttä (sites.google.com/view/conservatoriopiacenza) on hyodyton yleisosoite; oikea osoite löytyi strategia-asiakirjahaussa 2026-09-23."
+  "website_override": "https://www.conservatorionicolini.com/",
+  "notes": "upstreamin webpage-kenttä (sites.google.com/view/conservatoriopiacenza) on hyodyton yleisosoite; oikea osoite löytyi strategia-asiakirjahaussa 2026-09-23. 2026-10-09: conservatorionicolini.it no longer resolves (DNS); the conservatory's site is conservatorionicolini.com."
  },
  "I  POTENZA03": {
   "erasmus_code_raw": "I  POTENZA03",
@@ -2448,12 +2454,12 @@
   "institution_type": "general_university_music_unit",
   "unit_name": "The Grieg Academy (Griegakademiet)",
   "unit_city": "Bergen",
-  "unit_website": "https://www.uib.no/en/griegakademiet",
+  "unit_website": "https://www.uib.no/en/grieg",
   "classification_note": "Taso 3: musiikkiyksikkö ECHE-haltijan sisällä (Universitetet i Bergen; AEC member as \"The Grieg Academy, University of Bergen\"); lisätty 2026-09-29 kollegan palautteen perusteella",
   "classified_by": "manual",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": "",
+  "notes": "2026-10-09: uib.no/en/griegakademiet returns 404; the department's page is uib.no/en/grieg (unit_website).",
   "display_name": "Universitetet i Bergen"
  },
  "N  BERGEN12": {
@@ -3012,12 +3018,12 @@
   "institution_type": "general_university_music_unit",
   "unit_name": "Academy of Music and Drama (Högskolan för scen och musik)",
   "unit_city": "Göteborg",
-  "unit_website": "https://www.gu.se/en/hsm",
+  "unit_website": "https://www.gu.se/en/music-drama",
   "classification_note": "Taso 3: musiikkiyksikkö ECHE-haltijan sisällä (Göteborgs universitet; AEC member as \"Academy of Music and Drama - University of Gothenborg\"); lisätty 2026-09-29 kollegan palautteen perusteella",
   "classified_by": "manual",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": "",
+  "notes": "2026-10-09: gu.se/en/hsm returns 404; the academy's page is gu.se/en/music-drama (unit_website).",
   "display_name": "Göteborgs universitet"
  },
  "S  KARLSTA01": {

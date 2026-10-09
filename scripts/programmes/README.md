@@ -59,12 +59,15 @@ Tilanne näkyy komennolla:
 
 - **Italia, erät 15–16:** monen konservatorion lista löytyy vain JS-valikosta. Toimivat reitit: sivuston XML-sivukartta (`SM()`, esim. `/corsi-sitemap.xml`, `/wp-sitemap-posts-…`), ministeriön koodit DCPL/DCSL sivulla tai PDF:ssä (`DC()`), bando/manifesti-PDF (`pf.py` muuntaa PDF:n tekstiksi välimuistiin) ja käsin koottu lista (`L()`). Tarkista, ettei vanha verkkotunnus ole kaapattu tai kuollut (Benevento, Brescia, Cesena, Ravenna, Caltanissetta, Alicante → `website_override`).
 
-### Tilanne 9.10.2026: kaikki 256 kerätty
+### Tilanne 9.10.2026: kaikki 256 kerätty, osittaiset täydennetty (erä 17)
 
-Osittaiset (laitoksen omilta sivuilta löytyi vain osa ohjelmista; evidenssissä huomautus *Partial list*):
+Erä 17 (`b17.py`) täydensi osittaiset: `KEEP(code)` lataa laitoksen nykyiset rivit, koska `add_programmes.py` korvaa ne. Uudet sivustot löytyivät Milanolle (consmi.it), Cosenzalle (conservatoriocosenza.it; vanha verkkotunnus kaapattu), Piacenzalle (conservatorionicolini.com; Wix, `WIX()`), ja Göteborgin, Gdańskin, Stuttgartin, Münsterin, RIAMin, Ferraran, Ravennan, Salernon, Bolzanon ja Alicanten listat täydennettiin.
 
-- `PL GDANSK04` (vain jazz, sävellys, kirkkomusiikki), `S  GOTEBOR01`, `D  STUTTGA03` (MA), `D  MUNSTER01`, `IRLDUBLIN22` (RIAM)
-- `I  REGGIO03` (lista katkeaa), `I  COSENZA03` (ei klassisia jousia/pianoa), `I  PIACENZ01` (vain biennio), `I  MILANO09` (vanha triennio-lista, biennio yleisenä), `I  PAVIA02`, `I  LA-SPEZ01`, `I  FERRARA02` (jazz, äänitekniikka, musiikkiterapia), `I  VICENZA03` (osastosivut), `I  SALERNO02` (biennio vain jazz/pop), `I  BOLZANO02` (biennio osastoittain), `I  RAVENNA02` (manifesti 2021–22)
-- `E  ALICANT11` (Interpretación-itinerarios osittain)
+**Verkko-osoitteet:** `python scripts/check_websites.py` listaa kuolleet ja kaapatut osoitteet (9.10.2026 korjattu 15). Korjaus `data/annotations.json`-tiedostoon: `website_override` itsenäiselle laitokselle, `unit_website` yliopiston yksikölle.
+
+Edelleen osittaiset (evidenssissä *Partial list* tai taso puuttuu):
+
+- `I  REGGIO03` (conservatoriocilea.it ja `I  LA-SPEZ01` conssp.it: bottiesto, sivuja ei saa luettua ilman selainta)
+- `I  PAVIA02` (sivukartan kurssinimet ilman tasoa), `I  VICENZA03` (vain osastosivut)
 
 Vain huomautus (ei kirjattavaa musiikkiohjelmaa): `B  GENT40`, `BG SOFIA02`, `SI LJUBLJA33`, `E  PALMA25`.
