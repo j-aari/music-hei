@@ -288,8 +288,27 @@ input[type="search"]::-webkit-search-cancel-button {
 .mob-scale { margin-top: 0.75rem; font-size: 0.85rem; }
 .mob-scale summary { cursor: pointer; font-weight: 600; min-height: 2rem; display: flex; align-items: center; }
 .mob-scale p { color: var(--slate); margin: 0.25rem 0 0.5rem; }
-.prog summary { cursor: pointer; font-weight: 600; min-height: 2.25rem; display: flex; align-items: center; }
-.prog-body { padding-top: 0.25rem; }
+/* Summary looks like .btn so it reads as something to press; the chevron turns when open */
+.prog summary {
+  list-style: none;
+  cursor: pointer;
+  min-height: 2.75rem;
+  padding: 0.45rem 0.75rem 0.45rem 1rem;
+  display: flex; align-items: center; gap: 0.75rem;
+  color: var(--ink);
+  background: var(--paper);
+  border: 1px solid var(--slate);
+  border-radius: 2px;
+}
+.prog summary::-webkit-details-marker { display: none; }
+.prog summary:hover { background: var(--fog); }
+.prog-summary-text { display: flex; flex-direction: column; flex: 1; }
+.prog-summary-title { font-weight: 600; font-size: 0.95rem; }
+.prog-summary-meta { font-size: 0.82rem; color: var(--slate); }
+.prog-chevron { width: 0.55rem; height: 0.55rem; border-right: 2px solid var(--ink); border-bottom: 2px solid var(--ink); transform: rotate(45deg) translate(-2px, -2px); transition: transform 0.15s; flex: none; }
+.prog[open] .prog-chevron { transform: rotate(-135deg) translate(-2px, -2px); }
+@media (prefers-reduced-motion: reduce) { .prog-chevron { transition: none; } }
+.prog-body { padding-top: 0.75rem; }
 .prog-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.6rem; }
 .prog-name { margin: 0; font-size: 0.95rem; font-weight: 600; display: flex; align-items: baseline; gap: 0.5rem; flex-wrap: wrap; }
 .prog-levels { display: inline-flex; gap: 0.25rem; }

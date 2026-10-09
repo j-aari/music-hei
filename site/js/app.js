@@ -437,8 +437,8 @@
     }
     const byDisc = new Map(recs.map((r) => [r.discipline, r]));
     const levelsHere = new Set(recs.flatMap((r) => r.levels));
-    const summary = `What can be studied here: ${recs.length} ${recs.length === 1 ? 'field' : 'fields'}` +
-      (levelsHere.size ? ` (${LEVEL_ORDER.filter((l) => levelsHere.has(l)).join(', ')})` : '');
+    const summaryMeta = `${recs.length} ${recs.length === 1 ? 'field' : 'fields'}` +
+      (levelsHere.size ? ` · ${LEVEL_ORDER.filter((l) => levelsHere.has(l)).join(', ')}` : '');
     const body = h('div', { class: 'prog-body' });
     for (const g of groups) {
       const inGroup = g.disciplines.filter((d) => byDisc.has(d));
@@ -462,7 +462,13 @@
       body.append(h('h4', { class: 'network-group', text: g.name }), ul);
     }
     body.append(h('p', { class: 'small', text: `Collected from the institution’s own website on ${pm.collected}; not yet checked by a person. A field that is not listed may still be offered.` }));
-    section.append(h('details', { class: 'prog' }, h('summary', { text: summary }), body));
+    section.append(h('details', { class: 'prog' },
+      h('summary', {},
+        h('span', { class: 'prog-summary-text' },
+          h('span', { class: 'prog-summary-title', text: 'What can be studied here' }),
+          h('span', { class: 'prog-summary-meta', text: summaryMeta })),
+        h('span', { class: 'prog-chevron', 'aria-hidden': 'true' })),
+      body));
     return section;
   }
   // Copy buttons for the two values that go into agreements: the institution's name and its Erasmus code
