@@ -57,17 +57,14 @@ Tilanne näkyy komennolla:
 - **Ohjausmerkit:** kun Python-koodia kirjoitetaan heredocin kautta, `\b` on joskus päätynyt tiedostoon backspace-merkiksi (chr(8)). Tarkista `python -c "print(open('scripts/programmes/mp.py',encoding='utf-8').read().count(chr(8)))"` ja korjaa `chr(92)+'b'`:llä.
 - **Italia:** `IT(I, code, url, taso)` poimii triennio/biennio-sivulta lyhyet rivit ja linkkitekstit; `NOISE`-lista suodattaa valikot. Tarkista evidenssirivit ennen yhdistämistä (esim. henkilönimet, uutisotsikot).
 
-### Odottaa (sivuilta ei saatu kattavaa listaa; päivitetty erän 6 jälkeen)
+- **Italia, erät 15–16:** monen konservatorion lista löytyy vain JS-valikosta. Toimivat reitit: sivuston XML-sivukartta (`SM()`, esim. `/corsi-sitemap.xml`, `/wp-sitemap-posts-…`), ministeriön koodit DCPL/DCSL sivulla tai PDF:ssä (`DC()`), bando/manifesti-PDF (`pf.py` muuntaa PDF:n tekstiksi välimuistiin) ja käsin koottu lista (`L()`). Tarkista, ettei vanha verkkotunnus ole kaapattu tai kuollut (Benevento, Brescia, Cesena, Ravenna, Caltanissetta, Alicante → `website_override`).
 
-- `D  FRANKFU02` – instrumentti- ja dirigointiohjelmat (KIA) on merkitty "Auslaufend / Keine Bewerbung möglich"; korvaavia ohjelmasivuja ei löytynyt (`/studiengang/<slug>` toimii, lista on JS)
-- `D  MUNCHEN03` – hmtm.de: ohjelmakortit ladataan JS:llä (`/studiengangskategorie/musik/`)
-- `D  LUBECK02` – mh-luebeck.de: hakukoneen löytämät `/studium/studiengaenge/...`-osoitteet antavat 404
-- `D  BREMEN03` – hfk-bremen.de/de/studium/musik: sisältö JS:llä; alasivustot altemusik.hfk-bremen.de, kpa.hfk-bremen.de
-- `D  BERLIN03` (UdK) – /studium/studienangebot/ antaa 404
-- `D  OSNABRU02` – hs-osnabrueck.de/institut-fuer-musik/ antaa 404
-- `D  SAARBRU08` – hfm.saarland.de ei vastannut
-- `D  MAINZ01` – musik.uni-mainz.de: DNS-virhe; kokeile uni-mainz.de:n kautta
-- `I  L-AQUIL04` (consaq.it) ja `I  VICENZA03` (consvi.it): ohjelmalista ei näy ilman selainta
-- `I  MILANO09` (consmilano.it: TLS-aikakatkaisu), `I  PIACENZ01` (conservatorionicolini.it: DNS-virhe), `I  REGGIO03` (conservatoriocilea.it: 403), `I  BOLZANO02` (cons.bz.it: vain osastojen nimet)
-- Italia, ohjelmasivua ei saatu luettua ilman selainta tai sivu listasi vain osastot: `I  COSENZA03`, `I  LA-SPEZ01`, `I  SALERNO02`, `I  TRIESTE02`, `I  BRESCIA06`, `I  REGGIO05`, `I  SIENA04`, `I  CESENA03`, `I  PAVIA02`, `I  PALERMO04`, `I  LIVORNO01`, `I  CASTELF01`, `I  VERONA02`, `I  FERRARA02`, `I  FERMO01`, `I  PESARO01`, `I  CAGLIAR02`, `I  TERNI01`, `I  TORINO05`, `I  CAMPOBA03`, `I  FOGGIA02`, `I  CALTANI01`, `I  PADOVA02`, `I  VARESE05`, `I  PESCARA01`
-- `E  ALICANT11` (csmalicante.es: HTTP 526, ei omaa lähdettä), `NL`/`PL GDANSK04`: osittaiset (Gdańsk vain jazz/sävellys/kirkkomusiikki)
+### Tilanne 9.10.2026: kaikki 256 kerätty
+
+Osittaiset (laitoksen omilta sivuilta löytyi vain osa ohjelmista; evidenssissä huomautus *Partial list*):
+
+- `PL GDANSK04` (vain jazz, sävellys, kirkkomusiikki), `S  GOTEBOR01`, `D  STUTTGA03` (MA), `D  MUNSTER01`, `IRLDUBLIN22` (RIAM)
+- `I  REGGIO03` (lista katkeaa), `I  COSENZA03` (ei klassisia jousia/pianoa), `I  PIACENZ01` (vain biennio), `I  MILANO09` (vanha triennio-lista, biennio yleisenä), `I  PAVIA02`, `I  LA-SPEZ01`, `I  FERRARA02` (jazz, äänitekniikka, musiikkiterapia), `I  VICENZA03` (osastosivut), `I  SALERNO02` (biennio vain jazz/pop), `I  BOLZANO02` (biennio osastoittain), `I  RAVENNA02` (manifesti 2021–22)
+- `E  ALICANT11` (Interpretación-itinerarios osittain)
+
+Vain huomautus (ei kirjattavaa musiikkiohjelmaa): `B  GENT40`, `BG SOFIA02`, `SI LJUBLJA33`, `E  PALMA25`.

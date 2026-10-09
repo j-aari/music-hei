@@ -833,7 +833,8 @@
   "classified_by": "name-search-strict",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "2026-10-09: csmalicante.es returns HTTP 526; the conservatory's site is csmalicante.com.",
+  "website_override": "https://www.csmalicante.com/"
  },
  "E  BADAJOZ39": {
   "erasmus_code_raw": "E  BADAJOZ39",
@@ -1464,7 +1465,8 @@
   "classified_by": "name-search-strict",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "2026-10-09: conservatorionicolasala.eu now serves unrelated content; the conservatory's site is conservatorio.bn.it.",
+  "website_override": "https://www.conservatorio.bn.it/"
  },
  "I  BOLOGNA04": {
   "erasmus_code_raw": "I  BOLOGNA04",
@@ -1500,7 +1502,8 @@
   "classified_by": "name-search-strict",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "2026-10-09: conservatorio.brescia.it serves only a default web-server page; the conservatory's site is consbs.it.",
+  "website_override": "https://www.consbs.it/"
  },
  "I  CAGLIAR02": {
   "erasmus_code_raw": "I  CAGLIAR02",
@@ -1525,8 +1528,9 @@
   "classified_by": "name-search-strict",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": "",
-  "display_name": "Conservatorio Statale di Musica \"Vincenzo Bellini\" di Caltanissetta"
+  "notes": "2026-10-09: istitutobellini.cl.it does not respond; the conservatory's site is conservatoriocaltanissetta.eu.",
+  "display_name": "Conservatorio Statale di Musica \"Vincenzo Bellini\" di Caltanissetta",
+  "website_override": "https://www.conservatoriocaltanissetta.eu/"
  },
  "I  CAMPOBA03": {
   "erasmus_code_raw": "I  CAMPOBA03",
@@ -1587,8 +1591,9 @@
   "classified_by": "name-search-strict",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": "Alkuperäinen nimi on virheellinen ECHE-listassa: \"CONSERVATORIO MADERNALETTIMI\".",
-  "display_name": "Conservatorio Maderna-Lettimi"
+  "notes": "Alkuperäinen nimi on virheellinen ECHE-listassa: \"CONSERVATORIO MADERNALETTIMI\". 2026-10-09: conservatoriomadernalettimi.it no longer resolves (DNS); the conservatory's site is madernalettimi.it.",
+  "display_name": "Conservatorio Maderna-Lettimi",
+  "website_override": "https://www.madernalettimi.it/"
  },
  "I  COMO04": {
   "erasmus_code_raw": "I  COMO04",
@@ -2029,7 +2034,8 @@
   "classified_by": "manual",
   "partner_of_siba": null,
   "languages_of_instruction": null,
-  "notes": ""
+  "notes": "2026-10-09: istitutoverdi.ra.it does not respond; the institute's site is verdiravenna.it.",
+  "website_override": "https://www.verdiravenna.it/"
  },
  "I  REGGIO03": {
   "erasmus_code_raw": "I  REGGIO03",

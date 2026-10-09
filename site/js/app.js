@@ -159,7 +159,12 @@
       }
       const fs = h('fieldset', { class: `group group--${g}` }, h('legend', { text: GROUPS[g].label }), ul);
       if (g === 'partner') fs.append(h('p', { class: 'group__source', text: `Source: ${meta.partner_source_name}.` }));
-      if (g === 'field') fs.append(h('p', { class: 'group__source', text: `Programmes collected for ${programmes.meta.institutions.length} of ${data.length} institutions so far; the others are not shown when a field is selected.` }));
+      if (g === 'field') {
+        const n = programmes.meta.institutions.length;
+        fs.append(h('p', { class: 'group__source', text: n < data.length
+          ? `Programmes collected for ${n} of ${data.length} institutions so far; the others are not shown when a field is selected.`
+          : 'Collected from each institution’s own website (October 2026) and not verified by the institutions; some lists are partial.' }));
+      }
       host.append(fs);
     }
     const missing = [];

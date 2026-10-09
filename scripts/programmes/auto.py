@@ -44,3 +44,37 @@ def IT(I, code, url, lv, extra_drop=None):
         if not (3 < len(c) < 80) or c in seen or NOISE.search(c) or (extra_drop and re.search(extra_drop, c, re.I)): continue
         seen.add(c)
         for d in classify(c): I.setdefault(code, []).append([d, lv, c, url])
+def L(I, code, names, url, lv):
+    """Käsin koottu ohjelmalista (pilkuilla tai |:lla eroteltu, esim. bandon/manifestin PDF:stä) -> rivit."""
+    unc = []
+    for c in (x.strip() for x in re.split(r"[|;,]\s*(?![^()]*\))", names)):
+        ds = classify(c)
+        if not ds: unc.append(c)
+        for d in ds: I.setdefault(code, []).append([d, lv, c, url])
+    if unc: print(f"[{code}] luokittelematta: {unc}", file=sys.stderr)
+def DC(I, code, url, maxlen=90):
+    """Italian sivu/PDF, jossa ohjelmat ministeriön koodein (DCPL = triennio/BA, DCSL = biennio/MA)."""
+    seen = set()
+    for l in text(get(url)).splitlines():
+        l = re.sub(r"\s+", " ", l).strip(" -–•:")
+        m = re.search(r"DC([PS])L ?\d+", l)
+        if not m or len(l) > maxlen or l in seen: continue
+        seen.add(l)
+        for d in classify(l): I.setdefault(code, []).append([d, "BA" if m.group(1) == "P" else "MA", l, url])
+def SM(I, code, sm_url, pat, ba=r"triennio|i-livello|primo-livello", ma=r"biennio|ii-livello|secondo-livello", drop=None):
+    """Ohjelmasivut sivuston XML-sivukartasta (WordPress tms.): nimi osoitteen viimeisestä osasta, taso osoitteesta."""
+    import subprocess, os, hashlib
+    from f import C
+    p = os.path.join(C, hashlib.md5(sm_url.encode()).hexdigest())
+    if os.path.exists(p): x = open(p, encoding="utf-8").read()
+    else:
+        x = subprocess.run(["curl", "-skL", "--max-time", "60", "-A", "Mozilla/5.0", sm_url], capture_output=True).stdout.decode("utf-8", "replace")
+        if "<loc>" in x: open(p, "w", encoding="utf-8").write(x)
+        else: print(f"[{code}] sivukartta tyhjä: {sm_url}", file=sys.stderr)
+    for u in sorted(set(re.findall(r"<loc>\s*([^<\s]+)\s*</loc>", x))):
+        if not re.search(pat, u) or (drop and re.search(drop, u)): continue
+        lv = "MA" if re.search(ma, u) else "BA" if re.search(ba, u) else None
+        slug = re.sub(r"(\.html?|[-_]\d+)+$", "", u.rstrip("/").rsplit("/", 1)[-1])
+        name = re.sub(r"[-_]+", " ", re.sub(r"[-_]?(triennio|biennio|accademico)?[-_]?(di[-_])?(i|ii|primo|secondo)[-_]livello.*$", "", slug)).strip()
+        if not name: continue
+        for d in classify(name): I.setdefault(code, []).append([d, lv, name, u])
