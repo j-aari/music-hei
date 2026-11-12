@@ -149,6 +149,7 @@ input[type="search"]::-webkit-search-cancel-button {
   border-radius: 2px;
   cursor: pointer;
 }
+a.btn { display: inline-flex; align-items: center; text-decoration: none; box-sizing: border-box; }
 .btn:hover { background: var(--fog); }
 .btn[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
 .btn[disabled] { color: var(--slate); border-color: var(--mist); cursor: not-allowed; background: transparent; }

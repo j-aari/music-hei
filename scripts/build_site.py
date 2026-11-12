@@ -196,6 +196,10 @@ def main():
     m = site["meta"]
     print(f"site.json: {m['counts']['total']} laitosta (taso 1: {m['counts']['tier1']}, taso 2: {m['counts']['tier2']}, taso 3: {m['counts']['tier3']}), "
           f"+ {m['counts']['from_2027']} vuodesta 2027, haettu {m['fetched']}  ->  {SITE}")
+    import build_excel  # Excel-tiedosto samasta datasta, jotta se pysyy sivun kanssa ajan tasalla
+    out, n, p, st = build_excel.build()
+    if out:
+        print(f"Excel: {n} laitosta, {p} ohjelmariviä, {st} strategiadokumenttia  ->  {out}")
     no_web = [i["id"] for i in site["institutions"] if not i["website"]]
     print(f"Ilman verkko-osoitetta: {len(no_web)} {no_web if no_web else ''}")
     if warnings:
