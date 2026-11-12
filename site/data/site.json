@@ -1,14 +1,15 @@
 {
  "meta": {
   "fetched": "2026-09-20",
-  "generated": "2026-10-09",
+  "generated": "2026-11-12",
   "upstream_file": "upstream.json",
   "upstream_source": "https://eche-list.erasmuswithoutpaper.eu/api/?_verified=all",
   "counts": {
    "tier1": 178,
    "tier2": 24,
    "tier3": 54,
-   "total": 256
+   "total": 256,
+   "from_2027": 17
   },
   "tier3_countries": [
    "Norway",
@@ -20,7 +21,8 @@
    "2": "Music unit of an arts university",
    "3": "Music unit of a general university"
   },
-  "scope_text": "The list has 256 institutions in 32 countries. Included are holders of the Erasmus Charter for Higher Education (ECHE) where music is an independent degree-awarding institution (178) or the music unit of an arts university (24), and music units of general universities and universities of applied sciences whose parent holds the ECHE (54). For these units the coverage is based on the member list of the AEC (European Association of Conservatoires); Norway, Serbia and Sweden have also been gone through in full, so elsewhere units that are not AEC members may still be missing. Data retrieved 20 September 2026 from the European Commission's ECHE list. Institutions in the United Kingdom and Switzerland will be added once they have been awarded an ECHE (association with Erasmus+ from 1 January 2027).",
+  "scope_text": "The list has 256 institutions in 32 countries. Included are holders of the Erasmus Charter for Higher Education (ECHE) where music is an independent degree-awarding institution (178) or the music unit of an arts university (24), and music units of general universities and universities of applied sciences whose parent holds the ECHE (54). For these units the coverage is based on the member list of the AEC (European Association of Conservatoires); Norway, Serbia and Sweden have also been gone through in full, so elsewhere units that are not AEC members may still be missing. Data retrieved 20 September 2026 from the European Commission's ECHE list. Music institutions in the United Kingdom and Switzerland, which associate with Erasmus+ on 1 January 2027, are listed separately and marked “From 2027” until they have been awarded an ECHE.",
+  "scope_text_2027": "Shown separately, marked “From 2027”: 17 music institutions in Switzerland and the United Kingdom, which associate with Erasmus+ on 1 January 2027 and do not hold an ECHE yet. They are the higher education institutions among the AEC members in the two countries, plus Leeds Conservatoire. They are not included in the counts above and will move into the main list once they have been awarded an ECHE.",
   "partner_source": "Partner information is taken from the exchange-destination list published by the University of the Arts Helsinki.",
   "partner_source_name": "the exchange-destination list published by the University of the Arts Helsinki",
   "disclaimer": "This page is an informal compilation of public data and is not an official publication of the European Commission or of any of the institutions listed."
@@ -47,7 +49,8 @@
    "public_note": null,
    "lat": 48.3109008,
    "lon": 14.2698985,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "A  WIEN77",
@@ -70,7 +73,8 @@
    "public_note": null,
    "lat": 48.2083537,
    "lon": 16.3725042,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "A  KLAGENF06",
@@ -93,7 +97,8 @@
    "public_note": null,
    "lat": 46.6207564,
    "lon": 14.3137378,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "A  WIEN76",
@@ -116,7 +121,8 @@
    "public_note": null,
    "lat": 48.1849826,
    "lon": 16.4193194,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "A  EISENST05",
@@ -139,7 +145,8 @@
    "public_note": null,
    "lat": 47.8502587,
    "lon": 16.5141048,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "A  WIEN52",
@@ -162,7 +169,8 @@
    "public_note": null,
    "lat": 48.2048709,
    "lon": 16.3722361,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "A  FELDKIR03",
@@ -185,7 +193,8 @@
    "public_note": null,
    "lat": 47.2347654,
    "lon": 9.5960771,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "A  GRAZ03",
@@ -208,7 +217,8 @@
    "public_note": null,
    "lat": 47.0724259,
    "lon": 15.4498591,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "A  WIEN08",
@@ -231,7 +241,8 @@
    "public_note": null,
    "lat": 48.2020489,
    "lon": 16.3856527,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "A  SALZBUR02",
@@ -254,7 +265,8 @@
    "public_note": null,
    "lat": 47.8038202,
    "lon": 13.0436455,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "A  WIEN74",
@@ -277,7 +289,8 @@
    "public_note": null,
    "lat": 48.1977179,
    "lon": 16.3162785,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "B  ANTWERP62",
@@ -300,7 +313,8 @@
    "public_note": null,
    "lat": 51.2303342,
    "lon": 4.4142172,
-   "geo_precision": "name"
+   "geo_precision": "name",
+   "charter": "eche"
   },
   {
    "id": "B  MONS24",
@@ -323,7 +337,8 @@
    "public_note": null,
    "lat": 50.45569,
    "lon": 3.9531813,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "B  BRUXEL07",
@@ -346,7 +361,8 @@
    "public_note": null,
    "lat": 50.8393332,
    "lon": 4.355549,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "B  LIEGE03",
@@ -369,7 +385,8 @@
    "public_note": null,
    "lat": 50.6352083,
    "lon": 5.5706199,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "B  BRUSSEL46",
@@ -392,7 +409,8 @@
    "public_note": null,
    "lat": 50.842341,
    "lon": 4.3225855,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "B  NAMUR13",
@@ -415,7 +433,8 @@
    "public_note": null,
    "lat": 50.4645648,
    "lon": 4.8457925,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "B  BRUSSEL43",
@@ -438,7 +457,8 @@
    "public_note": null,
    "lat": 50.8612275,
    "lon": 4.3674567,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "B  GENT40",
@@ -461,7 +481,8 @@
    "public_note": "A research institute for music offering doctoral and postgraduate study.",
    "lat": 51.0515863,
    "lon": 3.7227387,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "B  GENT25",
@@ -484,7 +505,8 @@
    "public_note": null,
    "lat": 51.0538286,
    "lon": 3.7250121,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "BA BANJA02",
@@ -507,7 +529,8 @@
    "public_note": null,
    "lat": 44.7720845,
    "lon": 17.1917651,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "BA SARAJEV01",
@@ -530,7 +553,8 @@
    "public_note": null,
    "lat": 43.8570713,
    "lon": 18.4126147,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "BG PLOVDIV07",
@@ -553,7 +577,8 @@
    "public_note": null,
    "lat": 42.1418541,
    "lon": 24.7499297,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "BG SOFIA02",
@@ -576,7 +601,8 @@
    "public_note": null,
    "lat": 42.6977028,
    "lon": 23.3217359,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "BG SOFIA13",
@@ -599,7 +625,8 @@
    "public_note": null,
    "lat": 42.694818,
    "lon": 23.3468652,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "HR PULA01",
@@ -622,7 +649,8 @@
    "public_note": null,
    "lat": 44.8702281,
    "lon": 13.8455311,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "HR ZAGREB01",
@@ -645,7 +673,8 @@
    "public_note": null,
    "lat": 45.8130967,
    "lon": 15.9772795,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "CY NICOSIA24",
@@ -668,7 +697,8 @@
    "public_note": null,
    "lat": 35.1746503,
    "lon": 33.3638783,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "CZ PRAHA04",
@@ -691,7 +721,8 @@
    "public_note": null,
    "lat": 50.087649,
    "lon": 14.4023543,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "CZ BRNO03",
@@ -714,7 +745,8 @@
    "public_note": null,
    "lat": 49.1961537,
    "lon": 16.6104219,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "DK ARHUS05",
@@ -737,7 +769,8 @@
    "public_note": null,
    "lat": 56.152973,
    "lon": 10.197917,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "DK KOBENHA09",
@@ -760,7 +793,8 @@
    "public_note": null,
    "lat": 55.682216,
    "lon": 12.552526,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "DK KOBENHA39",
@@ -783,7 +817,8 @@
    "public_note": null,
    "lat": 55.682455,
    "lon": 12.606284,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "DK ODENSE22",
@@ -806,7 +841,8 @@
    "public_note": null,
    "lat": 55.399768,
    "lon": 10.391451,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "EE TALLINN03",
@@ -829,7 +865,8 @@
    "public_note": null,
    "lat": 59.4312029,
    "lon": 24.7475136,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "EE TARTU02",
@@ -852,7 +889,8 @@
    "public_note": null,
    "lat": 58.36454,
    "lon": 25.5878074,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "SF TURKU05",
@@ -875,7 +913,8 @@
    "public_note": null,
    "lat": 60.4515932,
    "lon": 22.2669991,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "SF KOKKOLA05",
@@ -898,7 +937,8 @@
    "public_note": null,
    "lat": 63.8391421,
    "lon": 23.1336845,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "SF JYVASKY11",
@@ -921,7 +961,8 @@
    "public_note": null,
    "lat": 62.241672,
    "lon": 25.7495806,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "SF HELSINK41",
@@ -944,7 +985,8 @@
    "public_note": null,
    "lat": 60.1666204,
    "lon": 24.9435408,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "SF OULU11",
@@ -967,7 +1009,8 @@
    "public_note": null,
    "lat": 65.0117914,
    "lon": 25.4701973,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "SF KUOPIO08",
@@ -990,7 +1033,8 @@
    "public_note": null,
    "lat": 62.8924628,
    "lon": 27.6783603,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "SF TAMPERE06",
@@ -1013,7 +1057,8 @@
    "public_note": null,
    "lat": 61.4977988,
    "lon": 23.7616335,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "SF HELSINK42",
@@ -1036,7 +1081,8 @@
    "public_note": null,
    "lat": 60.1741846,
    "lon": 24.9346398,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "F  LYON24",
@@ -1059,7 +1105,8 @@
    "public_note": null,
    "lat": 45.768931,
    "lon": 4.811462,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "F  PARIS119",
@@ -1082,7 +1129,8 @@
    "public_note": null,
    "lat": 48.8889058,
    "lon": 2.3913754,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "F  DIJON32",
@@ -1105,7 +1153,8 @@
    "public_note": null,
    "lat": 47.3199659,
    "lon": 5.0431024,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "F  LILLE71",
@@ -1128,7 +1177,8 @@
    "public_note": null,
    "lat": 50.6421545,
    "lon": 3.0623212,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "F  STRASBO51",
@@ -1151,7 +1201,8 @@
    "public_note": null,
    "lat": 48.5823605,
    "lon": 7.7591068,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "F  AIX-PRO29",
@@ -1174,7 +1225,8 @@
    "public_note": null,
    "lat": 43.5298424,
    "lon": 5.4474738,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "F  NANTES72",
@@ -1197,7 +1249,8 @@
    "public_note": null,
    "lat": 47.2051599,
    "lon": -1.5376192,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "F  BORDEAU62",
@@ -1220,7 +1273,8 @@
    "public_note": null,
    "lat": 44.8292636,
    "lon": -0.5693868,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "F  BOBIGNY05",
@@ -1243,7 +1297,8 @@
    "public_note": null,
    "lat": 48.927029,
    "lon": 2.389272,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "F  PARIS365",
@@ -1266,7 +1321,8 @@
    "public_note": null,
    "lat": 48.8785081,
    "lon": 2.3207064,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "D  HALLE04",
@@ -1289,7 +1345,8 @@
    "public_note": null,
    "lat": 51.4846294,
    "lon": 11.967828,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "D  TUBINGE02",
@@ -1312,7 +1369,8 @@
    "public_note": null,
    "lat": 48.5189862,
    "lon": 9.0600983,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "D  ESSEN02",
@@ -1335,7 +1393,8 @@
    "public_note": null,
    "lat": 51.3868423,
    "lon": 7.0048793,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "D  WEIMAR02",
@@ -1358,7 +1417,8 @@
    "public_note": null,
    "lat": 50.9793789,
    "lon": 11.3316512,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "D  KARLSRU03",
@@ -1381,7 +1441,8 @@
    "public_note": null,
    "lat": 49.004037,
    "lon": 8.4247893,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "D  REGENSB03",
@@ -1404,7 +1465,8 @@
    "public_note": null,
    "lat": 49.0248675,
    "lon": 12.0986041,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "D  BERLIN16",
@@ -1427,7 +1489,8 @@
    "public_note": null,
    "lat": 52.5135064,
    "lon": 13.3908638,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "D  DETMOLD01",
@@ -1450,7 +1513,8 @@
    "public_note": null,
    "lat": 51.930329,
    "lon": 8.8761945,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "D  FREIBUR03",
@@ -1473,7 +1537,8 @@
    "public_note": null,
    "lat": 47.998289,
    "lon": 7.8617567,
-   "geo_precision": "name"
+   "geo_precision": "name",
+   "charter": "eche"
   },
   {
    "id": "D  MAINZ01",
@@ -1496,7 +1561,8 @@
    "public_note": null,
    "lat": 49.9995205,
    "lon": 8.2736253,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "D  NURNBER04",
@@ -1519,7 +1585,8 @@
    "public_note": null,
    "lat": 49.4586671,
    "lon": 11.1085199,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "D  SAARBRU08",
@@ -1542,7 +1609,8 @@
    "public_note": null,
    "lat": 49.2303128,
    "lon": 6.9977608,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "D  FRANKFU02",
@@ -1565,7 +1633,8 @@
    "public_note": null,
    "lat": 50.1201028,
    "lon": 8.6759212,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "D  KOLN03",
@@ -1588,7 +1657,8 @@
    "public_note": null,
    "lat": 50.9478072,
    "lon": 6.9610678,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "D  LEIPZIG05",
@@ -1611,7 +1681,8 @@
    "public_note": null,
    "lat": 51.3327247,
    "lon": 12.3668529,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "D  HAMBURG05",
@@ -1634,7 +1705,8 @@
    "public_note": null,
    "lat": 53.5706104,
    "lon": 9.9989546,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "D  MUNCHEN03",
@@ -1657,7 +1729,8 @@
    "public_note": null,
    "lat": 48.1460982,
    "lon": 11.5674452,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "D  ROSTOCK02",
@@ -1680,7 +1753,8 @@
    "public_note": null,
    "lat": 54.0916501,
    "lon": 12.1444191,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "D  WURZBUR02",
@@ -1703,7 +1777,8 @@
    "public_note": null,
    "lat": 49.7946978,
    "lon": 9.9408394,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "D  HANNOVE04",
@@ -1726,7 +1801,8 @@
    "public_note": null,
    "lat": 52.3775779,
    "lon": 9.7545559,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "D  OSNABRU02",
@@ -1749,7 +1825,8 @@
    "public_note": null,
    "lat": 52.2719595,
    "lon": 8.047635,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "D  LUBECK02",
@@ -1772,7 +1849,8 @@
    "public_note": null,
    "lat": 53.8649436,
    "lon": 10.6820782,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "D  MUNSTER01",
@@ -1795,7 +1873,8 @@
    "public_note": null,
    "lat": 51.9625101,
    "lon": 7.6251879,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "D  MANNHEI09",
@@ -1818,7 +1897,8 @@
    "public_note": null,
    "lat": 49.4964081,
    "lon": 8.4571454,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "D  DUSSELD06",
@@ -1841,7 +1921,8 @@
    "public_note": null,
    "lat": 51.242403,
    "lon": 6.772264,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "D  TROSSIN01",
@@ -1864,7 +1945,8 @@
    "public_note": null,
    "lat": 48.0756754,
    "lon": 8.638113,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "D  MANNHEI02",
@@ -1887,7 +1969,8 @@
    "public_note": null,
    "lat": 49.483885,
    "lon": 8.4708736,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "D  STUTTGA03",
@@ -1910,7 +1993,8 @@
    "public_note": null,
    "lat": 48.7783451,
    "lon": 9.1863189,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "D  DRESDEN05",
@@ -1933,7 +2017,8 @@
    "public_note": null,
    "lat": 51.0538176,
    "lon": 13.7249243,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "D  BREMEN03",
@@ -1956,7 +2041,8 @@
    "public_note": null,
    "lat": 53.0979745,
    "lon": 8.7682899,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "D  BERLIN03",
@@ -1979,7 +2065,8 @@
    "public_note": null,
    "lat": 52.5169354,
    "lon": 13.3230507,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "G  THESSAL02",
@@ -2002,7 +2089,8 @@
    "public_note": null,
    "lat": 40.6403167,
    "lon": 22.9352716,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "HU GYOR01",
@@ -2025,7 +2113,8 @@
    "public_note": null,
    "lat": 47.6835029,
    "lon": 17.6342832,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "HU BUDAPES25",
@@ -2048,7 +2137,8 @@
    "public_note": null,
    "lat": 47.5032503,
    "lon": 19.0643957,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "IS REYKJAV06",
@@ -2071,7 +2161,8 @@
    "public_note": null,
    "lat": 64.1417119,
    "lon": -21.9124167,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "IRLDUBLIN44",
@@ -2094,7 +2185,8 @@
    "public_note": null,
    "lat": 53.3493795,
    "lon": -6.2605593,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "IRLMUNST01",
@@ -2117,7 +2209,8 @@
    "public_note": null,
    "lat": 51.8985136,
    "lon": -8.4726423,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "IRLDUBLIN22",
@@ -2140,7 +2233,8 @@
    "public_note": null,
    "lat": 53.3423267,
    "lon": -6.249694,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  AGRIGEN02",
@@ -2163,7 +2257,8 @@
    "public_note": null,
    "lat": 37.504695,
    "lon": 13.2722009,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  ADRIA01",
@@ -2186,7 +2281,8 @@
    "public_note": null,
    "lat": 45.0591181,
    "lon": 12.0547219,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  COMO04",
@@ -2209,7 +2305,8 @@
    "public_note": null,
    "lat": 45.7940756,
    "lon": 9.1176447,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  MESSINA04",
@@ -2232,7 +2329,8 @@
    "public_note": null,
    "lat": 38.1681665,
    "lon": 15.5356265,
-   "geo_precision": "name"
+   "geo_precision": "name",
+   "charter": "eche"
   },
   {
    "id": "I  ALESSAN01",
@@ -2255,7 +2353,8 @@
    "public_note": null,
    "lat": 44.9125087,
    "lon": 8.6173399,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  L-AQUIL04",
@@ -2278,7 +2377,8 @@
    "public_note": null,
    "lat": 42.3489203,
    "lon": 13.3979672,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "I  PARMA02",
@@ -2301,7 +2401,8 @@
    "public_note": null,
    "lat": 44.7995468,
    "lon": 10.3245569,
-   "geo_precision": "name"
+   "geo_precision": "name",
+   "charter": "eche"
   },
   {
    "id": "I  VICENZA03",
@@ -2324,7 +2425,8 @@
    "public_note": null,
    "lat": 45.550678,
    "lon": 11.554186,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  VENEZIA04",
@@ -2347,7 +2449,8 @@
    "public_note": null,
    "lat": 45.4323575,
    "lon": 12.3304966,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  BOLZANO02",
@@ -2370,7 +2473,8 @@
    "public_note": null,
    "lat": 46.4976732,
    "lon": 11.3515688,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  MATERA01",
@@ -2393,7 +2497,8 @@
    "public_note": null,
    "lat": 40.6654067,
    "lon": 16.6097157,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  REGGIO03",
@@ -2416,7 +2521,8 @@
    "public_note": null,
    "lat": 38.1035389,
    "lon": 15.6397556,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "I  TRENTO02",
@@ -2439,7 +2545,8 @@
    "public_note": null,
    "lat": 46.0647611,
    "lon": 11.1250223,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  VIBO-VA01",
@@ -2462,7 +2569,8 @@
    "public_note": null,
    "lat": 38.6748544,
    "lon": 16.0985276,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "I  POTENZA03",
@@ -2485,7 +2593,8 @@
    "public_note": null,
    "lat": 40.6392267,
    "lon": 15.792239,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  PIACENZ01",
@@ -2508,7 +2617,8 @@
    "public_note": null,
    "lat": 45.0490768,
    "lon": 9.6910176,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  MILANO09",
@@ -2531,7 +2641,8 @@
    "public_note": null,
    "lat": 45.4650024,
    "lon": 9.2031994,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  FROSINO02",
@@ -2554,7 +2665,8 @@
    "public_note": null,
    "lat": 41.640707,
    "lon": 13.3509157,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "I  MANTOVA01",
@@ -2577,7 +2689,8 @@
    "public_note": null,
    "lat": 45.1543695,
    "lon": 10.783762,
-   "geo_precision": "name"
+   "geo_precision": "name",
+   "charter": "eche"
   },
   {
    "id": "I  LUCCA03",
@@ -2600,7 +2713,8 @@
    "public_note": null,
    "lat": 43.8428381,
    "lon": 10.502876,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "I  FIRENZE04",
@@ -2623,7 +2737,8 @@
    "public_note": null,
    "lat": 43.7764044,
    "lon": 11.2584623,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  BARI03",
@@ -2646,7 +2761,8 @@
    "public_note": null,
    "lat": 41.1162307,
    "lon": 16.8570754,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  MONOPOL02",
@@ -2669,7 +2785,8 @@
    "public_note": null,
    "lat": 40.9527941,
    "lon": 17.2956265,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  ROMA09",
@@ -2692,7 +2809,8 @@
    "public_note": null,
    "lat": 41.9074985,
    "lon": 12.4788258,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  COSENZA03",
@@ -2715,7 +2833,8 @@
    "public_note": null,
    "lat": 39.2824313,
    "lon": 16.2602417,
-   "geo_precision": "name"
+   "geo_precision": "name",
+   "charter": "eche"
   },
   {
    "id": "I  CREMONA01",
@@ -2738,7 +2857,8 @@
    "public_note": null,
    "lat": 45.1311839,
    "lon": 10.0273548,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  LATINA02",
@@ -2761,7 +2881,8 @@
    "public_note": null,
    "lat": 41.4701738,
    "lon": 12.9152667,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  LECCE03",
@@ -2784,7 +2905,8 @@
    "public_note": null,
    "lat": 40.4373242,
    "lon": 18.0273368,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  PERUGIA03",
@@ -2807,7 +2929,8 @@
    "public_note": null,
    "lat": 43.1089834,
    "lon": 12.3850994,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  TRAPANI02",
@@ -2830,7 +2953,8 @@
    "public_note": null,
    "lat": 37.9003731,
    "lon": 12.7116255,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "I  PALERMO04",
@@ -2853,7 +2977,8 @@
    "public_note": null,
    "lat": 38.1213238,
    "lon": 13.3640091,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  ROVIGO01",
@@ -2876,7 +3001,8 @@
    "public_note": null,
    "lat": 45.0695569,
    "lon": 11.7913368,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  PAVIA02",
@@ -2899,7 +3025,8 @@
    "public_note": null,
    "lat": 45.1863517,
    "lon": 9.1621432,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  BOLOGNA04",
@@ -2922,7 +3049,8 @@
    "public_note": null,
    "lat": 44.4952952,
    "lon": 11.3490593,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  LA-SPEZ01",
@@ -2945,7 +3073,8 @@
    "public_note": null,
    "lat": 44.1082829,
    "lon": 9.8186375,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  SALERNO02",
@@ -2968,7 +3097,8 @@
    "public_note": null,
    "lat": 40.6822751,
    "lon": 14.7510308,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  TRIESTE02",
@@ -2991,7 +3121,8 @@
    "public_note": null,
    "lat": 45.6558027,
    "lon": 13.7750136,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  BRESCIA06",
@@ -3014,7 +3145,8 @@
    "public_note": null,
    "lat": 45.5356023,
    "lon": 10.2257369,
-   "geo_precision": "name"
+   "geo_precision": "name",
+   "charter": "eche"
   },
   {
    "id": "I  REGGIO05",
@@ -3037,7 +3169,8 @@
    "public_note": null,
    "lat": 44.6989596,
    "lon": 10.6371242,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  MODENA05",
@@ -3060,7 +3193,8 @@
    "public_note": null,
    "lat": 44.6458885,
    "lon": 10.9255707,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "I  SIENA04",
@@ -3083,7 +3217,8 @@
    "public_note": null,
    "lat": 43.3146516,
    "lon": 11.3317871,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  CESENA03",
@@ -3106,7 +3241,8 @@
    "public_note": null,
    "lat": 44.136352,
    "lon": 12.2422442,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "I  NAPOLI07",
@@ -3129,7 +3265,8 @@
    "public_note": null,
    "lat": 40.8358846,
    "lon": 14.2487679,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "I  LIVORNO01",
@@ -3152,7 +3289,8 @@
    "public_note": null,
    "lat": 43.5507317,
    "lon": 10.3091256,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "I  CASTELF01",
@@ -3175,7 +3313,8 @@
    "public_note": null,
    "lat": 45.6715325,
    "lon": 11.9290417,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  VERONA02",
@@ -3198,7 +3337,8 @@
    "public_note": null,
    "lat": 45.4452569,
    "lon": 10.9989845,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  FERRARA02",
@@ -3221,7 +3361,8 @@
    "public_note": null,
    "lat": 44.8382457,
    "lon": 11.6220922,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  FERMO01",
@@ -3244,7 +3385,8 @@
    "public_note": null,
    "lat": 43.1617741,
    "lon": 13.7174258,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  PESARO01",
@@ -3267,7 +3409,8 @@
    "public_note": null,
    "lat": 43.909169,
    "lon": 12.9104068,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  CAGLIAR02",
@@ -3290,7 +3433,8 @@
    "public_note": null,
    "lat": 39.2171994,
    "lon": 9.113311,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "I  TERNI01",
@@ -3313,7 +3457,8 @@
    "public_note": null,
    "lat": 42.5634291,
    "lon": 12.6489197,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  TORINO05",
@@ -3336,7 +3481,8 @@
    "public_note": null,
    "lat": 45.0629116,
    "lon": 7.6847292,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  UDINE02",
@@ -3359,7 +3505,8 @@
    "public_note": null,
    "lat": 46.0651811,
    "lon": 13.2397028,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  SASSARI02",
@@ -3382,7 +3529,8 @@
    "public_note": null,
    "lat": 40.5477484,
    "lon": 8.8344705,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  CAMPOBA03",
@@ -3405,7 +3553,8 @@
    "public_note": null,
    "lat": 41.5537757,
    "lon": 14.6589473,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  FOGGIA02",
@@ -3428,7 +3577,8 @@
    "public_note": null,
    "lat": 41.4620482,
    "lon": 15.5432595,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "I  CALTANI01",
@@ -3451,7 +3601,8 @@
    "public_note": null,
    "lat": 37.4923654,
    "lon": 14.0612497,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  PADOVA02",
@@ -3474,7 +3625,8 @@
    "public_note": null,
    "lat": 45.4095598,
    "lon": 11.8790345,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  AVELLIN01",
@@ -3497,7 +3649,8 @@
    "public_note": null,
    "lat": 40.9161793,
    "lon": 14.8012267,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  VARESE05",
@@ -3520,7 +3673,8 @@
    "public_note": null,
    "lat": 45.6650461,
    "lon": 8.7884805,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  NOVARA01",
@@ -3543,7 +3697,8 @@
    "public_note": null,
    "lat": 45.4446811,
    "lon": 8.6201731,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  PESCARA01",
@@ -3566,7 +3721,8 @@
    "public_note": null,
    "lat": 42.469613,
    "lon": 14.2059269,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "I  GENOVA02",
@@ -3589,7 +3745,8 @@
    "public_note": null,
    "lat": 44.4003444,
    "lon": 8.9582037,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  BENEVEN03",
@@ -3612,7 +3769,8 @@
    "public_note": null,
    "lat": 41.1310823,
    "lon": 14.7822088,
-   "geo_precision": "name"
+   "geo_precision": "name",
+   "charter": "eche"
   },
   {
    "id": "I  CATANZA04",
@@ -3635,7 +3793,8 @@
    "public_note": null,
    "lat": 39.0368928,
    "lon": 16.1607183,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "I  FIRENZE07",
@@ -3658,7 +3817,8 @@
    "public_note": null,
    "lat": 43.7993719,
    "lon": 11.2923146,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  AOSTA03",
@@ -3681,7 +3841,8 @@
    "public_note": null,
    "lat": 45.7404517,
    "lon": 7.323333,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  TERAMO02",
@@ -3704,7 +3865,8 @@
    "public_note": null,
    "lat": 42.6601487,
    "lon": 13.7007031,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  RAVENNA02",
@@ -3727,7 +3889,8 @@
    "public_note": null,
    "lat": 44.415086,
    "lon": 12.2051541,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  CATANIA06",
@@ -3750,7 +3913,8 @@
    "public_note": null,
    "lat": 37.5203524,
    "lon": 15.0822223,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  CUNEO01",
@@ -3773,7 +3937,8 @@
    "public_note": null,
    "lat": 44.3931706,
    "lon": 7.5517642,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  MILANO24",
@@ -3796,7 +3961,8 @@
    "public_note": "Operates as CPM Music Institute; the legal entity is registered as Mussida Music Publishing srl.",
    "lat": 45.4641943,
    "lon": 9.1896346,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "I  ROMA30",
@@ -3819,7 +3985,8 @@
    "public_note": "Operates as Saint Louis College of Music; the legal entity is registered as Saint Louis Music Center Srl.",
    "lat": 41.8962495,
    "lon": 12.4914677,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "I  SIENA05",
@@ -3842,7 +4009,8 @@
    "public_note": null,
    "lat": 43.3182864,
    "lon": 11.3321952,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "LV RIGA05",
@@ -3865,7 +4033,8 @@
    "public_note": null,
    "lat": 56.9496447,
    "lon": 24.1175289,
-   "geo_precision": "name"
+   "geo_precision": "name",
+   "charter": "eche"
   },
   {
    "id": "LT VILNIUS10",
@@ -3888,7 +4057,8 @@
    "public_note": null,
    "lat": 54.6870458,
    "lon": 25.2829111,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "LT VILNIUS05",
@@ -3911,7 +4081,8 @@
    "public_note": null,
    "lat": 54.688522,
    "lon": 25.270003,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "LT KAUNAS01",
@@ -3934,7 +4105,8 @@
    "public_note": null,
    "lat": 54.8982139,
    "lon": 23.9044817,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "LUXLUX-VIL01",
@@ -3957,7 +4129,8 @@
    "public_note": null,
    "lat": 49.4959628,
    "lon": 5.9850306,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "ME PODGORI02",
@@ -3980,7 +4153,8 @@
    "public_note": null,
    "lat": 42.389633,
    "lon": 18.9246085,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "NL ENSCHED04",
@@ -4003,7 +4177,8 @@
    "public_note": null,
    "lat": 51.983894,
    "lon": 5.8943899,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "NL S-GRAVE37",
@@ -4026,7 +4201,8 @@
    "public_note": null,
    "lat": 52.3837281,
    "lon": 4.6435679,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "NL HEERLEN14",
@@ -4049,7 +4225,8 @@
    "public_note": null,
    "lat": 50.8579855,
    "lon": 5.6969882,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "NL EINDHOV03",
@@ -4072,7 +4249,8 @@
    "public_note": null,
    "lat": 51.5856185,
    "lon": 5.0660616,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "NL GRONING03",
@@ -4095,7 +4273,8 @@
    "public_note": null,
    "lat": 53.2190652,
    "lon": 6.5680077,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "NL AMSTERD07",
@@ -4118,7 +4297,8 @@
    "public_note": null,
    "lat": 52.3696045,
    "lon": 4.9016582,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "NL ROTTERD09",
@@ -4141,7 +4321,8 @@
    "public_note": null,
    "lat": 51.9221277,
    "lon": 4.4716676,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "NL S-GRAVE05",
@@ -4164,7 +4345,8 @@
    "public_note": null,
    "lat": 52.0815292,
    "lon": 4.3190185,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "NL UTRECHT29",
@@ -4187,7 +4369,8 @@
    "public_note": null,
    "lat": 52.0957618,
    "lon": 5.1115641,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "N  OSLO66",
@@ -4210,7 +4393,8 @@
    "public_note": null,
    "lat": 59.928696,
    "lon": 10.72743,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "N  TRONDHE01",
@@ -4233,7 +4417,8 @@
    "public_note": null,
    "lat": 63.4304475,
    "lon": 10.3952118,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "N  KONGSBE02",
@@ -4256,7 +4441,8 @@
    "public_note": null,
    "lat": 59.6947381,
    "lon": 8.0630086,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "N  KRISTIA01",
@@ -4279,7 +4465,8 @@
    "public_note": null,
    "lat": 58.0856276,
    "lon": 7.931858,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "N  STAVANG01",
@@ -4302,7 +4489,8 @@
    "public_note": null,
    "lat": 58.9699675,
    "lon": 5.7318101,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "N  OSLO07",
@@ -4325,7 +4513,8 @@
    "public_note": "Music provision is limited to voice and opera (Operahøgskolen, the Opera Academy).",
    "lat": 59.925344,
    "lon": 10.754755,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "N  TROMSO01",
@@ -4348,7 +4537,8 @@
    "public_note": null,
    "lat": 69.6516345,
    "lon": 18.9558585,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "N  BERGEN12",
@@ -4371,7 +4561,8 @@
    "public_note": null,
    "lat": 59.9133301,
    "lon": 10.7389701,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "N  OSLO03",
@@ -4394,7 +4585,8 @@
    "public_note": null,
    "lat": 59.93238,
    "lon": 10.7142172,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "N  OSLO58",
@@ -4417,7 +4609,8 @@
    "public_note": null,
    "lat": 59.9133301,
    "lon": 10.7389701,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "N  BERGEN01",
@@ -4440,7 +4633,8 @@
    "public_note": null,
    "lat": 60.3943055,
    "lon": 5.3259192,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "PL BYDGOSZ04",
@@ -4463,7 +4657,8 @@
    "public_note": null,
    "lat": 53.1300326,
    "lon": 18.0099161,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "PL LODZ04",
@@ -4486,7 +4681,8 @@
    "public_note": null,
    "lat": 51.7727785,
    "lon": 19.449428,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "PL POZNAN06",
@@ -4509,7 +4705,8 @@
    "public_note": null,
    "lat": 52.4070618,
    "lon": 16.9156486,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "PL WROCLAW06",
@@ -4532,7 +4729,8 @@
    "public_note": null,
    "lat": 51.1111781,
    "lon": 17.0212438,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "PL KATOWIC04",
@@ -4555,7 +4753,8 @@
    "public_note": null,
    "lat": 50.2558321,
    "lon": 19.0300763,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "PL KRAKOW09",
@@ -4578,7 +4777,8 @@
    "public_note": null,
    "lat": 50.0619474,
    "lon": 19.9368564,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "PL GDANSK04",
@@ -4601,7 +4801,8 @@
    "public_note": null,
    "lat": 54.3449803,
    "lon": 18.6620546,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "PL WARSZAW09",
@@ -4624,7 +4825,8 @@
    "public_note": null,
    "lat": 52.2357281,
    "lon": 21.0228766,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "P  AVEIRO01",
@@ -4647,7 +4849,8 @@
    "public_note": null,
    "lat": 40.640496,
    "lon": -8.6537841,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "P  LISBOA05",
@@ -4670,7 +4873,8 @@
    "public_note": null,
    "lat": 38.7077507,
    "lon": -9.1365919,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "P  PORTO05",
@@ -4693,7 +4897,8 @@
    "public_note": null,
    "lat": 41.1502195,
    "lon": -8.6103497,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "P  LISBOA12",
@@ -4716,7 +4921,8 @@
    "public_note": null,
    "lat": 38.7077507,
    "lon": -9.1365919,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "RO CLUJNAP02",
@@ -4739,7 +4945,8 @@
    "public_note": null,
    "lat": 46.7690478,
    "lon": 23.5949526,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "RO TARGU01",
@@ -4762,7 +4969,8 @@
    "public_note": "Music provision is limited to voice and opera.",
    "lat": 46.5429877,
    "lon": 24.5616049,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "RO BUCURES03",
@@ -4785,7 +4993,8 @@
    "public_note": null,
    "lat": 44.4398649,
    "lon": 26.0899222,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "RO IASI01",
@@ -4808,7 +5017,8 @@
    "public_note": null,
    "lat": 47.1643444,
    "lon": 27.5853774,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "RS NOVISAD02",
@@ -4831,7 +5041,8 @@
    "public_note": null,
    "lat": 45.2551338,
    "lon": 19.8451756,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "RS NIS01",
@@ -4854,7 +5065,8 @@
    "public_note": null,
    "lat": 43.3211301,
    "lon": 21.8959232,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "RS BELGRAD01",
@@ -4877,7 +5089,8 @@
    "public_note": null,
    "lat": 44.8178131,
    "lon": 20.4568974,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "RS KRAGUJE01",
@@ -4900,7 +5113,8 @@
    "public_note": null,
    "lat": 44.0131786,
    "lon": 20.9196353,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "SK BRATISL05",
@@ -4923,7 +5137,8 @@
    "public_note": null,
    "lat": 48.1425064,
    "lon": 17.106306,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "SI LJUBLJA01",
@@ -4946,7 +5161,8 @@
    "public_note": null,
    "lat": 46.0500268,
    "lon": 14.5069289,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "SI LJUBLJA33",
@@ -4969,7 +5185,8 @@
    "public_note": null,
    "lat": 46.0388132,
    "lon": 14.5125101,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "E  MADRID252",
@@ -4992,7 +5209,8 @@
    "public_note": null,
    "lat": 40.4402412,
    "lon": -3.7010058,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "E  VALENCI67",
@@ -5015,7 +5233,8 @@
    "public_note": null,
    "lat": 39.4532966,
    "lon": -0.3581412,
-   "geo_precision": "name"
+   "geo_precision": "name",
+   "charter": "eche"
   },
   {
    "id": "E  CORDOBA04",
@@ -5038,7 +5257,8 @@
    "public_note": null,
    "lat": 37.8828412,
    "lon": -4.7796834,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "E  MALAGA02",
@@ -5061,7 +5281,8 @@
    "public_note": null,
    "lat": 36.7289784,
    "lon": -4.418937,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "E  ALICANT11",
@@ -5084,7 +5305,8 @@
    "public_note": null,
    "lat": 38.3530332,
    "lon": -0.4932365,
-   "geo_precision": "name"
+   "geo_precision": "name",
+   "charter": "eche"
   },
   {
    "id": "E  BADAJOZ39",
@@ -5107,7 +5329,8 @@
    "public_note": null,
    "lat": 38.8803408,
    "lon": -6.9711296,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "E  OVIEDO03",
@@ -5130,7 +5353,8 @@
    "public_note": null,
    "lat": 43.3533452,
    "lon": -5.8795096,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "E  SEVILLA04",
@@ -5153,7 +5377,8 @@
    "public_note": null,
    "lat": 37.3934862,
    "lon": -5.9973148,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "E  MURCIA02",
@@ -5176,7 +5401,8 @@
    "public_note": null,
    "lat": 37.9822282,
    "lon": -1.135474,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "E  CASTELL13",
@@ -5199,7 +5425,8 @@
    "public_note": null,
    "lat": 39.9833194,
    "lon": -0.0334637,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "E  LA-CORU05",
@@ -5222,7 +5449,8 @@
    "public_note": null,
    "lat": 43.3690096,
    "lon": -8.4230381,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "E  ZARAGOZ05",
@@ -5245,7 +5473,8 @@
    "public_note": null,
    "lat": 41.6362511,
    "lon": -0.9116255,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "E  LAS-PAL18",
@@ -5268,7 +5497,8 @@
    "public_note": null,
    "lat": 28.10372,
    "lon": -15.4182007,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "E  SALAMAN03",
@@ -5291,7 +5521,8 @@
    "public_note": null,
    "lat": 40.9980672,
    "lon": -5.6883763,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "E  ALBACET19",
@@ -5314,7 +5545,8 @@
    "public_note": null,
    "lat": 38.9969926,
    "lon": -1.8582449,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "E  JAEN07",
@@ -5337,7 +5569,8 @@
    "public_note": null,
    "lat": 37.7657919,
    "lon": -3.7919406,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "E  PAMPLON17",
@@ -5360,7 +5593,8 @@
    "public_note": null,
    "lat": 42.8087276,
    "lon": -1.6753469,
-   "geo_precision": "name"
+   "geo_precision": "name",
+   "charter": "eche"
   },
   {
    "id": "E  VIGO03",
@@ -5383,7 +5617,8 @@
    "public_note": null,
    "lat": 42.2287946,
    "lon": -8.7232709,
-   "geo_precision": "name"
+   "geo_precision": "name",
+   "charter": "eche"
   },
   {
    "id": "E  MADRID222",
@@ -5406,7 +5641,8 @@
    "public_note": null,
    "lat": 40.4262692,
    "lon": -3.7044672,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "E  SANTAND38",
@@ -5429,7 +5665,8 @@
    "public_note": "The Erasmus Charter is held by the Fundación Albéniz, which runs the school.",
    "lat": 40.4169411,
    "lon": -3.7121723,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "E  BARCELO29",
@@ -5452,7 +5689,8 @@
    "public_note": null,
    "lat": 41.3825802,
    "lon": 2.177073,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "E  BARCELO137",
@@ -5475,7 +5713,8 @@
    "public_note": null,
    "lat": 41.3825802,
    "lon": 2.177073,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "E  BARCELO30",
@@ -5498,7 +5737,8 @@
    "public_note": null,
    "lat": 41.3825802,
    "lon": 2.177073,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "E  PALMA25",
@@ -5521,7 +5761,8 @@
    "public_note": null,
    "lat": 39.5901131,
    "lon": 2.6534027,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "E  PALMA27",
@@ -5544,7 +5785,8 @@
    "public_note": null,
    "lat": 39.5901131,
    "lon": 2.6534027,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "E  SAN-SEB01",
@@ -5567,7 +5809,8 @@
    "public_note": null,
    "lat": 43.3086837,
    "lon": -2.0111127,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "E  GRANADA04",
@@ -5590,7 +5833,8 @@
    "public_note": null,
    "lat": 37.1793207,
    "lon": -3.6019364,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "E  MADRID27",
@@ -5613,7 +5857,8 @@
    "public_note": null,
    "lat": 40.4095394,
    "lon": -3.6939641,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "S  GOTEBOR01",
@@ -5636,7 +5881,8 @@
    "public_note": null,
    "lat": 57.7072326,
    "lon": 11.9670171,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "S  KARLSTA01",
@@ -5659,7 +5905,8 @@
    "public_note": null,
    "lat": 59.6543555,
    "lon": 12.5916225,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "S  STOCKHO11",
@@ -5682,7 +5929,8 @@
    "public_note": null,
    "lat": 59.3444675,
    "lon": 18.0817243,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "S  LUND01",
@@ -5705,7 +5953,8 @@
    "public_note": null,
    "lat": 55.6052931,
    "lon": 13.0001566,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "S  LULEA01",
@@ -5728,7 +5977,8 @@
    "public_note": null,
    "lat": 65.3134652,
    "lon": 21.4900252,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "S  OREBRO01",
@@ -5751,7 +6001,8 @@
    "public_note": null,
    "lat": 59.2747287,
    "lon": 15.2151181,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "S  STOCKHO15",
@@ -5774,7 +6025,8 @@
    "public_note": null,
    "lat": 59.2183452,
    "lon": 17.9418407,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "S  STOCKHO27",
@@ -5797,7 +6049,8 @@
    "public_note": "Music provision is limited to voice and opera (opera and music theatre training).",
    "lat": 59.3347127,
    "lon": 18.0950715,
-   "geo_precision": "address"
+   "geo_precision": "address",
+   "charter": "eche"
   },
   {
    "id": "TR ANKARA26",
@@ -5820,7 +6073,8 @@
    "public_note": null,
    "lat": 39.9207759,
    "lon": 32.8540497,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "TR ISTANBU18",
@@ -5843,7 +6097,8 @@
    "public_note": null,
    "lat": 41.006381,
    "lon": 28.9758715,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "TR IZMIR05",
@@ -5866,7 +6121,8 @@
    "public_note": null,
    "lat": 38.4192537,
    "lon": 27.128469,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "TR ISTANBU06",
@@ -5889,7 +6145,8 @@
    "public_note": null,
    "lat": 41.006381,
    "lon": 28.9758715,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
   },
   {
    "id": "TR IZMIR01",
@@ -5912,7 +6169,433 @@
    "public_note": null,
    "lat": 38.4192537,
    "lon": 27.128469,
-   "geo_precision": "city"
+   "geo_precision": "city",
+   "charter": "eche"
+  },
+  {
+   "id": "CH-CSI",
+   "erasmus_code": null,
+   "oid": null,
+   "name": "Conservatorio della Svizzera italiana – Scuola universitaria di Musica",
+   "name_lang": null,
+   "name_upstream": null,
+   "country": "Switzerland",
+   "country_code": "CH",
+   "city": "Lugano",
+   "street": "Via Soldino 9",
+   "postal_code": "6900",
+   "website": "https://www.conservatorio.ch/",
+   "parent_name": "SUPSI Scuola universitaria professionale della Svizzera italiana",
+   "tier": 3,
+   "institution_type": "general_university_music_unit",
+   "languages_of_instruction": null,
+   "partner_of_siba": null,
+   "public_note": null,
+   "lat": 46.00576,
+   "lon": 8.93968,
+   "geo_precision": "address",
+   "charter": "from_2027",
+   "aec_member": true
+  },
+  {
+   "id": "CH-HEMGE",
+   "erasmus_code": null,
+   "oid": null,
+   "name": "Haute école de musique de Genève",
+   "name_lang": null,
+   "name_upstream": null,
+   "country": "Switzerland",
+   "country_code": "CH",
+   "city": "Geneva",
+   "street": "Rue de l'Arquebuse 12",
+   "postal_code": "1204",
+   "website": "https://hem.hesge.ch/",
+   "parent_name": "HES-SO Haute école spécialisée de Suisse occidentale",
+   "tier": 3,
+   "institution_type": "general_university_music_unit",
+   "languages_of_instruction": null,
+   "partner_of_siba": null,
+   "public_note": null,
+   "lat": 46.20253,
+   "lon": 6.1392,
+   "geo_precision": "address",
+   "charter": "from_2027",
+   "aec_member": true
+  },
+  {
+   "id": "CH-HEMU",
+   "erasmus_code": null,
+   "oid": null,
+   "name": "HEMU – Haute École de Musique",
+   "name_lang": null,
+   "name_upstream": null,
+   "country": "Switzerland",
+   "country_code": "CH",
+   "city": "Lausanne",
+   "street": "Rue de la Grotte 2",
+   "postal_code": "1003",
+   "website": "https://www.hemu.ch/",
+   "parent_name": "HES-SO Haute école spécialisée de Suisse occidentale",
+   "tier": 3,
+   "institution_type": "general_university_music_unit",
+   "languages_of_instruction": null,
+   "partner_of_siba": null,
+   "public_note": null,
+   "lat": 46.5187,
+   "lon": 6.63313,
+   "geo_precision": "address",
+   "charter": "from_2027",
+   "aec_member": true
+  },
+  {
+   "id": "CH-HKB",
+   "erasmus_code": null,
+   "oid": null,
+   "name": "HKB – Hochschule der Künste Bern",
+   "name_lang": null,
+   "name_upstream": null,
+   "country": "Switzerland",
+   "country_code": "CH",
+   "city": "Bern",
+   "street": "Papiermühlestrasse 13a",
+   "postal_code": "3014",
+   "website": "https://www.hkb.bfh.ch/",
+   "parent_name": "Berner Fachhochschule",
+   "tier": 2,
+   "institution_type": "arts_university_music_unit",
+   "languages_of_instruction": null,
+   "partner_of_siba": null,
+   "public_note": null,
+   "lat": 46.95544,
+   "lon": 7.46046,
+   "geo_precision": "address",
+   "charter": "from_2027",
+   "aec_member": true
+  },
+  {
+   "id": "CH-BASEL",
+   "erasmus_code": null,
+   "oid": null,
+   "name": "Hochschule für Musik Basel",
+   "name_lang": null,
+   "name_upstream": null,
+   "country": "Switzerland",
+   "country_code": "CH",
+   "city": "Basel",
+   "street": "Leonhardsstrasse 6",
+   "postal_code": "4051",
+   "website": "https://www.fhnw.ch/de/musik",
+   "parent_name": "Fachhochschule Nordwestschweiz FHNW",
+   "tier": 3,
+   "institution_type": "general_university_music_unit",
+   "languages_of_instruction": null,
+   "partner_of_siba": null,
+   "public_note": null,
+   "lat": 47.55525,
+   "lon": 7.5857,
+   "geo_precision": "address",
+   "charter": "from_2027",
+   "aec_member": true
+  },
+  {
+   "id": "CH-HSLU",
+   "erasmus_code": null,
+   "oid": null,
+   "name": "Hochschule Luzern – Musik",
+   "name_lang": null,
+   "name_upstream": null,
+   "country": "Switzerland",
+   "country_code": "CH",
+   "city": "Kriens",
+   "street": "Arsenalstrasse 28a",
+   "postal_code": "6010",
+   "website": "https://www.hslu.ch/de-ch/musik/",
+   "parent_name": "Hochschule Luzern",
+   "tier": 3,
+   "institution_type": "general_university_music_unit",
+   "languages_of_instruction": null,
+   "partner_of_siba": null,
+   "public_note": null,
+   "lat": 47.03256,
+   "lon": 8.29697,
+   "geo_precision": "address",
+   "charter": "from_2027",
+   "aec_member": true
+  },
+  {
+   "id": "CH-ZHDK",
+   "erasmus_code": null,
+   "oid": null,
+   "name": "Zürcher Hochschule der Künste (ZHdK)",
+   "name_lang": null,
+   "name_upstream": null,
+   "country": "Switzerland",
+   "country_code": "CH",
+   "city": "Zürich",
+   "street": "Pfingstweidstrasse 96",
+   "postal_code": "8005",
+   "website": "https://www.zhdk.ch/",
+   "parent_name": null,
+   "tier": 2,
+   "institution_type": "arts_university_music_unit",
+   "languages_of_instruction": null,
+   "partner_of_siba": null,
+   "public_note": null,
+   "lat": 47.3905,
+   "lon": 8.51205,
+   "geo_precision": "address",
+   "charter": "from_2027",
+   "aec_member": true
+  },
+  {
+   "id": "UK-GSMD",
+   "erasmus_code": null,
+   "oid": null,
+   "name": "Guildhall School of Music & Drama",
+   "name_lang": null,
+   "name_upstream": null,
+   "country": "United Kingdom",
+   "country_code": "GB",
+   "city": "London",
+   "street": "Silk Street, Barbican",
+   "postal_code": "EC2Y 8DT",
+   "website": "https://www.gsmd.ac.uk/",
+   "parent_name": null,
+   "tier": 1,
+   "institution_type": "independent_music_hei",
+   "languages_of_instruction": null,
+   "partner_of_siba": null,
+   "public_note": null,
+   "lat": 51.51995,
+   "lon": -0.09195,
+   "geo_precision": "address",
+   "charter": "from_2027",
+   "aec_member": true
+  },
+  {
+   "id": "UK-LEEDSCONS",
+   "erasmus_code": null,
+   "oid": null,
+   "name": "Leeds Conservatoire",
+   "name_lang": null,
+   "name_upstream": null,
+   "country": "United Kingdom",
+   "country_code": "GB",
+   "city": "Leeds",
+   "street": "3 Quarry Hill",
+   "postal_code": "LS2 7PD",
+   "website": "https://www.leedsconservatoire.ac.uk/",
+   "parent_name": null,
+   "tier": 1,
+   "institution_type": "independent_music_hei",
+   "languages_of_instruction": null,
+   "partner_of_siba": null,
+   "public_note": null,
+   "lat": 53.79752,
+   "lon": -1.5329,
+   "geo_precision": "address",
+   "charter": "from_2027",
+   "aec_member": false
+  },
+  {
+   "id": "UK-RAM",
+   "erasmus_code": null,
+   "oid": null,
+   "name": "Royal Academy of Music",
+   "name_lang": null,
+   "name_upstream": null,
+   "country": "United Kingdom",
+   "country_code": "GB",
+   "city": "London",
+   "street": "Marylebone Road",
+   "postal_code": "NW1 5HT",
+   "website": "https://www.ram.ac.uk/",
+   "parent_name": null,
+   "tier": 1,
+   "institution_type": "independent_music_hei",
+   "languages_of_instruction": null,
+   "partner_of_siba": null,
+   "public_note": null,
+   "lat": 51.52327,
+   "lon": -0.14989,
+   "geo_precision": "address",
+   "charter": "from_2027",
+   "aec_member": true
+  },
+  {
+   "id": "UK-RBC",
+   "erasmus_code": null,
+   "oid": null,
+   "name": "Royal Birmingham Conservatoire",
+   "name_lang": null,
+   "name_upstream": null,
+   "country": "United Kingdom",
+   "country_code": "GB",
+   "city": "Birmingham",
+   "street": "200 Jennens Road",
+   "postal_code": "B4 7XR",
+   "website": "https://www.bcu.ac.uk/conservatoire",
+   "parent_name": "Birmingham City University",
+   "tier": 3,
+   "institution_type": "general_university_music_unit",
+   "languages_of_instruction": null,
+   "partner_of_siba": null,
+   "public_note": null,
+   "lat": 52.48397,
+   "lon": -1.88634,
+   "geo_precision": "address",
+   "charter": "from_2027",
+   "aec_member": true
+  },
+  {
+   "id": "UK-RCM",
+   "erasmus_code": null,
+   "oid": null,
+   "name": "Royal College of Music",
+   "name_lang": null,
+   "name_upstream": null,
+   "country": "United Kingdom",
+   "country_code": "GB",
+   "city": "London",
+   "street": "Prince Consort Road",
+   "postal_code": "SW7 2BS",
+   "website": "https://www.rcm.ac.uk/",
+   "parent_name": null,
+   "tier": 1,
+   "institution_type": "independent_music_hei",
+   "languages_of_instruction": null,
+   "partner_of_siba": null,
+   "public_note": null,
+   "lat": 51.49991,
+   "lon": -0.1763,
+   "geo_precision": "address",
+   "charter": "from_2027",
+   "aec_member": true
+  },
+  {
+   "id": "UK-RCS",
+   "erasmus_code": null,
+   "oid": null,
+   "name": "Royal Conservatoire of Scotland",
+   "name_lang": null,
+   "name_upstream": null,
+   "country": "United Kingdom",
+   "country_code": "GB",
+   "city": "Glasgow",
+   "street": "100 Renfrew Street",
+   "postal_code": "G2 3DB",
+   "website": "https://www.rcs.ac.uk/",
+   "parent_name": null,
+   "tier": 1,
+   "institution_type": "independent_music_hei",
+   "languages_of_instruction": null,
+   "partner_of_siba": null,
+   "public_note": null,
+   "lat": 55.86633,
+   "lon": -4.25762,
+   "geo_precision": "address",
+   "charter": "from_2027",
+   "aec_member": true
+  },
+  {
+   "id": "UK-RNCM",
+   "erasmus_code": null,
+   "oid": null,
+   "name": "Royal Northern College of Music",
+   "name_lang": null,
+   "name_upstream": null,
+   "country": "United Kingdom",
+   "country_code": "GB",
+   "city": "Manchester",
+   "street": "124 Oxford Road",
+   "postal_code": "M13 9RD",
+   "website": "https://www.rncm.ac.uk/",
+   "parent_name": null,
+   "tier": 1,
+   "institution_type": "independent_music_hei",
+   "languages_of_instruction": null,
+   "partner_of_siba": null,
+   "public_note": null,
+   "lat": 53.46832,
+   "lon": -2.23724,
+   "geo_precision": "address",
+   "charter": "from_2027",
+   "aec_member": true
+  },
+  {
+   "id": "UK-RWCMD",
+   "erasmus_code": null,
+   "oid": null,
+   "name": "Royal Welsh College of Music & Drama",
+   "name_lang": null,
+   "name_upstream": null,
+   "country": "United Kingdom",
+   "country_code": "GB",
+   "city": "Cardiff",
+   "street": "Castle Grounds, Cathays Park",
+   "postal_code": "CF10 3ER",
+   "website": "https://www.rwcmd.ac.uk/",
+   "parent_name": null,
+   "tier": 1,
+   "institution_type": "independent_music_hei",
+   "languages_of_instruction": null,
+   "partner_of_siba": null,
+   "public_note": null,
+   "lat": 51.48165,
+   "lon": -3.17919,
+   "geo_precision": "city",
+   "charter": "from_2027",
+   "aec_member": true
+  },
+  {
+   "id": "UK-LEEDSUNI",
+   "erasmus_code": null,
+   "oid": null,
+   "name": "School of Music, University of Leeds",
+   "name_lang": null,
+   "name_upstream": null,
+   "country": "United Kingdom",
+   "country_code": "GB",
+   "city": "Leeds",
+   "street": "Woodhouse Lane",
+   "postal_code": "LS2 9JT",
+   "website": "https://ahc.leeds.ac.uk/music",
+   "parent_name": "University of Leeds",
+   "tier": 3,
+   "institution_type": "general_university_music_unit",
+   "languages_of_instruction": null,
+   "partner_of_siba": null,
+   "public_note": null,
+   "lat": 53.80754,
+   "lon": -1.55197,
+   "geo_precision": "address",
+   "charter": "from_2027",
+   "aec_member": true
+  },
+  {
+   "id": "UK-TL",
+   "erasmus_code": null,
+   "oid": null,
+   "name": "Trinity Laban Conservatoire of Music and Dance",
+   "name_lang": null,
+   "name_upstream": null,
+   "country": "United Kingdom",
+   "country_code": "GB",
+   "city": "London",
+   "street": "King Charles Court, Old Royal Naval College",
+   "postal_code": "SE10 9JF",
+   "website": "https://www.trinitylaban.ac.uk/",
+   "parent_name": null,
+   "tier": 1,
+   "institution_type": "independent_music_hei",
+   "languages_of_instruction": null,
+   "partner_of_siba": null,
+   "public_note": null,
+   "lat": 51.48334,
+   "lon": -0.00695,
+   "geo_precision": "address",
+   "charter": "from_2027",
+   "aec_member": true
   }
  ]
 }

@@ -16,7 +16,7 @@ import sys
 from collections import Counter
 from datetime import date
 
-from common import (CONTACTS, DISCIPLINES, GEO, NETWORKS, PROGRAMMES, SITE, SITE_PUBLIC, STRATEGIES, UPSTREAM, UPSTREAM_META, load_annotations, load_upstream, nice_case, normalize_url,
+from common import (ASSOCIATING, CONTACTS, DISCIPLINES, GEO, NETWORKS, PROGRAMMES, SITE, SITE_PUBLIC, STRATEGIES, UPSTREAM, UPSTREAM_META, load_annotations, load_upstream, nice_case, normalize_url,
                     publish, today)
 
 # Sivun tekstit ovat englanniksi; laitosten nimet säilyvät alkuperäiskielellä.
@@ -51,9 +51,41 @@ def scope_text(fetched, items):
         "For these units the coverage is based on the member list of the AEC (European Association of Conservatoires); "
         f"{full} have also been gone through in full, so elsewhere units that are not AEC members may still be missing. "
         f"Data retrieved {d.day} {MONTHS[d.month - 1]} {d.year} from the European Commission's ECHE list. "
-        "Institutions in the United Kingdom and Switzerland will be added once they have been awarded an ECHE "
-        "(association with Erasmus+ from 1 January 2027)."
+        "Music institutions in the United Kingdom and Switzerland, which associate with Erasmus+ on 1 January 2027, "
+        "are listed separately and marked “From 2027” until they have been awarded an ECHE."
     )
+
+
+def scope_text_2027(n):
+    """Erillisryhmän (Sveitsi ja Britannia, ei vielä ECHE:a) rajausteksti."""
+    return (
+        f"Shown separately, marked “From 2027”: {n} music institutions in Switzerland and the United Kingdom, which "
+        "associate with Erasmus+ on 1 January 2027 and do not hold an ECHE yet. They are the higher education institutions "
+        "among the AEC members in the two countries, plus Leeds Conservatoire. They are not included in the counts above "
+        "and will move into the main list once they have been awarded an ECHE."
+    )
+
+
+def load_associating(warnings):
+    """Käsin koottu erillisryhmä (data/associating.json): Erasmus+ -ohjelmaan 2027 liittyvät maat, ei vielä ECHE:a."""
+    if not ASSOCIATING.exists():
+        return []
+    src = json.loads(ASSOCIATING.read_text(encoding="utf-8"))
+    out = []
+    for key, a in src["institutions"].items():
+        has_geo = a.get("lat") is not None
+        if not has_geo:
+            warnings.append(f"{key}: ei koordinaatteja (associating.json)")
+        out.append({
+            "id": key, "erasmus_code": None, "oid": None, "name": a["name"], "name_lang": None, "name_upstream": None,
+            "country": a["country"], "country_code": a["country_code"], "city": a["city"], "street": a.get("street"),
+            "postal_code": a.get("postal_code"), "website": normalize_url(a.get("website")), "parent_name": a.get("parent_name"),
+            "tier": a["tier"], "institution_type": a["institution_type"], "languages_of_instruction": a.get("languages_of_instruction"),
+            "partner_of_siba": a.get("partner_of_siba"), "public_note": a.get("public_note"),
+            "lat": a.get("lat"), "lon": a.get("lon"), "geo_precision": a.get("geo_precision") if has_geo else None,
+            "charter": "from_2027", "aec_member": a.get("aec"),
+        })
+    return out
 
 
 def build():
@@ -114,9 +146,12 @@ def build():
                 "lat": g["lat"] if has_geo else None,
                 "lon": g["lon"] if has_geo else None,
                 "geo_precision": g["precision"] if has_geo else None,
+                "charter": "eche",
             }
         )
+    later = load_associating(warnings)
     items.sort(key=lambda i: (i["country"], i["name"].casefold()))
+    later.sort(key=lambda i: (i["country"], i["name"].casefold()))
 
     fetched = meta_in.get("fetched")
     if not fetched:
@@ -129,15 +164,16 @@ def build():
             "generated": today(),
             "upstream_file": UPSTREAM.name,
             "upstream_source": meta_in.get("source"),
-            "counts": {"tier1": counts[1], "tier2": counts[2], "tier3": counts[3], "total": len(items)},
+            "counts": {"tier1": counts[1], "tier2": counts[2], "tier3": counts[3], "total": len(items), "from_2027": len(later)},
             "tier3_countries": TIER3_COUNTRIES,
             "tier_labels": {str(k): v for k, v in TIER_LABELS.items()},
             "scope_text": scope_text(fetched, items),
+            "scope_text_2027": scope_text_2027(len(later)) if later else None,
             "partner_source": PARTNER_SOURCE,
             "partner_source_name": PARTNER_SOURCE_NAME,
             "disclaimer": DISCLAIMER,
         },
-        "institutions": items,
+        "institutions": items + later,
     }
     SITE.write_text(json.dumps(site, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     if SITE_PUBLIC:  # kopio julkaistavaan kansioon, jotta site/ on itsenäinen
@@ -159,7 +195,7 @@ def main():
     site, warnings = build()
     m = site["meta"]
     print(f"site.json: {m['counts']['total']} laitosta (taso 1: {m['counts']['tier1']}, taso 2: {m['counts']['tier2']}, taso 3: {m['counts']['tier3']}), "
-          f"haettu {m['fetched']}  ->  {SITE}")
+          f"+ {m['counts']['from_2027']} vuodesta 2027, haettu {m['fetched']}  ->  {SITE}")
     no_web = [i["id"] for i in site["institutions"] if not i["website"]]
     print(f"Ilman verkko-osoitetta: {len(no_web)} {no_web if no_web else ''}")
     if warnings:

@@ -36,15 +36,19 @@
   let contacts = null;               // data/contacts.json, or null if the file couldn't be loaded
   let networks = null;               // data/networks.json, or null if the file couldn't be loaded
   let programmes = null;             // data/programmes.json + data/disciplines.json, or null if either couldn't be loaded
-  const state = { view: 'list', sort: 'country', q: '', country: new Set(), type: new Set(), language: new Set(), partner: new Set(), strategy: new Set(), network: new Set(), field: new Set(), id: null };
+  const state = { view: 'list', sort: 'country', q: '', country: new Set(), type: new Set(), language: new Set(), partner: new Set(), strategy: new Set(), network: new Set(), field: new Set(), charter: new Set(), id: null };
   let langNames;
   let hasPartnerData = false, hasLanguageData = false, hasStrategyData = false, hasNetworkData = false;
   let lastTrigger = null;
 
+  // Switzerland and the United Kingdom associate with Erasmus+ on 1 January 2027: shown as a separate group without an ECHE
+  const isLater = (i) => i.charter === 'from_2027';
+  const CHARTER_LABELS = { eche: 'Holds an ECHE', from_2027: 'From 2027 (no ECHE yet)' };
   const partnerKey = (i) => (i.partner_of_siba === true ? 'yes' : i.partner_of_siba === false ? 'no' : 'unknown');
   const STRATEGY_STATUS_ORDER = ['published', 'mentioned_no_link', 'not_found'];
   let strategyStatusLabels = { published: 'Published document available', mentioned_no_link: 'Mentioned but no link', not_found: 'Not found' };
   const GROUPS = {
+    charter: { label: 'Erasmus Charter', values: (i) => [i.charter || 'eche'], text: (v) => CHARTER_LABELS[v] || v },
     country: { label: 'Country', values: (i) => [i.country], text: (v) => v },
     type: { label: 'Institution type', values: (i) => [String(i.tier)], text: (v) => tierLabels[v] || v },
     language: { label: 'Language of instruction', values: (i) => i.languages_of_instruction || [], text: (v) => langName(v) },
@@ -57,6 +61,7 @@
       label: 'Networks',
       // AEC membership is known for every institution (its whole list has been checked), so "not a member" is a real value
       values: (i) => {
+        if (isLater(i)) return [i.aec_member ? 'aec' : 'not-aec'];  // no Erasmus code to match by: recorded with the institution
         const ids = new Set(((networks && networks.memberships[i.erasmus_code]) || []).map((r) => r.network));
         return [ids.has('aec') ? 'aec' : 'not-aec', ...(ids.has('eua') ? ['eua'] : [])];
       },
@@ -77,7 +82,7 @@
     },
   };
   // Country last: it is the longest list, so the short groups stay in view without scrolling the sidebar
-  const GROUP_ORDER = ['field', 'type', 'strategy', 'network', 'language', 'partner', 'country'];
+  const GROUP_ORDER = ['field', 'type', 'charter', 'strategy', 'network', 'language', 'partner', 'country'];
   let strategyStatusByCode = new Map();
   const strategyStatusOf = (code) => strategyStatusByCode.get(code) || null;
 
@@ -138,10 +143,11 @@
     if (g === 'partner') return ['yes', 'no', 'unknown'].filter((v) => set.has(v));
     if (g === 'strategy') return STRATEGY_STATUS_ORDER; // fixed set, shown in full even when a status has zero institutions
     if (g === 'network') return ['aec', 'not-aec', 'eua'].filter((v) => set.has(v));
+    if (g === 'charter') return ['eche', 'from_2027'].filter((v) => set.has(v));
     if (g === 'field') return arr.sort((a, b) => GROUPS.field.text(a).localeCompare(GROUPS.field.text(b), 'en'));
     return arr.sort();
   }
-  const groupVisible = (g) => (g === 'language' ? hasLanguageData : g === 'partner' ? hasPartnerData : g === 'strategy' ? hasStrategyData : g === 'network' ? hasNetworkData : g === 'field' ? !!programmes : true);
+  const groupVisible = (g) => (g === 'charter' ? data.some(isLater) : g === 'language' ? hasLanguageData : g === 'partner' ? hasPartnerData : g === 'strategy' ? hasStrategyData : g === 'network' ? hasNetworkData : g === 'field' ? !!programmes : true);
 
   function buildFilters() {
     const host = $('#filter-groups');
@@ -159,6 +165,7 @@
       }
       const fs = h('fieldset', { class: `group group--${g}` }, h('legend', { text: GROUPS[g].label }), ul);
       if (g === 'partner') fs.append(h('p', { class: 'group__source', text: `Source: ${meta.partner_source_name}.` }));
+      if (g === 'charter') fs.append(h('p', { class: 'group__source', text: 'Switzerland and the United Kingdom associate with Erasmus+ on 1 January 2027.' }));
       if (g === 'field') {
         const n = programmes.meta.institutions.length;
         fs.append(h('p', { class: 'group__source', text: n < data.length
@@ -203,7 +210,7 @@
 
   // ---------- list ----------
   function glyph(i) {
-    return h('span', { class: `glyph glyph--t${i.tier}${i.partner_of_siba === true ? ' glyph--partner' : ''}`, 'aria-hidden': 'true' });
+    return h('span', { class: `glyph glyph--t${i.tier}${i.partner_of_siba === true ? ' glyph--partner' : ''}${isLater(i) ? ' glyph--later' : ''}`, 'aria-hidden': 'true' });
   }
   function entryButton(i, showCountry) {
     const btn = h('button', { type: 'button', class: 'entry', 'data-id': i.id, 'aria-current': i.id === state.id ? 'true' : false },
@@ -214,6 +221,7 @@
         showCountry ? h('span', { text: i.country }) : null,
         h('span', { text: i.city }),
         h('span', { text: tierLabels[i.tier] }),
+        isLater(i) ? h('span', { class: 'later', text: 'From 2027' }) : null,
         i.partner_of_siba === true ? h('span', { class: 'partner', text: 'Partner' }) : null));
     btn.addEventListener('click', () => openPanel(i.id, btn));
     return btn;
@@ -227,12 +235,23 @@
       host.append(h('section', { class: 'country' }, h('h2', {}, 'All institutions, A–Z', h('span', { class: 'n', text: rows.length })), ul));
       return;
     }
+    // Institutions without an ECHE yet (from 2027) come last, under their own heading, so they never mix with the ECHE list
     const groups = new Map();
-    for (const i of rows) (groups.get(i.country) || groups.set(i.country, []).get(i.country)).push(i);
-    for (const [country, items] of groups) {
+    const ordered = [...rows.filter((i) => !isLater(i)), ...rows.filter(isLater)];
+    for (const i of ordered) {
+      const k = (isLater(i) ? 'later:' : '') + i.country;
+      (groups.get(k) || groups.set(k, []).get(k)).push(i);
+    }
+    let laterHead = false;
+    for (const [k, items] of groups) {
+      if (k.startsWith('later:') && !laterHead) {
+        laterHead = true;
+        host.append(h('div', { class: 'later-head' }, h('h2', { text: 'From 2027: Switzerland and the United Kingdom' }),
+          h('p', { text: meta.scope_text_2027 || 'These institutions do not hold an Erasmus Charter yet.' })));
+      }
       const ul = h('ul', { class: 'entries' });
       for (const i of items) ul.append(h('li', {}, entryButton(i, false)));
-      host.append(h('section', { class: 'country' }, h('h2', {}, country, h('span', { class: 'n', text: items.length })), ul));
+      host.append(h('section', { class: 'country' }, h('h2', {}, items[0].country, h('span', { class: 'n', text: items.length })), ul));
     }
   }
 
@@ -247,6 +266,8 @@
     const partner = i.partner_of_siba === true;
     const accent = partner ? verm : ink;
     const ring = i.tier === 2;
+    // From 2027 (no ECHE yet): hollow with a dashed outline, whatever the type
+    if (isLater(i)) return { radius: i.tier === 3 ? 4.5 : 5.5, color: accent, weight: 2, dashArray: '2 2', fillColor: paper, fillOpacity: 1 };
     return {
       radius: partner ? 7 : i.tier === 3 ? 4 : 5.5,
       color: ring ? accent : paper,
@@ -506,11 +527,12 @@
     const row = (dt, ...dd) => { dl.append(h('dt', { text: dt }), h('dd', {}, ...dd)); };
 
     row('Institution type', glyph(i), tierLabels[i.tier]);
-    if (i.parent_name) row('Part of', i.parent_name, copyButton(i.parent_name, 'name of the parent institution'), h('p', { class: 'small', text: 'The Erasmus Charter is held by this parent institution.' }));
+    if (isLater(i)) row('Erasmus Charter', h('span', { class: 'later', text: 'From 2027' }), h('p', { class: 'small', text: `${i.country === 'Switzerland' ? 'Switzerland' : 'The United Kingdom'} associates with Erasmus+ on 1 January 2027. This institution does not hold an ECHE yet, so it has no Erasmus code.` }));
+    if (i.parent_name) row('Part of', i.parent_name, copyButton(i.parent_name, 'name of the parent institution'), isLater(i) ? null : h('p', { class: 'small', text: 'The Erasmus Charter is held by this parent institution.' }));
     const addr = h('span');
     addressLines(i).forEach((l, k) => { if (k) addr.append(h('br')); addr.append(l); });
     row('Address', addr);
-    if (contacts) {
+    if (contacts && !isLater(i)) {
       const c = contacts.contacts[i.erasmus_code];
       if (c && c.email) row('International office', h('a', { href: `mailto:${c.email}` }, c.email));
       else if (c && c.page) {
@@ -523,7 +545,7 @@
       }
     }
     // Shown exactly as in the Commission's list, spaces included ("A  WIEN08"), because that is the form used in agreements
-    row('Erasmus code', h('span', { class: 'code', text: i.erasmus_code }), copyButton(i.erasmus_code, 'Erasmus code'));
+    if (i.erasmus_code) row('Erasmus code', h('span', { class: 'code', text: i.erasmus_code }), copyButton(i.erasmus_code, 'Erasmus code'));
     if (i.oid) row('OID', i.oid);
     if (i.website) {
       let host = i.website;
@@ -546,10 +568,15 @@
     body.append(title, sub, dl);
     if (i.public_note) body.append(h('p', { class: 'note', text: i.public_note }));
     if (i.geo_precision === 'city') body.append(h('p', { class: 'small', text: 'Map position is approximate (city centre).' }));
-    body.append(renderStrategySection(i));
-    if (mobility) body.append(renderMobilitySection(i));
-    if (programmes) body.append(renderProgrammesSection(i));
-    if (networks) body.append(renderNetworksSection(i));
+    if (isLater(i)) {
+      if (hasNetworkData) row('AEC member', i.aec_member ? 'Yes' : 'No');
+      body.append(h('p', { class: 'note', text: 'Strategy documents, Erasmus+ mobility, study programmes and international office contacts have not been collected for institutions that do not hold an ECHE yet.' }));
+    } else {
+      body.append(renderStrategySection(i));
+      if (mobility) body.append(renderMobilitySection(i));
+      if (programmes) body.append(renderProgrammesSection(i));
+      if (networks) body.append(renderNetworksSection(i));
+    }
     if (state.view === 'list' && i.lat != null && matches(i)) {
       body.append(h('p', { class: 'actions' }, h('button', { type: 'button', class: 'btn', onclick: () => { setView('map'); focusMarker(i); }, text: 'Show on map' })));
     }
@@ -618,13 +645,13 @@
   }
   function downloadCsv() {
     const rows = results();
-    const cols = ['Name', 'Country', 'City', 'Address', 'Postal code', 'Erasmus code', 'OID', 'Website', 'Institution type'];
+    const cols = ['Name', 'Country', 'City', 'Address', 'Postal code', 'Erasmus code', 'OID', 'Website', 'Institution type', 'Erasmus Charter'];
     if (hasLanguageData) cols.push('Languages of instruction');
     if (hasPartnerData) cols.push('Partner status');
     cols.push('Note');
     const lines = [cols.map(csvCell).join(',')];
     for (const i of rows) {
-      const r = [i.name, i.country, i.city, i.street, i.postal_code, i.erasmus_code, i.oid, i.website, tierLabels[i.tier]];
+      const r = [i.name, i.country, i.city, i.street, i.postal_code, i.erasmus_code, i.oid, i.website, tierLabels[i.tier], CHARTER_LABELS[i.charter || 'eche']];
       if (hasLanguageData) r.push((i.languages_of_instruction || []).map(langName).join('; '));
       if (hasPartnerData) r.push(GROUPS.partner.text(partnerKey(i)));
       r.push(i.public_note);
@@ -656,6 +683,7 @@
     lg.append(item('glyph--t1', tierLabels[1]), item('glyph--t2', tierLabels[2]));
     if (data.some((i) => i.tier === 3)) lg.append(item('glyph--t3', tierLabels[3]));
     if (hasPartnerData) lg.append(item('glyph--partner', 'Exchange partner (red)'));
+    if (data.some(isLater)) lg.append(item('glyph--later', 'From 2027, no ECHE yet (dashed)'));
   }
 
   function update(opts = {}) {

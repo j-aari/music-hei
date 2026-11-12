@@ -2,6 +2,14 @@
 
 Things that were deliberately deferred or scoped down, and why, so the reasoning does not have to be reconstructed later.
 
+## Switzerland and the United Kingdom shown before they hold an ECHE
+
+Added 12 November 2026 on request: Swiss and UK music institutions are shown as a separate group, marked "From 2027", even though the page is otherwise limited to ECHE holders (ZHdK in Zürich was noticed missing).
+
+**Why:** both countries associate to Erasmus+ on 1 January 2027, and readers look for these institutions now. Keeping them in their own group, outside the counts, keeps the ECHE list itself clean.
+
+**How to apply:** the list is in `data/associating.json` (AEC member HEIs plus Leeds Conservatoire; Lucerne Festival Academy and London Performing Academy of Music left out as not HEIs; Kalaidos Musikhochschule and university music departments that are not AEC members are not included). After each ECHE list update, check whether any of them now has an ECHE; move those into the main list (annotation) and delete them from `associating.json`. When all have moved, the group disappears from the page by itself.
+
 ## Strategy documents: selected countries only, not all 186 institutions
 
 Strategy/internationalisation-strategy/annual-report links (`data/strategies.json`) are collected for a chosen subset of countries (starting with the pilot 10, then Italy, then Germany), not for all 186 institutions.
