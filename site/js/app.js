@@ -174,14 +174,13 @@
       }
       host.append(fs);
     }
+    // Partner status is not mentioned at all while there is no partner data (the page does not list anyone's partners)
     const missing = [];
-    if (!hasPartnerData) missing.push('partner status');
     if (!hasLanguageData) missing.push('languages of instruction');
     const note = $('#missing');
     if (missing.length) {
       const txt = missing.join(' and ');
-      note.textContent = `${txt.charAt(0).toUpperCase() + txt.slice(1)} ${missing.length > 1 ? 'have' : 'has'} not been recorded yet.` +
-        (hasPartnerData ? '' : ` Partner information will be taken from ${meta.partner_source_name}.`);
+      note.textContent = `${txt.charAt(0).toUpperCase() + txt.slice(1)} have not been recorded yet.`;
       note.hidden = false;
     } else note.hidden = true;
   }
@@ -730,7 +729,7 @@
     const when = d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
     f.append(
       h('p', { text: meta.disclaimer }),
-      h('p', { text: meta.partner_source }),
+      ...(hasPartnerData ? [h('p', { text: meta.partner_source })] : []),
       h('p', {}, `Institution data: the list of Erasmus Charter for Higher Education holders published by the European Commission, retrieved on ${when} through the `,
         h('a', { href: 'https://eche-list.erasmuswithoutpaper.eu/openapi' }, 'ECHE List API'),
         ' of the European University Foundation. Which institutions count as music institutions is our own classification; map positions are geocoded with Nominatim and may be approximate.'),
